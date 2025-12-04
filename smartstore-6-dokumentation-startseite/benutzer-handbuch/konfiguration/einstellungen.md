@@ -1,0 +1,22 @@
+# Einstellungen
+
+> [!NOTE]
+> - [Den Einstellungsbereich festlegen](./einstellungen/den-einstellungsbereich-festlegen.md)
+> - [Katalogeinstellungen](./einstellungen/katalogeinstellungen.md)
+> - [Suche](./einstellungen/suche.md)
+> - [Warenkorb-Einstellungen](./einstellungen/warenkorb-einstellungen.md)
+> - [Auftrags-Einstellungen](./einstellungen/auftrags-einstellungen.md)
+> - [Zahlung](./einstellungen/zahlung.md)
+> - [Medien-Einstellungen](./einstellungen/medien-einstellungen.md)
+> - [Steuer-Einstellungen](./einstellungen/steuer-einstellungen.md)
+> - [Versand-Einstellungen](./einstellungen/versand-einstellungen.md)
+> - [Bonuspunkte-Einstellungen](./einstellungen/bonuspunkte-einstellungen.md)
+> - [Blog](./einstellungen/blog.md)
+> - [News Einstellungen](./einstellungen/news-einstellungen.md)
+> - [Forum](./einstellungen/forum.md)
+> - [Datenaustausch-Einstellungen](./einstellungen/datenaustausch-einstellungen.md)
+> - [Alle Einstellungen (fortgeschritten)](./einstellungen/alle-einstellungen-fortgeschritten.md)
+> - [Facettensuche / Filter](./einstellungen/facettensuche-filter.md)
+> - [Allgemeine Einstellungen](./einstellungen/allgemeine-einstellungen.md)
+> - [Kunden-Einstellungen](./einstellungen/kunden-einstellungen.md)
+> - [Überlastungsschutz](./einstellungen/uberlastungsschutz.md)

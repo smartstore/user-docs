@@ -1,0 +1,3 @@
+# Den Einstellungsbereich festlegen
+
+Sie definieren den Einstellungsbereich mit dem **Shopauswahl-Steuerelement**, das immer oberhalb von Einstellungensmöglichkeiten liegt. MIt der Standardeinstellung (Alle Shops) konfigurieren Sie immer Einstellungen für alle eingerichteten Shops. Wenn Sie eine bestimmte Einstellung für nur einen Ihrer Shops ändern möchten, wählen Sie den Zielshop und aktivieren Sie den Schalter zum Überschreiben dieser Einstellung. Die Einstellung zur Aktivierung der Überschreibungsfunktion einer bestimmten Einstellung ist stets zwischen dem beschreibendem Text und dem Eingabefeld der jeweiligen Einstellung. Indem Sie einen Wert für einen bestimmten Shop angeben, können Sie den für alle Shops  festgelegten Wert einer Einstellung überschreiben.

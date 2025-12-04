@@ -1,0 +1,5 @@
+# Lieferzeiten einrichten
+
+Wenn Sie Ihre Produkte einrichten, sollten Sie Ihre Kunden über die benötigte Lieferzeit informieren. Um dies zu tun, können Sie Ihren Produkten eine Lieferzeit zuweisen, die Sie in der Registerkarte [Allgemein](https://smartstore.atlassian.net/wiki/pages/resumedraft.action?draftId=2510952252) in der Produktdetailansicht auswählen können. Um Lieferzeiten anzulegen und zu verwalten, gehen Sie zu **Konfiguration > Listen > Lieferzeiten**. Wenn Sie Lieferzeiten bearbeiten, können Sie einen Standard-Anzeigename bestimmen und einen alternativen Anzeigenamen für jede in Ihrem Shop angelegte Sprache auswählen. Sie können auch einen Farbwert angeben, der für einen bestimmte Lieferzeit steht. Wenn ein Produkt sofort nach Eingang der Bezahlung verschickt werden kann, sollte beispielsweise die Farbe grün angezeigt werden. Wenn ein Produkt zunächst beim Hersteller bestellt werden muss und somit natürlich eine längere Lieferzeit hat, sollte die Farbe Rot angezeigt werden. Ist eine Lieferzeit als **Standard** aktiviert, wird diese angezeigt wenn in der Produktbearbeitung keine Lieferzeit ausgewählt wurde. 
+
+![](./attachments/lieferzeiten.PNG)
