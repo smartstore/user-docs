@@ -1,6 +1,6 @@
 # Summary
 
-* Welcome
+## Welcome
   * [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
   * [Loslegen](./loslegen.md)
     * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
@@ -21,7 +21,7 @@
       * [Wie kaufe ich eine Erweiterung?](./loslegen/community-marketplace/wie-kaufe-ich-eine-erweiterung.md)
     * [Support erhalten](./loslegen/support-erhalten.md)
 
-* Handbuch
+## Handbuch
   * [Benutzer Handbuch](./benutzer-handbuch.md)
     * [Erste Schritte mit Smartstore](./benutzer-handbuch/erste-schritte-mit-smartstore.md)
     * [Das Backend entdecken](./benutzer-handbuch/das-backend-entdecken.md)
@@ -167,7 +167,7 @@
       * [Exportprofile verwalten](./benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md)
       * [Importprofile verwalten](./benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md)
 
-* Verschiedenes
+## Verschiedenes
   * [Designer Guide](./designer-guide.md)
   * [Developer Guide](./developer-guide.md)
   * [FAQs](./faqs.md)
