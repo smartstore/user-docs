@@ -12,3 +12,4 @@ Wenn Sie **Smartstore** gerade erst für sich entdeckt haben, schauen Sie bitt
   
 
 ![](./attachments/Smartstore_Logo_Bildmark_RGB_V2.png)
+
