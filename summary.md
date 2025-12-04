@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 ## Welcome
   * [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
