@@ -1,6 +1,7 @@
 # Table of contents
 
 ## Welcome
+
   * [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
   * [Loslegen](./loslegen.md)
     * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
@@ -22,6 +23,7 @@
     * [Support erhalten](./loslegen/support-erhalten.md)
 
 ## Handbuch
+
   * [Benutzer Handbuch](./benutzer-handbuch.md)
     * [Erste Schritte mit Smartstore](./benutzer-handbuch/erste-schritte-mit-smartstore.md)
     * [Das Backend entdecken](./benutzer-handbuch/das-backend-entdecken.md)
@@ -168,6 +170,7 @@
       * [Importprofile verwalten](./benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md)
 
 ## Verschiedenes
+
   * [Designer Guide](./designer-guide.md)
   * [Developer Guide](./developer-guide.md)
   * [FAQs](./faqs.md)
