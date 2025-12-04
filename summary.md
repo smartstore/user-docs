@@ -1,26 +1,26 @@
 # Table of contents
 
-## Welcome
+## Willkommen
 
-  * [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
-  * [Loslegen](./loslegen.md)
-    * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
-    * [Technologie und Voraussetzungen](./loslegen/technologie-und-voraussetzungen.md)
-    * [Die Installation von Smartstore](./loslegen/die-installation-von-smartstore.md)
-      * [Smartstore installieren](./loslegen/die-installation-von-smartstore/smartstore-installieren.md)
-      * [Windows Server vorbereiten](./loslegen/die-installation-von-smartstore/windows-server-vorbereiten.md)
-      * [Linux Server vorbereiten](./loslegen/die-installation-von-smartstore/linux-server-vorbereiten.md)
-      * [Shared Hosting vorbereiten](./loslegen/die-installation-von-smartstore/shared-hosting-vorbereiten.md)
-      * [Smartstore Docker-Images ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren.md)
-        * [Smartstore Docker-Images unter Windows ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-windows-ausfuhren.md)
-        * [Smartstore Docker-Images unter Linux ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-linux-ausfuhren.md)
-        * [Smartstore und Datenbank zusammen als Docker-Container betreiben](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md)
-        * [Modifiziertes Docker-Image erstellen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/modifiziertes-docker-image-erstellen.md)
-      * [Update von vorherigen Versionen](./loslegen/update-von-vorherigen-versionen.md)
-    * [Community & Marketplace](./loslegen/community-marketplace.md)
-      * [Wie installiere ich eine Erweiterung?](./loslegen/community-marketplace/wie-installiere-ich-eine-erweiterung.md)
-      * [Wie kaufe ich eine Erweiterung?](./loslegen/community-marketplace/wie-kaufe-ich-eine-erweiterung.md)
-    * [Support erhalten](./loslegen/support-erhalten.md)
+* [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
+* [Loslegen](./loslegen.md)
+  * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
+  * [Technologie und Voraussetzungen](./loslegen/technologie-und-voraussetzungen.md)
+  * [Die Installation von Smartstore](./loslegen/die-installation-von-smartstore.md)
+    * [Smartstore installieren](./loslegen/die-installation-von-smartstore/smartstore-installieren.md)
+    * [Windows Server vorbereiten](./loslegen/die-installation-von-smartstore/windows-server-vorbereiten.md)
+    * [Linux Server vorbereiten](./loslegen/die-installation-von-smartstore/linux-server-vorbereiten.md)
+    * [Shared Hosting vorbereiten](./loslegen/die-installation-von-smartstore/shared-hosting-vorbereiten.md)
+    * [Smartstore Docker-Images ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren.md)
+      * [Smartstore Docker-Images unter Windows ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-windows-ausfuhren.md)
+      * [Smartstore Docker-Images unter Linux ausführen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-linux-ausfuhren.md)
+      * [Smartstore und Datenbank zusammen als Docker-Container betreiben](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md)
+      * [Modifiziertes Docker-Image erstellen](./loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/modifiziertes-docker-image-erstellen.md)
+    * [Update von vorherigen Versionen](./loslegen/update-von-vorherigen-versionen.md)
+  * [Community & Marketplace](./loslegen/community-marketplace.md)
+    * [Wie installiere ich eine Erweiterung?](./loslegen/community-marketplace/wie-installiere-ich-eine-erweiterung.md)
+    * [Wie kaufe ich eine Erweiterung?](./loslegen/community-marketplace/wie-kaufe-ich-eine-erweiterung.md)
+  * [Support erhalten](./loslegen/support-erhalten.md)
 
 ## Handbuch
 
