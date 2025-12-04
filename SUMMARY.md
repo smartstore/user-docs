@@ -1,8 +1,6 @@
 # Table of contents
 
-## Willkommen
-
-* [Smartstore 6 Dokumentation Startseite](./smartstore-6-dokumentation-startseite.md)
+* [Willkommen](./welcome/startseite.md)
 * [Loslegen](./loslegen.md)
   * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
   * [Technologie und Voraussetzungen](./loslegen/technologie-und-voraussetzungen.md)
