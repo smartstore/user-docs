@@ -14,22 +14,35 @@ Neben den Aufgaben, die Teil des Anwendungskerns sind, können Plugins von Dritt
   
 
   
-
 {% columns %}
 {% column %}
 
-- [Die Liste der geplanten Aufgaben aufrufen](#die-liste-der-geplanten-aufgaben-aufrufen)
-- [Eine Aufgabe manuell ausführen](#eine-aufgabe-manuell-ausführen)
-- [Eine Aufgabe bearbeiten](#eine-aufgabe-bearbeiten)
+{% content-ref url="#die-liste-der-geplanten-aufgaben-aufrufen" %}
+[Die Liste der geplanten Aufgaben aufrufen](#die-liste-der-geplanten-aufgaben-aufrufen)
+{% endcontent-ref %}
+
+{% content-ref url="#eine-aufgabe-manuell-ausführen" %}
+[Eine Aufgabe manuell ausführen](#eine-aufgabe-manuell-ausführen)
+{% endcontent-ref %}
+
+{% content-ref url="#eine-aufgabe-bearbeiten" %}
+[Eine Aufgabe bearbeiten](#eine-aufgabe-bearbeiten)
+{% endcontent-ref %}
 
 {% endcolumn %}
 {% column %}
 
-- [Aufgabenarten](#aufgabenarten)
-- [Cron Ausdruck](#cron-ausdruck)
+{% content-ref url="#aufgabenarten" %}
+[Aufgabenarten](#aufgabenarten)
+{% endcontent-ref %}
+
+{% content-ref url="#cron-ausdruck" %}
+[Cron Ausdruck](#cron-ausdruck)
+{% endcontent-ref %}
 
 {% endcolumn %}
 {% endcolumns %}
+
 
   
 
