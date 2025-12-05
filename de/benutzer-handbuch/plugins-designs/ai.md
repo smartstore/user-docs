@@ -1,38 +1,13 @@
-# AI
+Das AI Plugin ![icon.png](./attachments/icon.png) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](../plugins-designs/openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
 
-Das AI Plugin ![icon.png](./attachments/icon.png)
-
- arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](../plugins-designs/openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
-
-> [!INFO]
-> **Hinweise:**
-> 1. Mit diesem Plugin können keine Produktbilder erstellt werden.
-> 2. Es wird keine Gewähr für die Richtigkeit der Inhalte übernommen.
-> 3. Die Massenbearbeitung von Inhalten wird aus folgenden Gründen nicht unterstützt:
->   1. Der Inhalt muss immer vom Benutzer überprüft werden.
->   2. Die Leistung würde stark reduziert werden.
-
-- [Überblick der verschiedenen Dialoge](#überblick-der-verschiedenen-dialoge)
-  - [SimpleText](#simpletext)
-  - [RichText](#richtext)
-    - [Sidebar](#sidebar)
-    - [Bilder generieren](#bilder-generieren)
-    - [HTML-Editor Einbindung](#html-editor-einbindung)
-  - [Suggestions](#suggestions)
-  - [Translations](#translations)
-  - [Images](#images)
-  - [Allgemeiner Dialog](#allgemeiner-dialog)
-    - [Model-Auswahl](#model-auswahl)
-    - [Promptleiste](#promptleiste)
-      - [RawPrompt](#rawprompt)
-  - [Beispiele](#beispiele)
-    - [Produkttexte](#produkttexte)
-    - [Blog-Eintrag](#blog-eintrag)
-- [Konfiguration](#konfiguration)
-  - [Textlängen](#textlängen)
-  - [Bild-Metadaten](#bild-metadaten)
-  - [Produkterstellung](#produkterstellung)
-- [Produkterstellung](#produkterstellung)
+{% hint style="info" %}
+**Hinweise:**
+1. Mit diesem Plugin können keine Produktbilder erstellt werden.
+2. Es wird keine Gewähr für die Richtigkeit der Inhalte übernommen.
+3. Die Massenbearbeitung von Inhalten wird aus folgenden Gründen nicht unterstützt:
+	- Der Inhalt muss immer vom Benutzer überprüft werden.
+	- Die Leistung würde stark reduziert werden.
+{% endhint %}
 
 # Überblick der verschiedenen Dialoge
 
