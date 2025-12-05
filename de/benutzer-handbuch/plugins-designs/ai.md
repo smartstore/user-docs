@@ -119,8 +119,9 @@ Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörter
 
 ![Suggestions_Dialog.PNG](./attachments/Suggestions_Dialog.PNG)
 
-> [!NOTE]
-> Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die weitere Bearbeitung sonst nicht möglich ist!
+{% hint style="info" %}
+Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die weitere Bearbeitung sonst nicht möglich ist!
+{% endhint %}
 
 ## Translations
 
@@ -258,8 +259,9 @@ Durch Klicken auf das Prompt-Icon ![chat-square-text.png](./attachments/chat-squ
 
 # Produkterstellung
 
-> [!NOTE]
-> Dies ist ein experimentelles Feature!
-
-> [!NOTE]
-> Um lange Wartezeiten zu vermeiden, wird empfohlen, die Einstellung **Übersetzungen hinzufügen** auszuschalten, wenn sie nicht benötigt werden.
+{% hint style="info" %}
+Dies ist ein experimentelles Feature!
+{% endhint %}
+{% hint style="info" %}
+Um lange Wartezeiten zu vermeiden, wird empfohlen, die Einstellung **Übersetzungen hinzufügen** auszuschalten, wenn sie nicht benötigt werden.
+{% endhint %}
