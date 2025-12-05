@@ -22,12 +22,12 @@ Es gibt einige Konzepte, die wiederkehrend in verschiedenen Bereichen in **Smart
 [Mit mehreren Shops arbeiten](./allgemeine-konzepte/mit-mehreren-shops-arbeiten.md)
 {% endcontent-ref %}
 
-{% endcolumn %}
-{% column %}
-
 {% content-ref url="./allgemeine-konzepte/seo.md" %}
 [SEO](./allgemeine-konzepte/seo.md)
 {% endcontent-ref %}
+
+{% endcolumn %}
+{% column %}
 
 {% content-ref url="./allgemeine-konzepte/bilder-hochladen.md" %}
 [Bilder hochladen](./allgemeine-konzepte/bilder-hochladen.md)
