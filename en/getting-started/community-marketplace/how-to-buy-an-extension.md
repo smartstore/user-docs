@@ -1,0 +1,7 @@
+# How to Buy an Extension
+
+To buy an extension (Plugin, Theme or Language resources) for [Smartstore,](http://www.smartstore.com/net/en) you will need a PayPal account. Just visit the corresponding details view of the extension you want to buy and click the button **Buy Now**. After clicking on **Add To Cart**,  you will be requested to enter your Shop-URL so that the extension will be registered for this domain only. At this point, you will be forwarded to the basket, where you will find an overview of every chosen extension.   
+   
+Click on the button **Checkout**, accept our terms and conditions, and click the button **Confirm My Order**. You will now be forwarded to PayPal to finalize the order process and conduct the payment. After the payment has been executed, you will be transferred back to the [Smartstore Community Marketplace,](http://community.smartstore.com/index.php?/files/) where you can download the extension you have just bought.  
+   
+You will find an overview of all completed purchases by clicking on your profile, which is located in the upper right corner of the community, and choosing the menu item **Client Area**. In the tab **Purchases**, you get an overview of all purchased extensions. Next to the other information, you'll find the link from which you can download the extension in the details view.

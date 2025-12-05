@@ -1,0 +1,5 @@
+# Managing all Settings (Advanced)
+
+In the section **All Settings**, you can find every setting that can be edited in Smartstore except the theme configuration settings. In Smartstore, there are hidden features for which we haven't provided the option to change in the corresponding configuration areas. One reason we've done this is to keep the configuration area clean, not overloaded with dozens of settings that only a few shop administrators need. However, you can find and alter every existing setting in Smartstore in the section **All Settings**. For more information on how to filter for the setting you're looking for, read the section **Filtering the Grid** in the topic [The Data Grid](../../../user-guide/common-concepts/the-data-grid.md).
+
+![](./attachments/managing%20all%20settings1.jpg)

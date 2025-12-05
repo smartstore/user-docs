@@ -1,0 +1,5 @@
+# Managing Delivery Times
+
+When configuring your products, you should inform your customers about the time it will take for the products to be delivered to them. To do so, you can add a delivery time to your products, which you can choose in the [Product Info Tab](https://smartstore.atlassian.net/wiki/pages/resumedraft.action?draftId=1956121112) when configuring your products. To manage delivery times, go to **Configuration > Lists > Delivery Times**. When editing a delivery time, you can specify a default **Display Name** and an alternative Display Name for every language that's configured in your store. You can also specify a color value that indicates the delivery time range. If a product can be shipped immediately after the payment has been received, the color green should be shown. If a product has to be ordered with a manufacturer, hence taking a long time to be delivered, the color red should be displayed.
+
+![](./attachments/delivery-times.png)

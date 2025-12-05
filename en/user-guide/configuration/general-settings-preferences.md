@@ -1,0 +1,20 @@
+# General Settings & Preferences
+
+> [!NOTE]
+> - [Reward Point Settings](./general-settings-preferences/reward-point-settings.md)
+> - [Blog Settings](./general-settings-preferences/blog-settings.md)
+> - [News Settings](./general-settings-preferences/news-settings.md)
+> - [Forum Settings](./general-settings-preferences/forum-settings.md)
+> - [Data exchange Settings](./general-settings-preferences/data-exchange-settings.md)
+> - [Shipping Settings](./general-settings-preferences/shipping-settings.md)
+> - [General Settings](./general-settings-preferences/general-settings.md)
+> - [Media Settings](./general-settings-preferences/media-settings.md)
+> - [Defining the Scope of Settings](./general-settings-preferences/defining-the-scope-of-settings.md)
+> - [Managing all Settings (Advanced)](./general-settings-preferences/managing-all-settings-advanced.md)
+> - [Catalog Settings](./general-settings-preferences/catalog-settings.md)
+> - [Tax Settings](./general-settings-preferences/tax-settings.md)
+> - [Order Settings](./general-settings-preferences/order-settings.md)
+> - [Customer Settings](./general-settings-preferences/customer-settings.md)
+> - [Shopping Cart Settings](./general-settings-preferences/shopping-cart-settings.md)
+> - [Search](./general-settings-preferences/search.md)
+> - [Overload Protection](./general-settings-preferences/overload-protection.md)
