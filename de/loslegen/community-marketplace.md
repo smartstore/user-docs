@@ -20,12 +20,12 @@ Dieses Forum bezieht sich auf die technische Anpassung und Erweiterung von Smart
 
 Smartstore ist ein **Open Source Projekt**, und jeder ist eingeladen, daran mitzuwirken. Sei es nun das Melden von Fehlern, das Vorschlagen von neuen Funktionen, die Übersetzung von Ressourcen, die Entwicklung von Plugins oder die Erstellung neues Designs. Der **Smartstore Community Marketplace** ist der Ort, wo alle Ressourcen, die für Smartstore erstellt wurden, angeboten werden und entweder kostenlos heruntergeladen oder gekauft werden können.
 
-
 **[Plugins](http://community.smartstore.com/index.php?/files/category/22-plugins/)**
 In dieser Kategorie finden Sie Bezahl-Plugins, Exportfeeds, Versand-Plugins & vieles mehr.
+
 **[Themes](http://community.smartstore.com/index.php?/files/category/23-themes/)**
 Wenn Sie Ihrem Shop ein anderes Aussehen geben möchten, ist diese Kategorie genau das richtige für Sie.
 
 Weitere Informationen zu Smartstore Erweiterungen
-[Wie installiere ich eine Erweiterung?](./community-marketplace/wie-installiere-ich-eine-erweiterung.md)
-[Wie kaufe ich eine Erweiterung?](./community-marketplace/wie-kaufe-ich-eine-erweiterung.md)
+- [Wie installiere ich eine Erweiterung?](./community-marketplace/wie-installiere-ich-eine-erweiterung.md)
+- [Wie kaufe ich eine Erweiterung?](./community-marketplace/wie-kaufe-ich-eine-erweiterung.md)
