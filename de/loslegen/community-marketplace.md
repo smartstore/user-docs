@@ -4,15 +4,17 @@
 
 Tauschen Sie sich aus! Möchten Sie Ihren Wunsch nach neuen Funktionen mit den Entwicklern von Smartstore besprechen? Benötigen Sie Hilfe bei der Installation oder der Konfiguration von Smartstore? Unsere Community ist genau der richtige Ort, um in Kontakt zu treten! Teilen Sie Ihre Meinung mit, erhalten Sie Antworten auf Ihre Fragen, teilen Sie Ihre Ideen und Feedback, und helfen Sie anderen!
 
-> [!NOTE]
-> ### [General](http://community.smartstore.com/index.php?/forum/86-general-net/)
-> Diskussionsforum zum Themen wie Frontend, Administration, Katalog, Produkte und Kategorien, Importieren, Marketing u.s.w.
-> ### [Installation & Setup](http://community.smartstore.com/index.php?/forum/87-installation-setup-net/)
-> Hier können Sie all Ihre Fragen bezüglich der Installation und Ersteinrichtung stellen.
-> ### [Design & Themes](http://community.smartstore.com/index.php?/forum/88-design-theming-net/)
-> Hier geht es um das Shop-Design und Fragen zu den Design-Templates.
-> ### [Customize & Extend](http://community.smartstore.com/index.php?/forum/89-customize-extend-net/)
-> Dieses Forum bezieht sich auf die technische Anpassung und Erweiterung von Smartstore
+**[General](http://community.smartstore.com/index.php?/forum/86-general-net/)**  
+Diskussionsforum zu Themen wie Frontend, Administration, Katalog, Produkte und Kategorien, Importieren, Marketing u. s. w.
+
+**[Installation & Setup](http://community.smartstore.com/index.php?/forum/87-installation-setup-net/)**  
+Hier können Sie all Ihre Fragen bezüglich der Installation und Ersteinrichtung stellen.
+
+**[Design & Themes](http://community.smartstore.com/index.php?/forum/88-design-theming-net/)**  
+Hier geht es um das Shop-Design und Fragen zu den Design-Templates.
+
+**[Customize & Extend](http://community.smartstore.com/index.php?/forum/89-customize-extend-net/)**  
+Dieses Forum bezieht sich auf die technische Anpassung und Erweiterung von Smartstore.
 
 ## [Smartstore Community Marketplace (SCM)](http://community.smartstore.com/index.php?/files/)
 
