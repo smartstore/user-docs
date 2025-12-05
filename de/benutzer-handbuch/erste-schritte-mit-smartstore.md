@@ -11,8 +11,8 @@
 [Warengruppen organisieren](../benutzer-handbuch/katalog/warengruppen-organisieren.md)
 {% endcontent-ref %}
 
-{% content-ref url="../benutzer-handbuch/konfiguration.md" %}
-[Konfiguration](../benutzer-handbuch/konfiguration.md)
+{% content-ref url="../benutzer-handbuch/konfiguration" %}
+[Konfiguration](../benutzer-handbuch/konfiguration)
 {% endcontent-ref %}
 
 {% endcolumn %}
