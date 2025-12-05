@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Willkommen](./welcome/startseite.md)
-* [Loslegen](./loslegen.md)
+* [Loslegen](./welcome/loslegen.md)
   * [Eine Einführung in Smartstore](./loslegen/eine-einfuhrung-in-smartstore.md)
   * [Technologie und Voraussetzungen](./loslegen/technologie-und-voraussetzungen.md)
   * [Die Installation von Smartstore](./loslegen/die-installation-von-smartstore.md)
