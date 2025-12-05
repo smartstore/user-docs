@@ -6,10 +6,11 @@ Das **Dashboard** ist in verschiedene Bereiche unterteilt, die in Diagrammen und
 
 ![Dashboard.png](./attachments/dashboard.png)
 
-> [!NOTE]
-> **Farben der Diagramme**: Alle Farben, die in den Verlaufs- und Tortendiagrammen der Dashboard-Karten verwendet werden, werden über die **Theme-Konfiguration** gesteuert.
-> Standardmäßig handelt es sich um die folgenden Farben: **Rot**, **Sonnengelb**, **Blau**, **Grün** und **Grau**.  
-> Sollten Änderungen in der Theme-Konfiguration vorgenommen worden sein, können die Farben entsprechend abweichen.
+{% hint style="info" %}
+**Farben der Diagramme**: Alle Farben, die in den Verlaufs- und Tortendiagrammen der Dashboard-Karten verwendet werden, werden über die **Theme-Konfiguration** gesteuert.
+Standardmäßig handelt es sich um die folgenden Farben: **Rot**, **Sonnengelb**, **Blau**, **Grün** und **Grau**.  
+Sollten Änderungen in der Theme-Konfiguration vorgenommen worden sein, können die Farben entsprechend abweichen.
+{% endhint %}
 
 ## Unvollständige Aufträge
 

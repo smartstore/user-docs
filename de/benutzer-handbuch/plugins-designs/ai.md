@@ -19,11 +19,7 @@ Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …), wird der
 
 ![SimpleText_Kontext.PNG](./attachments/SimpleText_Kontext.PNG)
 
-Ein Klick auf das AI-Symbol ![icon.png](./attachments/icon.png)
-
- öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![send.png](./attachments/send.png)
-
-, wird ihr Prompt an die KI geschickt.
+Ein Klick auf das AI-Symbol ![icon.png](./attachments/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![send.png](./attachments/send.png), wird ihr Prompt an die KI geschickt.
 
 ![SimpleText_Dialog.PNG](./attachments/SimpleText_Dialog.PNG)
 
@@ -39,9 +35,7 @@ Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld
 
 ## RichText
 
-Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol ![icon.png](./attachments/icon.png)
-
- wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
+Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol ![icon.png](./attachments/icon.png)  wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
 
 ![Richtext_Dialog.PNG](./attachments/Richtext_Dialog.PNG)
 
@@ -61,16 +55,15 @@ Die Sidebar stellt erweiterte Einstellungsmöglichkeiten zum Erstellen von Inhal
 
 ![Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG](./attachments/Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG)
 
-> [!TIP]
-> Mit dem Button **Einstellungen speichern** können die verwendeten Sidebar-Einstellungen für die aktuell verwendete Entität als Standard gespeichert werden. Dies gewährleistet ein einheitliches Design in Ihrem Shop.
+{% hint style="warning" %}
+Mit dem Button **Einstellungen speichern** können die verwendeten Sidebar-Einstellungen für die aktuell verwendete Entität als Standard gespeichert werden. Dies gewährleistet ein einheitliches Design in Ihrem Shop.
+{% endhint %}
 
 ### Bilder generieren
 
 ![Richtext_Dialog_Images.PNG](./attachments/Richtext_Dialog_Images.PNG)
 
-Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im generierten Text zunächst nur Platzhalter ![file-earmark-image.png](./attachments/file-earmark-image.png)
-
- angezeigt. Dies dient dazu, die Anzahl der Generierungen gering zu halten und erst dann zu starten, wenn der Text nicht mehr verändert wird. Neben dem Button **Antwort übernehmen** erscheint der Button **Bilder erzeugen**. Wird dieser angeklickt, werden die Bilder nacheinander erzeugt und mit einem Klick auf **Antwort übernehmen** in den MedienManager übertragen und mit dem Text verknüpft.
+Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im generierten Text zunächst nur Platzhalter ![file-earmark-image.png](./attachments/file-earmark-image.png) angezeigt. Dies dient dazu, die Anzahl der Generierungen gering zu halten und erst dann zu starten, wenn der Text nicht mehr verändert wird. Neben dem Button **Antwort übernehmen** erscheint der Button **Bilder erzeugen**. Wird dieser angeklickt, werden die Bilder nacheinander erzeugt und mit einem Klick auf **Antwort übernehmen** in den MedienManager übertragen und mit dem Text verknüpft.
 
 ### HTML-Editor Einbindung
 
@@ -162,10 +155,12 @@ Durch Klicken auf das Prompt-Icon ![chat-square-text.png](./attachments/chat-squ
 
 ![RawPrompt_Result.PNG](./attachments/RawPrompt_Result.PNG)
 
-> [!TIP]
-> Anwendungsbeispiel:
-> - Hinzufügen einer Tabelle mit wichtigen Merkmalen
-> - Personalisierte Formatierung
+
+{% hint style="warning" %}
+Anwendungsbeispiel:
+	- Hinzufügen einer Tabelle mit wichtigen Merkmalen
+	- Personalisierte Formatierung
+{% endhint %}
 
 ## Beispiele
 
@@ -216,8 +211,10 @@ Durch Klicken auf das Prompt-Icon ![chat-square-text.png](./attachments/chat-squ
 | Anzahl der Tags |     |
 | Bilder berücksichtigen für | Bestimmt die Typen, für die Bilder beim Upload verarbeitet werden. |
 
-> [!TIP]
-> Wenn die Option ‘Metadaten bei Bild-Upload erstellen’ aktiviert ist, wird das Bild beim Upload durch die KI analysiert.
+{% hint style="warning" %}
+Wenn die Option ‘Metadaten bei Bild-Upload erstellen’ aktiviert ist, wird das Bild beim Upload durch die KI analysiert.
+{% endhint %}
+
 
 ## Produkterstellung
 

@@ -18,7 +18,7 @@ Wenn Sie ein Produktattribut zu Ihrem Produkt hinzufügen, können Sie die folge
 
   
 
-250px|AttributeBeschreibungAttributLegt das Produktattribut fest.Anzeigetext
+AttributeBeschreibungAttributLegt das Produktattribut fest.Anzeigetext
 
 Legt einen textuellen Wert fest, der in Ihrem Shop neben dem Attribute angezeigt wird. Der Zweck dieses Wertes ist dem Kunden einen zusätzlichen Hinweis über die Nutzung des Attributes zu geben.
 
@@ -30,7 +30,7 @@ Typ
 
 Legt den Steuerelement-Typ fest, der im Frontend erzeugt wird. Sie können unter den folgenden Typen auswählen:
 
-| 150px\|Typ | Beschreibung |
+| Typ | Beschreibung |
 | --- | --- |
 | Dropdown-Liste | Erzeugt eine Dropwdown-Liste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen. |
 | Radiobuttonliste | Erzeugt eine Radiobuttonliste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen. |
