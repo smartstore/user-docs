@@ -103,7 +103,7 @@
       * [Widget Zonen](./benutzer-handbuch/content-management/smartstore-page-builder/sonstiges/widget-zonen.md)
   * [Umfragen starten](./benutzer-handbuch/content-management/umfragen-starten.md)
   * [Widgets anordnen](./benutzer-handbuch/content-management/widgets-anordnen.md)
-* [Konfiguration](./benutzer-handbuch/konfiguration.md)
+* [Konfiguration](./benutzer-handbuch/konfiguration/README.md)
   * [Cookie-Manager](./benutzer-handbuch/konfiguration/cookie-manager.md)
   * [E-Mail Konten einrichten](./benutzer-handbuch/konfiguration/e-mail-konten-einrichten.md)
   * [Einstellungen](./benutzer-handbuch/konfiguration/einstellungen.md)
