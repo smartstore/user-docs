@@ -4,7 +4,7 @@ Die Startseite des Backends dient als zentrale Übersicht für alle wichtigen Ke
 
 Das **Dashboard** ist in verschiedene Bereiche unterteilt, die in Diagrammen und Listen dargestellt werden. So können Administratoren auf einen Blick den aktuellen Stand des Shops erfassen und schnell auf wichtige Ereignisse reagieren.
 
-![Dashboard.png](./attachments/Dashboard.png)
+![Dashboard.png](./attachments/dashboard.png)
 
 > [!NOTE]
 > **Farben der Diagramme**: Alle Farben, die in den Verlaufs- und Tortendiagrammen der Dashboard-Karten verwendet werden, werden über die **Theme-Konfiguration** gesteuert.
