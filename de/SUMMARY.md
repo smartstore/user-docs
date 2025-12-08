@@ -168,8 +168,8 @@
 
 ## Verschiedenes
 
-  * [Designer Guide](./designer-guide.md)
-  * [Developer Guide](./developer-guide.md)
-  * [FAQs](./faqs.md)
-  * [Troubleshooting](./troubleshooting.md)
-    * [Summernote Font-Tools deaktiviert](./troubleshooting/summernote-font-tools-deaktiviert.md)
+  * [Designer Guide](./welcome/designer-guide.md)
+  * [Developer Guide](./welcome/developer-guide.md)
+  * [FAQs](./welcome/faqs.md)
+  * [Troubleshooting](./welcome/troubleshooting.md)
+    * [Summernote Font-Tools deaktiviert](../troubleshooting/summernote-font-tools-deaktiviert.md)
