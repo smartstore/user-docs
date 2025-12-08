@@ -4,7 +4,7 @@
 
 |     |     |
 | --- | --- |
-| Absolute URLs erzeugen<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/Media) | Erzeugt absolute URLs für Mediendateien, indem der aktuelle Hostname vorangestellt wird (z.B. [http://meinshop.de/media/image/1.jpg](http://meinshop.de/media/image/1.jpg) statt /media/image/1.jpg). Hat keine Auswirkung, wenn für den Store eine CDN-URL eingerichtet wurde. |
+| Absolute URLs erzeugen | Erzeugt absolute URLs für Mediendateien, indem der aktuelle Hostname vorangestellt wird (z.B. [http://meinshop.de/media/image/1.jpg](http://meinshop.de/media/image/1.jpg) statt /media/image/1.jpg). Hat keine Auswirkung, wenn für den Store eine CDN-URL eingerichtet wurde. |
 | Bilddaten speichern in... | Legt fest, ob Bilder in der Datenbank oder im Ordnerverzeichnis gespeichert werden. |
 | Bildgröße Avatar | Standardgröße in Pixeln für den Avatar. |
 | Bildgröße von Produkt-Thumbnails | Standardgröße in Pixeln für Produktthumbnails |

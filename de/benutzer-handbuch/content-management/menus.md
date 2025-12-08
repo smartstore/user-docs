@@ -19,15 +19,15 @@ Internes Objekt oder URL, Route und Warengruppenbaum.
 | **Eingabefeld** | **Beschreibung** |
 | --- | --- |
 | Ziel | Legt das Ziel des Links fest. Dies kann ein Link zu einem Produkt, einer Warengruppe, einer Hersteller-Seite, einer eigenen erstellten Seite, einer Datei oder einer beliebigen URL sein. |
-| Übergeordnetes Menüelement<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Legt das übergeordnete Menüelement fest. Lassen Sie das Feld leer, um ein Menüelement erster Ebene zu erzeugen. |
-| Veröffentlicht<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Legt fest, ob das Menüelement im Shop sichtbar ist. |
-| Titel<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Legt den Titel fest. |
+| Übergeordnetes Menüelement | Legt das übergeordnete Menüelement fest. Lassen Sie das Feld leer, um ein Menüelement erster Ebene zu erzeugen. |
+| Veröffentlicht | Legt fest, ob das Menüelement im Shop sichtbar ist. |
+| Titel | Legt den Titel fest. |
 | Kurzbeschreibung | Legt eine Kurzbeschreibung fest. Wird als 'title' Attribut für das Menüelement verwendet. |
 | Erforderliche Rechte | Legt Zugriffsrechte fest, die für die Anzeige des Menüelementes erforderlich sind (mind. 1 Recht muss gewährt sein). |
-| Reihenfolge<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Legt die Reihenfolge des Menüelements innerhalb einer Menüebene fest. |
-| Gruppe beginnen<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Fügt vor den Link ein Trennelement sowie optional eine Überschrift ein (Kurzbeschreibung). |
-| Icon<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Legt ein optionales Icon fest. |
-| nofollow<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Gibt das HTML-Attribut rel='nofollow' aus. |
+| Reihenfolge | Legt die Reihenfolge des Menüelements innerhalb einer Menüebene fest. |
+| Gruppe beginnen | Fügt vor den Link ein Trennelement sowie optional eine Überschrift ein (Kurzbeschreibung). |
+| Icon | Legt ein optionales Icon fest. |
+| nofollow | Gibt das HTML-Attribut rel='nofollow' aus. |
 | In neuem Browsertab öffnen | Öffnet das Ziel in einem neuen Browsertab. |
 | HTML ID | Legt das HTML ID Attribut für das Menüelement fest. |
 | CSS Klasse | Legt eine CSS Klasse für das Menüelement fest. |
@@ -42,7 +42,7 @@ Diese Konfigurationsoptionen sind eher etwas für Entwickler.
 
 | **Eingabefeld** | **Beschreibung** |
 | --- | --- |
-| Ziel<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=route&menuId=4&parentItemId=0) | Legt das Ziel des Links fest. In dem unteren Eingabefeld werden die Route Werte als JSON eingetragen. |
+| Ziel | Legt das Ziel des Links fest. In dem unteren Eingabefeld werden die Route Werte als JSON eingetragen. |
 | weitere Optionen | Die weiteren Optionen sind identisch mit den Optionen des Menü-Typs **Internes Objekt oder URL.** |
 
 ### Beispiel DevTools
@@ -66,5 +66,5 @@ Ziel: NewsItem
 
 | **Eingabefeld** | **Beschreibung** |
 | --- | --- |
-| Ziel<br><br> [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=catalog&menuId=4&parentItemId=0) | Der Warengruppenbaum wird dynamisch in das Menü eingebunden. |
+| Ziel | Der Warengruppenbaum wird dynamisch in das Menü eingebunden. |
 | weitere Optionen | Die weiteren Optionen sind identisch mit den Optionen des Menü-Typs **Internes Objekt oder URL.** |

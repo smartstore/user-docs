@@ -13,7 +13,7 @@
 | "Auftrag abgeschlossen" Seite unterbinden | Der Kunde wird direkt auf die Auftrags-Detail-Seite geleitet, falls diese Einstellung aktiviert ist. |
 | Geschenkgutschein ist aktiviert, wenn Auftragsstatus.... | Geschenkgutscheine sind deaktiviert, wenn der Auftragsstatus ist … |
 | Geschenkgutschein wird deaktiviert, wenn Auftragsstatus... | Geschenkgutscheine sind deaktiviert, wenn der Auftragsstatus ist ... |
-| Anzahl der Aufträge pro Seite<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/Order) | Legt die Anzahl der dargestellten Aufträge pro Seite fest. |
+| Anzahl der Aufträge pro Seite | Legt die Anzahl der dargestellten Aufträge pro Seite fest. |
 | Bestellnummer | Legen Sie einen Startwert für Bestellnummern fest. Dies ist nützlich, wenn Sie ihre Aufträge ab einem bestimmten Wert starten lassen möchten. Der Wert muss größer sein, als die aktuell höchste Bestellnummer und gilt für zukünftige Bestellungen. |
 | Aufträge aller Shops anzeigen | Legt fest, ob dem Kunden die Aufträge aller Shops angezeigt werden sollen. Ist diese Option deaktiviert, so werden nur die Aufträge des aktuellen Shops angezeigt. |
 

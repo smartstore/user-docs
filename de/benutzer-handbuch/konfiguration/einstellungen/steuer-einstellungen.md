@@ -24,10 +24,10 @@
 | Land | Land wählen. |
 | Bundesland / Region | Bundesland / Region wählen. |
 | PLZ | Postleitzahl eingeben. |
-| Besteuerung von Nebenleistungen<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/Tax) | Legt fest, wie die Mehrwertsteuer auf Nebenleistungen (wie z.B. Versandkosten und Zahlartgebühren) berechnet werden soll. |
+| Besteuerung von Nebenleistungen | Legt fest, wie die Mehrwertsteuer auf Nebenleistungen (wie z.B. Versandkosten und Zahlartgebühren) berechnet werden soll. |
 | Mehrwertsteuer auf Versandkosten | Legt fest, ob Versandkosten mehrwertsteuerpflichtig sind. |
 | Zahlartgebühr mehrwertsteuerpflichtig | Legt fest, ob Zahlartgebühr mehrwertsteuerpflichtig ist. |
 | EU-Konforme Mwst-Berechnung | Aktivieren, um EU-konforme Mehrwertsteuerberechnung einzuschalten. |
 | Befreiung von der Mehrwertsteuer aktivieren | Aktiviert die Befreiung von der Mehrwertsteuer. |
-| Webservice benutzen<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/Tax) | EU-Web-Service benutzen, um Steuernummern zu überprüfen. Achtung: Wenn diese Option aktiviert ist, darf das Formularfeld Land, welches während der Registrierung verfügbar ist, nicht deaktiviert werden. |
-| Administrator informieren, wenn eine neue Steuernummer übermittelt wurde<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/Tax) | Informiert den Administrator, wenn eine neue Steuernummer übermittelt wurde. |
+| Webservice benutzen | EU-Web-Service benutzen, um Steuernummern zu überprüfen. Achtung: Wenn diese Option aktiviert ist, darf das Formularfeld Land, welches während der Registrierung verfügbar ist, nicht deaktiviert werden. |
+| Administrator informieren, wenn eine neue Steuernummer übermittelt wurde | Informiert den Administrator, wenn eine neue Steuernummer übermittelt wurde. |

@@ -21,14 +21,14 @@ Internal object or URL, route and material group tree.
 | --- | --- |
 | Destination | Specifies the destination of the link. This can be a link to a product, a merchandise group, a manufacturer page, a custom created page, a file or any URL. |
 | Parent menu item | Sets the parent menu item. Leave the field empty to create a first-level menu item. |
-| Published [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Specifies whether the menu item is visible in the store. |
-| Title [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Sets the title. |
+| Published | Specifies whether the menu item is visible in the store. |
+| Title | Sets the title. |
 | Short description | Sets a short description. Used as the 'title' attribute for the menu item. |
 | Required rights | Defines access rights required to display the menu item (at least 1 right must be granted). |
-| Order [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Defines the order of the menu item within a menu level. |
+| Order | Defines the order of the menu item within a menu level. |
 | Start group | Inserts a separator element in front of the link and optionally a heading (short description). |
-| Icon [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Specifies an optional icon. |
-| nofollow [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=entity&menuId=4&parentItemId=0) | Outputs the HTML attribute rel='nofollow'. |
+| Icon | Specifies an optional icon. |
+| nofollow | Outputs the HTML attribute rel='nofollow'. |
 | Open in new browser tab | Opens the target in a new browser tab. |
 | HTML ID | Sets the HTML ID attribute for the menu item. |
 | CSS Class | Sets a CSS class for the menu item. |
@@ -43,7 +43,7 @@ These configuration options are rather something for developers.
 
 | Input field | Description |
 | --- | --- |
-| Target [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=route&menuId=4&parentItemId=0) | Sets the destination of the link. In the lower input field the route values are entered as JSON. |
+| Target | Sets the destination of the link. In the lower input field the route values are entered as JSON. |
 | Other options | The other options are identical to the options of the **Internal object** or **URL** menu type. |
 
 Example: DevTools
@@ -73,5 +73,5 @@ Target: NewsItem
 
 | Input field | Description |
 | --- | --- |
-| Target [](https://wolfgang.smartstore.com/Admin/Menu/CreateItem?providerName=catalog&menuId=4&parentItemId=0) | The category tree is dynamically integrated into the menu. |
+| Target | The category tree is dynamically integrated into the menu. |
 | Other options | The other options are identical to the options of the **Internal object** or **URL** menu type. |

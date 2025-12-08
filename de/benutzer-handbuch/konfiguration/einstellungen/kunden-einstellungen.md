@@ -56,7 +56,7 @@ Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **
 |     |     |
 | --- | --- |
 | Prüfung der Kunden-Email-Adresse | Bestimmt ob die Email-Adresse des Kunden im Checkout validiert wird. |
-| 'Anrede' aktiv<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/CustomerUser) | Legt fest, ob das Feld 'Anrede' aktiv ist. |
+| 'Anrede' aktiv | Legt fest, ob das Feld 'Anrede' aktiv ist. |
 | Anreden | Komma getrennte Liste (z.B. Herr, Frau). Bestimmen Sie die Einträge für die Auswahl der Anrede, bei der Adresserfassung. |
 | 'Titel' aktiv | Legt fest, ob das Feld 'Titel' aktiv ist. |
 | 'Firma' aktiv | Legt fest, ob das Feld 'Firma' aktiv ist |
@@ -64,13 +64,13 @@ Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **
 | 'Straße' aktiv | Legt fest, ob das Feld 'Straße' aktiv ist |
 | Die Eingabe von 'Straße' ist erforderlich. | Legt fest, ob die Eingabe von 'Straße' erforderlich ist. |
 | 'Adresszusatz' aktiv | Legt fest, ob das Feld 'Adresszusatz' aktiv ist. |
-| Die Eingabe von 'Adresszusatz' erforderlich.<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/CustomerUser) | Legt fest, ob die Eingabe von 'Adresszusatz' erforderlich ist. |
+| Die Eingabe von 'Adresszusatz' erforderlich. | Legt fest, ob die Eingabe von 'Adresszusatz' erforderlich ist. |
 | 'PLZ' aktiv | Legt fest, ob das Feld 'PLZ' aktiv ist |
 | Die Eingabe von 'PLZ' ist erforderlich | Legt fest, ob die Eingabe von 'PLZ' erforderlich ist. |
 | 'Stadt' aktiv | Legt fest, ob das Feld 'Stadt' aktiv ist |
 | 'Stadt' erforderlich | Legt fest, ob die Eingabe von 'Stadt' erforderlich ist. |
 | 'Land' aktiv | Legt fest, ob das Feld 'Land' aktiv ist |
-| Die Eingabe eines Landes ist erforderlich<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/CustomerUser) | Legt fest, ob die Eingabe eines Landes erforderlich ist. |
+| Die Eingabe eines Landes ist erforderlich | Legt fest, ob die Eingabe eines Landes erforderlich ist. |
 | 'Bundesland' aktiv | Legt fest, ob das Feld 'Bundesland' aktiv ist |
 | Die Eingabe eines Bundeslandes ist erforderlich | Legt fest, ob die Eingabe eines Bundeslandes erforderlich ist. |
 | 'Telefon' aktiv | Legt fest, ob das Feld 'Telefon' aktiv ist |

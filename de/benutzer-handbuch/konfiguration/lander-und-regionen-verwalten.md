@@ -10,9 +10,9 @@ Wenn Sie einen Shop betreiben, gibt es Funktionen, die Daten aufgrund der von Ih
 | --- | --- |
 | Name | Name des Landes. |
 | Rechnungsstellung erlaubt | Aktiviert die Rechnungsstellung für Kunden aus diesem Land. |
-| Versand erlaubt<br><br> [](https://wolfgang.smartstore.com/Admin/Country/Edit/1) | Ermöglicht den Versand an Kunden aus diesem Land. |
-| Länderkürzel (ISO 639)<br><br> [](https://wolfgang.smartstore.com/Admin/Country/Edit/1) | Zweibuchstabiges Länderkürzel für dieses Land. Eine komplette Liste befindet sich unter [http://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste](http://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste). |
-| Länderkürzel (3 Zeichen)<br><br> [](https://wolfgang.smartstore.com/Admin/Country/Edit/1) | Dreibuchstabiges Länderkürzel nach ISO 3166. |
+| Versand erlaubt | Ermöglicht den Versand an Kunden aus diesem Land. |
+| Länderkürzel (ISO 639) | Zweibuchstabiges Länderkürzel für dieses Land. Eine komplette Liste befindet sich unter [http://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste](http://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste). |
+| Länderkürzel (3 Zeichen) | Dreibuchstabiges Länderkürzel nach ISO 3166. |
 | ISO-Code | Der numerische ISO-Code für dieses Land. Eine komplette Liste der ISO-Codes finden Sie auf [http://en.wikipedia.org/wiki/ISO\_3166-1\_numeric](http://en.wikipedia.org/wiki/ISO_3166-1_numeric). |
 | Mehrwertsteuer | Legt fest ob die EU-Mehrwertsteuer berechnet werden soll. |
 | Veröffentlicht | Legt fest, ob dieses Land im Shop sichtbar sein soll. |

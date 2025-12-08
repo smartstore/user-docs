@@ -10,5 +10,5 @@
 | Auf Startseite anzeigen | News auf der Startseite anzeigen. |
 | Anzahl der gezeigten News | Legt die Anzahl der angezeigten News auf der Startseite fest. |
 | Seitengröße | Legt die maximale Anzahl der angezeigten News pro Seite fest. |
-| Maximales Alter (in Tagen)<br><br> [](https://wolfgang.smartstore.com/Admin/Setting/News) | Legt das maximale News-Alter in Tagen fest. Ältere News werden im RSS-Feed nicht exportiert. |
+| Maximales Alter (in Tagen) | Legt das maximale News-Alter in Tagen fest. Ältere News werden im RSS-Feed nicht exportiert. |
 | RSS-Url anzeigen | News-RSS-Feed-Link in der Adressleiste des Browsers anzeigen. |
