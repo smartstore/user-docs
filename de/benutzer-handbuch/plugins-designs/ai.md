@@ -27,11 +27,7 @@ Der Dialog bietet eine Vielzahl an Möglichkeiten, den Text zu generieren und be
 
 ![Prompt_AnswerOptions.PNG](./attachments/Prompt_AnswerOptions.PNG)
 
-Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld übertragen. Außerdem kann die Antwort in die Zwischenablage kopiert ![copy.png](./attachments/copy.png)
-
- und die Stilistik geändert werden ![sliders.png](./attachments/sliders.png)
-
-.
+Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld übertragen. Außerdem kann die Antwort in die Zwischenablage kopiert ![copy.png](./attachments/copy.png) und die Stilistik geändert werden ![sliders.png](./attachments/sliders.png).
 
 ## RichText
 
@@ -125,25 +121,13 @@ Wenn Sie auf die Modelauswahl klicken (oben rechts), wird eine Auflistung aller 
 
 ![Prompt_Options.PNG](./attachments/Prompt_Options.PNG)
 
-Die Promptleiste bietet mehr als nur ein Eingabefeld für den einfachen Prompt. Sie können den erweiterten Prompt bearbeiten ![chat-square-text.png](./attachments/chat-square-text.png)
-
-, die Wortgrenzen-![hash.png](./attachments/hash.png)
-
-, den Sprachstil- ![vector-pen.png](./attachments/vector-pen.png)
-
- und den Ton ![emoji-wink.png](./attachments/emoji-wink.png)
-
- des Textes ändern.
+Die Promptleiste bietet mehr als nur ein Eingabefeld für den einfachen Prompt. Sie können den erweiterten Prompt bearbeiten ![chat-square-text.png](./attachments/chat-square-text.png), die Wortgrenzen-![hash.png](./attachments/hash.png), den Sprachstil- ![vector-pen.png](./attachments/vector-pen.png) und den Ton ![emoji-wink.png](./attachments/emoji-wink.png) des Textes ändern.
 
 #### RawPrompt
 
 ![RawPrompt.PNG](./attachments/RawPrompt.PNG)
 
-Durch Klicken auf das Prompt-Icon ![chat-square-text.png](./attachments/chat-square-text.png)
-
- gelangt man zum RawPrompt ![chat-square-text-fill.png](./attachments/chat-square-text-fill.png)
-
- (erweiterter Prompt). Dieser enthält die Anweisungen, die tatsächlich an die KI weitergegeben werden. Hier können detaillierte Änderungen vorgenommen werden, um den Prompt an die eigenen Bedürfnisse anzupassen.
+Durch Klicken auf das Prompt-Icon ![chat-square-text.png](./attachments/chat-square-text.png) gelangt man zum RawPrompt ![chat-square-text-fill.png](./attachments/chat-square-text-fill.png) (erweiterter Prompt). Dieser enthält die Anweisungen, die tatsächlich an die KI weitergegeben werden. Hier können detaillierte Änderungen vorgenommen werden, um den Prompt an die eigenen Bedürfnisse anzupassen.
 
 ![RawPrompt_Result.PNG](./attachments/RawPrompt_Result.PNG)
 
