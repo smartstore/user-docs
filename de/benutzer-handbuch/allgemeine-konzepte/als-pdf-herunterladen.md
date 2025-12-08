@@ -15,4 +15,5 @@ Es gibt einige Bereiche in Smartstore, in welchen der Shopadministrator oder auc
 | PDF-Katalog Seitenkopf Template | \\Modules\\Smartstore.PdfExport\\Views\\Shared\\PdfCatalog.Print.Header.cshtml |
 | PDF-Katalog Produktartikel Template | \\Modules\\Smartstore.PdfExport\\Views\\Shared\\PdfCatalog.Print.Products.cshtml |
 | PDF-Katalog Fußzeile Template | \\Modules\\Smartstore.PdfExport\\Views\\Shared\\PdfCatalog.Print.Footer.cshtml |
+
 | CSS Datei | \\wwwroot\\css\\print.css |
