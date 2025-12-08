@@ -69,21 +69,15 @@ Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im gen
 
 ![Summernote_Integration.PNG](./attachments/Summernote_Integration.PNG)
 
-Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon ![icon.png](./attachments/icon.png)
-
- in der Toolbar und es öffnet sich der gewohnte Dialog.
+Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon ![icon.png](./attachments/icon.png) in der Toolbar und es öffnet sich der gewohnte Dialog.
 
 ![Summernote_SelectedText.PNG](./attachments/Summernote_SelectedText.PNG)
 
-Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon ![icon.png](./attachments/icon.png)
-
- in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
+Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon ![icon.png](./attachments/icon.png) in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
 
 ## Suggestions
 
-Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon ![icon.png](./attachments/icon.png)
-
- im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
+Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon ![icon.png](./attachments/icon.png) im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
 
 ![Suggestions_Dialog.PNG](./attachments/Suggestions_Dialog.PNG)
 
@@ -95,9 +89,7 @@ Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die we
 
 ![Translation_Kontext.PNG](./attachments/Translation_Kontext.PNG)
 
-Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon ![icon.png](./attachments/icon.png)
-
- und wählen Sie das zu übersetzende Feld aus.
+Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon ![icon.png](./attachments/icon.png) und wählen Sie das zu übersetzende Feld aus.
 
 ![Translation_Dialog.PNG](./attachments/Translation_Dialog.PNG)
 
