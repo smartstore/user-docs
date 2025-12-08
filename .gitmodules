@@ -1,0 +1,6 @@
+[submodule "Smartstore"]
+	path = Smartstore
+	url = https://github.com/smartstore/Smartstore.git
+[submodule "enterprise-modules"]
+	path = enterprise-modules
+	url = https://github.com/smartstore/enterprise-modules.git
