@@ -1,5 +1,3 @@
-# FAQs
-
 # Docker
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
