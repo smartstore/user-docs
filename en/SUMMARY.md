@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome](./welcome/smartstore-6-documentation-home.md)
 * [Getting Started](welcome/getting-started.md)
   * [Introducing Smartstore](getting-started/introducing-smartstore.md)
   * [Technology and Prerequisites](getting-started/technology-prerequisites.md)
