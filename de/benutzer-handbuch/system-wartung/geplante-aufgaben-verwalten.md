@@ -70,7 +70,7 @@ Um eine geplante Aufgabe zu bearbeiten, wechseln Sie in die Ansicht *Aufgabe bea
 
 ![](./attachments/geplante-aufgaben-2.PNG)
 
-| 150px\|Feld | Beschreibung |
+| Feld | Beschreibung |
 | --- | --- |
 | Aktiviert | Aktiviert die geplante Ausführung gemäß Cron Ausdruck. Haken entfernen, um die geplante Aufgabe zu deaktivieren. Deaktivierte Aufgaben können weiterhin manuell ausgeführt werden. |
 | Bei Fehler deaktivieren | Aktivieren Sie das Kästchen, wenn die Aufgabe bei Auftreten eines Fehlers während der Ausführung deaktiviert werden soll. |
@@ -80,7 +80,7 @@ Um eine geplante Aufgabe zu bearbeiten, wechseln Sie in die Ansicht *Aufgabe bea
 
 ## Aufgabenarten
 
-| 150px\|Name der Aufgabe | Beschreibung | Standard Default Schedule |
+| Name der Aufgabe | Beschreibung | Standard Default Schedule |
 | --- | --- | --- |
 | E-Mail senden | Sendet alle E-Mails in der Warteschlange. Für weitere Informationen über die E-Mail-Warteschlange lesen Sie bitte [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue).  <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/-1157374962/6452/041baff351e38d4a7d3bb246b6744da43a5f6982/_/images/icons/emoticons/warning.png)<br><br> Wenn Sie diese Aufgabe deaktivieren, werden weder Sie noch Ihre Kunden E-Mails empfangen. | Einmal pro Minute |
 | E-Mail Queue bereinigen | Bereinigt die E-Mail-Warteschlange um E-Mail-Einträge, die bereits verarbeitet wurden, um Speicherplatz einzusparen. | Täglich um 02:00 AM |

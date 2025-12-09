@@ -4,7 +4,7 @@ In this section, you can decide whether to track the stock level of a product. I
 
 ![](./attachments/2022-10-18%2011_06_05-Edit%20product%20details%20_%20Smartstore%20administration.png)
 
-| **250px\|Input Field** | **Description** |
+| **Input Field** | **Description** |
 | --- | --- |
 | Manage Inventory Method | Select manage inventory method. You can choose whether or not to track the inventory of this product and whether the inventory should be tracked by product attributes. When enabled, stock quantities are automatically adjusted when a customer makes a purchase. You can also set low stock activity actions and receive notifications. |
 | Stock Quantity | The current stock quantity of the product. |

@@ -48,7 +48,7 @@ To edit a scheduled task, go to the *Edit Task* screen by choosing **Edit** in
 
 ![Editing a task](./attachments/Edit%20task%20%20%20Send%20emails%20%20%20SmartStore.NET%20administration.png)
 
-| 150px\|Field | Description |
+| Field | Description |
 | --- | --- |
 | Enabled | Check the box to enable the scheduled execution of the task in accordance with the cron expression. Uncheck to disable scheduled execution. Disabled tasks can still be executed manually. |
 | Disable on Error | Check the box if the task should be disabled automatically when an error occurs during scheduled execution. |
@@ -58,7 +58,7 @@ To edit a scheduled task, go to the *Edit Task* screen by choosing **Edit** in
 
 ## Types of Tasks
 
-| 150px\|Task Name | Description | Default Schedule |
+| Task Name | Description | Default Schedule |
 | --- | --- | --- |
 | Send E-Mails | Sends all e-mails in the message queue. For more information about the e-mail queue, read the topic [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue).  <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/1262048869/6452/2ef421ea87febf37890d2fb0e5bb13917e70857c/_/images/icons/emoticons/warning.png)<br><br> If you disable this task, neither you nor your customers will receive e-mails anymore. | Every minute |
 | Clear E-Mail Queue | Clears queued e-mail entries that have already been processed to ensure that its size does not grow indefinitely. | At 02:00 AM every day |

@@ -44,7 +44,7 @@ Datenexporte können automatisch ausgeführt werden, da der Export von einer **G
 
 In dieser Registerkarte können Sie die Aufteilung Ihrer Daten festlegen.
 
-| 120px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | Überspringen | Legt die Anzahl der zu überspringenden Datensätze fest. |
 | Begrenzen | Legt die maximale Anzahl der zu verarbeitenden Datensätze fest. |
@@ -70,7 +70,7 @@ In dieser Registerkarte können Sie den Export Provider konfigurieren, den Sie b
 
 In dieser Registerkarte können Sie festlegen, was mit den Daten am Ende eines Exports geschehen soll. In einem ersten Schritt werden die Daten immer in einem temporären, lokalen Ordner der Anwendung gespeichert, der nicht öffentlich über das Internet erreichbar ist. Die folgenden Einstellungen stehen in Verbindung mit diesem temporären Speichern der Daten:
 
-180px|EingabefeldBeschreibungOrdnerpfadLegt den relativen Pfad des Ordners fest, in den die Daten exportiert werden.Muster für Dateinamen
+EingabefeldBeschreibungOrdnerpfadLegt den relativen Pfad des Ordners fest, in den die Daten exportiert werden.Muster für Dateinamen
 
 Legt das Muster fest, nach dem Dateinamen erzeugt werden. Der Button **Beispiel** erlaubt Ihnen, eine Voransicht auf das Ergebnis der Namensauflösung. Das Muster unterstützt folgende Platzhalter:
 
@@ -110,7 +110,7 @@ Legt die E-Mail Adresse fest, an welche eine Benachrichtigung über die Fertigst
 
 Im nächsten Schritt erstellen Sie optional eines oder mehrere Veröffentlichungsprofile, um festzulegen, wie Sie mit den Exportdateien weiter vorgehen möchten. Es gibt vier Veröffentlichungstypen: Dateisystem, E-Mail, HTTP, FTP und Öffentlicher Ordner. Die Grundeinstellungen sind:
 
-| 180px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | Name | Name der Bereitstellung. |
 | Aktiv | Bestimmt ob die Bereitstellung aktiv ist und somit ausgeführt wird. |
@@ -120,7 +120,7 @@ Im nächsten Schritt erstellen Sie optional eines oder mehrere Veröffentlichung
 
 Die Exportdateien werden in das lokale Ordnerverzeichnis des Servers, auf dem der Shop installiert wurde, kopiert.
 
-| 180px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | In öffentlichen Ordner kopieren | Legt fest, ob die Dateien in den öffentlichen Ordner **Exchange** des Shops kopiert werden. Dateien im **Exchange** Ordner sind öffentlich, weil sie über das Netz angesteuert werden können. Sie müssen keinen Verzeichnispfad angeben, wenn diese Option aktiviert wurde. |
 | Ordnerpfad | Der Ordnerpfad, falls die vorhergehende Option deaktiviert wurde. |
@@ -129,7 +129,7 @@ Die Exportdateien werden in das lokale Ordnerverzeichnis des Servers, auf dem de
 
 Eine E-Mail, die die Exportdateien als Attachment enthält, wird verschickt.
 
-| 180px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | E-Mail-Konto | Gibt den E-Mail-Account an, der genutzt wird, um die Daten zu versenden. |
 | E-Mail-Adressen | Gibt die E-Mail-Adressen an, die die Daten erhalten sollen. |
@@ -139,7 +139,7 @@ Eine E-Mail, die die Exportdateien als Attachment enthält, wird verschickt.
 
 Überträgt die Exportdateien via HTTP.
 
-| 180px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | URL\\Host | Gibt die URL oder den Hostnamen an, zu der/dem die Daten gesendet werden sollen. |
 | HTTP Übertragungstyp | Legt fest, wie die Exportdateien via HTTP übertragen werden. `Simple POST` erstellt eine POST-Anforderung für jede Datei. `Multipart form data POST` sendet alle Dateien in einem einzigen Post als mehrteilige Formulardaten. |
@@ -150,7 +150,7 @@ Eine E-Mail, die die Exportdateien als Attachment enthält, wird verschickt.
 
 Überträgt die Exportdateien via FTP.
 
-| 180px\|Eingabefeld | Beschreibung |
+| Eingabefeld | Beschreibung |
 | --- | --- |
 | URL\\Host | Legt die URL oder den Hostnamen fest, an die/den die Daten gesendet werden sollen. |
 | Benutzername | Legt den Nutzernamen fest, falls einer für die Übertragung benötigt wird. |
