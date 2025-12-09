@@ -59,6 +59,7 @@ The state-of-the-art architecture of Smartstore - with `ASP.NET Core 7`, `Enti
 
   
 
-> [!NOTE]
-> - [Overview](#overview)
-> - [Features](#features)
+{% hint style="info" %}
+- [Overview](#overview)
+- [Features](#features)
+{% endhint % }

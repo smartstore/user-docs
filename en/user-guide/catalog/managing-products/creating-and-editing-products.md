@@ -57,9 +57,10 @@ In addition, product discounts can also be assigned under the Price tab. Keep i
 
 In this tab, you can upload the pictures to be displayed for this product. The **product main** image is displayed in product lists wherever thumbnails of products appear, such as the overview for the product category or the product list in the shopping cart. All of the other pictures you add will be displayed in the thumbstrip beneath the default image, as well as in the gallery of the product details view in the frontend of your shop, according to the **Display Order** you've configured. For more information about the picture upload control, read the topic [Uploading Pictures](../../../user-guide/common-concepts/uploading-pictures.md).
 
-> [!INFO]
-> ### Use exempted graphics
-> Exempted graphics look a lot better in the product gallery.
+Working with the filter sidebar widget
+### Use exempted graphics
+Exempted graphics look a lot better in the product gallery.
+{% endhint %}}
 
 ### Category Mappings Tab
 

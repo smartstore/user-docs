@@ -22,8 +22,9 @@ The **Fixed Rate** provider allows you to configure a fixed tax rate for all o
 
 The **Tax By Country & State & Zip** provider allows you to configure tax rates based on the **Country, State or Zip Code** of the current customer's address for all of the configured **Tax Categories**. The rate that has been configured for a  **Tax Category** will be applied to products assigned to this category. Since there are different tax classes for every state in the USA, you should activate the **Tax By Country & State & Zip** provider to configure tax rates if your shop is located in the USA. 
 
-> [!INFO]
-> When configuring **Tax Categories** for different regions, you can enter a zip code either as a specific value or a range pattern (e.g. 4000-4999). You can also define wildcard characters such as \* or ?. If the zip field is empty, this tax rate will apply to all zip codes for the given country or state/province, regardless of zip code. NOTE: Both min and max part MUST have the same amount of leading zeroes ("0100-0999" is valid, whereas "0010-0999" is invalid)
+{% hint style="info" %}
+When configuring **Tax Categories** for different regions, you can enter a zip code either as a specific value or a range pattern (e.g. 4000-4999). You can also define wildcard characters such as \* or ?. If the zip field is empty, this tax rate will apply to all zip codes for the given country or state/province, regardless of zip code. NOTE: Both min and max part MUST have the same amount of leading zeroes ("0100-0999" is valid, whereas "0010-0999" is invalid)
+{% endhint %}
 
 ![](./attachments/tax-provider-by-country.png)
 
@@ -71,12 +72,14 @@ If a customer enters a VAT number, you will be notified by e-mail (as long as yo
 
 By going to **Configuration > Regional Settings > Countries**, you can specify which of the activated countries in your store are subject to the EU regulation. 
 
-> [!INFO]
-> If the location of your shop is within the EU and you're selling products to other countries in the EU, it's recommended to activate all of the last five settings in the Tax Settings configuration area.
+{% hint style="info" %}
+If the location of your shop is within the EU and you're selling products to other countries in the EU, it's recommended to activate all of the last five settings in the Tax Settings configuration area.
+{% endhint %}
 
 ## B2B Scenarios 
 
 If you're selling your products to other companies, you don't need to include taxes in your price displays. Therefore, you can set the option  **Tax Display Type**  to **Excluding Tax**. If you're selling to both end users and companies, you can also configure this setting on the customer role level. To do so, go to **Admin > Customers > Customer Roles > Tax Display Type** . This setting will override the setting you've configured in **Tax Settings**. The same applies to the customer role setting **Tax Exempt**. The **Is Tax Exempt** setting can also be set on the customer level, which overrides the customer role setting. 
 
-> [!INFO]
-> If you choose to display prices with a display type that differs from the setting for entering prices in the backend (e.g. **Prices Include Tax** = active & **Tax Display Type** \= **Excluding Tax** ), rounding errors may occur. In this case, it's recommended to activate the option **Configuration > Setiings > Shopping Cart Settings > Round prices during calculation** .
+{% hint style="info" %}
+If you choose to display prices with a display type that differs from the setting for entering prices in the backend (e.g. **Prices Include Tax** = active & **Tax Display Type** \= **Excluding Tax** ), rounding errors may occur. In this case, it's recommended to activate the option **Configuration > Setiings > Shopping Cart Settings > Round prices during calculation** .
+{% endhint %}

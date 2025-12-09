@@ -12,9 +12,10 @@ You can add categories and products to ACL and define which specific roles can a
 
 ![](./attachments/smartstore-acl-en.png)
 
-> [!INFO]
-> ### Transfer ACL configuration to children of a category
-> 
-> With this function you can assign the ACL configuration of a category to all subcategories and products included in the category.
-> Please keep in mind you have to save changes in the ACL configuration  before you can assign them to all subcategories and products.
-> **Attention:**  Please keep in mind that  **existing ACL records will be deleted.**
+{% hint style="info" %}
+### Transfer ACL configuration to children of a category
+
+With this function you can assign the ACL configuration of a category to all subcategories and products included in the category.
+Please keep in mind you have to save changes in the ACL configuration  before you can assign them to all subcategories and products.
+**Attention:**  Please keep in mind that  **existing ACL records will be deleted.**
+{% endhint %}

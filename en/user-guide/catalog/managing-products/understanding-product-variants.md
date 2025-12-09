@@ -77,5 +77,6 @@ If you want to manage product-related data (e.g. differing SKUs, Prices, etc.) f
 | Stock Quantity | The stock quantity of the combination. Keep in mind that the stock level of a combination will be reduced automatically only if the option **Manage Inventory Method** from the **Inventory Tab** of the product detail configuration page is set to **Track Inventory By Product Attributes**. |
 | Allow out of stock | Specifies whether to allow purchases when the attribute combination is out of stock. |
 
-> [!INFO]
-> If you add new attribute values, you need to recreate your combinations in order to map all values to your combinations.
+{% hint style="info" %}
+If you add new attribute values, you need to recreate your combinations in order to map all values to your combinations.
+{% endhint % }

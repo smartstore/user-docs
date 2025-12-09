@@ -46,8 +46,9 @@ The import framework supports the following object types:
 | Quote character | Choose the quotation character. |
 | Inner quote character | Choose the inner quote character used for escaping. |
 
-> [!INFO]
-> The first row of a CSV file must contain headers of the columns that they stand for.
+{% hint style="info" %}
+The first row of a CSV file must contain headers of the columns that they stand for.
+{% endhint %}
 
 ### Import field data mapping
 
@@ -57,5 +58,6 @@ You can optionally set for each field of the import file whether and for which o
 
    
 
-> [!INFO]
-> By changing the data delimiter, stored assignments becomes invalid and reset.
+{% hint style="info" %}
+By changing the data delimiter, stored assignments becomes invalid and reset.
+{% endhint %}

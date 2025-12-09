@@ -23,10 +23,11 @@ To add another language, navigate to **Configuration > Regional Settings > Lang
 
 After you've created the desired language, you need to add the resources for this language by clicking on **Import Resources,** where you can choose an XML-file to import. You can find the resource xml file for English and German in the directory /*App\_Data/Localization/App.*
 
-> [!INFO]
-> ### Smartstore translation portal with numerous additional languages
-> For additional languages for the current and older Smartstore versions, please visit the Smartstore translation portal.  
-> To learn how to download the languages, please refer to the article “[Working with multiple languages](https://smartstore.atlassian.net/wiki/spaces/SMNET/pages/1927774687/Working+with+Multiple+Languages).”
+{% hint style="info" %}
+### Smartstore translation portal with numerous additional languages
+For additional languages for the current and older Smartstore versions, please visit the Smartstore translation portal.  
+To learn how to download the languages, please refer to the article “[Working with multiple languages](https://smartstore.atlassian.net/wiki/spaces/SMNET/pages/1927774687/Working+with+Multiple+Languages).”
+{% endhint %}
 
   
 

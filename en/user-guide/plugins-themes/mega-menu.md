@@ -56,8 +56,9 @@ For the introduction area which will be displayed in the first column of the dro
 | Short summary | Specifies text that will be displayed below the category picture. Thi stext will only be displayed if the category picture is displayed. HTML is allowed. |
 
 ### Teaser
-
+{% hint style="info" %}
 The teaser area within a dropdown element allows you to highlight your products by displaying a specific selection of products within the product rotator in the dropdown menu, or by displaying completely custom HTML.
+{% endhint %}
 
 |     |     |
 | --- | --- |

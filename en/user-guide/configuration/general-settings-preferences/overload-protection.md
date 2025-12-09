@@ -21,8 +21,9 @@ A key problem addressed by overload protection is the mass creation of guest acc
 | Enable Overload Protection | Applies the defined policies. If this option is disabled, no restrictions are applied. |
 | If sub request, forbid "new" guests | Blocks new guest users for sub-requests (e.g. AJAX, POST, scripts, media files). This setting prevents "bad bots" that do not accept cookies and masquerade by changing IP addresses or user-agent strings from creating new guest sessions for child requests. |
 
-> [!WARNING]
-> Changes to **traffic limit** and **peak** settings will not take effect until you restart the application.
+{% hint style="warning" %}
+Changes to **traffic limit** and **peak** settings will not take effect until you restart the application.
+{% endhint %}
 
 ## Traffic Limit (Long Term Monitoring)
 
@@ -46,6 +47,7 @@ These settings become effective during sudden traffic peaks over a very short pe
 | Bot limit | Maximum number of bots within the specified timeframe. An empty value means no limit. |
 | Global limit | Combined limit for guests and bots. If the combined requests of both types exceed this limit, further requests will be denied. An empty value means no limit. |
 
-> [!INFO]
-> **Global limit**: This limit is independent of the separate limits for guests and bots.
-> Once this limit is reached, the system will block further requests, even if the other limits are not exceeded.
+{% hint style="info" %}
+**Global limit**: This limit is independent of the separate limits for guests and bots.
+Once this limit is reached, the system will block further requests, even if the other limits are not exceeded.
+{% endhint %}

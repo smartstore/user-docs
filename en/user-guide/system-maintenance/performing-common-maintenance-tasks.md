@@ -18,6 +18,7 @@ When you create feeds to be consumed by price comparison portals or search engin
 
 Sometimes you may want to execute SQL scripts directly against the database. To do so, paste the script into the designated text area and **Execute** the script directly.
 
-> [!INFO]
-> ### Attention
-> Be very careful with this function! You could destroy the structure of your database.
+{% hint style="info" %}
+### Attention
+Be very careful with this function! You could destroy the structure of your database.
+{% endhint %}

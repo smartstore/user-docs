@@ -15,12 +15,13 @@ Besides the tasks that are part of the application core, third party plugins may
 
   
 
-> [!NOTE]
-> - [Accessing the Scheduled Tasks List](#accessing-the-scheduled-tasks-list)
-> - [Running a Task Manually](#running-a-task-manually)
-> - [Editing a Task](#editing-a-task)
-> - [Types of Tasks](#types-of-tasks)
-> - [Cron Expressions](#cron-expressions)
+{% hint style="info" %}
+- [Accessing the Scheduled Tasks List](#accessing-the-scheduled-tasks-list)
+- [Running a Task Manually](#running-a-task-manually)
+- [Editing a Task](#editing-a-task)
+- [Types of Tasks](#types-of-tasks)
+- [Cron Expressions](#cron-expressions)
+{% endhint %  }
 
   
 

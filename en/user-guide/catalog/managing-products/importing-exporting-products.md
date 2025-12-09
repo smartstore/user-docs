@@ -2,9 +2,10 @@
 
 Smartstore allows you to import or export your product data in several formats. If you already have a database which contains the product catalog you want to sell online, you obviously would not want to enter all the data again manually, but to import it automatically. One common format for structured data is CSV (delimiter separated values). CSV exports can be edited by Excel for instance.
 
-> [!INFO]
-> ### Data export plugins
-> A data export requires an export provider that tells Smartstore how to format the data. Export providers are typically provided through plugins. They can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/marketplace/).
+{% hint style="info" %}
+### Data export plugins
+A data export requires an export provider that tells Smartstore how to format the data. Export providers are typically provided through plugins. They can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/marketplace/).
+{% endhint %}
 
 ## Export
 
@@ -16,9 +17,10 @@ You can import your product data by using an import profile. To create an import
 
 The import profile lets you upload CSV files that contains the catalog data to be imported. To import new products, the column **name** is the only mandatory field which must contain a value. If you want to update your existing product data, one of the fields **SKU, Gtin (EAN), ManufacturerPartNumer** or **ID** is mandatory and will be used to match an existing product in your catalog. If a product is found with one of these unique identifiers, it will be updated. If no product is found and a value exists in the **name** column, a new product will be created and the data of this line will be imported into it. For a complete list of values that will be imported, see the list below. 
 
-> [!INFO]
-> ### How to format fields which contain IDs
-> Fields which contain IDs can contain multiple values that are separated by a pipe |. (e.g. CategoryIds, StoreIds)
+{% hint style="info" %}
+### How to format fields which contain IDs
+Fields which contain IDs can contain multiple values that are separated by a pipe |. (e.g. CategoryIds, StoreIds)
+{% endhint % }
 
 ### General
 

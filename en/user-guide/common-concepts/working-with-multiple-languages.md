@@ -16,9 +16,10 @@ To add another language, navigate to **Configuration > Regional Settings > Langu
 
 After you've created the desired language, you need to add the resources for this language by clicking on **Import Resources,** where you can choose an XML-file to import. You can find the resource xml file for English and German in the directory /*App\_Data/Localization/App.*
 
-> [!INFO]
-> ### For More Languages Visit Our Marketplace
-> If you want to offer a product catalog in your local language and don't want to translate every textual resource yourself, take a look at the [SmartStore Community Marketplace](http://community.smartstore.com/index.php?/files/category/24-language-packs/) to check if the language is already available for download.
+{% hint style="info" %}
+### For More Languages Visit Our Marketplace
+If you want to offer a product catalog in your local language and don't want to translate every textual resource yourself, take a look at the [SmartStore Community Marketplace](http://community.smartstore.com/index.php?/files/category/24-language-packs/) to check if the language is already available for download.
+{% endhint %}
 
 ## How to Add or Edit a Single Resource
 

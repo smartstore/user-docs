@@ -6,8 +6,9 @@ Bundling means selling multiple products as one, namely as a bundle. Bundles are
 
 Imagine you want to sell a video game console together with two wireless controllers and one video game. To do so, you would create a new product with the **Product Type:**  **Bundle Product**. You'll find this setting in the **Product Info Tab**. Once you've saved this product, there will be a new tab named **Bundled Products**, where you can add existing products from your catalog to this bundle. 
 
-> [!INFO]
-> To create a sales incentive, the bundle price should obviously be less than what the customer would have to pay for the individual components of the bundle product.
+{% hint style="info" %}
+To create a sales incentive, the bundle price should obviously be less than what the customer would have to pay for the individual components of the bundle product.
+{% endhint %}
 
 ![](./attachments/bundle-product-frontend.png)
 
@@ -22,9 +23,10 @@ A product that is assigned to a bundle is called a bundle item.
 3. Click the **Save** button. The selected products will now appear in the grid of bundled products.
 4. You can remove the assignment by clicking **Delete** in the grid of bundled products.
 
-> [!INFO]
-> All simple products, except those involving recurring payments and downloads, can be part of a bundle. Grouped products and bundles cannot be bundled. A bundle product never has its own attributes.
-> Please note that a product can be assigned multiple times to a bundle, and each instance can be configured separately. That could be useful in conjunction with attributes.
+{% hint style="info" %}
+All simple products, except those involving recurring payments and downloads, can be part of a bundle. Grouped products and bundles cannot be bundled. A bundle product never has its own attributes.
+Please note that a product can be assigned multiple times to a bundle, and each instance can be configured separately. That could be useful in conjunction with attributes.
+{% endhint %}
 
 ## Options to control the bundle
 

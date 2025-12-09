@@ -6,9 +6,10 @@ If you're running a store, there are several occasions when you need to notify c
 
 ## Setting up an Email Account
 
-> [!INFO]
-> ### Where do I get the neccessary data?
-> The data that must be entered in the fields described below will usually be sent to you when you book a hosting package. You can also obtain this data by logging into the configuration area of your hosting package on the website of your provider. Check the e-mail configuration area. If you can't find the information contact your provider.
+{% hint style="info" %}
+### Where do I get the neccessary data?
+The data that must be entered in the fields described below will usually be sent to you when you book a hosting package. You can also obtain this data by logging into the configuration area of your hosting package on the website of your provider. Check the e-mail configuration area. If you can't find the information contact your provider.
+{% endhint %}
 
 |     |     |
 | --- | --- |
@@ -21,6 +22,7 @@ If you're running a store, there are several occasions when you need to notify c
 | SSL | Check the box to use Secure Sockets Layer (SSL) to encrypt the SMTP connection. |
 | Use Default Credentials | Check to use default credentials for the connection. |
 
-> [!INFO]
-> ### Send a test email
-> Once you've configured an email account, you should test whether the data you've entered is correct by sending a test email. If an e-mail can be sent to the email address you've entered in the **Send Email To** field, you can be sure the account has been configured correctly.
+{% hint style="info" %}
+### Send a test email
+Once you've configured an email account, you should test whether the data you've entered is correct by sending a test email. If an e-mail can be sent to the email address you've entered in the **Send Email To** field, you can be sure the account has been configured correctly.
+{% endhint %}

@@ -24,8 +24,9 @@ In the payment configuration area, an overview of the features of each payment p
 | Partial Refund | If a payment plugin supports the refund a partial order amount, an additional button is displayed on the order details page to refund the partial order amount. |
 | Void | If a payment plugin supports the cancellation of a payment, an additional button is displayed on the order details page to cancel or void the payment of the order. |
 
-> [!INFO]
-> Even if a payment plugin does not support capturing, refunding or canceling, you will see non-highlighted buttons for these processes on the order details page to enable a payment status change "offline", i.e. without contacting the gateway of the payment method.
+{% hint style="info" %}
+Even if a payment plugin does not support capturing, refunding or canceling, you will see non-highlighted buttons for these processes on the order details page to enable a payment status change "offline", i.e. without contacting the gateway of the payment method.
+{% endhint %}
 
 ![](./attachments/order-details-payment-butto.png)
 

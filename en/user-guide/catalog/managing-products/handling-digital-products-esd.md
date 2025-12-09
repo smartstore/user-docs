@@ -21,6 +21,7 @@ The file you've uploaded can be downloaded by your customer after the payment ha
 
 If you want customers to agree to a **User Agreement** before they can download the purchased file, you need to activate this functionality by checking the box **Has User Agreement** and by entering the text to which your users need to agree. This text will be displayed when users click on the download link, and they have to confirm that they agree to it by checking the box and clicking on the **Confirm** button.
 
-> [!INFO]
-> ### Deactivate Shipping Enabled
-> Don't forget to disable the option **Shipping Enabled** for digital products that don't need to be shipped. In this case, you don't need to set the status of the order to **Completed** manually. The order will acquire this status automatically when it is marked as **Paid**.
+{% hint style="info" %}
+### Deactivate Shipping Enabled
+Don't forget to disable the option **Shipping Enabled** for digital products that don't need to be shipped. In this case, you don't need to set the status of the order to **Completed** manually. The order will acquire this status automatically when it is marked as **Paid**.
+{% endhint %}

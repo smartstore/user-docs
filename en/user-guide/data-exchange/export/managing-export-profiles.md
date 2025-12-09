@@ -54,8 +54,9 @@ In this tab you can define filter settings that limits the amount of data to be 
 
 In this tab you enter settings that are projected onto the export as well as onto the data to be exported.
 
-> [!INFO]
-> A few of these setting are not included in the preview for technical reasons. They affect only the actual export.
+{% hint style="info" %}
+A few of these setting are not included in the preview for technical reasons. They affect only the actual export.
+{% endhint %}
 
 ### Configuration Tab
 
@@ -81,8 +82,9 @@ Specifies the pattern for creating file names. The **Example** button allows you
 | %Random.Number% | A random number. |
 | %Timestamp% | A UTC timestamp. |
 
-> [!INFO]
-> Placeholders are intended to easier create unique file names. Please pay attention to avoid patterrns that lead to non unique file names and thus file name conflicts.
+{% hint style="info" %}
+Placeholders are intended to easier create unique file names. Please pay attention to avoid patterrns that lead to non unique file names and thus file name conflicts.
+{% endhint %}
 
 Create ZIP archive
 
@@ -92,8 +94,9 @@ Clean up at the endDeletes all created files at the end of an export, except the
 
 Sends a notification email about the completion of an export. Note that you can specify multiple email addresses where to send the email to.
 
-> [!INFO]
-> System exports (like product or category export) are always sending a notification email regardless  of  this   option.
+{% hint style="info" %}
+System exports (like product or category export) are always sending a notification email regardless  of  this   option.
+{% endhint %}
 
   
 
@@ -155,5 +158,6 @@ Click on **Preview** to reach the preview page. The export data will be displaye
 
 You can directly start the export process at this point. In addition to export all data, it is also possible to select certain records to be exported.
 
-> [!INFO]
-> A few projection settings are not included in the preview due to technical reasons. They affect only the actual export.
+{% hint style="info" %}
+A few projection settings are not included in the preview due to technical reasons. They affect only the actual export.
+{% endhint %}

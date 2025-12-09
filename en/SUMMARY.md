@@ -121,7 +121,7 @@
     * [Forum Settings](user-guide/configuration/general-settings-preferences/forum-settings.md)
     * [Data Exchange Settings](user-guide/configuration/general-settings-preferences/data-exchange-settings.md)
     * [Managing All Settings (Advanced)](user-guide/configuration/general-settings-preferences/managing-all-settings-advanced.md)
-    * [Faceted search / Filter](user-guide/configuration/general-settings-preferences/faceted-search-filter.md))
+    * [Faceted Search / Filter](user-guide/configuration/general-settings-preferences/faceted-search-filter.md))
     * [General Settings](user-guide/configuration/general-settings-preferences/general-settings.md)
     * [Customer Settings](user-guide/configuration/general-settings-preferences/customer-settings.md)   
     * [Overload Protection](user-guide/configuration/general-settings-preferences/overload-protection.md)                          

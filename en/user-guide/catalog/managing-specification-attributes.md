@@ -29,9 +29,10 @@ You could, of course, capture the above info in the product's long description a
 
 You can add new specification attributes by going to **Catalog > Specification Attributes**. The attributes you add here are globally available in your store and can be assigned to **any** product in the product detail configuration in the specification attributes tab. When creating specification attributes, you can specify **Display Names** for every language configured in your store, as well as a display order that specifies the order of attributes in the frontend. Once you've created a specification attribute, you can add the options to be made available when configuring the specification of a product. To do so, go to the **Options-Tab** of the attribute and click on **Add a New Option**. Here, you can also specify localized **Display Names** and a **Display Order**.
 
-> [!INFO]
-> ### Tip
-> When you want to add multiple values in one step, enter each of them separated by a semicolon, and check the box **Enter multiple names separated by semicolon** (;). When saving your options, an option will be created for each of the semicolon-divided values.
+{% hint style="info" % }
+### Tip
+When you want to add multiple values in one step, enter each of them separated by a semicolon, and check the box **Enter multiple names separated by semicolon** (;). When saving your options, an option will be created for each of the semicolon-divided values.
+{% endhint % }
 
 ## Assigning Specification Attributes to Products
 

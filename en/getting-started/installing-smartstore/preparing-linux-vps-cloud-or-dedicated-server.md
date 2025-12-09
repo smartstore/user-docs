@@ -24,8 +24,9 @@ This is about installing Smartstore on a freshly installed Ubuntu instance. If y
 
 ## Install .NET runtime and other prerequisites
 
-> [!NOTE]
-> **Note:** Official Smartstore releases are self-contained, which means that no .NET Runtime is required on the target system. If you create your own Framework-Dependent Release, the .NET Runtime must be installed on the target system.
+{% hint style="info" %}
+**Note:** Official Smartstore releases are self-contained, which means that no .NET Runtime is required on the target system. If you create your own Framework-Dependent Release, the .NET Runtime must be installed on the target system.
+{% endhint % }
 
 To install .NET Runtime 7, please run the following command in the command line:
 
@@ -101,8 +102,9 @@ We assume that the ufw (**u**ncomplicated **f**ire**w**all) is installed. First 
 
 `sudo ufw app list`
 
-> [!NOTE]
-> **Note:** If the command is returned with `sudo: ufw: command not found` , then no firewall is installed and this point can be skipped or the firewall must be installed.
+{% hint style="info" %}
+**Note:** If the command is returned with `sudo: ufw: command not found` , then no firewall is installed and this point can be skipped or the firewall must be installed.
+{% endhint %  }
 
 Usually three NGINX profiles are available:
 
@@ -364,14 +366,16 @@ Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WantedBy=multi-user.target
 ```
 
-> [!NOTE]
-> **Note:** Adapt the paths in `WorkingDirectory` and `ExecStart` if necessary.
+{% hint style="info" %}
+**Note:** Adapt the paths in `WorkingDirectory` and `ExecStart` if necessary.
+{% endhint %   }
 
-> [!NOTE]
-> **Important:** Code for framework-dependent deployment:
-> `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll`
-> Code for self-contained deployment:
-> `ExecStart=/var/www/html/Smartstore.Web`
+{% hint style="info" %}
+**Important:** Code for framework-dependent deployment:
+`ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll`
+Code for self-contained deployment:
+`ExecStart=/var/www/html/Smartstore.Web`
+{% endhint %  }
 
 ### Enable and start the service
 
@@ -383,9 +387,10 @@ Start service:
 
 `sudo systemctl start kestrel-smartstore.service`
 
-> [!INFO]
-> To stop service:
-> `sudo systemctl stop kestrel-smartstore.service`
+{% hint style="info" %}
+To stop service:
+`sudo systemctl stop kestrel-smartstore.service`
+{% endhint %   }
 
 ### Setting the folder permissions
 

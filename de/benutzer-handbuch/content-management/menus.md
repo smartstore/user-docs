@@ -47,20 +47,24 @@ Diese Konfigurationsoptionen sind eher etwas für Entwickler.
 
 ### Beispiel DevTools
 
-Ziel: SmartStore.DevTools  
+Ziel: SmartStore.DevTools 
+```
 {  
 "Controller":"DevTools",  
 "action":"Test",  
 "area":"SmartStore.DevTools"  
 "parameter":"0"  
 }
+```
 
 ### Beispiel MenüItem
 
 Ziel: NewsItem  
+```
 {  
 "SeName":"die-zuse-z3"  
 }
+```
 
 **Warengruppenbaum**
 

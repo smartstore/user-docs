@@ -12,6 +12,7 @@ You can configure a message template by clicking on the **Edit** link in the ov
 
 When you configure your message templates, you may want to place information regarding the current action for which the template will be sent. For example, when you're working on the template for informing the customer about a successfully placed order, you would definitely want to place the order number somewhere. For this reason, message tokens exist. You can place available message tokens anywhere in your template, and they will be resolved before the template is sent. The message token for the order number looks like this: *%Order.OrderNumber%*.
 
-> [!INFO]
-> ### Choosing Message Tokens
-> To place a message token into your template, you can place the cursor anywhere in the HTML editor and choose the desired message token from the list **Available Message Tokens**.
+{% hint style="info" % }
+### Choosing Message Tokens
+To place a message token into your template, you can place the cursor anywhere in the HTML editor and choose the desired message token from the list **Available Message Tokens**.
+{% endhint % }

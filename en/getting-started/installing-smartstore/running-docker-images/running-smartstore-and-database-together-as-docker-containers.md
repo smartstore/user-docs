@@ -101,5 +101,6 @@ The installation will look like this:
 
 ![](./attachments/smartstore-installation-mssql-en.png)
 
-> [!INFO]
-> Please be sure to change the default passwords and users on productive systems!
+{% hint style="info" %}
+Please be sure to change the default passwords and users on productive systems!
+{% endhint %}

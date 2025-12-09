@@ -6,8 +6,9 @@ With grouped products, you can present multiple products on a single product det
 - Easier detection of similar products when they are grouped, hence more sales.
 - More sales when customers see useful, required or desirable products on the same page.
 
-> [!INFO]
-> When you associate a simple product to a grouped product, you can specify whether the simple product is **individually visible** (or just visible on the grouped product page). A product that is not **individually** **visible** does not appear in search results or in product lists of categories.
+{% hint style="info" %}
+When you associate a simple product to a grouped product, you can specify whether the simple product is **individually visible** (or just visible on the grouped product page). A product that is not **individually** **visible** does not appear in search results or in product lists of categories.
+{% endhint %}
 
 ## Usage scenario
 
@@ -36,5 +37,6 @@ Assigning products to a grouped product
 5. You can change the display order of the associated products on the grouped product page by clicking **Edit** and changing the order value.  
   
 
-> [!INFO]
-> A product can be associated to only one grouped product.
+{% hint style="info" %}
+A product can be associated to only one grouped product.
+{% endhint %}
