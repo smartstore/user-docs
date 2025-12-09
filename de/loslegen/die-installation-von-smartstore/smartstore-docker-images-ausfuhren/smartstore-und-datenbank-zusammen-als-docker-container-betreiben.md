@@ -101,5 +101,6 @@ Die Installation sieht dann wie folgt aus:
 
 ![](./attachments/smartstore-installation-mssql-de.png)
 
-> [!INFO]
-> Ändern Sie bitte unbedingt die Standardpasswörter und -benutzer auf den Produktivsystemen!
+{% hint style="info" %}
+Ändern Sie bitte unbedingt die Standardpasswörter und -benutzer auf den Produktivsystemen!
+{% endhint %}

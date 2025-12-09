@@ -15,10 +15,10 @@ Der Output Cache erlaubt die Zwischenspeicherung ganzer Shop-Seiten und trägt s
 | 'no-cache' Header ignorieren | Legt fest, ob Seiten trotz 'Content-cache: no-cache' Header aus dem Zwischenspeicher geladen werden sollen. Empfohlen zum Testen. |
 | Debug-Modus | Gibt allgemeine Informationen im Response Header aus ((X-SmartStore-Cached-On, X-SmartStore-Cached-Until)) |
 
-> {% hint style="info" %}
-> ### Achtung
-> Die Optionen Routen und Invalidierung sollten nur von erfahrenen Anwendern genutzt / geändert werden.
-  {% endhint %}
+{% hint style="info" %}
+### Achtung
+Die Optionen Routen und Invalidierung sollten nur von erfahrenen Anwendern genutzt / geändert werden.
+{% endhint %}
 
 ## Statistik
 

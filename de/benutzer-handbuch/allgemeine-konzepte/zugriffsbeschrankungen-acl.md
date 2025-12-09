@@ -12,9 +12,9 @@ Sie können den Zugriff auf Warengruppen und Produkte zu beschränken und somit 
 
 ![](./attachments/smartstore-acl.png)
 
-> {% hint style="info" %}
-> ### Diese Konfiguration für Kindelemente übernehmen
-> Diese Funktion übernimmt die Zugriffsrecht-Konfiguration dieser Warengruppe für alle Unterwarengruppen und Produkte.  
-> Bitte beachten Sie, dass die Änderungen der Zugriffsrechte zunächst gespeichert werden müssen, bevor diese für Unterkategorien und Produkte übernommen werden können.  
-> **Vorsicht**: Bitte beachten Sie, dass vorhandene **Zugriffsrechte überschrieben bzw. gelöscht werden**.
-> {% endhint %}
+{% hint style="info" %}
+### Diese Konfiguration für Kindelemente übernehmen
+Diese Funktion übernimmt die Zugriffsrecht-Konfiguration dieser Warengruppe für alle Unterwarengruppen und Produkte.  
+Bitte beachten Sie, dass die Änderungen der Zugriffsrechte zunächst gespeichert werden müssen, bevor diese für Unterkategorien und Produkte übernommen werden können.  
+**Vorsicht**: Bitte beachten Sie, dass vorhandene **Zugriffsrechte überschrieben bzw. gelöscht werden**.
+{% endhint %}

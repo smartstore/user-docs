@@ -32,9 +32,9 @@ In den Smartstore kann die bisherige Suchfunktion durch eine auf Apache Lucene b
 Mit der Gewichtung der Felder kann die Reihenfolge von Suchtreffern beinflusst werden.  
   
 
-> {% hint style="info" %}
-> Gewichten Sie Felder, um die Reihenfolge von Suchtreffern zu beeinflussen. Im Falle eines Treffers im betreffenden Feld reiht ein höherer Wert das Produkt weiter vorne in der Liste der Suchtreffer ein.
- {% endhint %}
+{% hint style="info" %}
+Gewichten Sie Felder, um die Reihenfolge von Suchtreffern zu beeinflussen. Im Falle eines Treffers im betreffenden Feld reiht ein höherer Wert das Produkt weiter vorne in der Liste der Suchtreffer ein.
+{% endhint %}
 
 ![](./attachments/megasearch-3.PNG)
 
@@ -42,9 +42,9 @@ Mit der Gewichtung der Felder kann die Reihenfolge von Suchtreffern beinflusst w
 
 Mit der Textanalyse kann die Anzahl der Treffer erweitert erhöht werden. Es können u.a. auch Synonyme verwendet werden.
 
-> {% hint style="info" %}
-> Änderungen zur erweiterten Textanalyse werden erst nach einer Reindexierung wirksam!
-  {% endhint %}
+{% hint style="info" %}
+Änderungen zur erweiterten Textanalyse werden erst nach einer Reindexierung wirksam!
+{% endhint %}
 
 ![](./attachments/megasearch-4.PNG)
 

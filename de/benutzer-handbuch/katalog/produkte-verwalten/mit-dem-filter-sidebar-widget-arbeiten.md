@@ -2,9 +2,9 @@
 
 Das **Filter Sidebar Widget**  ermöglicht es Ihren Kunden, Warengruppen in Ihrem Shop auf spezifische Weise zu filtern. Das Widget bestimmt dynamisch alle möglichen Hersteller und Preisspannen im Kontext der jeweiligen Warengruppe und zeigt sie gruppiert im Filter an der linken Seite der Detailansicht für Warengruppen. 
 
-> {% hint style="info" %}
-> **Preis** und **Hersteller** bzw. **Marke** sind *implizite* Atttribute und werden immer ganz oben im Filter Widget angezeigt. Sie müssen keine Attribute für diese Eigenschaften angeben! Die verfügbaren Kriterien für **Preis** können in der **Warengruppenkonfiguration** bearbeitet werden **> Allgemein > Preisfilter**.
-  {% endhint %}
+{% hint style="info" %}
+**Preis** und **Hersteller** bzw. **Marke** sind *implizite* Atttribute und werden immer ganz oben im Filter Widget angezeigt. Sie müssen keine Attribute für diese Eigenschaften angeben! Die verfügbaren Kriterien für **Preis** können in der **Warengruppenkonfiguration** bearbeitet werden **> Allgemein > Preisfilter**.
+{% endhint %}
 
 ![](./attachments/2022-11-14%2010_20_45-Mein%20Shop.%20Sports.png)
 

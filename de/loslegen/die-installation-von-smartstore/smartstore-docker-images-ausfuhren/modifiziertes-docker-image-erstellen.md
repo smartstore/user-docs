@@ -7,8 +7,9 @@
 
 Nehmen wir an, wir möchten das [Smartstore Community Edition Docker Image](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux) verwenden, haben aber ein selbst entwickeltes Plugin oder ein Plugin eines Drittanbieters, das wir ebenfalls verwenden möchten. Wie bekommen wir das neue Plugin in das Docker-Image?
 
-> [!INFO]
-> Das Beispiel wird unter Windows ausgeführt, aber unter Linux wird es ähnlich sein.
+{% hint style="info" %}
+Das Beispiel wird unter Windows ausgeführt, aber unter Linux wird es ähnlich sein.
+{% endhint %}
 
 ### Download der Community Edition
 

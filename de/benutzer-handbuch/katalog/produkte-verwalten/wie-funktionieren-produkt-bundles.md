@@ -6,9 +6,9 @@ Bundling bedeutet, dass mehrere Produkte als Set, als sogenanntes Bundle verkauf
 
 Stellen Sie sich vor, Sie möchten eine Videospielkonsole in Kombination mit zwei drahtlosen Gamepads und einem Videospiel anbieten. Um dies zu konfigurieren, legen Sie ein neues Produkt vom **Produkttyp:** **Produkt-Bundle** an. Sie finden diese Einstellung in der Registerkarte **Allgemein**. Sobald Sie das Produkt gespeichert haben, finden Sie eine neue Registerkarte mit dem Namen **Stückliste**, in welcher Sie dem Bundle existierende Produkte aus Ihrem Katalog hinzufügen können. 
 
-> {% hint style="info" %}
-> Um Verkaufsanreize zu schaffen, sollte der Preis des Bundles natürlich niedriger sein, als der Preis, den der Kunde zahlen würde, wenn er die Bestandteile des Bundles einzeln kaufen würde.
-  {% endhint %}
+{% hint style="info" %}
+Um Verkaufsanreize zu schaffen, sollte der Preis des Bundles natürlich niedriger sein, als der Preis, den der Kunde zahlen würde, wenn er die Bestandteile des Bundles einzeln kaufen würde.
+{% endhint %}
 
 ![](./attachments/2022-10-20%2010_01_39-Produktdetails%20_%20Smartstore%20Administration.png)
 
@@ -21,9 +21,9 @@ Ein Produkt, das einem Bundle zugeordnet wurde, wird als Bundle-Bestandteil beze
 3. Klicken Sie auf **Übernehmen**. Die ausgewählten Produkte werden nun als Produkt-Bundle dargestellt.
 4. Sie können die Zuweisung von Produkten aufheben, indem Sie bei dem betreffenden Bundle-Bestandteil auf **Löschen** klicken.
 
-> {% hint style="info" %}
-> Alle einfachen Produkte bis auf jene, die wiederkehrende Zahlungen und Downloads erfordern, können Teil eines Bundles sein. Gruppenprodukte und Bundles können nicht zu Bundles zusammengefasst werden. Ein Produkt-Bundle hat keine eigenen Attribute. Bitte beachten Sie, dass ein Produkt mehrfach zu einem Bundle hinzugefügt werden kann und jeder Bundle-Bestandteil einzeln konfiguriert werden kann . Das kann in Verbindung mit Attributen nützlich sein.
-  {% endhint %}
+{% hint style="info" %}
+Alle einfachen Produkte bis auf jene, die wiederkehrende Zahlungen und Downloads erfordern, können Teil eines Bundles sein. Gruppenprodukte und Bundles können nicht zu Bundles zusammengefasst werden. Ein Produkt-Bundle hat keine eigenen Attribute. Bitte beachten Sie, dass ein Produkt mehrfach zu einem Bundle hinzugefügt werden kann und jeder Bundle-Bestandteil einzeln konfiguriert werden kann . Das kann in Verbindung mit Attributen nützlich sein.
+{% endhint %}
 
 ## Möglichkeiten, ein Bundle zu steuern
 

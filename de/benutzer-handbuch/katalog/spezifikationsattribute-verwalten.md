@@ -28,10 +28,11 @@ Sie könnten die oben aufgeführten Informationen in einer langen Produktbeschr
 
 Sie können neue Spezifikationsattribute hinzufügen, indem Sie zu **Katalog > Spezifikations Attribute**. navigieren. Die Attribute, die Sie hinzufügen, sind systemweit in Ihrem Shop verfügbar und können **jedem** Produkt in der Produktdetailansicht in der Registerkarte Spezifikationsattribute verliehen werden. Wenn Sie Spezifikationsattribute erstellen, können Sie den **Anzeigenamen** für jede Sprache, die Sie in Ihrem Shop angelegt haben, festlegen. Gleiches gilt für die Anzeigereihenfolge, der Attribute im Frontend. Sobald Sie ein Spezifikationsattribut erstellt haben, können Sie die Optionen hinzufügen, die verfügbar werden, wenn man die Spezifikation eines Produkts konfiguriert. Gehen Sie dafür auf die Registerkarte **Optionen** und klicken Sie auf **Option hinzufügen**. Hier können Sie lokalisierte **Optionsnamen** und **Reihenfolge** festlegen.
 
-> {% hint style="info" %}
-> ### Tip
-> Wenn Sie mehrere Werte auf einmal hinzufügen möchten, trennen Sie diese durch ein Semikolon und klicken Sie auf das Kästchen **Mehrere, durch Semikolon (;) getrennte Optionsnamen eingeben**. Wenn Sie Ihre Optionen speichern, wird eine Option für jeden durch Semikolon getrennten Wert erstellt.
-  {% endhint %}
+{% hint style="info" %}
+### Tip
+Wenn Sie mehrere Werte auf einmal hinzufügen möchten, trennen Sie diese durch ein Semikolon und klicken Sie auf das Kästchen **Mehrere, durch Semikolon (;) getrennte Optionsnamen eingeben**. Wenn Sie Ihre Optionen speichern, wird eine Option für jeden durch Semikolon getrennten Wert erstellt.
+{% endhint %}
+
 ## Spezifikationsattribute Produkten zuordnen
 
 Nachdem Sie die Spezifikationsattribute eingerichtet haben, können Sie diese Ihren Produkten zuordnen. Die Zuordnung kann in der Registerkarte **Spezifikations Attribute** in der Produktdetailkonfiguration vorgenommen werden.

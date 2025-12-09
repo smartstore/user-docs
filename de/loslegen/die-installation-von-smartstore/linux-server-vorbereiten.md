@@ -22,8 +22,9 @@ Um die Dokumentation zu vereinfachen, werden wir uns nur mit der Linux-Distribut
 
 ## .NET und andere Voraussetzungen
 
-> [!INFO]
-> Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein.
+{% hint style="info" %}
+Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein.
+{% endhint % }
 
 Um .NET Runtime 7 zu installieren, führen Sie bitte den folgenden Befehl in der Kommandozeile aus:
 
@@ -97,8 +98,9 @@ Wir gehen davon aus, dass die ufw (**u**ncomplicated **f**ire**w**all) installie
 
 `sudo ufw app list`
 
-> [!INFO]
-> Hinweis: Wenn der Befehl mit `sudo: ufw: command not found` zurückgegeben wird, dann ist keine Firewall installiert und dieser Punkt kann übersprungen werden oder die Firewall muss installiert werden.
+{% hint style="info" %}
+Hinweis: Wenn der Befehl mit `sudo: ufw: command not found` zurückgegeben wird, dann ist keine Firewall installiert und dieser Punkt kann übersprungen werden oder die Firewall muss installiert werden.
+{% endhint %}
 
 Üblicherweise sind drei NGINX-Profile verfügbar:
 
@@ -359,14 +361,16 @@ Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WantedBy=multi-user.target
 ```
 
-> [!INFO]
-> Passen Sie ggf. die Pfade in `WorkingDirectory` und `ExecStart` an.
+{% hint style="info" %}
+Passen Sie ggf. die Pfade in `WorkingDirectory` und `ExecStart` an.
+{% endhint % }
 
-> [!INFO]
-> Code für **framework-abhängige** Bereitstellung:
-> `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll`
-> Code für die **eigenständige** Bereitstellung:
-> `ExecStart=/var/www/html/Smartstore.Web`
+{% hint style="info" %}
+Code für **framework-abhängige** Bereitstellung:
+`ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll`
+Code für die **eigenständige** Bereitstellung:
+`ExecStart=/var/www/html/Smartstore.Web`
+{% endhint % }
 
 ### Aktivieren und Starten des Dienstes
 
@@ -378,8 +382,9 @@ Dienst starten:
 
 `sudo systemctl start kestrel-smartstore.service`
 
-> [!INFO]
-> Um den Dienst zu stoppen: `sudo systemctl stop kestrel-smartstore.service`
+{% hint style="info" %}
+Um den Dienst zu stoppen: `sudo systemctl stop kestrel-smartstore.service`
+{% endhint %  }
 
 ### Einstellen der Ordnerberechtigungen
 

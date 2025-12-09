@@ -19,9 +19,9 @@ Kopieren des Plug-in-Ordners `My.Module.DoesSomething` vom Host in den Modules-O
 
 `docker cp My.Module.DoesSomething web:/app/Modules`
 
-> {% hint style="info" %}
-> `web` ist der Name des Containers.
-  {% endhint %}
+{% hint style="info" %}
+`web` ist der Name des Containers.
+{% endhint %}
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -103,9 +103,9 @@ Hier ist ein Beispiel:
 
 ![](./attachments/j1OuVV6xv2.png)
 
-> {% hint style="info" %}
-> Wenn nichts eingerichtet ist, werden die Daten in einer "Zwischenschicht" im Container gespeichert und gehen verloren, wenn der Container entfernt wird.
-  {% endhint %}
+{% hint style="info" %}
+Wenn nichts eingerichtet ist, werden die Daten in einer "Zwischenschicht" im Container gespeichert und gehen verloren, wenn der Container entfernt wird.
+{% endhint %}
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 

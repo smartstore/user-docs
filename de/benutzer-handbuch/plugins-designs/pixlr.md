@@ -24,9 +24,9 @@ Die Pixlr Funktionalität ist ab Smartstore v6 im MedienManager integriert. Dazu
 
 Beide Varianten öffnen den Pixlr-Editor, der eine Vielzahl von Editierungsmöglichkeiten zulässt.
 
-> {% hint style="warning" %}
-> Da der Editor von Pixlr selbst angeboten wird, können wir nicht alle Funktionen auflisten oder Fragen dazu beantworten. Informieren Sie sich bitte auf der [Pixlr-Webpage](https://pixlr.com/de/) und kontaktieren Sie den [Pixlr-Support](https://pixlr.com/support/) bei Fragen.
-  {% endhint %}
+{% hint style="warning" %}
+Da der Editor von Pixlr selbst angeboten wird, können wir nicht alle Funktionen auflisten oder Fragen dazu beantworten. Informieren Sie sich bitte auf der [Pixlr-Webpage](https://pixlr.com/de/) und kontaktieren Sie den [Pixlr-Support](https://pixlr.com/support/) bei Fragen.
+{% endhint %}
 
 Nachdem Sie das Bild in Pixlr gespeichert haben, erscheint ein Smartstore-Dialog. Dieser bietet die Möglichkeit die alte Datei zu überschreiben, oder eine neue Datei unter neuem Namen anzulegen. Nachdem Sie eine Auswahl getroffen haben, befindet sich das bearbeitete Bild im MedienManager und kann überall verwendet werden.
 

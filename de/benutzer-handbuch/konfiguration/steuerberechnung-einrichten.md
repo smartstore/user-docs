@@ -22,9 +22,10 @@ Der Provider **Fester Steuersatz** erlaubt Ihnen, einen festen Steuersatz für
 
 Der Provider **Steuer nach Region** erlaubt Ihnen, Steuersätze aufgrund von Adressangaben des Kunden wie **Land, Bundesland oder Postleitzahl** für alle eingestellten **Steuerklassen** festzulegen. Der Steuersatz, der für eine  **Steuerklasse** eingerichtet wurde, wird für Produkte verwendet, die dieser Steuerklasse zugeordnet wurden. Da es in den USA für jeden Bundesstaat unterschiedliche Steuerklassen gibt, sollten Sie **Steuer nach Region** zur Konfiguration von Steuersätzen einstellen, falls Ihr Shop in den USA ansässig ist. 
 
-> {% hint style="info" %}
-> Wenn Sie **Steuerklassen** für unterschiedliche Regionen anlegen, können Sie eine Postleitzahl als spezifischen Wert oder als Spanne (z. B. 4000 - 4999) angeben. Sie können auch Wildcard-Platzhalter wie \* oder ? eingeben. Wenn das PLZ-Feld leer lassen, gilt der Steuersatz für alle Postleitzahlen des jeweiligen Bundesstaats/ der jeweiligen Provinz. ANMERKUNG: Der geringste Wert und der höchste Wert müssen über die gleiche Anzahl an führenden Null-Stellen verfügen ("0100-0999" ist gültig, während "0010-0999" ungültig ist)
-  {% endhint %}
+{% hint style="info" %}
+Wenn Sie **Steuerklassen** für unterschiedliche Regionen anlegen, können Sie eine Postleitzahl als spezifischen Wert oder als Spanne (z. B. 4000 - 4999) angeben. Sie können auch Wildcard-Platzhalter wie \* oder ? eingeben. Wenn das PLZ-Feld leer lassen, gilt der Steuersatz für alle Postleitzahlen des jeweiligen Bundesstaats/ der jeweiligen Provinz. ANMERKUNG: Der geringste Wert und der höchste Wert müssen über die gleiche Anzahl an führenden Null-Stellen verfügen ("0100-0999" ist gültig, während "0010-0999" ungültig ist)
+{% endhint %}
+
 ![](./attachments/steuer-1.PNG)
 
 ## Steuereinstellungen
@@ -71,13 +72,14 @@ Wenn ein Kunde eine Umsatzsteuer ID eingibt, erhalten Sie eine Benachrichtigung 
 
 Unter **Konfiguration > Regionale Einstellungen > Länder** können Sie festlegen, welche der in Ihrem Shop aktivierten Länder den EU-Vorschriften unterliegen. 
 
-> {% hint style="info" %}
-> Wenn der Sitz Ihres Shops innerhalb der EU liegt und Sie Produkte in andere Länder der EU verkaufen, empfehlen wir Ihnen die letzten fünf Einstellungen im Konfigurationsbereich der Steuer-Einstellungen zu aktivieren.
-  {% endhint %}
+{% hint style="info" %}
+Wenn der Sitz Ihres Shops innerhalb der EU liegt und Sie Produkte in andere Länder der EU verkaufen, empfehlen wir Ihnen die letzten fünf Einstellungen im Konfigurationsbereich der Steuer-Einstellungen zu aktivieren.
+{% endhint %}
+
 ## B2B Szenarien
 
 Wenn Sie Produkte an andere Unternehmen verkaufen, müssen Sie die Mehrwertsteuer nicht in Ihrer Preisanzeige aufführen. Daher kann die Option  **Mehrwertsteueranzeige** auf **Exkl. Mehrwertsteuer** gestellt werden. Wenn Sie an Endkunden und Unternehmen verkaufen, können Sie die Einstellung auch im Bereich der Kundengruppen vornehmen. Um dies zu tun, gehen Sie zu **Kunden > Kundengruppen > Steueranzeige** . Diese Einstellung wird die Einstellungen, die Sie unter **Steuer-Einstellungen** vorgenommen haben, überschreiben. Gleiches gilt für die Einstellung **Mehrwertsteuer frei** . Die Einstellung  **Mehrwertsteuer frei**  kann auch im Konfigurationsbereich für einzelne Kunden vorgenommen werden, was wiederum die Einstellungen der Kundengruppen überschreibt.
 
-> {% hint style="info" %}
-> Wenn Sie Preise im Frontend anzeigen, die von der Einstellung der Preiseingabe im Backend abweicht (z. B. **Preise inkl. Mehrwertsteuer** = aktiviert & **Mehrwertsteueranzeige** \= **Exkl. Mehrwertsteuer**) , kann es zu Rundungsfehler kommen. In diesem Fall empfehlen wir die Aktivierung der Option **Konfiguration > Einstellungen > Warenkorb-Einstellungen > Preise bei der Berechnungen runden**.
-  {% endhint %}
+{% hint style="info" %}
+Wenn Sie Preise im Frontend anzeigen, die von der Einstellung der Preiseingabe im Backend abweicht (z. B. **Preise inkl. Mehrwertsteuer** = aktiviert & **Mehrwertsteueranzeige** \= **Exkl. Mehrwertsteuer**) , kann es zu Rundungsfehler kommen. In diesem Fall empfehlen wir die Aktivierung der Option **Konfiguration > Einstellungen > Warenkorb-Einstellungen > Preise bei der Berechnungen runden**.
+{% endhint %}
