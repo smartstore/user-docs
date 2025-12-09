@@ -1,4 +1,3 @@
-# Tipps & Tricks
 
 # Beste Vorgehensweisen
 

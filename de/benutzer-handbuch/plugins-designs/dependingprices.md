@@ -1,4 +1,3 @@
-# DependingPrices
 
 Mit diesem Plugin lassen sich kundenindividuelle Preise auf Basis von Kundengruppen, Kundennummern, Shop, Sprache und Menge abbilden.
 

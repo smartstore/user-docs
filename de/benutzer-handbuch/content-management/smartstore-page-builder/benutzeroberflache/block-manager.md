@@ -1,4 +1,3 @@
-# Block-Manager
 
 Im Block-Manager rechts neben Ihrer Story, sehen Sie alle in der Story platzierten [*Blöcke*](../../smartstore-page-builder/blocke.md) übersichtlich aufgelistet. Der Block-Manager bietet die Möglichkeit Blöcke zu bearbeiten, die Reihenfolge anzupassen und die Darstellung des Blockes zu aktivieren oder zu deaktivieren. 
 

@@ -1,4 +1,3 @@
-# Block-Basiseinstellungen
 
 Blöcke verfügen über gemeinsame Basiseinstellungen. Diese sind in der oberen Leiste in den Block-Aktionen zu finden: *Allgemein*, *Hintergrund*, *Box*, *Effekte* und *Erweitert*.
 

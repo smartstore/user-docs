@@ -1,4 +1,3 @@
-# Responsive Darstellung
 
 # Mobile First
 

@@ -1,4 +1,3 @@
-# AttributeRules (Regeln für Produktattribute)
 
 # Regeln
 

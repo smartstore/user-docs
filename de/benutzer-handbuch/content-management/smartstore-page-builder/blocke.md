@@ -1,4 +1,3 @@
-# Blöcke
 
 # Blöcke Übersicht
 

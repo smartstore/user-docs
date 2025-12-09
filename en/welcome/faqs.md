@@ -1,4 +1,3 @@
-# FAQs
 
 # Docker
 

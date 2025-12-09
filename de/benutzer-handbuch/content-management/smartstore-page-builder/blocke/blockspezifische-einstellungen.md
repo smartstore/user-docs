@@ -1,4 +1,3 @@
-# Blockspezifische Einstellungen
 
 # Text
 

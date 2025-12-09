@@ -1,4 +1,3 @@
-# Datenbindung
 
 Ermöglicht es, Produkte, Warengruppen und Hersteller an einen Block zu binden. Dadurch können aktuelle Daten dieser Shop-Entitäten wie Produktname, Preis oder Beschreibung mithilfe von Platzhaltern innerhalb eines Blockes angezeigt werden. Zudem ist es möglich, den Block mit der gewünschten Shopseite zu verlinken.
 

@@ -1,4 +1,3 @@
-# Für Entwickler
 
 # Entwicklung von Blöcken
 

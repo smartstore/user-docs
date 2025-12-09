@@ -1,4 +1,3 @@
-# Glossar
 
 # Größeneinheiten
 
