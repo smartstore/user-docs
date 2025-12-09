@@ -21,6 +21,7 @@ Die Datei, die Sie hochgeladen haben, kann durch Ihre Kunden nach erfolgreicher 
 
 Wenn Sie möchten, dass Ihre Kunden einer **Benutzervereinbarung** zustimmen müssen, bevor sie die erworbene Datei herunterladen können, müssen Sie diese Funktion durch das Anklicken des Kästchens **Hat Benutzervereinbarung** aktivieren und den Text, dem die Kunden zustimmen müssen, in das entsprechende Feld eingeben. Dieser Text wird Nutzern angezeigt, sobald sie auf den Download-Link klicken, und sie müssen diesem Text zustimmen, indem sie ein Kästchen markieren und **Bestätigen** klicken.
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Versand erforderlich deaktivieren
 > Vergessen Sie nicht die Option **Versand erforderlich** für digitale Produkte, die nicht verschickt werden müssen, zu deaktivieren. In diesem Fall müssen Sie den Auftrag nicht manuell auf **Komplett** stellen. Der Auftrag wird diesen Status automatisch erhalten, sobald er als **Bezahlt** markiert ist.
+> {% endhint %}

@@ -21,8 +21,9 @@ In der Liste können Sie ein Profil direkt ausführen, indem Sie **Jetzt ausfüh
 
   
 
-> [!INFO]
+> {% hint style="info" %}
 > Wenn Sie die exportierten CSV-Dateien in Excel editieren möchten, dann importieren Sie sie bitte über **Daten** - **Aus Text/CSV** - **Daten transformieren**. Bei **angewendete Schritte** löschen Sie bitte den Eintrag **Geänderter Typ**. Zuletzt **Schließen und laden**. Excel erkennt Dezimal- und Tausendertrennzeichen nicht korrekt und würde ohne diese Schritte Währungswerte wie z.B. Produktpreise falsch laden.
+  {% endhint %}
 
 ## Exportprofile erstellen und bearbeiten
 
@@ -59,8 +60,9 @@ In dieser Registerkarte können Sie die Filtereinstellungen vornehmen, die die M
 
 In dieser Registerkarte geben Sie die Einstellungen ein, die auf den Export sowie die zu exportierenden Daten projeziert werden.
 
-> [!INFO]
+> {% hint style="info" %}
 > Einige dieser Einstellungen sind aus technischen Gründen in der Vorschau nicht zu sehen. Sie haben nur einen Einfluss auf den tatsächlichen Export.
+  {% endhint %}
 
 ### Konfiguration
 
@@ -86,8 +88,9 @@ Legt das Muster fest, nach dem Dateinamen erzeugt werden. Der Button **Beispiel*
 | %Random.Number% | Eine zufällige Nummer. |
 | %Timestamp% | Ein UTC Zeitstempel. |
 
-> [!INFO]
+> {% hint style="info" %}
 > Platzhalter sollen die Erstellung eindeutiger Dateinamen vereinfachen. Achten Sie darauf, Muster zu vermeiden, die zu nicht-eindeutigen Namen führen und somit Konflikte hervorrufen.
+  {% endhint %}
 
 ZIP-Archiv erstellen
 
@@ -101,9 +104,9 @@ E-Mail Benachrichtigung
 
 Legt die E-Mail Adresse fest, an welche eine Benachrichtigung über die Fertigstellung des Exports verschickt werden soll. Sie können hier auch mehrere Email Adressen angeben.
 
-> [!INFO]
+> {% hint style="info" %}
 > System-Exporte (wie Produkt- oder Kategorie-Exporte) senden stets eine E-Mail-Benachrichtigung .
-
+  {% endhint %}
   
 
   
@@ -168,5 +171,6 @@ Klicken Sie auf **Vorschau,** um auf die Vorschau-Seite zu gelangen. Die Export
 
 Sie können den Exportvorgang hier auch direkt starten. Sie können nicht nur alle Daten exportieren, sondern auch einzelne Einträge auswählen, um diese zu exportieren.
 
-> [!INFO]
+> {% hint style="info" %}
 > Einige Projektions-Einstellungen werden aus technischen Gründen nicht in der Vorschau angezeigt, Sie werden ausschließlich den tatsächlichen Export angewendet.
+  {% endhint %}

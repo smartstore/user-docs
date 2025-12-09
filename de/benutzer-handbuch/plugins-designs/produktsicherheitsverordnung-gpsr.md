@@ -22,8 +22,9 @@ Mit dem GPSR-Plugin können erweiterte Produktinformationen angegeben werden, di
 | Hintergrundfarbe Herstellerinformationen | Legt die Hintergrundfarbe der Hinweis-Box fest, in der die Herstellerinformationen angezeigt werden. Leer lassen, wenn der Hersteller nicht in einer Hinweis-Box angezeigt werden soll. |
 | Nur den ersten Hersteller berücksichtigen | Legt fest, ob nur die Informationen des ersten dem Produkt zugeordneten Herstellers angezeigt werden sollen. Wenn deaktiviert, werden die Informationen aller zugeordneten Hersteller angezeigt. |
 
-> [!INFO]
+> {% hint style="info" %}
 > Die in diesem Artikel angeführten Beispiele sind weder rechtsverbindlich noch rechtskonform. Sie dienen lediglich der Erläuterung und Anwendung.
+  {% endhint %}
 
 ## Herstellerdaten anzeigen
 
@@ -60,8 +61,9 @@ Warnungs- und Sicherheitshinweise können als Textbausteine manuell, oder automa
 | Titel |     | Gaming Product Safety Regulation |
 | Text |     | Wichtiger Hinweis: Sollten Sie feststellen, dass Ihre Reflexe besser, Ihre Konzentration gesteigert und Ihre Hand-Augen-Koordination übermenschlich präzise ist – machen Sie weiter, aber denken Sie daran: der Abwasch macht sich nicht von selbst! |
 
-> [!INFO]
+> {% hint style="info" %}
 > Auch Medien, wie Bilder und PDFs lassen sich problemlos über Textbausteine per Link in HTML einbinden.
+  {% endhint %}
 
 ## Textbausteine zuweisen
 

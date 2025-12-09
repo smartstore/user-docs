@@ -59,9 +59,10 @@ Zusätzlich können unter der Registerkarte Preis auch Produktrabatte zugeordnet
 
 In dieser Registerkarte können Sie die Bilder für die Produktansicht hinterlegen. Das Produkt **Hauptbild** wird in Produktlisten überall dort angezeigt, wo Thumbnails von Produkten auftauchen, so zum Beispiel die Übersicht für die Produktkategorie oder die Produktliste im Warenkorb. Alle anderen Bilder werden in der von Ihnen festgelegten **Reihenfolge** im Thumbstrip unter dem Standardbild und in der Gallerie im Frontend Ihres Shops angezeigt. Für weitere Informationen über den Upload von Bildern, lesen Sie [Bilder hochladen](../../../benutzer-handbuch/allgemeine-konzepte/bilder-hochladen.md).
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Nutzen Sie freigestellte Grafiken
 > In der Produktgallerie sehen freigestellte Grafiken viel besser aus.
+  {% endhint %}
 
 ### Registerkarte Warengruppen
 

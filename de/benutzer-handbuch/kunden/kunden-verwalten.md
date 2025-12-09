@@ -22,7 +22,7 @@ Indem Sie in der Tabelle auf eine E-Mail-Adresse oder den **Bearbeiten**\-Link 
 | Affiliate | Wenn der Kunde durch ein Partnerprogramm zu Ihnen kam, wird der verknüpfte Affiliate hier verzeichnet, so dass Sie ihn direkt ansteuern können. Für weitere Informationen zu Partnerprogrammen lesen Sie bitte [Partnerprogramme verwalten](../../benutzer-handbuch/marketing-promotion/partnerprogramme-verwalten.md). |
 | Zuletzt besuchte Seite | Zuletzt vom Kunden besuchte Seite. |
 
-> [!INFO]
+> {% hint style="info" %}
 > Felder wie **Geschlecht, Geburtsdatum, Unternehmen** und viele andere werden nur in der Registerkarte Benutzerinformation angezeigt, wenn sie in den **Kunden-Einstellungen** aktiviert wurden. Für weitere Informationen zu Kunden-Einstellungen lesen Sie bitte [Kunden-Einstellungen](../../benutzer-handbuch/konfiguration/einstellungen/kunden-einstellungen.md).
 
 ### Registerkarte Kundengruppen

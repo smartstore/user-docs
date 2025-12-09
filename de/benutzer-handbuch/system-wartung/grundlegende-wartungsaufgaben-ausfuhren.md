@@ -18,6 +18,7 @@ Wenn Sie Feeds erstellen, die von Vergleichsportalen und Suchmaschinen aufgegrif
 
 Manchmal möchten Sie eventuell SQL-Abfragen direkt gegen die Datenbank ausführen. Um dies zu tun, geben Sie den SQL-Befehl direkt in das dafür vorgesehene Textfeld ein und drücken auf **Ausführen**.
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Vorsicht
 > Seien Sie sehr vorsichtig mit dieser Funktion! Sie können damit die Struktur Ihrer Datenbank zerstören.
+  {% endhint %}

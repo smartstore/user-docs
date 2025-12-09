@@ -6,9 +6,9 @@ Mit Hilfe von Gruppenprodukten können Sie mehrere Produkte auf einer einzelnen
 - Leichteres Auffinden ähnlicher Produkte und somit mehr Verkäufe.
 - Mehr Verkäufe, wenn der Kunde nützliche, notwendige oder wünschenswerte Produkte auf der gleichen Seite entdeckt.
 
-> [!INFO]
+> {% hint style="info" %}
 > Wenn Sie ein Einzelprodukt mit einem Gruppenprodukt verbinden, können Sie festlegen, ob das Einzelprodukt **lndividuell** (oder lediglich auf der Gruppenprodukt-Seite) sichtbar ist. Ein Produkt, das nicht **individuell sichtbar** ist, wird weder in Suchergebnissen noch in Produktlisten von Warengruppen angezeigt.
-
+  {% endhint %}
 ## Anwendungsszenario
 
 Stellen Sie sich vor, Sie möchten eine Videospielkonsole verkaufen. Wenn jemand daran interessiert, diese online zu kaufen, ist er vielleicht auch an folgenden Produkten interessiert:
@@ -36,5 +36,6 @@ Produkte einem Gruppenprodukt zuweisen
 5. Sie können die Anzeigereihenfolge der verknüpften Produkte auf der Gruppenprodukt-Seite verändern, indem Sie auf **Bearbeiten** klicken und die Reihenfolge verändern.  
   
 
-> [!INFO]
+> {% hint style="info" %}
 > Ein Produkt kann nur mit einem Gruppenprodukt verbunden werden.
+> {% endhint %}

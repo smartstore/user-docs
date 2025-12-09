@@ -2,10 +2,10 @@
 
 Smartstore ermöglicht Ihnen den Import und Export Ihrer Produktdaten in unterschiedlichen Formaten. Wenn Sie bereits eine Datenbank haben, die den Produktkatalog, den Sie online anbieten möchten, enthält, dann wollen Sie natürlich nicht alle Daten manuell erneut eingeben, sondern diese automatisch importieren. Ein verbreitetes Datenformat für strukturierte Daten ist CSV (delimiter separated values). CSV-Exporte können beispielsweise durch Excel bearbeitet werden.
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Export Plugins
 > Ein Datenexport erfordert einen Export-Provider, der Smartstore mitteilt, in welchem Format die Daten ausgegeben werden sollen. Export-Provider werden im allgemeinen durch Plugins bereit gestellt. Sie können diese im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) beziehen.
-
+  {% endhint %}
 ## Export
 
 Sie können Ihre Produktdaten in XML, CSV oder PDF exportieren. Bei einem PDF-Export können Sie die Daten all Ihrer Produkte oder ausgewählter Produkte in einen visuell ansprechenden PDF-Katalog exportieren. Für weitere Informationen zum PDF-Format lesen Sie bitte [Als PDF herunterladen](../../../benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md).
@@ -16,9 +16,10 @@ Sie können Produktdaten importieren, indem Sie ein Importprofil nutzen. Um ein 
 
 Das Importprofil lässt Sie CSV-Dateien und auch Excel-Dateien hochladen, die die zu importierenden Katalogdaten enthalten. Um neue Produkte zu importieren, ist die Spalte **Name** das einzig erforderliche Feld, das einen Wert enthalten muss. Wenn Sie Ihre vorhandenen Produktdaten aktualisieren möchten, benötigen Sie zwingend Werte in den Feldern **SKU, GTIN (EAN), Herstellernummer** oder **ID.** Diese werden genutzt, um vorhandene Daten in Ihrem Katalog zu erkennen. Wenn ein Produkt mit einem dieser eindeutigen Schlüsselfelder gefunden wird, wird es aktualisiert. Wenn kein Produkt gefunden wird und ein Wert in der Spalte **Name** angegeben ist, wird ein neues Produkt erstellt und die Daten der Zeile werden entsprechend importiert. Eine vollständige Liste von Werten, die importiert werden, finden Sie in der unten stehende Liste. 
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Felder mit IDs formatieren
 > Felder, die IDs enthalten können mehrere Werte enthalten, die durch | getrennt werden. (z.B.: CategoryIds, StoreIds)
+  {% endhint %}
 
 ### Allgemein
 

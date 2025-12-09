@@ -4,8 +4,9 @@ Es gibt unterschiedliche Elemente im Frontend Ihres Shops, die aus Performance-G
 
 ![](./attachments/cache-loeschen.PNG)
 
-> [!INFO]
+> {% hint style="info" %}
 > Folgende Cache-Typen gibt es zusätzlich in Smartstore.
+  {% endhint %}
 
 ### Datenbank Cache
 

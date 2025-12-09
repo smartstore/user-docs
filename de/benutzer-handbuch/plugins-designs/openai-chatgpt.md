@@ -14,5 +14,6 @@ Ermöglicht die Erstellung von Texten und Bildern mit den generativen Sprachmode
 | Sampling-Temperatur |     |
 | TopP |     |
 
-> [!INFO]
+> {% hint style="info" %}
 > Das OpenAI ChatGPT Plugin ist nur die KI-Schnittstelle, die eigentliche Arbeit macht das AI Plugin.
+  {% endhint %}

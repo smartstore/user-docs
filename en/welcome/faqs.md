@@ -20,8 +20,9 @@ Copying a Plug-in-Folder `My.Module.DoesSomething` into the Modules folder `/app
 
 `docker cp My.Module.DoesSomething web:/app/Modules`
 
-> [!INFO]
+> {% hint style="info" %}
 > `web` ist the container name
+  {% endhint %}
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -98,8 +99,9 @@ Here is an example:
 
 ![](./attachments/j1OuVV6xv2.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > If nothing is set up, data is stored in an "intermediate layer" in the container and is lost when the container is removed.
+  {% endhint %}
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 

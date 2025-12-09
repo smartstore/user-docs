@@ -24,9 +24,10 @@ Um die Auswertung übersichtlich zu halten, stehen verschiedene Zeiträume zur V
 
 ![IncompleteOrders.png](./attachments/IncompleteOrders.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > **Hinweis zur Darstellung**: Die unvollständigen Aufträge werden in einem **Tortendiagramm** dargestellt. Die Segmente sind nach Status farblich unterteilt.
 > **Rot**: Nicht geliefert, **Sonnengelb**: Unbezahlt, **Blau**: Neu.
+  {% endhint %}
 
 ## Aufträge
 
@@ -35,9 +36,10 @@ Die Auswahl der Zeiträume erfolgt analog zu den **Unvollständigen Aufträgen**
 
 ![Orders.png](./attachments/Orders.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > **Hinweis zur Darstellung**: Die Daten werden in einem **Verlaufsdiagramm** visualisiert, dabei werden verschiedene Kurven zur Unterscheidung der Auftragsarten farblich hervorgehoben.  
 > **Blau**: Komplett, **Grün**: Wird bearbeitet, **Sonnengelb**: Unerledigt, **Grau**: Abgebrochen.
+  {% endhint %}
 
 ## Bestseller
 
@@ -45,8 +47,9 @@ Dieser Bereich zeigt die erfolgreichsten Produkte im Shop. Für jedes Produkt we
 
 ![Bestseller.png](./attachments/Bestseller.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > Wenn Sie auf den Link des Produktnamens klicken, erreichen Sie die **Produktdetailseite**.
+> {% endhint %}
 
 ## Top Kunden
 
@@ -54,8 +57,9 @@ Dieser Bereich zeigt die umsatzstärksten bzw. aktivsten Kunden im Shop. Angezei
 
 ![TopCustomers.png](./attachments/TopCustomers.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > Wenn Sie auf den Link des Kundennamens klicken, erreichen Sie die **Kunden-Seite**.
+> {% endhint %}
 
 ## Kundenregistrierungen
 
@@ -70,8 +74,9 @@ Dieser Bereich listet die zuletzt eingegangenen Aufträge auf. Zu jeder Bestellu
 
 ![LatestOrders.png](./attachments/LatestOrders.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > Wenn Sie auf den Link der Kundennummer bzw. des Auftragsstatus klicken, erreichen Sie die **Auftragsseite**. Der Link des Kundennamens führt zur **Kunden-Seite**.
+  {% endhint %}
 
 ## Statistiken
 

@@ -21,8 +21,9 @@ Ein zentrales Problem, das durch den Überlastungsschutz adressiert wird, ist di
 | **Überlastungsschutz aktivieren** | Wendet die definierten Richtlinien an. Wenn diese Option deaktiviert ist, werden keine Beschränkungen angewendet. |
 | **Wenn Sub-Request, "neue" Gäste blockieren** | Blockiert neue Gastbenutzer für untergeordnete Anfragen (z. B. AJAX, POST, Skripte, Mediendateien). Diese Einstellung verhindert, dass "Bad Bots", die keine Cookies akzeptieren und sich durch wechselnde IP-Adressen oder User-Agent-Strings tarnen, neue Gastsitzungen für untergeordnete Anfragen erzeugen. |
 
-> [!WARNING]
+> {% hint style="warning" %}
 > Änderungen an den Einstellungen für **Besucherlimit** und **Lastspitzen** werden erst nach einem Neustart der Anwendung wirksam.
+  {% endhint %}
 
 ## Besucherlimit (Langzeitüberwachung)
 
@@ -46,6 +47,7 @@ Diese Einstellungen werden bei plötzlichen Traffic-Spitzen über einen sehr kur
 | **Bot-Grenzwert** | Maximale Anzahl von Bots innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung. |
 | **Globaler Grenzwert** | Kombiniertes Limit für Gäste und Bots. Wenn die kumulierten Anfragen beider Typen dieses Limit überschreiten, werden weitere Anfragen abgewiesen. Ein leerer Wert bedeutet: kein Limit. |
 
-> [!INFO]
+> {% hint style="info" %}
 > **Globaler Grenzwert**: Dieses Limit gilt unabhängig von den separaten Limits für Gäste und Bots.
 > Sobald dieses Limit erreicht ist, blockiert das System weitere Anfragen, auch wenn die anderen Limits nicht überschritten sind.
+> {% endhint %}

@@ -6,6 +6,7 @@ Als HTML-Editor wird *Summernote* benutzt.
 
 ![](./attachments/summernote_editor.png)
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Aufruf des HTML-Editors
 > Werden neue Produkte / Warengruppen erstellt öffnet sich der HTML-Editor nach dem Klick auf "Hier klicken, um HTML zu editieren..". Bei schon vorhandenen Inhalten wird der Editor mit einem Klick in das Langtext-Feld aufgerufen.
+> {% endhint %}

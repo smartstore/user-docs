@@ -46,8 +46,9 @@ Das Framework für den Import unterstützt folgende Objekttypen:
 | Anführungszeichen | Legt das zu verwendende Anführungszeichen fest. |
 | Inneres Anführungszeichen | Legt das innere Anführungszeichen (Escaping) fest. |
 
-> [!INFO]
+> {% hint style="info" %}
 > Die erste Zeile einer CSV-Datei muss die Spaltenüberschriften enthalten, die die Werte beschreiben welche in der Spalten enthalten sind.
+  {% endhint %}
 
 ### Zuordnung der Importfelder
 
@@ -57,5 +58,6 @@ Sie können optional für jedes Feld der Importdatei festlegen, ob und für welc
 
    
 
-> [!INFO]
+> {% hint style="info" %}
 > Durch Änderung des Trennzeichens werden gespeicherte Zuordnungen ungültig und zurückgesetzt.
+  {% endhint %}

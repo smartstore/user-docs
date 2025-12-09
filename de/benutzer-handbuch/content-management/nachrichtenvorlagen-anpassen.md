@@ -34,10 +34,11 @@ Liquid-Objekte werden immer durch doppelte geschweifte Klammern gekennzeichnet. 
 
 Wenn Sie Ihre Nachrichtenvorlage konfigurieren, möchten Sie vielleicht Informationen über den derzeitigen Vorgang, für den die Vorlage genutzt wird, der Nachricht hinzufügen. Wenn Sie beispielsweise an der Vorlage arbeiten, die Ihren Kunden darüber informiert, dass eine Bestellung erfolgreich eingegangen ist, sollten Sie auf jeden Fall die Auftragsnummer in die Mail schreiben. Aus diesem Grund gibt es Platzhalter. Sie können zur Verfügung stehende Platzhalter überall in Ihrer Vorlage platzieren, diese werden, bevor die Email verschickt wird, aufgelöst. Der Platzhalter für die Auftragsnummer sieht so aus: {{ Order.OrderNumber}}.
 
-> [!INFO]
+> {% hint style="info" %}
 > ### Platzhalter wählen
 > Um einen Platzhalter in Ihrer Vorlage einzufügen, können Sie den Cursor irgendwo im HTML-Editor platzieren und den gewünschten Platzhalter wie folgt beschrieben einfügen.  
 > An der gewünschten Stelle im Editor zwei sich öffnende geschweifte Klammern und direkt danach ein Leerzeichen eingeben und auf die Auswahl **Order** klicken. Danach einen Punkt eingeben und in der Auswahl die Option **OrderNumber** anklicken. Zum Abschluss die Änderungen speichern.
 > ![](./attachments/platzhalter-1.PNG)
 > ![](./attachments/platzhalter-2.PNG)
 > ![](./attachments/platzhalter-3.PNG)
+  {% endhint %}
