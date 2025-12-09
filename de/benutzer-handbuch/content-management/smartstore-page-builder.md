@@ -1,4 +1,3 @@
-# Smartstore Page Builder
 
 # Was ist der Page Builder?
 
