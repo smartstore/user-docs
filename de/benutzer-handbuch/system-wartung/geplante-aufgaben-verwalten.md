@@ -11,58 +11,23 @@ In Smartstore ist es häufig nötig, Aufgaben regelmäßig zu bestimmten Zeiten 
 
 Neben den Aufgaben, die Teil des Anwendungskerns sind, können Plugins von Drittherstellern ebenfalls eigene Aufgaben installieren, dazu gehört z. B. (externe) Daten regelmäßig abzufragen oder zu synchronisieren.
 
-  
-
-  
-{% columns %}
-{% column %}
-
-{% content-ref url="#die-liste-der-geplanten-aufgaben-aufrufen" %}
-[Die Liste der geplanten Aufgaben aufrufen](#die-liste-der-geplanten-aufgaben-aufrufen)
-{% endcontent-ref %}
-
-{% content-ref url="#eine-aufgabe-manuell-ausführen" %}
-[Eine Aufgabe manuell ausführen](#eine-aufgabe-manuell-ausführen)
-{% endcontent-ref %}
-
-{% content-ref url="#eine-aufgabe-bearbeiten" %}
-[Eine Aufgabe bearbeiten](#eine-aufgabe-bearbeiten)
-{% endcontent-ref %}
-
-{% endcolumn %}
-{% column %}
-
-{% content-ref url="#aufgabenarten" %}
-[Aufgabenarten](#aufgabenarten)
-{% endcontent-ref %}
-
-{% content-ref url="#cron-ausdruck" %}
-[Cron Ausdruck](#cron-ausdruck)
-{% endcontent-ref %}
-
-{% endcolumn %}
-{% endcolumns %}
-
-
-  
-
 ## Die Liste der geplanten Aufgaben aufrufen
 
-Geplante Aufgaben können eingesehen und verwaltet werden, indem Sie auf **System -> Geplante Aufgaben** gehen. 
+Geplante Aufgaben können eingesehen und verwaltet werden, indem Sie auf **System -> Geplante Aufgaben** gehen.
 
 ![](./attachments/geplante-aufgaben.PNG)
 
-Alle Aufgaben werden mit Informationen mit folgenden Überschriften angezeigt: 
+Alle Aufgaben werden mit Informationen mit folgenden Überschriften angezeigt:
 
-- **Aktiviert** \- Zeigt an, ob eine Aufgabe geplant ist oder deaktiviert wurde
-- **Cron Ausdruck** \- der Cron Ausdruck legt die Häufigkeit fest, in der eine Aufgabe durchgeführt wird
-- **Letzte Ausführung** \- Gibt an, wann die Aufgabe zuletzt durchgeführt wurde (Datum und Zeit, Dauer und mögliche Fehler)
-- **Nächste Ausführung in** \- Datum und Zeit, wann die Aufgabe das nächste Mal ausgeführt werden soll. Dieses Feld ist leer, wenn die Aufgabe deaktiviert wurde. Wenn die Aufgabe zur Zeit ausgeführt wird, wird stattdessen eine animierte Fortschrittsanzeige angezeigt. 
-- **Aktionen** \- Bietet Optionen, die Aufgabe zu bearbeiten, manuell auszuführen oder abzubrechen (wenn sie bereits läuft)
+- **Aktiviert** - Zeigt an, ob eine Aufgabe geplant ist oder deaktiviert wurde
+- **Cron Ausdruck** - der Cron Ausdruck legt die Häufigkeit fest, in der eine Aufgabe durchgeführt wird
+- **Letzte Ausführung** - Gibt an, wann die Aufgabe zuletzt durchgeführt wurde (Datum und Zeit, Dauer und mögliche Fehler)
+- **Nächste Ausführung in** - Datum und Zeit, wann die Aufgabe das nächste Mal ausgeführt werden soll. Dieses Feld ist leer, wenn die Aufgabe deaktiviert wurde. Wenn die Aufgabe zur Zeit ausgeführt wird, wird stattdessen eine animierte Fortschrittsanzeige angezeigt.
+- **Aktionen** - Bietet Optionen, die Aufgabe zu bearbeiten, manuell auszuführen oder abzubrechen (wenn sie bereits läuft)
 
 ## Eine Aufgabe manuell ausführen
 
-Um eine Aufgabe manuell auszuführen, gehen Sie zu **Geplante Aufgaben**, und wählen Sie unter **Aktionen** die Option  **Jetzt ausführen**.
+Um eine Aufgabe manuell auszuführen, gehen Sie zu **Geplante Aufgaben**, und wählen Sie unter **Aktionen** die Option **Jetzt ausführen**.
 
 ## Eine Aufgabe bearbeiten
 
@@ -71,34 +36,39 @@ Um eine geplante Aufgabe zu bearbeiten, wechseln Sie in die Ansicht *Aufgabe bea
 ![](./attachments/geplante-aufgaben-2.PNG)
 
 | Feld | Beschreibung |
-| --- | --- |
+| :--- | :--- |
 | Aktiviert | Aktiviert die geplante Ausführung gemäß Cron Ausdruck. Haken entfernen, um die geplante Aufgabe zu deaktivieren. Deaktivierte Aufgaben können weiterhin manuell ausgeführt werden. |
 | Bei Fehler deaktivieren | Aktivieren Sie das Kästchen, wenn die Aufgabe bei Auftreten eines Fehlers während der Ausführung deaktiviert werden soll. |
-| Cron Ausdruck | Ein Ausdruck, der den Zeitplan für die automatische Ausführung der Aufgabe festlegt. Lesen Sie [unten mehr](#GeplanteAufgabenverwalten-2-Cron) über Cron Ausdruck. |
-
-  
+| Cron Ausdruck | Ein Ausdruck, der den Zeitplan für die automatische Ausführung der Aufgabe festlegt. Lesen Sie [unten mehr](#cron-ausdruck) über Cron Ausdruck. |
 
 ## Aufgabenarten
 
 | Name der Aufgabe | Beschreibung | Standard Default Schedule |
-| --- | --- | --- |
-| E-Mail senden | Sendet alle E-Mails in der Warteschlange. Für weitere Informationen über die E-Mail-Warteschlange lesen Sie bitte [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue).  <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/-1157374962/6452/041baff351e38d4a7d3bb246b6744da43a5f6982/_/images/icons/emoticons/warning.png)<br><br> Wenn Sie diese Aufgabe deaktivieren, werden weder Sie noch Ihre Kunden E-Mails empfangen. | Einmal pro Minute |
+| :--- | :--- | :--- |
+| E-Mail senden | Sendet alle E-Mails in der Warteschlange. Für weitere Informationen über die E-Mail-Warteschlange lesen Sie bitte [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue). <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/-1157374962/6452/041baff351e38d4a7d3bb246b6744da43a5f6982/_/images/icons/emoticons/warning.png)<br><br> Wenn Sie diese Aufgabe deaktivieren, werden weder Sie noch Ihre Kunden E-Mails empfangen. | Einmal pro Minute |
 | E-Mail Queue bereinigen | Bereinigt die E-Mail-Warteschlange um E-Mail-Einträge, die bereits verarbeitet wurden, um Speicherplatz einzusparen. | Täglich um 02:00 AM |
 | Delete Logs | Löscht Log-Einträge, die älter als 7 Tage sind, um Speicherplatz zu sparen. | Täglich um 01:00 AM |
 | Suchindex aktualisieren | Die Megasearch-Indexierung manuell durchführen. | Alle 30 Minuten |
 | Gastbenutzer löschen | Löscht Gastkonten, die älter als 24 Stunden sind, um Speicherplatz zu sparen. | Täglich um 01:00 AM |
 | Cache bereinigen | Bereinigt den Memory Cache, um Speicherplatz freizugeben. | Alle 4 Stunden |
-| Temporäre Dateien bereinigen | Löscht temporäre Anwendungsdateien aus dem Ordner  *App\_Data/\_temp*, um Festplattenplatz zu schaffen. Unterordner bleiben davon unberührt. | Täglich um 03:30 AM |
+| Temporäre Dateien bereinigen | Löscht temporäre Anwendungsdateien aus dem Ordner *App_Data/_temp*, um Festplattenplatz zu schaffen. Unterordner bleiben davon unberührt. | Täglich um 03:30 AM |
 | Wechselkurse aktualisieren | Zieht aktualisierte Umtauschkurse von Web-Services und importiert sie in die Datenbank der Anwendung. | Alle 15 Minuten |
 | Temporäre Uploads bereinigen | Löscht vorübergehend hochgeladene Binärdaten (ohne Zuordnung) aus der Datenbank und dem Dateisystem, um Speicherplatz einzusparen. | Täglich um 01:30 AM und 01:30 PM |
 
 ## Cron Ausdruck
 
-Ein Cron Ausdruck ist ein String aus 5 'Zeit-Intervall' Feldern, die die Frequenz festlegen, innerhalb derer eine Aufgabe ausgeführt wird. Jedes dieser Felder kann numerische Werte oder spezielle Zeichern beinhalten, und jedes Feld wird durch ein Leerzeichen getrennt. 
+Ein Cron Ausdruck ist ein String aus 5 'Zeit-Intervall' Feldern, die die Frequenz festlegen, innerhalb derer eine Aufgabe ausgeführt wird. Jedes dieser Felder kann numerische Werte oder spezielle Zeichern beinhalten, und jedes Feld wird durch ein Leerzeichen getrennt.
 
 Nachfolgende Darstellung zeigt, woraus ein Cron Ausdruck besteht:
 
-\* \* \* \* \* | | | | | | | | | +---- Wochentag (range: 0-6 or SUN-SAT, 0 standing for Sunday) | | | +------ Monat (range: 1-12 or JAN-DEC) | | +-------- Tag (range: 1-31) | +---------- Stunde (range: 0-23) +------------ Minute (range: 0-59)
+```text
+* * * * *
+| | | | |
+| | | | +---- Wochentag (range: 0-6 or SUN-SAT, 0 standing for Sunday)
+| | | +------ Monat (range: 1-12 or JAN-DEC)
+| | +-------- Tag (range: 1-31)
+| +---------- Stunde (range: 0-23)
++------------ Minute (range: 0-59)
 
 - Jedes der 5 Felder kann durch ein Asterix (\*) ausgefüllt werden. Das würde bedeuten, dass die gesamte Spanne möglicher Werte gilt, z. B. jede Minute, jede Stunde u.s.w.
 - Jedes Feld kann eine Liste von durch Kommata getrennten Werten enthalten (z. B. 1*,3,7*) oder eine Spanne von Werten (z.B.: ein Intervall getrennt durch einen Bindestrich, z. B. 1-5).
