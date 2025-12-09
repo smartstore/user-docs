@@ -69,6 +69,7 @@ Nachfolgende Darstellung zeigt, woraus ein Cron Ausdruck besteht:
 | | +-------- Tag (range: 1-31)
 | +---------- Stunde (range: 0-23)
 +------------ Minute (range: 0-59)
+```
 
 - Jedes der 5 Felder kann durch ein Asterix (\*) ausgefüllt werden. Das würde bedeuten, dass die gesamte Spanne möglicher Werte gilt, z. B. jede Minute, jede Stunde u.s.w.
 - Jedes Feld kann eine Liste von durch Kommata getrennten Werten enthalten (z. B. 1*,3,7*) oder eine Spanne von Werten (z.B.: ein Intervall getrennt durch einen Bindestrich, z. B. 1-5).
