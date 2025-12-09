@@ -63,7 +63,7 @@ The calculation method **Shipping by Total** provides the means to base the ca
 
 ![](./attachments/shipping-by-total.png)
 
-| 250px\|Options for Shipping by Total Records | Description |
+| Options for Shipping by Total Records | Description |
 | --- | --- |
 | Store | Select a store to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all stores. |
 | Country | Select a country to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all countries . |
@@ -75,7 +75,7 @@ The calculation method **Shipping by Total** provides the means to base the ca
 | Use Percentage | Check to use 'charge percentage' value. |
 | Charge | Charge amount. |
 
-| 250px\|Global Options for Shipping by Total | Description |
+| Global Options for Shipping by Total | Description |
 | --- | --- |
 | Threshold For Small Quantities | Subtotal up to which a "small quantity surcharge" should be added. The surcharge will be ignored if no shipping fee is applied. Use "0" if no fee will be charged. |
 | Surcharge For Small Quantities | Surcharge for small quantities. |

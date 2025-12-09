@@ -50,7 +50,7 @@ Abhängig vom ausgewählten Typ können Sie unterschiedliche Felder oder keines�
 
   
 
-| 250px\|Feld | Beschreibung |
+| Feld | Beschreibung |
 | --- | --- |
 | Name | Name des Attributwerts, wie er im Frontend angezeigt wird. Erlaubt unterschiedliche Werte für jede angelegte Sprache. |
 | RGB-Frabe | Der RGB-Wert der Farbe, die im Frontend erzeugt wird. Nur für den Typ **Farbflächen** verfügbar. |
@@ -66,7 +66,7 @@ Attribut-Kombinationen
 
 Wenn Sie produktbezogene Daten (z. B. unterschiedliche SKUs, Preise, etc.) für Ihre Attribute verwalten möchten, müssen Sie **Attribut-Kombinationen** erstellen, indem Sie auf **Alle Kombinationen erstellen** klicken oder Attribut-Kombinationen manuell erstellen, indem Sie auf **Hinzufügen** klicken. Sie können die folgenden Daten für jede Attribut-Kombination bearbeiten, indem Sie auf die Kombination in der Tabelle klicken. All diese Werte werden im Hintergrund mit einer AJAX- Anforderung geladen und auf der Produktdetailseite angezeigt, wenn der Kunde die zugehörigen Attributwerte auswählt.
 
-| 250px\|Feld | Beschreibung |
+| Feld | Beschreibung |
 | --- | --- |
 | Aktiv | Gibt an, ob die Kombination aktiv ist und durch Ihre Kunden ausgewählt werden kann. |
 | Bilder | Aktivieren Sie die Bilder, die diese Attribut-Kombination zeigen. Die ausgewählten Bilder werden angezeigt, wenn ein Kunde die zugehörigen Attributwerte auswählt. Die ausgewählten Bilder werden von der Produktdetailseite ausgeschlossen, sobald die Anzahl der Produktbilder die Anzahl der möglichen Bilder, die mit folgender Einstellung festgelegt wurde, übersteigt: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktdetail > Anzahl, ab der Bilder nur noch bei Variantenwechsel angezeigt werden** |

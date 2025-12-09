@@ -39,7 +39,7 @@ Data exports can run automatically via scheduled tasks at any time. Therefore a 
 
 In this tab you can define the partitioning of the data.
 
-| 120px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | Offset | In this tab you can define the partitioning of the data. |
 | Limit | Defines the maximum number of records to be exported. |
@@ -65,7 +65,7 @@ In this tab you configure the export provider you have selected to create the pr
 
 Through this tab, you specify what to be done with the data at the end of an export. In a first step the data is always stored in a temporary, local directory of the application where the data is not accessible through the Internet. The following settings are related to this temporary storing of the data:
 
-180px|Input FieldDescriptionFolder nameThe name of the folder where to export the data.Pattern for file names
+Input FieldDescriptionFolder nameThe name of the folder where to export the data.Pattern for file names
 
 Specifies the pattern for creating file names. The **Example** button allows you to preview the result of the pattern resolving. The pattern supports the following placeholders:
 
@@ -99,7 +99,7 @@ Sends a notification email about the completion of an export. Note that you can 
 
 In the next step you optionally create one or multiple publishing profiles to specify how to further proceed with the export files. There are four types of publishing: File System, Email, HTTP and FTP. General settings are:
 
-| 180px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | Name | Name of the deployment. |
 | Enabled | Defines whether the deployment is enabled and thus be executed. |
@@ -109,7 +109,7 @@ In the next step you optionally create one or multiple publishing profiles to s
 
 The export files are copied in the local file system of the server the store is installed on.
 
-| 180px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | Copy to public folder | Defines whether to copy files into the public **Exchange** folder of the store. Files in the **Exchange** folder are public because they are accessible through the internet. You do not have to specify a destination directory if this option is activated. |
 | Directory path | The destination directory if previous option is deactivated. |
@@ -118,7 +118,7 @@ The export files are copied in the local file system of the server the store is 
 
 A queued email with the export files as attachments is generated.
 
-| 180px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | Email account | Specifies the email account used to sent the data. |
 | Email addresses | Specifies the email addresses where to send the data. |
@@ -128,7 +128,7 @@ A queued email with the export files as attachments is generated.
 
 Transmits the export files via HTTP.
 
-| 180px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | URL\\Host | Specifies the URL or the host name where to send the data. |
 | HTTP transmission type | Specifies how to transmit the export files via HTTP. `Simple POST` makes a POST request for each file. `Multipart form data POST` sends all files in a single POST as multipart form data. |
@@ -139,7 +139,7 @@ Transmits the export files via HTTP.
 
 Transmits the export files via FTP.
 
-| 180px\|Input Field | Description |
+| Input Field | Description |
 | --- | --- |
 | URL\\Host | Specifies the URL or the host name where to send the data. |
 | User name | Specifies the user name if required for the transmission. |

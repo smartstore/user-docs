@@ -50,7 +50,7 @@ Die Berechnungsmethode **Versand nach Gewicht** nimmt die Berechnung der Versa
 
    
 
-| **250px\|Optionen** | **Beschreibung** |
+| **Optionen** | **Beschreibung** |
 | --- | --- |
 | Gebühr mit Gewicht multiplizieren | Legt fest, ob die Gebühr mit dem Gesamt-Warengewicht multipliziert werden soll. Diese Option wird ignoriert, wenn eine prozentuale Gebühr erhoben wird. |
 | Kein 'Fallback' anbieten | Dem Kunden wird während des Checkouts kostenloser Versand als Fallback angeboten, wenn keine der festgelegten Bedingungen zutreffen. Aktivieren Sie diese Option, wenn das nicht gewünscht ist. |
@@ -64,7 +64,7 @@ Die Berechnungsmethode **Versand nach Gesamtsumme** gibt Ihnen die Möglichkeit,
 
 ![](./attachments/versandarten-5.PNG)
 
-| **250px\|Neue Versandbedingung hinzufügen** | **Beschreibung** |
+| **Neue Versandbedingung hinzufügen** | **Beschreibung** |
 | --- | --- |
 | Shop | Wird das Sternchen ausgewählt, so wird die Rate auf alle Shops angewandt. |
 | Land | Das Bestimmungsland. Wählen Sie Stern \*, wenn das Land des Kunden bei der Auswertung keine Rolle spielen soll. |
@@ -76,7 +76,7 @@ Die Berechnungsmethode **Versand nach Gesamtsumme** gibt Ihnen die Möglichkeit,
 | Prozentual | Legt fest, ob die Versandgebühr prozentual vom Bestellwert berechnet werden soll. |
 | Gebühr | Die Versandgebühr als absoluter Betrag. |
 
-| **250px\|Optionen** | **Description** |
+| **Optionen** | **Description** |
 | --- | --- |
 | Mindermenge bis Bestellwert | Warenwert, bis zu dem ein Mindermengenzuschlag erhoben werden soll. Der Zuschlag wird ignoriert, wenn keine Versandkosten anfallen. Verwenden Sie "0", wenn kein Zuschlag erhoben werden soll. |
 | Mindermengenzuschlag | Mindermengenzuschlag. |

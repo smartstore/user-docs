@@ -10,13 +10,13 @@ Sie können Rabatte über **Admin > Marketing > Rabatte** verwalten. Klicken S
 
 ## Registerkarte Information 
 
-250px|FeldBeschreibung**Name**Legt den internen Namen des Rabatts fest.**Rabatttyp**
+FeldBeschreibung**Name**Legt den internen Namen des Rabatts fest.**Rabatttyp**
 
 Legt den Rabatttyp fest.
 
 **Options**:
 
-| 150px\|Rabatttyp | Beschreibung |
+| Rabatttyp | Beschreibung |
 | --- | --- |
 | *Produkten zugewiesen* | Der Rabatt wird auf den Preis jedes Produkts angewendet, welchem dieser der Rabatt zugeordnet ist. Wenn dieser Rabatttyp ausgewählt ist, zeigt sich eine neue Registerkarte im Produkt-Konfigurationsbereich, auf der Sie aus allen Rabatten dieses Typs auswählen und sie dem Produkt zuweisen können. Ein Link zu den zugewiesenen Produkten wird unterhalb des Rabatttyp-Felds angezeigt. In der Produktdetailansicht im Frontend erscheint der normale Preis nun durchgestrichen, und ein neuer, rabattierter Preis wird daneben hervorgehoben dargestellt.<br><br>![](./attachments/rabatte_verwalten_2.png) |
 | *Bezogen auf die Kategorien* | Der Rabatt wird auf den Preis jedes Produkts der Warengruppe angewendet, zu welcher dieser Rabatt zugeordnet ist. Wenn dieser Rabatttyp ausgewählt ist, zeigt sich eine neue Registerkarte im Konfigurationsbereich von Warengruppen, in der Sie aus allen Rabatten dieses Typs auswählen können und diese einer Warengruppe zuweisen können. Ein Link zu den zugewiesenen Warengruppen wird unterhalb des Rabatttyp-Felds angezeigt. In der Produktdetailansicht Ihres Shops erscheint der normale Preis nun durchgestrichen, und der neue, rabattierte Preis wird darüber in Fettschrift angezeigt.<br><br>![](./attachments/rabatte_verwalten_2.png) |
@@ -52,7 +52,7 @@ Sie können eine unbegrenzte Anzahl an Voraussetzungen definieren, die erfüllt 
 
 ![](./attachments/rabatte_verwalten_8.png)
 
-| 250px\|Rabatt Voraussetzung | Beschreibung |
+| Rabatt Voraussetzung | Beschreibung |
 | --- | --- |
 | **Der Kunde muss einer Kundengruppe zugeordnet sein** | Dieser Rabatt wird nur angewendet, wenn der Kunde der definierten Kundengruppe zugeordnet ist. Wenn diese *Voraussetzung* aktiviert wurde, erscheint eine Dropdown-Liste unterhalb der *Voraussetzung*, aus der Sie die zugehörige Kundengruppe auswählen können. Um mehrere Kundengruppen hinzuzufügen, muss man für jede Kundengruppe, für die man eine Voraussetzung für den Rabatt definieren möchte, eine *Voraussetzung* hinzufügen. |
 | **Land der Rechnungsadresse ist** | Der Rabatt wird nur angewendet, wenn der Kunde das definierte Land in der Rechnungsadresse angegeben hat. Wenn diese *Voraussetzung* aktiviert wurde, erscheint eine Dropdown-Liste unterhalb der *Voraussetzung*, aus der Sie das Land der Rechnungsadresse auswählen können. Um mehrere Länder hinzuzufügen, müssen Sie für jedes der Länder eine *Voraussetzung* für den Rabatt hinzufügen. |

@@ -20,11 +20,11 @@ After you have set up your product attribute, you can create Options Sets for it
 
 When adding a product attribute to your product, you can configure the following values to it.
 
-250px|AttributeDescriptionAttributeDefines the product attribute.Text PromptDefines a text prompt that is displayed next to the attribute in the frontend. The purpose of this text prompt is to give your users an additional hint as to how this attribute should be used.Is RequiredDefines whether the attribute has to be selected by the customer being able to add it to the basket.Control Type
+AttributeDescriptionAttributeDefines the product attribute.Text PromptDefines a text prompt that is displayed next to the attribute in the frontend. The purpose of this text prompt is to give your users an additional hint as to how this attribute should be used.Is RequiredDefines whether the attribute has to be selected by the customer being able to add it to the basket.Control Type
 
 Defines the control type that is rendered in the frontend. You can choose from the following control types:
 
-| 150px\|Control Type | Description |
+| Control Type | Description |
 | --- | --- |
 | Drop-down list | Renders a drop-down list to let the customer choose one item out of the given attribute values. |
 | Radio button list | Renders a radio button list to let the customer choose one item out of the given attribute values. |
@@ -43,7 +43,7 @@ After you have added the attribute to your product, you can apply Options Sets t
 
 Depending on the chosen control type, you can edit different fields or none of them. When choosing the control types **Textbox, Multi-line Textbox, Date Picker,** or **File Upload**, you can't add any values because the value of these control types are determined by the customer, who can freely interact with these controls. For the the control type **Color Squares**, you can specify color values which will be rendered as a squares and can be chosen by your customers in the product detail page by clicking one of them. Color squares can also be displayed in the product box of product lists when the following option is activated: **Configuration > Settings > Catalog Setting >  Product Lists >**  **Show color squares in product lists**. When you add values to an attribute, you can specify the following data for it.
 
-| 250px\|Field | Description |
+| Field | Description |
 | --- | --- |
 | Name | The name of the attribute value as it will be shown in the frontend. Allows different values for each configured language. |
 | RGB color  [](http://localhost:63343/Admin/Product/ProductAttributeValueCreatePopup?productAttributeAttributeId=7&btnId=btnRefresh&formId=productvariantattribute-form) | The RGB value for the color that will be rendered in the frontend. Only available for **Color Squares** control. |
@@ -60,7 +60,7 @@ Depending on the chosen control type, you can edit different fields or none of t
 
 If you want to manage product-related data (e.g. differing SKUs, Prices, etc.) for your attributes, you need to create **Attribute Combinations** by clicking on the button **Create All Combinations** or add attribute combinations manually by clicking on the button **Add Combination**. You can edit the following data for each of your attribute combinations by clicking on the combination in the data grid. All of these values will be loaded with an AJAX-request in the background and displayed on the product details page when a customer chooses the corresponding attribute values. 
 
-| 250px\|Field | Description |
+| Field | Description |
 | --- | --- |
 | Is Active | Specifies if the combination is active and can be chosen by your customers. |
 | Pictures | Select one or more of the product pictures that have been assigned to your product. The selected pictures will be shown if a customer selects the corresponding attribute values. The selected pictures will be excluded from the product detail page once the number of product pictures exceeds the number that has been configured within the following setting: **Configuration > Settings > Catalog Setting > Product Detail > Number from which images are only displayed on variation change** . |

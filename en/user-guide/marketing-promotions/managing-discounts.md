@@ -8,13 +8,13 @@ You can manage discounts by navigating to **Admin > Promotions > Discounts**. By
 
 ## Discount Info 
 
-250px|FieldDescription**Name**Specifies the internal name of the discount.**Discount Type**
+FieldDescription**Name**Specifies the internal name of the discount.**Discount Type**
 
 Specifies the entity to which the discount will be applied
 
 **Options**:
 
-| 150px\|Discount Type | Description |
+| Discount Type | Description |
 | --- | --- |
 | Assigned to products | The discount will be applied to the price of every product to which this discount is assigned. When this discount type is selected, a new tab will be shown in the product configuration area, where you can choose all of the discounts of this type and assign them to the product. A link to the assigned products will be shown beneath the discount type field. In the product details view of the frontend, the regular price will be crossed out and the new discounted price will be shown in bold next to it.<br><br>![](./attachments/discount-assigned-to-products.png) |
 | *Assigned to categories* | The discount will be applied to the price of every product of the category to which this discount is assigned. When this discount type is selected, a new tab will be shown in the category configuration area, where you can choose all of the discounts of this type and assign them to the category . A link to the assigned categories will be shown underneath the discount type field. In the product page of your shop, the regular price will be crossed out and the new discounted price will be shown in bold next to it.<br><br>![](./attachments/discount-assigned-to-products.png) |
@@ -48,7 +48,7 @@ You can add an unlimited number of requirements that have to be met before the d
 
 ![](./attachments/discount-requirerments.png)
 
-| 250px\|Discount Requirement | Description |
+| Discount Requirement | Description |
 | --- | --- |
 | **Must be assigned to customer role** | The discount will only be applied if the customer is assigned to a certain customer role. When this requirement is chosen, a dropdown list will appear beneath the requirement, where you can choose the corresponding customer role. To add multiple customer roles, you need to add a requirement for each of the customer roles you want to specify as a requirement for the discount. |
 | **Billing country is** | The discount will only be applied if the customer has the specified billing country. When this requirement is chosen, a dropdown list will appear beneath the requirement, where you can choose the corresponding billing country. To add multiple billing countries, you need to add a requirement for each of the billing countries. |
