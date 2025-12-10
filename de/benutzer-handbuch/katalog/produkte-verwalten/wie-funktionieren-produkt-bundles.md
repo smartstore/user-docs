@@ -34,15 +34,12 @@ Es gibt drei wichtige Optionen, die das Verhalten eines Produkt-Bundles steuern.
 Mit dieser Option steuern Sie die Preiskalkulation des Bundles. Wenn sie deaktiviert ist, wird der Preis für das Bundle als Ganzes festgelegt, ohne dass die Einzelpreise der Bundle-Bestandteile in Betracht gezogen werden. Wenn sie aktiviert ist, ist der Preis die Summe der Einzelpreise aller Produkte im Bundle.  
  
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
-
-Preis per Bundle-Bestandteil ist deaktiviert...
+Preis per Bundle-Bestandteil ist deaktiviert:
 
 Preisanpassungen von Attributen und Rabatten auf Bundle-Bestandteile sind nicht im Preis einbezogen. Bitte beachten Sie, dass eine Auswahl von Attributen durch den Kunden nicht möglich ist.
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
-Preis per Bundle-Bestandteil ist aktiviert...
+Preis per Bundle-Bestandteil ist aktiviert:
 
 Die Preiskalkulation der Bundle-Bestandteile berücksichtigt Aktionspreise, Preisänderungen bei Attributen wie auch auf das Bundle-Bestandteil bezogene Rabatte und Mengen.  
 Folgende Elemente werden nicht berücksichtigt: Staffelpreise, Preisvorschläge durch den Kunden, Preisanforderungen, Gewichtsanpassung von Attributen und alle anderen Rabatte.  
@@ -53,9 +50,7 @@ Die Anzeige der Grundpreise kann durch eine Option gesteuert werden (siehe **Kon
 Diese Option steuert die Preiskalkulation der Versandkosten. Wenn sie deaktiviert ist, werden die Versandkosten des Produkt-Bundles als Ganzes verwendet. Wenn sie aktiviert ist, werden die Versandkosten aller Produkte im Bundle kalkuliert.  
  
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
-
-Versand per Bundle-Bestandteil ist aktiviert...
+Versand per Bundle-Bestandteil ist aktiviert:
 
 Die Kalkulation der Versandkosten von Bundle-Bestandteilen berücksichtigt folgende Elemente: Versand aktiv, kostenloser Versand und zusätzliche Versandkosten.
 

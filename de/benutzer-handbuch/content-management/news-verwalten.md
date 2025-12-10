@@ -21,7 +21,7 @@
 
 ### Suchmaschinen (SEO)
 
-In dieser Registerkarte können Sie spezifische SEO-Werte für einen Newseintrag festlegen, z. B. **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL Alias**. Für weitere Informationen zu den Feldern in der Registerkarte **Suchmaschinen**, lesen Sie bitte [SEO](https://smartstore.atlassian.net/wiki/display/SMNET/SEO).
+In dieser Registerkarte können Sie spezifische SEO-Werte für einen Newseintrag festlegen, z. B. **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL Alias**. Für weitere Informationen zu den Feldern in der Registerkarte **Suchmaschinen**, lesen Sie bitte [SEO](../../allgemeine-konzepte/seo.md).
 
 ### Shops
 

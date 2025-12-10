@@ -23,7 +23,7 @@ Ein Klick auf das AI-Symbol ![icon.png](./attachments/icon.png) öffnet ein Kont
 
 ![SimpleText_Dialog.PNG](./attachments/SimpleText_Dialog.PNG)
 
-Der Dialog bietet eine Vielzahl an Möglichkeiten, den Text zu generieren und bearbeiten. Durch die Eingabe eines Prompts in der Promptleiste können Sie beschreiben, welche Inhalte erstellt werden. Einen tieferen Einblick in die Dialoge finden Sie im Abschnitt [Grundlegende Konzepte](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2530508825/AI#Grundlegende-Konzepte).
+Der Dialog bietet eine Vielzahl an Möglichkeiten, den Text zu generieren und bearbeiten. Durch die Eingabe eines Prompts in der Promptleiste können Sie beschreiben, welche Inhalte erstellt werden. Einen tieferen Einblick in die Dialoge finden Sie im Abschnitt [Allgemeiner Dialog](#allgemeiner-dialog).
 
 ![Prompt_AnswerOptions.PNG](./attachments/Prompt_AnswerOptions.PNG)
 

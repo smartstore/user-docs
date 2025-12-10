@@ -45,7 +45,7 @@ Um eine geplante Aufgabe zu bearbeiten, wechseln Sie in die Ansicht *Aufgabe bea
 
 | Name der Aufgabe | Beschreibung | Standard Default Schedule |
 | :--- | :--- | :--- |
-| E-Mail senden | Sendet alle E-Mails in der Warteschlange. Für weitere Informationen über die E-Mail-Warteschlange lesen Sie bitte [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue). <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/-1157374962/6452/041baff351e38d4a7d3bb246b6744da43a5f6982/_/images/icons/emoticons/warning.png)<br><br> Wenn Sie diese Aufgabe deaktivieren, werden weder Sie noch Ihre Kunden E-Mails empfangen. | Einmal pro Minute |
+| E-Mail senden | Sendet alle E-Mails in der Warteschlange. Für weitere Informationen über die E-Mail-Warteschlange lesen Sie bitte [Analyzing the Message Queue](e-mail-korrespondenz-analysieren.md). <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/-1157374962/6452/041baff351e38d4a7d3bb246b6744da43a5f6982/_/images/icons/emoticons/warning.png)<br><br> Wenn Sie diese Aufgabe deaktivieren, werden weder Sie noch Ihre Kunden E-Mails empfangen. | Einmal pro Minute |
 | E-Mail Queue bereinigen | Bereinigt die E-Mail-Warteschlange um E-Mail-Einträge, die bereits verarbeitet wurden, um Speicherplatz einzusparen. | Täglich um 02:00 AM |
 | Delete Logs | Löscht Log-Einträge, die älter als 7 Tage sind, um Speicherplatz zu sparen. | Täglich um 01:00 AM |
 | Suchindex aktualisieren | Die Megasearch-Indexierung manuell durchführen. | Alle 30 Minuten |

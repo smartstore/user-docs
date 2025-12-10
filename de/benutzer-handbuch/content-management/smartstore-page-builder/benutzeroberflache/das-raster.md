@@ -1,5 +1,5 @@
 
-Mithilfe des nativen [*CSS Grid-Layoutsystems*](https://smartstore.atlassian.net/wiki/download/attachments/2510950064/image045.jpg?version=1&modificationDate=1732292452367&cacheVersion=1&api=v2) ist es möglich, Raster mit einer beliebigen Zeilen- und Spaltenanzahl zu definieren. Auf so einem Raster können Inhalte platziert werden, welche responsiv und geräteunabhängig in allen Auflösungen dargestellt werden. Die enthaltenen Inhalte bestimmen, ggf. je nach Raster-Konfiguration, die Größe der einzelnen Zellen.
+Mithilfe des nativen *CSS Grid-Layoutsystems* ist es möglich, Raster mit einer beliebigen Zeilen- und Spaltenanzahl zu definieren. Auf so einem Raster können Inhalte platziert werden, welche responsiv und geräteunabhängig in allen Auflösungen dargestellt werden. Die enthaltenen Inhalte bestimmen, ggf. je nach Raster-Konfiguration, die Größe der einzelnen Zellen.
 
 ![](./attachments/image021.jpg)
 

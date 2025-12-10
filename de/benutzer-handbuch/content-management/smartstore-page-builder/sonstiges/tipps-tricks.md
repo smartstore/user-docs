@@ -23,7 +23,7 @@ Aufgrund SEO-technischer Gründe sollten Sie mit der Verwendung von h1 und h2 Ta
 
 **Text auf Bild platzieren**
 
-Wenn Sie Text auf einem Bild darstellen wollen, dann nutzen Sie am besten ausschließlich den [*Text-Block*](../../smartstore-page-builder/blocke.md) und fügen das Bild als [*Hintergrund*](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2510950298/Hintergrund) ein.
+Wenn Sie Text auf einem Bild darstellen wollen, dann nutzen Sie am besten ausschließlich den [*Text-Block*](../../smartstore-page-builder/blocke.md) und fügen das Bild als [*Hintergrund*](../../blocke/block-basiseinstellungen.md#hintergrund) ein.
 
 # FAQ
 

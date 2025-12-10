@@ -34,7 +34,7 @@ Wenn Sie nun ein benutzerdefiniertes Template einbinden möchten, müssen Sie Ih
 # Hintergrund
 
 In diesem Tab können Sie den Hintergrund des Blockes bearbeiten. Diese Funktionsweise stimmt mit den Story-Hintergrund-Overlays überein. Sie können hier also auch Hintergrundebenen additiv aufeinander anwenden, um attraktive Hintergründe zu erstellen.  
-Weitere Informationen zu Hintergründen finden sie unter [*Hintergrund*](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2510950298/Hintergrund).
+Weitere Informationen zu Hintergründen finden sie unter [*Hintergrund*](#hintergrund).
 
 # Box
 
@@ -172,7 +172,7 @@ Parallax-Effekt mit fixiertem Hintergundbild
 
 ![](./attachments/Effekte_reveal_inhalt.gif)
 
-**Tint:** Mit dem Tint-Effekt wird die Transparenz des Hintergrunds bei Maus-Hover verändert. Hierbei ist zu beachten, dass der Block-[*Hintergrund*](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2510950298/Hintergrund) über Transparenz verfügen muss, damit der Effekt angewendet werden kann.
+**Tint:** Mit dem Tint-Effekt wird die Transparenz des Hintergrunds bei Maus-Hover verändert. Hierbei ist zu beachten, dass der Block-[*Hintergrund*](#hintergrund) über Transparenz verfügen muss, damit der Effekt angewendet werden kann.
 
 ![](./attachments/effect_tint2.gif)
 

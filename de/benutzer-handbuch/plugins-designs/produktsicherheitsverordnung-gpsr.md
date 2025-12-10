@@ -75,4 +75,4 @@ Wählen Sie die gewünschten Textbausteine aus der Liste aus, um sie auf der Pro
 
 ![ProduktDetails_Hersteller_Textblock.PNG](./attachments/ProduktDetails_Hersteller_Textblock.PNG)
 
-Die Darstellung der Herstellerdaten und Textbausteine kann in [der Konfiguration](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2520809488/Produktsicherheitsverordnung+GPSR#Konfiguration-des-GPSR-Plugins) geändert werden.
+Die Darstellung der Herstellerdaten und Textbausteine kann in [der Konfiguration](#konfiguration-des-gpsr-plugins) geändert werden.

@@ -5,7 +5,7 @@
 
 **① Layout:** Beinhaltet allgemeine Story-Optionen. Zum Beispiel Veröffentlichungsoptionen oder Darstellungsoptionen. (Siehe [*Layout*](../../smartstore-page-builder/story/toolbox-story-optionen.md))
 
-**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](https://smartstore.atlassian.net/wiki/spaces/SDDE60/pages/2510950298/Hintergrund))
+**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](../../blocke/block-basiseinstellungen.md#hintergrund))
 
 **③ Blöcke:** Bietet eine Auswahl aller verfügbaren Blöcke. (Siehe [*Blöcke Übersicht*](../../smartstore-page-builder/blocke.md))
 
@@ -19,4 +19,4 @@ Auch im [*Block-Manager*](../benutzeroberflache/block-manager.md) wird der aktue
 
 ![](./attachments/image033.jpg)
 
-Wenn ein Block ausgewählt ist, werden in der [*Toolbox*](https://smartstore.atlassian.net/wiki/pages/resumedraft.action?draftId=1956125271) am rechten Rand der Seite Block-bezogene Optionen wie Inhaltsausrichtung und Abstände angezeigt. Änderungen an blockbezogenen Einstellungen werden immer auf die aktuelle Auflösung angewendet, die mit dem oberen [*Device-Slider*](../../smartstore-page-builder/story/responsive-darstellung.md) bestimmt wird. Diese Einstellungen werden auch an höhere Auflösungen weitergegeben, wenn dort keine abweichende Konfiguration vorgenommen wurde. (Siehe [*Toolbox Block-Optionen*](../../smartstore-page-builder/blocke/toolbox-block-optionen.md))
+Wenn ein Block ausgewählt ist, werden in der [*Toolbox*](../../smartstore-page-builder/benutzeroberflache/toolbox.md) am rechten Rand der Seite Block-bezogene Optionen wie Inhaltsausrichtung und Abstände angezeigt. Änderungen an blockbezogenen Einstellungen werden immer auf die aktuelle Auflösung angewendet, die mit dem oberen [*Device-Slider*](../../smartstore-page-builder/story/responsive-darstellung.md) bestimmt wird. Diese Einstellungen werden auch an höhere Auflösungen weitergegeben, wenn dort keine abweichende Konfiguration vorgenommen wurde. (Siehe [*Toolbox Block-Optionen*](../../smartstore-page-builder/blocke/toolbox-block-optionen.md))

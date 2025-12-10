@@ -4,7 +4,7 @@ Sie können Seiten und Inhalte verwalten, indem Sie zu  **CMS > Seiten und Inh
 
 ## HTML Widgets ausführen
 
-Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcken überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden *Inhalt* die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget Zonen und für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](https://smartstore.atlassian.net/wiki/spaces/SD/pages/1928465690/Widget+Zones).
+Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcken überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden *Inhalt* die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget Zonen und für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones). |).
 
 ## Ansicht Seite bearbeiten
 
@@ -20,7 +20,7 @@ Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Bl�
 | In die Sitemap aufnehmen | Legt fest, ob die Seite in die Sitemap aufgenommen werden soll. |
 | URL | Die URL dieser Seite. |
 | Als HTML Widget darstellen | Legt fest, ob der Inhalt inline als HTML Widget dargestellt werden soll. |
-| Widget Zone | Eine oder mehrere Widget Zonen, in denen das Widget dargestellt werden soll. Für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](https://smartstore.atlassian.net/wiki/pages/createpage.action?spaceKey=SDDE&title=Widget%20Zones). |
+| Widget Zone | Eine oder mehrere Widget Zonen, in denen das Widget dargestellt werden soll. Für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones). |
 | Sortierung | Legt die Reihenfolge der Widgets innerhalb einer Zone fest. |
 | Inhalt mit Container umhüllen | Umhüllt den Widget Inhalt mit einem HTML-Container |
 | Titel anzeigen | Legt fest, ob der Titel als Überschrift dargestellt werden soll. |
