@@ -18,7 +18,6 @@ Imagine you're running a shop with all kinds of printers. In this case, your buy
 
 You could, of course, capture the above info in the product's long description as an HTML table, but you would lose the ability to include those features in product comparisons. Also, if you wanted to change the name or value of an attribute globally, you would still have to update all product records manually, which is a tedious and cumbersome task. It's much better to add this sort of data as global specification attributes to your store and assign them to your products later.
 
-![](https://smartstore.atlassian.net/wiki/plugins/servlet/confluence/placeholder/unknown-macro?name=tableformatter&locale=de_DE&version=2)
 
 |     |     |
 | --- | --- |

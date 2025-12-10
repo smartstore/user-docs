@@ -43,7 +43,7 @@ Now, if you want to include a custom template, you need to save your template in
 ## Background
 
 This tab lets you edit the background of the block. It works in the same way as the story background overlays. So, you can add background layers on top of each other here as well to create attractive backgrounds.  
-For more information about backgrounds, see [Background](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511047936/Background).
+For more information about backgrounds, see [Background](#background).
 
 ![](./attachments/docs.sm5.pagebuilder.blocks.basic-settings.background.png)
 

@@ -48,7 +48,7 @@ In this tab you add existing products to your category. When clicking the button
 
 ### Mega Menu tab
 
-This tab is used to configure the Mega Menu plugin. For more information about Mega Menu, please read [Mega Menu Plugin](https://smartstore.atlassian.net/wiki/spaces/SDDE50/pages/1956127562/Mega+Menu).
+This tab is used to configure the Mega Menu plugin. For more information about Mega Menu, please read [Mega Menu Plugin](../../plugins-themes/mega-menu.md).
 
 ### Other Tabs
 

@@ -21,11 +21,11 @@
 
 ### Search Engines (SEO)
 
-In this tab, you can enter specific SEO values for the news item, e.g. **Meta title**, **Meta keywords** or a SEO-friendly **URL alias**. For more information about the fields in the **Seach Engines** tab, read the topic [SEO](https://smartstore.atlassian.net/wiki/display/SMNET/SEO).
+In this tab, you can enter specific SEO values for the news item, e.g. **Meta title**, **Meta keywords** or a SEO-friendly **URL alias**. For more information about the fields in the **Seach Engines** tab, read the topic [SEO](../../user-guide/common-concepts/seo.md).).
 
 ### Stores
 
-In this tab, you can manage which store(s) the news item should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](https://smartstore.atlassian.net/wiki/display/SMNET/Working+with+multiple+Stores).
+In this tab, you can manage which store(s) the news item should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](../../common-concepts/working-with-multiple-stores.md).
 
 ## Managing New Comments
 

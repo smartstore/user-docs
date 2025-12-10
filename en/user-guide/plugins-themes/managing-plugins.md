@@ -24,7 +24,7 @@ You can also install plugins manually by uploading it into the directory */Plug
 
 ## How to Obtain More Plugins
 
-More plugins can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/index.php?/files/). The **SmartStore Community Marketplace** is where all the resources that have been created for Smartstore are offered and can be either be downloaded for free or bought. For more information on how to buy and install plugins, please read the topics [How to Buy an Extension](https://smartstore.atlassian.net/wiki/display/SMNET/How+to+Buy+an+Extension) and [How to Install an Extension](#).
+More plugins can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/index.php?/files/). The **SmartStore Community Marketplace** is where all the resources that have been created for Smartstore are offered and can be either be downloaded for free or bought. For more information on how to buy and install plugins, please read the topics [How to Buy an Extension](../../getting-started/community-marketplace/how-to-buy-an-extension.md) and [How to Install an Extension](../../getting-started/community-marketplace/how-to-install-an-extension.md).
 
 ## How to License a Plugin
 

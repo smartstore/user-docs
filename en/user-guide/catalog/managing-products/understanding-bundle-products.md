@@ -37,15 +37,12 @@ Per-item pricing
 This option controls the price calculation of the bundle. If it's deactivated, the price is determined for the bundle as a whole without taking the prices of the individual components into consideration. If it's activated, the price is the sum of the individual prices of all the products in the bundle.  
  
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
-
-Per-item pricing is deactivated...
+Per-item pricing is deactivated:
 
 Price adjustments of attributes and discounts on bundle items are not included in the pricing. Please note that a selection of attributes by the customer is not possible.
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
-Per-item pricing is activated...
+Per-item pricing is activated:
 
 The price calculation of bundle items takes into account special prices, price adjustment of attributes, as well as per bundle item specified discounts and quantities.  
 The following items are not taken into account: tier prices, customer enters price, call for price, weight adjustment of attributes, and all other discounts.  
@@ -56,9 +53,7 @@ The display of basic prices can be controlled through an option (see **Configura
 This option controls the price calculation of shipping costs. If it's deactivated, the shipping costs of the bundle product as a whole are used. If it's activated, the amount of shipping of all the products in the bundle is calculated.  
  
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
-
-Per-item shipping is activated...
+Per-item shipping is activated:
 
 The calculation of the shipping cost of bundle items takes the following into account: shipping enabled, free shipping, and additional shipping charge.
 

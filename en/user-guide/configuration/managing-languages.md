@@ -1,6 +1,6 @@
 # Managing Languages
 
-Smartstore already comes with two languages in the box (English and German), but you can add an unlimited number of further languages. The default language is the one you've chosen during the installation process. Please also read the topic [Working with Multiple Languages](https://smartstore.atlassian.net/wiki/display/SMNET/Working+with+Multiple+Languages).
+Smartstore already comes with two languages in the box (English and German), but you can add an unlimited number of further languages. The default language is the one you've chosen during the installation process. Please also read the topic [Working with Multiple Languages](../../common-concepts/working-with-multiple-languages.md).).
 
 ## How to Add a Language
 
@@ -26,7 +26,7 @@ After you've created the desired language, you need to add the resources for thi
 {% hint style="info" %}
 ### Smartstore translation portal with numerous additional languages
 For additional languages for the current and older Smartstore versions, please visit the Smartstore translation portal.  
-To learn how to download the languages, please refer to the article “[Working with multiple languages](https://smartstore.atlassian.net/wiki/spaces/SMNET/pages/1927774687/Working+with+Multiple+Languages).”
+To learn how to download the languages, please refer to the article “[Working with multiple languages](../../common-concepts/working-with-multiple-languages.md).”
 {% endhint %}
 
   
@@ -41,4 +41,4 @@ Sometimes, you may want to alter a single resource. Let's say you want to amend 
 
 ## Translating Resources
 
-You can find several languages in our [Smartstore translation portal](https://translate.smartstore.com/). However, if the language you want isn't there, you may need to create the translation yourself. To do so, it's recommended that you export all language resources of an existing language into an XML-file, translate them all and import the file again. Textual resources for plugins should be located in the designated xml files in the respective plugins. For more information about plugin resources, read the topic [https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511050611](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511050611).
+You can find several languages in our [Smartstore translation portal](https://translate.smartstore.com/). However, if the language you want isn't there, you may need to create the translation yourself. To do so, it's recommended that you export all language resources of an existing language into an XML-file, translate them all and import the file again. Textual resources for plugins should be located in the designated xml files in the respective plugins.

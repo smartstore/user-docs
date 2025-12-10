@@ -18,4 +18,4 @@ You can manage **Polls** by navigating to **CMS > Polls**. The **Name** of the p
 
 ### Stores Tab
 
-In this tab, you can manage which store(s) the blog post should be published in. For more information about multiple stores, read the topic [Working with multiple Stores](https://smartstore.atlassian.net/wiki/display/SMNET/Working+with+multiple+Stores).
+In this tab, you can manage which store(s) the blog post should be published in. For more information about multiple stores, read the topic [Working with multiple Stores](../../common-concepts/working-with-multiple-stores.md).

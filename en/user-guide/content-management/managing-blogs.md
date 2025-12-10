@@ -21,11 +21,11 @@
 
 ### Search Engines (SEO)
 
-In this tab you can enter specific SEO values for the blog post e.g. **Meta title**, **Meta keywords** or a SEO friendly **URL alias**. For more information about the fields in the **Seach engines** tab read the topic [SEO](https://smartstore.atlassian.net/wiki/display/SMNET/SEO).
+In this tab you can enter specific SEO values for the blog post e.g. **Meta title**, **Meta keywords** or a SEO friendly **URL alias**. For more information about the fields in the **Seach engines** tab read the topic [SEO](../../user-guid/common-concepts/seo.md).).
 
 ### Stores
 
-In this tab, you can manage which store(s) the blog post should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](https://smartstore.atlassian.net/wiki/display/SMNET/Working+with+multiple+Stores).
+In this tab, you can manage which store(s) the blog post should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](../../user-guide/common-concepts/working-with-multiple-stores.md).
 
 ## Managing New Comments
 

@@ -61,7 +61,7 @@ To edit a scheduled task, go to the *Edit Task* screen by choosing **Edit** in
 
 | Task Name | Description | Default Schedule |
 | --- | --- | --- |
-| Send E-Mails | Sends all e-mails in the message queue. For more information about the e-mail queue, read the topic [Analyzing the Message Queue](http://docs.smartstore.com/display/SMNET/Analyzing+the+Message+Queue).  <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/1262048869/6452/2ef421ea87febf37890d2fb0e5bb13917e70857c/_/images/icons/emoticons/warning.png)<br><br> If you disable this task, neither you nor your customers will receive e-mails anymore. | Every minute |
+| Send E-Mails | Sends all e-mails in the message queue. For more information about the e-mail queue, read the topic [Analyzing the Message Queue](analyzing-the-message-queue.md).  <br>![(Warnung)](https://smartstore.atlassian.net/wiki/s/1262048869/6452/2ef421ea87febf37890d2fb0e5bb13917e70857c/_/images/icons/emoticons/warning.png)<br><br> If you disable this task, neither you nor your customers will receive e-mails anymore. | Every minute |
 | Clear E-Mail Queue | Clears queued e-mail entries that have already been processed to ensure that its size does not grow indefinitely. | At 02:00 AM every day |
 | Delete Logs | Deletes log entries which are older than 7 days to ensure that its size does not grow indefinitely. | At 01:00 AM every day |
 | Delete Guest Accounts | Deletes transient guest customer accounts which are older than 24 hours to ensure that its size does not grow indefinitely. | At 01:00 AM every day |
