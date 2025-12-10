@@ -4,9 +4,9 @@ Das **Bonuspunkte-Programm** erlaubt es Kunden, für unterschiedliche Handlunge
 
 Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem Sie das entsprechende Kästchen auf der Zahlart-Auswahlseite anklicken. Wenn sie sich dazu entschließen, ihre Bonuspunkte zu verwenden, wird der entsprechende Geldwert der gesammelten Bonuspunkte vom Gesamtbetrag auf der Auftragsbestätigung abgezogen.
 
-## ![](./attachments/mit_bonuspunkten_arbeiten_1.png)
+![](./attachments/mit_bonuspunkten_arbeiten_1.png)
 
-  ![](./attachments/mit_bonuspunkten_arbeiten_2.png)
+![](./attachments/mit_bonuspunkten_arbeiten_2.png)
 
 Anwendungsszenario
 
