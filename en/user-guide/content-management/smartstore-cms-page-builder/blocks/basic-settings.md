@@ -145,7 +145,9 @@ You can use the Reveal effect to fade in blocks with an effect. This can be used
 6. **Distance**: Distance between start and end position while animating the block (CSS size unit, default 100px).
 7. **Trigger Offset**: The effect ist triggered when the upper edge of the block hits the lower edge of the screen. This trigger point can be adjusted using a pixel offset. A negative offset ist also valid. Default value is 120.
 8. **Fade In Only once**: Determines whether the effect is applied to the block each time it appears.
-9. **Apply effect to**: Defines the elements that are affected by the animation. You can apply the effect either to the complete block or only to the block content![](./attachments/Effekte_reveal_block.gif)
+9. **Apply effect to**: Defines the elements that are affected by the animation. You can apply the effect either to the complete block or only to the block content
+
+![](./attachments/Effekte_reveal_block.gif)
 
 ### Tint
 
@@ -157,7 +159,7 @@ The Tint effect changes the transparency of the background on mouse hover. Note 
 
 {% hint style="info" %}
 Note: Some effects are not applied in the Edit view. Switch to *Preview mode* to test them.
-{% endhint %}
+{%endhint %}
 
 ### Databinding
 
