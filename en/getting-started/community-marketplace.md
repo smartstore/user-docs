@@ -1,6 +1,6 @@
 # Community & Marketplace
 
-## [Smartstore Communit](http://community.smartstore.com/)y
+## [Smartstore Community](http://community.smartstore.com/)
 
 Get in touch! You want to discuss your need for new features with the developers of Smartstore?  You need help with the installation or the configuration of Smartstore? Our community is exactly the right place to get your voice heard!  Voice your opinion, get your questions answered, share your ideas and feedback, and help others!
 
@@ -19,7 +19,6 @@ This forum is related to technical customization and extension of Smartstore
 
 Smartstore is an **Open Source Project** and everyone is invited to participate, whether it be the reporting of bugs, the proposal of new features, the translation of resources, the development of plugins or the creation of new themes. The **SmartStore Community Marketplace** is the location where all the resources that were created for Smartstore are offered and can either be downloaded for free or be purchased.
 
-{% hint style="info" %}
 ### [Plugins](http://community.smartstore.com/index.php?/files/category/22-plugins/)
 In this category, you will find payment plugins, export feeds, shipping plugins & much more.
 ### [Themes](http://community.smartstore.com/index.php?/files/category/23-themes/)
@@ -29,4 +28,3 @@ You want to offer your product catalog in a language other then English or Germa
 ### More Information about Smartstore Extensions
 - [How to Buy an Extension](./community-marketplace/how-to-buy-an-extension.md)
 - [How to Install an Extension](./community-marketplace/how-to-install-an-extension.md)
-{% endhint %  }
