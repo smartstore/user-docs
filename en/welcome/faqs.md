@@ -1,11 +1,16 @@
+---
+icon: comments-question-check
+---
 
-# Docker
+# FAQs
+
+## Docker
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
 Can I change or add something in the Docker container, e.g. a plugin?
 
-**Yes**, you can, but we recommend that you [recreate the image](#).
+**Yes**, you can, but we recommend that you [recreate the image](faqs.md).
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -15,7 +20,7 @@ The command to copy files or foldes into a container is:
 
 `docker cp <TARGET> <CONTAINER>:<SOURCE>`
 
-**Example:**  
+**Example:**\
 Copying a Plug-in-Folder `My.Module.DoesSomething` into the Modules folder `/app/Modules`:
 
 `docker cp My.Module.DoesSomething web:/app/Modules`
@@ -56,7 +61,7 @@ Delete `wwwroot` folder in Modules-Folder `/My.Module.DoesSomething`:
 
 How do I connect to MySQL or MS SQL or what is the hostname?
 
-If Smartstore is s[tarted together with MySQL or MS SQL as services](#), the **container name or the service name can simply be used as the host name**.
+If Smartstore is s[tarted together with MySQL or MS SQL as services](faqs.md), the **container name or the service name can simply be used as the host name**.
 
 **Otherwise**, detailled information about the container can be read out with the command `docker inspect <CONTAINER>`.
 
@@ -70,17 +75,15 @@ The command
 
 returns the following information, beside others:
 
-![](./attachments/sGqmSILPU5.png)
-
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
 Can I also use an external (not Docker) MS SQL Server or MySQL Server?
 
-**Yes**, enter the host name of the database server in the correct form. Possible examples are:  
-Specify the **instance name**: `<INSTANCENAME>`.  
-Specify the **hostname**: `<HOSTNAME>`.  
-Specify the **IP address**: `<IP>`.  
-Specify the **IP address and the instance name**: `<IP>\<INSTANCENAME>`.  
+**Yes**, enter the host name of the database server in the correct form. Possible examples are:\
+Specify the **instance name**: `<INSTANCENAME>`.\
+Specify the **hostname**: `<HOSTNAME>`.\
+Specify the **IP address**: `<IP>`.\
+Specify the **IP address and the instance name**: `<IP>\<INSTANCENAME>`.\
 Specify the **host name and the instance name**: `<HOSTNAME>\<INSTANCENAME>`.
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
@@ -91,13 +94,9 @@ Data is to be stored in volumes. **Docker volumes store container data on the ho
 
 In Docker Desktop, volumes can be set up in the "Optional settings" when starting images.
 
-![](./attachments/2zVi4wrW18.png)
-
 As the name implies, the host path is on the host computer and the container path is in the Docker container.
 
 Here is an example:
-
-![](./attachments/j1OuVV6xv2.png)
 
 {% hint style="info" %}
 If nothing is set up, data is stored in an "intermediate layer" in the container and is lost when the container is removed.
@@ -129,9 +128,7 @@ On Linux or on the Windows commandline, the command
 
 returns the following information, beside others:
 
-![](./attachments/sGqmSILPU5.png)
-
-# Themes
+## Themes
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -141,7 +138,7 @@ Can I transfer my theme from version 4.2 to version 5?
 
 Probably a restart is necessary after this. After that you can activate the "new" theme in the backend.
 
-# Updates
+## Updates
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -161,7 +158,7 @@ Is a database cross update possible? That means an update from Smartstore 4.2 an
 
 **No**, this is not provided.
 
-# PDF Export
+## PDF Export
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -173,31 +170,31 @@ Open the appsettings.json file in the main folder of your Smartstore installatio
 
 If you are using a reverse proxy (e.g. NGINX) on Linux, enter the locally accessible URL including port there, e.g. `"PdfEngineBaseUrl": "http://localhost:5000/"`[.](http://localhost:5000/%22.)
 
-# Task Scheduler
+## Task Scheduler
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
-The Task Scheduler is not executed and the event viewer contains an error message like "Error while calling Taskscheduler endpoint \[...\]". HTTP 404, NOT FOUND.
+The Task Scheduler is not executed and the event viewer contains an error message like "Error while calling Taskscheduler endpoint \[...]". HTTP 404, NOT FOUND.
 
 Open the appsettings.json file in the main folder of your smartstore installation and search for the word "TaskSchedulerBaseUrl" and enter the URL to your smartstore installation there.
 
 If you use a reverse proxy (e.g. NGINX) on Linux, enter the locally accessible URL incl. port there, e.g. `"TaskSchedulerBaseUrl": "http://localhost:5000/"`[.](http://localhost:5000/%22.)
 
-# Timeouts
+## Timeouts
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
 How do I change the startup time limit of an ASP.NET Core application like Smartstore?
 
-Changing the value for `startupTimeLimit` in an [http://ASP.NET](http://ASP.NET) Core application can be useful in certain situations to ensure that the application starts successfully. Here are some scenarios in which the value for `startupTimeLimit` can be adjusted:
+Changing the value for `startupTimeLimit` in an [http://ASP.NET](http://asp.net) Core application can be useful in certain situations to ensure that the application starts successfully. Here are some scenarios in which the value for `startupTimeLimit` can be adjusted:
 
-### Set the value high:
+#### Set the value high:
 
-**Long initialization time**: If the [http://ASP.NET](http://ASP.NET) Core application takes a long time to initialize, for example, if extensive preparations such as database connections, caching, or other services need to be performed, `startupTimeLimit` can be increased to ensure that the application has enough time to start successfully.
+**Long initialization time**: If the [http://ASP.NET](http://asp.net) Core application takes a long time to initialize, for example, if extensive preparations such as database connections, caching, or other services need to be performed, `startupTimeLimit` can be increased to ensure that the application has enough time to start successfully.
 
-### Decrease value:
+#### Decrease value:
 
-**Fast deployment**: If you are sure that your [http://ASP.NET](http://ASP.NET) Core application usually starts quickly and you want faster feedback on whether the startup was successful or not, you can decrease the `startupTimeLimit`. This will shorten the wait time before an error message is displayed if the startup process takes too long.
+**Fast deployment**: If you are sure that your [http://ASP.NET](http://asp.net) Core application usually starts quickly and you want faster feedback on whether the startup was successful or not, you can decrease the `startupTimeLimit`. This will shorten the wait time before an error message is displayed if the startup process takes too long.
 
 **Error analysis**: Lowering the `startupTimeLimit` can be helpful to detect and diagnose startup problems early. If the application fails due to startup problems, you get an error message faster, which can help to fix the problem.
 

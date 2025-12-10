@@ -1,12 +1,16 @@
+---
+icon: circle-exclamation
+---
+
 # Troubleshooting
 
 ### The query processor encountered an unexpected error during execution (HRESULT = 0x80040e19)
 
-May occur during data exchange. Other error message could be "*Internal error. The string routine in file ...dstream.cpp (or dumplog.cpp), line 123 failed with HRESULT 0x8007007a*". Database requires a "repair". Solution:
+May occur during data exchange. Other error message could be "_Internal error. The string routine in file ...dstream.cpp (or dumplog.cpp), line 123 failed with HRESULT 0x8007007a_". Database requires a "repair". Solution:
 
-- Turn database to single-user mode (see **Properties > Options**).
-- Execute: `DBCC CHECKDB ('Name of my database', Repair_ALL)`.
-- Turn back database to multi-user mode.
+* Turn database to single-user mode (see **Properties > Options**).
+* Execute: `DBCC CHECKDB ('Name of my database', Repair_ALL)`.
+* Turn back database to multi-user mode.
 
 ### Clear Cache
 
