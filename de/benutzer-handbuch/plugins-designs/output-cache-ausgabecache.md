@@ -1,6 +1,7 @@
 # Output Cache (Ausgabecache)
 
 Der Output Cache erlaubt die Zwischenspeicherung ganzer Shop-Seiten und trägt so zu einer erheblichen Performance-Steigerung bei.  
+
 ![](./attachments/outputcache.PNG)
 
 ## Allgemein

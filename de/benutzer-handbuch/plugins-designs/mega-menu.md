@@ -2,6 +2,7 @@
 
 Zu den sichtbaren Highlights seit der Smartstore 3 Version gehört das MegaMenu.  
 Das MegaMenu wertet Ihren Shop exklusiv auf – z.B. mit attraktivem Layout, Hintergrundbildern, Produkt-Rotator oder vielfältigen Point&Click Optionen.    
+
 ![](./attachments/megamenu-1.PNG)
 
 ## Konfiguration des Mega Menu Plugins

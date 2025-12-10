@@ -45,6 +45,6 @@ Ohne Wert: „nur 29,90€“
 
 Mit dieser Methodik ist es möglich, dynamische, ansprechende, sowie immer aktuelle produktbezogene Stories zu kreieren.
 
-Für einen genaueren Einblick in dieses Thema, schauen Sie sich unser Video zur Datenbindung an: [https://www.youtube.com/watch?v=gs52tRjfqyA&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6&t=1s](https://www.youtube.com/watch?v=gs52tRjfqyA&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6&t=1s)
+Für einen genaueren Einblick in dieses Thema, schauen Sie sich unser [Video zur Datenbindung](https://www.youtube.com/watch?v=gs52tRjfqyA&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6&t=1s) an.
 
 **Hinweis:** Die Datenbindung wird nur beim Text- und Bild-Block unterstützt.
