@@ -3,11 +3,11 @@
 
 ![](./attachments/image031.jpg)
 
-**① Layout:** Beinhaltet allgemeine Story-Optionen. Zum Beispiel Veröffentlichungsoptionen oder Darstellungsoptionen. (Siehe [*Layout*](../../smartstore-page-builder/story/toolbox-story-optionen.md))
+**① Layout:** Beinhaltet allgemeine Story-Optionen. Zum Beispiel Veröffentlichungsoptionen oder Darstellungsoptionen. (Siehe [*Layout*](../../smartstore-page-builder/story/toolbox-story-optionen.md ))
 
-**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](../../smartstore-page-builder/blocke/block-basiseinstellungen.md#hintergrund))
+**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](../../smartstore-page-builder/blocke/block-basiseinstellungen.md#hintergrund ))
 
-**③ Blöcke:** Bietet eine Auswahl aller verfügbaren Blöcke. (Siehe [*Blöcke Übersicht*](../../smartstore-page-builder/blocke.md))
+**③ Blöcke:** Bietet eine Auswahl aller verfügbaren Blöcke. (Siehe [*Blöcke Übersicht*](../../smartstore-page-builder/blocke.md ))
 
 **Hinweis:** Die Ansicht der Toolbox ändert sich, wenn ein Block selektiert wird. Um wieder die Story-Optionen anzeigen zu lassen, wählen Sie den Block ab oder klicken auf einen freien Raum innerhalb Ihrer Story.
 
