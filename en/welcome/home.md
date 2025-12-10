@@ -11,3 +11,4 @@ If this is your first time using **Smartstore**, please take a look at the [Prod
 - [ ] **Install Smartstore** - [Download](https://smartstore.com/en/download-2/) and [Install](../getting-started/installing-smartstore.md) your own Smartstore shop.
 
 ![](./attachments/Smartstore_Logo_Bildmark_RGB_V2.png)
+
