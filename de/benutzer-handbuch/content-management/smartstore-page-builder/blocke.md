@@ -45,7 +45,7 @@ All diese Blöcke verfügen über die gleichen Basiseinstellungen, wie z.B. Hint
 
 **Hinweis:** Denken Sie daran, dass manche Blöcke wie Video oder Google Maps, sowie Blockeffekte, keinen Inhalt im *Bearbeitungsmodus* anzeigen. Wechseln Sie, um alle Inhalte anzuzeigen in den *Vorschaumodus*.
 
-Ein Video über die Blöcke in der Übersicht finden Sie unter: [https://www.youtube.com/watch?v=j43k8nUgKUs&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=3](https://www.youtube.com/watch?v=j43k8nUgKUs&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=3)
+Ein Video über die Blöcke in der Übersicht finden Sie auf [Youtube](https://www.youtube.com/watch?v=j43k8nUgKUs&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=3)
 
 # Block bearbeiten
 
@@ -65,7 +65,7 @@ Um einen Block zu modifizieren, rufen Sie die Block-Aktionen auf, indem Sie den 
 
 **⑤ Löschen:** Löscht den Block permanent aus der Story.
 
-Ein Video zur Anordnung von Blöcken finden Sie unter: [https://www.youtube.com/watch?v=\_XqRv4of\_4M&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6](https://www.youtube.com/watch?v=_XqRv4of_4M&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6)
+Ein Video zur Anordnung von Blöcken finden Sie auf [Youtube](https://www.youtube.com/watch?v=_XqRv4of_4M&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=6)
 
 # Block-Aktionen
 

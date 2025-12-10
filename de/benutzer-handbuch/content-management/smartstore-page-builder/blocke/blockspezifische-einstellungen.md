@@ -5,7 +5,7 @@ Der Text-Block bietet umfassende Möglichkeiten, Text zu formatieren. Mit dem Fe
 
 ![](./attachments/Textblock_config_2.jpg)
 
-Alternativ finden Sie ein Video zur Erläuterung des Text-Blockes unter: [https://www.youtube.com/watch?v=TRuKwwOs-nl&list=PLog4smYIQ2NSZ5gflnsPxi-qGxMKCOf-s&index=2](https://www.youtube.com/watch?v=TRuKwwOs-nI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=2)
+Alternativ finden Sie ein Video zur Erläuterung des Text-Blockes auf [Youtube](https://www.youtube.com/watch?v=TRuKwwOs-nI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=2)
 
 # Bild
 
@@ -64,15 +64,17 @@ Mit dem Google Maps-Block können Sie eine Adresse auf Google Maps anzeigen lass
 Verwenden Sie den Route-Block um eine Action direkt anzusteuern um das (partial) ViewResult auszugeben. Dafür müssen Sie Ihre Route als JSON-Objekt angeben. Dieser Block ist für erfahrene Entwickler gedacht.
 
 JSON Beispiel:  
+```
 {  
 „Area“:““,  
 „Controller“:“News“,  
 „Action“:“HomePageNews“  
 }
+```
 
 In dem Beispiel steuern wir den Controller *News* an um das ViewResult der Action-Methode *HomePageNews* zu bekommen. Mit diesem Beispiel werden News ausgegeben.
 
-Ein Video zum MVC Route-Block finden Sie unter: [https://www.youtube.com/watch?v=rsTuHDK47rQ&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=4](https://www.youtube.com/watch?v=rsTuHDK47rQ&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=4)
+Ein Video zum MVC Route-Block finden Sie auf [Youtube](https://www.youtube.com/watch?v=rsTuHDK47rQ&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=4)
 
 # Story
 

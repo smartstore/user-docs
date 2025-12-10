@@ -23,4 +23,4 @@ Dadurch, dass der Text-Block bei der Vorlage Fashion in der Desktopansicht ¾ vo
 
 Die Zeilen sind mit der Einheit *auto* versehen, wodurch die Mindesthöhe der Zellen durch den Inhalt bestimmt wird. In dieser Konfiguration ist der Text-Block mindestens so hoch, dass der Inhalt (mit Abständen) in die Zelle passt. Die beiden anderen Zeilen sind ebenfalls auf auto eingestellt, dadurch passen sich diese dynamisch auf den Platzbedarf der mittleren Zeile an. Eine Auflistung aller verfügbaren Maßeinheiten finden Sie unter [*Größeneinheiten*](../../smartstore-page-builder/sonstiges/glossar.md).
 
-Ein Video zur Erstellung einer einfachen Story finden Sie unter: [https://www.youtube.com/watch?v=gCHPlywtAZI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=1](https://www.youtube.com/watch?v=gCHPlywtAZI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=1)
+Ein Video zur Erstellung einer einfachen Story finden Sie auf [Youtube](https://www.youtube.com/watch?v=gCHPlywtAZI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=1)

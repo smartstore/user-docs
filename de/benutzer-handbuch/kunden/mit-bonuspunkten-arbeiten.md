@@ -8,6 +8,6 @@ Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem Sie das ent
 
 ![](./attachments/mit_bonuspunkten_arbeiten_2.png)
 
-Anwendungsszenario
+## Anwendungsszenario
 
 Stellen Sie sich vor, Sie haben gerade die Funktion Produktrezension in Smartstore aktiviert und möchten nun so schnell wie möglich so viele Produktrezensionen wie möglich erhalten. In einem solchen Fall könnten Sie Ihren Kunden Anreize für das Schreiben von Produktrezensionen bieten, indem Sie ihnen dafür Bonuspunkte gutschreiben.
