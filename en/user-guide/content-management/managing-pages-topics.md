@@ -32,4 +32,4 @@ In this tab, you can enter specific SEO values for the topic, e.g. **Meta title
 
 ### Stores
 
-In this tab, you can manage which store(s) the topic should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](../../common-concepts/working-with-multiple-stores.md).
+In this tab, you can manage which store(s) the topic should be published in. For more information about multiple stores, read the topic [Working with Multiple Stores](../common-concepts/working-with-multiple-stores.md).

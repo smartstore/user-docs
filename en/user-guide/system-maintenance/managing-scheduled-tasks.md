@@ -11,17 +11,13 @@ In Smartstore, you are often required to run tasks at specified times on a regul
 
 Besides the tasks that are part of the application core, third party plugins may also install custom tasks, e.g. to poll or synchronize (external) data on a regular basis.
 
-  
-
-  
-
 {% hint style="info" %}
-- [Accessing the Scheduled Tasks List](#accessing-the-scheduled-tasks-list)
-- [Running a Task Manually](#running-a-task-manually)
-- [Editing a Task](#editing-a-task)
-- [Types of Tasks](#types-of-tasks)
-- [Cron Expressions](#cron-expressions)
-{% endhint %  }
+[Accessing the Scheduled Tasks List](#accessing-the-scheduled-tasks-list)
+[Running a Task Manually](#running-a-task-manually)
+[Editing a Task](#editing-a-task)
+[Types of Tasks](#types-of-tasks)
+[Cron Expressions](#cron-expressions)
+{% endhint %}
 
   
 

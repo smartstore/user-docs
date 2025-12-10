@@ -155,8 +155,9 @@ The Tint effect changes the transparency of the background on mouse hover. Note 
 
 ![](./attachments/effect_tint.gif)
 
-> [!INFO]
-> Note: Some effects are not applied in the Edit view. Switch to *Preview mode* to test them.
+{% hint style="info" %}
+Note: Some effects are not applied in the Edit view. Switch to *Preview mode* to test them.
+{% endhint %}
 
 ### Databinding
 

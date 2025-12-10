@@ -1,6 +1,6 @@
 # Managing Languages
 
-Smartstore already comes with two languages in the box (English and German), but you can add an unlimited number of further languages. The default language is the one you've chosen during the installation process. Please also read the topic [Working with Multiple Languages](../../common-concepts/working-with-multiple-languages.md).).
+Smartstore already comes with two languages in the box (English and German), but you can add an unlimited number of further languages. The default language is the one you've chosen during the installation process. Please also read the topic [Working with Multiple Languages](../../user-guide/common-concepts/working-with-multiple-languages.md).).
 
 ## How to Add a Language
 
@@ -26,7 +26,7 @@ After you've created the desired language, you need to add the resources for thi
 {% hint style="info" %}
 ### Smartstore translation portal with numerous additional languages
 For additional languages for the current and older Smartstore versions, please visit the Smartstore translation portal.  
-To learn how to download the languages, please refer to the article “[Working with multiple languages](../../common-concepts/working-with-multiple-languages.md).”
+To learn how to download the languages, please refer to the article “[Working with multiple languages](../../user-guide/common-concepts/working-with-multiple-languages.md).”
 {% endhint %}
 
   
