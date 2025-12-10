@@ -7,7 +7,7 @@
 2. **Background**: Provides options for customizing the background of the story with images, color effects, or videos. (See Background)
 3. **Note**: The Toolbox view changes when a block is selected. To display the story options again, deselect the block or click a free space within your story.
 
-{% hint style="info" % }
+{% hint style="info" %}
 Note: The Toolbox view changes when a block is selected. To display the story options again, deselect the block or click a free space within your story.
 {% endhint %}
 

@@ -27,7 +27,7 @@
 **fit-content**: The cells are scaled to fit the content.  
 **minmax**: Restricts the size between min and max. Two different units can be used, for example: "at least 200 px, but at most 50%".
 
-{% hint style="info" % }
+{% hint style="info" %}
 Note: repeat is not supported
 {% endhint %}
 

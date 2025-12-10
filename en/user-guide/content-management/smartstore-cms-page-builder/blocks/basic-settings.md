@@ -28,11 +28,11 @@ Blocks have common basic settings. These can be found in the top bar in the Bloc
 
 **Template**: (For advanced users only) Razor template name. If no template is entered, the default template Public will be applied to the block. The templates for the blocks can be found at:
 
-\[Plugin\] > Views > Story > BlockTemplates > \[BlockType\] > \[Template\].cshtml
+**\[Plugin\] > Views > Story > BlockTemplates > \[BlockType\] > \[Template\].cshtml**
 
 For example, you can find the default template for the image block under:
 
-SmartStore.PageBuilder > Views > Story > BlockTemplates > Picture > Public.cshtml.
+**SmartStore.PageBuilder > Views > Story > BlockTemplates > Picture > Public.cshtml.**
 
 Now, if you want to include a custom template, you need to save your template in the appropriate block directory and enter the template name.
 
@@ -77,7 +77,7 @@ In addition to size settings, image effects such as zoom in/out on hover , as we
 
 ![](./attachments/effect_flat_1_1_gifski.gif)
 
-Mega: Enlarges a block so that it overlaps other blocks or extends out of the screen. Depending on the setting, blocks can extend beyond the left edge, the right edge, or both edges. This allows you to create eye-catching layouts that break up strict design layouts with deviations and irregularities, making your page look modern.
+**Mega:** Enlarges a block so that it overlaps other blocks or extends out of the screen. Depending on the setting, blocks can extend beyond the left edge, the right edge, or both edges. This allows you to create eye-catching layouts that break up strict design layouts with deviations and irregularities, making your page look modern.
 
 ![](./attachments/Effekte_Mega_normal.png)
 
@@ -113,13 +113,13 @@ Resolution levels are defined as follows:
 
 Possible operators are:
 
-< smaller than
+**<** smaller than
 
-> greater than
+**\>** greater than
 
-<= less than or equal to
+**<=** less than or equal to
 
-> \= greater than or equal to
+**\>=** greater than or equal to
 
 A definition of ">=md" would mean that the resolution must be at least tablet dimensions (medium) for the effect to be applied.
 
@@ -139,7 +139,10 @@ You can use the Reveal effect to fade in blocks with an effect. This can be used
 
 1. **Enable Reveal**: Determines whether the effect is enabled. Further options appear only when activated.
 2. **Reveal Effect**: Determines the effect used to fade in the block. Various effect types such as Fade (fade in), Flip (rotate), Slide (slide) or Zoom (zoom in/out) are available.
-3. **Easing**: Determines the speed curve of the fade-in . In addition to a linear curve, a selection of elastic curves is also available.![](./attachments/Reveal_Easing_slow.gif)
+3. **Easing**: Determines the speed curve of the fade-in . In addition to a linear curve, a selection of elastic curves is also available.
+
+![](./attachments/Reveal_Easing_slow.gif)
+
 4. **Duration**: The duration of the animation in milliseconds.
 5. **Delay**: The delay until the animation starts in milliseconds.
 6. **Distance**: Distance between start and end position while animating the block (CSS size unit, default 100px).

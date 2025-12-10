@@ -29,7 +29,8 @@ Blocks are an essential part of the Page Builder. All content is displayed using
 
 All these blocks have the same basic settings, such as background and effects. You can learn more about the basic settings under Block basic settings. You can also learn more about the individual blocks under Block-specific settings.
 
-> [!INFO]
-> Note: Keep in mind that some blocks, such as Video or Google Maps, as well as block effects, do not display content in Edit mode. To view all content, switch to Preview mode.
+{% hint style="info" %}
+Note: Keep in mind that some blocks, such as Video or Google Maps, as well as block effects, do not display content in Edit mode. To view all content, switch to Preview mode.
+{% endhint %}
 
 For a video about the blocks in the overview, see: [https://www.youtube.com/watch?v=j43k8nUgKUs&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=3](https://www.youtube.com/watch?v=j43k8nUgKUs&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=3)

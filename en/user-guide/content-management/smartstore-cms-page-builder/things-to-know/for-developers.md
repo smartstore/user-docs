@@ -22,5 +22,6 @@ class \[*Custom*\]BlockHandler : BlockHandlerBase<\[*Custom*\]Block>
 
 Acts as a controller and is responsible for loading, saving and rendering the block. Override the *Load* and *Save* methods here and, if necessary, the *RenderCore*, and *GetRoute* methods if you want to use a different story template.
 
-> [!INFO]
-> Note: You can also use the SampleBlock in the DevTools plugin as a guide here.
+{% hint style="info" %}
+Note: You can also use the SampleBlock in the DevTools plugin as a guide here.
+{% endhint %}

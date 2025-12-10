@@ -10,7 +10,7 @@ Here you can see a comparison between the mobile view and the view for desktop r
 
 As you can see, the positioning of the content has been adjusted to use all the space at the desktop resolution. The blocks are displayed larger to use the available space more effectively. There are five different resolution levels to provide a suitable display for all devices and resolutions.
 
-{% hint style="info" % }
+{% hint style="info" %}
 Note the correct configuration order of the Stories resolution levels.
 {% endhint %}
 

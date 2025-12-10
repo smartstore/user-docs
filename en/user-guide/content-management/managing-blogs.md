@@ -21,7 +21,7 @@
 
 ### Search Engines (SEO)
 
-In this tab you can enter specific SEO values for the blog post e.g. **Meta title**, **Meta keywords** or a SEO friendly **URL alias**. For more information about the fields in the **Seach engines** tab read the topic [SEO](../common-concepts/seo.md).).
+In this tab you can enter specific SEO values for the blog post e.g. **Meta title**, **Meta keywords** or a SEO friendly **URL alias**. For more information about the fields in the **Seach engines** tab read the topic [SEO](../common-concepts/seo.md).
 
 ### Stores
 

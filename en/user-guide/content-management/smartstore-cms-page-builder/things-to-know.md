@@ -24,10 +24,6 @@ You can also find all Page Builder videos summarized in a playlist on our YouTub
 
 Stores and pages designed with PageBuilder:
 
+[https://www.smartstore.com/](https://www.smartstore.com/)
+
 [https://shop.bauhaus-movement.com/](https://shop.bauhaus-movement.com/)
-
-[http://stories.smartstore.net/pagebuilder-apple](http://stories.smartstore.net/pagebuilder-apple)
-
-[http://stories.smartstore.net/pagebuilder](http://stories.smartstore.net/pagebuilder)
-
-( [https://www.smartstore.com/,](https://www.smartstore.com/,) [https://it-club-dortmund.de/,](https://it-club-dortmund.de/,) [http://klickaufruhr.smartstore.net/](http://klickaufruhr.smartstore.net/) )

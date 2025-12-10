@@ -19,3 +19,4 @@ In the Block Manager, a small icon is displayed to the left of each block. This 
 {% hint style="info" % }
 Note at this point that the *Smile* block will no longer be displayed because its visibility has been turned off. However, the *Basics* block will be displayed in any case, as it now overwrites the setting of the previous resolution.
 {% endhint %}
+
