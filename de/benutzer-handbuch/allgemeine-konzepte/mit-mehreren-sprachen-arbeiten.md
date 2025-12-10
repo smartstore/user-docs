@@ -46,4 +46,4 @@ Wenn Sie mehrere Sprachen konfiguriert haben, können Ihre Nutzer zwischen den S
 
 ## Sprachressourcen herunterladen
 
-Alle verfügbaren Sprachressourcen aller Versionen können im [Smartstore-Übersetzungsportal](https://translate.smartstore.com/) ([http://translate.smartstore.com](http://translate.smartstore.com) ) als XML-Datei heruntergeladen werden. Für weitere Informationen zu Plugin-Ressourcen lesen Sie bitte [How to Write a Plugin](https://smartstore.atlassian.net/wiki/pages/createpage.action?spaceKey=SDDE&title=How%20to%20write%20a%20Plugin).
+Alle verfügbaren Sprachressourcen aller Versionen können im [Smartstore-Übersetzungsportal](https://translate.smartstore.com/) ([http://translate.smartstore.com](http://translate.smartstore.com) ) als XML-Datei heruntergeladen werden.

@@ -4,7 +4,7 @@ Sie können Seiten und Inhalte verwalten, indem Sie zu  **CMS > Seiten und Inh
 
 ## HTML Widgets ausführen
 
-Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcken überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden *Inhalt* die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget Zonen und für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones). |).
+Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcken überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden *Inhalt* die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget Zonen und für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones).
 
 ## Ansicht Seite bearbeiten
 

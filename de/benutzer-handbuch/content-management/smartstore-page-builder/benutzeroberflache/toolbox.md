@@ -5,7 +5,7 @@
 
 **① Layout:** Beinhaltet allgemeine Story-Optionen. Zum Beispiel Veröffentlichungsoptionen oder Darstellungsoptionen. (Siehe [*Layout*](../../smartstore-page-builder/story/toolbox-story-optionen.md))
 
-**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](../../blocke/block-basiseinstellungen.md#hintergrund))
+**② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [*Hintergrund*](../../smartstore-page-builder/blocke/block-basiseinstellungen.md#hintergrund))
 
 **③ Blöcke:** Bietet eine Auswahl aller verfügbaren Blöcke. (Siehe [*Blöcke Übersicht*](../../smartstore-page-builder/blocke.md))
 
