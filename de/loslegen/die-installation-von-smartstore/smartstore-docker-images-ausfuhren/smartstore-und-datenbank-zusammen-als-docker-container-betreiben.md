@@ -2,12 +2,6 @@
 
 Wenn Sie eine Datenbankinstanz direkt mit Smartstore als Docker-Container ausführen möchten, gehen Sie bitte wie folgt vor.
 
-<<<<<<< Updated upstream
-* [Smartstore und MySQL zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md#anchor_docker_smartstore_mysql_de)
-* [Smartstore und MS SQL zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md#anchor_docker_smartstore_mssql_de)
-
-=======
->>>>>>> Stashed changes
 ### Smartstore und MySQL zusammen als Docker-Container betreiben
 
 Erstellen Sie eine neue Datei in einem Texteditor Ihrer Wahl. Fügen Sie die folgenden Zeilen in die Datei ein und speichern Sie sie als `docker-compose.yml`.
