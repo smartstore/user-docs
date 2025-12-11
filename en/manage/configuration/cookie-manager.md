@@ -76,7 +76,7 @@ if (CookieManager.AllowsAnalytics) {
 
 The Google Tag Manager is a service from Google that allows you to integrate tracking codes and associated code fragments into your store. To initialize it without cookies, you have to give it a ID that is unique for each store visitor. Therefore you can use a variable which was added to the window namespace and can be retrieved with _window.ClientId_.
 
-**Beispiel für die Initialisierung des Google Tag Managers ohne Cookies**
+**Example for initializing Google Tag Manager without cookies**
 
 ```
 gtag('config', 'GOOGLE_ID', {
@@ -85,6 +85,6 @@ gtag('config', 'GOOGLE_ID', {
 });
 ```
 
-Countries
+### Countries
 
 A cookie hint is only required for countries in the EU, so there is a possibility to turn off the hint at country level. To disable the cookie manager for visitors from a country, go to **Admin > Configuration > Regional settings > Countries > Country** and uncheck the option **Display Cookie Manager**
