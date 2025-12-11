@@ -2,11 +2,11 @@
 
 ## Docker
 
-![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
-
-Kann ich im Docker-Container etwas ändern oder hinzufügen, z. B. ein Plugin?
-
-**Ja**, das können Sie, aber wir empfehlen Ihnen, das [Modifiziertes Docker-Image erstellen](../smartstore-6-dokumentation-startseite/loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/modifiziertes-docker-image-erstellen.md).
+<details>
+  <summary>Kann ich im Docker-Container etwas ändern oder hinzufügen?</summary>
+  
+  **Ja**, das können Sie. Wir empfehlen aber, ein modifiziertes Image zu erstellen.
+</details>
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
