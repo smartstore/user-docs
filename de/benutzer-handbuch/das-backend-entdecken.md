@@ -1,3 +1,7 @@
+---
+icon: gear
+---
+
 # Das Backend entdecken
 
 Das **Smartstore** Backend stellt Ihnen eine Benutzeroberfläche zur Verfügung, die Ihnen dabei hilft, Ihren Shop und Ihren Produktkatalog einfach zu verwalten. Um zur Backend-Benutzeroberfläche zu gelangen, loggen Sie sich bitte ein. Sobald Sie als Shop Administrator eingeloggt sind, finden Sie einen Link in der Hauptnavigationsleiste des Shops wie auch im Verwaltungsmenü für Ihren Account.

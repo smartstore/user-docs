@@ -1,3 +1,7 @@
+---
+icon: house
+---
+
 # Die Übersicht
 
 Die Startseite des Backends dient als zentrale Übersicht für alle wichtigen Kennzahlen, Statistiken und aktuellen Informationen zum Shop.

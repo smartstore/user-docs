@@ -1,3 +1,7 @@
+---
+icon: lightbulb
+---
+
 # Allgemeine Konzepte
 
 Es gibt einige Konzepte, die wiederkehrend in verschiedenen Bereichen in **Smartstore** angewendet werden. Dieser Bereich beschäftigt sich mit diesen allgemeinen Konzepten.
