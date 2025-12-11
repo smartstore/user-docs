@@ -44,20 +44,24 @@ Im Zweifel fragen Sie Ihren Hoster, welches Betriebssystem und welche Server-Arc
 
 Sollten sich weitere Dateien oder Verzeichnisse (z.B. Favicon, Google-Dateien) im Installationsordner Ihres Shops befinden, gilt: Dateien/Verzeichnisse, die Sie dort einmal selbst angelegt haben, müssen nicht gelöscht werden.\
 Sollten externe Inhalte (Dateien/Verzeichnisse) in den Shop eingebunden worden sein, müssen diese ggf. im neuen Shop-Unterverzeichnis "wwwroot" abgelegt werden.\
+
 4\. Jetzt können Sie die von Ihnen bereits heruntergeladene Smartstore-Version (siehe oben Punkt 1) auf Ihrem PC entpacken, dann mit Werkzeugen wie FTP oder ähnlich diese Dateien vom PC auf Ihren Webspace hochladen. Bestehende Dateien überschreiben lassen.
 
 Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\
 
+{% hint style="warning" %}
+### Trouble Shooting
 * Sie sollten eigene Änderungen, die Sie am Source Code vornehmen, in geeigneter Form dokumentieren, so dass Sie Ihre Änderungen rückgängig machen können, sobald der Shop aktualisiert wurde.
 * Alle Theme-Anpassungen bzw. eigene Themes sichern. Sollten auch cshtml- und scss-Dateien geändert oder hinzugefügt worden sein, diese ebenfalls sichern.
 * Wenn Sie die Datei _user.scss_, die nur durch den Shop-Admin angepasst werden sollte, verändert haben, dürfen Sie diese NICHT überschreiben oder wiederherstellen, nachdem das Update abgeschlossen wurde.
-* Wenn Sie Plugins von Drittanbietern installiert haben, die nach dem Update nicht mehr funktionieren, sollten Sie diese deaktivieren und sich mit dem Entwickler des Plugins in Verbindung setzen. \{% endhint % }
+* Wenn Sie Plugins von Drittanbietern installiert haben, die nach dem Update nicht mehr funktionieren, sollten Sie diese deaktivieren und sich mit dem Entwickler des Plugins in Verbindung setzen.
+{% endhint %}
 
 {% hint style="info" %}
 ### Info
-- Die ersten Seitenaufrufe könnten etwas länger dauern, als Sie es gewohnt sind.
-- Sollte es beim ersten Shop-Aufruf zu einer (HTTP) `500 Internal Server Error` Fehlermeldung kommen, die Seite erneut laden.
-- Änderungen an der Datenbank werden automatisch durch Smartstore übernommen. Sie brauchen in Ihrer Datenbankverwaltung keine SQL-Scripte ausführen.
+* Die ersten Seitenaufrufe könnten etwas länger dauern, als Sie es gewohnt sind.
+* Sollte es beim ersten Shop-Aufruf zu einer (HTTP) `500 Internal Server Error` Fehlermeldung kommen, die Seite erneut laden.
+* Änderungen an der Datenbank werden automatisch durch Smartstore übernommen. Sie brauchen in Ihrer Datenbankverwaltung keine SQL-Scripte ausführen.
 {% endhint %}
 
 

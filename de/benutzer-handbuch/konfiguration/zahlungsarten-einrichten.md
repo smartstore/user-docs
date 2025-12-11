@@ -30,11 +30,12 @@ In der Übersicht der Zahlungsarten finden Sie die unterschiedlichen Funktionen 
 | Stornierung              | Wenn ein Zahlart-Plugin die Stornierung einer Zahlung unterstützt, wird ein zusätzlicher Button in der Bestellübersicht (Administrationsbereich) angezeigt, mit dem die Zahlung für die Bestellung storniert werden kann.                                                                              |
 |                          |                                                                                                                                                                                                                                                                                                        |
 
->
 
-> Auch wenn eine Zahlungsart Buchungen, Erstattungen oder Stornierungen nicht unterstützt, sehen Sie nicht-hervorgehobene Buttons für diese Vorgänge in der Bestellübersicht im Administrationsbereich, um den Statuswechsel der Zahlung "offline" zu ermöglichen, d.h.: ohne das Gateway der Zahlungsart zu kontaktieren.
+{% hint style="info" %}
+Auch wenn eine Zahlungsart Buchungen, Erstattungen oder Stornierungen nicht unterstützt, sehen Sie nicht-hervorgehobene Buttons für diese Vorgänge in der Bestellübersicht im Administrationsbereich, um den Statuswechsel der Zahlung "offline" zu ermöglichen, d.h.: ohne das Gateway der Zahlungsart zu kontaktieren.
+{% endhint %}
 
-!\[]\(./attachments/order-details-payment-butto.png)
+![](../../.gitbook/assets/order-details-payment-butto.png)
 
 ## Zahlart Widgets
 
