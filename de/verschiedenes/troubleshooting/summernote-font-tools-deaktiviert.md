@@ -1,0 +1,2 @@
+# Summernote Font-Tools deaktiviert
+

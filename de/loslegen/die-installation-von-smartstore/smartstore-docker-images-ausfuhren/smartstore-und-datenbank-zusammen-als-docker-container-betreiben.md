@@ -2,8 +2,8 @@
 
 Wenn Sie eine Datenbankinstanz direkt mit Smartstore als Docker-Container ausführen möchten, gehen Sie bitte wie folgt vor.
 
-- [Smartstore und MySQL zusammen als Docker-Container betreiben](#anchor_docker_smartstore_mysql_de)
-- [Smartstore und MS SQL zusammen als Docker-Container betreiben](#anchor_docker_smartstore_mssql_de)
+* [Smartstore und MySQL zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md#anchor_docker_smartstore_mysql_de)
+* [Smartstore und MS SQL zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md#anchor_docker_smartstore_mssql_de)
 
 ### Smartstore und MySQL zusammen als Docker-Container betreiben
 
@@ -46,12 +46,12 @@ volumes:
 
 Ein Smartstore und ein MySQL-Container werden gestartet. Die Verbindungsdaten zum mySQL-Server finden Sie ebenfalls am Anfang des Codes:
 
-Datenbank-Name: `smartstore`  
+Datenbank-Name: `smartstore`\
 MySQL-Root-Passwort: `Smartstore2022!`
 
 Die Installation sieht dann wie folgt aus:
 
-![](./attachments/smartstore-installation-mysql-de.png)
+![](<../../../.gitbook/assets/smartstore-installation-mysql-de (3).png>)
 
 ### Smartstore und MS SQL zusammen als Docker-Container betreiben
 
@@ -94,12 +94,12 @@ volumes:
 
 Ein Smartstore und ein MS SQL Server Container werden gestartet. Die Verbindungsdaten zum MS SQL Server finden Sie ebenfalls am Anfang des Codes:
 
-Datenbank Name: `smartstore`  
+Datenbank Name: `smartstore`\
 MS SQL Passwort für Benutzer sa: `Smartstore2022!`
 
 Die Installation sieht dann wie folgt aus:
 
-![](./attachments/smartstore-installation-mssql-de.png)
+![](../../../.gitbook/assets/smartstore-installation-mssql-de.png)
 
 {% hint style="info" %}
 Ändern Sie bitte unbedingt die Standardpasswörter und -benutzer auf den Produktivsystemen!

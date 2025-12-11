@@ -1,14 +1,15 @@
 # Produktmassenbearbeitung
 
-Die **Produktmassenbearbeitung** können Sie direkt in der Liste **Produktverwaltung** durchführen**.** 
+Die **Produktmassenbearbeitung** können Sie direkt in der Liste **Produktverwaltung** durchführen\*\*.\*\*&#x20;
 
 ## Anwendungsszenario
 
 Stellen Sie sich vor, Sie haben neue Preise von Ihrem Grossisten bekommen und müssen die Preise Ihrer Produkte aktualisieren. Sie müssen dafür nicht in die Produktdetailansicht jedes Ihrer Produkte gehen. Die Funktion der Produktmassenbearbeitung wurde genau für diesen Fall in Smartstore integriert. Filtern Sie einfach die zu aktualisierenden Produkte über die Suchmaske heraus, doppelklicken Sie auf das Preisfeld und bearbeiten Sie es.
 
 {% hint style="info" %}
-### Änderungen speichern
+#### Änderungen speichern
+
 Ihre Änderungen werden durch den Klick auf den Haken gespeichert oder durch einen Klick auf das **X** verworfen.
 {% endhint %}
 
-![](./attachments/2022-10-28%2010_31_17-Produktverwaltung%20_%20Smartstore%20Administration.png)
+![](<../../../.gitbook/assets/2022-10-28 10_31_17-Produktverwaltung _ Smartstore Administration.png>)

@@ -1,12 +1,12 @@
 # Mit Bonuspunkten arbeiten
 
-Das **Bonuspunkte-Programm** erlaubt es Kunden, für unterschiedliche Handlungen in Ihrem Shop Bonuspunkte zu erhalten. Bonuspunkte können für das Kaufen von Waren und für Handlungen wie die Registrierung oder das Schreiben einer Produktrezension gegeben werden. Für weitere Informationen über die unterschiedlichen Einstellungen, die für Bonuspunkte angewendet werden können, lesen Sie bitte [Bonuspunkte-Einstellungen](../../benutzer-handbuch/konfiguration/einstellungen/bonuspunkte-einstellungen.md) .
+Das **Bonuspunkte-Programm** erlaubt es Kunden, für unterschiedliche Handlungen in Ihrem Shop Bonuspunkte zu erhalten. Bonuspunkte können für das Kaufen von Waren und für Handlungen wie die Registrierung oder das Schreiben einer Produktrezension gegeben werden. Für weitere Informationen über die unterschiedlichen Einstellungen, die für Bonuspunkte angewendet werden können, lesen Sie bitte [Bonuspunkte-Einstellungen](../konfiguration/einstellungen/bonuspunkte-einstellungen.md) .
 
-Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem Sie das entsprechende Kästchen auf der Zahlart-Auswahlseite anklicken. Wenn sie sich dazu entschließen, ihre Bonuspunkte zu verwenden, wird der entsprechende Geldwert der gesammelten Bonuspunkte vom Gesamtbetrag auf der Auftragsbestätigung abgezogen.
+Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem Sie das entsprechende Kästchen auf der Zahlart-Auswahlseite anklicken. Wenn sie sich dazu entschließen, ihre Bonuspunkte zu verwenden, wird der entsprechende Geldwert der gesammelten Bonuspunkte vom Gesamtbetrag auf der Auftragsbestätigung abgezogen.
 
-![](./attachments/mit_bonuspunkten_arbeiten_1.png)
+![](../../.gitbook/assets/mit_bonuspunkten_arbeiten_1.png)
 
-![](./attachments/mit_bonuspunkten_arbeiten_2.png)
+![](../../.gitbook/assets/mit_bonuspunkten_arbeiten_2.png)
 
 ## Anwendungsszenario
 

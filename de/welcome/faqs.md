@@ -1,4 +1,6 @@
-# Docker
+# FAQs
+
+## Docker
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -14,7 +16,7 @@ Der Befehl zum Kopieren von Dateien oder Ordner in einen Container lautet:
 
 `docker cp <TARGET> <CONTAINER>:<SOURCE>`
 
-**Beispiel:**  
+**Beispiel:**\
 Kopieren des Plug-in-Ordners `My.Module.DoesSomething` vom Host in den Modules-Ordner `/app/Modules` in den Container:
 
 `docker cp My.Module.DoesSomething web:/app/Modules`
@@ -69,7 +71,7 @@ Der Befehl
 
 gibt unter anderem die folgenden Informationen zurück:
 
-![](./attachments/sGqmSILPU5.png)
+![](../.gitbook/assets/sGqmSILPU5.png)
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -95,13 +97,13 @@ Die Daten müssen in **Volumes** gespeichert werden. Docker-Volumes speichern Co
 
 In Docker Desktop können Volumes in den "Optionalen Einstellungen" beim Starten von Images eingerichtet werden.
 
-![](./attachments/2zVi4wrW18.png)
+![](../.gitbook/assets/2zVi4wrW18.png)
 
 Wie der Name schon sagt, befindet sich der Host-Pfad auf dem Host-Computer und der Container-Pfad im Docker-Container.
 
 Hier ist ein Beispiel:
 
-![](./attachments/j1OuVV6xv2.png)
+![](../.gitbook/assets/j1OuVV6xv2.png)
 
 {% hint style="info" %}
 Wenn nichts eingerichtet ist, werden die Daten in einer "Zwischenschicht" im Container gespeichert und gehen verloren, wenn der Container entfernt wird.
@@ -135,9 +137,9 @@ Unter Linux oder auf der Windows-Befehlszeile wird der Befehl
 
 unter anderem die folgenden Informationen zurück:
 
-![](./attachments/sGqmSILPU5.png)
+![](../.gitbook/assets/sGqmSILPU5.png)
 
-# Themes
+## Themes
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -149,7 +151,7 @@ Im 4.2-Theme-Ordner benennen Sie den Ordner "Content" in "wwwroot" um.
 
 Wahrscheinlich ist danach ein Neustart erforderlich. Danach können Sie das "neue" Theme im Backend aktivieren.
 
-# Updates
+## Updates
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -169,7 +171,7 @@ Ist ein Datenbank-Cross-Update möglich? Das heißt, ein Update von Smartstore 4
 
 **Nein**, dies ist nicht vorgesehen.
 
-# PDF Export
+## PDF Export
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
@@ -181,31 +183,31 @@ Das kann unter Umständen daran liegen, dass die Shop-URL nicht intern aufgerufe
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"PdfEngineBaseUrl": "http://localhost:5000/"`.
 
-# Task Scheduler
+## Task Scheduler
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
-Der Task Scheduler wird nicht ausgeführt und die Ereignisanzeige enthält eine Fehlermeldung wie "Error while calling Taskscheduler endpoint \[...\]". HTTP 404, NOT FOUND.
+Der Task Scheduler wird nicht ausgeführt und die Ereignisanzeige enthält eine Fehlermeldung wie "Error while calling Taskscheduler endpoint \[...]". HTTP 404, NOT FOUND.
 
 Öffnen Sie die appsettings.json-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “TaskSchedulerBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"TaskSchedulerBaseUrl": "http://localhost:5000/"`.
 
-# Timeouts (Zeitlimits)
+## Timeouts (Zeitlimits)
 
 ![](https://smartstore.atlassian.net/wiki/images/icons/grey_arrow_down.png)
 
 Wie ändere ich das Zeitlimit für den Start einer ASP.NET Core-Anwendung wie Smartstore?
 
-Das Ändern des Wertes für startupTimeLimit in einer [http://ASP.NET](http://ASP.NET) Core-Anwendung kann in bestimmten Situationen nützlich sein, um sicherzustellen, dass die Anwendung erfolgreich gestartet wird. Hier sind einige Szenarien, in denen der Wert für startupTimeLimit angepasst werden kann:
+Das Ändern des Wertes für startupTimeLimit in einer [http://ASP.NET](http://asp.net) Core-Anwendung kann in bestimmten Situationen nützlich sein, um sicherzustellen, dass die Anwendung erfolgreich gestartet wird. Hier sind einige Szenarien, in denen der Wert für startupTimeLimit angepasst werden kann:
 
-### Hochsetzen des Werts:
+#### Hochsetzen des Werts:
 
-**Lange Initialisierungszeit**: Wenn die [http://ASP.NET](http://ASP.NET) Core-Anwendung viel Zeit für die Initialisierung benötigt, z. B. wenn umfangreiche Vorbereitungen wie Datenbankverbindungen, Caching oder andere Dienste durchgeführt werden müssen, kann startupTimeLimit erhöht werden, um sicherzustellen, dass die Anwendung genügend Zeit hat, um erfolgreich zu starten.
+**Lange Initialisierungszeit**: Wenn die [http://ASP.NET](http://asp.net) Core-Anwendung viel Zeit für die Initialisierung benötigt, z. B. wenn umfangreiche Vorbereitungen wie Datenbankverbindungen, Caching oder andere Dienste durchgeführt werden müssen, kann startupTimeLimit erhöht werden, um sicherzustellen, dass die Anwendung genügend Zeit hat, um erfolgreich zu starten.
 
-### Runtersetzen des Werts:
+#### Runtersetzen des Werts:
 
-**Schnelle Bereitstellung:** Wenn Sie sicher sind, dass Ihre [http://ASP.NET](http://ASP.NET) Core Anwendung normalerweise schnell startet und Sie eine schnellere Rückmeldung wünschen, ob der Start erfolgreich war oder nicht, können Sie das startupTimeLimit verringern. Dadurch wird die Wartezeit verkürzt, bevor eine Fehlermeldung angezeigt wird, wenn der Startvorgang zu lange dauert.
+**Schnelle Bereitstellung:** Wenn Sie sicher sind, dass Ihre [http://ASP.NET](http://asp.net) Core Anwendung normalerweise schnell startet und Sie eine schnellere Rückmeldung wünschen, ob der Start erfolgreich war oder nicht, können Sie das startupTimeLimit verringern. Dadurch wird die Wartezeit verkürzt, bevor eine Fehlermeldung angezeigt wird, wenn der Startvorgang zu lange dauert.
 
 **Fehleranalyse:** Das Herabsetzen des startupTimeLimit kann hilfreich sein, um Startprobleme frühzeitig zu erkennen und zu diagnostizieren. Wenn die Anwendung aufgrund von Startproblemen fehlschlägt, erhält man schneller eine Fehlermeldung, die bei der Behebung des Problems helfen kann.
 

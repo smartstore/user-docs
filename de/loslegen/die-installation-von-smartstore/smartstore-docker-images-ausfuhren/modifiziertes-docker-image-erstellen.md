@@ -2,8 +2,8 @@
 
 ### Software-Voraussetzungen
 
-- Installiertes Docker oder Docker Desktop
-- Ausführen von Shell-Skripten
+* Installiertes Docker oder Docker Desktop
+* Ausführen von Shell-Skripten
 
 Nehmen wir an, wir möchten das [Smartstore Community Edition Docker Image](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux) verwenden, haben aber ein selbst entwickeltes Plugin oder ein Plugin eines Drittanbieters, das wir ebenfalls verwenden möchten. Wie bekommen wir das neue Plugin in das Docker-Image?
 
@@ -17,15 +17,15 @@ Wir laden die Smartstore Community Edition von [GitHub](https://github.com/smart
 
 Für das Docker-Image benötigen wir die Linux-Version von Smartstore.
 
-![](./attachments/BVFWng93ph.png)
+![](../../../.gitbook/assets/BVFWng93ph.png)
 
 Wir **erstellen einen Unterordner**, der Name ist nicht relevant, ich habe den Ordner einfach `build_my_docker_image` genannt. Hier **erstellen wir einen weiteren Ordner** namens `smartstore-linux-x64` und **entpacken den Inhalt der Datei** in diesen Ordner.
 
-![](./attachments/docker_folder.png)
+![](../../../.gitbook/assets/docker_folder.png)
 
 Wir **platzieren unser eigenes oder fremdes Plugin** im Ordner `\Modules` im Ordner `\smartstore-linux-x64`. **Nicht als Zip-Datei, sondern entpackt**.
 
-![](./attachments/a8KX1KD3GX.png)
+![](../../../.gitbook/assets/a8KX1KD3GX.png)
 
 Nun benötigen wir die **Dockerdatei** und die **Skriptdatei** mit den Anweisungen zur **Erstellung des Docker-Images**.
 
@@ -70,8 +70,8 @@ Mit dem Schalter `-t` wird das Image "**getaggt**", d.h. mit einem Namen versehe
 
 Das Ergebnis sollte wie folgt aussehen:
 
-![](./attachments/OPc1TZMkZ0.png)
+![](../../../.gitbook/assets/OPc1TZMkZ0.png)
 
 Durch **Ausführen** der Datei `dockerize.linux.nobuild.sh` können wir **das neue Image erstellen**.
 
-![](./attachments/0bmdlaBhkJ.png)
+![](../../../.gitbook/assets/0bmdlaBhkJ.png)

@@ -2,29 +2,27 @@
 
 Um die Dokumentation zu vereinfachen, werden wir uns nur mit der Linux-Distribution Ubuntu Server (insbesondere Ubuntu Server 21.10) beschäftigen. Die Installation sollte bei anderen Distributionen ähnlich sein. Hier geht es um die Installation von Smartstore auf einer frisch installierten Ubuntu-Instanz. Wenn Ihre Instanz bereits mit NGINX, FTP-Server, etc. vorinstalliert ist, können Sie den entsprechenden Abschnitt überspringen.
 
-* * *
+***
 
 ## Anforderungen
 
-- Smartstore (self-contained, framework-unabhängig) für Linux X64
-- Ubuntu Server 21.10
-- Nicht-Root-Benutzer mit sudo-Rechten
+* Smartstore (self-contained, framework-unabhängig) für Linux X64
+* Ubuntu Server 21.10
+* Nicht-Root-Benutzer mit sudo-Rechten
 
 ## Ablauf
 
-- .NET Installation und andere Voraussetzungen
-- NGINX Reverse Proxy installieren
-- Firewall konfigurieren
-- FTP-Server installieren und konfigurieren
-- NGINX einrichten
-- MySQL oder MS SQL-Server einrichten
-- Smartstore als Dienst einrichten
+* .NET Installation und andere Voraussetzungen
+* NGINX Reverse Proxy installieren
+* Firewall konfigurieren
+* FTP-Server installieren und konfigurieren
+* NGINX einrichten
+* MySQL oder MS SQL-Server einrichten
+* Smartstore als Dienst einrichten
 
 ## .NET und andere Voraussetzungen
 
-{% hint style="info" %}
-Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein.
-{% endhint % }
+Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein. \{% endhint % }
 
 Um .NET Runtime 7 zu installieren, führen Sie bitte den folgenden Befehl in der Kommandozeile aus:
 
@@ -50,15 +48,15 @@ Da diese Komponente distributionsabhängig ist, wird sie nicht mit Smartstore ge
 
 ## NGINX installieren
 
-NGINX ist eine Open-Source-Webserver-Software mit Lastausgleich und Medien-Streaming. Sie funktioniert auch als Reverse Proxy. Obwohl [ASP.NET](http://ASP.NET) Core mit Kestrel eine Standard-Server-Implementierung hat, überwiegen die Vorteile von NGINX unter Linux.
+NGINX ist eine Open-Source-Webserver-Software mit Lastausgleich und Medien-Streaming. Sie funktioniert auch als Reverse Proxy. Obwohl [ASP.NET](http://asp.net) Core mit Kestrel eine Standard-Server-Implementierung hat, überwiegen die Vorteile von NGINX unter Linux.
 
 Prüfen Sie, ob NGINX bereits installiert ist:
 
 `systemctl status nginx`
 
-![](./attachments/nginx_not_installed_w.png)
+![](../../.gitbook/assets/nginx_not_installed_w.png)
 
-![](./attachments/NGINX_installed.png)
+![](../../.gitbook/assets/NGINX_installed.png)
 
 Wenn NGINX bereits installiert ist, können die folgenden Schritte übersprungen werden.
 
@@ -78,7 +76,7 @@ Um die Installation zu überprüfen, können Sie diesen Befehl verwenden:
 
 `nginx -v`
 
-![](./attachments/linux_check_nginx_installation.png)
+![](../../.gitbook/assets/linux_check_nginx_installation.png)
 
 #### NGINX-Dienst zum Systemstart hinzufügen
 
@@ -104,11 +102,11 @@ Hinweis: Wenn der Befehl mit `sudo: ufw: command not found` zurückgegeben wird,
 
 Üblicherweise sind drei NGINX-Profile verfügbar:
 
-- **Nginx Full**: Dieses Profil öffnet Port 80 und 443 für NGINX.
-- **Nginx HTTP**: Dieses Profil öffnet nur Port 80 für NGINX.
-- **Nginx HTTPS**: Dieses Profil öffnet nur Port 443 für NGINX.
+* **Nginx Full**: Dieses Profil öffnet Port 80 und 443 für NGINX.
+* **Nginx HTTP**: Dieses Profil öffnet nur Port 80 für NGINX.
+* **Nginx HTTPS**: Dieses Profil öffnet nur Port 443 für NGINX.
 
-Wir aktivieren das vollständige Webprofil mit Port 80 und Port 443 für SSL:  
+Wir aktivieren das vollständige Webprofil mit Port 80 und Port 443 für SSL:\
 `sudo ufw allow 'Nginx FULL'`
 
 Kontrollieren Sie das Ergebnis des Befehls:
@@ -117,7 +115,7 @@ Kontrollieren Sie das Ergebnis des Befehls:
 
 Wenn die Firewall nicht aktiviert ist, wird diese Ausgabe angezeigt:
 
-![](./attachments/ufw_inactive.png)
+![](../../.gitbook/assets/ufw_inactive.png)
 
 Wenn der aktuelle Zugriff auf diesen Server über SSH erfolgt, muss das SSH-Profil aktiviert werden, bevor die Firewall aktiviert wird:
 
@@ -221,11 +219,11 @@ Um zu überprüfen, ob NGINX läuft und erreichbar ist, können Sie die NGINX-St
 
 Die Standard-Startseite für NGINX wird angezeigt:
 
-![](./attachments/welcome_nginx.png)
+![](../../.gitbook/assets/welcome_nginx.png)
 
 ### NGINX als Reverse-Proxy einrichten
 
-[ASP.NET](http://ASP.NET) Core-Apps können auch direkt mit dem Kestrel-Webserver ausgeführt werden, aber da Kestrel derzeit nicht alle Funktionen hat, die ein vollwertiger Webserver wie IIS oder NGINX hat, verwenden wir NGINX auf Linux. NGINX übernimmt hier die Rolle eines Reverse Proxy und leitet die Anfragen an den Kestrel Webserver weiter.
+[ASP.NET](http://asp.net) Core-Apps können auch direkt mit dem Kestrel-Webserver ausgeführt werden, aber da Kestrel derzeit nicht alle Funktionen hat, die ein vollwertiger Webserver wie IIS oder NGINX hat, verwenden wir NGINX auf Linux. NGINX übernimmt hier die Rolle eines Reverse Proxy und leitet die Anfragen an den Kestrel Webserver weiter.
 
 Öffnen Sie die folgende Datei mit einem Editor und ersetzen Sie den Inhalt durch das Codeschnipsel:
 
@@ -256,7 +254,7 @@ Danach muss die NGINX-Konfiguration neu geladen werden:
 
 ## MySQL-Server installieren
 
-Smartstore ist für den Einsatz mit MySQL oder MS SQL Server ausgelegt.  
+Smartstore ist für den Einsatz mit MySQL oder MS SQL Server ausgelegt.\
 Wenn Sie MySQL installieren, können Sie selbstverständlich die Installation eines MS SQL Servers überspringen.
 
 Wie immer aktualisieren wir zunächst den lokalen Paketindex:
@@ -267,14 +265,14 @@ Nun kann MySQL mit dem folgenden Befehl installiert werden:
 
 `sudo apt install mysql-server`
 
-Wir empfehlen, MySQL gegen Angriffe abzusichern.  
+Wir empfehlen, MySQL gegen Angriffe abzusichern.\
 Dazu rufen Sie das Skript mit dem folgenden Befehl auf:
 
 `sudo mysql_secure_installation`
 
 Dieses Skript fragt Sie unter anderem, ob das Plugin "Validate Password" installiert und eingerichtet werden soll. Dieses Plugin testet die Stärke von Passwörtern.
 
-![](./attachments/linux-mysql-installing-validate-passwd-component.png)
+![](../../.gitbook/assets/linux-mysql-installing-validate-passwd-component.png)
 
 Bei der Installation des Plugins werden Sie aufgefordert, eine Stufe der Passwortvalidierung zu wählen. Wenn Sie die stärkste Stufe, Stufe 2, wählen, müssen MySQL-Passwörter mindestens acht Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten.
 
@@ -288,7 +286,7 @@ Authentifizierungsmethode prüfen:
 
 `SELECT user,authentication_string,plugin,host FROM mysql.user;`
 
-Wenn der `root`\-Benutzer über das `auth-socket`\-Plugin authentifiziert wird, muss das `root`\-Konto neu konfiguriert werden. Dieser Befehl ändert das bisherige Root-Passwort. Es sollte ein sicheres Passwort gewählt werden. Ersetzen Sie `password` durch Ihr eigenes Passwort in dem Befehl.
+Wenn der `root`-Benutzer über das `auth-socket`-Plugin authentifiziert wird, muss das `root`-Konto neu konfiguriert werden. Dieser Befehl ändert das bisherige Root-Passwort. Es sollte ein sicheres Passwort gewählt werden. Ersetzen Sie `password` durch Ihr eigenes Passwort in dem Befehl.
 
 `ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';`
 
@@ -322,13 +320,13 @@ Mit dem Befehl `exit` verlassen wir die Shell:
 
 ## MS SQL Server installieren
 
-Bitte befolgen Sie die Anweisungen von Microsoft auf dieser Website: [Ubuntu: Install SQL Server on Linux](https://docs.microsoft.com//en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
+Bitte befolgen Sie die Anweisungen von Microsoft auf dieser Website: [Ubuntu: Install SQL Server on Linux](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
 
 ## Smartstore als Dienst einrichten
 
 ### Dateien übertragen
 
-Nachdem alles installiert ist, müssen die Smartstore-Installationsdateien auf den Server kopiert werden.  
+Nachdem alles installiert ist, müssen die Smartstore-Installationsdateien auf den Server kopiert werden.\
 Übertragen Sie die Dateien per FTP in den Ordner `/var/www/html`.
 
 ### Dienst einrichten
@@ -361,16 +359,9 @@ Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WantedBy=multi-user.target
 ```
 
-{% hint style="info" %}
-Passen Sie ggf. die Pfade in `WorkingDirectory` und `ExecStart` an.
-{% endhint % }
+Passen Sie ggf. die Pfade in `WorkingDirectory` und `ExecStart` an. \{% endhint % }
 
-{% hint style="info" %}
-Code für **framework-abhängige** Bereitstellung:
-`ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll`
-Code für die **eigenständige** Bereitstellung:
-`ExecStart=/var/www/html/Smartstore.Web`
-{% endhint % }
+Code für **framework-abhängige** Bereitstellung: `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll` Code für die **eigenständige** Bereitstellung: `ExecStart=/var/www/html/Smartstore.Web` \{% endhint % }
 
 ### Aktivieren und Starten des Dienstes
 
@@ -382,9 +373,7 @@ Dienst starten:
 
 `sudo systemctl start kestrel-smartstore.service`
 
-{% hint style="info" %}
-Um den Dienst zu stoppen: `sudo systemctl stop kestrel-smartstore.service`
-{% endhint %  }
+Um den Dienst zu stoppen: \`sudo systemctl stop kestrel-smartstore.service\` \{% endhint % }
 
 ### Einstellen der Ordnerberechtigungen
 

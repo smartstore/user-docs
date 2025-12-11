@@ -12,21 +12,21 @@ Sie können den Contentslider für die Homepage im Administrationsbereich unter 
 
 Hier können Sie die Höhe und das Hintergrundbild eingeben und festlegen, ob der Inhalt automatisch und ohne Interaktion des Nutzers hereinfahren soll.
 
-![](./attachments/wie_man_den_content_slider_gestaltet_1.png)
+![](<../../.gitbook/assets/wie_man_den_content_slider_gestaltet_1 (2).png>)
 
-## Wie Sie einen einzelnen Slide einstellen 
+## Wie Sie einen einzelnen Slide einstellen&#x20;
 
-Wenn Sie einen einzelnen Slide hinzufügen oder bearbeiten, können Sie **Titel**, **Text** und ein **Bild** festlegen und mehrere Buttons einstellen, die automatisch mit dem Inhalt des Slides verändert werden (siehe unten stehende Grafik). Sie müssen auch die Sprache für den Slide einstellen. Es gibt keine Lokalisierungen für einzelne Slides. Sie müssen also einen Slide für jede aktive Sprache in Ihrem Shop einrichten, wenn Sie den gleichen Inhalt in unterschiedlichen Sprachen anzeigen möchten. Sie können bis zu drei Buttons zu jedem Slide hinzufügen. Um einen Button zu einem Slide hinzuzufügen, müssen Sie ihn lediglich aktivieren, indem Sie einen Haken an **Veröffentlicht** setzen. Dann geben Sie den Button **Text** und eine absolute URL einschließlich des Protokolls (z.B.: [http://www.myshop.com/mypath](http://www.myshop.com/mypath)) ein und wählen den **Buttontyp.** Mögliche **Buttontypen** sind *Primary, Info, Success, Warning, Danger, Inverse* und *Link.*
+Wenn Sie einen einzelnen Slide hinzufügen oder bearbeiten, können Sie **Titel**, **Text** und ein **Bild** festlegen und mehrere Buttons einstellen, die automatisch mit dem Inhalt des Slides verändert werden (siehe unten stehende Grafik). Sie müssen auch die Sprache für den Slide einstellen. Es gibt keine Lokalisierungen für einzelne Slides. Sie müssen also einen Slide für jede aktive Sprache in Ihrem Shop einrichten, wenn Sie den gleichen Inhalt in unterschiedlichen Sprachen anzeigen möchten. Sie können bis zu drei Buttons zu jedem Slide hinzufügen. Um einen Button zu einem Slide hinzuzufügen, müssen Sie ihn lediglich aktivieren, indem Sie einen Haken an **Veröffentlicht** setzen. Dann geben Sie den Button **Text** und eine absolute URL einschließlich des Protokolls (z.B.: [http://www.myshop.com/mypath](http://www.myshop.com/mypath)) ein und wählen den **Buttontyp.** Mögliche **Buttontypen** sind _Primary, Info, Success, Warning, Danger, Inverse_ und _Link._
 
 {% hint style="info" %}
-Die **URL** eines Button kann entweder komplett angeben werden (einschließlich *http* oder *https* Protokoll) oder absolut (z. B. ~*/path/to/ressource*), wobei die vorstehende Tilde (~) auch weggelassen werden kann.
+Die **URL** eines Button kann entweder komplett angeben werden (einschließlich _http_ oder _https_ Protokoll) oder absolut (z. B. ~~_/path/to/ressource_), wobei die vorstehende Tilde (~~) auch weggelassen werden kann.
 {% endhint %}
 
 {% hint style="info" %}
-Die Farben der Button-Typen werden im Konfigurationsbereichs Ihres Themes festgelegt. Für weitere Informationen zur Konfiguration von Themes lesen Sie bitte [Mit Themes arbeiten](../../benutzer-handbuch/plugins-designs/mit-themes-arbeiten.md).
+Die Farben der Button-Typen werden im Konfigurationsbereichs Ihres Themes festgelegt. Für weitere Informationen zur Konfiguration von Themes lesen Sie bitte [Mit Themes arbeiten](../plugins-designs/mit-themes-arbeiten.md).
 {% endhint %}
 
-![](./attachments/wie_man_den_content_slider_gestaltet_2.png)
+![](<../../.gitbook/assets/wie_man_den_content_slider_gestaltet_2 (2).png>)
 
 1. Titel
 2. Text

@@ -6,21 +6,21 @@ Smartstore wird mit bereits installierten Plugins und Themes ausgeliefert. Weite
 
 Wählen Sie den Menüpunkt Plugins > Plugins verwalten und klicken Sie auf die Schaltfläche Plugin hochladen. Wählen Sie die Zip-Datei, die das Plugin enthält. Das Plugin wurde nun hochgeladen und kann in der Plugin-Verwaltung installiert und konfiguriert werden.
 
-![](./attachments/plugins_upload_v5_de.png)
+![](../../.gitbook/assets/plugins_upload_v5_de.png)
 
 Das Plugin wurde nun hochgeladen und kann im Bereich der Plugin-Verwaltung installiert und konfiguriert werden.
 
-![](./attachments/plugin_install_v5_de.png)
+![](../../.gitbook/assets/plugin_install_v5_de.png)
 
 ## Wie man ein Theme hochlädt und aktiviert
 
 Wählen Sie den Menüpunkt **Konfiguration>Themes** und klicken Sie auf die Schaltfläche **Theme hochladen**. Wählen Sie die Zip-Datei aus, die das Theme enthält.
 
-![](./attachments/themes_upload_v5_de.png)
+![](../../.gitbook/assets/themes_upload_v5_de.png)
 
 Das Theme wurde nun hochgeladen und kann im Bereich der Theme-Verwaltung konfiguriert und aktiviert werden.
 
-![](./attachments/installed_themes__v5_de.png)
+![](../../.gitbook/assets/installed_themes__v5_de.png)
 
 ## Manueller upload
 

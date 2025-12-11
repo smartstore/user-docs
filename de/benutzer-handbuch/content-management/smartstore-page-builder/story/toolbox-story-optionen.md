@@ -1,54 +1,55 @@
+# Toolbox Story-Optionen
 
-# Layout
+## Layout
 
-##### Allgemein
+**Allgemein**
 
-![](./attachments/image057.jpg)
+![](../../../../.gitbook/assets/image057.jpg)
 
-**Systemname:** Name der Story 
+**Systemname:** Name der Story&#x20;
 
-**Veröffentlicht:** Bestimmt, ob die Story angezeigt wird (Siehe *Veröffentlichungsoptionen*) 
+**Veröffentlicht:** Bestimmt, ob die Story angezeigt wird (Siehe _Veröffentlichungsoptionen_)&#x20;
 
-**Veröffentlichen von…bis:** Beschränkt den Zeitraum, in dem die Story angezeigt wird (optional)
+**Veröffentlichen von…bis:** Beschränkt den Zeitraum, in dem die Story angezeigt wird (optional)
 
-**Sortierung:** Bestimmt die Anzeigereihenfolge mehrerer Storys innerhalb derselben Widget Zone.
+**Sortierung:** Bestimmt die Anzeigereihenfolge mehrerer Storys innerhalb derselben Widget Zone.
 
-**In Unterseiten anzeigen:** Bestimmt, ob die Story auch in Unterseiten angezeigt werden soll. Dazu zählen Listen mit einem Seitenindex größer als 1 oder mit mindestens einem aktiven Filter.
+**In Unterseiten anzeigen:** Bestimmt, ob die Story auch in Unterseiten angezeigt werden soll. Dazu zählen Listen mit einem Seitenindex größer als 1 oder mit mindestens einem aktiven Filter.
 
-**Widget Zonen:** Bestimmt die Positionierung der Story auf der Seite. (Siehe [*Widget Zonen*](../../smartstore-page-builder/sonstiges/widget-zonen.md))
+**Widget Zonen:** Bestimmt die Positionierung der Story auf der Seite. (Siehe [_Widget Zonen_](../sonstiges/widget-zonen.md))
 
-**Ziele:** Bestimmt die Zielseite(n), auf der die Story angezeigt wird. (Siehe *Veröffentlichungsoptionen*)
+**Ziele:** Bestimmt die Zielseite(n), auf der die Story angezeigt wird. (Siehe _Veröffentlichungsoptionen_)
 
-# Veröffentlichungsoptionen
+## Veröffentlichungsoptionen
 
-Eine Story kann in mehreren Widget Zonen und auf mehreren Zielseiten gleichzeitig dargestellt werden.  
+Eine Story kann in mehreren Widget Zonen und auf mehreren Zielseiten gleichzeitig dargestellt werden.\
 Um Ihre Story auf der gewünschten Seite anzuzeigen, vergewissern Sie sich, dass mindestens eine **Widget Zone** und **Zielseite** angegeben wurden und zudem **Veröffentlicht** angeschaltet ist. Widget Zonen bestimmen die Positionierung Ihrer Story auf der gewünschten Seite.
 
-##### Raster
+**Raster**
 
-![](./attachments/image059.jpg)
+![](../../../../.gitbook/assets/image059.jpg)
 
-**Zellenabstand:** Definiert den Abstand zwischen den Zellen. Hier können Sie zwischen relativen und absoluten Angaben wählen. Alle möglichen Maßeinheiten finden Sie unter [*Größeneinheiten*](../../smartstore-page-builder/sonstiges/glossar.md).   
+**Zellenabstand:** Definiert den Abstand zwischen den Zellen. Hier können Sie zwischen relativen und absoluten Angaben wählen. Alle möglichen Maßeinheiten finden Sie unter [_Größeneinheiten_](../sonstiges/glossar.md). \
 [https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-gap](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-gap)
 
-**Container:** Legt die Breite des äußeren Containers fest. (Siehe *Containergrößen*)
+**Container:** Legt die Breite des äußeren Containers fest. (Siehe _Containergrößen_)
 
-**Inhalt Container:** Legt die Breite des inneren Containers fest. (Siehe *Containergrößen*)
+**Inhalt Container:** Legt die Breite des inneren Containers fest. (Siehe _Containergrößen_)
 
-**Zellen horizontal verteilen:** Legt fest, wie Zellen horizontal verteilt werden, wenn der Container breiter ist als alle Zellen zusammen. (Siehe *Zellen horizontal verteilen - justify-content*)  
+**Zellen horizontal verteilen:** Legt fest, wie Zellen horizontal verteilt werden, wenn der Container breiter ist als alle Zellen zusammen. (Siehe _Zellen horizontal verteilen - justify-content_)\
 [https://css-tricks.com/snippets/css/complete-guide-grid/#prop-justify-content](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-justify-content)
 
-**Zellen vertikal verteilen:** Legt fest, wie Zellen vertikal verteilt werden, wenn der Container höher ist als alle Zellen zusammen. (Siehe *Zellen vertikal verteilen - align-content*)  
+**Zellen vertikal verteilen:** Legt fest, wie Zellen vertikal verteilt werden, wenn der Container höher ist als alle Zellen zusammen. (Siehe _Zellen vertikal verteilen - align-content_)\
 [https://css-tricks.com/snippets/css/complete-guide-grid/#prop-align-content](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-align-content)
 
-**Auto flow:** *(Nur für erfahrene Anwender)* Definiert, wie der Algorithmus zur automatischen Platzierung von Elementen vorgeht. (Siehe *Auto flow*)   
+**Auto flow:** _(Nur für erfahrene Anwender)_ Definiert, wie der Algorithmus zur automatischen Platzierung von Elementen vorgeht. (Siehe _Auto flow_) \
 [https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-auto-flow](https://css-tricks.com/snippets/css/complete-guide-grid/#prop-grid-auto-flow)
 
-**Spalten:** *(Nur für erfahrene Anwender)* Hier können Sie manuell Spalten definieren. Tragen Sie dafür einfach die gewünschte Größe und Einheit Ihrer Spalte ein. Separieren Sie einzelne Einträge mit Leerzeichen. Hierbei ist zu beachten, dass die Bearbeitung des Rasters mithilfe der [*Rasterwerkzeuge*](../../smartstore-page-builder/benutzeroberflache/das-raster.md) komfortabler und intuitiver ist.
+**Spalten:** _(Nur für erfahrene Anwender)_ Hier können Sie manuell Spalten definieren. Tragen Sie dafür einfach die gewünschte Größe und Einheit Ihrer Spalte ein. Separieren Sie einzelne Einträge mit Leerzeichen. Hierbei ist zu beachten, dass die Bearbeitung des Rasters mithilfe der [_Rasterwerkzeuge_](../benutzeroberflache/das-raster.md) komfortabler und intuitiver ist.
 
-**Zeilen:** *(Nur für erfahrene Anwender)* Hier können Sie manuell Zeilen definieren. Tragen Sie dafür einfach die gewünschte Größe und Einheit Ihrer Reihe ein. Separieren Sie einzelne Einträge mit Leerzeichen. Hierbei ist zu beachten, dass die Bearbeitung des Rasters mithilfe der *Rasterwerkzeuge* komfortabler und intuitiver ist.
+**Zeilen:** _(Nur für erfahrene Anwender)_ Hier können Sie manuell Zeilen definieren. Tragen Sie dafür einfach die gewünschte Größe und Einheit Ihrer Reihe ein. Separieren Sie einzelne Einträge mit Leerzeichen. Hierbei ist zu beachten, dass die Bearbeitung des Rasters mithilfe der _Rasterwerkzeuge_ komfortabler und intuitiver ist.
 
-# Containergrößen
+## Containergrößen
 
 **Volle Breite:** Container beansprucht die volle Anzeigebreite.
 
@@ -56,11 +57,11 @@ Um Ihre Story auf der gewünschten Seite anzuzeigen, vergewissern Sie sich, dass
 
 **Boxed:** Beschränkt die Containerbreite auf die Breite des Content-Bereichs.
 
-# Zellen horizontal verteilen – justify-content
+## Zellen horizontal verteilen – justify-content
 
 Diese Einstellung definiert, wie zusätzlich freier Platz innerhalb des Containers genutzt und auf der horizontalen Achse angeordnet wird. Zusätzlich freier Platz innerhalb Ihrer Story kann entstehen, wenn die Größe aller Zellen kleiner als der Container ist. Zum Beispiel wenn Sie drei Spalten mit absoluten Werten von z.B. 20% definieren. So beanspruchen alle Spalten Ihrer Story nur 60% der Containerbreite, 40% sind freier Platz.
 
-![](./attachments/justify-content_1.jpg)
+![](../../../../.gitbook/assets/justify-content_1.jpg)
 
 **Start:** Alle Elemente sind linksbündig ausgerichtet.
 
@@ -72,11 +73,11 @@ Diese Einstellung definiert, wie zusätzlich freier Platz innerhalb des Containe
 
 **Space-around:** Der freie Platz wird um jedes Element herum aufgeteilt.
 
-# Zellen vertikal verteilen – align-content
+## Zellen vertikal verteilen – align-content
 
 Diese Einstellung definiert, wie zusätzlich freier Platz innerhalb des Containers genutzt und auf der vertikalen Achse angeordnet wird.
 
-![](./attachments/align-content_1.jpg)
+![](../../../../.gitbook/assets/align-content_1.jpg)
 
 **Start:** Alle Elemente sind am oberen Rand ausgerichtet.
 
@@ -88,7 +89,7 @@ Diese Einstellung definiert, wie zusätzlich freier Platz innerhalb des Containe
 
 **Stretch:** Alle Elemente werden über den freien Platz gestreckt und füllen den Container komplett aus.
 
-# Auto flow (Für erfahrene Anwender)
+## Auto flow (Für erfahrene Anwender)
 
 Wenn Elemente nicht explizit auf dem Raster platziert sind, werden diese automatisch angeordnet. Dafür verfügen Sie über folgende Konfigurationsoptionen, um die Anordnung durch den Algorithmus anzupassen:
 
@@ -100,15 +101,15 @@ Wenn Elemente nicht explizit auf dem Raster platziert sind, werden diese automat
 
 **Spalten ohne Leerräume:** Ähnlich wie Spalten, versucht allerdings Lücken zu füllen, wenn möglich. Sollten nachfolgende Elemente kleiner sein und Zwischenräume füllen können, werden diese dort platziert.
 
-##### Stil
+**Stil**
 
 **Invertieren:** Invertiert Textfarbe und Ausblendeffekt. Diese Option ist bei dunklen Hintergrundfarben zu empfehlen, um Text deutlich lesbar darzustellen.
 
-![](./attachments/Stil_Invert_1.png)
+![](../../../../.gitbook/assets/Stil_Invert_1.png)
 
-![](./attachments/Stil_Invert_2.png)
+![](../../../../.gitbook/assets/Stil_Invert_2.png)
 
-![](./attachments/Context_Editor_Raster_Stil.JPG)
+![](../../../../.gitbook/assets/Context_Editor_Raster_Stil.JPG)
 
 **Mindesthöhe:** Bestimmt die Mindesthöhe des Containers, unabhängig von Inhalt. Wird erst ab der Tablet-Landscape Auflösung angewendet. Einstellungen sind Mittel (400px) und Hoch (700px).
 

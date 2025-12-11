@@ -1,11 +1,12 @@
+# Glossar
 
-# Größeneinheiten
+## Größeneinheiten
 
-# Fixierte Einheiten
+## Fixierte Einheiten
 
 **px:** Pixel – Feste Größe
 
-# Relative Einheiten
+## Relative Einheiten
 
 **%:** Prozentualer Anteil der Containergröße.
 
@@ -13,11 +14,11 @@
 
 **rem:** Ein rem (root-em) entspricht der Schriftgröße, die für das Wurzelelement (in HTML das html-Element) festgelegt wurde. (Evtl. Änderungen der Schriftgröße in Elternelementen können so übersprungen werden)
 
-**vh:** (*Viewport-Height*) Die Einheit vh entspricht dem 100. Teil der Höhe des Anzeigebereichs (Viewport). Es gilt also: 100vh = Höhe des Viewports.
+**vh:** (_Viewport-Height_) Die Einheit vh entspricht dem 100. Teil der Höhe des Anzeigebereichs (Viewport). Es gilt also: 100vh = Höhe des Viewports.
 
-**vw:** (*Viewport-Width*) Die Einheit vw entspricht dem 100. Teil der Breite des Anzeigebereichs (Viewport). Es gilt also: 100vw = Breite des Viewports.
+**vw:** (_Viewport-Width_) Die Einheit vw entspricht dem 100. Teil der Breite des Anzeigebereichs (Viewport). Es gilt also: 100vw = Breite des Viewports.
 
-# Flexible Einheiten
+## Flexible Einheiten
 
 **fr:** Setzt die Größe auf einen Bruchteil des verbleibenden/verfügbaren zu füllenden Raumes.
 
@@ -33,13 +34,13 @@
 
 **Hinweis:** repeat wird nicht unterstützt
 
-# Bildschirm Breakpoints
+## Bildschirm Breakpoints
 
 **xs:** extra-small (Mobile)
 
 **sm:** small (Mobile Landscape)
 
-**md:** medium (Tablet) 
+**md:** medium (Tablet)&#x20;
 
 **lg:** large (Tablet Landscape)
 
