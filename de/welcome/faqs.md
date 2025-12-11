@@ -5,7 +5,7 @@
 <details>
 <summary>Kann ich im Docker-Container etwas ändern oder hinzufügen, z. B. ein Plugin?</summary>
 
-**Ja**, das können Sie, aber wir empfehlen Ihnen, das [Modifiziertes Docker-Image erstellen](../smartstore-6-dokumentation-startseite/loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/modifiziertes-docker-image-erstellen.md) zu beachten.
+**Ja**, das können Sie. Wir empfehlen aber, ein modifiziertes Image zu erstellen.
 </details>
 
 <details>
@@ -15,7 +15,7 @@ Der Befehl zum Kopieren von Dateien oder Ordner in einen Container lautet:
 
 `docker cp <TARGET> <CONTAINER>:<SOURCE>`
 
-**Beispiel:**
+**Beispiel:**\
 Kopieren des Plug-in-Ordners `My.Module.DoesSomething` vom Host in den Modules-Ordner `/app/Modules` in den Container:
 
 `docker cp My.Module.DoesSomething web:/app/Modules`
@@ -56,7 +56,7 @@ Den Ordner `wwwroot` inm Modules-Folder `/My.Module.DoesSomething` löschen:
 <details>
 <summary>Wie stelle ich eine Verbindung zu MySQL oder MS SQL her oder wie lautet der Hostname?</summary>
 
-Wenn [Smartstore und Datenbank zusammen als Docker-Container betreiben](../smartstore-6-dokumentation-startseite/loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md) (per `docker compose`) gestartet wird, kann einfach der **Containername** oder der **Dienstname** als Hostname verwendet werden.
+Wenn [Smartstore und Datenbank zusammen als Docker-Container betreiben](../loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md) (per `docker compose`) gestartet wird, kann einfach der **Containername** oder der **Dienstname** als Hostname verwendet werden.
 
 **Ansonsten** können detaillierte Informationen über den Container mit dem Befehl `docker inspect <CONTAINER>` ausgelesen werden.
 
@@ -64,7 +64,11 @@ Wenn [Smartstore und Datenbank zusammen als Docker-Container betreiben](../smart
 
 Der MySQL-Container hat den Namen `mysql`.
 
-Der Befehl `docker inspect mysql` gibt unter anderem die folgenden Informationen zurück:
+Der Befehl
+
+`docker inspect mysql`
+
+gibt unter anderem die folgenden Informationen zurück:
 
 ![](../.gitbook/assets/sGqmSILPU5.png)
 </details>
@@ -74,11 +78,15 @@ Der Befehl `docker inspect mysql` gibt unter anderem die folgenden Informationen
 
 **Ja**, geben Sie den Hostnamen des Datenbankservers in der richtigen Form an. Mögliche Beispiele sind z.B.:
 
-* Geben Sie den Instanznamen an: `<INSTANCENAME>`
-* Geben Sie den Hostnamen an: `<HOSTNAME>`
-* Geben Sie die IP-Adresse an: `<IP>`
-* Geben Sie die IP-Adresse und den Instanznamen an: `<IP>\<INSTANCENAME>`
-* Geben Sie den Hostnamen und den Instanznamen an: `<HOSTNAME>\<INSTANCENAME>`
+Geben Sie den Instanznamen an: `<INSTANCENAME>`
+
+Geben Sie den Hostnamen an: `<HOSTNAME>`
+
+Geben Sie die IP-Adresse an: `<IP>`
+
+Geben Sie die IP-Adresse und den Instanznamen an: `<IP>\<INSTANCENAME>`
+
+Geben Sie den Hostnamen und den Instanznamen an: `<HOSTNAME>\<INSTANCENAME>`
 </details>
 
 <details>
@@ -126,7 +134,7 @@ Unter Linux oder auf der Windows-Befehlszeile wird der Befehl
 
 `docker inspect <CONTAINER>`
 
-unter anderem die folgenden Informationen zurückgeben:
+unter anderem die folgenden Informationen zurück:
 
 ![](../.gitbook/assets/sGqmSILPU5.png)
 </details>
@@ -158,7 +166,7 @@ Wahrscheinlich ist danach ein Neustart erforderlich. Danach können Sie das "neu
 </details>
 
 <details>
-<summary>Ist ein Datenbank-Cross-Update möglich? (Smartstore 4.2 MS SQL auf Smartstore 5 MySQL)</summary>
+<summary>Ist ein Datenbank-Cross-Update möglich? Das heißt, ein Update von Smartstore 4.2 und MS SQL auf Smartstore 5 und MySQL?</summary>
 
 **Nein**, dies ist nicht vorgesehen.
 </details>
@@ -170,7 +178,7 @@ Wahrscheinlich ist danach ein Neustart erforderlich. Danach können Sie das "neu
 
 Das kann unter Umständen daran liegen, dass die Shop-URL nicht intern aufgerufen werden kann.
 
-Öffnen Sie die `appsettings.json`-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “PdfEngineBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
+Öffnen Sie die appsettings.json-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “PdfEngineBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"PdfEngineBaseUrl": "http://localhost:5000/"`.
 </details>
@@ -178,11 +186,9 @@ Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort 
 ## Task Scheduler
 
 <details>
-<summary>Der Task Scheduler wird nicht ausgeführt (HTTP 404, NOT FOUND).</summary>
+<summary>Der Task Scheduler wird nicht ausgeführt und die Ereignisanzeige enthält eine Fehlermeldung wie "Error while calling Taskscheduler endpoint [...]". HTTP 404, NOT FOUND.</summary>
 
-Der Task Scheduler wird nicht ausgeführt und die Ereignisanzeige enthält eine Fehlermeldung wie "Error while calling Taskscheduler endpoint [...]".
-
-Öffnen Sie die `appsettings.json`-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “TaskSchedulerBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
+Öffnen Sie die appsettings.json-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “TaskSchedulerBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"TaskSchedulerBaseUrl": "http://localhost:5000/"`.
 </details>
@@ -192,21 +198,21 @@ Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort 
 <details>
 <summary>Wie ändere ich das Zeitlimit für den Start einer ASP.NET Core-Anwendung wie Smartstore?</summary>
 
-Das Ändern des Wertes für `startupTimeLimit` in einer [http://ASP.NET](http://asp.net) Core-Anwendung kann in bestimmten Situationen nützlich sein, um sicherzustellen, dass die Anwendung erfolgreich gestartet wird. Hier sind einige Szenarien, in denen der Wert für `startupTimeLimit` angepasst werden kann:
+Das Ändern des Wertes für startupTimeLimit in einer ASP.NET Core-Anwendung kann in bestimmten Situationen nützlich sein, um sicherzustellen, dass die Anwendung erfolgreich gestartet wird. Hier sind einige Szenarien, in denen der Wert für startupTimeLimit angepasst werden kann:
 
 #### Hochsetzen des Werts:
 
-**Lange Initialisierungszeit**: Wenn die [http://ASP.NET](http://asp.net) Core-Anwendung viel Zeit für die Initialisierung benötigt, z. B. wenn umfangreiche Vorbereitungen wie Datenbankverbindungen, Caching oder andere Dienste durchgeführt werden müssen, kann startupTimeLimit erhöht werden, um sicherzustellen, dass die Anwendung genügend Zeit hat, um erfolgreich zu starten.
+**Lange Initialisierungszeit**: Wenn die ASP.NET Core-Anwendung viel Zeit für die Initialisierung benötigt, z. B. wenn umfangreiche Vorbereitungen wie Datenbankverbindungen, Caching oder andere Dienste durchgeführt werden müssen, kann startupTimeLimit erhöht werden, um sicherzustellen, dass die Anwendung genügend Zeit hat, um erfolgreich zu starten.
 
 #### Runtersetzen des Werts:
 
-**Schnelle Bereitstellung:** Wenn Sie sicher sind, dass Ihre [http://ASP.NET](http://asp.net) Core Anwendung normalerweise schnell startet und Sie eine schnellere Rückmeldung wünschen, ob der Start erfolgreich war oder nicht, können Sie das startupTimeLimit verringern. Dadurch wird die Wartezeit verkürzt, bevor eine Fehlermeldung angezeigt wird, wenn der Startvorgang zu lange dauert.
+**Schnelle Bereitstellung:** Wenn Sie sicher sind, dass Ihre ASP.NET Core Anwendung normalerweise schnell startet und Sie eine schnellere Rückmeldung wünschen, ob der Start erfolgreich war oder nicht, können Sie das startupTimeLimit verringern. Dadurch wird die Wartezeit verkürzt, bevor eine Fehlermeldung angezeigt wird, wenn der Startvorgang zu lange dauert.
 
 **Fehleranalyse:** Das Herabsetzen des startupTimeLimit kann hilfreich sein, um Startprobleme frühzeitig zu erkennen und zu diagnostizieren. Wenn die Anwendung aufgrund von Startproblemen fehlschlägt, erhält man schneller eine Fehlermeldung, die bei der Behebung des Problems helfen kann.
 
 Es ist wichtig zu beachten, dass startupTimeLimit dazu dient, den Startvorgang zu überwachen und sicherzustellen, dass die Anwendung innerhalb einer angemessenen Zeit gestartet wird. Der Wert sollte sorgfältig an die spezifischen Anforderungen und Eigenschaften der Anwendung angepasst werden. In den meisten Fällen ist es jedoch nicht notwendig, diesen Parameter anzupassen, da die Standardwerte normalerweise ausreichend sind.
 
-Konfiguration mit **IIS** als Hosting-Server - Eintrag in der Datei `web.config`:
+Konfiguration mit **IIS** als Hosting-Server - Eintrag in der Datei **web.config**:
 
 ```
 <configuration>    
