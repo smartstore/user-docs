@@ -1,3 +1,7 @@
+---
+icon: handshake-simple
+---
+
 # Willkommen
 
 ## Smartstore 6 Dokumentation – Willkommen

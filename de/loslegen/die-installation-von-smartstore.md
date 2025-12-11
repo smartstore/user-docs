@@ -1,3 +1,7 @@
+---
+icon: cloud-arrow-up
+---
+
 # Die Installation von Smartstore
 
 Bitte prüfen Sie vor der Installation, ob Ihr Hosting oder Server die Voraussetzungen für die Smartstore-Installation erfüllt.

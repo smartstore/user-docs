@@ -1,3 +1,7 @@
+---
+icon: users-between-lines
+---
+
 # Community & Marketplace
 
 ## [Smartstore Community](http://community.smartstore.com/)

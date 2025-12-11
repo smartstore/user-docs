@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Technologie und Voraussetzungen
 
 ## Technologie
