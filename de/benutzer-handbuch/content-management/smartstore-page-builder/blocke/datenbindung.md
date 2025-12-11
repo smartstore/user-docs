@@ -20,33 +20,21 @@ Ermöglicht es, Produkte, Warengruppen & Hersteller an einen Block zu binden. Um
 
 Folgende Platzhalter & Konstrukte stehen zur Verfügung:
 
-Name / Titel: **\{{ Name \}}**
+| Beschreibung | Platzhalter Code |
+| :--- | :--- |
+| Name / Titel | `{{ Name }}` |
+| Hersteller / Tagline | `{{ TagLine }}` |
+| Kurzbeschreibung / Intro | `{{ Description }}` |
+| Preis | `{{ Price }}` |
+| Alter Preis | `{{ Regular Price }}` |
+| Link | `{{ Url }}` |
+| Abfrage auf Inhalt | `{% if PLATZHALTER %}` Dann... `{% endif %}` |
 
-Hersteller / Tagline: **\{{ TagLine \}}**
+In manchen Fällen macht es Sinn, einen Platzhalter auf einen bestimmten Inhalt zu überprüfen. Als Beispiel könnten Sie überprüfen, ob dem Artikel ein `RegularPrice` (alter Preis) zugewiesen wurde. Wenn dies der Fall ist, soll spezieller Text ausgegeben werden, um den Kunden darauf aufmerksam zu machen. Eine solche Funktionalität könnte wie folgt aussehen:
 
-Kurzbeschreibung / Intro: **\{{ Description \}}**
-
-Preis: **\{{ Price \}}**
-
-Alter Preis: **\{{ Regular Price \}}**
-
-Link: **\{{ Url \}}**
-
-Abfrage auf Inhalt: \*\*
-
-{% if PLATZHALTER %}
-\*\* Dann….. \*\*
-{% endif %}
-
-\*\*
-
-In manchen Fällen macht es Sinn, einen Platzhalter auf einen bestimmten Inhalt zu überprüfen. Als Beispiel könnten Sie überprüfen, ob dem Artikel ein _RegularPrice_ (alter Preis) zugewiesen wurde. Wenn dies der Fall ist, soll spezieller Text ausgegeben werden, um den Kunden darauf aufmerksam zu machen. Eine solche Funktionalität könnte wie folgt aussehen:
-
-{% if RegularPrice %}
-Sonderangebot! Anstatt \{{ RegularPrice \}} bezahlen Sie
-{% endif %}
-
-nur \{{ Price \}}
+```
+{% if RegularPrice %} Sonderangebot! Anstatt {{ RegularPrice }} bezahlen Sie {% endif %} nur {{ Price }}
+```
 
 Mit einer solchen Abfrage könnte Ihr Text so aussehen:
 
