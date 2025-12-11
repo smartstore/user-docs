@@ -1,6 +1,6 @@
 # AI
 
-Das AI Plugin ![icon.png](../../.gitbook/assets/icon.png) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
+Das AI Plugin <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
 
 {% hint style="info" %}
 **Hinweise:**
@@ -22,7 +22,7 @@ Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …), wird der
 
 ![SimpleText\_Kontext.PNG](../../.gitbook/assets/SimpleText_Kontext.PNG)
 
-Ein Klick auf das AI-Symbol ![icon.png](../../.gitbook/assets/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![send.png](../../.gitbook/assets/send.png), wird ihr Prompt an die KI geschickt.
+Ein Klick auf das AI-Symbol <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![send.png](../../.gitbook/assets/send.png), wird ihr Prompt an die KI geschickt.
 
 ![SimpleText\_Dialog.PNG](../../.gitbook/assets/SimpleText_Dialog.PNG)
 
@@ -34,7 +34,7 @@ Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld
 
 ### RichText
 
-Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol ![icon.png](../../.gitbook/assets/icon.png) wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
+Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
 
 ![Richtext\_Dialog.PNG](../../.gitbook/assets/Richtext_Dialog.PNG)
 
@@ -68,15 +68,15 @@ Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im gen
 
 ![Summernote\_Integration.PNG](../../.gitbook/assets/Summernote_Integration.PNG)
 
-Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon ![icon.png](../../.gitbook/assets/icon.png) in der Toolbar und es öffnet sich der gewohnte Dialog.
+Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> in der Toolbar und es öffnet sich der gewohnte Dialog.
 
 ![Summernote\_SelectedText.PNG](../../.gitbook/assets/Summernote_SelectedText.PNG)
 
-Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon ![icon.png](../../.gitbook/assets/icon.png) in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
+Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
 
 ### Suggestions
 
-Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon ![icon.png](../../.gitbook/assets/icon.png) im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
+Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
 
 ![Suggestions\_Dialog.PNG](../../.gitbook/assets/Suggestions_Dialog.PNG)
 
@@ -88,7 +88,7 @@ Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die we
 
 ![Translation\_Kontext.PNG](../../.gitbook/assets/Translation_Kontext.PNG)
 
-Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon ![icon.png](../../.gitbook/assets/icon.png) und wählen Sie das zu übersetzende Feld aus.
+Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon <img src="../../.gitbook/assets/icon.png" width="16" style="vertical-align:middle" alt="icon"> und wählen Sie das zu übersetzende Feld aus.
 
 ![Translation\_Dialog.PNG](../../.gitbook/assets/Translation_Dialog.PNG)
 
