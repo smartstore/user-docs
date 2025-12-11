@@ -172,4 +172,4 @@
 * [Developer Guide](welcome/developer-guide.md)
 * [FAQs](welcome/faqs.md)
 * [Troubleshooting](welcome/troubleshooting.md)
-  * [Summernote Font-Tools deaktiviert](verschiedenes/troubleshooting/summernote-font-tools-deaktiviert.md)
+  * [Summernote Font-Tools deaktiviert](troubleshooting/summernote-font-tools-deaktiviert.md)
