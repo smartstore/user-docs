@@ -19,61 +19,61 @@ The quantity input for a specific product when adding it to the cart has been re
 
 When buying tiles, customers buy a certain area (usually in m²). For easier orientation we want to show the user how much 1 package m² contains. The product has fixed width and length (59.5 x 59.5 cm), which are used to calculate the area . Since the plugin has its widget enabled, it is shown with the Add to cart button. In addition to the quantity, the plugin adds another field for the area (in this case 1 package = 0.35 m²). The customer can now easily orientate which area (and consequently which quantity) to order. If the field quantity changes, the field area is changed and vice versa. Also, the total price of the ordered products is automatically displayed (below the quantity and area field).
 
-![](./attachments/primjer01.png)
+![](../../.gitbook/assets/primjer01.png)
 
 #### Example 2
 
 This example is similar to the previous one, except that it calculates the volume in m3 (instead of area). The bag has a volume of 0.5 m3 with a price of 60.00€. The product also has tier prices which, in this example, set a price of 55.00€ with 10 bags or more. The customer can set, in the widget, the desirable volume and the plugin automatically sets the quantity and price. Plugin also respects the tier pricing and sets the price regarding the quantity. Also, note that the whole part for adding to the cart ('Add to Cart' button, quantity and volume size fields) is located on different position than in Example 1. It is also possible to configure in the plugin.
 
-![](./attachments/primjer02.png)
+![](../../.gitbook/assets/primjer02.png)
 
 #### Example 3
 
 In this example, the product uses a "cut-to-size" template which allows the customer to set the width and height of the slat. You can notice that the calculated area size and quantity are displayed below the dimension entry controls. The price of the product is 164,95 € (per m²). If the customer specifies the desired width and height in centimeters (in this case 250 cm x 150 cm, respectively), the area of the desired slat, in this example 3.75m², is calculated automatically. Since the quantity can be only a whole number, the plugin automatically rounds to the next whole number which is 4. The price is then calculated accordingly (4 x 164,95 € = 659,80 €). Under the "Add to cart" button, a message is displayed informing the customer that he cannot change the quantity in the cart.
 
-![](./attachments/primjer03.png)
+![](../../.gitbook/assets/primjer03.png)
 
 #### Example 4
 
 This example will explain how to add formulas to combine 2 items to calculate shipping costs to save space. In the figure below you can see that we entered the value "A" and calculate the combined width as A + Width.  
 
-![](./attachments/primjer-4.png)
+![](../../.gitbook/assets/primjer-4.png)
 
 #### Dimensions tab
 
 The plugin has the ability to display additional product dimensions in a special tab under the **Dimensions tab** on the product details screen. The following are the dimensions from the example 2 :
 
-![](./attachments/product_dimensiontab_2.png)
+![](../../.gitbook/assets/product_dimensiontab_2.png)
 
 #### Mini-cart / cart
 
 When the customer adds a product with dimension pricing enabled to the cart, the dimensions are displayed in the sidebar of the mini cart and in the normal cart.
 
-![](./attachments/minishoppingcart_items.png)
+![](../../.gitbook/assets/minishoppingcart_items.png)
 
 If a product has *Is custom dimension value entry* enabled property set (explained under ***Unit calculation widget***), the customer cannot change the quantity since the quantity is calculated trough the dimension formula (explained under ***Unit calculation widget***) which he will be notified with the appropriate message.
 
 Changing the quantity of products that don't have the *Is custom dimension value entry* property enabled, the volume/area size is updated.
 
-![](./attachments/shoppingcart_items.png)
+![](../../.gitbook/assets/shoppingcart_items.png)
 
 #### Checkout
 
 On the checkout screen the customer will have the information same as in cart but with calculated shipping / payment method fees. 
 
-![](./attachments/checkout.png)
+![](../../.gitbook/assets/checkout.png)
 
 #### Shipping methods
 
 Depending on the selected settings as well as the defined prices for shipping type, shipping unit and shipping type (here using the example of placement on pallets) and the defined prices for store, country and postal code from the customer's delivery address, the optimal product placement on the pallet is calculated and the price is displayed on each shipping method (for which data were entered).
 
-![](./attachments/shipping.png)
+![](../../.gitbook/assets/shipping.png)
 
 ### Order
 
 When a order is completed, the information will be showed on the order details screen as well in the confirmation e-mail that the customer receives.
 
-![](./attachments/orderdetail_front.png)
+![](../../.gitbook/assets/orderdetail_front.png)
 
 ## Dimension pricing plugin on administration
 
@@ -100,7 +100,7 @@ Each feature will be explained below.
 
 To access the settings screen open the plugin configuration and click on the **Settings** tab. You will be presented with some options :
 
-![](./attachments/settings.png)
+![](../../.gitbook/assets/settings.png)
 
 *Standard dimension (width, height, length) source type* option allows you to use standard dimensions (width, height and length) from the product details. This option applies to all retrievals of standard dimensions for the entire plugin area: dimension pricing as well as shipping price calculation method.
 
@@ -133,11 +133,11 @@ Dimension template list can be found under **Catalog -> Product dimensions** i
 
 Dimension template have a set of rules (regarding dimension pricing and shipping calculations) that determine how a product that uses that template behaves.  
 
-![](./attachments/DimTemplateList.png)
+![](../../.gitbook/assets/DimTemplateList.png)
 
 Clicking on the **Add new template** button, you will be redirected to a new screen:
 
-![](./attachments/dimensiontemplate_addnew_withdata.png)
+![](../../.gitbook/assets/dimensiontemplate_addnew_withdata.png)
 
 Set the *Name* and the *Display order* for the shipping type and click **Save** or **Save and Continue Edit**. After saving, you will be able to add dimensions, define the unit calculation widget or add custom formulas for shipping.
 
@@ -145,11 +145,11 @@ Set the *Name* and the *Display order* for the shipping type and click **Sa
 
 On the **Dimensions** tab you will be met with a graphic explaining the dimensions on an irregularly shaped object. 
 
-![](./attachments/DimTemplateDimsList.png)
+![](../../.gitbook/assets/DimTemplateDimsList.png)
 
 To add a new dimension, click the **Add new dimension** button which will open a popup:  
 
-![](./attachments/dimensiontemplate_dimension_addnew_withdata.png)
+![](../../.gitbook/assets/dimensiontemplate_dimension_addnew_withdata.png)
 
 | Input field | Description |
 | --- | --- |
@@ -169,7 +169,7 @@ To add a new dimension, click the **Add new dimension** button which will open
 
 On this tab you can set the formula that is used to convert the unit quantity of a product into any metric. Checking the *Is unit calculation widget used?* checkbox will allow you to set the widget zone, dimension formula, dimension ratio, the number of decimals, whether the custom dimension value entry is enabled, the dimension custom label and the quantity custom label.
 
-![](./attachments/dimensiontemplate_unitcalculationwidget.png)
+![](../../.gitbook/assets/dimensiontemplate_unitcalculationwidget.png)
 
 | Input field | Description |
 | --- | --- |
@@ -199,11 +199,11 @@ On this tab you can set the formula that is used to convert the unit quantity of
 
 It is possible to place 2 irregular objects next to each other or to rotate them on a pallet. These two scenarios will leave a different footprint on a pallet creating two different prices. With custom formulas for shipping, it is possible to define the number of items used which will create a cuboid-like shape which will have a combined footprint. Opening **Custom formulas for shipping** you can view the already created custom formulas.
 
-![](./attachments/dimensiontemplate_customformulaforshipping.png)
+![](../../.gitbook/assets/dimensiontemplate_customformulaforshipping.png)
 
 To add a new custom formula, click the **Add new dimension template shipping formula** which will open a popup :
 
-![](./attachments/dimensiontemplate_customformulaforshipping_addnew_withdata.png)
+![](../../.gitbook/assets/dimensiontemplate_customformulaforshipping_addnew_withdata.png)
 
 | Input field | Description |
 | --- | --- |
@@ -220,7 +220,7 @@ To add a new custom formula, click the **Add new dimension template shipping fo
 
 You can access the **Dimension tab** on the **Edit product** screen where you will see the Dimensions tab. Here you can use the defined dimension templates and enter specific dimension values for a product. 
 
-![](./attachments/edit_product.png)
+![](../../.gitbook/assets/edit_product.png)
 
 Upon enabling the *Is product template enabled* checkbox, you will be shown with the set dimension templates. Selecting one will show the dimensions you had set before with restrictions.
 
@@ -236,15 +236,15 @@ A **shipping type** is the shipping method for a certain carrier. For example: P
 
 In order to set shipping prices, you have to create shipping types and units. To do so you will have to navigate to the **Shipping types and units** tab on the plugin configuration screen. If this is a fresh installation of the plugin, you will already have a shipping type. To create a shipping type, click the **Add new shipping type button** which will redirect you to a new screen :
 
-![](./attachments/shippingtype_addnew_withdata.png)
+![](../../.gitbook/assets/shippingtype_addnew_withdata.png)
 
 Set the *Name* and the *Display* *order* for the shipping type and click **Save** or **Save and Continue Edit**. After you save, you will have access to the **Units** tab where you can view, update, add new or delete the shipping type units.
 
-![](./attachments/shippingtype_shippingtypeunit_list.png)
+![](../../.gitbook/assets/shippingtype_shippingtypeunit_list.png)
 
 To add a new unit, click the **Add new shipping type unit** which will make a popup appear :
 
-![](./attachments/shipping_type_add.png)
+![](../../.gitbook/assets/shipping_type_add.png)
 
 | Input field | Description |
 | --- | --- |
@@ -263,7 +263,7 @@ Creating Shipping unit price
 
 On the plugin configuration screen navigate to the **Shipping prices** tab. To create a new shipping unit price, click the **Add new shipping unit price** button which will open a popup:
 
-![](./attachments/shippingunitprice_addnew_withdata.png)
+![](../../.gitbook/assets/shippingunitprice_addnew_withdata.png)
 
 | Input field | Description |
 | --- | --- |
@@ -283,4 +283,4 @@ Orders
 
 Every order that had it's product prices with the dimension calulation plugin calculated, the dimensions will be shown. This can be accessed on the order details under the **Products** tab.
 
-![](./attachments/orderdetail_admin.png)
+![](../../.gitbook/assets/orderdetail_admin.png)
