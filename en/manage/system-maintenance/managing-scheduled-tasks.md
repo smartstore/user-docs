@@ -11,10 +11,6 @@ In Smartstore, you are often required to run tasks at specified times on a regul
 
 Besides the tasks that are part of the application core, third party plugins may also install custom tasks, e.g. to poll or synchronize (external) data on a regular basis.
 
-{% hint style="info" %}
-[Accessing the Scheduled Tasks List](managing-scheduled-tasks.md#accessing-the-scheduled-tasks-list) [Running a Task Manually](managing-scheduled-tasks.md#running-a-task-manually) [Editing a Task](managing-scheduled-tasks.md#editing-a-task) [Types of Tasks](managing-scheduled-tasks.md#types-of-tasks) [Cron Expressions](managing-scheduled-tasks.md#cron-expressions)
-{% endhint %}
-
 ## Accessing the Scheduled Tasks List
 
 Scheduled tasks can be viewed and managed by navigating to **System -> Scheduled Tasks**.&#x20;
@@ -64,7 +60,15 @@ A cron expression is a string of 5 'time interval' fields that defines the frequ
 
 The following graph shows what a cron expression consists of:
 
-\* \* \* \* \* | | | | | | | | | +---- Day of the Week (range: 0-6 or SUN-SAT, 0 standing for Sunday) | | | +------ Month of the Year (range: 1-12 or JAN-DEC) | | +-------- Day of the Month (range: 1-31) | +---------- Hour (range: 0-23) +------------ Minute (range: 0-59)
+```
+* * * * *
+| | | | |
+| | | | +---- Day of Week (range: 0-6 or SUN-SAT, 0 standing for Sunday)
+| | | +------ Month (range: 1-12 or JAN-DEC)
+| | +-------- Day of Month (range: 1-31)
+| +---------- Hour (range: 0-23)
++------------ Minute (range: 0-59)
+```
 
 * Any of these 5 fields may be an asterisk (\*). This would mean the entire range of possible values, i.e. each minute, each hour, etc.
 * Any field may contain a list of values separated by commas, (e.g. 1\*,3,7\*) or a range of values (two integers separated by a hyphen, e.g. 1-5).
