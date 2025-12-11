@@ -1,3 +1,7 @@
+---
+icon: circle-exclamation
+---
+
 # Troubleshooting
 
 ### The query processor encountered an unexpected error during execution (HRESULT = 0x80040e19)
