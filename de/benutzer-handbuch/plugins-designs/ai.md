@@ -1,6 +1,6 @@
 # AI
 
-Das AI Plugin ![icon.png](../../.gitbook/assets/icon.png?width=20) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
+Das AI Plugin <img src="../../.gitbook/assets/icon.png" style="width: 16px; height: 16px; vertical-align: middle;"> arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
 
 {% hint style="info" %}
 **Hinweise:**
