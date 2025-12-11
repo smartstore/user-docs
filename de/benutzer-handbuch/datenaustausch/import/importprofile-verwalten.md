@@ -24,7 +24,7 @@ Klicken Sie auf den Namen des Importprofils, um es zu bearbeiten.
 
 ![](../../../.gitbook/assets/importprofile_verwalten_2.png)
 
-Datenimporte können automatisch jederzeit über [Geplante Aufgaben](http://docs.smartstore.com/display/SDDE/Geplante+Aufgaben+verwalten) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf  **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
+Datenimporte können automatisch jederzeit über [Geplante Aufgaben](../system-and-wartung/geplante-aufgaben-verwalten) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf  **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
 
 ### Objekttypen
 
