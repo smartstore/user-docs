@@ -30,8 +30,8 @@ Diese Registerkarte enthält eine Liste aller Produkte, die diesem Hersteller zu
 
 ## Rabatte
 
-Wurden Rabatte für Warengruppen eingerichtet können diese dem Hersteller zugeordnet werden. Für weitere Informationen zur Arbeit mit Rabatten lesen Sie bitte [Mit Rabatten arbeiten](../marketing-promotion/rabatte-verwalten.md).
+Wurden Rabatte für Warengruppen eingerichtet können diese dem Hersteller zugeordnet werden. Für weitere Informationen zur Arbeit mit Rabatten lesen Sie bitte [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
 
 ## Shops
 
-In der Zeile "Auf Shops begrenzt" können Sie den Hersteller einem oder mehreren Ihrer Shops zuordnen. Für weitere Informationen zur Arbeit mit mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+In der Zeile "Auf Shops begrenzt" können Sie den Hersteller einem oder mehreren Ihrer Shops zuordnen. Für weitere Informationen zur Arbeit mit mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).

@@ -10,11 +10,11 @@ Ein Datenexport erfordert einen Export-Provider, der Smartstore mitteilt, in wel
 
 ## Export
 
-Sie können Ihre Produktdaten in XML, CSV oder PDF exportieren. Bei einem PDF-Export können Sie die Daten all Ihrer Produkte oder ausgewählter Produkte in einen visuell ansprechenden PDF-Katalog exportieren. Für weitere Informationen zum PDF-Format lesen Sie bitte [Als PDF herunterladen](../../allgemeine-konzepte/als-pdf-herunterladen.md).
+Sie können Ihre Produktdaten in XML, CSV oder PDF exportieren. Bei einem PDF-Export können Sie die Daten all Ihrer Produkte oder ausgewählter Produkte in einen visuell ansprechenden PDF-Katalog exportieren. Für weitere Informationen zum PDF-Format lesen Sie bitte [Als PDF herunterladen](../../../benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md).
 
 ## Import
 
-Sie können Produktdaten importieren, indem Sie ein Importprofil nutzen. Um ein Importprofil zu erstellen, gehen Sie zu **Konfiguration > Import**. Für Informationen zu Importprofilen lesen Sie bitte [Importprofile verwalten](../../datenaustausch/import/importprofile-verwalten.md).&#x20;
+Sie können Produktdaten importieren, indem Sie ein Importprofil nutzen. Um ein Importprofil zu erstellen, gehen Sie zu **Konfiguration > Import**. Für Informationen zu Importprofilen lesen Sie bitte [Importprofile verwalten](../../../benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md).&#x20;
 
 Das Importprofil lässt Sie CSV-Dateien und auch Excel-Dateien hochladen, die die zu importierenden Katalogdaten enthalten. Um neue Produkte zu importieren, ist die Spalte **Name** das einzig erforderliche Feld, das einen Wert enthalten muss. Wenn Sie Ihre vorhandenen Produktdaten aktualisieren möchten, benötigen Sie zwingend Werte in den Feldern **SKU, GTIN (EAN), Herstellernummer** oder **ID.** Diese werden genutzt, um vorhandene Daten in Ihrem Katalog zu erkennen. Wenn ein Produkt mit einem dieser eindeutigen Schlüsselfelder gefunden wird, wird es aktualisiert. Wenn kein Produkt gefunden wird und ein Wert in der Spalte **Name** angegeben ist, wird ein neues Produkt erstellt und die Daten der Zeile werden entsprechend importiert. Eine vollständige Liste von Werten, die importiert werden, finden Sie in der unten stehende Liste.&#x20;
 

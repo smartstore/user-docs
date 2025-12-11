@@ -47,11 +47,11 @@ Das nächste Element in der Preiskette sind **Staffelpreise** . Mit Staffelpreis
 
 ## Rabatte
 
-Als nächstes Element in der Preisberechnung werden **Rabatte** berücksichtigt. Rabatte werden auf den aktuellen Preis, der durch die oben beschriebene Preiskette entstanden ist, angewendet. Für weitere Informationen zu Rabatten lesen Sie bitte [Rabatte verwalten](../../marketing-promotion/rabatte-verwalten.md).&#x20;
+Als nächstes Element in der Preisberechnung werden **Rabatte** berücksichtigt. Rabatte werden auf den aktuellen Preis, der durch die oben beschriebene Preiskette entstanden ist, angewendet. Für weitere Informationen zu Rabatten lesen Sie bitte [Rabatte verwalten](../../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).&#x20;
 
 ## Steuern
 
-Ein weiteres Element, das den angezeigten Preis beeinflusst, sind die Einstellungen, die Sie für die Behandlung von Steuern ausgewählt haben. Für weitere Informationen über Steuereinstellungen lesen Sie bitte [Steuerberechnung einrichten](../../konfiguration/steuerberechnung-einrichten.md).
+Ein weiteres Element, das den angezeigten Preis beeinflusst, sind die Einstellungen, die Sie für die Behandlung von Steuern ausgewählt haben. Für weitere Informationen über Steuereinstellungen lesen Sie bitte [Steuerberechnung einrichten](../../../benutzer-handbuch/konfiguration/steuerberechnung-einrichten.md).
 
 ## Grundpreis gemäß PAnGV berechnen
 

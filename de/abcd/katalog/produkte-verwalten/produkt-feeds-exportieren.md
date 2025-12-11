@@ -4,7 +4,7 @@ Wenn Sie Produkte in einem Onlineshop verkaufen, müssen Sie diese bewerben, so 
 
 Produkt-Feeds werden in Smartstore durch Export-Profile generiert. Sie können so viele Profile erstellen, wie Sie möchten. Um ein Export-Profil zu erzeugen, navigieren Sie zu **Konfiguration > Exportieren**.
 
-Das Export-Profil nutzt einen Export Provider, um die Daten in das gewünschte Format zu überführen. Export-Provider werden in der Regel durch Plugins gestellt. Sie können den Feed manuell erzeugen in der Konfigurationsansicht des Plugins und in der Profilliste unter **Konfiguration > Export**. Sie können Feeds auch durch eine geplante Aufgabe, die für ein Export-Profil eingerichtet wurde, automatisch ausführen lassen. Für weitere Informationen zu Export-Profilen lesen Sie bitte [Exportprofile verwalten](../../datenaustausch/export/exportprofile-verwalten.md). Abhängig von der Anzahl der installierten Feed-Plugins gibt es unterschiedliche Portale, zu denen Sie Ihre Produkte exportieren können.
+Das Export-Profil nutzt einen Export Provider, um die Daten in das gewünschte Format zu überführen. Export-Provider werden in der Regel durch Plugins gestellt. Sie können den Feed manuell erzeugen in der Konfigurationsansicht des Plugins und in der Profilliste unter **Konfiguration > Export**. Sie können Feeds auch durch eine geplante Aufgabe, die für ein Export-Profil eingerichtet wurde, automatisch ausführen lassen. Für weitere Informationen zu Export-Profilen lesen Sie bitte [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md). Abhängig von der Anzahl der installierten Feed-Plugins gibt es unterschiedliche Portale, zu denen Sie Ihre Produkte exportieren können.
 
 ## Das Dateiformat
 
@@ -12,7 +12,7 @@ Um Ihre Produkte in ein Portal wie _Google Shopping_ zu überführen, benötigen
 
 ## Feed Aufgaben&#x20;
 
-Wenn Sie ein Export-Profil erstellen, wird eine geplante Aufgabe für die Generation des Produkt-Feeds angelegt, welche den Zyklus definiert, in dem die Produktdaten der Dateien aktualisiert werden. Für weitere Information über die Planung von Aufgaben lesen Sie bitte [Geplante Aufgaben verwalten](../../system-wartung/geplante-aufgaben-verwalten.md).
+Wenn Sie ein Export-Profil erstellen, wird eine geplante Aufgabe für die Generation des Produkt-Feeds angelegt, welche den Zyklus definiert, in dem die Produktdaten der Dateien aktualisiert werden. Für weitere Information über die Planung von Aufgaben lesen Sie bitte [Geplante Aufgaben verwalten](../../../benutzer-handbuch/system-wartung/geplante-aufgaben-verwalten.md).
 
 ## Wie sie weitere Feed-Plugins erhalten
 

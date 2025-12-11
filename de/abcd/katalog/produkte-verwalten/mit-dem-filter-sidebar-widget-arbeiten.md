@@ -28,4 +28,4 @@ Die Elemente des **Filter Sidebar Widgets**, welche Ihre Kunden nutzen können, 
 
 ## Darstellung im Frontend&#x20;
 
-Die Einstellungen, welche die Anzeige des **Filter Sidebar Widget** im Frontend festlegen, können in den [Sucheinstellungen](../../konfiguration/einstellungen/suche.md) verändert werden. Dort können Sie die gewünschten Filtergruppen aktivieren / deaktivieren und die Reihenfolge der Filtergruppen bestimmen.
+Die Einstellungen, welche die Anzeige des **Filter Sidebar Widget** im Frontend festlegen, können in den [Sucheinstellungen](../../../benutzer-handbuch/konfiguration/einstellungen/suche.md) verändert werden. Dort können Sie die gewünschten Filtergruppen aktivieren / deaktivieren und die Reihenfolge der Filtergruppen bestimmen.

@@ -19,17 +19,15 @@ Die aktuelle Shop-Version können Sie sich im Adminbereich unter „System -> Sy
 Bei jeder neuen Veröffentlichung gibt es zwei Versionen von Smartstore: die Source-Code-Version, die eher für Entwickler zum bearbeiten und "selbst-kompilieren" geeignet ist, und mehrere "fertig kompilierte" Versionen, die bereits vorbereitet und eingestellt wurde und von Ihnen als Shopadministrator sofort eingesetzt werden kann.\
 Ab Smartstore 5 werden neben Windows weitere Betriebssysteme unterstützt.\
 Wählen Sie nun die für Ihr Hosting-Betriebssystem (in der Regel Windows oder Linux) und Server-Architektur (32 bit oder 64 bit, in der Regel 64 bit) geeignete Version aus.\
-Im Zweifel fragen Sie Ihren Hoster, welches Betriebssystem und welche Server-Architektur Ihr Hosting hat. Laden Sie diese Smartstore-Version zunächst auf Ihren PC herunter.&#x20;
-
+Im Zweifel fragen Sie Ihren Hoster, welches Betriebssystem und welche Server-Architektur Ihr Hosting hat. Laden Sie diese Smartstore-Version zunächst auf Ihren PC herunter.
 
 2. Bevor Sie Ihren Shop aktualisieren, sollten Sie Sicherungskopien Ihrer Datenbank und Ihres Dateisystems erstellen, so dass Sie notfalls den Zustand Ihres Shops wiederherstellen können, falls beim Update etwas schief geht. Besonders wichtig für eine eventuelle Shop-Wiederherstellung ist das Datenbank-Backup – nicht vergessen! Nutzen Sie dazu entsprechende Werkzeuge Ihres Hosting-Anbieters.
-
-3.  **4.2 auf 5.x Update**: Nachdem Sie Ihre Backups erstellt haben, sollten Sie alle Verzeichnisse / Dateien Ihres Shops löschen, mit einigen wichtigen Ausnahmen: folgende Verzeichnisse / Dateien dürfen auf **keinen** Fall gelöscht werden:
-    - App_Data/Tenants/Default/InstalledPlugins.txt
-    - App_Data/ Tenants/Default/Settings.txt
-    - App_Data/ Tenants/Default/PageBuilder/Templates (ist nicht bei allen Shops vorhanden)
-    - App_Data/ Tenants/Default/Media/Storage
-    - App_Data/ Tenants/Default/Media/QueuedEmailAttachmentMedia (ist nicht bei allen Shops vorhanden)
+3. **4.2 auf 5.x Update**: Nachdem Sie Ihre Backups erstellt haben, sollten Sie alle Verzeichnisse / Dateien Ihres Shops löschen, mit einigen wichtigen Ausnahmen: folgende Verzeichnisse / Dateien dürfen auf **keinen** Fall gelöscht werden:
+   * App\_Data/Tenants/Default/InstalledPlugins.txt
+   * App\_Data/ Tenants/Default/Settings.txt
+   * App\_Data/ Tenants/Default/PageBuilder/Templates (ist nicht bei allen Shops vorhanden)
+   * App\_Data/ Tenants/Default/Media/Storage
+   * App\_Data/ Tenants/Default/Media/QueuedEmailAttachmentMedia (ist nicht bei allen Shops vorhanden)
 
 * App\_Data/Tenants/Default/InstalledPlugins.txt
 * App\_Data/ Tenants/Default/Settings.txt
@@ -43,14 +41,15 @@ Im Zweifel fragen Sie Ihren Hoster, welches Betriebssystem und welche Server-Arc
 * wwwroot inkl. Unterverzeichnisse
 
 Sollten sich weitere Dateien oder Verzeichnisse (z.B. Favicon, Google-Dateien) im Installationsordner Ihres Shops befinden, gilt: Dateien/Verzeichnisse, die Sie dort einmal selbst angelegt haben, müssen nicht gelöscht werden.\
-Sollten externe Inhalte (Dateien/Verzeichnisse) in den Shop eingebunden worden sein, müssen diese ggf. im neuen Shop-Unterverzeichnis "wwwroot" abgelegt werden.\
+Sollten externe Inhalte (Dateien/Verzeichnisse) in den Shop eingebunden worden sein, müssen diese ggf. im neuen Shop-Unterverzeichnis "wwwroot" abgelegt werden.\\
 
 4\. Jetzt können Sie die von Ihnen bereits heruntergeladene Smartstore-Version (siehe oben Punkt 1) auf Ihrem PC entpacken, dann mit Werkzeugen wie FTP oder ähnlich diese Dateien vom PC auf Ihren Webspace hochladen. Bestehende Dateien überschreiben lassen.
 
-Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\
+Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\\
 
 {% hint style="warning" %}
-### Trouble Shooting
+#### Trouble Shooting
+
 * Sie sollten eigene Änderungen, die Sie am Source Code vornehmen, in geeigneter Form dokumentieren, so dass Sie Ihre Änderungen rückgängig machen können, sobald der Shop aktualisiert wurde.
 * Alle Theme-Anpassungen bzw. eigene Themes sichern. Sollten auch cshtml- und scss-Dateien geändert oder hinzugefügt worden sein, diese ebenfalls sichern.
 * Wenn Sie die Datei _user.scss_, die nur durch den Shop-Admin angepasst werden sollte, verändert haben, dürfen Sie diese NICHT überschreiben oder wiederherstellen, nachdem das Update abgeschlossen wurde.
@@ -58,10 +57,9 @@ Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\
 {% endhint %}
 
 {% hint style="info" %}
-### Info
+#### Info
+
 * Die ersten Seitenaufrufe könnten etwas länger dauern, als Sie es gewohnt sind.
 * Sollte es beim ersten Shop-Aufruf zu einer (HTTP) `500 Internal Server Error` Fehlermeldung kommen, die Seite erneut laden.
 * Änderungen an der Datenbank werden automatisch durch Smartstore übernommen. Sie brauchen in Ihrer Datenbankverwaltung keine SQL-Scripte ausführen.
 {% endhint %}
-
-
