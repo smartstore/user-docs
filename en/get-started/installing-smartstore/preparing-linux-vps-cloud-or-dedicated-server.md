@@ -101,8 +101,9 @@ This section can be skipped if firewall functionality is available elsewhere or 
 We assume that the ufw (**u**ncomplicated **f**ire**w**all) is installed. First we list the application profiles that have already been set up.
 
 `sudo ufw app list`
-
-**Note:** If the command is returned with `sudo: ufw: command not found` , then no firewall is installed and this point can be skipped or the firewall must be installed. \{% endhint % }
+{% hint style="info" %}
+If the command is returned with `sudo: ufw: command not found` , then no firewall is installed and this point can be skipped or the firewall must be installed.
+{% endhint % }
 
 Usually three NGINX profiles are available:
 
