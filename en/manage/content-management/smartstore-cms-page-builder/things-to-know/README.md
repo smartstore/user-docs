@@ -2,28 +2,29 @@
 
 ### Keyboard shortcuts
 
-CTRL+S: Save
+**CTRL+S:** Save
 
-ENTER: Confirm, open block editing mode
+**ENTER:** Confirm, open block edit mode
 
-DEL: Delete
+**DEL:** Delete
 
-CTRL+Z: Undo
+**CTRL+Z:** Undo
 
-CTRL+Y: Repeat
+**CTRL+Y:** Redo
 
-CTRL+ALT+P: Preview mode
+**CTRL+ALT+P:** Preview mode
 
-CTRL+F11: Full screen mode
+**CTRL+F11:** Fullscreen mode
 
-### Video footage
+# Video resources
 
-You can also find all Page Builder videos summarized in a playlist on our YouTube channel: [https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s.](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s.)
+You can find all Page Builder videos summarized in [a playlist](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s) on our YouTube channel.
 
-### References  
+# References
 
-Stores and pages designed with PageBuilder:
+Shops and pages designed with the Page Builder:
 
 [https://www.smartstore.com/](https://www.smartstore.com/)
 
 [https://shop.bauhaus-movement.com/](https://shop.bauhaus-movement.com/)
+

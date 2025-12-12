@@ -6,7 +6,7 @@ The Text block provides comprehensive options for formatting text. The Title fie
 
 ![](../../../../.gitbook/assets/docs.sm5.pagebuilder.blocks.specific-settings.text..png)
 
-Alternatively, you can find a video explaining the text block at: [https://www.youtube.com/watch?v=TRuKwwOs-nl\&list=PLog4smYIQ2NSZ5gflnsPxi-qGxMKCOf-s\&index=2](https://www.youtube.com/watch?v=TRuKwwOs-nl\&list=PLog4smYIQ2NSZ5gflnsPxi-qGxMKCOf-s\&index=2) .
+Alternatively, you can find a video explaining the text block at: [Youtube](https://www.youtube.com/watch?v=TRuKwwOs-nl\&list=PLog4smYIQ2NSZ5gflnsPxi-qGxMKCOf-s\&index=2) .
 
 ### Picture
 

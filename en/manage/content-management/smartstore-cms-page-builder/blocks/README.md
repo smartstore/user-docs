@@ -33,4 +33,4 @@ All these blocks have the same basic settings, such as background and effects. Y
 Note: Keep in mind that some blocks, such as Video or Google Maps, as well as block effects, do not display content in Edit mode. To view all content, switch to Preview mode.
 {% endhint %}
 
-For a video about the blocks in the overview, see: [https://www.youtube.com/watch?v=j43k8nUgKUs\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=3](https://www.youtube.com/watch?v=j43k8nUgKUs\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=3)
+For a video about the blocks in the overview, see: [Youtube](https://www.youtube.com/watch?v=j43k8nUgKUs\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=3).
