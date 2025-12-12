@@ -60,7 +60,7 @@ Delete `wwwroot` folder in Modules-Folder `/My.Module.DoesSomething`:
 <details>
 <summary>How do I connect to MySQL or MS SQL or what is the hostname?</summary>
 
-If Smartstore is [started together with MySQL or MS SQL as services](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045052/Running+Smartstore+and+Database+together+as+Docker+Containers), the **container name or the service name can simply be used as the host name**.
+If Smartstore is [started together with MySQL or MS SQL as services](../get-started/installing-smartstore/running-docker-images/running-smartstore-and-database-together-as-docker-containers.md), the **container name or the service name can simply be used as the host name**.
 
 **Otherwise**, detailed information about the container can be read out with the command `docker inspect <CONTAINER>`.
 
