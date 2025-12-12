@@ -12,7 +12,7 @@ Wenn Sie Ihre **Standardgewichtseinheit** wechseln, müssen auch die zugehörige
 
 ## Verpackungseinheiten verwalten
 
-Sie können Verpackungseinheiten verwalten, indem Sie zu **Konfiguration > Listen > Verpackungseinheiten** navigieren. Die Verpackungseinheiten, die Sie hier anlegen, können bei Produkten in der Registerkarte [Allgemein](../../abcd/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md) verwendet werden.&#x20;
+Sie können Verpackungseinheiten verwalten, indem Sie zu **Konfiguration > Listen > Verpackungseinheiten** navigieren. Die Verpackungseinheiten, die Sie hier anlegen, können bei Produkten in der Registerkarte [Allgemein](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md) verwendet werden.&#x20;
 
 ![](../../.gitbook/assets/verpackungseinheiten.PNG)
 

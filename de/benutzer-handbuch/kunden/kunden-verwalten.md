@@ -32,7 +32,7 @@ Diese Registerkarte zeigt alle verfügbaren Kundengruppen an. Sie können den Ku
 
 ### Registerkarte Aufträge
 
-Diese Registerkarte zeigt alle Aufträge des Kunden in einer klar geordneten Tabelle an. Die hier dargestellten Daten zeigen im Überblick **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, den **Shop**, in dem der Auftrag getätigt wurde und das Erstellungsdatum jedes Auftrags. Über **Ansicht** gelangen Sie zur Detailansicht des dazu gehörigen Auftrags, in welchem Sie ihn bearbeiten können. Für weitere Informationen zum Bearbeiten von Auftragsdetails, gehen Sie bitte zu [Aufträge verwalten](../../abcd/verkauf/auftrage-verwalten.md).
+Diese Registerkarte zeigt alle Aufträge des Kunden in einer klar geordneten Tabelle an. Die hier dargestellten Daten zeigen im Überblick **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, den **Shop**, in dem der Auftrag getätigt wurde und das Erstellungsdatum jedes Auftrags. Über **Ansicht** gelangen Sie zur Detailansicht des dazu gehörigen Auftrags, in welchem Sie ihn bearbeiten können. Für weitere Informationen zum Bearbeiten von Auftragsdetails, gehen Sie bitte zu [Aufträge verwalten](../../verwalten/verkauf/auftrage-verwalten.md).
 
 ### Registerkarte Bonuspunkte
 

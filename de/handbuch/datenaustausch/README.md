@@ -1,2 +1,6 @@
+---
+icon: right-left
+---
+
 # Datenaustausch
 

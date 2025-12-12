@@ -7,7 +7,7 @@ Das MegaMenu wertet Ihren Shop exklusiv auf – z.B. mit attraktivem Layout, Hin
 
 ## Konfiguration des Mega Menu Plugins
 
-Das Mega Menu Plugin wird hauptsächlich innerhalb der [Warengruppen-Konfiguration](../../abcd/katalog/warengruppen-organisieren.md) bedient. Zu diesem Zweck gibt es im Administrationsbereich von [Warengruppen](../../abcd/katalog/warengruppen-organisieren.md) ein "Mega Menu"-Tab, in dem jedes Mega Menu individuell konfiguriert werden kann. Im Konfigurations-Bereich des Plugins werden nur Einstellungen vorgenommen, die globale Gültigkeit haben.
+Das Mega Menu Plugin wird hauptsächlich innerhalb der [Warengruppen-Konfiguration](../../verwalten/katalog/warengruppen-organisieren.md) bedient. Zu diesem Zweck gibt es im Administrationsbereich von [Warengruppen](../../verwalten/katalog/warengruppen-organisieren.md) ein "Mega Menu"-Tab, in dem jedes Mega Menu individuell konfiguriert werden kann. Im Konfigurations-Bereich des Plugins werden nur Einstellungen vorgenommen, die globale Gültigkeit haben.
 
 ![](../../.gitbook/assets/megamenu-2.PNG)
 

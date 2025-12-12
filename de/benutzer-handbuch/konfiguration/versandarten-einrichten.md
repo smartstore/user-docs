@@ -84,6 +84,6 @@ Lesen Sie bitte auch das Thema [Versand-Einstellungen](einstellungen/versand-ein
 
 Versandkosten können für einzelne Kundengruppen deaktiviert werden. Wenn Sie mehr über diese Möglichkeit erfahren möchten, lesen Sie bitte [Kundengruppen verwalten](../kunden/kundengruppen-verwalten.md).
 
-Zusätzliche Versandkosten, die auf Produktebene definiert werden können, werden zu den Versandkosten, die Sie in den Berechnungsmethoden festgelegt haben, hinzugefügt. Weitere Informationen über diese Einstellung finden Sie unter [Produkte erstellen und bearbeiten](../../abcd/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
+Zusätzliche Versandkosten, die auf Produktebene definiert werden können, werden zu den Versandkosten, die Sie in den Berechnungsmethoden festgelegt haben, hinzugefügt. Weitere Informationen über diese Einstellung finden Sie unter [Produkte erstellen und bearbeiten](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
 
-Bei einem Produkt, für das kostenloser Versand eingerichtet wurde, werden die oben genannten Sätze ignoriert, solange kein Produkt ohne diese Option im Warenkorb des Auftrags ist. Weitere Informationen über diese Einstellung finden Sie unter [Produkte erstellen und bearbeiten](../../abcd/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
+Bei einem Produkt, für das kostenloser Versand eingerichtet wurde, werden die oben genannten Sätze ignoriert, solange kein Produkt ohne diese Option im Warenkorb des Auftrags ist. Weitere Informationen über diese Einstellung finden Sie unter [Produkte erstellen und bearbeiten](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).

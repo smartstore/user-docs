@@ -1,6 +1,6 @@
 # Content Slider
 
-Ein Content Slider ist ideal dazu geeignet, wichtige Informationen an die Besucher einer Seite zu vermitteln. Die Augen der Besucher richten sich während ihres ersten Besuchs direkt auf diesen Bereich. Daher sollten Sie dort Informationen platzieren, die Ihre Shopbesucher besonders interessieren (z. B. Sonderangebote). Sie können den Contentslider für Slides auf der Homepage und auf [Warengruppenseiten](../../abcd/katalog/warengruppen-organisieren.md) verwenden.
+Ein Content Slider ist ideal dazu geeignet, wichtige Informationen an die Besucher einer Seite zu vermitteln. Die Augen der Besucher richten sich während ihres ersten Besuchs direkt auf diesen Bereich. Daher sollten Sie dort Informationen platzieren, die Ihre Shopbesucher besonders interessieren (z. B. Sonderangebote). Sie können den Contentslider für Slides auf der Homepage und auf [Warengruppenseiten](../../verwalten/katalog/warengruppen-organisieren.md) verwenden.
 
 {% hint style="info" %}
 Nach dem Sie das Contentslider Plugin installiert haben, müssen Sie unter **CMS > Widgets** das Content Slider Widget aktivieren.
@@ -8,7 +8,7 @@ Nach dem Sie das Contentslider Plugin installiert haben, müssen Sie unter **CMS
 
 ## Wie Sie den Content Slider konfigurieren können
 
-Sie können den Contentslider für die Homepage im Administrationsbereich unter **Plugins > Contentslider** konfigurieren. Die Slides für Warengruppenseiten können Sie direkt auf den [Warengruppen-Details-Seiten](../../abcd/katalog/warengruppen-organisieren.md) auf der Registerkarte **Contentslider** konfigurieren.
+Sie können den Contentslider für die Homepage im Administrationsbereich unter **Plugins > Contentslider** konfigurieren. Die Slides für Warengruppenseiten können Sie direkt auf den [Warengruppen-Details-Seiten](../../verwalten/katalog/warengruppen-organisieren.md) auf der Registerkarte **Contentslider** konfigurieren.
 
 Hier können Sie die Höhe und das Hintergrundbild eingeben und festlegen, ob der Inhalt automatisch und ohne Interaktion des Nutzers hereinfahren soll.
 

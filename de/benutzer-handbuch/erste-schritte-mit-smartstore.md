@@ -6,12 +6,12 @@ icon: shoe-prints
 
 {% columns %}
 {% column %}
-{% content-ref url="../abcd/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md" %}
-[produkte-erstellen-und-bearbeiten.md](../abcd/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md)
+{% content-ref url="../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md" %}
+[produkte-erstellen-und-bearbeiten.md](../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md)
 {% endcontent-ref %}
 
-{% content-ref url="../abcd/katalog/warengruppen-organisieren.md" %}
-[warengruppen-organisieren.md](../abcd/katalog/warengruppen-organisieren.md)
+{% content-ref url="../verwalten/katalog/warengruppen-organisieren.md" %}
+[warengruppen-organisieren.md](../verwalten/katalog/warengruppen-organisieren.md)
 {% endcontent-ref %}
 
 {% content-ref url="konfiguration/" %}
@@ -20,12 +20,12 @@ icon: shoe-prints
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="../abcd/verkauf/auftrage-verwalten.md" %}
-[auftrage-verwalten.md](../abcd/verkauf/auftrage-verwalten.md)
+{% content-ref url="../verwalten/verkauf/auftrage-verwalten.md" %}
+[auftrage-verwalten.md](../verwalten/verkauf/auftrage-verwalten.md)
 {% endcontent-ref %}
 
-{% content-ref url="../abcd/verkauf/sendungen-verwalten.md" %}
-[sendungen-verwalten.md](../abcd/verkauf/sendungen-verwalten.md)
+{% content-ref url="../verwalten/verkauf/sendungen-verwalten.md" %}
+[sendungen-verwalten.md](../verwalten/verkauf/sendungen-verwalten.md)
 {% endcontent-ref %}
 
 {% content-ref url="kunden/kundenverhalten-analysieren.md" %}
