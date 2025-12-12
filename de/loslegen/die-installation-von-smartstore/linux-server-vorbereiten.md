@@ -22,7 +22,9 @@ Um die Dokumentation zu vereinfachen, werden wir uns nur mit der Linux-Distribut
 
 ## .NET und andere Voraussetzungen
 
-Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein. \{% endhint % }
+{% hint style="info" %}
+Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig, was bedeutet, dass auf dem Zielsystem keine .NET Runtime benötigt wird. Wenn Sie Ihr eigenes Framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein. 
+{% endhint % }
 
 Um .NET Runtime 7 zu installieren, führen Sie bitte den folgenden Befehl in der Kommandozeile aus:
 

@@ -14,17 +14,19 @@ This is about installing Smartstore on a freshly installed Ubuntu instance. If y
 
 ## Workflow
 
-* [Install .NET](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Install-.NET-Core) and other prerequisites
-* [Install NGINX Reverse Proxy](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Install-NGINX%5BinlineExtension%5D)
-* [Configure Firewall](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Configure-firewall-rules)
-* [Install and configure FTP-Server](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Install-and-configure-FTP-Server)
-* [Set up NGINX](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Set-up-NGINX)
-* [Install MySQL](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Install-MySQL-Server) or [MS SQL Serve](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#Install-MS-SQL-Server)r
-* [Set up Smartstore as a service](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511045022/Preparing+Linux+VPS+Cloud+or+Dedicated+Server#%5BinlineExtension%5DSet-up-Smartstore-as-a-service)
+* Install .NET and other prerequisites
+* Install NGINX Reverse Proxy
+* Configure firewall
+* Install and configure FTP server
+* Set up NGINX
+* Set up MySQL or MS SQL Server
+* Set up Smartstore as a service
 
 ## Install .NET runtime and other prerequisites
 
-**Note:** Official Smartstore releases are self-contained, which means that no .NET Runtime is required on the target system. If you create your own Framework-Dependent Release, the .NET Runtime must be installed on the target system. \{% endhint % }
+{% hint style="info" %}
+Official Smartstore releases are self-contained, which means that no .NET Runtime is required on the target system. If you create your own Framework-Dependent Release, the .NET Runtime must be installed on the target system. 
+{% endhint % }
 
 To install .NET Runtime 7, please run the following command in the command line:
 
