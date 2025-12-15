@@ -61,4 +61,4 @@ After the upload is complete, your store is also already updated and all new fea
   * The first page loads may take a little longer than you are used to.
   * If you get a \`(HTTP) 500 Internal Server Error\` message during the first store call, reload the page. 
   * Changes to the database are automatically applied by Smartstore. You do not need to run SQL scripts in your database administration. 
-{% endhint % }
+{% endhint %}

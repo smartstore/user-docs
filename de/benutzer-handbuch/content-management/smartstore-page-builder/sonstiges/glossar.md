@@ -32,7 +32,7 @@
 
 **minmax:** Beschränkt die Größe zwischen min und max. Es können dabei auch zwei verschiedene Einheiten verwendet werden, zum Beispiel: “mindestens 200 px, aber höchstens 50 %“
 
-{% hint style="info"}
+{% hint style="info" %}
 repeat wird nicht unterstützt
 {% endhint %}
 

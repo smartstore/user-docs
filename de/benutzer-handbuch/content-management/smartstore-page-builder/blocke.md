@@ -46,7 +46,7 @@ All diese Blöcke verfügen über die gleichen Basiseinstellungen, wie z.B. Hint
 
 {% hint style="info"}
  Denken Sie daran, dass manche Blöcke wie Video oder Google Maps, sowie Blockeffekte, keinen Inhalt im _Bearbeitungsmodus_ anzeigen. Wechseln Sie, um alle Inhalte anzuzeigen in den _Vorschaumodus_.
- {% endhint }
+{% endhint %}
 
 Ein Video über die Blöcke in der Übersicht finden Sie auf [Youtube](https://www.youtube.com/watch?v=j43k8nUgKUs\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=3)
 

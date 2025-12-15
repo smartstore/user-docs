@@ -14,11 +14,11 @@ The theme **Alpha** provides additional options to configure the display of the 
 
 When adding or editing a single slide, you can specify a **Title**, a **Text**, and a **Picture** and configure several buttons which will automatically be rendered as the content of the slide (see graphic below). You also have to specify the language for the slide here. There are no localizations for single slides, so you have to add a slide for every language that's active in your shop if you want to display the same content in different languages. You can add up to three buttons to each slide. To add a button to a slide, you just need to activate it by checking the box **Published**. Then, enter the button **Text**, an absolute URL including the protocol (e.g.: [http://www.myshop.com/mypath](http://www.myshop.com/mypath)) and choose the **Button Type.** Available **Button Types** are _Primary, Info, Success, Warning, Danger, Inverse_ or _Link._
 
-{% hint style="info" % }
+{% hint style="info" %}
  A button's **URL** can either be fully qualified (including the _http_ or _https_ protocol), or absolute (e.g. ~~_/path/to/ressource_), where the leading tilde (~~) can be ommitted though. 
 {% endhint %}
 
-{% hint style="info" % } 
+{% hint style="info" %} 
 The colors for all these **Button Types** are configured in your theme configuration. For more information about theme configuration, read the topic [Working with Themes](../plugins-themes/working-with-themes.md). 
 {% endhint %}
 
