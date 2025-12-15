@@ -26,7 +26,7 @@ This is about installing Smartstore on a freshly installed Ubuntu instance. If y
 
 {% hint style="info" %}
 Official Smartstore releases are self-contained, which means that no .NET Runtime is required on the target system. If you create your own Framework-Dependent Release, the .NET Runtime must be installed on the target system. 
-{% endhint % }
+{% endhint %}
 
 To install .NET Runtime 7, please run the following command in the command line:
 
@@ -104,7 +104,7 @@ We assume that the ufw (**u**ncomplicated **f**ire**w**all) is installed. First 
 
 {% hint style="info" %}
 If the command is returned with `sudo: ufw: command not found` , then no firewall is installed and this point can be skipped or the firewall must be installed.
-{% endhint % }
+{% endhint %}
 
 Usually three NGINX profiles are available:
 
@@ -366,9 +366,13 @@ Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
 WantedBy=multi-user.target
 ```
 
-**Note:** Adapt the paths in `WorkingDirectory` and `ExecStart` if necessary. \{% endhint % }
+{% hint style="info" %}
+Adapt the paths in `WorkingDirectory` and `ExecStart` if necessary. 
+{% endhint %}
 
-**Important:** Code for framework-dependent deployment: `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll` Code for self-contained deployment: `ExecStart=/var/www/html/Smartstore.Web` \{% endhint % }
+{% hint style="warning" %}
+ Code for framework-dependent deployment: `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll` Code for self-contained deployment: `ExecStart=/var/www/html/Smartstore.Web` 
+{% endhint %}
 
 ### Enable and start the service
 
@@ -380,7 +384,9 @@ Start service:
 
 `sudo systemctl start kestrel-smartstore.service`
 
-To stop service: \`sudo systemctl stop kestrel-smartstore.service\` \{% endhint % }
+{% hint style="info" %}
+To stop service: \`sudo systemctl stop kestrel-smartstore.service\` 
+{% endhint %}
 
 ### Setting the folder permissions
 
