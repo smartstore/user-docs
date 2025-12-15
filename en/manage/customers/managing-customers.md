@@ -22,8 +22,9 @@ Every account that is created in Smartstore is a customer account that will have
 | VAT Number        | Holds the company VAT number. NOTE: VAT numbers have to be entered with the country code (e.g. GB 111 111 11). This field will only be displayed if the option **EU VAT Enabled** in **Configuration > Settings > Tax Settings** is active. You can mark the contained value as **Vaild** or **Invalid** manually after you've checked it's validity. |
 | Affiliate         | If the customer was transferred to you by a affiliate the corresponding affiliate will be linked here so you can directly navigate to him. For more information about affiliates read the topic [Managing Affiliates](../marketing-promotions/managing-affiliates.md).                                                                                |
 | Last Visited Page | The page of your shop which the customer has visited last.                                                                                                                                                                                                                                                                                            |
-
-> \[!INFO] Fields like **Gender, Date of Birth, Company** and many others are only shown and can be edited in the **Customer Info Tab** if they are enabled in the **Customer Settings**. For more information about **Customer Settings** read the topic [Customer Settings](../configuration/general-settings-preferences/customer-settings.md).
+{% hint style="info" %}
+Fields like **Gender, Date of Birth, Company** and many others are only shown and can be edited in the **Customer Info Tab** if they are enabled in the **Customer Settings**. For more information about **Customer Settings** read the topic [Customer Settings](../configuration/general-settings-preferences/customer-settings.md).
+{% endhint %}
 
 ### Customer Roles Tab
 

@@ -4,7 +4,7 @@ If you want to create your own template or a new story, you can start with a com
 
 ## Creating a Simple Layout
 
-To ensure your story has an appealing and [_responsive layout_](responsive-representation.md), you must define your grid accordingly. As an example, we will take the story template _For Sale_, but with a somewhat simplified layout, as the percentage sign in the middle is omitted here.
+To ensure your story has an appealing and [_responsive layout_](responsive-display.md), you must define your grid accordingly. As an example, we will take the story template _For Sale_, but with a somewhat simplified layout, as the percentage sign in the middle is omitted here.
 
 The finished story should look like this:
 
@@ -14,7 +14,7 @@ In this story, 3 blocks are used. These should be arranged as tiles within a gri
 
 ![](../../../../.gitbook/assets/image043.jpg)
 
-To define the layout as desired, you must delete or add columns and rows using the [_Grid Tools_](../user-interface/the-grid.md).
+To define the layout as desired, you must delete or add columns and rows using the [_Grid Tools_](../user-interface/grid.md).
 
 ## Creating an Advanced Layout
 
@@ -22,6 +22,6 @@ Because the text block in the Fashion template overlays ¾ of the first image an
 
 ![](../../../../.gitbook/assets/image051.jpg)
 
-The rows are provided with the unit _auto_, which means the minimum height of the cells is determined by the content. In this configuration, the text block is at least high enough that the content (with spacing) fits into the cell. The other two rows are also set to auto, so they adapt dynamically to the space requirements of the middle row. A list of all available units of measurement can be found under [_Measurement Units_](../things-to-know.md).
+The rows are provided with the unit _auto_, which means the minimum height of the cells is determined by the content. In this configuration, the text block is at least high enough that the content (with spacing) fits into the cell. The other two rows are also set to auto, so they adapt dynamically to the space requirements of the middle row. A list of all available units of measurement can be found under [_Measurement Units_](../things-to-know/glossary.md).
 
 A video on creating a simple story can be found on [YouTube](https://www.youtube.com/watch?v=gCHPlywtAZI&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s&index=1).

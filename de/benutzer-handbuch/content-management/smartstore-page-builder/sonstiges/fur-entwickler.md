@@ -21,4 +21,6 @@ class *\[Custom\]*BlockHandler : BlockHandlerBase<*\[Custom\]*Block>
 
 Fungiert als Controller und ist zuständig für das Laden, das Speichern und die Darstellung des Blockes. Überschreiben Sie hier die *Load* und *Save* Methoden und ggf. die Methoden *RenderCore*, sowie *GetRoute*, wenn Sie ein abweichendes Story-Template verwenden möchten.
 
-**Hinweis:** Hierbei können Sie sich auch am *SampleBlock* im **DevTools** Plugin orientieren.
+{% hint style="info"}
+Hierbei können Sie sich auch am *SampleBlock* im **DevTools** Plugin orientieren.
+{% endhint %}

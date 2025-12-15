@@ -10,7 +10,10 @@
 
 **③ Blöcke:** Bietet eine Auswahl aller verfügbaren Blöcke. (Siehe [_Blöcke Übersicht_](../blocke.md))
 
-**Hinweis:** Die Ansicht der Toolbox ändert sich, wenn ein Block selektiert wird. Um wieder die Story-Optionen anzeigen zu lassen, wählen Sie den Block ab oder klicken auf einen freien Raum innerhalb Ihrer Story.
+{% hint style="info" %}
+ Die Ansicht der Toolbox ändert sich, wenn ein Block selektiert wird. Um wieder die Story-Optionen anzeigen zu lassen, wählen Sie den Block ab oder klicken auf einen freien Raum innerhalb Ihrer Story.
+{% endhint %}
+
 
 ## Block-Ansicht
 

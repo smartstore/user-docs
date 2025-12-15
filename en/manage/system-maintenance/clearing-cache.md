@@ -4,7 +4,9 @@ There are different elements in the frontend of your shop, which are cached for 
 
 ![](../../.gitbook/assets/cache-loeschen.PNG)
 
-> \[!INFO] The following cache types are also available in Smartstore
+{% hint style="info"}
+The following cache types are also available in Smartstore
+{% endhint %}
 
 ### Database Cache
 

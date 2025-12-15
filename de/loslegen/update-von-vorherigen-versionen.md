@@ -29,12 +29,6 @@ Im Zweifel fragen Sie Ihren Hoster, welches Betriebssystem und welche Server-Arc
    * App\_Data/ Tenants/Default/Media/Storage
    * App\_Data/ Tenants/Default/Media/QueuedEmailAttachmentMedia (ist nicht bei allen Shops vorhanden)
 
-* App\_Data/Tenants/Default/InstalledPlugins.txt
-* App\_Data/ Tenants/Default/Settings.txt
-* App\_Data/ Tenants/Default/PageBuilder/Templates (ist nicht bei allen Shops vorhanden)
-* App\_Data/ Tenants/Default/Media/Storage
-* App\_Data/ Tenants/Default/Media/QueuedEmailAttachmentMedia (ist nicht bei allen Shops vorhanden)
-
 3.2 **5.x auf 5.x Update**: Nachdem Sie Ihre Backups erstellt haben, sollten Sie alle Verzeichnisse / Dateien Ihres Shops löschen, mit einigen wichtigen Ausnahmen: folgende Verzeichnisse / Dateien dürfen auf **keinen** Fall gelöscht werden:
 
 * App\_Data inkl. Unterverzeichnisse

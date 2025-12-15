@@ -45,11 +45,20 @@ It may be necessary to stop the AppPool in IIS for the copy process beforehand.\
 That's it!\
 After the upload is complete, your store is also already updated and all new features are immediately available.
 
-### Trouble Shooting
+{% hint style="warning" %}
+#### Trouble Shooting
 
 * You should document your own changes that you make to the source code in a suitable form so that you can undo your changes once the store has been updated.
 * Save all theme customizations or your own themes. If cshtml and scss files have also been changed or added, back them up as well.
 * If you have modified the user.scss file, which should only be customized by the store admin, DO NOT overwrite or restore it after the update is complete.
 * If you have installed third-party plugins that will not work after the update, you should disable them and contact the developer of the plugin. \{% endhint % }
+{% endhint %}
 
-\### Info - The first page loads may take a little longer than you are used to. - If you get a \`(HTTP) 500 Internal Server Error\` message during the first store call, reload the page. - Changes to the database are automatically applied by Smartstore. You do not need to run SQL scripts in your database administration. \{% endhint % }
+
+{% hint style="info" %}
+#### Info
+
+  * The first page loads may take a little longer than you are used to.
+  * If you get a \`(HTTP) 500 Internal Server Error\` message during the first store call, reload the page. 
+  * Changes to the database are automatically applied by Smartstore. You do not need to run SQL scripts in your database administration. 
+{% endhint % }

@@ -44,7 +44,9 @@ Blöcke sind ein essenzieller Bestandteil des Page Builders. Sämtliche Inhalte 
 
 All diese Blöcke verfügen über die gleichen Basiseinstellungen, wie z.B. Hintergrund und Effekte. Sie erfahren mehr zu den Basiseinstellungen unter [_Block-Basiseinstellungen_](blocke/block-basiseinstellungen.md). Des Weiteren können Sie unter [_blockspezifische Einstellungen_](blocke/blockspezifische-einstellungen.md) mehr zu den einzelnen Blöcken erfahren.
 
-**Hinweis:** Denken Sie daran, dass manche Blöcke wie Video oder Google Maps, sowie Blockeffekte, keinen Inhalt im _Bearbeitungsmodus_ anzeigen. Wechseln Sie, um alle Inhalte anzuzeigen in den _Vorschaumodus_.
+{% hint style="info"}
+ Denken Sie daran, dass manche Blöcke wie Video oder Google Maps, sowie Blockeffekte, keinen Inhalt im _Bearbeitungsmodus_ anzeigen. Wechseln Sie, um alle Inhalte anzuzeigen in den _Vorschaumodus_.
+ {% endhint }
 
 Ein Video über die Blöcke in der Übersicht finden Sie auf [Youtube](https://www.youtube.com/watch?v=j43k8nUgKUs\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=3)
 

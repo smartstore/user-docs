@@ -26,5 +26,5 @@ Smartstore is an **Open Source Project** and everyone is invited to participate,
 
 More Information about Smartstore Extensions
 
-* [How to Buy an Extension](how-to-buy-an-extension.md)
-* [How to Install an Extension](how-to-install-an-extension.md)
+* [How to Buy an Extension?](how-to-buy-an-extension.md)
+* [How to Install an Extension?](how-to-install-an-extension.md)

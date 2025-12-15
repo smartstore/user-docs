@@ -33,14 +33,14 @@ Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den Kernmodulen von **Smarts
 Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den folgenden wichtigen Modulen. Wenn Sie weitere Informationen benötigen, folgen Sie einfach den jeweiligen Links.
 
 * [**Übersicht**](die-ubersicht.md)  - Hier finden Sie die Statistiken für Ihren Shop, dazu gehören Auftragssummen, Bestseller nach Menge, Bestseller nach Betrag, registrierte Kunden und unvollständige Aufträge.
-* [**Katalog**](katalog.md) - Erlaubt die Erstellung und Verwaltung von Warengruppen und Produkten. Sie können hier auch Hersteller, Produkt Rezensionen, Tags und Attribute bearbeiten.
-* [**Verkauf**](verkauf.md) - Erlaubt die Verwaltung von Aufträgen, Sendungen, wiederkehrenden Zahlungen, Retourenwünsche, Geschenkgutscheine, Warenkörben, Wunschzetteln, Bestseller und unverkäufliche Produkte.
-* [**Kunden**](kunden.md) - Erlaubt das Hinzufügen, Bearbeiten, Entfernen und die Verwaltung aller Kunden. Sie können auch Kundengruppen, Bestellungen, Bonuspunkte, Warenkörbe und Wunschlisten verwalten.
-* [**Marketing**](marketing-promotion.md)  - Erlaubt das Hinzufügen, Bearbeiten und Verwalten von Rabatten, Partnerprogrammen, Newsletter Abonnenten und Kampagnen.
-* [**CMS**](content-management.md) - Erlaubt die Verwaltung von Inhalten, die mit Ihrem Shop in Verbindung stehen, dazu gehören Seiten und Inhalte, News, Blogs, Foren, Umfragen und Widgets. Hier können Sie auch Nachrichtenvorlagen bearbeiten.
-* [**Konfiguration**](konfiguration.md)  - Erlaubt die Konfiguration des Kernsystems  und regionale Einstellungen. Sie können hier Shops, Zahlungsarten, Listen, E-Mail-Konten, Zugriffsrechte, ACL und Themes konfigurieren.
-* [**System**](system-wartung.md) - Erlaubt Ihnen, Systeminformationen,  die E-Mail-Verwaltung, SEO Namen, Warnungen und geplante Aufgaben einzusehen.
-* [**Plugins**](plugins-designs.md) - Erlaubt die Installation und Aktualisierung von Plugins. Sie können hier auch SMS-Anbieter und Developer Tools verwalten.
+* [**Katalog**](../verwalten/katalog/) - Erlaubt die Erstellung und Verwaltung von Warengruppen und Produkten. Sie können hier auch Hersteller, Produkt Rezensionen, Tags und Attribute bearbeiten.
+* [**Verkauf**](../verwalten/verkauf/) - Erlaubt die Verwaltung von Aufträgen, Sendungen, wiederkehrenden Zahlungen, Retourenwünsche, Geschenkgutscheine, Warenkörben, Wunschzetteln, Bestseller und unverkäufliche Produkte.
+* [**Kunden**](../benutzer-handbuch/kunden/) - Erlaubt das Hinzufügen, Bearbeiten, Entfernen und die Verwaltung aller Kunden. Sie können auch Kundengruppen, Bestellungen, Bonuspunkte, Warenkörbe und Wunschlisten verwalten.
+* [**Marketing**](../benutzer-handbuch/marketing-promotion/)  - Erlaubt das Hinzufügen, Bearbeiten und Verwalten von Rabatten, Partnerprogrammen, Newsletter Abonnenten und Kampagnen.
+* [**CMS**](../benutzer-handbuch/content-management/) - Erlaubt die Verwaltung von Inhalten, die mit Ihrem Shop in Verbindung stehen, dazu gehören Seiten und Inhalte, News, Blogs, Foren, Umfragen und Widgets. Hier können Sie auch Nachrichtenvorlagen bearbeiten.
+* [**Konfiguration**](../benutzer-handbuch/konfiguration/)  - Erlaubt die Konfiguration des Kernsystems  und regionale Einstellungen. Sie können hier Shops, Zahlungsarten, Listen, E-Mail-Konten, Zugriffsrechte, ACL und Themes konfigurieren.
+* [**System**](../handbuch/system-and-wartung/) - Erlaubt Ihnen, Systeminformationen,  die E-Mail-Verwaltung, SEO Namen, Warnungen und geplante Aufgaben einzusehen.
+* [**Plugins**](../handbuch/plugins-themes/) - Erlaubt die Installation und Aktualisierung von Plugins. Sie können hier auch SMS-Anbieter und Developer Tools verwalten.
 
 ## Links rechts oben
 

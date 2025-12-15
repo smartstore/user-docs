@@ -2,8 +2,6 @@
 
 If you want to run a database instance directly with Smartstore as a Docker container, please proceed as follows.
 
-* [Running Smartstore and MySQL together as Docker Containers](running-smartstore-and-database-together-as-docker-containers.md#anchor_docker_smartstore_mysql)
-* [Running Smartstore and MS SQL together as Docker Containers](running-smartstore-and-database-together-as-docker-containers.md#anchor_docker_smartstore_mssql)
 
 ### Running Smartstore and MySQL together as Docker Containers
 
