@@ -109,7 +109,7 @@
   * [Nachrichtenvorlagen anpassen](benutzer-handbuch/content-management/nachrichtenvorlagen-anpassen.md)
 * [Konfiguration](benutzer-handbuch/konfiguration/README.md)
   * [Einstellungen](handbuch/konfiguration/einstellungen/README.md)
-    * [Den Einstellungsbereich festlegen](benutzer-handbuch/konfiguration/einstellungen/den-einstellungsbereich-festlegen.md)
+    * [Multi-Shop Konfiguration](benutzer-handbuch/konfiguration/einstellungen/den-einstellungsbereich-festlegen.md)
     * [Katalogeinstellungen](benutzer-handbuch/konfiguration/einstellungen/katalogeinstellungen.md)
     * [Suche](benutzer-handbuch/konfiguration/einstellungen/suche.md)
     * [Warenkorb-Einstellungen](benutzer-handbuch/konfiguration/einstellungen/warenkorb-einstellungen.md)
