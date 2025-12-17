@@ -109,7 +109,7 @@
   * [Customizing Message Templates](manage/content-management/customizing-message-templates.md)
 * [Configuration](manage/configuration/README.md)
   * [General Settings & Preferences](manage/configuration/general-settings-preferences/README.md)
-    * [Defining the Scope of Settings](manage/configuration/general-settings-preferences/defining-the-scope-of-settings.md)
+    * [Multi-Store Configuration](manage/configuration/general-settings-preferences/defining-the-scope-of-settings.md)
     * [Catalog Settings](manage/configuration/general-settings-preferences/catalog-settings.md)
     * [Search](manage/configuration/general-settings-preferences/search.md)
     * [Shopping Cart Settings](manage/configuration/general-settings-preferences/shopping-cart-settings.md)
