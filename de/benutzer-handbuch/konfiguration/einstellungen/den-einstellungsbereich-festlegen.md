@@ -1,10 +1,10 @@
 # Multi-Shop Konfiguration
 
-Wenn der Shop mehrere Shop-Instanzen vereint, handelt es sich um einen **Multi-Shop**.
+Wenn der Shop mehrere Shop-Konfigurationen vereint, handelt es sich um einen **Multi-Shop**.
 
 ## Shopauswahl
 
-Mit Smartstore können Nutzer für viele Einstellungen individuelle Werte pro Shop hinterlegen. Dies wird über die Shopauswahl gesteuert, die sich oben auf jeder entsprechenden Einstellungsseite befindet.
+Mit Smartstore können Nutzer für fast alle Einstellungen individuelle Werte pro Shop hinterlegen. Dies wird über die Shopauswahl gesteuert, die sich oben auf jeder entsprechenden Einstellungsseite befindet.
 
 <figure><img src="../../../.gitbook/assets/ShopauswahlSteuerelement_global.png" alt=""><figcaption></figcaption></figure>
 
