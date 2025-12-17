@@ -1,6 +1,6 @@
 # Working with Multiple Stores
 
-With multiple stores, you are able to categorize your choice of products according to target group. Each store will be accessible through its own domain and can be configured individually.
+With multiple stores, you are able to categorize your choice of products according to target group. Each store will be accessible through its own domain and can be [configured individually](../../manage/configuration/general-settings-preferences/defining-the-scope-of-settings.md).
 
 ## Usage Scenario
 

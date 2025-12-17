@@ -24,8 +24,6 @@ The **Bestsellers by quantity/Amount** section shows the list of the top bestsel
 
 ![Smartstore dashboard bestsellers by quantity.png](<../.gitbook/assets/2024-11-26 15_58_35-Smartstore administration - Brave.png>)
 
-![Smartstore dashboard bestsellers by amount.png](<../.gitbook/assets/Smartstore dashboard bestsellers by amount.png>)
-
 ## Top customers by quantity/amount
 
 The **Top customers by quantity/amount** section shows the list of the top customers based on the total quantity/amount of purchases. By clicking on any customer name link, you can navigate to the **Edit** **Customer Details** page.
