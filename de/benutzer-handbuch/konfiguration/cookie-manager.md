@@ -16,14 +16,22 @@ Beim ersten Besuch Ihres Shops wird dem Besucher der Cookie-Manager angezeigt. K
 
 Notwendige Cookies sind Cookies, die vom Shopsystem genutzt werden und ohne die der Shop nicht funktionieren kann. Gemäß Richtlinie ist für diese Cookies keine Zustimmung erforderlich. Aus dem Grund lässt sich diese Option vom Shop-Besucher nicht verändern und ist für ihn bereits vorausgewählt. Nachfolgend finden Sie eine Liste der notwendigen Cookies, die von Smartstore gesetzt werden.
 
-| **Cookie-Name**                   | **Nutzung**                                                                                                                                                                                             |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ASP.NET\_SessionId                | Dieses Cookie wird vom ASP.NET Framework beim ersten Besuch der Seite gesetzt. Hier wird lediglich eine Id gespeichert, die von ASP.NET genutzt wird, um die Session eines Benutzers zu identifizieren. |
-| SMARTSTORE.AUTH                   | Dieses Cookie wird bei der Anmeldung im Shop durch das ASP.NET Authentication Framework gesetzt, um den angemeldeten Benutzer zu identifizieren.                                                        |
-| SMARTSTORE.VISITOR                | Dieses Cookie wird beim ersten Besuch des Shops durch Smartstore gesetzt, um den nicht angemeldeten Benutzer zuordnen zu können.                                                                        |
-| CookieConsent                     | Dieses Cookie wird bei Interaktion mit dem Cookie-Manager gesetzt. Hier werden die vom Kunden getroffenen Einstellungen gespeichert.                                                                    |
-| SmartStore.RecentlyViewedProducts | Dieses Cookie speichert die Produkt-IDs der Produkte, die der Kunde kürzlich angesehen hat.                                                                                                             |
-| sm.compareProducts                | In diesem Cookie werden die Produkt-IDs der Produkte gespeichert, die vom Kunden zur Vergleichsliste hinzugefügt wurden.                                                                                |
+| **Cookie-Name** | **Nutzung** |
+| :--- | :--- |
+| .Smart.Session | Dieses Cookie wird verwendet, um den Sitzungsstatus des Benutzers über HTTP-Anfragen hinweg beizubehalten. |
+| .Smart.Identity | Dieses Cookie wird verwendet, um registrierte Benutzer über Anfragen hinweg zu authentifizieren und zu identifizieren. |
+| .Smart.Visitor | Dieses Cookie wird verwendet, um Gast-Benutzer, die nicht registriert sind, zu verfolgen und zu identifizieren. |
+| .Smart.CookieConsent | Dieses Cookie wird verwendet, um die Cookie-Präferenzen und die vom Kunden im Cookie-Manager getroffenen Auswahlentscheidungen zu speichern. |
+| .Smart.RecentlyViewedProducts | Dieses Cookie speichert die Produkt-IDs der Produkte, die der Kunde kürzlich angesehen hat. |
+| .Smart.ComparedProducts | Dieses Cookie wird verwendet, um die Liste der Produkte zu speichern, die der Benutzer vergleichen möchte. |
+| .Smart.Antiforgery | Dieses Cookie wird verwendet, um die Anwendung vor Cross-Site Request Forgery (CSRF) Angriffen zu schützen. |
+| .Smart.Consent | Dieses Cookie wird verwendet, um den Status der DSGVO-Zustimmung des Benutzers für die Datenverarbeitung zu speichern. |
+| .Smart.TempData | Dieses Cookie wird verwendet, um temporäre Daten zwischen Anfragen zu speichern, was typischerweise für korrekte Weiterleitungen (Redirects) benötigt wird. |
+| .Smart.ExternalAuth | Dieses Cookie wird verwendet, um die Authentifizierung über externe Anbieter (z. B. Google, Facebook) zu verwalten. |
+| .Smart.StoreIdOverride | Dieses Cookie wird verwendet, um die Standard-Shop-Auswahl in Multi-Store-Szenarien zu überschreiben. |
+| .Smart.PreviewModeOverride | Dieses Cookie wird verwendet, um den Vorschaumodus für das Testen unveröffentlichter Inhalte zu aktivieren oder zu deaktivieren. |
+| .Smart.PreviewToolOpen | Dieses Cookie wird verwendet, um den Status (offen/geschlossen) des Vorschau-Tool-Panels zu speichern. |
+| .Smart.UserThemeChoice | Dieses Cookie wird verwendet, um die bevorzugte Theme-Auswahl des Benutzers (z. B. Light- oder Dark-Mode) zu speichern. |
 
 **Analytische Cookies**
 

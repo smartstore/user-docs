@@ -12,14 +12,23 @@ When a user visits your shop for the first time, the cookie manager is displayed
 
 Required cookies are cookies that are used by the shop system and without which the shop cannot operate. According to the guideline, no consent is required for these cookies. For this reason, this option cannot be changed by the shop visitor and is already preselected. Below you will find a list of the required cookies that are set by Smartstore.
 
-| Cookie name                       |                                                                                                                                                                          |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ASP.NET\_SessionId                | This cookie is set by the ASP.NET Framework when a user visits the shop for the first time. It simply stores an ID that is used by ASP.NET to identify a user's session. |
-| SMARTSTORE.AUTH                   | This cookie is set by the ASP.NET Authentication Framework when a user logs in to the shop. It is used to identify the user who is logged in.                            |
-| SMARTSTORE.VISITOR                | This cookie is set by Smartstore the first time a user visits the shop. It is used in order to be able to assign users who are not logged in.                            |
-| CookieConsent                     | This cookie is set when a user interacts with the cookie manager. The settings made by the customer are stored here                                                      |
-| SmartStore.RecentlyViewedProducts | This cookie stores the product IDs of the products that the customer has viewed recently.                                                                                |
-| sm.compareProducts                | This cookie stores the product IDs of the products that the customer has added to the comparison list.                                                                   |
+| **Cookie Name** | **Usage** |
+| :--- | :--- |
+| .Smart.Session | This cookie is used to maintain the user session state across HTTP requests. |
+| .Smart.Identity | This cookie is used to authenticate and identify registered users across requests. |
+| .Smart.Visitor | This cookie is used to track and identify guest users who are not registered. |
+| .Smart.CookieConsent | This cookie is used to store the user's cookie preferences and consent choices. |
+| .Smart.RecentlyViewedProducts | This cookie stores the product IDs of the products the customer has recently viewed. |
+| .Smart.ComparedProducts | This cookie is used to store the list of products that the user wants to compare. |
+| .Smart.Antiforgery | This cookie is used to protect the application against Cross-Site Request Forgery (CSRF) attacks. |
+| .Smart.Consent | This cookie is used to store the user's GDPR consent status for data processing. |
+| .Smart.TempData | This cookie is used to store temporary data between requests, typically used for redirects. |
+| .Smart.ExternalAuth | This cookie is used to manage authentication via external providers (e.g., Google, Facebook). |
+| .Smart.StoreIdOverride | This cookie is used to override the default store selection in multi-store scenarios. |
+| .Smart.PreviewModeOverride | This cookie is used to enable or disable preview mode for testing unpublished content. |
+| .Smart.PreviewToolOpen | This cookie is used to remember the open/closed state of the preview tool panel. |
+| .Smart.UserThemeChoice | This cookie is used to store the user's preferred theme selection (e.g., light or dark mode). |
+
 
 **Analytical cookies**
 
