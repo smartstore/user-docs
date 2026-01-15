@@ -175,4 +175,5 @@
 * [Theming Guide](welcome/theming-guide.md)
 * [Developer Guide](welcome/developer-guide.md)
 * [FAQs](welcome/faqs.md)
+* [Google reCAPTCHA V3 Error](miscellaneous/google-recaptcha-v3-error.md)
 * [Troubleshooting](welcome/troubleshooting.md)
