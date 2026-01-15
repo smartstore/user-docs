@@ -40,7 +40,7 @@ In the section **General Settings**, you can edit global settings for several ar
 
 If the button in the form does not respond ("flickers") and a `400 ERR_BLOCKED_BY_ORB` error appears in the browser console, please check our troubleshooting guide. This is often due to an incorrect key type.
 
-[Solve problem: Google reCAPTCHA V3 Error](../../../../troubleshooting/google-recaptcha-v3-error.md)
+[Solve problem: Google reCAPTCHA V3 Error](miscellaneous/troubleshooting/google-recaptcha-v3-error.md)
 {% endhint %}
 
 ## Localization Settings

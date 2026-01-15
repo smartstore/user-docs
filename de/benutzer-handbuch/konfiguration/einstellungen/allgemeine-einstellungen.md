@@ -40,7 +40,7 @@ Im Bereich **Allgemeine Einstellungen** können Sie globale Einstellungen für v
 
 Falls der Button im Formular nicht reagiert ("flackert") und in der Browser-Konsole ein Fehler `400 ERR_BLOCKED_BY_ORB` erscheint, prüfen Sie bitte unseren Troubleshooting-Guide. Oft liegt dies an einem falschen Key-Typ.
 
-[Zur Problemlösung: Google reCAPTCHA V3 Fehler](../../../troubleshooting/google-recaptcha-v3-fehler.md)
+[Zur Problemlösung: Google reCAPTCHA V3 Fehler](verschiedenes/troubleshooting/google-recaptcha-v3-fehler.md)
 {% endhint %}
 
 ## Lokalisierung
