@@ -1,6 +1,6 @@
 # AI
 
-The AI Plugin <img src="../../.gitbook/assets/icon.png" style="width: 16px; height: 16px; vertical-align: middle;"> works with an AI Provider (e.g. [OpenAI ChatGPT](openai-chatgpt.md)) and offers many possibilities to create new content or restructure existing content.
+The AI Plugin  works with an AI Provider (e.g. [OpenAI ChatGPT](openai-chatgpt.md)) and offers many possibilities to create new content or restructure existing content.
 
 {% hint style="info" %}
 **Notes:**
@@ -24,7 +24,7 @@ For simple texts without formatting (title, short description, ...), the SimpleT
 Missing screenshot
 {% endhint %}
 
-Clicking on the AI symbol ![icon.png](../../.gitbook/assets/icon.png) opens a context menu with various commands to regenerate texts, summarize, change language style and tone, improve writing style, simplify text, or expand on it. Clicking on Send ![send.png](../../.gitbook/assets/send.png) sends your prompt to the AI.
+Clicking on the AI symbol  opens a context menu with various commands to regenerate texts, summarize, change language style and tone, improve writing style, simplify text, or expand on it. Clicking on Send  sends your prompt to the AI.
 
 {% hint style="warning" %}
 Missing screenshot
@@ -36,11 +36,11 @@ The dialog offers a variety of ways to generate and edit text. By entering a pro
 Missing screenshot
 {% endhint %}
 
-Clicking **Apply answer** transfers the selected text into the field. Additionally, the answer can be copied to the clipboard ![copy.png](../../.gitbook/assets/copy.png) and the style can be changed ![sliders.png](../../.gitbook/assets/sliders.png).
+Clicking **Apply answer** transfers the selected text into the field. Additionally, the answer can be copied to the clipboard  and the style can be changed .
 
 ### RichText
 
-The RichText dialog is used for texts with formatting, HTML, and rich content such as links, images, lists, and tables. Clicking the AI symbol ![icon.png](../../.gitbook/assets/icon.png) uses the same context menu as SimpleText. The dialog additionally features a sidebar (left).
+The RichText dialog is used for texts with formatting, HTML, and rich content such as links, images, lists, and tables. Clicking the AI symbol  uses the same context menu as SimpleText. The dialog additionally features a sidebar (left).
 
 {% hint style="warning" %}
 Missing screenshot
@@ -64,7 +64,7 @@ With the **Save settings** button, the sidebar settings used for the currently a
 Missing screenshot
 {% endhint %}
 
-If the **Insert images** option is activated in the sidebar, initially only placeholders ![file-earmark-image.png](../../.gitbook/assets/file-earmark-image.png) are displayed in the generated text. This serves to keep the number of generations low and to only start when the text is no longer being changed. Next to the **Apply answer** button, the **Generate images** button appears. If this is clicked, the images are generated one after the other and, upon clicking **Apply answer**, transferred to the Media Manager and linked to the text.
+If the **Insert images** option is activated in the sidebar, initially only placeholders  are displayed in the generated text. This serves to keep the number of generations low and to only start when the text is no longer being changed. Next to the **Apply answer** button, the **Generate images** button appears. If this is clicked, the images are generated one after the other and, upon clicking **Apply answer**, transferred to the Media Manager and linked to the text.
 
 #### HTML Editor Integration
 
@@ -72,17 +72,17 @@ If the **Insert images** option is activated in the sidebar, initially only plac
 Missing screenshot
 {% endhint %}
 
-If you want to use AI in the HTML editor, simply click on the icon ![icon.png](../../.gitbook/assets/icon.png) in the toolbar and the familiar dialog opens.
+If you want to use AI in the HTML editor, simply click on the icon  in the toolbar and the familiar dialog opens.
 
 {% hint style="warning" %}
 Missing screenshot
 {% endhint %}
 
-If only a specific text should be revised, highlight the desired text section in the editor and click on the icon ![icon.png](../../.gitbook/assets/icon.png) in the toolbar again. The option to regenerate is now disabled; all other options now refer to the selected text.
+If only a specific text should be revised, highlight the desired text section in the editor and click on the icon  in the toolbar again. The option to regenerate is now disabled; all other options now refer to the selected text.
 
 ### Suggestions
 
-For new blog and news posts, you can get title suggestions based on topics or keywords. simply go to the AI icon ![icon.png](../../.gitbook/assets/icon.png) in the empty title field and the Suggestions dialog opens. After entering your topic or keywords in the prompt bar, titles are generated. These can be transferred by clicking on **Apply**.
+For new blog and news posts, you can get title suggestions based on topics or keywords. simply go to the AI icon  in the empty title field and the Suggestions dialog opens. After entering your topic or keywords in the prompt bar, titles are generated. These can be transferred by clicking on **Apply**.
 
 {% hint style="warning" %}
 Missing screenshot
@@ -98,7 +98,7 @@ Please do not forget to **save** the post immediately afterwards, otherwise furt
 Missing screenshot
 {% endhint %}
 
-In the editor with language selection, the contained fields can be automatically translated via AI. To do this, click on the AI icon ![icon.png](../../.gitbook/assets/icon.png) and select the field to be translated.
+In the editor with language selection, the contained fields can be automatically translated via AI. To do this, click on the AI icon  and select the field to be translated.
 
 {% hint style="warning" %}
 Missing screenshot
@@ -107,7 +107,7 @@ Missing screenshot
 The Translations dialog shows you all language entries and offers you the possibility to translate missing languages or re-translate all languages. With **Apply** and **Apply all**, you can internationalize your entity.
 
 1. First, select whether all languages should be re-translated or only the missing languages.
-2. Then click on Send ![send.png](../../.gitbook/assets/send.png) to start the translation of the text.
+2. Then click on Send  to start the translation of the text.
 
 If you want to apply individual translations, click on **Apply** in the tab of the respective language. If all translations should be applied, click on **Apply all** in the prompt bar.
 
@@ -145,7 +145,7 @@ When you click on the model selection (top right), a list of all AI models that 
 Missing screenshot
 {% endhint %}
 
-The prompt bar offers more than just an input field for the simple prompt. You can edit the extended prompt ![chat-square-text.png](../../.gitbook/assets/chat-square-text.png), change the word limits ![hash.png](../../.gitbook/assets/hash.png), the language style ![vector-pen.png](../../.gitbook/assets/vector-pen.png), and the tone ![emoji-wink.png](../../.gitbook/assets/emoji-wink.png) of the text.
+The prompt bar offers more than just an input field for the simple prompt. You can edit the extended prompt , change the word limits , the language style , and the tone  of the text.
 
 **RawPrompt**
 
@@ -153,7 +153,7 @@ The prompt bar offers more than just an input field for the simple prompt. You c
 Missing screenshot
 {% endhint %}
 
-Clicking the prompt icon ![chat-square-text.png](../../.gitbook/assets/chat-square-text.png) takes you to the RawPrompt ![chat-square-text-fill.png](../../.gitbook/assets/chat-square-text-fill.png) (extended prompt). This contains the instructions that are actually passed on to the AI. Detailed changes can be made here to adapt the prompt to your own needs.
+Clicking the prompt icon  takes you to the RawPrompt  (extended prompt). This contains the instructions that are actually passed on to the AI. Detailed changes can be made here to adapt the prompt to your own needs.
 
 {% hint style="warning" %}
 Missing screenshot
@@ -161,8 +161,9 @@ Missing screenshot
 
 {% hint style="warning" %}
 Application example:
-- Adding a table with important features
-- Personalized formatting
+
+* Adding a table with important features
+* Personalized formatting
 {% endhint %}
 
 ### Examples
@@ -177,18 +178,18 @@ Application example:
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** |
-| :--- | :--- |
-| Expressions | |
-| Language styles | |
-| Media types | |
-| Environments | |
-| Lighting types | |
-| Color styles | |
-| Moods | |
-| Composition types | |
+| **Option**                 | **Description**                                                                                                                                                                                            |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Expressions                |                                                                                                                                                                                                            |
+| Language styles            |                                                                                                                                                                                                            |
+| Media types                |                                                                                                                                                                                                            |
+| Environments               |                                                                                                                                                                                                            |
+| Lighting types             |                                                                                                                                                                                                            |
+| Color styles               |                                                                                                                                                                                                            |
+| Moods                      |                                                                                                                                                                                                            |
+| Composition types          |                                                                                                                                                                                                            |
 | Translate default language | The default language is the first active language of a store. If no value is stored for it, the value from the "Standard" tab is used. Therefore, it is recommended not to translate the default language. |
-| Offer sample generator | Provides a chat generator that creates sample data. |
+| Offer sample generator     | Provides a chat generator that creates sample data.                                                                                                                                                        |
 
 ### Text Lengths
 
@@ -196,13 +197,13 @@ Missing screenshot
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** |
-| :--- | :--- |
-| Max word count for product short description | Sets the maximum number of words generated for the short description of a product. |
-| Min word count category description (top) | Sets the minimum number of words generated for the top category description. |
-| Max word count category description (top) | Sets the maximum number of words generated for the top category description. |
-| Min word count manufacturer description (top) | Sets the minimum number of words generated for the top manufacturer description. |
-| Max word count manufacturer description (top) | Sets the maximum number of words generated for the top manufacturer description. |
+| **Option**                                    | **Description**                                                                    |
+| --------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Max word count for product short description  | Sets the maximum number of words generated for the short description of a product. |
+| Min word count category description (top)     | Sets the minimum number of words generated for the top category description.       |
+| Max word count category description (top)     | Sets the maximum number of words generated for the top category description.       |
+| Min word count manufacturer description (top) | Sets the minimum number of words generated for the top manufacturer description.   |
+| Max word count manufacturer description (top) | Sets the maximum number of words generated for the top manufacturer description.   |
 
 ### Image Metadata
 
@@ -210,15 +211,15 @@ Missing screenshot
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** |
-| :--- | :--- |
-| Create metadata on image upload | Determines whether metadata is automatically generated when uploading an image. |
-| Provider for image analysis | Defines the provider used for creating metadata for images. |
-| Generate Title attribute | |
-| Generate Alt attribute | |
-| Generate tags | Determines whether tags should be generated for better findability in the Media Manager. |
-| Number of tags | |
-| Consider images for | Determines the types for which images are processed during upload. |
+| **Option**                      | **Description**                                                                          |
+| ------------------------------- | ---------------------------------------------------------------------------------------- |
+| Create metadata on image upload | Determines whether metadata is automatically generated when uploading an image.          |
+| Provider for image analysis     | Defines the provider used for creating metadata for images.                              |
+| Generate Title attribute        |                                                                                          |
+| Generate Alt attribute          |                                                                                          |
+| Generate tags                   | Determines whether tags should be generated for better findability in the Media Manager. |
+| Number of tags                  |                                                                                          |
+| Consider images for             | Determines the types for which images are processed during upload.                       |
 
 {% hint style="warning" %}
 If the option ‘Create metadata on image upload’ is activated, the image is analyzed by the AI upon upload.
@@ -230,14 +231,14 @@ If the option ‘Create metadata on image upload’ is activated, the image is a
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** |
-| :--- | :--- |
-| Add SEO properties | Determines whether SEO properties of the product should also be created when creating products using AI. |
-| Add translations | Determines whether translations for the product should also be created when creating products using AI. |
-| Assign manufacturer | Determines whether an automatic assignment to an existing manufacturer should be attempted when creating products using AI. |
-| Determine EAN | Determines whether the EAN for the product should also be determined when creating products using AI. |
-| Determine weight | Determines whether the weight for the product should also be determined when creating products using AI. |
-| Determine dimensions | Determines whether the dimensions for the product should also be determined when creating products using AI. |
+| **Option**           | **Description**                                                                                                             |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Add SEO properties   | Determines whether SEO properties of the product should also be created when creating products using AI.                    |
+| Add translations     | Determines whether translations for the product should also be created when creating products using AI.                     |
+| Assign manufacturer  | Determines whether an automatic assignment to an existing manufacturer should be attempted when creating products using AI. |
+| Determine EAN        | Determines whether the EAN for the product should also be determined when creating products using AI.                       |
+| Determine weight     | Determines whether the weight for the product should also be determined when creating products using AI.                    |
+| Determine dimensions | Determines whether the dimensions for the product should also be determined when creating products using AI.                |
 
 ## Product Creation
 

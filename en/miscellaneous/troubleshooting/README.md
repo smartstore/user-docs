@@ -14,4 +14,4 @@ May occur during data exchange. Other error message could be "_Internal error. T
 
 ### Clear Cache
 
-If you have a problem with your shop, it can often be solved by cleaning the cache. Therefore try to [clear the cache](../smartstore-6-documentation-home/user-guide/system-maintenance/clearing-cache.md) first.
+If you have a problem with your shop, it can often be solved by cleaning the cache. Therefore try to [clear the cache](../../smartstore-6-documentation-home/user-guide/system-maintenance/clearing-cache.md) first.
