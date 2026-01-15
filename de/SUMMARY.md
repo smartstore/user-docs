@@ -176,4 +176,5 @@
 * [Developer Guide](welcome/developer-guide.md)
 * [FAQs](welcome/faqs.md)
 * [Troubleshooting](welcome/troubleshooting.md)
+  * [Google reCAPTCHA V3 Fehler](verschiedenes/troubleshooting/google-recaptcha-v3-fehler.md)
   * [Summernote Font-Tools deaktiviert](troubleshooting/summernote-font-tools-deaktiviert.md)
