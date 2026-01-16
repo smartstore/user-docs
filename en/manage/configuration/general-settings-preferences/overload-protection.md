@@ -14,7 +14,7 @@ Typical use cases:
 
 A key problem addressed by overload protection is the mass creation of guest accounts by unidentifiable "bad bots". These bots often evade traditional identification mechanisms by refusing to accept cookies and creating new sessions for each request. While overload protection cannot completely prevent this, it can effectively mitigate it by limiting the number of new accounts per time window and reducing unnecessary system load. In particular, blocking new guests for secondary requests such as AJAX or script requests prevents bots from overloading the system.
 
-![Bildschirmfoto am 2025-02-14 um 09.46.35 (1).png](<../../../.gitbook/assets/Bildschirmfoto am 2025-02-14 um 09.46.35 (1).png>)
+![OverloadProtection.png](<../../../.gitbook/assets/overload-protection.png>)
 
 ## General Settings
 

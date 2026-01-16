@@ -4,7 +4,7 @@
 
 Blöcke sind ein essenzieller Bestandteil des Page Builders. Sämtliche Inhalte werden mithilfe von Blöcken dargestellt. Je nach gewünschtem Inhalt stehen Ihnen verschiedene Blöcke zur Verfügung.
 
-![](../../../.gitbook/assets/Blocks.jpg)
+![](../../../.gitbook/assets/Blocks.png)
 
 **① Text:** Stellt Text formatiert dar. Des Weiteren kann der Text-Block Schaltflächen, Icons Hintergründe, sowie Effekte u.v.m. darstellen.
 
@@ -74,13 +74,13 @@ Ein Video zur Anordnung von Blöcken finden Sie auf [Youtube](https://www.youtub
 
 Um die Block-Aktionen anzeigen zu lassen, fahren Sie mit der Maus über den gewünschten Block im Block-Manager. Die nun angezeigten Block-Aktionen stimmen exakt mit den Steuerelementen überein, die am linken Rand des Blocks angezeigt werden, wenn dieser ausgewählt wurde.
 
-![](../../../.gitbook/assets/blockoptionen_2.jpg)
+![](../../../.gitbook/assets/blockoptionen_2.png)
 
 Hier können Sie auf verschiedene Block-Aktionen zugreifen, wie zum Beispiel auf den Bearbeitungsmodus des Blockes, um den Inhalt anzupassen. Mit den Pfeilen können Sie den z-index des Blockes erhöhen oder verringern, wodurch die Block-Reihenfolge angepasst werden kann.
 
 In dem nachfolgenden Beispiel wird die Block-Reihenfolge innerhalb der Story leicht abgeändert, da der Block _Get the look_ den höchsten z-index zugewiesen bekommt.
 
-![](../../../.gitbook/assets/image055.jpg)
+![](../../../.gitbook/assets/image055.png)
 
 Beachten Sie die Reihenfolge der Blöcke im Block-Manager und wie der Block _Get the look_ nun das _%_-Bild innerhalb der Story überdeckt.
 

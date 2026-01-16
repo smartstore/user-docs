@@ -25,6 +25,8 @@
 
 Der Zweck der Grundpreisberechnung nach PAngV \[Preisangabenverordnung] besteht darin, Ihre Kunden über den Grundpreis einer Verpackungseinheit, in der Sie Ihr Produkt verkaufen, zu informieren. Nehmen wir an, dass Sie Tee verkaufen und unterschiedliche Verpackungseinheiten (z. B. 200g, 300g, 500g) anbieten. In solchen Fällen könnten Ihre Kunden daran interessiert sein, den Preis des Produkts pro 100g zu erfahren, damit sie die Preise vergleichen können. Um diese Informationen darzustellen können Sie die Option **Grundpreis gemäßg PAngV berechnen**  aktivieren und die  **Grundeinheit** und die enthaltene **Menge** der von Ihnen angebotenen Verpackungseinheiten angeben.
 
+![](<../../../.gitbook/assets/pangv.png>)
+
 ## Staffelpreise
 
 Staffelpreise sind Preisnachlässe bei unterschiedlich hohen Mengenabnahmen.&#x20;

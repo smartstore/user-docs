@@ -2,9 +2,13 @@
 
 The ePrivacy Directive 2002/58/EC - also known as the "Cookie Directive" - is an EU directive that aims to increase data protection for internet users. It requires users to agree to the use of cookies before they can be used on websites. The EU's data protection directives state that all websites in the EU must obtain the consent of their visitors before they can store cookies on users' terminals. An exception is made for so-called session cookies. These are cookies that are essential for the functioning of a website.
 
-With the Cookie Manager you make this possibility available to your customers. The information displayed in the cookie manager can either be provided by plug-ins (those that use cookies and which only become active once the use of the respective cookie type has been approved), or they can be added by the shop operator in the backend itself. Cookie Manager in the frontend
+With the Cookie Manager you make this possibility available to your customers. The information displayed in the cookie manager can either be provided by plug-ins (those that use cookies and which only become active once the use of the respective cookie type has been approved), or they can be added by the shop operator in the backend itself. Cookie Manager in the frontend.
+
+## Cookie Manager in the Frontend
 
 When a user visits your shop for the first time, the cookie manager is displayed. The customer therefore has the possibility to choose which cookies he wants to allow.&#x20;
+
+![](../../.gitbook/assets/cookie-manager.png)
 
 ### Cookie types
 
@@ -43,6 +47,8 @@ Services that offer extended functions, such as LivePerson Chat, sometimes also 
 The Cookie Manager can be enabled or disabled in **Admin > Configuration > Settings > Customers > Privacy**. Depending on the activated plug-ins, the Cookie Manager now already displays information on cookie usage in the frontend.
 
 If you want to include your own scripts that use cookies, you can also provide information about this in the backend under **Privacy**.
+
+![](../../.gitbook/assets/cookie-register.png)
 
 To include the corresponding scripts, there is either the possibility to add them as a widget in the backend or to include them directly in views.
 

@@ -19,5 +19,6 @@ When you run a store, there are functions that access data defined on the countr
 | Display Order         | The display order for this country. 1 represents the top of the list.                                                                                                                     |
 
 ## States & Provinces
+![](../../.gitbook/assets/countries_2.png)
 
 You can add an unlimited number of States/Provinces to any country that's configured in your store. These regions will show anywhere in the store where countries can be selected, right beneath the country input element, displaying all States/Provinces configured for this country. If there are active states/provinces for the countries configured to be active in your shop, you can also base the shipping cost calculation on the states or provinces your customer selects in the checkout process. When creating or editing a State/Province, you can determine a localized display name, an abbreviation and a display order, and you can specify whether or not this State/Province is published in your store.

@@ -37,7 +37,11 @@ Wenn Sie nun ein benutzerdefiniertes Template einbinden möchten, müssen Sie Ih
 In diesem Tab können Sie den Hintergrund des Blockes bearbeiten. Diese Funktionsweise stimmt mit den Story-Hintergrund-Overlays überein. Sie können hier also auch Hintergrundebenen additiv aufeinander anwenden, um attraktive Hintergründe zu erstellen.\
 Weitere Informationen zu Hintergründen finden sie unter [_Hintergrund_](block-basiseinstellungen.md#hintergrund).
 
+![](../../../../.gitbook/assets/Block-Einstelllungen_Hintergrund.png)
+
 ## Box
+
+![!](../../../../.gitbook/assets/Block-Einstelllungen_Box.png)
 
 **Boxbild:** Beachten Sie, dass ein Boxbild Raum beansprucht. Das bedeutet, dass die Bildgröße Einfluss auf die Blockgröße haben kann. Zusätzlich ist es möglich, die Position des Boxbildes zu bestimmen und so hinter, unter, neben oder über den Blockinhalten anzuordnen. So können Sie visuell anschauliche Blöcke mit integriertem Bild erstellen.
 
@@ -101,6 +105,8 @@ mit Schatten
 
 ## Effekte
 
+![!](../../../../.gitbook/assets/Block-Einstelllungen_Effekte.png)
+
 **Hover:** Bestimmt den Effekt, der angewendet wird, wenn die Maus über das Element fährt. Hierbei kann man zwischen _Erhöhen (rise)_ und _Leicht heranzoomen (scale)_ wählen. Beim _Erhöhen_-Effekt wird das Element leicht nach oben versetzt. Beim Effekt _Leicht heranzoomen_ hingegen wird das Bild größer. Effekte, die auf Mausinteraktionen ausgerichtet sind, eignen sich hervorragend dafür, Verlinkungen von Bildern oder Ähnlichem eindeutig für den Kunden hervorzuheben.
 
 | **Leicht heranzooomen**                                 | **Erhöhen**                                            |
@@ -147,7 +153,7 @@ Parallax-Effekt mit fixiertem Hintergundbild
 
 ![](../../../../.gitbook/assets/effect_reveal2.gif)
 
-![](../../../../.gitbook/assets/image093.jpg)
+![](../../../../.gitbook/assets/image093.png)
 
 **① Reveal aktivieren:** Bestimmt, ob der Effekt aktiviert ist. Weitere Optionen erscheinen erst bei Aktivierung.
 

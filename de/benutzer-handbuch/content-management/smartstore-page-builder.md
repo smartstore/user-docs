@@ -26,7 +26,7 @@ Inhalte werden im Smartstore Page Builder in sogenannten [_Stories_](smartstore-
 
 [_Blöcke_](smartstore-page-builder/blocke.md) sind atomare Elemente einer Story, welche als Container für sämtliche Inhalte dienen. Mithilfe von Blöcken ist es möglich, Inhalte leicht einzufügen, zu modifizieren und zu positionieren. Eine Vielzahl von unterschiedlichen Blocktypen stehen für unterschiedliche Inhalte wie Texte, Bilder oder Videos zur Verfügung.
 
-![](../../.gitbook/assets/image015.jpg)
+![](../../.gitbook/assets/image015.png)
 
 Im obigen Bild sehen Sie zwei markierte Blöcke. Der Block auf der linken Seite ist ein Bild-, und der auf der rechten Seite ein Text-Block. Mehr zu den verschiedenen Blöcken erfahren Sie unter [_Blöcke Übersicht_](smartstore-page-builder/blocke.md).
 

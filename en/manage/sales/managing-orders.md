@@ -6,6 +6,7 @@ To manage orders, navigate to **Sales > Orders** within the administration area 
 
 ## Order Details View
 
+![!](../../.gitbook/assets/order-detail.png)
 ### Info
 
 In this tab, you can see general information about the order such as the order status, number or total. You can also set the order status and the payment status or edit the order totals.

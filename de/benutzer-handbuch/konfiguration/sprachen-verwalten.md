@@ -30,6 +30,11 @@ Besuchen Sie für weitere Sprachen für die aktuelle und ältere Smartstore-Vers
 
 Manchmal kommt es vor, dass Sie einzelne Ressourcen verändern möchten. Stellen Sie sich vor, Sie möchten den Link zum Forum im Header Menü von _Forum_ in _Foren_ ändern. Um dies zu tun, gehen Sie auf **Konfiguration > Regionale Einstellungen > Sprachen**, und klicken Sie auf **Ressourcen editieren.** Sie werden eine Tabelle mit allen verfügbaren Ressourcen dieser Sprache sehen. Filtern Sie diese Ergebnisse, um die von Ihnen gesuchte Ressource zu finden. Sie können entweder nach Textwert oder nach dem Namen der Ressource filtern, der für die interne Verwendung genutzt wird. Wenn Sie den Text kennen, den Sie verändern möchten, klicken Sie auf das Filtersymbol der Spalte **Wert**, wählen Sie **Ist gleich** und geben Sie den Wert _Forum_ ein. Dann wird eine Liste mit unterschiedlichen Ressourcen angezeigt, die den Filterkriterien entsprechen. Zwei davon haben die Vorsilbe _admin,_ was darauf hindeutet, dass es zum Administratorenbereich gehört, das andere enthält das Wort _breadcrumb,_ was darauf hinweist, dass es zur Breadcrumb-Navigation – keines davon ist die Ressource, die Sie suchen. Die Ressource, die Sie verändern müssen, heißt _forum.forum._ &#x20;
 
+![](../../.gitbook/assets/sprachen_verwalten_3.png)
+
+![](../../.gitbook/assets/sprachen_verwalten_4.png)
+
+
 ## Ressourcen übersetzen
 
 Sie können einige Sprachen in unserem Smartstore [Übersetzungsportal](https://translate.smartstore.com/) finden. Wenn die Sprache, die Sie suchen jedoch nicht dabei ist, müssen Sie die Übersetzung eventuell selbst anfertigen. Um dies zu tun, empfehlen wir, dass Sie alle Sprachressourcen einer vorhandenen Sprache in eine XML-Datei exportieren, diese dann übersetzen und die Datei wieder importieren. Textressourcen für Plugins sollten in den zugehörigen XML-Dateien des jeweiligen Plugins enthalten sein.

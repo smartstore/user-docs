@@ -1,51 +1,64 @@
 # Customer Settings
 
-You can edit the customer settings by going to  **Configuration > Settings > Customer Settings** .&#x20;
+You can edit the customer settings by going to **Configuration > Settings > Customer Settings**.
 
-![](<../../../.gitbook/assets/customer settings1.jpg>)
+![](<../../../.gitbook/assets/customer settings1.png>)
 
-|                                                        |                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 'Usernames' Enabled                                    | Check the box to use user names for login/registration instead of e-mails. Warning: It is recommended that you change this setting in the production environment.                                                                                                                                                                                                     |
-| Allow Customers To Change Their Usernames              | A value indicating whether customers are allowed to change their user names.                                                                                                                                                                                                                                                                                          |
-| Allow Customers To Check The Availability Of Usernames | A value indicating whether customers are allowed to check the availability of user names (when registering or amending ‘My Account’).                                                                                                                                                                                                                                 |
-| Registration Method                                    | Determines the customer's registration method. In the Standard mode, visitors can register with no need to approval. In the E-mail Validation mode, the user must respond to a validation e-mail in order to active the account. In the Admin Approval mode, registration is subject to the administrator's approval. In the Disabled mode, registration is disabled. |
-| Allow Customers To Upload Avatars                      | A value indicating whether customers are allowed to upload avatars.                                                                                                                                                                                                                                                                                                   |
-| Default Avatar Enabled                                 | A value indicating whether to display a default user avatar.                                                                                                                                                                                                                                                                                                          |
-| Show Customers' Location                               | A value indicating whether the customer’s location is shown.                                                                                                                                                                                                                                                                                                          |
-| Show Customers' Join Date                              | A value indicating whether to show the customer's registration date.                                                                                                                                                                                                                                                                                                  |
-| Allow Viewing Of Customer Profiles                     | A value indicating whether the viewing of customer profiles is allowed.                                                                                                                                                                                                                                                                                               |
-| Notify About New Customer Registration                 | Notifies the store owner when a new customer is registered.                                                                                                                                                                                                                                                                                                           |
-| Hide 'Downloadable Products' Tab                       | Check the box to hide the ‘Downloadable Products’ tab on the page ‘My Account’.                                                                                                                                                                                                                                                                                       |
-| Hide 'Back In Stock Subscriptions' Tab                 | Check the box to hide the ‘Back in Stock Subscriptions’ tab on the page 'My Account’.                                                                                                                                                                                                                                                                                 |
-| Customer Name Format                                   | Refers to the name format of the customer.                                                                                                                                                                                                                                                                                                                            |
+| Input field | Explanation |
+| :--- | :--- |
+| Registration method | Determines the customer's registration method. **Standard account creation**: Visitors can register without approval. **Email validation**: The user must respond to a validation email to activate the account. **Admin approval**: Registration is subject to administrator approval. **Disabled**: Registration is disabled. |
+| Customer role at registrations | Specifies the default customer role assigned to new registrations (e.g. "Registered"). |
+| Notify about new customer registration | Notifies the store owner when a new customer registers. |
+| Customer login type | Determines how customers log in: **Username or email**, **Email**, or **Username**. Warning: Changing this in a live environment is not recommended. |
+| Allow customers to change their usernames | Specifies whether customers are allowed to change their usernames. |
+| Enable username availability check | Specifies whether customers can check the availability of a username during registration or when editing their account. |
+| Customer name format | Defines how the customer name is displayed (e.g. "Show usernames", "Show full names", etc.). |
+| Additional allowed characters for customer names | Allows specifying extra characters that are permitted in usernames. |
+| Maximum length of the customer name | Sets the maximum length of the displayed customer name. |
+| Customer numbers | Determines if customer numbers are enabled and how they are generated (e.g. **Disabled**, **Auto-increment**, etc.). |
+| Customer number presentation | Defines how the customer number is displayed (e.g. **Do not display**, **Prefix #**, etc.). |
+| Show customers' location | Specifies whether the customer’s location (City, Country) is shown. |
+| Show customers' join date | Specifies whether to show the customer's registration date. |
+| Allow viewing of customer profiles | Specifies whether customers can view the profiles of other customers. |
+| Allow customers to upload avatars | Specifies whether customers are allowed to upload avatars. |
+| Hide orders in the "My account" area | Hides the "Orders" tab in the "My Account" area. |
+| Hide downloads in the "My account" area | Hides the "Downloadable Products" tab in the "My Account" area. |
+| Hide 'Back in stock subscriptions' tab | Hides the "Back in Stock Subscriptions" tab in the "My Account" area. |
+| Hide newsletter box | Hides the newsletter subscription box. Newsletter subscriptions are not possible. |
+| Store last visited page | Specifies whether the URL of the last visited page should be stored in the customer record. Disabling this may improve performance. |
+| Store last user agent | Stores the user agent string of the customer's browser. |
+| Store last device family | Stores the device family (e.g. Desktop, Mobile) used by the customer. |                                                                                                                                                                                                                                                                                      |
 | Maximum Length Of The Customer Name                    | Determines the maximum length of the displayed customer name.                                                                                                                                                                                                                                                                                                         |
 | Hide Newsletter Box                                    | Check the box if you want to hide the newsletter subscription box.                                                                                                                                                                                                                                                                                                    |
 | Store Last Visited Page                                | When enabled, the most recently visited page will be stored. Disable this option to improve performance.                                                                                                                                                                                                                                                              |
 | Default Password Format                                | Choose default password format. Please keep in mind that this setting will be applied only to newly registered customers.                                                                                                                                                                                                                                             |
 
-## Customer Form Fields
+## Registration
 
-![](<../../../.gitbook/assets/customer settings2.jpg>)
+![](<../../../.gitbook/assets/customer settings2.png>)
 
-|                              |                                                           |
-| ---------------------------- | --------------------------------------------------------- |
-| 'Gender' Enabled             | Specifies whether or not gender is enabled.               |
-| 'Date of Birth' Enabled      | Specifies whether or not the date of birth is enabled.    |
-| 'Company' Enabled            | Specifies whether or not the company is enabled.          |
-| 'Company' Required           | Specifies whether or not the company is required.         |
-| 'Street Addresses' Enabled   | Specifies whether or not the street address is enabled.   |
-| 'Street Addresses' Required  | Specifies whether or not the street address is required.  |
-| 'Zip / Postal Code' Enabled  | Specifies whether or not the zip/postal code is enabled.  |
-| 'Zip / Postal Code' Required | Specifies whether or not the zip/postal code is required. |
-| 'City' Enabled               | Specifies whether or not the city is enabled.             |
-| 'City' Required              | Specifies whether or not the city is required.            |
-| 'Country' Enabled            | Specifies whether or not the country is enabled.          |
-| 'Phone Number' Enabled       | Specifies whether or not the phone number is enabled.     |
-| 'Phone Number' Required      | Specifies whether or not the phone number is required.    |
-| 'Fax Number' Enabled         | Specifies whether or not the fax number is enabled.       |
-| 'Fax Number' Required        | Specifies whether or not the fax number is required.      |
-| 'Newsletter' Enabled         | Specifies whether or not the newsletter is enabled.       |
+| Input field | Explanation |
+| :--- | :--- |
+| 'Gender' enabled | Specifies whether or not the 'Gender' field is enabled during registration. |
+| 'Title' enabled | Specifies whether or not the 'Title' field is enabled. |
+| 'First name' required | Specifies whether entering a first name is required. |
+| 'Last name' required | Specifies whether entering a last name is required. |
+| 'Date of birth' enabled | Specifies whether or not the 'Date of birth' field is enabled during registration. |
+| 'Company' enabled | Specifies whether or not the 'Company' field is enabled during registration. |
+| 'Company' required | Specifies whether entering a company name is required. |
+| 'Street address' enabled | Specifies whether or not the 'Street address' field is enabled during registration. |
+| 'Street address addition' enabled | Specifies whether or not the 'Street address addition' field is enabled during registration. |
+| 'Zip / postal code' enabled | Specifies whether or not the 'Zip / postal code' field is enabled during registration. |
+| 'Zip / postal code' required | Specifies whether entering a zip / postal code is required. |
+| 'City' enabled | Specifies whether or not the 'City' field is enabled during registration. |
+| 'City' required | Specifies whether entering a city is required. |
+| 'Country' enabled | Specifies whether or not the 'Country' field is enabled during registration. |
+| 'State/province' enabled | Specifies whether or not the 'State/province' field is enabled during registration. |
+| 'Phone number' enabled | Specifies whether or not the 'Phone number' field is enabled during registration. |
+| 'Phone number' required | Specifies whether entering a phone number is required. |
+| 'Fax number' enabled | Specifies whether or not the 'Fax number' field is enabled during registration. |
+| 'Fax number' required | Specifies whether entering a fax number is required. |
+| 'Newsletter' enabled | Shows the newsletter subscription form. Newsletter subscriptions are possible. |
 
 ## Address Form Fields
 

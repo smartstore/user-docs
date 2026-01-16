@@ -2,6 +2,8 @@
 
 In the section **Search,** you can edit global settings relating to searching products.
 
+![](../../../.gitbook/assets/search-1.PNG)
+
 |     |     |
 | --- | --- |
 | Search mode | Specifies the search mode. Please keep in mind that the search mode can - depending on catalog size - strongly affect search performance. **Is equal to** is the fastest, **Contains** the slowest. |

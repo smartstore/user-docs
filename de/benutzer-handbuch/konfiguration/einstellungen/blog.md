@@ -2,12 +2,19 @@
 
 ![](../../../.gitbook/assets/blog.PNG)
 
-|                                                      |                                                                                                       |
-| ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Aktiv                                                | Aktiviert den Blog.                                                                                   |
-| Seitengröße                                          | Legt die Seitengröße für Posts fest.                                                                  |
-| Gäste dürfen Kommentare schreiben                    | Legt fest, ob Gäste Kommentare schreiben dürfen.                                                      |
-| Benachrichtigung bei neuen Kommentaren               | Administrator erhält Benachrichtigungen bei neuen Blogkommentaren.                                    |
-| Anzahl der Cloud-Tags                                | Die Anzahl der Tags, die in der Tagcloud sichtbar sind.                                               |
-| Maximales Alter (in Tagen)                           | Legt das maximale Blog-Alter in Tagen fest. Ältere Blog-Einträge werden im RSS-Feed nicht exportiert. |
-| RSS-Feed URL im Browser in der Adressleiste anzeigen | Legt fest, ob der RSS-Feed-Link in der Adressleiste des Browsers angezeigt werden soll.               |
+| Einstellung | Beschreibung |
+| :--- | :--- |
+| Aktiv | Aktiviert den Blog in Ihrem Shop. |
+| Gäste dürfen Kommentare schreiben | Legt fest, ob nicht registrierte Benutzer (Gäste) Kommentare hinterlassen dürfen. |
+| Kunden ohne Bestellungen dürfen Kommentare schreiben | Legt fest, ob Kunden Kommentare schreiben dürfen, auch wenn sie noch nie einen Artikel gekauft haben. |
+| Benachrichtigung bei neuen Kommentaren | Benachrichtigt den Shop-Betreiber, wenn ein neuer Blog-Kommentar verfasst wurde. |
+| Navigation End Date | Definiert das Datum, bis zu dem der Blog-Link in der Shop-Navigation erscheint. |
+| Anordnung der Beiträge | Wählt das visuelle Layout für die Blog-Auflistung (z. B. Masonry). |
+| Spalten | Bestimmt das Rasterlayout und die Position der Seitenleiste (z. B. 2 Beiträge pro Reihe + Blog Sidebar). |
+| Beiträge pro Seite | Legt die Anzahl der Beiträge fest, die pro Seite angezeigt werden. |
+| Intro | Steuert, wie viel vom Inhalt des Blogbeitrags in der Listenansicht angezeigt wird (z. B. Komplett anzeigen). |
+| Intro auf mobilen Geräten anzeigen | Legt fest, ob der Intro-Text auch auf mobilen Geräten angezeigt werden soll. |
+| Anzahl der Cloud-Tags | Die Anzahl der Blog-Tags, die in der Tag-Cloud (Schlagwortwolke) erscheinen. |
+| RSS-Feed | Aktiviert generell den RSS-Feed für den Blog. |
+| Maximales Alter (in Tagen) | Legt das maximale Alter (in Tagen) für Beiträge fest, die im RSS-Feed enthalten sein sollen. |
+| RSS-Feed URL im Browser in der Adressleiste anzeigen | Legt fest, ob der Link zum Blog-RSS-Feed in der Adressleiste des Kundenbrowsers angezeigt werden soll. |

@@ -10,7 +10,7 @@ Zwei Block-Typen unterstützen die Datenbindung:
 
 Wenn Sie also einen dieser beiden Blocktypen einbinden, werden Sie im Unterschied zu anderen Blöcken den Tab Datenbindung in der Konfigurationsansicht des Blockes sehen.
 
-![](../../../../.gitbook/assets/Datenbindung_Beispiel_3.JPG)
+![](../../../../.gitbook/assets/Datenbindung_Beispiel_3.png)
 
 Auf diese Weise können Sie ganz einfach Stories erstellen, welche einzelne Produkte oder eine Produktauswahl von Herstellern oder Warengruppen direkt bewerben. Sollten Änderungen an einem der Produkte vorgenommen werden, sind automatisch alle Daten innerhalb der Story auf dem aktuellen Stand.
 

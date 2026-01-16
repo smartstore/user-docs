@@ -23,6 +23,8 @@ In the list you can directly execute a profile through Run Now and watch the pro
 
 Click on **Add New** to create a new export profile. A dialog appears where you must select the export provider. Optionally you can select an existing profile to copy its settings to the new profile. After clicking **OK**, you will be redirected to the new export profile.
 
+![](../../.gitbook/assets/export-profile-add.png)
+
 To change an export profile, click the name of the profile in the profile list.
 
 ![](../../.gitbook/assets/export-profile-edit.png)

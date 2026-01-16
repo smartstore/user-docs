@@ -2,7 +2,7 @@
 
 In the section **General Settings**, you can edit global settings for several areas. There won't be an explanation for every setting, as some of them are self-explanatory. If the setting you are looking for isn't documented, hover over the space between the title and input field of the setting. A question mark will appear, containing a hint about the usage of this setting.
 
-![](<../../../.gitbook/assets/general settings7.jpg>)
+![](<../../../.gitbook/assets/general settings7.png>)
 
 ## General
 

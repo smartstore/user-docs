@@ -9,6 +9,7 @@ Stellen Sie sich vor, Sie möchten eine Videospielkonsole in Kombination mit zwe
 {% hint style="info" %}
 Um Verkaufsanreize zu schaffen, sollte der Preis des Bundles natürlich niedriger sein, als der Preis, den der Kunde zahlen würde, wenn er die Bestandteile des Bundles einzeln kaufen würde.
 {% endhint %}
+![](<../../../.gitbook/assets/bundle-product-frontend.png>)
 
 ![](<../../../.gitbook/assets/2022-10-20 10_01_39-Produktdetails _ Smartstore Administration.png>)
 

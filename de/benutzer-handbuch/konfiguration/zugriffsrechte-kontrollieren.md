@@ -5,6 +5,7 @@ Zugriffsrechte können für unterschiedliche Arbeitsbereiche innerhalb des Admin
 Sie können Zugriffsrechte für Arbeitsbereiche im Administrationsbereich unter **Konfiguration > Zugriffsrechte** verwalten. Um ein bestimmtes Zugriffsrecht einzustellen, müssen Sie die Box neben **Zugriffsrecht** für die **Kundengruppe** aktivieren, der Sie das Zugriffsrecht erteilen möchten.
 
 ![](../../.gitbook/assets/zugriffsrechte.PNG)
+![](../../.gitbook/assets/zugriffsrechte_1.PNG)
 
 ## Anwendungsszenario
 

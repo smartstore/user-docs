@@ -2,7 +2,7 @@
 
 Wenn Sie einen Block ausgewählt haben, werden in der [_Toolbox_](../benutzeroberflache/toolbox.md) die Block-Optionen angezeigt. Hier können Sie die Darstellung und Ausrichtung der Inhalte für die aktuelle Auflösungsstufe anpassen. Da sich Stories, je nach Bildschirmgröße, dynamisch auf den verfügbaren Platz ausbreiten, sollten Sie für jede Auflösungsstufe die Ausrichtung der Inhalte überprüfen und ggf. anpassen, damit die Story auf allen Auflösungen richtig dargestellt wird.
 
-![](../../../../.gitbook/assets/image077.jpg)
+![](../../../../.gitbook/assets/image077.png)
 
 **① Abstände:** Hier werden _margin_ (äußerer Blockabstand) und _padding_ (innerer Blockabstand) definiert. Um diese Werte anzupassen, klicken Sie mit der Maus in eines der Kästchen und ziehen Sie die Maus mit gedrückter (linker) Maustaste nach oben, um den Abstand zu erhöhen, oder nach unten, um den Abstand zu verringern. Dabei kann man Werte von 0 bis 6 bestimmen. 0 steht dabei für _kein Abstand_ und 6 für einen _sehr großen Abstand_. Wenn das Feld keinen Wert eingetragen hat wird der Wert der vorherigen Auflösungsstufe übernommen.
 

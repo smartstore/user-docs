@@ -3,6 +3,7 @@
 Access Permissions can be configured for several work areas within the administration area, and can also set display permissions in the frontend.&#x20;
 
 You can configure ACL for work areas within the administration area in **Configuration > Access Control List**. To configure a certain permission, just check the box next to the **Permission Name** for the **Customer Role** to which you want give the permission.
+![](../../.gitbook/assets/manage-acl_0.png)
 
 ![](../../.gitbook/assets/manage-acl.png)
 

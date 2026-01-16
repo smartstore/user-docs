@@ -10,6 +10,8 @@ Two block types support data binding:
 
 So when you include one of these two block types, unlike other blocks, you will see the Data Binding tab in the configuration view of the block.
 
+![](../../../../.gitbook/assets/databinding.png)
+
 In this way, you can easily create stories that directly promote individual products or a product selection from manufacturers or categories. If changes are made to one of the products, all data within the story is automatically up to date.
 
 ## Settings

@@ -2,13 +2,13 @@
 
 Mithilfe des nativen _CSS Grid-Layoutsystems_ ist es möglich, Raster mit einer beliebigen Zeilen- und Spaltenanzahl zu definieren. Auf so einem Raster können Inhalte platziert werden, welche responsiv und geräteunabhängig in allen Auflösungen dargestellt werden. Die enthaltenen Inhalte bestimmen, ggf. je nach Raster-Konfiguration, die Größe der einzelnen Zellen.
 
-![](../../../../.gitbook/assets/image021.jpg)
+![](../../../../.gitbook/assets/image021.png)
 
 ## Rasterwerkzeuge
 
 Mit den Rasterwerkzeugen können Sie das Layout der Story definieren und anpassen. Diese Werkzeuge werden angezeigt, wenn Sie mit der Maus über den Rand des Rasters fahren.
 
-![](../../../../.gitbook/assets/image045.jpg)
+![](../../../../.gitbook/assets/image045.png)
 
 **① Hinzufügen:** Fügt eine neue Zeile beziehungsweise Spalte hinzu.
 

@@ -1,92 +1,89 @@
-# Setting up Shipping Methods
+# Set up Shipping Methods
 
-If you're running a shop, you need to offer shipping methods from which customers can choose their preferred one. You can set up shipping methods by going to **Configuration > Regional Settings > Shipping Methods**.
+If you run a shop, you must offer shipping methods from which your customers can choose their preferred one. You can set up shipping methods by navigating to **Configuration > Regional Settings > Shipping Methods**.
 
-![](../../.gitbook/assets/shipping-methods.png)
+![](../../.gitbook/assets/shipping-methods.PNG)
 
-Here, you can define the shipping methods that are active in your shop by defining a name and a description for the shipping methods you provide. If you activate the option **No Additional Charges**, the additional charges that are defined in your product details will be ignored during the calculation of the shipping costs. With the display order, you determine the display order of the shipping methods in the frontend. The prices of the individual shipping methods won't be defined here, but in the shipping calculation methods explained below.
+Here you can define which shipping methods are offered in your shop by specifying the names and descriptions of the shipping methods. If you activate the option **No additional charges**, the additional costs defined at the product level will be ignored when calculating shipping costs. Use the **Display order** to determine the sequence in which shipping methods appear in the frontend. The prices for the individual shipping methods are not set here, but in the shipping rate computation methods, which are explained below.
 
 ## Shipping Method Restrictions
 
-Shipping methods may be restricted to prevent them from being offered at checkout. Navigate to **Configuration > Regional Settings > Shipping Methods** and click the name of the desired shipping method. In the restriction tab, select the criteria for which the shipping method should _not_ appear in checkout (the exclusion technique). You can restrict shipping methods by the following criteria:
+Shipping methods can be restricted so that they are not available during the checkout process. Go to **Configuration > Regional Settings > Shipping Methods** and click on the name of your desired shipping method. In the **Restrictions** tab, select the criteria upon which the shipping method should _not_ appear at checkout (exclusion principle). You can restrict shipping methods based on the following criteria:
 
-* Customer Roles
-* Countries (distinguished between billing and shipping address of the customer)
+* Customer roles
+* Countries (distinguished between the customer's billing and shipping address)
 
 ## Shipping Rate Computation Methods
 
-With **Shipping Rate Computation Methods**, you define the prices of the shipping methods you provide. The number of available **Shipping Rate Computation Methods** depends on the plugins that are active in your shop. You can manage the computation methods by going to **Configuration > Regional Settings > Shipping Rate Computation Methods** . In this area, you can activate or deactivate computation rate methods by clicking the corresponding button, and you can organize the display order of shipping methods in the frontend of your shop by _Drag\&Drop_. At this point, you may notice that you've already defined a display order for your shipping methods. However, shipping rate computation methods will provide calculations for all defined shipping methods and render them into your frontend. Therefore, you should choose one of the offline computation methods. Offline shipping rate computation methods are Shipping by Weight, Fixed Rate Shipping and Shipping by Total. You will find more information about these methods below. For online shipping methods (like UPS and Fedex), the defined shipping methods will be ignored completely. Instead of using them and populating them with prices, an online computation method will send certain information (such as shipping address country, total order weight, etc.) to the server of the shipping provider, and will populate the shipping methods and prices with new options for shipment.
+With **Shipping Rate Computation Methods**, you determine the prices for the shipping methods you offer. The number of available **Shipping Rate Computation Methods** depends on the plugins active in your shop. You can manage the computation methods by navigating to **Configuration > Regional Settings > Shipping Rate Computation Methods**. There, you can activate or deactivate the computation methods by clicking the respective button. You can also adjust the display order of the shipping methods in the frontend of your shop via _Drag & Drop_. You might notice at this point that you have already defined a display order for shipping methods. The shipping rate computation methods create options and calculate shipping costs for all active shipping methods, making them available for selection by your customers in the frontend. Therefore, you should choose one of the offline computation methods. Offline computation methods are _Fixed Rate Shipping_, _Shipping by Weight_, and _Shipping by Total_. You will find more information on these methods below. For online computation methods (such as UPS and Fedex), the defined shipping methods are completely ignored. Instead of calculating shipping costs for them, online computation methods send information (such as the shipping address country, shipment weight, etc.) to the carrier's server and present the available returned shipping options for your customers to select.
 
-![](../../.gitbook/assets/shipping-rate-computation-methods.png)
+![](../../.gitbook/assets/fixed-rate-shipping.PNG)
 
-## Offline Computation Methods&#x20;
+## Offline Computation Methods
 
-|                     |                                                                   |
-| ------------------- | ----------------------------------------------------------------- |
-| Fixed Rate Shipping | Provides fixed rates for each of the defined shipping methods.    |
-| Shipping by Weight  | Calculates shipping costs based on the total weight of the order. |
-| Shipping by Total   | Calculates shipping costs based on the total amount of the order. |
+| | |
+| :--- | :--- |
+| Fixed Rate Shipping | Allows specifying a fixed price for each of the defined shipping methods. |
+| Shipping by Weight | Calculates shipping costs based on the weight of the shipment. |
+| Shipping by Total | Calculates shipping costs based on the total value of the order. |
 
-## Fixed Rate Shipping
+### Fixed Rate Shipping
 
-The fixed rate computation method is the simplest form of shipping calculation. You just define a fixed price for each of the shipping methods that are active in your shop. A usage scenario for this would be shipping that's restricted to one country, with the shipping costs staying the same regardless of weight and order total.
-
-![](../../.gitbook/assets/fixed-rate-shipping.png)
+The **Fixed Rate Shipping** computation method is the simplest variant of shipping cost calculation. You can set a fixed price for each active shipping method in your shop. A use case for this would be a shipping method restricted to one country where shipping costs remain the same regardless of weight and the total order value.
 
 ### Shipping by Weight
 
-The calculation method **Shipping by Weight** provides the means to base the calculation of shipment costs on the weight of the purchased items of an order.
+The **Shipping by Weight** computation method calculates shipping costs based on the total weight of the items ordered.
 
-![](../../.gitbook/assets/shipping-by-weight.png)
+| | |
+| :--- | :--- |
+| Store | Select a store for which this shipping condition should apply. If the asterisk is selected, the rate applies to all stores. |
+| Country | The destination country. Select asterisk * if the customer's country should not play a role in the evaluation. |
+| Zip (Range) | <p>Customer's zip code (range), either as specific values (comma separated) or as a pattern (e.g. 4000-4999 for zip area 4). Wildcards like asterisk * or question mark ? can also be used in a pattern. You can also specify multiple wildcards (comma separated). Leave the field empty if the fee should apply to all customers in the defined country/state regardless of zip code.<br><br><strong>Info</strong><br>Leading zeros in number range<br>NOTE: The lowest and highest value MUST have the same number of leading zeros ("0100-0999" works, whereas "0010-0999" does not).</p> |
+| Shipping Method | The shipping method to which this computation method should be applied. |
+| Order Weight From | The condition applies if the total weight of all items in the cart is at least this value. |
+| Order Weight To | The condition applies if the total weight of all items in the cart is less than this value. Leave the field empty if you do not want to set an upper limit. |
+| Use Percentage | Determines whether the shipping fee should be calculated as a percentage of the order value (NOT weight). |
+| Charge Amount | The shipping fee as an absolute amount OR calculation factor if the corresponding option has been activated. |
+| Small Quantity Surcharge | Determines the value of the small quantity surcharge. |
+| Lower Weight Limit | Value up to which a small quantity surcharge should be levied. The surcharge is ignored if no shipping costs are incurred. Use "0" if no surcharge should be levied. |
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Store                          | Select a store to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all stores.                                                                                                                                                                                                                                                                                                                                                   |
-| Country                        | Select a country to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all countries.                                                                                                                                                                                                                                                                                                                                              |
-| Zip-(Range)                    | <p>Zip/postal code (range), either as a specific value or range pattern (e.g. 4000-4999). You can also define wildcard characters such as * or ?. If zip is empty, then this shipping rate will apply to all customers from the given country or state/province, regardless of the zip code.<br><br>> [!INFO]<br>> ### Leading Zeros in Ranges<br>> NOTE: Both min and max part MUST have the same amount of leading zeroes ("0100-0999" is valid, whereas "0010-0999" is invalid)</p> |
-| Shipping Method                | The shipping method to which this record should be applied.                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Order Weight From              | Order weight from.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Order Weight To                | Order weight to.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Use Percentage                 | Check the box to use 'charge percentage' value.                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Charge Amount                  | Charge amount.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Surcharge For Small Quantities | Determines the value of the small quantity surcharge.                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| Threshold For Small Quantities | Subtotal up to which a "small quantity surcharge" should be added. The surcharge will be ignored if no shipping fee is applied. Use "0" if no fee will be charged.                                                                                                                                                                                                                                                                                                                     |
+| **Options** | **Description** |
+| :--- | :--- |
+| Multiply fee by weight | Determines whether the fee should be multiplied by the total item weight. This option is ignored if a percentage fee is charged. |
+| Limit to methods | The customer is offered free shipping as a fallback during checkout if none of the defined conditions apply. Activate this option if this is not desired. |
+| Consider weight of free shipping products | Determines whether the weight of products with free shipping should be considered in the calculation. |
 
-|                                           |                                                                                                                                                                                                                                                                                     |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Calculate Per Weight Unit                 | If you check this option, rates are multiplied per weight unit (lb, kg, etc). This option is used for fixed rates (without percentages).                                                                                                                                            |
-| Limit Shipping Methods To Configured Ones | If you check this option, your customers will be limited to the shipping options configured here. Otherwise, they'll be able to choose any existing shipping options even if they have not been configured here (zero shipping fee in this case). (**Recommended to be activated**) |
+## Shipping by Total
 
-### Shipping by Total
+The **Shipping by Total** computation method gives you the option to make the calculation of shipping costs dependent on the order total.
 
-The calculation method **Shipping by Total** provides the means to base the calculation of shipment costs on the amount of the order total.
+![](../../.gitbook/assets/shipping-by-weight.PNG)
 
-![](../../.gitbook/assets/shipping-by-total.png)
+| **Add new shipping condition** | **Description** |
+| :--- | :--- |
+| Store | If the asterisk is selected, the rate applies to all stores. |
+| Country | The destination country. Select asterisk * if the customer's country should not play a role in the evaluation. |
+| State / Province | Customer's state / region / province. Select asterisk * if the fee should apply to all customers in the defined country regardless of region. |
+| Zip (Range) | Customer's zip code (range), either as specific values (comma separated) or as a pattern (e.g. 4000-49999 for zip area 4). Wildcards like asterisk * or question mark ? can also be used in a pattern. You can also specify multiple wildcards (comma separated). Leave the field empty if the fee should apply to all customers in the defined country/state regardless of zip code. |
+| Shipping Method | The shipping method to which this computation method should be applied. |
+| Order Total From | The condition applies if the order total is at least this value. |
+| Order Total To | The condition applies if the order total in the cart is less than this value. Leave the field empty if you do not want to set an upper limit. |
+| Use Percentage | Determines whether the shipping fee should be calculated as a percentage of the order total. |
+| Charge Amount | The shipping fee as an absolute amount. |
 
-| Options for Shipping by Total Records | Description                                                                                                                                                                                                                                                                                |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Store                                 | Select a store to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all stores.                                                                                                                                                       |
-| Country                               | Select a country to which this record should be applied. If an asterisk is selected, then this shipping rate will apply to all countries .                                                                                                                                                 |
-| State / Province                      | If an asterisk is selected, this shipping rate will apply to all customers from the given country, regardless of the state/province.                                                                                                                                                       |
-| Zip-(Range)                           | Zip/postal code (range), either as a specific value or range pattern (e.g. 4000-4999). You can also define wildcard characters such as \* or ?. If zip is empty, then this shipping rate will apply to all customers from the given country or state/province, regardless of the zip code. |
-| Shipping Method                       | The shipping method to which this record should be applied.                                                                                                                                                                                                                                |
-| Order Total From                      | Order total from.                                                                                                                                                                                                                                                                          |
-| Order Total To                        | Order total to.                                                                                                                                                                                                                                                                            |
-| Use Percentage                        | Check to use 'charge percentage' value.                                                                                                                                                                                                                                                    |
-| Charge                                | Charge amount.                                                                                                                                                                                                                                                                             |
+| **Options** | **Description** |
+| :--- | :--- |
+| Lower limit to order value | Order value up to which a small quantity surcharge should be levied. The surcharge is ignored if no shipping costs are incurred. Use "0" if no surcharge should be levied. |
+| Small quantity surcharge | Small quantity surcharge. |
+| Limit to methods | The customer is offered free shipping as a fallback during checkout if none of the defined conditions apply. Activate this option if this is not desired. |
 
-| Global Options for Shipping by Total      | Description                                                                                                                                                                                                                                                                  |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Threshold For Small Quantities            | Subtotal up to which a "small quantity surcharge" should be added. The surcharge will be ignored if no shipping fee is applied. Use "0" if no fee will be charged.                                                                                                           |
-| Surcharge For Small Quantities            | Surcharge for small quantities.                                                                                                                                                                                                                                              |
-| Limit Shipping Methods To Configured Ones | If you check this option, your customers will be limited to shipping options configured here. Otherwise, they'll be able to choose any existing shipping options even they have not been configured here (zero shipping fee in this case). (**Recommended to be activated**) |
+## Further Information
 
-## More Information
+Please also read the topic [Shipping Settings](einstellungen/versand-einstellungen.md).
 
-Please also read the topic [Shipping Settings](general-settings-preferences/shipping-settings.md).&#x20;
+Shipping costs can be deactivated for individual customer roles. If you want to learn more about this possibility, please read [Manage Customer Roles](../kunden/kundengruppen-verwalten.md).
 
-Shipping costs can be deactivated for customer groups. To read more about this option, please read the topic [Managing Customer Roles](../customers/managing-customer-roles.md).
+Additional shipping costs that can be defined at the product level are added to the shipping costs you have set in the computation methods. More information on this setting can be found under [Create and Edit Products](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
 
-Additional shipping costs that have been defined on the product level will be added to the shipping charge you've defined within the computation methods. More Information about this setting can be found in the topic [Creating and Editing Products](../catalog/managing-products/creating-and-editing-products.md).
-
-For a product that's configured to be free of shipping costs, the rates explained above will be ignored as long as no products without this option are in the shopping cart of the order. More Information about this setting can be found in the topic [Creating and Editing Products](../catalog/managing-products/creating-and-editing-products.md).
+For a product for which free shipping has been set up, the rates mentioned above are ignored as long as no product without this option is in the order cart. More information on this setting can be found under [Create and Edit Products](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).

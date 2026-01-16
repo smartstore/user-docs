@@ -23,6 +23,7 @@ Klicken Sie auf **Neu**, um ein neues Importprofil zu erstellen. Auf der folgend
 Klicken Sie auf den Namen des Importprofils, um es zu bearbeiten.
 
 ![](../../../.gitbook/assets/importprofile_verwalten_2.png)
+![](../../../.gitbook/assets/importprofile_verwalten_3.png)
 
 Datenimporte können automatisch jederzeit über [Geplante Aufgaben](../../system-wartung/geplante-aufgaben-verwalten.md) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf  **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
 

@@ -2,26 +2,24 @@
 
 In the section **Catalog Settings**, you can edit global settings relating to the representation of your catalog. There won't be an explanation for every setting, as some of them are self-explanatory. If the setting you are looking for isn't documented, hover over the space between the title and input field of the setting. A question mark will appear, containing a hint about the setting.
 
-![](<../../../.gitbook/assets/catalog settings4.jpg>)
+![](<../../../.gitbook/assets/catalog settings4.png>)
 
 ## General
 
-|                                               |                                                                                                                        |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Display Dimensions                            | Check the box to display dimensions. When enabled, the customer will see the dimensions of the product.                |
-| Show Discount Sign                            | Specifies whether a discount sign (“%”) should be displayed next to the final price when discounts have been applied.  |
-| Ignore Discounts (sitewide)                   | Check the box to ignore discounts (sitewide). This can significantly improve performance.                              |
-| Ignore Featured Products (sitewide)           | Check the box to ignore featured products (sitewide). This can significantly improve performance.                      |
-| 'Compare Products' Enabled                    | Check the box to allow customers to use the ‘Compare Products’ option in your store.                                   |
-| Include Short Description in Compare Products | Check the box to display the short description of products on the compare products page.                               |
-| Include Full Description in Compare Products  | Check the box to display the full description of products on the compare products page.                                |
-| Show Bestsellers on Home Page                 | Check the box to show bestsellers on the home page.                                                                    |
-| Number of Bestsellers on Home Page            | The number of bestsellers on the home page to be displayed when the ‘Show bestsellers on home page’ option is enabled. |
-| Truncate Long Texts                           | Option to truncate long texts and to show them in full length only when they are clicked on.                           |
+|  |  |
+| :--- | :--- |
+| Use small product box on homepage | Determines the size of product boxes on your shop's homepage. |
+| Hide default image on products | Specifies whether the default image should be hidden for products. The default image is displayed when no image is assigned to the product. |
+| Ignore recommended products | Disables the display of recommended products in the shop. This can improve performance. |
+| 'Compare Products' enabled | Activates the product comparison feature. |
+| Include short description in compare products | Specifies whether the short description should be displayed on the product comparison page. |
+| Include full description in compare products | Specifies whether the full product description should be included on the product comparison page. |
+| Show best sellers on home page | Displays best sellers on the homepage. |
+| Number of best sellers on home page | Sets the number of best sellers displayed on the homepage if the display of best sellers is activated. |
+| Truncate long texts | Option to truncate long texts and show them in full length only when clicked. |
 
 ## Product Lists
-
-|                                                            |                                                                                                |
+|                                                            |                                                                                               |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Include Products From Subcategories                        | Check the box if you want a category details page to include products from subcategories.      |
 | Include Featured Products In Normal Lists                  | Check the box if you want to include featured products in normal lists.                        |

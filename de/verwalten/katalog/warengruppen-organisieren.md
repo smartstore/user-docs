@@ -6,6 +6,8 @@ Um Ihre Warengruppen zu verwalten, navigieren Sie im Administrationsbereich von 
 
 Die Listenansicht bietet eine Filterfunktion, mit der Sie nach unterschiedlichen **Warengruppennamen** oder dem **Alias** filtern können. Außerdem haben Sie hier die Möglichkeit, Ihre Warengruppen in eine XML-Datei zu exportieren.
 
+![](<../../.gitbook/assets/listenansicht.png>)
+
 ## Baumansicht
 
 Die Reihenfolge der Warengruppen, die Sie in der Baumansicht sehen, wird auf die Warengruppenstruktur im Frontend Ihres Shops angewendet und bildet die Hauptnavigation, die Ihre Shop-Besucher nutzen, um Produkte in Ihrem Shop zu finden. Um Ihre Warengruppen umzuordnen, können Sie sie einfach per Drag & Drop auf die gewünschte Position ziehen.

@@ -1,26 +1,24 @@
 # Forum Settings
 
-![](<../../../.gitbook/assets/forum settings.jpg>)
+![](<../../../.gitbook/assets/forum settings.png>)
 
-|                                               |                                                                                                                                                                                                                |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Forums Enabled                                | Check the box to enable forums.                                                                                                                                                                                |
-| Relative Date And Time Formatting             | Check the box to enable the relative date and time formatting (e.g. 2 hours ago, a month ago).                                                                                                                 |
-| Show Customers Post Count                     | A value indicating whether to show customers the post count.                                                                                                                                                   |
-| Allow Guests To Create Posts                  | Check the box  if you want to allow guests to create posts.                                                                                                                                                    |
-| Allow Guests To Create Topics                 | Check the box  if you want to allow guests to create topics.                                                                                                                                                   |
-| Allow Customers To Edit Posts                 | A value indicating whether customers are allowed to edit posts they have created.                                                                                                                              |
-| Allow Customers To Delete Posts               | A value indicating whether customers are allowed to delete posts they have created.                                                                                                                            |
-| Allow Customers To Manage Forum Subscriptions | Check the box  if you want to allow customers to manage forum subscriptions                                                                                                                                    |
-| Topics Page Size                              | Set the page size for topics in forums e.g. '10' topics per page.                                                                                                                                              |
-| Posts Page Size                               | Set the page size for posts in topics e.g. '10' posts per page.                                                                                                                                                |
-| Search Results Page Size                      | Set the page size for search results e.g. '10' results per page.                                                                                                                                               |
-| Forum Editor                                  | <p>Forum editor type.<br><br>- <strong>BBCode Editor</strong><br>- <strong>Simple Textbox</strong><br><br><br>> [!INFO]<br>> ### WARNING<br>> Not recommended to be changed in the production environment!</p> |
-| Signature Enabled                             | Check the box   if you want customers to specify a signature. The signature will be displayed below each forum post.                                                                                           |
-| Allow Private Messages                        | Determines whether private messages are allowed.                                                                                                                                                               |
-| Show Alert For PM                             | Shows an alert for new **P**rivate **M**essages.                                                                                                                                                               |
-| Notify About Private Messages                 | Indicates whether a customer should be notified about new private messages.                                                                                                                                    |
-| Forum Feeds Enabled                           | Enables the RSS feed for each forum.                                                                                                                                                                           |
-| Forum Feed Count                              | The count of topics to be included n the forum feed.                                                                                                                                                           |
-| Active Discussions Feed Enabled               | Enables the RSS feed for active discussion topics.                                                                                                                                                             |
-| Active Discussions Feed Count                 | The count of topics to be included in the active discussion feed.                                                                                                                                              |
+| Input field | Explanation |
+| :--- | :--- |
+| Forums enabled | Check the box to enable forums. |
+| Signature enabled | Users can specify a signature. The signature will be displayed below each forum post. |
+| Relative date and time formatting | Check the box to enable relative date and time formatting (e.g. 2 hours ago, a month ago). |
+| Show customers post count | A value indicating whether to show customers the post count. |
+| Forum editor | Forum editor type.<br><br>- **BBCode Editor**<br>- **Simple Textbox**<br><br>**WARNING:** Not recommended to be changed in the production environment! |
+| Only moderators and administrators can create posts | Specifies if only moderators and administrators are allowed to create posts. |
+| Allow guests to create topics | Check the box if you want to allow guests to create topics. |
+| Allow customers to edit posts | A value indicating whether customers are allowed to edit posts they have created. |
+| Allow customers to delete posts | A value indicating whether customers are allowed to delete posts they have created. |
+| Allow customers to manage forum subscriptions | Check the box if you want to allow customers to manage forum subscriptions. |
+| Allow customers to vote on posts | Determines whether customers are allowed to vote on forum posts. |
+| Allow guests to vote on posts | Determines whether guests are allowed to vote on forum posts. |
+| Allow sorting | Enables sorting options for forum topics. |
+| Topics page size | Set the page size for topics in forums e.g. '10' topics per page. |
+| Posts page size | Set the page size for posts in topics e.g. '10' posts per page. |
+| Search results page size | Set the page size for search results e.g. '10' results per page. |
+| Forum feeds enabled | Enables the RSS feed for each forum. |
+| Allow private messages | Determines whether private messages are allowed. |
