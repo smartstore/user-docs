@@ -15,7 +15,7 @@ Neben den Aufgaben, die Teil des Anwendungskerns sind, können Plugins von Dritt
 
 Geplante Aufgaben können eingesehen und verwaltet werden, indem Sie auf **System -> Geplante Aufgaben** gehen.
 
-![](../../.gitbook/assets/geplante-aufgaben.PNG)
+![](../../.gitbook/assets/geplante-aufgaben-2.PNG)
 
 Alle Aufgaben werden mit Informationen mit folgenden Überschriften angezeigt:
 
@@ -33,7 +33,7 @@ Um eine Aufgabe manuell auszuführen, gehen Sie zu **Geplante Aufgaben**, und w�
 
 Um eine geplante Aufgabe zu bearbeiten, wechseln Sie in die Ansicht _Aufgabe bearbeiten_, indem Sie **Bearbeiten** unter Aktionen auswählen.
 
-![](../../.gitbook/assets/geplante-aufgaben-2.PNG)
+![](../../.gitbook/assets/geplante-aufgaben.PNG)
 
 | Feld                    | Beschreibung                                                                                                                                                                       |
 | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
