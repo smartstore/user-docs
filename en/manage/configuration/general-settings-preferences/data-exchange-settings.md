@@ -1,6 +1,6 @@
 # Data exchange Settings
 
-![](../../../.gitbook/assets/data-exchange.PNG)
+![](../../../.gitbook/assets/data-exchange.png)
 
 | Input field | Explanation |
 | :--- | :--- |
