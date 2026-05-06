@@ -38,8 +38,8 @@ Missing screenshot
 
 | **Option** | **Description** | **Example** |
 | :--- | :--- | :--- |
-| Manufacturer details | <p>- Manufacturer or brand name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>EA Sports Deutschland GmbH<br><br>EA Sports Deutschland GmbH<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: <a href="mailto:info@ea-sports.de">info@ea-sports.de</a><br>Website: <a href="http://www.ea-sports.de">http://www.ea-sports.de</a></p> |
-| Responsible Person | <p>- Only if there is no branch within the EU<br>- Name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>Dr. Julia Meyer<br><br>EA Sports Deutschland GmbH<br>Legal & Compliance Dept.<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: <a href="mailto:julia.meyer@ea-sports.de">julia.meyer@ea-sports.de</a><br>Website: <a href="http://www.ea-sports.de/leitung">www.ea-sports.de/leitung</a></p> |
+| Manufacturer details | <p>- Manufacturer or brand name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>TEA Sports Deutschland GmbH<br><br>TEA Sports Deutschland GmbH<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: info@tea-sports.de</p> |
+| Responsible Person | <p>- Only if there is no branch within the EU<br>- Name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>Dr. Julia Meyer<br><br>TEA Sports Deutschland GmbH<br>Legal & Compliance Dept.<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: julia.meyer@tea-sports.de</p> |
 
 For all products assigned to the manufacturer, the stored data is automatically displayed in the product details.
 
