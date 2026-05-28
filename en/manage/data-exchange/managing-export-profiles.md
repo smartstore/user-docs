@@ -35,6 +35,16 @@ In this tab you can enter the name of the profile and whether it is enabled. Dis
 
 Data exports can run automatically via scheduled tasks at any time. Therefore a scheduled task is assigned to each export profile when it is created. This task is always unplanned by default, in other words the profile will not automatically execute. Click **Execution** to get a link to the related task and to change the scheduling settings. For more information about scheduled tasks read the topic [Managing Scheduled Tasks](../system-maintenance/managing-scheduled-tasks.md).
 
+### Export associated data
+
+If the **Export associated data** option is selected in the export profile, the CSV export of product data will also include associated data. This includes tier prices, attribute options and variant combinations. The primary purpose of this feature is to update prices in the store by first exporting and then importing the data.
+
+The associated data is exported to separate CSV files. Clicking on the number in the **Export files** column of the export profiles list will display the files in the dialog box that opens, where they can be downloaded and edited.
+
+{% hint style="info" %}
+All the file names end with the technical data names **TierPrice**, **ProductVariantAttributeValue** or **ProductVariantAttributeCombination**. According to the naming convention, these names must not be changed, since the product import uses them to identify the type of data in the file.
+{% endhint %}
+
 ### Partition Tab
 
 In this tab you can define the partitioning of the data.
