@@ -33,7 +33,7 @@ In this tab, you enter general information about the product. There won't be an 
 | Downloadable Product                           | Check the box if this product is downloadable. When a customer purchases a downloadable product, they can download the item directly from your store by viewing their completed order. For more information about downloadable products, read the topic [Handling Digital Products (ESD)](handling-digital-products-esd.md).                                                                                                                                                                         |
 | Recurring Product                              | Check the box if this product is a recurring product. For more information about recurring products, read the topic [Understanding Recurring Products](understanding-recurring-products.md).                                                                                                                                                                                                                                                                                                         |
 | Cycle Length                                   | Enter cycle length. Together with the field **Cycle Period** the **Cycle Length** determines the period of time after which the product recurs.                                                                                                                                                                                                                                                                                                                                                      |
-| Cycle Period                                   | Select cycle period. Together with the field **Cycle Length** the **Cycle Period**   determines the period of time after which the product recurs.                                                                                                                                                                                                                                                                                                                                                   |
+| Cycle Period                                   | Select cycle period. Together with the field **Cycle Length** the **Cycle Period** determines the period of time after which the product recurs.                                                                                                                                                                                                                                                                                                                                                     |
 | Total Cycles                                   | Enter total cycles. Determines the number of cycles after which the product no longer recurs.                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Shipping Enabled                               | Determines whether the product will be shipped.                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Free Shipping                                  | Check the box if this product comes with free shipping.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -51,14 +51,14 @@ In this tab, you configure the tracking mode for this product and its details. F
 ### Price Tab
 
 In this tab, you enter and configure the prices and the price display for this product. For more information about configuring prices, read the topic [Understanding Pricing Rules](understanding-pricing-rules.md).\
-In addition, product discounts can also be assigned under the Price tab. Keep in mind that only discounts of the **Discount Type**  _Assigned to Products_ can be managed here. For more information about discounts, read the topic [Managing Discounts](../../marketing-promotions/managing-discounts.md).
+In addition, product discounts can also be assigned under the Price tab. Keep in mind that only discounts of the **Discount Type** _Assigned to Products_ can be managed here. For more information about discounts, read the topic [Managing Discounts](../../marketing-promotions/managing-discounts.md).
 
 ### Pictures Tab
 
 In this tab, you can upload the pictures to be displayed for this product. The **product main** image is displayed in product lists wherever thumbnails of products appear, such as the overview for the product category or the product list in the shopping cart. All of the other pictures you add will be displayed in the thumbstrip beneath the default image, as well as in the gallery of the product details view in the frontend of your shop, according to the **Display Order** you've configured. For more information about the picture upload control, read the topic [Uploading Pictures](../../../discover/common-concepts/uploading-pictures.md).
 
 {% hint style="info" %}
-#### Use exempted graphics
+**Use exempted graphics**
 
 Exempted graphics look a lot better in the product gallery.
 {% endhint %}
@@ -75,11 +75,11 @@ In this tab, you can assign manufacturers to the product. You can assign an infi
 
 ### Promotion Tab
 
-In this tab, you can handle the promotion issues for this product. You can add **Related Products** which are displayed at the bottom of the product details view in the frontend of your shop or **Cross-Sell Products** which are shown in the checkout process. When you click on **Add New Related Product** or **Add New Cross-Sell Product**, the product chooser will open to let you choose the products you want to add. For more information about the product chooser, read the topic [The Data Grid](../../../discover/common-concepts/the-data-grid.md).&#x20;
+In this tab, you can handle the promotion issues for this product. You can add **Related Products** which are displayed at the bottom of the product details view in the frontend of your shop or **Cross-Sell Products** which are shown in the checkout process. When you click on **Add New Related Product** or **Add New Cross-Sell Product**, the product chooser will open to let you choose the products you want to add. For more information about the product chooser, read the topic [The Data Grid](../../../discover/common-concepts/the-data-grid.md).
 
-#### Usage Scenario Related Products&#x20;
+#### Usage Scenario Related Products
 
-Imagine you sell electronic eq uipment, and some of your products are MP3 players. In this case, your customers may also be interested in buying earphones. Thus, you should consider placing the earphones on the details page of your MP3 players by adding earphones as **Related Products** to your MP3 players. If the MP3 Player is an Ipod, your customers may also be interested in buying an Itunes voucher.&#x20;
+Imagine you sell electronic eq uipment, and some of your products are MP3 players. In this case, your customers may also be interested in buying earphones. Thus, you should consider placing the earphones on the details page of your MP3 players by adding earphones as **Related Products** to your MP3 players. If the MP3 Player is an Ipod, your customers may also be interested in buying an Itunes voucher.
 
 #### Usage Scenario Cross-Sell Products
 
@@ -99,9 +99,9 @@ In this tab, you can enter specific SEO values for the product, e.g. **Meta titl
 
 ### Downloads tab
 
-In dieser Registerkarte können Sie downloadfähige Produkte wie z. B. Dateien (PDF, MP3) definieren und konfigurieren.&#x20;
+In dieser Registerkarte können Sie downloadfähige Produkte wie z. B. Dateien (PDF, MP3) definieren und konfigurieren.
 
-### Orders Tab&#x20;
+### Orders Tab
 
 This tab displays the orders in which the corresponding product was purchased.
 

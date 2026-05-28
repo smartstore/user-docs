@@ -4,7 +4,7 @@
 
 ## Usage Scenario
 
-Imagine you run a business where you sell age-restricted products and your customers have to confirm they are over 18 by sending you a copy of their identification card. After receiving their ID,  you would assign them to a customer role which is configured to have access to the categories with age-restricted products. This way you can ensure that shop visitors cannot access these items until they have confirmed to be over 18.
+Imagine you run a business where you sell age-restricted products and your customers have to confirm they are over 18 by sending you a copy of their identification card. After receiving their ID, you would assign them to a customer role which is configured to have access to the categories with age-restricted products. This way you can ensure that shop visitors cannot access these items until they have confirmed to be over 18.
 
 ## How to configure ACL
 
@@ -13,7 +13,7 @@ You can add categories and products to ACL and define which specific roles can a
 ![](../../.gitbook/assets/smartstore-acl-en.png)
 
 {% hint style="info" %}
-#### Transfer ACL configuration to children of a category
+**Transfer ACL configuration to children of a category**
 
-With this function you can assign the ACL configuration of a category to all subcategories and products included in the category. Please keep in mind you have to save changes in the ACL configuration  before you can assign them to all subcategories and products. **Attention:**  Please keep in mind that  **existing ACL records will be deleted.**
+With this function you can assign the ACL configuration of a category to all subcategories and products included in the category. Please keep in mind you have to save changes in the ACL configuration before you can assign them to all subcategories and products. **Attention:** Please keep in mind that **existing ACL records will be deleted.**
 {% endhint %}

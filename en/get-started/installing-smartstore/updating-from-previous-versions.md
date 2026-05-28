@@ -20,11 +20,11 @@ You can view the current store version in the admin area under "System -> System
 With each new release, there are two versions of Smartstore: the source code version, which is more suitable for developers to edit and "self-compile", and several "ready-compiled" versions, which has already been prepared and posted and can be used immediately by you as a store administrator.\
 As of Smartstore 5, other operating systems are supported in addition to Windows.\
 Now select the version suitable for your hosting operating system (usually Windows or Linux) and server architecture (32 bit or 64 bit, usually 64 bit).\
-If in doubt, ask your hoster which operating system and server architecture your hosting has. Download this smartstore version to your PC first.&#x20;
+If in doubt, ask your hoster which operating system and server architecture your hosting has. Download this smartstore version to your PC first.
 
 2\. Before you update your store, you should create backup copies of your database and file system, so that you can restore the state of your store if necessary, in case something goes wrong during the update. Especially important for a possible store restore is the database backup - don't forget it! Use the appropriate tools of your hosting provider for this purpose.
 
-3.1  **4.2 to 5.x update:** After you have created your backups, you should delete all directories / files of your store, with some important exceptions: the following directories / files **must not be deleted** under any circumstances:
+3.1 **4.2 to 5.x update:** After you have created your backups, you should delete all directories / files of your store, with some important exceptions: the following directories / files **must not be deleted** under any circumstances:
 
 * App\_Data/Tenants/Default/InstalledPlugins.txt
 * App\_Data/Tenants/Default/Settings.txt
@@ -32,7 +32,7 @@ If in doubt, ask your hoster which operating system and server architecture your
 * App\_Data/Tenants/Default/Media/Storage
 * App\_Data/Tenants/Default/Media/QueuedEmailAttachmentMedia (is not available in all stores)
 
-3.2  **5.x to 5.x update:** After you have created your backups, you should delete all directories / files of your store, with some important exceptions: the following directories / files **must not be deleted** under any circumstances:
+3.2 **5.x to 5.x update:** After you have created your backups, you should delete all directories / files of your store, with some important exceptions: the following directories / files **must not be deleted** under any circumstances:
 
 * App\_Data incl. subdirectories
 * wwwroot incl. subdirectories
@@ -46,7 +46,7 @@ That's it!\
 After the upload is complete, your store is also already updated and all new features are immediately available.
 
 {% hint style="warning" %}
-#### Trouble Shooting
+**Trouble Shooting**
 
 * You should document your own changes that you make to the source code in a suitable form so that you can undo your changes once the store has been updated.
 * Save all theme customizations or your own themes. If cshtml and scss files have also been changed or added, back them up as well.
@@ -54,11 +54,10 @@ After the upload is complete, your store is also already updated and all new fea
 * If you have installed third-party plugins that will not work after the update, you should disable them and contact the developer of the plugin. \{% endhint % }
 {% endhint %}
 
-
 {% hint style="info" %}
-#### Info
+**Info**
 
-  * The first page loads may take a little longer than you are used to.
-  * If you get a \`(HTTP) 500 Internal Server Error\` message during the first store call, reload the page. 
-  * Changes to the database are automatically applied by Smartstore. You do not need to run SQL scripts in your database administration. 
+* The first page loads may take a little longer than you are used to.
+* If you get a \`(HTTP) 500 Internal Server Error\` message during the first store call, reload the page.
+* Changes to the database are automatically applied by Smartstore. You do not need to run SQL scripts in your database administration.
 {% endhint %}

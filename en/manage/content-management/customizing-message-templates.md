@@ -1,4 +1,4 @@
-# Customize Message Templates
+# Customizing Message Templates
 
 If you run a store, there are several occasions when you need to inform your customers about a specific event. For example, when an order is placed, the customer needs to receive a confirmation, otherwise, they will wonder if the order was successful. The store operator must also be informed immediately. In the event of a placed order, Smartstore sends automatic emails: one to the customer as an order confirmation and another to the store operator to notify them of the new order. Other events where emails are sent include customer registrations, newsletter subscriptions, product recommendations, etc. The emails are created by message templates that you can adapt to your needs. You can edit these templates by going to **CMS > Message Templates**.
 
@@ -35,8 +35,7 @@ Liquid objects are always indicated by double curly braces. In the template edit
 When configuring your message template, you may want to add information about the current process for which the template is used to the message. For example, if you are working on the template that informs your customer that an order has been successfully received, you should definitely write the order number in the email. For this reason, there are placeholders. You can place available placeholders anywhere in your template; these are resolved before the email is sent. The placeholder for the order number looks like this: \{{ Order.OrderNumber\}}.
 
 {% hint style="info" %}
-#### Select placeholder
+**Select placeholder**
 
-To insert a placeholder in your template, you can place the cursor anywhere in the HTML editor and insert the desired placeholder as described below.
-At the desired position in the editor, type two opening curly braces followed immediately by a space and click on the selection **Order**. Then enter a dot and click on the option **OrderNumber** in the selection. Finally, save the changes. ![](../../.gitbook/assets/platzhalter-1.PNG) ![](../../.gitbook/assets/platzhalter-2.PNG) ![](../../.gitbook/assets/platzhalter-3.PNG)
+To insert a placeholder in your template, you can place the cursor anywhere in the HTML editor and insert the desired placeholder as described below. At the desired position in the editor, type two opening curly braces followed immediately by a space and click on the selection **Order**. Then enter a dot and click on the option **OrderNumber** in the selection. Finally, save the changes.  &#x20;
 {% endhint %}

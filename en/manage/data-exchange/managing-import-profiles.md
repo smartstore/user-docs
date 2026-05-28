@@ -14,7 +14,7 @@ To manage import profiles, go to **Configuration > Import**.
 
 ![](../../.gitbook/assets/import-profiles.png)
 
-You can directly execute the scheduled task that is configured by a profile by **Run Now** in the profile list and watch  the progress of the import. **Activity Log** opens the log file for the last import. It contains important information (like errors) about the last execution of the profile.
+You can directly execute the scheduled task that is configured by a profile by **Run Now** in the profile list and watch the progress of the import. **Activity Log** opens the log file for the last import. It contains important information (like errors) about the last execution of the profile.
 
 ## Creating and Editing Import Profiles
 
@@ -56,8 +56,16 @@ You can optionally set for each field of the import file whether and for which o
 
 ![](../../.gitbook/assets/import-profile-column-mappi.png)
 
-&#x20;
-
 {% hint style="info" %}
 By changing the data delimiter, stored assignments becomes invalid and reset.
+{% endhint %}
+
+### Import associated data
+
+If the **Import associated data** option is selected in the import profile, importing product data in CSV format will also import the associated data for tier prices, attribute options and variant combinations. To achieve this, upload the CSV files containing the previously exported associated data in the import profile.
+
+<figure><img src="../../.gitbook/assets/import-en.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+According to the naming convention, the file name must end with one of the following technical data names: **TierPrice**, **ProductVariantAttributeValue** or **ProductVariantAttributeCombination**. This enables the product import to identify the type of data in the file.
 {% endhint %}

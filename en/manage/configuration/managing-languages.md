@@ -24,7 +24,7 @@ To add another language, navigate to **Configuration > Regional Settings > Langu
 After you've created the desired language, you need to add the resources for this language by clicking on **Import Resources,** where you can choose an XML-file to import. You can find the resource xml file for English and German in the directory /_App\_Data/Localization/App._
 
 {% hint style="info" %}
-#### Smartstore translation portal with numerous additional languages
+**Smartstore translation portal with numerous additional languages**
 
 For additional languages for the current and older Smartstore versions, please visit the Smartstore translation portal.\
 To learn how to download the languages, please refer to the article “[Working with multiple languages](../../discover/common-concepts/working-with-multiple-languages.md).”
@@ -32,7 +32,7 @@ To learn how to download the languages, please refer to the article “[Working 
 
 ## How to Add or Edit a Single Resource
 
-Sometimes, you may want to alter a single resource. Let's say you want to amend the link to the forum in the header menu from _Forums_ to _Message Boards_. To do so, navigate to **Configuration > Regional Settings > Languages** and click on **View String Resources.** You will see a grid showing all the resources added for this language. Filter the entries to find the resource you are looking for. You can either filter by text value or by the resource name used for internal identification. Since you know the text you want to alter, click on the filter icon of the column **Value**, choose **is equal to** and enter the value _Forums._ At this point, a list of several resources matching the filter criteria will be displayed. One of them has the prefix _admin,_ indicating that it belongs to the administration area, and the other contains the word _pagetitle,_ indicating that it is a page title - neither of these are the resource you're looking for. The resource to be edited is the one named _forum.forums._&#x20;
+Sometimes, you may want to alter a single resource. Let's say you want to amend the link to the forum in the header menu from _Forums_ to _Message Boards_. To do so, navigate to **Configuration > Regional Settings > Languages** and click on **View String Resources.** You will see a grid showing all the resources added for this language. Filter the entries to find the resource you are looking for. You can either filter by text value or by the resource name used for internal identification. Since you know the text you want to alter, click on the filter icon of the column **Value**, choose **is equal to** and enter the value _Forums._ At this point, a list of several resources matching the filter criteria will be displayed. One of them has the prefix _admin,_ indicating that it belongs to the administration area, and the other contains the word _pagetitle,_ indicating that it is a page title - neither of these are the resource you're looking for. The resource to be edited is the one named _forum.forums._
 
 ![managing\_languages\_how\_to\_add\_a\_language\_view\_String\_ressources.png](../../.gitbook/assets/managing_languages_how_to_add_a_language_view_String_ressources.png)
 

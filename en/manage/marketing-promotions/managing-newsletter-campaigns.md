@@ -1,4 +1,4 @@
-# Manage Newsletter Campaigns
+# Managing Newsletter Campaigns
 
 Marketing is a crucial topic for shop operators. Therefore, every shop operator places a special focus on acquiring new customers through search engine optimization and other forms of online marketing. Newsletter marketing is a significant form of online marketing, as it allows you to leverage the potential of your existing customer base. If customers have had a good experience shopping in your store, they are more likely to purchase from you again. Therefore, you should remind your customers every now and then that you still offer an interesting product selection and inform them about special discounts or new products.
 
@@ -10,7 +10,7 @@ Use the setting **Configuration > Settings > Customer Settings > Hide newsletter
 
 You can manage your campaigns by navigating to **Admin > Marketing > Campaigns**. To create a new campaign, click on **AddNew**. You can now specify a **Name** for the campaign for internal use, a **Subject** for the email to be created, and the text of the HTML **Body**, which represents the content of the email.
 
-![](<../../.gitbook/assets/manage_newsletter_2.png>)
+![](../../.gitbook/assets/manage_newsletter_2.png)
 
 ### Message Placeholders
 
@@ -18,23 +18,19 @@ Message placeholders (internally referred to as MessageTokens) are replaced at r
 
 The available placeholders are displayed as soon as you click on **+ Select placeholder**.
 
-
-
 Examples of possible message placeholders for newsletter campaigns are listed in the following table.
 
-| Token | Description |
-| :--- | :--- |
-| %Store.Name% | Name of the store for which the campaign is being sent. |
-| %Store.URL% | The URL of the store for which the campaign is being sent. |
-| %Store.Email% | The email address of the store for which the campaign is being sent. |
-| %NewsLetterSubscription.Email% | The email address of the customer to whom the campaign is sent. |
-| %NewsLetterSubscription.ActivationUrl% | The link used to activate the email address to receive newsletters from your shop. |
-| %NewsLetterSubscription.DeactivationUrl% | The link used to deactivate email addresses that should no longer receive newsletters from your shop. |
-| %Store.SupplierIdentification% | The Supplier Identification is an HTML table populated by various data you configured in the settings. It includes information about your company, such as the company name, company address, contact, and billing details. |
+| Token                                    | Description                                                                                                                                                                                                                 |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| %Store.Name%                             | Name of the store for which the campaign is being sent.                                                                                                                                                                     |
+| %Store.URL%                              | The URL of the store for which the campaign is being sent.                                                                                                                                                                  |
+| %Store.Email%                            | The email address of the store for which the campaign is being sent.                                                                                                                                                        |
+| %NewsLetterSubscription.Email%           | The email address of the customer to whom the campaign is sent.                                                                                                                                                             |
+| %NewsLetterSubscription.ActivationUrl%   | The link used to activate the email address to receive newsletters from your shop.                                                                                                                                          |
+| %NewsLetterSubscription.DeactivationUrl% | The link used to deactivate email addresses that should no longer receive newsletters from your shop.                                                                                                                       |
+| %Store.SupplierIdentification%           | The Supplier Identification is an HTML table populated by various data you configured in the settings. It includes information about your company, such as the company name, company address, contact, and billing details. |
 
 In the **Stores** tab, you can restrict the campaign to specific stores. Once you have saved the campaign, it can be sent to all your subscribers by clicking **Send Mass Email**. You can also send a test email by clicking **Preview**. A preview window will open where you can enter the recipient of the test newsletter in the **Test email to...** field. We **strongly** recommend sending a test email so you can preview your newsletter before sending it to thousands of your customers.
-
-![](../../.gitbook/assets/newsletter-vorschau.PNG)
 
 ## Manage Subscribers
 

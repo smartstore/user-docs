@@ -1,6 +1,6 @@
 # Performing Common Maintenance Tasks
 
-You reach the maintenance section by navigating to **System > Maintenance**. In this section, you can optimize the performance of your shop by clearing the image cache, deleting guest customers or deleting old exported files. You can also run SQL scripts directly against the database.&#x20;
+You reach the maintenance section by navigating to **System > Maintenance**. In this section, you can optimize the performance of your shop by clearing the image cache, deleting guest customers or deleting old exported files. You can also run SQL scripts directly against the database.
 
 ## Clear Image Cache
 
@@ -12,14 +12,14 @@ In this section, you can delete guest customers. Your shop automatically creates
 
 ## Deleting Old Exported Files
 
-When you create feeds to be consumed by price comparison portals or search engines, they will be stored on your webspace. If you choose not to be listed in these portals anymore, you may want to delete the corresponding files on your web server. You don't need to search for them directly on your web server. Just choose a period for which you want to delete the exported files and click on **Delete**.&#x20;
+When you create feeds to be consumed by price comparison portals or search engines, they will be stored on your webspace. If you choose not to be listed in these portals anymore, you may want to delete the corresponding files on your web server. You don't need to search for them directly on your web server. Just choose a period for which you want to delete the exported files and click on **Delete**.
 
 ## Execute SQL Query Directly On Database
 
 Sometimes you may want to execute SQL scripts directly against the database. To do so, paste the script into the designated text area and **Execute** the script directly.
 
 {% hint style="info" %}
-#### Attention
+**Attention**
 
 Be very careful with this function! You could destroy the structure of your database.
 {% endhint %}

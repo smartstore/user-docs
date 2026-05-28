@@ -17,7 +17,7 @@ To add another language, navigate to **Configuration > Regional Settings > Langu
 After you've created the desired language, you need to add the resources for this language by clicking on **Import Resources,** where you can choose an XML-file to import. You can find the resource xml file for English and German in the directory /_App\_Data/Localization/App._
 
 {% hint style="info" %}
-#### For More Languages Visit Our Marketplace
+**For More Languages Visit Our Marketplace**
 
 If you want to offer a product catalog in your local language and don't want to translate every textual resource yourself, take a look at the [SmartStore Community Marketplace](http://community.smartstore.com/index.php?/files/category/24-language-packs/) to check if the language is already available for download.
 {% endhint %}
@@ -26,7 +26,7 @@ If you want to offer a product catalog in your local language and don't want to 
 
 Sometimes it happens that you want to change a single resource. For example, you might want to change the title for the forum from Forums to Community. You can do this by going to Configuration > Regional Settings > Languages and clicking Edit Resources.
 
-There you will see a table showing all added resources for that language. Filter the entries to find the resource you are looking for. You can filter either by value or resource name. Since you know the text you want to change, click the filter icon and type =forums in the Resource Value cell. Under the tool tip "?" you will see more search operators. You will now be shown a list of different resources that match the filter criteria. One of them has the prefix admin, which indicates that it belongs to the Administration section, this resource is not relevant for you. In this case, the resource you want to edit is called _Forum.PageTitle.Default_. You can change the desired value using the 3-dot button.&#x20;
+There you will see a table showing all added resources for that language. Filter the entries to find the resource you are looking for. You can filter either by value or resource name. Since you know the text you want to change, click the filter icon and type =forums in the Resource Value cell. Under the tool tip "?" you will see more search operators. You will now be shown a list of different resources that match the filter criteria. One of them has the prefix admin, which indicates that it belongs to the Administration section, this resource is not relevant for you. In this case, the resource you want to edit is called _Forum.PageTitle.Default_. You can change the desired value using the 3-dot button.
 
 ![](<../../.gitbook/assets/2022-09-14 11_09_21-Localization _ Smartstore administration.png>)
 
@@ -38,7 +38,7 @@ There are numerous entities in Smartstore where you can enter data to be display
 
 ## Language Chooser
 
-When you've configured multiple languages, your users can choose one of them in the header section of your frontend.&#x20;
+When you've configured multiple languages, your users can choose one of them in the header section of your frontend.
 
 ![working\_with\_multiple\_languages\_language\_chosser.png](../../.gitbook/assets/working_with_multiple_languages_language_chosser.png)
 
