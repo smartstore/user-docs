@@ -7,12 +7,15 @@ icon: comments-question-check
 ## Docker
 
 <details>
+
 <summary>Kann ich im Docker-Container etwas ändern oder hinzufügen, z. B. ein Plugin?</summary>
 
 **Ja**, das können Sie. Wir empfehlen aber, ein modifiziertes Image zu erstellen.
+
 </details>
 
 <details>
+
 <summary>Wie kopiert man Dateien und Ordner vom Host in den Docker-Container?</summary>
 
 Der Befehl zum Kopieren von Dateien oder Ordner in einen Container lautet:
@@ -27,9 +30,11 @@ Kopieren des Plug-in-Ordners `My.Module.DoesSomething` vom Host in den Modules-O
 {% hint style="info" %}
 `web` ist der Name des Containers.
 {% endhint %}
+
 </details>
 
 <details>
+
 <summary>Wie kopiert man Dateien und Ordner vom Docker-Container auf den Host?</summary>
 
 `docker cp <CONTAINER>:<SOURCE> <TARGET>`
@@ -39,9 +44,11 @@ Kopieren des Plug-in-Ordners `My.Module.DoesSomething` vom Host in den Modules-O
 Kopieren des Inhalts des Plug-in-Ordners `/app/Modules` aus dem Container mit dem Namen `web` in das Host-Verzeichnis `./Modules_From_Container` :
 
 `docker cp web:/app/Modules ./Modules_From_Container`
+
 </details>
 
 <details>
+
 <summary>Wie löscht man Dateien im Docker-Container?</summary>
 
 `docker exec <CONTAINER> rm -rf <YourFile>`
@@ -55,9 +62,11 @@ Die Datei `manifest.json` im Modules-Ordner `/My.Module.DoesSomething` löschen:
 Den Ordner `wwwroot` inm Modules-Folder `/My.Module.DoesSomething` löschen:
 
 `docker exec web rm -rf /app/Modules/My.Module.DoesSomething/wwwroot`
+
 </details>
 
 <details>
+
 <summary>Wie stelle ich eine Verbindung zu MySQL oder MS SQL her oder wie lautet der Hostname?</summary>
 
 Wenn [Smartstore und Datenbank zusammen als Docker-Container betreiben](../loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md) (per `docker compose`) gestartet wird, kann einfach der **Containername** oder der **Dienstname** als Hostname verwendet werden.
@@ -75,9 +84,11 @@ Der Befehl
 gibt unter anderem die folgenden Informationen zurück:
 
 ![](../.gitbook/assets/sGqmSILPU5.png)
+
 </details>
 
 <details>
+
 <summary>Kann ich auch einen externen (nicht Docker) MS SQL Server oder MySQL Server verwenden?</summary>
 
 **Ja**, geben Sie den Hostnamen des Datenbankservers in der richtigen Form an. Mögliche Beispiele sind z.B.:
@@ -91,9 +102,11 @@ Geben Sie die IP-Adresse an: `<IP>`
 Geben Sie die IP-Adresse und den Instanznamen an: `<IP>\<INSTANCENAME>`
 
 Geben Sie den Hostnamen und den Instanznamen an: `<HOSTNAME>\<INSTANCENAME>`
+
 </details>
 
 <details>
+
 <summary>Wo werden die Daten gespeichert?</summary>
 
 Die Daten müssen in **Volumes** gespeichert werden. Docker-Volumes speichern Containerdaten auf dem Host.
@@ -111,9 +124,11 @@ Hier ist ein Beispiel:
 {% hint style="info" %}
 Wenn nichts eingerichtet ist, werden die Daten in einer "Zwischenschicht" im Container gespeichert und gehen verloren, wenn der Container entfernt wird.
 {% endhint %}
+
 </details>
 
 <details>
+
 <summary>Kann ich auch mehrere Smartstore-Instanzen ausführen?</summary>
 
 **Ja**, aber bei der Ausführung müssen Sie die **Container-Ports** (443 und 80) mit noch nicht verwendeten Ports auf dem **Host** abbilden. Z.B. anstelle von 443 und 80, 444 und 8080, etc.
@@ -129,9 +144,11 @@ Abbildung des TCP-Ports 80 im Container auf Port 8080 auf dem Docker-Host:
 Hier ist der vollständige Befehlszeilenaufruf:
 
 `sudo docker run -p 8080:80 ghcr.io/smartstore/smartstore-linux`
+
 </details>
 
 <details>
+
 <summary>Wie erhalte ich die IP-Adresse des Docker-Containers?</summary>
 
 Unter Linux oder auf der Windows-Befehlszeile wird der Befehl
@@ -141,11 +158,13 @@ Unter Linux oder auf der Windows-Befehlszeile wird der Befehl
 unter anderem die folgenden Informationen zurück:
 
 ![](../.gitbook/assets/sGqmSILPU5.png)
+
 </details>
 
 ## Themes
 
 <details>
+
 <summary>Kann ich mein Theme von Version 4.2 auf Version 5 übertragen?</summary>
 
 **Ja**, kopieren Sie den 4.2-Themenordner in den 5-Themenordner.
@@ -153,31 +172,39 @@ unter anderem die folgenden Informationen zurück:
 Im 4.2-Theme-Ordner benennen Sie den Ordner "Content" in "wwwroot" um.
 
 Wahrscheinlich ist danach ein Neustart erforderlich. Danach können Sie das "neue" Theme im Backend aktivieren.
+
 </details>
 
 ## Updates
 
 <details>
+
 <summary>Kann ich von einer beliebigen Versionsnummer auf Smartstore 5 aktualisieren?</summary>
 
 **Nein**, für ein Update muss Smartstore zuerst auf Version 4.2 aktualisiert werden.
+
 </details>
 
 <details>
+
 <summary>Ist ein betriebssystemübergreifendes Update möglich?</summary>
 
 **Ja**, ein betriebssystemübergreifendes Update ist möglich. Ein Smartstore 4.2 mit einer MS SQL Datenbank von einem Windows Server oder Hosting kann auf einem Linux Server auf Smartstore 5 und MS SQL für Linux aktualisiert werden.
+
 </details>
 
 <details>
+
 <summary>Ist ein Datenbank-Cross-Update möglich? Das heißt, ein Update von Smartstore 4.2 und MS SQL auf Smartstore 5 und MySQL?</summary>
 
 **Nein**, dies ist nicht vorgesehen.
+
 </details>
 
 ## PDF Export
 
 <details>
+
 <summary>Fehler beim PDF-Export, so dass keine PDF-Datei erstellt wird.</summary>
 
 Das kann unter Umständen daran liegen, dass die Shop-URL nicht intern aufgerufen werden kann.
@@ -185,30 +212,34 @@ Das kann unter Umständen daran liegen, dass die Shop-URL nicht intern aufgerufe
 Öffnen Sie die appsettings.json-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “PdfEngineBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"PdfEngineBaseUrl": "http://localhost:5000/"`.
+
 </details>
 
 ## Task Scheduler
 
 <details>
+
 <summary>Der Task Scheduler wird nicht ausgeführt und die Ereignisanzeige enthält eine Fehlermeldung wie "Error while calling Taskscheduler endpoint [...]". HTTP 404, NOT FOUND.</summary>
 
 Öffnen Sie die appsettings.json-Datei im Hauptordner von Ihrer Smartstore-Installation und suchen Sie nach dem Wort “TaskSchedulerBaseUrl” und geben Sie dort die URL zu Ihrer Smartstore-Installation an.
 
 Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort die lokal erreichbare URL inkl. Port an, z.B. `"TaskSchedulerBaseUrl": "http://localhost:5000/"`.
+
 </details>
 
 ## Timeouts (Zeitlimits)
 
 <details>
+
 <summary>Wie ändere ich das Zeitlimit für den Start einer ASP.NET Core-Anwendung wie Smartstore?</summary>
 
 Das Ändern des Wertes für startupTimeLimit in einer ASP.NET Core-Anwendung kann in bestimmten Situationen nützlich sein, um sicherzustellen, dass die Anwendung erfolgreich gestartet wird. Hier sind einige Szenarien, in denen der Wert für startupTimeLimit angepasst werden kann:
 
-#### Hochsetzen des Werts:
+**Hochsetzen des Werts:**
 
 **Lange Initialisierungszeit**: Wenn die ASP.NET Core-Anwendung viel Zeit für die Initialisierung benötigt, z. B. wenn umfangreiche Vorbereitungen wie Datenbankverbindungen, Caching oder andere Dienste durchgeführt werden müssen, kann startupTimeLimit erhöht werden, um sicherzustellen, dass die Anwendung genügend Zeit hat, um erfolgreich zu starten.
 
-#### Runtersetzen des Werts:
+**Runtersetzen des Werts:**
 
 **Schnelle Bereitstellung:** Wenn Sie sicher sind, dass Ihre ASP.NET Core Anwendung normalerweise schnell startet und Sie eine schnellere Rückmeldung wünschen, ob der Start erfolgreich war oder nicht, können Sie das startupTimeLimit verringern. Dadurch wird die Wartezeit verkürzt, bevor eine Fehlermeldung angezeigt wird, wenn der Startvorgang zu lange dauert.
 
@@ -236,3 +267,5 @@ Konfiguration mit **Linux** als Hosting-Server - Eintrag in der Datei **appsetti
   // Weitere Einstellungen für die Anwendung
 }
 ```
+
+</details>

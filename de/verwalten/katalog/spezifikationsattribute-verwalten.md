@@ -29,7 +29,7 @@ Sie könnten die oben aufgeführten Informationen in einer langen Produktbeschre
 Sie können neue Spezifikationsattribute hinzufügen, indem Sie zu **Katalog > Spezifikations Attribute**. navigieren. Die Attribute, die Sie hinzufügen, sind systemweit in Ihrem Shop verfügbar und können **jedem** Produkt in der Produktdetailansicht in der Registerkarte Spezifikationsattribute verliehen werden. Wenn Sie Spezifikationsattribute erstellen, können Sie den **Anzeigenamen** für jede Sprache, die Sie in Ihrem Shop angelegt haben, festlegen. Gleiches gilt für die Anzeigereihenfolge, der Attribute im Frontend. Sobald Sie ein Spezifikationsattribut erstellt haben, können Sie die Optionen hinzufügen, die verfügbar werden, wenn man die Spezifikation eines Produkts konfiguriert. Gehen Sie dafür auf die Registerkarte **Optionen** und klicken Sie auf **Option hinzufügen**. Hier können Sie lokalisierte **Optionsnamen** und **Reihenfolge** festlegen.
 
 {% hint style="info" %}
-#### Tip
+**Tip**
 
 Wenn Sie mehrere Werte auf einmal hinzufügen möchten, trennen Sie diese durch ein Semikolon und klicken Sie auf das Kästchen **Mehrere, durch Semikolon (;) getrennte Optionsnamen eingeben**. Wenn Sie Ihre Optionen speichern, wird eine Option für jeden durch Semikolon getrennten Wert erstellt.
 {% endhint %}
@@ -50,9 +50,9 @@ Nachdem Sie die Spezifikationsattribute eingerichtet haben, können Sie diese Ih
 
 Klicken Sie auf **Speichern** , um die Verknüpfung in der Datenbank zu speichern. Um mit einer weiteren Verknüpfung fortzufahren, ändern Sie einfach den Wert im Feld und klicken den Button erneut.
 
-### Mehrfache Wert-Zuweisung&#x20;
+### Mehrfache Wert-Zuweisung
 
-Wenn Sie sich in der Bearbeitungsansicht eines Spezifikationsattribut befinden **Katalog > Spezifikations Attribute >** _**Attribute**_ _, können &#x53;_&#x69;e die Werte dieses Attributs mit nur einem Klick für alle Produkte bearbeiten denen dieses Attribut zugewiesen ist. So müssen Sie nicht jedes Produkt einzeln öffnen, verändern und abspeichern, wenn Sie beschließen das Attribut global anders zu konfigurieren.&#x20;
+Wenn Sie sich in der Bearbeitungsansicht eines Spezifikationsattribut befinden **Katalog > Spezifikations Attribute >** _**Attribute**_ _, können &#x53;_&#x69;e die Werte dieses Attributs mit nur einem Klick für alle Produkte bearbeiten denen dieses Attribut zugewiesen ist. So müssen Sie nicht jedes Produkt einzeln öffnen, verändern und abspeichern, wenn Sie beschließen das Attribut global anders zu konfigurieren.
 
 | **Mehrfache Wert-Zuweisung**                 | **Beschreibung**                                                                                                                                                                                                                                                                      |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

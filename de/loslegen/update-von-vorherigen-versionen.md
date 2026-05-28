@@ -42,7 +42,7 @@ Sollten externe Inhalte (Dateien/Verzeichnisse) in den Shop eingebunden worden s
 Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\\
 
 {% hint style="warning" %}
-#### Trouble Shooting
+**Trouble Shooting**
 
 * Sie sollten eigene Änderungen, die Sie am Source Code vornehmen, in geeigneter Form dokumentieren, so dass Sie Ihre Änderungen rückgängig machen können, sobald der Shop aktualisiert wurde.
 * Alle Theme-Anpassungen bzw. eigene Themes sichern. Sollten auch cshtml- und scss-Dateien geändert oder hinzugefügt worden sein, diese ebenfalls sichern.
@@ -51,7 +51,7 @@ Evtl. muss vorher der AppPool im IIS für den Kopiervorgang gestoppt werden.\\
 {% endhint %}
 
 {% hint style="info" %}
-#### Info
+**Info**
 
 * Die ersten Seitenaufrufe könnten etwas länger dauern, als Sie es gewohnt sind.
 * Sollte es beim ersten Shop-Aufruf zu einer (HTTP) `500 Internal Server Error` Fehlermeldung kommen, die Seite erneut laden.

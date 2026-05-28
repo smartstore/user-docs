@@ -33,9 +33,9 @@ In dieser Registerkarte können Sie grundlegende Informationen zu dem Produkt ei
 | Ist Geschenkgutschein                               | Legt fest, ob das Produkt ein Geschenkgutschein ist.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Auswahl Geschenkgutschein                           | Wählen Sie die Art des Geschenkgutscheins. **WARNUNG**: Änderungen sind in der Produktionsumgebung nicht empfohlen. Es gibt zwei Arten von Geschenkgutscheinen in Smartstore. Wählen Sie **virtuell** wenn Sie den Geschenkgutschein nicht postalisch verschicken möchten, und wählen Sie Physisch, wenn Sie einen physischen Geschenkgutschein an den Käufer verschicken möchten. Für weitere Informationen über Geschenkgutscheine lesen Sie bitte [Geschenkgutscheine verwalten](../../verkauf/geschenkgutscheine-verwalten.md).          |
 | Ist Download (ESD)                                  | Klicken Sie das Kästchen, wenn man das Produkt herunterladen kann. Wenn ein Kunde ein Download-Produkt erwirbt, kann er das Produkt sofort aus Ihrem Shop herunterladen, sobald die Bestellung vollständig abgeschlossen ist. Für weitere Informationen zu Download-Produkten, lesen Sie bitte [Mit digitalen Produkten umgehen (ESD)](mit-digitalen-produkten-umgehen-esd.md).                                                                                                                                                              |
-| Ist Abo                                             | Aktivieren Sie diese Option, wenn es sich bei dem Produkt um ein Abonnement handelt. Für weitere Informationen zu abonnierbaren Produkten lesen Sie bitte  [Mit Abonnements umgehen](mit-abonnements-umgehen.md).                                                                                                                                                                                                                                                                                                                            |
-| Erneuerungszeitraum                                 | Geben Sie die Dauer des Produktzyklus an. Im Verbund mit dem Feld  **Erneuerungsperiode** legt der **Erneuerungszeitraum** fest, nach welchem Zeitraum das Produkt erneut bezogen wird.                                                                                                                                                                                                                                                                                                                                                      |
-| Erneuerungsperiode                                  | Wählen Sie die Erneuerungsperiode. Im Verbund mit dem Feld **Erneuerungszeitraum** legt die **Erneuerungsperiode**   fest, nach welchem Zeitraum das Produkt erneut bezogen wird.                                                                                                                                                                                                                                                                                                                                                            |
+| Ist Abo                                             | Aktivieren Sie diese Option, wenn es sich bei dem Produkt um ein Abonnement handelt. Für weitere Informationen zu abonnierbaren Produkten lesen Sie bitte [Mit Abonnements umgehen](mit-abonnements-umgehen.md).                                                                                                                                                                                                                                                                                                                             |
+| Erneuerungszeitraum                                 | Geben Sie die Dauer des Produktzyklus an. Im Verbund mit dem Feld **Erneuerungsperiode** legt der **Erneuerungszeitraum** fest, nach welchem Zeitraum das Produkt erneut bezogen wird.                                                                                                                                                                                                                                                                                                                                                       |
+| Erneuerungsperiode                                  | Wählen Sie die Erneuerungsperiode. Im Verbund mit dem Feld **Erneuerungszeitraum** legt die **Erneuerungsperiode** fest, nach welchem Zeitraum das Produkt erneut bezogen wird.                                                                                                                                                                                                                                                                                                                                                              |
 | Abonnementdauer                                     | Geben Sie die Abonnementdauer an. Legt fest, wie oft ein Produkt erneut bezogen wird, bevor das Abonnement ausläuft.                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Versand erforderlich                                | Legt fest, ob ein Produkt versendet wird.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Versandkostenfrei                                   | Legt fest, ob der Versand bei diesem Produkt kostenfrei ist.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -53,14 +53,14 @@ In dieser Registerkarte konfigurieren Sie den Tracking-Modus für das Produkt. F
 ### Registerkarte Preis
 
 In dieser Registerkarte konfigurieren Sie die Preise und die Preisanzeige für das Produkt. Für weitere Informationen über die Konfigurationen von Preisen lesen Sie bitte [Preisregeln verstehen](preisregeln-verstehen.md).\
-Zusätzlich können unter der Registerkarte Preis auch Produktrabatte zugeordnet werden.&#x20;
+Zusätzlich können unter der Registerkarte Preis auch Produktrabatte zugeordnet werden.
 
 ### Registerkarte Bilder
 
 In dieser Registerkarte können Sie die Bilder für die Produktansicht hinterlegen. Das Produkt **Hauptbild** wird in Produktlisten überall dort angezeigt, wo Thumbnails von Produkten auftauchen, so zum Beispiel die Übersicht für die Produktkategorie oder die Produktliste im Warenkorb. Alle anderen Bilder werden in der von Ihnen festgelegten **Reihenfolge** im Thumbstrip unter dem Standardbild und in der Gallerie im Frontend Ihres Shops angezeigt. Für weitere Informationen über den Upload von Bildern, lesen Sie [Bilder hochladen](../../../benutzer-handbuch/allgemeine-konzepte/bilder-hochladen.md).
 
 {% hint style="info" %}
-#### Nutzen Sie freigestellte Grafiken
+**Nutzen Sie freigestellte Grafiken**
 
 In der Produktgallerie sehen freigestellte Grafiken viel besser aus.
 {% endhint %}
@@ -75,11 +75,11 @@ In dieser Registerkarte können Sie dem Produkt Hersteller zuordnen. Sie können
 
 ### Registerkarte Promotion
 
-In dieser Registerkarte können Sie Promotionen für ein Produkt verwalten. Sie können **Cross-Selling-Produkte** im unteren Bereich der Produktdetailansicht im Frontend Ihres Shops anzeigen lassen oder **Produkte** konfigurieren, dei dem Kunden im Checkout angezeigt und empfohlen werden. Wenn Sie auf **Cross-Selling-** **Produkt hinzufügen** oder **Checkout-Selling-Produkt hinzufügen** klicken, öffnet sich ein Dialog für die Produktauswahl, in welchem Sie die Produkte auswählen können, die Sie dem jeweiligen Bereich hinzufügen möchten. Für weitere Informationen zur Produktauswahl lesen Sie bitte [Tabellenansichten](../../../benutzer-handbuch/allgemeine-konzepte/tabellenansichten.md).&#x20;
+In dieser Registerkarte können Sie Promotionen für ein Produkt verwalten. Sie können **Cross-Selling-Produkte** im unteren Bereich der Produktdetailansicht im Frontend Ihres Shops anzeigen lassen oder **Produkte** konfigurieren, dei dem Kunden im Checkout angezeigt und empfohlen werden. Wenn Sie auf **Cross-Selling-** **Produkt hinzufügen** oder **Checkout-Selling-Produkt hinzufügen** klicken, öffnet sich ein Dialog für die Produktauswahl, in welchem Sie die Produkte auswählen können, die Sie dem jeweiligen Bereich hinzufügen möchten. Für weitere Informationen zur Produktauswahl lesen Sie bitte [Tabellenansichten](../../../benutzer-handbuch/allgemeine-konzepte/tabellenansichten.md).
 
-#### Anwendungsszenario für Cross-Selling-Produkte&#x20;
+#### Anwendungsszenario für Cross-Selling-Produkte
 
-Stellen Sie sich vor, Sie verkaufen elektronische Geräte, und einige Ihrer Produkte sind MP3-Player. Somit könnten Ihre Kunden auch Interesse daran haben, Kopfhörer zu erwerben. Sie sollten daher in Betracht ziehen, die Kopfhörer auf der Produktseite des MP3-Players hinzuzufügen, indem Sie Kopfhörer als **Cross-Selling-Produkte** dafür festlegen. Wenn der MP3-Player ein iPod ist, sind Ihre Kunden vielleicht auch daran interessiert einen iTunes-Gutschein zu kaufen.&#x20;
+Stellen Sie sich vor, Sie verkaufen elektronische Geräte, und einige Ihrer Produkte sind MP3-Player. Somit könnten Ihre Kunden auch Interesse daran haben, Kopfhörer zu erwerben. Sie sollten daher in Betracht ziehen, die Kopfhörer auf der Produktseite des MP3-Players hinzuzufügen, indem Sie Kopfhörer als **Cross-Selling-Produkte** dafür festlegen. Wenn der MP3-Player ein iPod ist, sind Ihre Kunden vielleicht auch daran interessiert einen iTunes-Gutschein zu kaufen.
 
 #### Anwendungsszenario Checkout-Selling-Produkte
 
@@ -97,13 +97,13 @@ In dieser Registerkarte können Sie die Spezifikationsattribute verwalten. Für 
 
 In dieser Registerkarte können Sie ausgewählte SEO-Werte für Ihr Produkt festlegen, so zum Beispiel **Meta title**, **Meta Keywords** oder ein **URL Alias**. Für weitere Informationen über die Felder in der Registerkarte **Suchmaschinen** lesen Sie [SEO](../../../benutzer-handbuch/allgemeine-konzepte/seo.md).
 
-### Registerkarte Downloads&#x20;
+### Registerkarte Downloads
 
-In dieser Registerkarte können Sie downloadfähige Produkte wie z. B. Dateien (PDF, MP3) definieren und konfigurieren.&#x20;
+In dieser Registerkarte können Sie downloadfähige Produkte wie z. B. Dateien (PDF, MP3) definieren und konfigurieren.
 
-### Registerkarte Aufträge&#x20;
+### Registerkarte Aufträge
 
-In dieser Registerkarte werden die Aufträge angezeigt in denen das entsprechende Produkt gekauft wurde.&#x20;
+In dieser Registerkarte werden die Aufträge angezeigt in denen das entsprechende Produkt gekauft wurde.
 
 ### Andere Registerkarten
 

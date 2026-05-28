@@ -48,7 +48,7 @@ MySQL-Root-Passwort: `Smartstore2022!`
 
 Die Installation sieht dann wie folgt aus:
 
-![](<../../../.gitbook/assets/smartstore-installation-mysql-de (3).png>)
+![](../../../.gitbook/assets/smartstore-installation-mysql-de.png)
 
 ### Smartstore und MS SQL zusammen als Docker-Container betreiben
 

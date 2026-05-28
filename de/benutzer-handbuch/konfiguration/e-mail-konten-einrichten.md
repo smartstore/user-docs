@@ -7,7 +7,7 @@ Wenn Sie einen Shop betreiben, gibt es mehrere Ereignisse, bei denen Sie Ihre Ku
 ## Ein E-Mail-Konto einrichten
 
 {% hint style="info" %}
-#### Wo erhalte ich die notwendigen Daten?
+**Wo erhalte ich die notwendigen Daten?**
 
 Die Daten in den unten beschriebenen Feldern werden Ihnen in der Regel zugeschickt, wenn Sie ein Hosting Paket buchen. Sie können diese Daten auch erhalten, indem Sie im Konfigurationsbereich Ihres Hosting Pakets auf der Webseite Ihres Providers nachschauen. Gehen Sie in den Konfigurationsbereich für E-Mails. Wenn Sie dort keine Informationen finden, kontaktieren Sie Ihren Provider.
 {% endhint %}
@@ -24,7 +24,7 @@ Die Daten in den unten beschriebenen Feldern werden Ihnen in der Regel zugeschic
 | Benutze Standard-Zugangsdaten | Standard-Zugangsdaten für die Verbindung benutzen.                                         |
 
 {% hint style="info" %}
-#### Test-E-Mail senden
+**Test-E-Mail senden**
 
 Sobald Sie Ihr E-Mail-Konto konfiguriert haben, sollten Sie testen, ob die Daten, die Sie eingegeben haben, korrekt sind, indem Sie eine Test-E-Mail senden. Wenn eine E-Mail an die E-Mail-Adresse, die Sie bei **E-Mail senden an** eingegeben haben, gesendet werden kann, können Sie sicher sein, dass das Konto korrekt angelegt wurde.
 {% endhint %}

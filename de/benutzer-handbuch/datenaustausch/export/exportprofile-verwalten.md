@@ -39,6 +39,16 @@ In dieser Registerkarte können Sie den Namen des Profils festlegen und einstell
 
 Datenexporte können automatisch ausgeführt werden, da der Export von einer **Geplanten Aufgabe** durchgeführt wird, die bei der Erstellung jedem Exportprofil zugeordnet wird. Die Standardeinstellung ist immer ungeplant, mit anderen Worten wird das Profil nicht automatisch ausgeführt. Klicken Sie **Ausführen**, um einen Link für die verbundene Aufgabe zu erhalten und die Planungseinstellungen zu verändern.
 
+### Export zugehöriger Daten
+
+Wenn die Option **Zugehörige Daten exportieren** im Exportprofil aktiviert ist, werden bei einem CSV-Export von Produktdaten auch deren zugehörigen Daten exportiert. Hierzu gehören Staffelpreise, Attributoptionen und Variantkombinationen. Die Funktion hat in erster Linie zum Ziel, Preise im Shop über einen Export mit anschließendem Import zu aktualisieren.
+
+Die zugehörigen Daten werden in separaten CSV-Dateien exportiert. Klickt man in der Liste der Exportprofile in der Spalte **Exportdateien** auf deren Anzahl, werden die Dateien im sich öffnenden Dialog angezeigt und können dort heruntergeladen und anschließend bearbeitet werden.
+
+{% hint style="info" %}
+Der Name der Dateien endet jeweils mit dem technischen Datennamen **Tierprice**, **ProductVariantAttributeValue** oder **ProductVariantAttributeCombination**. Dieser darf gemäß der Namenskonvention nicht verändert werden, da der Produktimport anhand dessen die Art der Daten in der Datei erkennt.
+{% endhint %}
+
 ### Aufteilung
 
 In dieser Registerkarte können Sie die Aufteilung Ihrer Daten festlegen.

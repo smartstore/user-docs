@@ -8,12 +8,12 @@ Stellen Sie sich vor, dass Sie ein Geschäft betreiben, in dem Sie Produkte mit 
 
 ## Wie Sie Zugriffsbeschränkungen konfigurieren
 
-Sie können den Zugriff auf Warengruppen und Produkte zu beschränken und somit festlegen, welche Kundegruppen spezifische Zugangsrechte zu den jeweiligen Warengruppen und Produkten im Frontend Ihres Shops erhalten. Die Vergabe von  Zugriffsrechten zu einer Warengruppe oder einem Produkts ist identisch. Navigieren Sie einfach zu der Registerkarte **Zugriffsbeschränkung** der jeweiligen Warengruppe oder des jeweiligen Produkts und fügen Sie dort die Kundengruppen zu, denen der Zugang erlaubt ist.
+Sie können den Zugriff auf Warengruppen und Produkte zu beschränken und somit festlegen, welche Kundegruppen spezifische Zugangsrechte zu den jeweiligen Warengruppen und Produkten im Frontend Ihres Shops erhalten. Die Vergabe von Zugriffsrechten zu einer Warengruppe oder einem Produkts ist identisch. Navigieren Sie einfach zu der Registerkarte **Zugriffsbeschränkung** der jeweiligen Warengruppe oder des jeweiligen Produkts und fügen Sie dort die Kundengruppen zu, denen der Zugang erlaubt ist.
 
 ![](../../.gitbook/assets/smartstore-acl.png)
 
 {% hint style="info" %}
-#### Diese Konfiguration für Kindelemente übernehmen
+**Diese Konfiguration für Kindelemente übernehmen**
 
 Diese Funktion übernimmt die Zugriffsrecht-Konfiguration dieser Warengruppe für alle Unterwarengruppen und Produkte.\
 Bitte beachten Sie, dass die Änderungen der Zugriffsrechte zunächst gespeichert werden müssen, bevor diese für Unterkategorien und Produkte übernommen werden können.\

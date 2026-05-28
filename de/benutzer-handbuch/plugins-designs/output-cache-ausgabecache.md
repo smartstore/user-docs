@@ -17,13 +17,13 @@ Der Output Cache erlaubt die Zwischenspeicherung ganzer Shop-Seiten und trägt s
 | Debug-Modus                                     | Gibt allgemeine Informationen im Response Header aus ((X-SmartStore-Cached-On, X-SmartStore-Cached-Until))                                                                                                                                                          |
 
 {% hint style="info" %}
-#### Achtung
+**Achtung**
 
 Die Optionen Routen und Invalidierung sollten nur von erfahrenen Anwendern genutzt / geändert werden.
 {% endhint %}
 
 ## Statistik
 
-Unter dem Reiter Statistik werden die im Cache gespeicherten Seiten angezeigt und können dort auch aus dem Cache gelöscht werden.&#x20;
+Unter dem Reiter Statistik werden die im Cache gespeicherten Seiten angezeigt und können dort auch aus dem Cache gelöscht werden.
 
 ![](../../.gitbook/assets/statistik.PNG)
