@@ -7,8 +7,8 @@ Importprofile fassen alle benötigten Informationen zusammen, um den Importvorga
 * Das Hochladen von Dateien, die als Datenquellen dienen
 * Objekttypen, die importiert werden sollen, z. B. Produkt, Kunde, u.s.w.
 * CSV-spezfische Einstellungen
-* Felddaten-Mapping&#x20;
-* Einstellung von automatischen Importen als _Geplante Aufgabe_&#x20;
+* Felddaten-Mapping
+* Einstellung von automatischen Importen als _Geplante Aufgabe_
 
 Um Importprofile zu verwalten, gehen Sie zu **Konfiguration > Importieren**.
 
@@ -22,10 +22,9 @@ Klicken Sie auf **Neu**, um ein neues Importprofil zu erstellen. Auf der folgend
 
 Klicken Sie auf den Namen des Importprofils, um es zu bearbeiten.
 
-![](../../../.gitbook/assets/importprofile_verwalten_2.png)
-![](../../../.gitbook/assets/importprofile_verwalten_3.png)
+![](../../../.gitbook/assets/importprofile_verwalten_2.png) ![](../../../.gitbook/assets/importprofile_verwalten_3.png)
 
-Datenimporte können automatisch jederzeit über [Geplante Aufgaben](../../system-wartung/geplante-aufgaben-verwalten.md) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf  **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
+Datenimporte können automatisch jederzeit über [Geplante Aufgaben](../../system-wartung/geplante-aufgaben-verwalten.md) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
 
 ### Objekttypen
 
@@ -53,12 +52,20 @@ Die erste Zeile einer CSV-Datei muss die Spaltenüberschriften enthalten, die di
 
 ### Zuordnung der Importfelder
 
-Sie können optional für jedes Feld der Importdatei festlegen, ob und für welche Objekteigenschaft dessen Daten zu importieren sind. Gleichnamige Felder werden grundsätzlich immer importiert, sofern sie nicht explizit ignoriert werden sollen. Noch nicht ausgewählte Eigenschaften sind in der Auswahlliste hervorgehoben. Zudem ist die Angabe eines Standardwertes möglich, der angewendet wird, wenn das Importfeld leer ist.&#x20;
+Sie können optional für jedes Feld der Importdatei festlegen, ob und für welche Objekteigenschaft dessen Daten zu importieren sind. Gleichnamige Felder werden grundsätzlich immer importiert, sofern sie nicht explizit ignoriert werden sollen. Noch nicht ausgewählte Eigenschaften sind in der Auswahlliste hervorgehoben. Zudem ist die Angabe eines Standardwertes möglich, der angewendet wird, wenn das Importfeld leer ist.
 
 ![](../../../.gitbook/assets/import-2.PNG)
 
-&#x20;
-
 {% hint style="info" %}
 Durch Änderung des Trennzeichens werden gespeicherte Zuordnungen ungültig und zurückgesetzt.
+{% endhint %}
+
+### Import zugehöriger Daten
+
+Wenn im Importprofil die Option **Zugehörige Daten importieren** aktiviert ist, werden bei einem CSV-Import von Produktdaten auch die zugehörigen Daten der Staffelpreise, Attributoptionen und Variantkombinationen importiert. Laden Sie dazu die Dateien mit den zugehörigen Daten, die Sie zuvor exportiert haben, im Importprofil hoch.
+
+<figure><img src="../../../.gitbook/assets/import (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Gemäß der Namenskonvention muss der Dateiname mit einem der technischen Datennamen **Tierprice**, **ProductVariantAttributeValue** oder **ProductVariantAttributeCombination** enden, da anhand dessen der Produktimport die Art der Daten in der Datei erkennt.
 {% endhint %}
