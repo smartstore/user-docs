@@ -166,6 +166,8 @@
   * [AI](benutzer-handbuch/plugins-designs/ai.md)
   * [AttributeRules (Regeln für Produktattribute)](benutzer-handbuch/plugins-designs/attributerules-regeln-fur-produktattribute.md)
   * [DependingPrices](benutzer-handbuch/plugins-designs/dependingprices.md)
+  * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins-designs/warranty.md)
+  * [Widerruf](benutzer-handbuch/plugins-designs/withdrawal.md)
 * [Datenaustausch](handbuch/datenaustausch/README.md)
   * [Exportprofile verwalten](benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md)
   * [Importprofile verwalten](benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md)
