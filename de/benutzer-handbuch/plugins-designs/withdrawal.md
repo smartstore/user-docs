@@ -19,14 +19,14 @@ Standardablauf:
 
 Sowohl im Service-Footer als auch im Service-Menü ist der Widerruf unter der Bezeichnung „Vertrag widerrufen” zu finden. Diese Schaltfläche ist für alle Nutzer, also auch für Gäste, sichtbar.
 
-|Widerruf im Footer|Widerruf im Menü|
-|---|---|
-|![](../../.gitbook/assets/module_withdrawal_frontend.png)|![](../../.gitbook/assets/module_withdrawal_frontend_menu.png)|
+| Widerruf im Footer                                        | Widerruf im Menü                                               |
+| --------------------------------------------------------- | -------------------------------------------------------------- |
+| ![](../../.gitbook/assets/module_withdrawal_frontend.png) | ![](../../.gitbook/assets/module_withdrawal_frontend_menu.png) |
 
 {% hint style="info" %}
 Registrierte Kunden können den Kauf auf der Bestelldetailseite im Bereich „Mein Konto“ widerrufen.
- 
-![Widerruf im **Mein Konto**-Bereich](../../.gitbook/assets/module_withdrawal_widerrufsseite_user_bestellhistorie.png)
+
+<img src="../../.gitbook/assets/module_withdrawal_widerrufsseite_user_bestellhistorie.png" alt="Widerruf im Mein Konto-Bereich" data-size="original">
 {% endhint %}
 
 Als Nächstes erscheint eine Informationsseite zum Widerruf, auf der die entsprechende Bestellung ausgewählt wird. Um eine Bestellung zu widerrufen, müssen Gäste ihre Bestellnummer und E-Mail-Adresse angeben. Angemeldete Kunden können die Bestellung außerdem über ein Dropdown-Menü auswählen.
@@ -51,7 +51,7 @@ Der Widerrufstatus kann in den Bestelldetails im „Mein Konto“-Bereich einges
 
 ### Auflistung
 
-Eine Liste aller Widerrufe kann zusammen mit den Retourenanträgen unter **Verkauf** &rarr; **Widerrufe und Retouren** eingesehen werden.
+Eine Liste aller Widerrufe kann zusammen mit den Retourenanträgen unter **Verkauf** → **Widerrufe und Retouren** eingesehen werden.
 
 Mit Klick auf die ID des Widerrufs wird der Widerruf angezeigt und kann bearbeitet werden. Im Reiter "Angaben zum Widerruf" können die vom Käufer weitergegebenen Daten zum Widerruf eingesehen werden.
 
@@ -63,16 +63,18 @@ Der Widerrufstatus wird in den Auftragsdetails im Reiter „Produkte” unterhal
 
 ### Konfiguration
 
-Die Konfiguration erfolgt in den Auftragseinstellungen (**Konfiguration** &rarr; **Einstellungen** &rarr; **Auftr&auml;ge**) im Reiter „Widerruf”.
+Die Konfiguration erfolgt in den Auftragseinstellungen (**Konfiguration** → **Einstellungen** → **Aufträge**) im Reiter „Widerruf”.
 
 Hier können die Positionierung und Sichtbarkeit der Schaltflächen sowie die Widerrufsfrist, deren Beginn und das Versenden von E-Mails an Kunden und Shopbetreiber festgelegt werden.
 
 ![Widerruf-Konfiguration](../../.gitbook/assets/module_withdrawal_einstellungen.png)
 
+Neben der globalen Einstellung kann die Widerrufsfrist sowohl beim Produkt als auch bei einer Warengruppe (sofern sie für alle Produkte dieser Warengruppe gelten soll) zusätzlich eingestellt werden. Wenn hier der Wert 0 (Tage) festgelegt wird, ist ein Widerruf des Produkts grundsätzlich nicht möglich.
+
 Standardmäßig sind die Widerrufs- und Retourenfunktion nach der Installation des Plugins gleichzeitig aktiviert.
 
 {% hint style="info" %}
-Optional können Retouren in den Auftragseinstellungen (**Konfiguration** &rarr; **Einstellungen** &rarr; **Aufträge**) deaktiviert werden. Dies ist sinnvoll, wenn der Retouren-Button nicht zusammen mit dem Widerrufs-Button in den Bestelldetails des „Mein Konto“-Bereichs angezeigt werden soll.
+Optional können Retouren in den Auftragseinstellungen (**Konfiguration** → **Einstellungen** → **Aufträge**) deaktiviert werden. Dies ist sinnvoll, wenn der Retouren-Button nicht zusammen mit dem Widerrufs-Button in den Bestelldetails des „Mein Konto“-Bereichs angezeigt werden soll.
 {% endhint %}
 
 ## Anpassung
@@ -83,15 +85,15 @@ Der Widerrufs-Button und die zugehörigen Benachrichtigungen lassen sich individ
 
 Über die folgenden Nachrichtenvorlagen können die Texte angepasst werden, die im Zusammenhang mit dem Widerrufsprozess versendet werden.
 
-|Nachrichtenvorlage|Bedeutung|
-|---|---|
-|Withdrawal.CustomerNotification|Benachrichtigung, die Kunden nach einem erfolgreichen Widerruf erhalten.|
-|Withdrawal.MerchantNotification|Benachrichtigung, die der Shopbetreiber nach einem erfolgreichen Widerruf erhält.|
-|Withdrawal.ProceedLink|Sicherheitsabfrage, die der Kunde vor dem Abschluss des Widerrufs erhält.|
+| Nachrichtenvorlage              | Bedeutung                                                                         |
+| ------------------------------- | --------------------------------------------------------------------------------- |
+| Withdrawal.CustomerNotification | Benachrichtigung, die Kunden nach einem erfolgreichen Widerruf erhalten.          |
+| Withdrawal.MerchantNotification | Benachrichtigung, die der Shopbetreiber nach einem erfolgreichen Widerruf erhält. |
+| Withdrawal.ProceedLink          | Sicherheitsabfrage, die der Kunde vor dem Abschluss des Widerrufs erhält.         |
 
 ### Link-Optik ändern
 
-Für die individuelle Gestaltung des Widerrufslinks können in der Datei „_user.scss” eigene CSS-Anweisungen hinterlegt werden. Der Selektor `a[href='/withdrawal/']` ermöglicht dabei eine gezielte Anpassung der Darstellung dieses Links.
+Für die individuelle Gestaltung des Widerrufslinks können in der Datei „\_user.scss” eigene CSS-Anweisungen hinterlegt werden. Der Selektor `a[href='/withdrawal/']` ermöglicht dabei eine gezielte Anpassung der Darstellung dieses Links.
 
 Die Ressource für den Text des Widerrufslinks kann [in den Spracheinstellungen](../konfiguration/sprachen-verwalten.md#wie-sie-eine-einzelne-ressource-hinzufugen-oder-bearbeiten) unter `Plugins.Smartstore.Withdrawal.WithdrawContract` geändert werden.
 
@@ -99,7 +101,7 @@ Die Ressource für den Text des Widerrufslinks kann [in den Spracheinstellungen]
 
 Der Widerruflink wird standardmäßig automatisch eingebunden. Soll er an einer zusätzlichen oder individuellen Position angezeigt werden, kann er auch manuell eingefügt werden. Damit der Link korrekt funktioniert, muss er:
 
-- auf `/withdrawal/` verweisen
-- das **rel**-Attribut `nofollow` enthalten
+* auf `/withdrawal/` verweisen
+* das **rel**-Attribut `nofollow` enthalten
 
 Beispiel: `<a href="/withdrawal/" rel="nofollow">Vertrag widerrufen</a>`
