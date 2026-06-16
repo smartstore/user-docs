@@ -33,3 +33,20 @@ Um dieses Problem zu vermeiden, deaktivieren Sie das Caching für bestimmte Inha
 ![](../.gitbook/assets/cloudflare_caching.png)
 
 Mit dieser Konfiguration wird sichergestellt, dass stets die aktuelle Version der Inhalte direkt vom Server geladen wird. Beachten Sie, dass die allgemeine Performance und der Schutz durch Cloudflare dabei nicht beeinträchtigt werden.
+
+#### Automatisierte Aufgaben zulassen
+
+Um zu verhindern, dass Cloudflare die automatisierten Aufgaben von Smartstore blockiert, müssen die beiden folgenden URLs unverändert durchgeleitet werden:
+
+- https://www.meinstore.com/taskscheduler/poll
+- https://www.meinstore.com/taskscheduler
+
+{% hint style="info" %}
+Die URL `https://www.meinstore.com` muss durch die Smartstore-URL ersetzt werden.
+{% endhint %}
+
+Die nachfolgenden Bilder veranschaulichen die Einrichtung einer URL-Durchleitung durch Cloudflare.
+
+![Cloudflare Caching-Regeln](../.gitbook/assets/troubleshooting_cloudflare_taskscheduler1.png)
+
+![Cloudflare Sicherheitsregeln](../.gitbook/assets/troubleshooting_cloudflare_taskscheduler2.png)
