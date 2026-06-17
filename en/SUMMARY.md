@@ -166,6 +166,7 @@
   * [AI](manage/plugins-themes/ai.md)
   * [Attribute Rules](manage/plugins-themes/attribute-rules.md)
   * [DependingPrices](manage/plugins-themes/dependingprices.md)
+  * [AddToAny](manage/plugins-themes/addtoany.md)
 * [Data Exchange](manage/data-exchange/README.md)
   * [Managing Export Profiles](manage/data-exchange/managing-export-profiles.md)
   * [Managing Import Profiles](manage/data-exchange/managing-import-profiles.md)

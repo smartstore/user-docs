@@ -168,6 +168,7 @@
   * [DependingPrices](benutzer-handbuch/plugins-designs/dependingprices.md)
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins-designs/warranty.md)
   * [Widerruf](benutzer-handbuch/plugins-designs/withdrawal.md)
+  * [AddToAny](benutzer-handbuch/plugins-designs/addtoany.md)
 * [Datenaustausch](handbuch/datenaustausch/README.md)
   * [Exportprofile verwalten](benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md)
   * [Importprofile verwalten](benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md)
