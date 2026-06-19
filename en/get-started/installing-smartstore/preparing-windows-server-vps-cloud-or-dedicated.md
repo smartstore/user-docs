@@ -1,8 +1,8 @@
 # Preparing Windows Server
 
-All [releases provided by Smartstore](https://github.com/smartstore/Smartstore/releases) are independent, so-called "**self-contained**" releases. This type of release includes not only the application, but also **all .NET libraries** and the **target runtime**. On a Windows server, only the [.NET Core hosting bundle](https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.9/dotnet-hosting-9.0.9-win.exe) needs to be installed. The .NET Core hosting bundle installs the .NET Core runtime and the [ASP.NET](http://asp.net) Core module. With the bundle, [ASP.NET](http://asp.net) Core apps can be run in IIS.
+All [releases provided by Smartstore](https://github.com/smartstore/Smartstore/releases) are independent, so-called "**self-contained**" releases. This type of release includes not only the application, but also **all .NET libraries** and the **target runtime**. On a Windows server, only the [.NET Core hosting bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-10.0) needs to be installed. The .NET Core hosting bundle installs the .NET Core runtime and the [ASP.NET](http://asp.net) Core module. With the bundle, [ASP.NET](http://asp.net) Core apps can be run in IIS.
 
-The .NET Core hosting bundle is available for download [here](https://builds.dotnet.microsoft.com/dotnet/aspnetcore/Runtime/9.0.9/dotnet-hosting-9.0.9-win.exe).
+The .NET Core hosting bundle is available for download [here](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-10.0).
 
 * After the **download**, run the **installation** programme on the server.
 * Then either **restart** the server or start the IIS service via `net stop was /y` and `net start w3svc` in a command line.
