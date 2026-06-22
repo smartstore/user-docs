@@ -215,6 +215,44 @@ Wenn Sie einen Reverse-Proxy (z.B. NGINX) unter Linux verwenden, geben Sie dort 
 
 </details>
 
+## E-Mails
+
+<details>
+
+<summary>Fehlende E-Mail-Adressen in der Bestellbestätigung.</summary>
+
+Die E-Mail-Adresse des Kunden wird nicht immer in der Bestellbestätigung angezeigt, die der Shopbetreiber erhält. Dies passiert, wenn in der Rechnungsanschrift keine E-Mail-Adresse hinterlegt wurde.
+
+In der Smartstore-Version 6.3 wurde die Angabe der E-Mail-Adresse in der Rechnungs- und Versandadresse als optional gekennzeichnet. Dadurch erscheint die E-Mail-Adresse des Kunden gelegentlich nicht mehr in der Bestellbestätigung.
+
+Das Problem kann durch Anpassung der Nachrichtenvorlage „**OrderPlaced.StoreOwnerNotification**” behoben werden.
+
+1. Öffnen Sie dazu im Admin-Bereich die Nachrichtenvorlage (CMS > Nachrichtenvorlagen).
+
+2. Gehen Sie zur Zeile `{% include 'address' with Order.Billing %}` (in der Regel Zeile 37) und fügen Sie danach den unten stehenden Code ein.
+
+```cshtml
+{% if Order.Billing.Email %}
+{% else %}
+<div class="text-sm mt-1"><strong>E-Mail:</strong> {{ Customer.Email }}</div>
+{% endif %}
+```
+
+Der Abschnitt sollte wie folgt aussehen:
+```cshtml
+<h3>Rechnungsanschrift</h3>
+{% include 'address' with Order.Billing %}
+{% if Order.Billing.Email %}
+{% else %}
+<div class="text-sm mt-1"><strong>E-Mail:</strong> {{ Customer.Email }}</div>
+{% endif %}
+{% if Order.PaymentMethod %}
+```
+
+Diese Änderung muss für alle Sprachen durchgeführt werden, für die ein individueller Nachrichtentext hinterlegt ist.
+
+</details>
+
 ## Task Scheduler
 
 <details>

@@ -206,6 +206,44 @@ If you are using a reverse proxy (e.g. NGINX) on Linux, enter the locally access
 
 </details>
 
+## Emails
+
+<details>
+
+<summary>The order confirmation is missing email addresses.</summary>
+
+The customer's email address is not always displayed in the order confirmation received by the shop owner. This occurs when an email address is not entered in the address details.
+
+In Smartstore Version 6.3, entering an email address in the billing and shipping addresses became optional. Consequently, the customer's email address does not always appear in the order confirmation.
+
+This issue can be resolved by adjusting the "**OrderPlaced.StoreOwnerNotification**" message template.
+
+1. Open the message template in the admin area (CMS > Message templates).
+
+2. Go to line `{% include 'address' with Order.Billing %}` (usually line 37) and insert the code below afterwards.
+
+```cshtml
+{% if Order.Billing.Email %}
+{% else %}
+<div class="text-sm mt-1"><strong>Email:</strong> {{ Customer.Email }}</div>
+{% endif %}
+```
+
+Der Abschnitt sollte wie folgt aussehen:
+```cshtml
+<h3>Billing address</h3>
+{% include 'address' with Order.Billing %}
+{% if Order.Billing.Email %}
+{% else %}
+<div class="text-sm mt-1"><strong>Email:</strong> {{ Customer.Email }}</div>
+{% endif %}
+{% if Order.PaymentMethod %}
+```
+
+This change must be made for each language in which an individual message has been entered.
+
+</details>
+
 ## Task Scheduler
 
 <details>
