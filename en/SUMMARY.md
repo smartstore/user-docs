@@ -167,6 +167,7 @@
   * [Attribute Rules](manage/plugins-themes/attribute-rules.md)
   * [DependingPrices](manage/plugins-themes/dependingprices.md)
   * [Warranty](manage/plugins-themes/warranty.md)
+  * [Withdrawal](manage/plugins-themes/withdrawal.md)
   * [AddToAny](manage/plugins-themes/addtoany.md)
 * [Data Exchange](manage/data-exchange/README.md)
   * [Managing Export Profiles](manage/data-exchange/managing-export-profiles.md)
