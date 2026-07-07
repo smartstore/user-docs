@@ -38,8 +38,8 @@ Mit dieser Konfiguration wird sichergestellt, dass stets die aktuelle Version de
 
 Um zu verhindern, dass Cloudflare die automatisierten Aufgaben von Smartstore blockiert, müssen die beiden folgenden URLs unverändert durchgeleitet werden:
 
-- https://www.meinstore.com/taskscheduler/poll
-- https://www.meinstore.com/taskscheduler
+* https://www.meinstore.com/taskscheduler/poll
+* https://www.meinstore.com/taskscheduler
 
 {% hint style="info" %}
 Die URL `https://www.meinstore.com` muss durch die Smartstore-URL ersetzt werden.
@@ -123,8 +123,12 @@ Erstellen Sie im Web-Ordner einen Unterordner `Config` (falls noch nicht vorhand
 }
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Tragen Sie unter `AllowedHosts` die Hostnamen Ihres Shops ein. Bei Multishop-Installationen müssen alle verwendeten Hostnamen aufgeführt werden.
+{% endhint %}
+
+{% hint style="info" %}
+Rufen Sie für eine stets aktuelle Liste mit bekannten Cloudflare-`KnownNetworks` [https://www.cloudflare.com/ips-v4](https://www.cloudflare.com/ips-v4) bzw. [https://www.cloudflare.com/ips-v6](https://www.cloudflare.com/ips-v6) auf.
 {% endhint %}
 
 Nach dem Anlegen der Konfiguration und einem Neustart der Anwendung übernimmt Smartstore die tatsächliche Besucher-IP aus dem `CF-Connecting-IP`-Header, sofern die Anfrage über ein als vertrauenswürdig konfiguriertes Cloudflare-IP-Netz eingeht.
