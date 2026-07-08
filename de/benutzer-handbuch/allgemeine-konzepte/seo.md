@@ -1,24 +1,59 @@
 # SEO
 
-Suchmaschinenoptimierung ist ein wichtiges Thema für Onlinehändler. Je mehr Besucher Sie haben, desto mehr Produkte werden Sie verkaufen. Smartstore ist optimal auf diese Herausforderung vorbereitet. Smartstore erstellt, basierend auf dem Produktnamen, den Sie bei der Produkterstellung eingeben, SEO-freundliche URLs. Das Gleiche gilt für Warengruppen. Smartstore bietet nicht nur _sprechende_ URLs, sondern gibt Ihnen auch die Möglichkeit, alle möglichen SEO-bezogenen Informationen (z. B. Metatitel, Meta-Beschreibungen oder Meta-Keywords)  anzugeben oder zu verändern.
+Suchmaschinenoptimierung (SEO) hilft dabei, Produkte, Warengruppen und Inhalte Ihres Shops besser in Suchmaschinen auffindbar zu machen. Smartstore unterstützt Sie dabei mit suchmaschinenfreundlichen URLs, zentralen SEO-Standardwerten und individuellen Einstellungen pro Produkt oder Warengruppe.
 
-## Grundlegende SEO Einstellungen
+Auf dieser Seite erfahren Sie, wo Sie die wichtigsten SEO-Einstellungen finden und welche Smartstore-Funktionen Ihre Sichtbarkeit zusätzlich verbessern können.
 
-Sie können globale SEO-Einstellungen vornehmen, indem Sie zu **Konfiguration > Einstellungen > Allgemeine Einstellungen > Suchmaschinen** gehen. Sie können Standardwerte für die Metadaten eingeben, die auf Ihrer Webseite veröffentlicht werden. Diese Werte werden auf jeder Seite genutzt, es sei denn, sie werden durch Werte überschrieben, die auf einer tieferen Ebene wie zum Beispiel der Produktseite oder der Warengruppenseite eingegeben wurden.&#x20;
+## Globale SEO-Einstellungen
 
-## Produkte & Warengruppen
+Die grundlegenden SEO-Einstellungen finden Sie unter **Konfiguration > Einstellungen > Allgemeine Einstellungen > Suchmaschinen**.
 
-Sie können die globalen Einstellungen für die oben genannten Metadaten bearbeiten und überschreiben, indem Sie in der Produkt- oder Warengruppenansicht zur Registerkarte **Suchmaschinen (SEO)** wechseln. Sie können auch die automatisch generierte sprechende URL verändern.
+Dort können Sie Standardwerte für Metadaten festlegen, die Smartstore auf Ihren Shopseiten verwendet. Dazu gehören zum Beispiel:
 
-## SEO Spracheinstellungen
+* **Meta-Titel**: der Titel, der in Suchergebnissen und Browser-Tabs erscheinen kann.
+* **Meta-Beschreibung**: eine kurze Zusammenfassung des Seiteninhalts für Suchmaschinen und Nutzer.
+* **Meta-Keywords**: optionale Schlagwörter, falls Sie diese weiterhin pflegen möchten.
 
-Wenn Sie eine Zielgruppe in unterschiedlichen Sprachen erreichen möchten, sollten Sie ein paar Regeln beachten, damit Google Ihren Inhalt in den lokalen Suchergebnissen für diese Sprachen listet. Smartstore macht dies automatisch. Es setzt einen _lang_ Tag in den HTML Code Ihres Shops, der die Sprache des Inhalts festlegt. Ihr Shop wird außerdem durch unterschiedliche Unterordner angesteuert, die den von Ihnen festgelegten SEO Code für die Sprachen (z.B. _/en_ or _/de_) enthalten.
+Diese globalen Werte dienen als Fallback. Sie werden verwendet, solange auf einer tieferen Ebene, etwa bei einem Produkt oder einer Warengruppe, keine eigenen SEO-Daten hinterlegt sind.
 
-## Sonstiges
+## SEO für Produkte und Warengruppen
 
-Es gibt zu viele Features und Funktionen in Smartstore, die auf die Erstellung einer aus SEO-Perspektive optimalen Webseite abzielen, als dass man sie alle hier aufzählen könnte. Neben den oben bereits genannten, sind die wichtigsten die Folgenden:
+Für Produkte und Warengruppen können Sie die globalen SEO-Werte gezielt überschreiben. Öffnen Sie dazu das jeweilige Produkt oder die jeweilige Warengruppe und wechseln Sie zur Registerkarte **Suchmaschinen (SEO)**.
 
-* **Optimierte Anzeige für mobile Geräte**: In einigen Bereichen sind über 50% der Besucher von Webseiten mobile Nutzer. Google legt größten Wert auf eine für mobile Geräte optimierte Ansicht. Daher erkennt Smartstore automatisch das Gerät, mit dem Ihre Kunden Ihren Shop besuchen und zeigt ihn auf eine Weise an, die für die Desktopansicht oder die mobile Ansicht optimiert ist.
-* **Feeds**: Es gibt zahlreiche Produktfeeds für Smartstore, um Ihre Produktdaten an Preisvergleichs-Portale wie **Google Merchant Center** zu senden. Für eine vollständige Liste der für Smartstore erhältlichen Export-Feeds, besuchen Sie unseren [Smartstore Community Marketplace](http://community.smartstore.com/marketplace).
-* **News & Blogs**: _Content is King_ ist eine weit verbreitete Redewendung, wenn es um Suchmaschinenoptimierung geht und diese gibt es aus gutem Grund. Google mag neue Inhalte und gibt Seiten ein höheres Ranking, die immer neue und frische Textinhalte liefern. Smartstore enthält ein System, zur Verwaltung von News und Blogeinträgen, das es den Shopadministratoren erleichtert, kontinuierlich neue Inhalte anzubieten.
-* und vieles mehr
+Dort können Sie unter anderem folgende Angaben bearbeiten:
+
+* den Meta-Titel
+* die Meta-Beschreibung
+* die SEO-freundliche URL
+
+Smartstore erzeugt sprechende URLs automatisch auf Basis des Produkt- oder Warengruppennamens. Bei Bedarf können Sie diese URLs anpassen, zum Beispiel wenn Sie kürzere, eindeutigere oder stärker suchwortorientierte Adressen verwenden möchten.
+
+{% hint style="info" %}
+Achten Sie bei manuellen URL-Änderungen auf verständliche, stabile Begriffe. Häufige Änderungen an bereits indexierten URLs können sich negativ auf die Auffindbarkeit auswirken.
+{% endhint %}
+
+## Mehrsprachige SEO-Einstellungen
+
+Wenn Sie Ihren Shop in mehreren Sprachen anbieten, sollte jede Sprachversion für Suchmaschinen eindeutig erkennbar sein. Smartstore unterstützt dies automatisch.
+
+Smartstore setzt im HTML-Code Ihres Shops das passende **lang**-Attribut und verwendet sprachbezogene URL-Bestandteile wie **/en** oder **/de**, abhängig von Ihren Spracheinstellungen. So können Suchmaschinen die Sprache einer Seite besser zuordnen und passende Inhalte in den jeweiligen lokalen Suchergebnissen anzeigen.
+
+## Weitere SEO-relevante Funktionen
+
+Neben Metadaten und sprechenden URLs bietet Smartstore weitere Funktionen, die Ihre Suchmaschinenoptimierung unterstützen:
+
+* **Optimierte Darstellung auf mobilen Geräten**: Smartstore erkennt das verwendete Endgerät und stellt den Shop passend für Desktop- und Mobilansichten dar. Eine gute mobile Nutzererfahrung ist ein wichtiger Qualitätsfaktor für Besucher und Suchmaschinen.
+* **Produktfeeds**: Mit Produktfeeds können Sie Artikeldaten an Dienste wie **Google Merchant Center** oder Preisvergleichsportale übermitteln. Passende Erweiterungen finden Sie im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace).
+* **News und Blogs**: Regelmäßig gepflegte Inhalte helfen dabei, relevante Themen, Ratgeber und Neuigkeiten in Ihrem Shop abzubilden. Smartstore enthält Funktionen zur Verwaltung von News und Blogbeiträgen.
+
+## Empfehlungen für gute SEO-Inhalte
+
+Nutzen Sie die technischen Möglichkeiten von Smartstore zusammen mit klaren, hilfreichen Inhalten:
+
+* Verwenden Sie eindeutige Produkt- und Warengruppennamen.
+* Schreiben Sie individuelle Meta-Titel und Meta-Beschreibungen für wichtige Seiten.
+* Halten Sie URLs kurz, verständlich und dauerhaft stabil.
+* Vermeiden Sie doppelte Inhalte, wenn sich Seiten stark ähneln.
+* Ergänzen Sie wichtige Produkte und Kategorien durch aussagekräftige Beschreibungen.
+
+So verbinden Sie die SEO-Funktionen von Smartstore mit Inhalten, die Nutzern und Suchmaschinen eine klare Orientierung geben.
