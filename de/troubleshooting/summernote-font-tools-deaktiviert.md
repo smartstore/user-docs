@@ -1,6 +1,6 @@
 # Summernote Font-Tools deaktiviert
 
-# Motivation
+## Motivation
 
 Im Zuge der Entwicklung von Smartstore Version 6 haben wir auch den HTML-Editor überarbeitet. Dabei haben wir die Elemente zur Einstellung von Schriftart und Schriftgröße deaktiviert. Es gibt mehrere Gründe, warum wir diese Funktion(en) nicht mehr verwenden.
 
@@ -11,7 +11,7 @@ Die beiden wichtigsten sind:
 
 Stattdessen sollten verschiedene Tags verwendet werden, um den Fließtext zu strukturieren: [h\*-Tags](https://developer.mozilla.org/de/docs/Web/HTML/Element/Heading_Elements) für Überschriften (\* = 1-6) und [p-Tags](https://developer.mozilla.org/de/docs/Web/HTML/Element/p) für Absätze.
 
-# Gliederung
+## Gliederung
 
 Die für Überschriften verwendeten h\*-Tags können im Editor ausgewählt werden.
 
@@ -19,17 +19,17 @@ Markieren Sie die Zeile, die der Überschrift entspricht, und wählen Sie das Dr
 
 Im Quelltext (Symbol: </>) sehen Sie, dass um den ausgewählten Text ein h\*-Tag gesetzt wurde.
 
-# Kommende Funktionen
+## Kommende Funktionen
 
 In Version 6.0.1 wird die Möglichkeit hinzugefügt, die Schriftgröße relativ zu ändern. Diese wird dann mit Hilfe von CSS-Klassen in den Text eingefügt.
 
-# Bootstrap
+## Bootstrap
 
 Wenn die Formatierung des Textes geändert werden soll, besteht immer die Möglichkeit, den Quelltext zu bearbeiten. Dazu empfehlen wir die Verwendung von Bootstrap-Klassen, von denen einige bereits über das CSS-Dropdown-Menü zur Verfügung stehen.
 
 [https://getbootstrap.com/](https://getbootstrap.com/)
 
-# Eigene Styles
+## Eigene Styles
 
 In Kombination mit der *\_user.scss* können auch eigene Klassen für Schrift- und Textkombinationen geschrieben und im HTML-Editor verwendet werden.
 
@@ -61,7 +61,7 @@ Die Eigenschaft `toggle` legt fest, ob zusammenhängende Klassen mehrfach zu ein
 
 Die Eigenschaften `inline`, `displayClass` und `style` beziehen sich auf die Darstellung des Dropdown-Menüpunktes. Style-Klassen werden mit `displayClass` und explizite Styles mit `style` hinzugefügt.
 
-# Alte Funktionen aktivieren
+## Alte Funktionen aktivieren
 
 Falls die Schrift- und Größenauswahl für Sie unverzichtbar ist, können Sie die Tools in *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) wieder aktivieren (ab Zeile 79):
 
