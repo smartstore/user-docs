@@ -44,4 +44,4 @@ Um Ihre Newsletter-Abonnenten zu verwalten, gehen Sie zu **Admin > Marketing > N
 
 Wenn Sie Ihre Newsletter-Kampagnen bisher mit einem anderen Tool verwaltet haben, können Sie Ihre Abonnentenliste per CSV-Datei in Smartstore importieren. Die erste Spalte muss die E-Mail-Adresse des Abonnenten enthalten. Optional kann die Datei zwei weitere Spalten enthalten: In der zweiten Spalte kann angegeben werden, ob der Abonnent aktiv ist; in der dritten Spalte kann ein bestimmter Shop angegeben werden, zum Beispiel über die jeweilige Shop-ID. Spaltenüberschriften sind nicht erforderlich.
 
-Erstellen Sie ein Importprofil, um Newsletter-Abonnenten zu importieren. Erstellen Sie ein Exportprofil, wenn Sie Newsletter-Abonnenten exportieren möchten.
+Erstellen Sie ein [Importprofil](../datenaustausch/import/importprofile-verwalten.md), um Newsletter-Abonnenten zu importieren. Erstellen Sie ein [Exportprofil](../datenaustausch/export/exportprofile-verwalten.md), wenn Sie Newsletter-Abonnenten exportieren möchten.
