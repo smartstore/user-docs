@@ -17,7 +17,7 @@ Die für Überschriften verwendeten h\*-Tags können im Editor ausgewählt werde
 
 Markieren Sie die Zeile, die der Überschrift entspricht, und wählen Sie das Dropdown-Menü Stil (Symbol: ¶). Dieses Menü bietet eine Auswahl von sechs verschiedenen Überschriften, die in hierarchischer Reihenfolge zu verwenden sind. Unterüberschriften sind durch eine größere Zahl gekennzeichnet. Wenn Sie eine Überschrift auswählen, wird die Formatierung automatisch angewendet und im Editor angezeigt.
 
-Im Quelltext (Symbol: </>) sehen Sie, dass um den ausgewählten Text ein h\*-Tag gesetzt wurde.
+Im Quelltext (Symbol: </\>) sehen Sie, dass um den ausgewählten Text ein h\*-Tag gesetzt wurde.
 
 ## Kommende Funktionen
 
@@ -35,7 +35,7 @@ In Kombination mit der *\_user.scss* können auch eigene Klassen für Schrift- u
 
 Es besteht auch die Möglichkeit eigene Formate in der *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) zu hinterlegen. Diese werden über das Objekt `cssclass` im Unterobjekt `formats` zur Verfügung gestellt und müssen manuell hinzugefügt werden.
 
-```
+```javascript
 summernote_global_config = {
     /* Inhalt zu Demonstrationszwecken verkürzt dargestellt. */
     imageAttributes: {
@@ -65,7 +65,7 @@ Die Eigenschaften `inline`, `displayClass` und `style` beziehen sich auf die Dar
 
 Falls die Schrift- und Größenauswahl für Sie unverzichtbar ist, können Sie die Tools in *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) wieder aktivieren (ab Zeile 79):
 
-```
+```javascript
 toolbar: [
     ['edit', ['undo', 'redo']],
     ['text', ['bold', 'italic', 'underline', 'color', 'moreFontStyles']],

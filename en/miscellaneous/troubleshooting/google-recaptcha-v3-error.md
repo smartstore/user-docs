@@ -9,7 +9,7 @@ It may happen that after switching to reCAPTCHA V3 or during a reconfiguration, 
 * **Button behavior:** When clicking a button (e.g., in the contact form or during registration), it is briefly deactivated (grayed out) and reactivated after a few seconds.
 * **No action:** Nothing else happens. No postback takes place, the form is not submitted, and there is no log entry in the system log.
 * **Browser Console:** If you open the browser developer tools (F12 key) and look at the **Console**, you will see an error indicating that the URL `https://www.google.com/recaptcha/api.js` could not be loaded.
-  * Error message: `400 ERR_BLOCKED_BY_ORB`
+  * Error message: `400 ERR_BLOCKED_BY_ORB` or `NS_ERROR_CORRUPTED_CONTENT`
 
 #### Cause
 

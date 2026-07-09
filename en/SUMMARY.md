@@ -179,4 +179,6 @@
 * [Developer Guide](welcome/developer-guide.md)
 * [FAQs](welcome/faqs.md)
 * [Troubleshooting](miscellaneous/troubleshooting/README.md)
+  * [Cloudflare](miscellaneous/integrations/cloudflare.md)
   * [Google reCAPTCHA V3 Error](miscellaneous/troubleshooting/google-recaptcha-v3-error.md)
+  * [Summernote Font Tools Deactivated](miscellaneous/troubleshooting/summernote-font-tools-deactivated.md)
