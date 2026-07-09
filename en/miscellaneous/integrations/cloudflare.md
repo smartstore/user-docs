@@ -45,7 +45,7 @@ The following examples show the required configuration in Cloudflare.
 
 ![Cloudflare caching rules](../../.gitbook/assets/troubleshooting_cloudflare_taskscheduler1.png)
 
-![Cloudflare security rules](../.gitbook/assets/troubleshooting_cloudflare_taskscheduler2.png)
+![Cloudflare security rules](../../.gitbook/assets/troubleshooting_cloudflare_taskscheduler2.png)
 
 ## Use the real client IP
 
