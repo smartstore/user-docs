@@ -181,4 +181,4 @@
 * [Troubleshooting](welcome/troubleshooting.md)
   * [Cloudflare](verschiedenes/integrationen/cloudflare.md)
   * [Google reCAPTCHA V3 Fehler](verschiedenes/troubleshooting/google-recaptcha-v3-fehler.md)
-  * [Summernote Font-Tools deaktiviert](troubleshooting/summernote-font-tools-deaktiviert.md)
+  * [Summernote Font-Tools deaktiviert](verschiedenes/troubleshooting/summernote-font-tools-deaktiviert.md)

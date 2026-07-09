@@ -24,4 +24,4 @@ Eine ausführliche Beschreibung der Ursache und Lösung finden Sie unter [Google
 
 In Smartstore Version 6 wurden die Funktionen zur direkten Auswahl von Schriftart und Schriftgröße im HTML-Editor deaktiviert. Dies ist eine bewusste Änderung, um sauberen HTML-Code, eine bessere Suchmaschinenoptimierung und ein einheitliches Erscheinungsbild von Inhalten zu gewährleisten.
 
-Falls die Font-Tools weiterhin benötigt werden oder individuelle Formatierungen im Editor umgesetzt werden sollen, finden Sie weitere Informationen und Anpassungsmöglichkeiten unter [Summernote Font-Tools deaktiviert](../troubleshooting/summernote-font-tools-deaktiviert.md).
+Falls die Font-Tools weiterhin benötigt werden oder individuelle Formatierungen im Editor umgesetzt werden sollen, finden Sie weitere Informationen und Anpassungsmöglichkeiten unter [Summernote Font-Tools deaktiviert](../verschiedenes/troubleshooting/summernote-font-tools-deaktiviert.md).
