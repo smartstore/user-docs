@@ -6,13 +6,13 @@ Newsletter-Marketing ist ein wirkungsvolles Instrument, um bestehende Kunden ern
 
 Mit der Einstellung **Konfiguration > Einstellungen > Kunden-Einstellungen > Verberge Newsletter-Anmeldeformular** aktivieren oder deaktivieren Sie das Anmeldeformular für den Newsletter im Fußbereich Ihres Shops. Dort können sich Shopbesucher für Ihren Newsletter anmelden oder ihn abbestellen.
 
-![](https://raw.githubusercontent.com/smartstore/user-docs/main/de/.gitbook/assets/newsletter_kampagnen_verwalten_1.png)
+![](../../.gitbook/assets/newsletter_kampagnen_verwalten_1.png)
 
 ### Kampagnen verwalten
 
 Sie verwalten Ihre Kampagnen unter **Admin > Marketing > Kampagnen**. Um eine neue Kampagne zu erstellen, klicken Sie auf **Neu**. Anschließend erfassen Sie eine **Bezeichnung** für die interne Verwendung, den **Betreff** der E-Mail und den Inhalt der **HTML-Nachricht**.
 
-![](https://raw.githubusercontent.com/smartstore/user-docs/main/de/.gitbook/assets/newsletter%20campaings.png)
+![](<../../.gitbook/assets/newsletter campaings.png>)
 
 #### Platzhalter für Nachrichten
 
@@ -20,7 +20,7 @@ Platzhalter für Nachrichten, intern auch MessageTokens genannt, werden zur Lauf
 
 Die verfügbaren Platzhalter werden angezeigt, sobald Sie auf **+ Platzhalter auswählen** klicken.
 
-![](https://raw.githubusercontent.com/smartstore/user-docs/main/de/.gitbook/assets/platzhalter.PNG)
+![](../../.gitbook/assets/platzhalter.PNG)
 
 Die folgende Tabelle zeigt Beispiele für Platzhalter, die Sie in Newsletter-Kampagnen verwenden können.
 
@@ -36,7 +36,7 @@ Die folgende Tabelle zeigt Beispiele für Platzhalter, die Sie in Newsletter-Kam
 
 Auf der Registerkarte **Shops** können Sie die Kampagne auf bestimmte Shops einschränken. Sobald Sie die Kampagne gespeichert haben, können Sie sie an alle Abonnenten verschicken, indem Sie auf **Senden** klicken. Über **Vorschau** können Sie außerdem eine Test-E-Mail senden. Es öffnet sich ein Vorschaufenster, in dem Sie unter **Test-E-Mail an ...** den Empfänger des Test-Newsletters eintragen können. Wir empfehlen dringend, vor dem Versand eine Test-E-Mail zu senden. So prüfen Sie den Newsletter, bevor er an Ihre Kunden verschickt wird.
 
-![](https://raw.githubusercontent.com/smartstore/user-docs/main/de/.gitbook/assets/newsletter-vorschau.PNG)
+![](../../.gitbook/assets/newsletter-vorschau.PNG)
 
 ### Abonnenten verwalten
 
