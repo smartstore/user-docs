@@ -33,5 +33,5 @@ Prüfen Sie vor der Installation, ob Ihr Hosting-Paket oder Server die Vorausset
 {% endcolumns %}
 
 {% hint style="info" %}
-**Smartstore aus dem Quellcode erstellen**: Wenn Sie die Quellcode-Version von Smartstore heruntergeladen haben, müssen Sie die Anwendung erstellen, bevor Sie sie auf Ihren Server hochladen können. Weitere Informationen finden Sie unter „[How to build Smartstore](https://dev.smartstore.com/readme/deployment-and-build)”.
+**Smartstore aus dem Quellcode erstellen**: Wenn Sie die Quellcode-Version von Smartstore heruntergeladen haben, müssen Sie die Anwendung erstellen, bevor Sie sie auf Ihren Server hochladen können. Weitere Informationen finden Sie unter „[How to build Smartstore](https://docs.smartstore.com/developer/readme/deployment-and-build)”.
 {% endhint %}
