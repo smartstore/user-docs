@@ -50,6 +50,11 @@ test("reads markdown links and backtick values", () => {
 test("matches labels to project options independent of punctuation and case", () => {
   assert.equal(normalize("DE Sprachreview"), normalize("de-sprachreview"));
   assert.equal(
+    normalize("DE Optimierungsvorschläge"),
+    normalize("de-optimierungsvorschlaege"),
+  );
+  assert.equal(normalize("Screenshots prüfen"), normalize("screenshots-pruefen"));
+  assert.equal(
     findOption(
       { name: "Stage", options: [{ id: "option-id", name: "DE Sprachreview" }] },
       "de-sprachreview",
