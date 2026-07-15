@@ -1,0 +1,43 @@
+name: Sync docs issue to project
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: Issue number to synchronize
+        required: true
+        type: number
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      ISSUE_NUMBER: ${{ inputs.issue_number }}
+      PROJECT_ORGANIZATION: smartstore
+      PROJECT_NUMBER: "2"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Test metadata parser
+        run: node --test .github/scripts/sync-docs-project.test.js
+
+      - name: Synchronize project fields
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PROJECTS_TOKEN }}
+          script: |
+            const sync = require("./.github/scripts/sync-docs-project.js");
+            await sync.run({
+              github,
+              context,
+              core,
+              issueNumber: Number(process.env.ISSUE_NUMBER),
+              organization: process.env.PROJECT_ORGANIZATION,
+              projectNumber: Number(process.env.PROJECT_NUMBER),
+            });
