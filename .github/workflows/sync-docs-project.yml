@@ -1,6 +1,8 @@
 name: Sync docs issue to project
 
 on:
+  issues:
+    types: [opened, edited, labeled, unlabeled, reopened]
   workflow_dispatch:
     inputs:
       issue_number:
@@ -12,11 +14,16 @@ permissions:
   contents: read
   issues: read
 
+concurrency:
+  group: docs-project-sync-${{ github.event.issue.number || inputs.issue_number }}
+  cancel-in-progress: true
+
 jobs:
   sync:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'docs-overhaul')
     runs-on: ubuntu-latest
     env:
-      ISSUE_NUMBER: ${{ inputs.issue_number }}
+      ISSUE_NUMBER: ${{ inputs.issue_number || github.event.issue.number }}
       PROJECT_ORGANIZATION: smartstore
       PROJECT_NUMBER: "2"
 
@@ -26,6 +33,10 @@ jobs:
 
       - name: Test metadata parser
         run: node --test .github/scripts/sync-docs-project.test.js
+
+      - name: Allow label changes to settle
+        if: github.event_name == 'issues'
+        run: sleep 2
 
       - name: Synchronize project fields
         uses: actions/github-script@v7
