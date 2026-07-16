@@ -29,7 +29,7 @@ The following details about **the switches**, **escaping** (which characters sho
 
 ## Configuration
 
-![](../../.gitbook/assets/module_urlrewriter_configuration.png)
+![Plugin configuration of UrlRewriter](../../.gitbook/assets/module_urlrewriter_configuration.png)
 
 | **Option** | **Description** |
 | ------------------------ | ---------------------------------------------- |

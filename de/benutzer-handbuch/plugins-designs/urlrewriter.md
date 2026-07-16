@@ -29,7 +29,7 @@ Die weiteren Details zu den **Schaltern**, zum **Escaping** (welche Zeichen bei 
 
 ## Konfiguration
 
-![](../../.gitbook/assets/module_urlrewriter_einstellungen.png)
+![Plugin-Konfiguration von UrlRewriter](../../.gitbook/assets/module_urlrewriter_einstellungen.png)
 
 | **Option** | **Beschreibung**                               |
 | ------------------------ | ---------------------------------------------- |
