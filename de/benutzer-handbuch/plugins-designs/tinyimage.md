@@ -1,12 +1,33 @@
 # TinyImage
 
-Mit dem TinyImage Plugin können die hochgeladenen Bilder komprimiert werden.
+> Bildkomprimierung bis zu 80%
 
-![](../../.gitbook/assets/tinyimage.PNG)
+TinyImage ist ein Plugin, das die Dateigröße hochgeladener Bilder deutlich reduzieren kann, ohne dass Sie dabei manuell jedes Bild neu komprimieren müssen. Sie bekommen schlankere Mediendateien, geringere Ladezeiten und dadurch ein insgesamt flüssigeres Nutzererlebnis, insbesondere auf Seiten mit vielen Bildern (z. B. Produktlisten, Blogs oder Content-Seiten).
 
-## Konfiguration des TinyImage Plugins
+Im Hintergrund arbeitet TinyImage mit intelligenten Komprimierungsstrategien: Je nach Bildformat und Bildinhalt werden passende Verfahren eingesetzt, um die Speichermenge zu verringern. Dadurch kann die Bilddateigröße, je nach Ausgangsbild, spürbar reduziert werden. Dabei werden auch dynamisch generierte Thumbnails berücksichtigt, damit die Optimierung nicht nur für hochgeladene Originale, sondern auch für die in der Darstellung verwendeten Vorschaubilder greift.
 
-| **Eingabefeld / Option**    | **Beschreibung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+## Einsatzbereiche
+
+* **Uploads komprimieren**: Komprimiert Bilder direkt beim Hochladen.
+* **Thumbnails komprimieren**: Optimiert dynamisch erzeugte Thumbnails.
+
+## Formate
+
+TinyImage arbeitet formatabhängig und unterstützt die Bildformate [PNG](https://de.wikipedia.org/wiki/Portable_Network_Graphics), [JPG](https://de.wikipedia.org/wiki/JPEG) und [GIF](https://de.wikipedia.org/wiki/Graphics_Interchange_Format).
+
+### WebP
+
+[WebP](https://de.wikipedia.org/wiki/WebP) ist ein modernes Bildformat, das relativ effizient komprimiert und je nach Anwendungsfall gute Ergebnisse bei Dateigröße und Qualität liefern kann. TinyImage kann WebP als Ausgabe erzeugen, sodass WebP-fähige Browser die optimierten Versionen erhalten.
+
+{% hint style="warning" %}
+Browser, die WebP nicht unterstützen, erhalten weiterhin Bilder im Originalformat (PNG oder JPG).
+{% endhint %}
+
+## Konfiguration
+
+![Plugin-Konfiguration von TinyImage](../../.gitbook/assets/module_tinyimage_einstellungen.png)
+
+| **Option**    | **Beschreibung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Komprimierung**           | TinyImage wendet intelligente Komprimierungstechniken auf Bilder an, um ihre Dateigröße um bis zu 80% zu reduzieren. Beachten Sie jedoch, dass dadurch die Verarbeitungs-Geschwindigkeit für Bilder, die noch nicht im Cache liegen, leicht abnimmt. Beachten Sie außerdem, dass während der Komprimierung - je nach Bild - die Speicherauslastung temporär mehrere hundert MB steigen kann.                                                                                                                                                                                                                                                                                                                                         |
 | Uploads komprimieren        | Wendet Komprimierung auf hochgeladene Bilder an.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
