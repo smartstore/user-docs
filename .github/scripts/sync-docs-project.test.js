@@ -46,6 +46,22 @@ test("parses documentation metadata from an issue", () => {
   });
 });
 
+test("keeps empty change request fields empty", () => {
+  const emptyChangeRequests = `## Change Requests
+
+- DE Sprache:
+- Optimierung:
+- Fachcheck:
+- Screenshots:
+- EN Sync:
+`;
+
+  assert.equal(readBodyValue(emptyChangeRequests, "DE Sprache"), "");
+  assert.equal(readBodyValue(emptyChangeRequests, "Optimierung"), "");
+  assert.equal(readBodyValue(emptyChangeRequests, "Fachcheck"), "");
+  assert.equal(readBodyValue(emptyChangeRequests, "EN Sync"), "");
+});
+
 test("reads markdown links and backtick values", () => {
   assert.equal(readBodyValue("Pfad: `a/b`", "Pfad"), "a/b");
   assert.equal(
