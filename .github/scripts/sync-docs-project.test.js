@@ -2,6 +2,7 @@ const assert = require("node:assert/strict");
 const test = require("node:test");
 
 const {
+  buildFieldUpdates,
   findOption,
   normalize,
   parseIssueMetadata,
@@ -16,6 +17,7 @@ GitBook URL: https://app.gitbook.com/s/space/loslegen/readme
 ## Change Requests
 
 - DE Sprache: https://app.gitbook.com/o/org/s/space/~/changes/change-id/
+- Optimierung: https://app.gitbook.com/o/org/s/space/~/changes/optimization-id/
 `;
 
 test("parses documentation metadata from an issue", () => {
@@ -35,7 +37,8 @@ test("parses documentation metadata from an issue", () => {
     area: "loslegen",
     pagePath: "loslegen/readme",
     gitBookUrl: "https://app.gitbook.com/s/space/loslegen/readme",
-    gitBookCr: "https://app.gitbook.com/o/org/s/space/~/changes/change-id/",
+    sprachreviewCr: "https://app.gitbook.com/o/org/s/space/~/changes/change-id/",
+    optimierungsCr: "https://app.gitbook.com/o/org/s/space/~/changes/optimization-id/",
   });
 });
 
@@ -76,5 +79,45 @@ test("rejects ambiguous stage labels", () => {
         ],
       }),
     /exactly one stage:/,
+  );
+});
+
+test("resolves the current project field names before synchronization", () => {
+  const metadata = parseIssueMetadata({
+    body: issueBody,
+    labels: ["stage:de-sprachreview", "lang:de", "area:loslegen"],
+  });
+  const project = {
+    fields: [
+      { id: "stage", name: "Stage", options: [{ id: "review", name: "DE Sprachreview" }] },
+      { id: "language", name: "Sprache", options: [{ id: "de", name: "DE" }] },
+      { id: "area", name: "Area", options: [{ id: "start", name: "Loslegen" }] },
+      { id: "path", name: "Page Path" },
+      { id: "url", name: "GitBook URL" },
+      { id: "language-cr", name: "Sprachreview-CR" },
+      { id: "optimization-cr", name: "Optimierungs-CR" },
+    ],
+  };
+
+  const updates = buildFieldUpdates(project, metadata);
+
+  assert.deepEqual(
+    updates.singleSelect.map(({ field }) => field.name),
+    ["Stage", "Sprache", "Area"],
+  );
+  assert.deepEqual(
+    updates.text.map(({ field }) => field.name),
+    ["Page Path", "GitBook URL", "Sprachreview-CR", "Optimierungs-CR"],
+  );
+});
+
+test("rejects stale project field names before synchronization", () => {
+  const metadata = parseIssueMetadata({
+    body: issueBody,
+    labels: ["stage:de-sprachreview", "lang:de", "area:loslegen"],
+  });
+  assert.throws(
+    () => buildFieldUpdates({ fields: [] }, metadata),
+    /Project field 'Stage' was not found/,
   );
 });
