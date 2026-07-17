@@ -8,24 +8,23 @@ icon: bolt
 
 **Smartstore** ist eine kostenlose, quelloffene, voll funktionsfähige E-Commerce-Lösung für Unternehmen jeder Größe. Sie ist mit den Webstandards kompatibel und beinhaltet die neueste Microsoft-Webtechnologie.
 
-**Smartstore enthält alle wesentlichen Funktionen, um mehrsprachige und mehrwährungsfähige Shops für Desktop- oder Mobilgeräte zu erstellen** und ermöglicht SEO-optimierte Produktkataloge mit Unterstützung für eine unbegrenzte Anzahl von Produkten und Kategorien, Varianten, Paketen, Datenblättern, ESD, Rabatten, Gutscheinen und vielem mehr.
+**Smartstore enthält alle wesentlichen Funktionen, um mehrsprachige und mehrwährungsfähige Shops für Desktop- und Mobilgeräte zu erstellen** und ermöglicht SEO-optimierte Produktkataloge mit Unterstützung für eine unbegrenzte Anzahl von Produkten und Kategorien, Varianten, Paketen, Datenblättern, ESD, Rabatten, Gutscheinen und vielem mehr.
 
 Ein umfassendes Paket von Tools für CRM und CMS sowie für Vertrieb, Marketing, Zahlung, Versand und Auftragsabwicklung macht Smartstore zu einer leistungsstarken All-in-One-Lösung, die alle Ihre Anforderungen erfüllt – und das völlig kostenlos.
 
-**Smartstore bietet ein modernes und konfigurierbares Shop-Frontend, das nach hohen Designstandards entwickelt wurde,** einschließlich Komponenten wie `Bootstrap`, `SASS` und anderen. Die innovative ShopBar, eine leistungsstarke Layer-Navigation, Bewertungen, ein optimierter Checkout-Prozess – all das sorgt für ein perfektes Einkaufserlebnis für Ihre Kunden.
+**Smartstore bietet ein modernes und konfigurierbares Shop-Frontend, das nach hohen Designstandards entwickelt wurde,** einschließlich Komponenten wie `Bootstrap`, `SASS` und anderen. Die ShopBar, eine leistungsstarke Layer-Navigation, Bewertungen und ein optimierter Checkout-Prozess tragen zu einem komfortablen Einkaufserlebnis auf Desktop- und Mobilgeräten bei.
 
-Die moderne Architektur von Smartstore mit `ASP.NET Core 9`, `Entity Framework Core 9` und einem Domain-Driven-Design-Ansatz ermöglicht einfache Erweiterungen, bietet hohe Flexibilität und erleichtert die Entwicklung.
+Die moderne Architektur von Smartstore mit `ASP.NET Core`, `Entity Framework Core` und einem Domain-Driven-Design-Ansatz ermöglicht einfache Erweiterungen, bietet hohe Flexibilität und erleichtert die Entwicklung.
 
 ## Funktionen
 
 ### Allgemeine Funktionen
 
-|                                |                                                                                                                                                                                                                                          |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Kunden-Login/Mein Konto        | Erlaubt jedem Besucher, der sich im Shop registriert, ein Kundenkonto anzulegen. Mit dem Konto können Kunden Adressen eingeben, Aufträge einsehen und den Versandstatus verfolgen.                                                       |
-| SmartStore.biz Import          | Erlaubt die einfache Übertragung nahezu aller Daten (Informationen zum genauen Umfang des Datenimports finden Sie [hier](http://documents.smartstore.com/SmartStoreNET_BIZ-Importer.pdf)) aus Ihrem vorhandenen **SmartStore.biz**-Shop. |
-| Lagerbestandsverwaltung        | Erlaubt Ihnen, einen Überblick darüber zu erhalten, welche Produkte neu bestellt werden müssen.                                                                                                                                          |
-| Auftrags- und Kundenverwaltung | Erlaubt Ihnen, Rechnungen zu drucken sowie Produktbewertungen und Blogeinträge zu verwalten.                                                                                                                                             |
+|                                |                                                                                                                                                                                    |
+| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Kunden-Login/Mein Konto        | Erlaubt jedem Besucher, der sich im Shop registriert, ein Kundenkonto anzulegen. Mit dem Konto können Kunden Adressen eingeben, Aufträge einsehen und den Versandstatus verfolgen. |
+| Lagerbestandsverwaltung        | Erlaubt Ihnen, einen Überblick darüber zu erhalten, welche Produkte neu bestellt werden müssen.                                                                                    |
+| Auftrags- und Kundenverwaltung | Erlaubt Ihnen, Rechnungen zu drucken sowie Produktbewertungen und Blogeinträge zu verwalten.                                                                                       |
 
 ### Kundenverwaltung
 
@@ -48,10 +47,10 @@ Die moderne Architektur von Smartstore mit `ASP.NET Core 9`, `Entity Framework C
 
 ### Mobile Geräte
 
-|                                   |                                                                                                                                                    |
-| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 100 % optimiert für mobile Geräte | Der Shop erkennt automatisch, ob er über ein mobiles Gerät oder einen Computer aufgerufen wird, und stellt die Inhalte entsprechend optimiert dar. |
-| SMS-Benachrichtigung              | Erlaubt Ihnen, Ihre Kunden darüber zu informieren, sobald ein vergriffenes Produkt wieder lieferbar ist.                                           |
+|                                |                                                                                                          |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| Responsives Design             | Das Shop-Frontend passt sich automatisch an unterschiedliche Bildschirmgrößen und Endgeräte an.          |
+| Verfügbarkeitsbenachrichtigung | Ermöglicht Kunden, sich benachrichtigen zu lassen, sobald ein vergriffenes Produkt wieder lieferbar ist. |
 
 ### Marketing
 
@@ -61,7 +60,7 @@ Die moderne Architektur von Smartstore mit `ASP.NET Core 9`, `Entity Framework C
 | Bonuspunkte und Treueprogramm      | Bietet Bonuspunkte und ein Treueprogramm zur Kundenbindung und als Anreiz für Ihre Kunden, weitere Käufe zu tätigen. |
 | Produktrezensionen und Bewertungen | Erlaubt Ihnen, Ihre Verkäufe zu erhöhen und ermutigt Ihre Kunden, Einkäufe mit Produktempfehlungen zu tätigen.       |
 | Cross-Promotionen                  | Ermöglicht intelligente Cross-Promotion für zuvor angesehene Produkte.                                               |
-| Export zu Shopping-Portalen        | Bietet Schnittstellen für Preisvergleichsportale wie Google Base, billiger.de und ShopWahl.                          |
+| Export zu Shopping-Portalen        | Bietet Schnittstellen für Preisvergleichs- und Shopping-Portale wie Google Merchant Center und billiger.de.          |
 
 ### Versand
 
@@ -74,17 +73,17 @@ Die moderne Architektur von Smartstore mit `ASP.NET Core 9`, `Entity Framework C
 
 ### SEO
 
-|                                  |                                                                                                                                                                                                         |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Meta-Tags                        | Legen Sie konfigurierte Meta- und Title-Tags für jedes Produkt, jede Kategorie und jeden Hersteller an.                                                                                                 |
-| News auf der Startseite anzeigen | Stellen Sie sicher, dass die News automatisch auf Ihrer Startseite angezeigt werden, damit Suchmaschinen Ihre Inhalte als neu einstufen und Ihre Seite dadurch höher bewerten.                          |
-| Suchmaschinenfreundliche URLs    | Dank sogenannter sprechender URLs erhalten Sie Top-Ratings von allen relevanten Suchmaschinen. Sie können suchmaschinenfreundliche Seitennamen für Inhalte wie Produkt- und Kategorieseiten einstellen. |
+|                                  |                                                                                                                   |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Meta-Tags                        | Legen Sie individuelle Meta-Tags und Seitentitel für Produkte, Kategorien und Hersteller fest.                    |
+| News auf der Startseite anzeigen | Newsbeiträge können auf der Startseite angezeigt werden und sorgen dort für regelmäßig aktualisierte Inhalte.     |
+| Suchmaschinenfreundliche URLs    | Sie können für Inhalte wie Produkt- und Kategorieseiten aussagekräftige, suchmaschinenfreundliche URLs festlegen. |
 
 ### Bezahl-Schnittstellen
 
-|                                              |                                                                                                                                                                                 |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bezahlung bei Versand, Vorkasse, Kreditkarte | In Smartstore stehen Ihnen alle gängigen Zahlungsmethoden wie Nachnahme, Vorkasse oder Kreditkarte zur Verfügung. Daneben können Sie auch Online-Zahlungsmethoden anbieten.     |
-| Amazon Bezahlungen                           | Die Anmeldung und Bezahlung mit Amazon erleichtert Millionen von Amazon-Kunden den Einkauf in Ihrem Shop. Dabei können sie die bei Amazon hinterlegten Zahlungsdaten verwenden. |
-| PayPal Express                               | PayPal Express bietet Ihren Kunden eine besonders schnelle Zahlungsmethode. Der verkürzte Bestellvorgang kann die Anzahl der Kaufabbrüche reduzieren.                           |
-| Und vieles mehr                              | Für weitere Bezahlschnittstellen besuchen Sie bitte den [Smartstore Community Marketplace](http://community.smartstore.com/index.php?/files/).                                  |
+|                                              |                                                                                                                                                                             |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bezahlung bei Versand, Vorkasse, Kreditkarte | In Smartstore stehen Ihnen alle gängigen Zahlungsmethoden wie Nachnahme, Vorkasse oder Kreditkarte zur Verfügung. Daneben können Sie auch Online-Zahlungsmethoden anbieten. |
+| Amazon Pay                                   | Die Anmeldung und Bezahlung mit Amazon Pay erleichtert Amazon-Kunden den Einkauf in Ihrem Shop. Dabei können sie die bei Amazon hinterlegten Zahlungsdaten verwenden.       |
+| PayPal                                       | PayPal bietet Ihren Kunden eine schnelle und vertraute Online-Zahlungsmethode.                                                                                              |
+| Und vieles mehr                              | Für weitere Bezahlschnittstellen besuchen Sie bitte den [Smartstore Community Marketplace](https://community.smartstore.com/marketplace).                                   |
