@@ -47,6 +47,7 @@ function parseIssueMetadata(issue) {
   const gitBookUrl = readBodyValue(issue.body, "GitBook URL");
   const sprachreviewCr = readBodyValue(issue.body, "DE Sprache");
   const optimierungsCr = readBodyValue(issue.body, "Optimierung");
+  const fachcheckCr = readBodyValue(issue.body, "Fachcheck");
 
   if (!pagePath) throw new Error("Issue body is missing 'Pfad'.");
   if (!gitBookUrl) throw new Error("Issue body is missing 'GitBook URL'.");
@@ -59,6 +60,7 @@ function parseIssueMetadata(issue) {
     gitBookUrl,
     sprachreviewCr,
     optimierungsCr,
+    fachcheckCr,
   };
 }
 
@@ -186,6 +188,7 @@ function buildFieldUpdates(project, metadata) {
     ["GitBook URL", metadata.gitBookUrl, true],
     ["Sprachreview-CR", metadata.sprachreviewCr, false],
     ["Optimierungs-CR", metadata.optimierungsCr, false],
+    ["Fachcheck-CR", metadata.fachcheckCr, false],
   ].map(([fieldName, value, required]) => ({
     field: findField(project.fields, fieldName),
     value,
@@ -246,6 +249,7 @@ async function run({ github, context, core, issueNumber, organization, projectNu
       ["GitBook URL", metadata.gitBookUrl],
       ["Sprachreview-CR", metadata.sprachreviewCr || "(empty)"],
       ["Optimierungs-CR", metadata.optimierungsCr || "(empty)"],
+      ["Fachcheck-CR", metadata.fachcheckCr || "(empty)"],
     ]);
   await core.summary.write();
 
