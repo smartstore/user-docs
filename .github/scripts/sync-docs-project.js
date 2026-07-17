@@ -22,7 +22,7 @@ function stripMarkdown(value) {
 function readBodyValue(body, label) {
   const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = String(body || "").match(
-    new RegExp(`^\\s*(?:-\\s*)?${escaped}:\\s*(.*)$`, "im"),
+    new RegExp(`^[ \\t]*(?:-[ \\t]*)?${escaped}:[ \\t]*(.*)$`, "im"),
   );
   return match ? stripMarkdown(match[1]) : "";
 }
