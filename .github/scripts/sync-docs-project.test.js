@@ -116,8 +116,14 @@ test("rejects stale project field names before synchronization", () => {
     body: issueBody,
     labels: ["stage:de-sprachreview", "lang:de", "area:loslegen"],
   });
+  const staleProject = {
+    fields: [
+      { id: "stage", name: "Stage", options: [{ id: "review", name: "DE Sprachreview" }] },
+      { id: "language", name: "Language", options: [{ id: "de", name: "DE" }] },
+    ],
+  };
   assert.throws(
-    () => buildFieldUpdates({ fields: [] }, metadata),
-    /Project field 'Stage' was not found/,
+    () => buildFieldUpdates(staleProject, metadata),
+    /Project field 'Sprache' was not found/,
   );
 });
