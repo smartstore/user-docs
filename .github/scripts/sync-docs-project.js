@@ -45,7 +45,8 @@ function parseIssueMetadata(issue) {
   const labels = issue.labels || [];
   const pagePath = readBodyValue(issue.body, "Pfad");
   const gitBookUrl = readBodyValue(issue.body, "GitBook URL");
-  const gitBookCr = readBodyValue(issue.body, "DE Sprache");
+  const sprachreviewCr = readBodyValue(issue.body, "DE Sprache");
+  const optimierungsCr = readBodyValue(issue.body, "Optimierung");
 
   if (!pagePath) throw new Error("Issue body is missing 'Pfad'.");
   if (!gitBookUrl) throw new Error("Issue body is missing 'GitBook URL'.");
@@ -56,7 +57,8 @@ function parseIssueMetadata(issue) {
     area: labelSuffix(labels, "area:"),
     pagePath,
     gitBookUrl,
-    gitBookCr,
+    sprachreviewCr,
+    optimierungsCr,
   };
 }
 
@@ -168,6 +170,31 @@ async function clearFieldValue(github, projectId, itemId, fieldId) {
   );
 }
 
+function buildFieldUpdates(project, metadata) {
+  const singleSelect = [
+    ["Stage", metadata.stage],
+    ["Sprache", metadata.language],
+    ["Area", metadata.area],
+  ].map(([fieldName, sourceValue]) => {
+    const field = findField(project.fields, fieldName);
+    const option = findOption(field, sourceValue);
+    return { field, option };
+  });
+
+  const text = [
+    ["Page Path", metadata.pagePath, true],
+    ["GitBook URL", metadata.gitBookUrl, true],
+    ["Sprachreview-CR", metadata.sprachreviewCr, false],
+    ["Optimierungs-CR", metadata.optimierungsCr, false],
+  ].map(([fieldName, value, required]) => ({
+    field: findField(project.fields, fieldName),
+    value,
+    required,
+  }));
+
+  return { singleSelect, text };
+}
+
 async function run({ github, context, core, issueNumber, organization, projectNumber }) {
   if (!Number.isInteger(issueNumber) || issueNumber < 1) {
     throw new Error("issue_number must be a positive integer.");
@@ -189,26 +216,16 @@ async function run({ github, context, core, issueNumber, organization, projectNu
 
   const metadata = parseIssueMetadata(issue);
   const project = await getProject(github, organization, projectNumber);
+  const updates = buildFieldUpdates(project, metadata);
   const itemId = await findProjectItem(github, project.id, issue.node_id);
 
-  for (const [fieldName, sourceValue] of [
-    ["Stage", metadata.stage],
-    ["Language", metadata.language],
-    ["Area", metadata.area],
-  ]) {
-    const field = findField(project.fields, fieldName);
-    const option = findOption(field, sourceValue);
+  for (const { field, option } of updates.singleSelect) {
     await setFieldValue(github, project.id, itemId, field.id, {
       singleSelectOptionId: option.id,
     });
   }
 
-  for (const [fieldName, value, required] of [
-    ["Page Path", metadata.pagePath, true],
-    ["GitBook URL", metadata.gitBookUrl, true],
-    ["GitBook CR", metadata.gitBookCr, false],
-  ]) {
-    const field = findField(project.fields, fieldName);
+  for (const { field, value, required } of updates.text) {
     if (value) {
       await setFieldValue(github, project.id, itemId, field.id, { text: value });
     } else if (!required) {
@@ -223,11 +240,12 @@ async function run({ github, context, core, issueNumber, organization, projectNu
       ["Issue", `#${issueNumber}`],
       ["Project", `${organization}/${project.title}`],
       ["Stage", metadata.stage],
-      ["Language", metadata.language],
+      ["Sprache", metadata.language],
       ["Area", metadata.area],
       ["Page Path", metadata.pagePath],
       ["GitBook URL", metadata.gitBookUrl],
-      ["GitBook CR", metadata.gitBookCr || "(empty)"],
+      ["Sprachreview-CR", metadata.sprachreviewCr || "(empty)"],
+      ["Optimierungs-CR", metadata.optimierungsCr || "(empty)"],
     ]);
   await core.summary.write();
 
@@ -235,6 +253,8 @@ async function run({ github, context, core, issueNumber, organization, projectNu
 }
 
 module.exports = {
+  buildFieldUpdates,
+  findField,
   findOption,
   normalize,
   parseIssueMetadata,
