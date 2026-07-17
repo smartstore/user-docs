@@ -1,6 +1,6 @@
 # Ereignistypen einrichten
 
-In einem Shop gibt es Vorgänge, die jeden Tag mehrfach auftreten. Smartstore loggt diese im **Aktivitätslog**, den Sie erreichen, indem Sie zu **Kunden > Aktivitätslog** gehen. Es gibt unterschiedliche Ereignistypen, die bei der Installation von Smartstore angelegt werden. Sie können aber selbst entscheiden, welche Aktivitäten für Sie am wichtigsten sind und daher mitgeloggt werden sollen. So können Sie Aktivitäten von der Aufzeichnung ausnehmen, indem Sie zu **Konfiguration > Ereignistypen** gehen. Dort können Sie das Loggen bestimmter Ereignisse aktivieren oder deaktivieren, indem Sie in der Tabelle einen Haken bei **Aktiviert**  setzen oder entfernen und dann auf **Speichern** klicken.
+In einem Shop gibt es Vorgänge, die täglich mehrfach auftreten. Smartstore protokolliert diese im **Aktivitätslog**, das Sie unter **Kunden > Aktivitätslog** aufrufen können. Bei der Installation von Smartstore werden unterschiedliche Ereignistypen angelegt. Sie können jedoch selbst entscheiden, welche Aktivitäten für Sie relevant sind und deshalb protokolliert werden sollen. Um Aktivitäten von der Aufzeichnung auszunehmen, öffnen Sie **Konfiguration > Ereignistypen**. Dort können Sie die Protokollierung bestimmter Ereignisse aktivieren oder deaktivieren. Setzen oder entfernen Sie dazu in der Tabelle den Haken bei **Aktiviert** und klicken Sie anschließend auf **Speichern**.
 
 ## Einige interessante Ereignistypen
 
