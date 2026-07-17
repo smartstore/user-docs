@@ -24,7 +24,15 @@ Die moderne Architektur von Smartstore mit `ASP.NET Core`, `Entity Framework Cor
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Kunden-Login/Mein Konto        | Erlaubt jedem Besucher, der sich im Shop registriert, ein Kundenkonto anzulegen. Mit dem Konto können Kunden Adressen eingeben, Aufträge einsehen und den Versandstatus verfolgen. |
 | Lagerbestandsverwaltung        | Erlaubt Ihnen, einen Überblick darüber zu erhalten, welche Produkte neu bestellt werden müssen.                                                                                    |
-| Auftrags- und Kundenverwaltung | Erlaubt Ihnen, Rechnungen zu drucken sowie Produktbewertungen und Blogeinträge zu verwalten.                                                                                       |
+| Auftrags- und Kundenverwaltung | Erlaubt Ihnen, Kunden und Aufträge zu verwalten sowie Aufträge zu drucken.                                                                                                         |
+
+### Administration und Plattform
+
+|                         |                                                                                                                       |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Rule Builder            | Ermöglicht, Geschäftsregeln für unterschiedliche Bereiche visuell zu erstellen und flexibel miteinander zu verbinden. |
+| Facettierte Suche       | Ermöglicht Kunden, Produktkataloge anhand verschiedener Merkmale gezielt zu filtern.                                  |
+| Berechtigungsverwaltung | Ermöglicht, Berechtigungen über Rollen differenziert zu steuern und Zugriffe gezielt einzuschränken.                  |
 
 ### Kundenverwaltung
 
@@ -59,7 +67,8 @@ Die moderne Architektur von Smartstore mit `ASP.NET Core`, `Entity Framework Cor
 | E-Mail-Marketing                   | Ermöglicht E-Mail-Marketing mit frei konfigurierbaren Newsletter-Vorlagen.                                           |
 | Bonuspunkte und Treueprogramm      | Bietet Bonuspunkte und ein Treueprogramm zur Kundenbindung und als Anreiz für Ihre Kunden, weitere Käufe zu tätigen. |
 | Produktrezensionen und Bewertungen | Erlaubt Ihnen, Ihre Verkäufe zu erhöhen und ermutigt Ihre Kunden, Einkäufe mit Produktempfehlungen zu tätigen.       |
-| Cross-Promotionen                  | Ermöglicht intelligente Cross-Promotion für zuvor angesehene Produkte.                                               |
+| Cross-Selling                      | Ermöglicht, passende Zusatzprodukte gezielt Produkten zuzuordnen und im Warenkorb anzuzeigen.                        |
+| Zuletzt angesehene Produkte        | Zeigt Kunden zuvor aufgerufene Produkte erneut an.                                                                   |
 | Export zu Shopping-Portalen        | Bietet Schnittstellen für Preisvergleichs- und Shopping-Portale wie Google Merchant Center und billiger.de.          |
 
 ### Versand
