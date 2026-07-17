@@ -19,6 +19,7 @@ GitBook URL: https://app.gitbook.com/s/space/loslegen/readme
 - DE Sprache: https://app.gitbook.com/o/org/s/space/~/changes/change-id/
 - Optimierung: https://app.gitbook.com/o/org/s/space/~/changes/optimization-id/
 - Fachcheck: https://app.gitbook.com/o/org/s/space/~/changes/fachcheck-id/
+- EN Sync: https://app.gitbook.com/o/org/s/space/~/changes/en-sync-id/
 `;
 
 test("parses documentation metadata from an issue", () => {
@@ -41,6 +42,7 @@ test("parses documentation metadata from an issue", () => {
     sprachreviewCr: "https://app.gitbook.com/o/org/s/space/~/changes/change-id/",
     optimierungsCr: "https://app.gitbook.com/o/org/s/space/~/changes/optimization-id/",
     fachcheckCr: "https://app.gitbook.com/o/org/s/space/~/changes/fachcheck-id/",
+    enSyncCr: "https://app.gitbook.com/o/org/s/space/~/changes/en-sync-id/",
   });
 });
 
@@ -99,6 +101,7 @@ test("resolves the current project field names before synchronization", () => {
       { id: "language-cr", name: "Sprachreview-CR" },
       { id: "optimization-cr", name: "Optimierungs-CR" },
       { id: "fachcheck-cr", name: "Fachcheck-CR" },
+      { id: "en-sync-cr", name: "EN-Sync-CR" },
     ],
   };
 
@@ -110,7 +113,7 @@ test("resolves the current project field names before synchronization", () => {
   );
   assert.deepEqual(
     updates.text.map(({ field }) => field.name),
-    ["Page Path", "GitBook URL", "Sprachreview-CR", "Optimierungs-CR", "Fachcheck-CR"],
+    ["Page Path", "GitBook URL", "Sprachreview-CR", "Optimierungs-CR", "Fachcheck-CR", "EN-Sync-CR"],
   );
 });
 
