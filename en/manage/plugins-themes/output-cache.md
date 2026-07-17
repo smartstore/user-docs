@@ -1,12 +1,26 @@
 # Output Cache
 
-The Output Cache allows for the caching of entire shop pages, thereby contributing to a significant increase in performance.
+With **Output Cache**, the finished versions of complete shop pages are cached. That means Smartstore doesn’t have to recalculate and regenerate everything from scratch for every request. Instead, the page can be delivered from the cache for matching requests. This saves processing time and makes pages load faster, especially on high-traffic pages such as categories, list views, or overview pages with content.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+The cache runs on the server and can optionally be configured to refresh when important content in the shop changes. This keeps the shop fast while also making it as up to date as possible.
 
-## General
+## Benefits
+
+### Faster page load times
+Pages that are visited frequently don’t have to be fully rebuilt every time. This reduces waiting time, especially on pages that are called often.
+
+### Less load on the system
+Smartstore has to do less computation because the ready-made page content can be reused. That means fewer repeated processing steps for every request and the shop runs smoother overall.
+
+### More stable user experience during high traffic
+When many visitors are active in the shop at the same time, it’s more likely that some pages load slower because many requests need to be recalculated in parallel. With the Output Cache, part of that work is done ahead of time and reused, so performance remains more consistent.
+
+### Control over how long content is kept
+You can set how long a page remains in the cache before it’s regenerated. This determines how strongly “speed” is prioritized over “maximum freshness.” Short cache durations keep content more current, while longer cache durations improve performance.
+
+## Configuration
+
+![Plugin configuration](../../.gitbook/assets/module_outputcache_configuration.png)
 
 | **Input field / Option**                 | **Description**                                                                                                                                                                                                                          |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -28,6 +42,4 @@ The Routes and Invalidation options should only be used/changed by experienced u
 
 Under the Statistics tab, the pages stored in the cache are displayed and can also be deleted from the cache there.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+![Configuration - Tab "Statistics"](../../.gitbook/assets/module_outputcache_configuration_statistics.png)
