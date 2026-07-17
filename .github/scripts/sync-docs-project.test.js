@@ -18,6 +18,7 @@ GitBook URL: https://app.gitbook.com/s/space/loslegen/readme
 
 - DE Sprache: https://app.gitbook.com/o/org/s/space/~/changes/change-id/
 - Optimierung: https://app.gitbook.com/o/org/s/space/~/changes/optimization-id/
+- Fachcheck: https://app.gitbook.com/o/org/s/space/~/changes/fachcheck-id/
 `;
 
 test("parses documentation metadata from an issue", () => {
