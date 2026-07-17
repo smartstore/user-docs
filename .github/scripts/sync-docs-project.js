@@ -22,7 +22,31 @@ function stripMarkdown(value) {
 function readBodyValue(body, label) {
   const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = String(body || "").match(
-    new RegExp(`^\\s*(?:-\\s*)?${escaped}:\\s*(.*)$`, "im"),
+    new RegExp(`^[ \\t]*(?:-[ \\t]*)?${escaped}:[ \\t]*(.*)/* eslint-disable no-console */
+
+function normalize(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/ä/g, "ae")
+    .replace(/ö/g, "oe")
+    .replace(/ü/g, "ue")
+    .replace(/ß/g, "ss")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+function stripMarkdown(value) {
+  const trimmed = String(value || "").trim();
+  const linked = trimmed.match(/^\[[^\]]+\]\((https?:\/\/[^)]+)\)$/);
+  if (linked) return linked[1];
+  return trimmed.replace(/^`|`$/g, "").replace(/^<|>$/g, "").trim();
+}
+
+function readBodyValue(body, label) {
+  const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = String(body || "").match(
+    , "im"),
   );
   return match ? stripMarkdown(match[1]) : "";
 }
