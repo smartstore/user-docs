@@ -1,8 +1,14 @@
 # Smartstore Docker-Images ausführen
 
-Mit Docker können Anwendungen schnell und unabhängig vom Betriebssystem und der Umgebung bereitgestellt werden. Zu diesem Zweck werden die Anwendungen in sogenannte Images gepackt. Diese Images können weitergegeben und auch kopiert werden. Im Gegensatz zu virtuellen Maschinen sind Docker-Images viel schlanker.
+Ein Container-Image enthält die Dateien, Bibliotheken und Konfigurationen, die zum Starten einer Anwendung erforderlich sind. Aus einem Image wird ein laufender Container erstellt. Container teilen sich Ressourcen des Hostsystems und verursachen dadurch in vielen Szenarien weniger Overhead als vollständige virtuelle Maschinen.
 
-Einsatzbereite Smartstore-Docker-Images finden Sie unter [https://github.com/orgs/smartstore/packages](https://github.com/orgs/smartstore/packages). Sie können jedoch auch [modifizierte Docker-Images erstellen](https://smartstore.atlassian.net/wiki/spaces/SMNET50/pages/1956122004) und verwenden.
+Das offizielle Linux-Image finden Sie im [Smartstore-Linux-Paket auf GitHub](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux). Der vollständige Image-Name lautet ghcr.io/smartstore/smartstore-linux. Verwenden Sie für reproduzierbare Installationen einen konkreten Release-Tag. Der Tag latest verweist dagegen auf den jeweils aktuell als latest veröffentlichten Stand.
 
-* [Smartstore Docker-Images unter Windows ausführen](smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-windows-ausfuhren.md)
-* [Smartstore Docker-Images unter Linux ausführen](smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-linux-ausfuhren.md)
+Voraussetzung ist, dass Docker Desktop oder Docker Engine installiert und gestartet ist. Ein allein gestarteter Smartstore-Container benötigt für die Installation eine erreichbare, unterstützte Datenbank. Für produktive Systeme müssen Sie außerdem persistente Daten, sichere Zugangsdaten und eine kontrollierte Versionsstrategie berücksichtigen.
+
+Wählen Sie den passenden Ablauf:
+
+* [Smartstore unter Windows mit Docker Desktop starten](smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-windows-ausfuhren.md)
+* [Smartstore unter Linux mit Docker Engine starten](smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-linux-ausfuhren.md)
+* [Smartstore und Datenbank zusammen mit Docker Compose starten](smartstore-docker-images-ausfuhren/smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md)
+* [Ein modifiziertes Docker-Image mit Plugins oder anderen Anpassungen erstellen](smartstore-docker-images-ausfuhren/modifiziertes-docker-image-erstellen.md)
