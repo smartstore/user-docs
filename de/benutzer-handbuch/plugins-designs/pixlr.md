@@ -8,11 +8,11 @@ Bietet die Möglichkeit Bilder direkt im MedienManager zu Erstellen und Bearbeit
 
 Die Pixlr Funktionalität ist ab Smartstore v6 im MedienManager integriert. Dazu navigieren Sie im Backend zu **CMS** &rarr; **Medien**. Wir bieten zwei Möglichkeiten an, Pixlr zu benutzen:
 
-* Zur Erstellung von neuen Inhalten:
+* Mit der Option **Mit Pixlr erstellen**, die sich nach einem Rechtsklick auf einen Ordner öffnet, können neue Inhalte erstellt werden.
 
   ![Neue Inhalte - Mit Pixlr erstellen](../../.gitbook/assets/module_pixlr_medienmanager_neu.png)
 
-* Zur Modifizierung vorhandener Inhalte:
+* Die Bearbeitung kann durch einen Rechtsklick auf ein Bild und der Auswahl von **Mit Pixlr bearbeiten** gestartet werden.
 
   ![Alte Inhalte - Mit Pixlr bearbeiten](../../.gitbook/assets/module_pixlr_medienmanager_bearbeiten.png)
 
