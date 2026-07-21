@@ -16,7 +16,7 @@ Die in diesem Artikel angeführten Beispiele sind weder rechtsverbindlich noch r
 
 Bei dem Hersteller müssen Daten hinterlegt werden, die dann in den Produktdetails angezeigt werden. Dazu navigieren Sie im Backend auf **Katalog** → **Hersteller** und wechseln dann zum Tab **GPSR**.
 
-![Angaben zum Hersteller im GPSR-Tab](../../.gitbook/assets/HerstellerTab.PNG)
+![Angaben zum Hersteller im GPSR-Tab](../../.gitbook/assets/module_gpsr_hersteller_tab.png)
 
 | **Option**              | **Beschreibung**                                                                                                                          | **Beispiel**                                                                                                                                                                                                                                                                                                                 |
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25,17 +25,17 @@ Bei dem Hersteller müssen Daten hinterlegt werden, die dann in den Produktdetai
 
 Für alle Produkte, die dem Hersteller zugeordnet sind, werden die hinterlegten Daten automatisch in den Produktdetails angezeigt.
 
-![Herstellerinformationen auf der Produktdetailseite](../../.gitbook/assets/ProduktDetails_Hersteller.PNG)
+![Herstellerinformationen auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_produktdetailseite_herstellerinformationen.png)
 
 ## Textbausteine hinzufügen
 
 Warnungs- und Sicherheitshinweise können als Textbausteine manuell, oder automatisch per Regeln hinzugefügt werden. Navigieren Sie dazu im Backend auf **CMS** → **Textbausteine.**
 
-![Übersicht aller Textbausteine](../../.gitbook/assets/Textbausteine.PNG)
+![Übersicht aller Textbausteine](../../.gitbook/assets/module_gpsr_textbaustein_uebersicht.png)
 
 Über **Neu** können weitere Textbausteine hinzugefügt werden.
 
-![Eingabe der Textbaustein-Daten](../../.gitbook/assets/Textbausteine_Neu.PNG)
+![Eingabe der Textbaustein-Daten](../../.gitbook/assets/module_gpsr_textbaustein_neu.png)
 
 | **Option**                        | **Beschreibung**                                                                                                               | **Beispiel**                                                                                                                                                                                                                                         |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -55,11 +55,11 @@ Auch Medien, wie Bilder und PDFs lassen sich problemlos über Textbausteine per 
 
 Um einem Produkt ein oder mehrere Textbausteine zuzuweisen, navigieren Sie zum gewünschten Produkt und wählen Sie den GPSR-Tab aus.
 
-![GPSR-Tab im Produkt-Editor](../../.gitbook/assets/ProduktTab.PNG)
+![GPSR-Tab im Produkt-Editor](../../.gitbook/assets/module_gpsr_produkteditor_gpsrtab.png)
 
 Wählen Sie die gewünschten Textbausteine aus der Liste aus, um sie auf der Produktdetailseite anzuzeigen.
 
-![Textbausteine auf der Produktdetailseite](../../.gitbook/assets/ProduktDetails_Hersteller_Textblock.PNG)
+![Textbausteine auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_produktdetailseite_textblock.png)
 
 Die Darstellung der Herstellerdaten und Textbausteine kann in [der Konfiguration](produktsicherheitsverordnung-gpsr.md#konfiguration) geändert werden.
 
