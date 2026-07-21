@@ -10,7 +10,7 @@ Pixlr functionality is integrated into the Media Manager starting with Smartstor
 
 * With the option **Create with Pixlr**, which appears after right-clicking a folder, you can create new content.
 
-  ![New content - Create with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_new.png)
+  ![New content - Create with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_createnew.png)
 
 * Editing can be started by right-clicking an image and selecting **Edit with Pixlr**.
 
