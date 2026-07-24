@@ -154,7 +154,7 @@
   * [Plugins verwalten](benutzer-handbuch/plugins-designs/plugins-verwalten.md)
   * [Mit Themes arbeiten](benutzer-handbuch/plugins-designs/mit-themes-arbeiten.md)
   * [Zahlungsanbieter und Zahlungsarten](benutzer-handbuch/plugins-designs/paymentproviders.md)
-  * [MegaSearch Plugin](benutzer-handbuch/plugins-designs/megasearch-plugin.md)
+  * [MegaSearch](benutzer-handbuch/plugins-designs/megasearch.md)
   * [Mega Menu](benutzer-handbuch/plugins-designs/mega-menu.md)
   * [TinyImage](benutzer-handbuch/plugins-designs/tinyimage.md)
   * [UrlRewriter](benutzer-handbuch/plugins-designs/urlrewriter.md)

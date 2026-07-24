@@ -1,4 +1,4 @@
-# MegaSearch Plugin
+# MegaSearch
 
 In den Smartstore kann die bisherige Suchfunktion durch eine auf Apache Lucene basierende Suche ersetzt werden. Schon während der Eingabe des Suchbegriffes kann die Instant-Suche unterhalb der Eingabezeile relevante Vorschläge zur aktuellen Suche anzeigen.
 

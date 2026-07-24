@@ -2,11 +2,9 @@
 
 Durch dem in den Premium und Enterprise Editionen enthaltenen MegaSearchPlus Plugin lassen sich die Suchtreffer durch eine Facettennavigation eingrenzen.
 
-### Beispiel einer Facettennavigation:
+![Facettennavigation](../../../.gitbook/assets/module_megasearchplus_facettensuche.png)
 
-![](../../../.gitbook/assets/facetten.JPG)
-
-Welche Inhalte in der Facettennavigation angezeigt werden, wird im [MegaSearch Plugin](../../plugins-designs/megasearch-plugin.md) , in den Produktdetails unter dem Tab [Spezifikationsattribute](../../../verwalten/katalog/spezifikationsattribute-verwalten.md) und bei den [Produktattributen](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md) festgelegt.
+Welche Inhalte in der Facettennavigation angezeigt werden, wird im [MegaSearch Plugin](../../plugins-designs/megasearch.md) , in den Produktdetails unter dem Tab [Spezifikationsattribute](../../../verwalten/katalog/spezifikationsattribute-verwalten.md) und bei den [Produktattributen](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md) festgelegt.
 
 Die Einstellungen in den Produktdetails haben eine höhere Gewichtung als die Einstellungen der Spezifikationsattribute. Diese wiederum haben eine höhere Gewichtung als die globalen Einstellungen im MegaSearch Plugin.
 
