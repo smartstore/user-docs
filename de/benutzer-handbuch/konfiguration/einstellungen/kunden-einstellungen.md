@@ -97,7 +97,7 @@ Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **K
 
 |                                                  |                                                                                                                                                                                      |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Cookie-Hinweis aktivieren                        | Legt fest, ob ein Element für die Zustimmung zur Nutzung von Cookies im Frontend angezeigt wird. Weitere Infos finden Sie unter [Datenschutz/DSGVO](../../plugins-designs/dsgvo.md). |
+| Cookie-Hinweis aktivieren                        | Legt fest, ob ein Element für die Zustimmung zur Nutzung von Cookies im Frontend angezeigt wird. Weitere Infos finden Sie unter [Datenschutz/DSGVO](../../plugins/dsgvo.md). |
 | Cookie-Hinweistext                               | Bestimmt den Text, der Ihren Kunden beim Besuch der Seite angezeigt wird, sofern Sie ihre Zustimmung zur Nutzung von Cookies noch nicht gegeben haben.                               |
 | IP-Adresse speichern                             | Legt fest, ob die IP-Adresse im Kundendatensatz gespeichert werden soll.                                                                                                             |
 | Einwilligungserklärung in Formularen fordern     | Bestimmt ob in Formularen eine Checkbox angezeigt wird, die den Benutzer auffordert der Verarbeitung seiner Daten zuzustimmen.                                                       |

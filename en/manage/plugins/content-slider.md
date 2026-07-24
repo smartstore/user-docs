@@ -25,7 +25,7 @@ The **URL** of a button can be specified either completely (including _http_ or 
 {% endhint %}
 
 {% hint style="info" %}
-The colors of the button types are defined in the configuration area of your theme. For further information on configuring themes, please read [Working with Themes](working-with-themes.md).
+The colors of the button types are defined in the configuration area of your theme. For further information on configuring themes, please read [Working with Themes](../configuration/working-with-themes.md).
 {% endhint %}
 
 {% hint style="warning" %}

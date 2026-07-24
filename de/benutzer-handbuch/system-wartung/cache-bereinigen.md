@@ -14,7 +14,7 @@ Sie können den Cache bereinigen, indem Sie auf das Zahnrad-Symbol im Administra
 
 ### Output Cache
 
-Weitere Informationen zum Output Cache finden Sie [hier](../plugins-designs/output-cache-ausgabecache.md).
+Weitere Informationen zum Output Cache finden Sie [hier](../plugins/output-cache-ausgabecache.md).
 
 ### Bilder Cache
 

@@ -36,4 +36,4 @@ Sie können unterschiedliche Einstellungen für jeden Ihrer angelegten Shops vor
 
 ## Plugins bei mehreren Shops konfigurieren
 
-Sie können Plugins für einzelne Shops aktivieren bzw. deaktivieren. Für weitere Informationen lesen Sie bitte [Plugins verwalten](../plugins-designs/plugins-verwalten.md).
+Sie können Plugins für einzelne Shops aktivieren bzw. deaktivieren. Für weitere Informationen lesen Sie bitte [Plugins verwalten](../plugins/plugins-verwalten.md).

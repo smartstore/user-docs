@@ -4,7 +4,7 @@ Durch dem in den Premium und Enterprise Editionen enthaltenen MegaSearchPlus Plu
 
 ![Facettennavigation](../../../.gitbook/assets/module_megasearchplus_facettensuche.png)
 
-Welche Inhalte in der Facettennavigation angezeigt werden, wird im [MegaSearch Plugin](../../plugins-designs/megasearch.md) , in den Produktdetails unter dem Tab [Spezifikationsattribute](../../../verwalten/katalog/spezifikationsattribute-verwalten.md) und bei den [Produktattributen](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md) festgelegt.
+Welche Inhalte in der Facettennavigation angezeigt werden, wird im [MegaSearch Plugin](../../plugins/megasearch.md) , in den Produktdetails unter dem Tab [Spezifikationsattribute](../../../verwalten/katalog/spezifikationsattribute-verwalten.md) und bei den [Produktattributen](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md) festgelegt.
 
 Die Einstellungen in den Produktdetails haben eine höhere Gewichtung als die Einstellungen der Spezifikationsattribute. Diese wiederum haben eine höhere Gewichtung als die globalen Einstellungen im MegaSearch Plugin.
 

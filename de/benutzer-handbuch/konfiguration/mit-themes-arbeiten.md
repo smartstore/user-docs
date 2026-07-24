@@ -1,6 +1,26 @@
 # Mit Themes arbeiten
 
-Themes legen in Smartstore das Design Ihres Shops fest. Um das Standard-Theme Ihres Shops zu wählen, klicken Sie einfach auf **Aktivieren**. Um das Theme für Ihren Shop zu konfigurieren, gehen Sie zu **Konfiguration > Themes**.&#x20;
+Themes legen in Smartstore das Design Ihres Shops fest.
+
+## Wie man ein Theme hochlädt und installiert
+
+Smartstore wird mit bereits installierten Themes ausgeliefert. Weitere Themes finden Sie auf dem [Smartstore Marketplace](http://community.smartstore.com/index.php?/files/) von Smartstore selbst und von Drittanbietern. Smartstore Theme-Dateien haben das Dateiformat Zip und die Endung `.zip`.
+
+Wählen Sie den Menüpunkt **Konfiguration > Themes** und klicken Sie auf die Schaltfläche **Theme hochladen**. Wählen Sie die Zip-Datei aus, die das Theme enthält.
+
+![](../../.gitbook/assets/themes_upload_v5_de.png)
+
+Das Theme wurde nun hochgeladen und kann im Bereich der Theme-Verwaltung konfiguriert und aktiviert werden.
+
+![](../../.gitbook/assets/installed_themes__v5_de.png)
+
+## Manueller Upload
+
+Sie können Themes auch manuell hochladen, indem Sie sie in das Verzeichnis `/Themes` hochladen. Nach dem Upload müssen Sie die Liste der Themes neu laden. Klicken Sie dazu im Konfigurationsbereich des Themes auf die Schaltfläche **Themes neu laden**. Nun wird Ihr neues Theme im entsprechenden Konfigurationsbereich angezeigt und ist bereit, konfiguriert und verwendet zu werden.
+
+## Wie man ein Theme aktiviert
+
+Um das Standard-Theme Ihres Shops zu wählen, klicken Sie einfach auf **Aktivieren**. Um das Theme für Ihren Shop zu konfigurieren, gehen Sie zu **Konfiguration > Themes**.
 
 ![](../../.gitbook/assets/themes-1.PNG)
 
@@ -24,5 +44,11 @@ Um die Vorschau für ein Theme zu erhalten, klicken Sie bitte auf das kleine Aug
 | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Kunden können eigenes Theme auswählen | Erlaubt es Kunden, ein eigenes Theme auszuwählen. Wenn diese Option aktiviert ist, können Ihre Kunden ein Theme aus allen Themes, die in Ihrem Shop installiert sind im Footer auswählen.                                                                                                                                                                                                     |
 | Benutzer Theme in Cookie speichern    | Wenn nicht gewählt, wird das Benutzer Theme mit dem Kundenkonto verknüpft, was unter Umständen unerwünscht sein kann, wenn sich bspw. mehrere User einen Gastzugang teilen.                                                                                                                                                                                                                   |
-| Asset Bundling aktivieren             | Legt fest, ob JS- und CSS-Dateien in Gruppen zusammengefasst werden sollen, um den Seitenaufbau zu beschleunigen. Wählen Sie Automatisch, wenn das Bundling von der Debug-Einstellung in der web.config abhängig sein soll.<br><br> **Info**<br> Developer Tip<br> Deaktivieren Sie Ressourcen-Bundling und -Caching, um Theme-Änderungen optimal testen und debuggen zu können.              |
+| Asset Bundling aktivieren             | Legt fest, ob JS- und CSS-Dateien in Gruppen zusammengefasst werden sollen, um den Seitenaufbau zu beschleunigen. Wählen Sie Automatisch, wenn das Bundling von der Debug-Einstellung in der web.config abhängig sein soll.                                                                                                      |
 | Asset Caching aktivieren              | Legt fest, ob kompilierte JS- und CSS-Dateien wie bspw. 'Sass' im Dateisystem zwischengespeichert werden sollen, um den Programmstart zu beschleunigen. Wählen Sie 'Automatisch', wenn das Caching von der Debug-Einstellung in der web.config abhängig sein soll.                                                                                                                            |
+
+{% hint style="info" %}
+**Entwicklertipp**
+
+Deaktivieren Sie Ressourcen-Bundling und -Caching, um Theme-Änderungen optimal testen und debuggen zu können.
+{% endhint %}

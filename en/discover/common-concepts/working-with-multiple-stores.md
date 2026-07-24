@@ -34,4 +34,4 @@ You can define different settings for each of your configured stores. For more i
 
 ## Configuring Plugins in an Environment with Multiple Stores
 
-You can activate or deactivate plugins for certain stores. For more information, read the topic [Managing Plugins](../../manage/plugins-themes/managing-plugins.md).
+You can activate or deactivate plugins for certain stores. For more information, read the topic [Managing Plugins](../../manage/plugins/managing-plugins.md).

@@ -37,4 +37,4 @@ In dieser Registerkarte können Sie verwalten, in welchem oder welchen Shop(s) e
 
 ### ContentSlider
 
-In dieser Registerkarte können Slider für die Seiten hinzugefügt werden. Für weitere Informationen zum ContentSlider lesen Sie [ContentSlider Plugin](../plugins-designs/content-slider.md).
+In dieser Registerkarte können Slider für die Seiten hinzugefügt werden. Für weitere Informationen zum ContentSlider lesen Sie [ContentSlider Plugin](../plugins/content-slider.md).

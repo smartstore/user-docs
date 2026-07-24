@@ -23,7 +23,7 @@ Die **URL** eines Button kann entweder komplett angeben werden (einschließlich 
 {% endhint %}
 
 {% hint style="info" %}
-Die Farben der Button-Typen werden im Konfigurationsbereichs Ihres Themes festgelegt. Für weitere Informationen zur Konfiguration von Themes lesen Sie bitte [Mit Themes arbeiten](../plugins-designs/mit-themes-arbeiten.md).
+Die Farben der Button-Typen werden im Konfigurationsbereichs Ihres Themes festgelegt. Für weitere Informationen zur Konfiguration von Themes lesen Sie bitte [Mit Themes arbeiten](../konfiguration/mit-themes-arbeiten.md).
 {% endhint %}
 
 ![](../../.gitbook/assets/wie_man_den_content_slider_gestaltet_2.png)

@@ -4,7 +4,7 @@ The MegaSearchPlus plugin, included in the Premium and Enterprise editions, allo
 
 ![Faceted navigation](../../../.gitbook/assets/module_megasearchplus_facetedsearch.png)
 
-The content displayed in the faceted navigation is determined in the [MegaSearch plugin](../../plugins-themes/megasearch.md), in the product details under the [Specification Attributes](../../catalog/managing-specification-attributes.md) tab, and in the [Product Attributes](../../catalog/managing-products/understanding-product-variants.md).
+The content displayed in the faceted navigation is determined in the [MegaSearch plugin](../../plugins/megasearch.md), in the product details under the [Specification Attributes](../../catalog/managing-specification-attributes.md) tab, and in the [Product Attributes](../../catalog/managing-products/understanding-product-variants.md).
 
 The settings in the product details take precedence over the specification attribute settings. In turn, the specification attribute settings take precedence over the global settings in the MegaSearch plugin.
 

@@ -19,7 +19,7 @@ A button's **URL** can either be fully qualified (including the _http_ or _https
 {% endhint %}
 
 {% hint style="info" %}
-The colors for all these **Button Types** are configured in your theme configuration. For more information about theme configuration, read the topic [Working with Themes](../plugins-themes/working-with-themes.md).
+The colors for all these **Button Types** are configured in your theme configuration. For more information about theme configuration, read the topic [Working with Themes](../configuration/working-with-themes.md).
 {% endhint %}
 
 ![](../../.gitbook/assets/single-slide.png)

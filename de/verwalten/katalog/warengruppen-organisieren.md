@@ -55,11 +55,11 @@ In dieser Registerkarte können Sie Ihrer Warengruppe bereits angelegte Produkte
 
 ### Registerkarte Mega Menu
 
-In dieser Registerkarte wird die Konfiguration des Mega-Menu-Plugins vorgenommen. Für weitere Informationen zum Mega Menu lesen Sie bitte [das Mega Menu Plugin](../../benutzer-handbuch/plugins-designs/mega-menu.md).
+In dieser Registerkarte wird die Konfiguration des Mega-Menu-Plugins vorgenommen. Für weitere Informationen zum Mega Menu lesen Sie bitte [das Mega Menu Plugin](../../benutzer-handbuch/plugins/mega-menu.md).
 
 ### Registerkarte ContentSlider
 
-In dieser Registerkarte können Slider für die Warengruppe hinzugefügt werden. Für weitere Informationen zum ContentSlider lesen Sie [das ContentSlider Plugin](../../benutzer-handbuch/plugins-designs/content-slider.md).
+In dieser Registerkarte können Slider für die Warengruppe hinzugefügt werden. Für weitere Informationen zum ContentSlider lesen Sie [das ContentSlider Plugin](../../benutzer-handbuch/plugins/content-slider.md).
 
 ### Andere Registerkarten
 

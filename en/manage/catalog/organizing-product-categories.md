@@ -54,7 +54,7 @@ In this tab, you add existing products to your category. When you click **Add a 
 
 ### Mega Menu Tab
 
-This tab is used to configure the Mega Menu plugin. For more information about Mega Menu, see [Mega Menu](../plugins-themes/mega-menu.md).
+This tab is used to configure the Mega Menu plugin. For more information about Mega Menu, see [Mega Menu](../plugins/mega-menu.md).
 
 ### Other Tabs
 

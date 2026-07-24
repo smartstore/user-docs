@@ -2,5 +2,5 @@
 icon: puzzle-piece
 ---
 
-# Plugins & Designs
+# Plugins
 

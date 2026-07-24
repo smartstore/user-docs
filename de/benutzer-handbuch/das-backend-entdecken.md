@@ -40,7 +40,7 @@ Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den folgenden wichtigen Modu
 * [**CMS**](../benutzer-handbuch/content-management/) - Erlaubt die Verwaltung von Inhalten, die mit Ihrem Shop in Verbindung stehen, dazu gehören Seiten und Inhalte, News, Blogs, Foren, Umfragen und Widgets. Hier können Sie auch Nachrichtenvorlagen bearbeiten.
 * [**Konfiguration**](../benutzer-handbuch/konfiguration/)  - Erlaubt die Konfiguration des Kernsystems  und regionale Einstellungen. Sie können hier Shops, Zahlungsarten, Listen, E-Mail-Konten, Zugriffsrechte, ACL und Themes konfigurieren.
 * [**System**](../handbuch/system-and-wartung/) - Erlaubt Ihnen, Systeminformationen,  die E-Mail-Verwaltung, SEO Namen, Warnungen und geplante Aufgaben einzusehen.
-* [**Plugins**](../handbuch/plugins-themes/) - Erlaubt die Installation und Aktualisierung von Plugins. Sie können hier auch SMS-Anbieter und Developer Tools verwalten.
+* [**Plugins**](../handbuch/plugins/) - Erlaubt die Installation und Aktualisierung von Plugins. Sie können hier auch SMS-Anbieter und Developer Tools verwalten.
 
 ## Links rechts oben
 
