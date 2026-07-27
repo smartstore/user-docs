@@ -141,6 +141,7 @@
   * [Cookie Manager](manage/configuration/cookie-manager.md)
   * [Setting up Tax Calculation](manage/configuration/setting-up-tax-calculation.md)
   * [Managing Delivery Times](manage/configuration/managing-delivery-times.md)
+  * [Rules](manage/configuration/rules.md)
   * [Working with Themes](manage/configuration/working-with-themes.md)
 * [System & Maintenance](manage/system-maintenance/README.md)
   * [Performing Common Maintenance Tasks](manage/system-maintenance/performing-common-maintenance-tasks.md)

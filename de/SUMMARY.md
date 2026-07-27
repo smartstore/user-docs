@@ -141,6 +141,7 @@
   * [Cookie-Manager](benutzer-handbuch/konfiguration/cookie-manager.md)
   * [Steuerberechnung einrichten](benutzer-handbuch/konfiguration/steuerberechnung-einrichten.md)
   * [Lieferzeiten einrichten](benutzer-handbuch/konfiguration/lieferzeiten-einrichten.md)
+  * [Regeln](benutzer-handbuch/konfiguration/regeln.md)
   * [Mit Themes arbeiten](benutzer-handbuch/konfiguration/mit-themes-arbeiten.md)
 * [System & Wartung](handbuch/system-and-wartung/README.md)
   * [Grundlegende Wartungsaufgaben ausführen](benutzer-handbuch/system-wartung/grundlegende-wartungsaufgaben-ausfuhren.md)
