@@ -1,107 +1,89 @@
 # AttributeRules (Regeln für Produktattribute)
 
-## Regeln
+Mit **AttributeRules** steuern Sie, welche Produktattribute abhängig von der aktuellen Produktauswahl angezeigt werden. So lassen sich umfangreiche Produktkonfigurationen übersichtlich aufbauen: Zusätzliche Eingaben erscheinen erst dann, wenn sie tatsächlich benötigt werden.
 
-Attribute können in Abhängigkeit von anderen Attributen dynamisch ein- oder ausgeblendet werden. Dies erhöht die Übersichtlichkeit und Flexibilität bei der Konfiguration von Produkten erheblich.
+![Bearbeiung einer Attributregel](../../.gitbook/assets/module_attributerules_product_attributetab_rules_example.png)
 
-![AttributRegeln.PNG](../../.gitbook/assets/AttributRegeln.PNG)
+Typische Anwendungsfälle sind optionale Gravuren, Aufdrucke, Zubehörpakete oder weitere Auswahlmöglichkeiten für eine bestimmte Produktvariante.
 
-### Alt gegen Neu
+{% hint style="info" %}
+Produktattributregeln werden direkt am jeweiligen Attribut eines Produkts eingerichtet. Sie gehören nicht zu den Regelsätzen unter **System** &rarr; **Regeln** und müssen keiner separaten Aktion zugeordnet werden. Allgemeine Informationen zum Aufbau einer Bedingung und zu Vergleichsoperatoren finden Sie unter [Regeln](../konfiguration/regeln.md).
+{% endhint %}
 
-Früher war der Prozess wesentlich aufwändiger. Ein Beispiel ist [das Josef-Hoffmann-Sofa (3-Sitzer, Cubus 1910)](https://core.smartstore.com/backend/josef-hoffmann-sofa-3-sitzer-cubus-1910/):
+## Praxisbeispiel: Optionale Gravur
 
-* Der alte Ansatz erforderte die Erstellung zahlreicher Varianten, was zu einer unüberschaubaren Anzahl von Konfigurationsmöglichkeiten führte.
-* Die Preise mussten für jede Variante manuell eingegeben werden, was zeitaufwändig und fehleranfällig war.
+Eine Uhr soll wahlweise mit einer Gravur bestellt werden können. Entscheidet sich der Kunde gegen die Gravur, bleiben die dafür vorgesehenen Eingabefelder verborgen. Bei Auswahl einer Gravur werden ein Pflichtfeld für den Gravurtext und eine Auswahl der Schriftart eingeblendet.
 
-Der neue Ansatz vereinfacht diesen Prozess erheblich. Am Beispiel des [gleichen Produkts](https://52a.smartstore.com/-josef-hoffmann-sofa-3-sitzer-cubus-1910-/) werden jetzt nur noch drei Qualitäten und zehn Farben definiert. Die Preise werden auf der Ebene der Qualitäten eingegeben, was den Verwaltungsaufwand reduziert und die Variantenlogik übersichtlicher macht.
+![Attributübersicht mit Regeln](../../.gitbook/assets/module_attributerules_product_attributetab.png)
 
-![Attribute.PNG](../../.gitbook/assets/Attribute.PNG)
+Für diese Konfiguration werden dem Produkt folgende Attribute zugewiesen:
 
-Diese Verbesserung ermöglicht eine effizientere und benutzerfreundlichere Handhabung von Attributen und Preisen.
+| Attribut | Steuerelement und Werte | Einstellung |
+| --- | --- | --- |
+| **Mit Gravur** | Radiobuttonliste mit **Nein** und **Ja** | Für **Ja** kann beispielsweise ein Mehrpreis von 10 Euro hinterlegt werden. |
+| **Gravurtext** | Textfeld | Als Pflichtfeld kennzeichnen. |
+| **Schriftart** | Auswahlliste mit den angebotenen Schriftarten | Gewünschte Schriftarten als Werte anlegen. |
 
-### Beispiel
+### Regel für den Gravurtext einrichten
 
-Nehmen wir als Beispiel die [Playstation 4 Pro](https://52a.smartstore.com/playstation-4-pro/) und den Wunsch _"Farbwahl nur bei Kauf mit Controller"_:
+1. Öffnen Sie unter **Katalog** &rarr; **Produkte** die Bearbeitungsansicht der Uhr.
+2. Wechseln Sie zur Registerkarte **Attribute**.
+3. Öffnen Sie die Bearbeitungsansicht für die Optionen und Regeln des Attributs **Gravurtext**.
+4. Wechseln Sie zur Registerkarte **Regeln**.
+5. Fügen Sie die Bedingung **Mit Gravur** hinzu.
+6. Wählen Sie den Vergleich **ist eine von** und den Wert **Ja**.
+7. Speichern Sie die Änderungen.
 
-Dieses Produkt hat das Attribut Controller mit zwei Optionen: mit Controller und ohne Controller.
+![Attributregel für den Gravurtext](../../.gitbook/assets/module_attributerules_product_attributetab_rules.png)
 
-![ps4\_attribut\_controller.PNG](../../.gitbook/assets/ps4_attribut_controller.PNG)
+Richten Sie dieselbe Bedingung anschließend für das Attribut **Schriftart** ein. Beide Attribute werden nun nur angezeigt, wenn der Kunde bei **Mit Gravur** den Wert **Ja** auswählt.
 
-Mit den neuen Regeln ist es möglich, das Produkt so zu konfigurieren, dass eine Farbe angeboten wird, wenn ein Controller ausgewählt wird. Dazu wird ein neues Attribut **Farbe** mit zwei Optionen (**Gelb** und **Blau**) angelegt.
+| Ohne Gravur | Mit Gravur |
+| --- | --- |
+| ![](../../.gitbook/assets/module_attributerules_productdetails_withoutengraving.png) | ![](../../.gitbook/assets/module_attributerules_productdetails_withengraving.png) |
 
-![ps4\_attribut\_farbe.PNG](../../.gitbook/assets/ps4_attribut_farbe.PNG)
+Der Mehrpreis wird nicht in der Regel festgelegt, sondern am Attributwert **Ja** hinterlegt. Die Regel bestimmt ausschließlich, ob die abhängigen Attribute angezeigt werden.
 
-In der Editieransicht des Farbattributs wechselt man auf die Registerkarte **Regeln** und fügt die Gruppe **Controller** hinzu. Damit wird die Abhängigkeit des Attributs definiert. Nun wählt man die Bedingung **ist eine von** und die Option **mit Controller**.
+## Verhalten in der Produktansicht
 
-![ps4\_attribut\_farbe\_regel.PNG](../../.gitbook/assets/ps4_attribut_farbe_regel.PNG)
+Smartstore wertet die Produktattributregeln bei jeder Änderung der Produktauswahl erneut aus. Ein Attribut ohne Regel ist grundsätzlich sichtbar. Sobald Sie einem Attribut eine oder mehrere Regeln zuweisen, wird es nur noch angezeigt, wenn die festgelegten Bedingungen erfüllt sind.
 
-Nach dem Speichern wird nun auf der Produktdetailseite bei Auswahl der Option **mit Controller** auch das Farbattribut angeboten.
+Ausgeblendete Attribute werden nicht nur optisch verborgen:
 
-![ps4\_details\_ohneController.PNG](../../.gitbook/assets/ps4_details_ohneController.PNG)
+- Bereits ausgewählte Werte eines inaktiven Attributs werden bei der weiteren Verarbeitung nicht berücksichtigt.
+- Mehr- oder Minderpreise ausgeblendeter Attributwerte fließen nicht in die Preisberechnung ein.
+- Ein ausgeblendetes Pflichtattribut verhindert nicht, dass das Produkt in den Warenkorb gelegt wird.
 
-![ps4\_details\_mitController.PNG](../../.gitbook/assets/ps4_details_mitController.PNG)
+Auch mehrstufige Abhängigkeiten sind möglich. Beispielsweise kann die Auswahl **Bundle hinzufügen** zunächst das Attribut **Größe** einblenden. Eine bestimmte Größe kann anschließend weitere Optionen wie **Displayschutz** sichtbar machen. Wird eine übergeordnete Auswahl wieder deaktiviert, berücksichtigt Smartstore dies auch bei den davon abhängigen Attributen.
 
-### Weitere Anwendungsmöglichkeiten
+## Attributspezifische Bedingungen
 
-#### Gravur
+Als Bedingung können Sie andere listenbasierte Attribute desselben Produkts verwenden. Dazu gehören insbesondere Auswahllisten, Optionsfelder und Kontrollkästchen. Freie Eingaben wie Textfelder, Datumsfelder oder Dateiuploads können abhängig angezeigt werden, stehen aber nicht selbst als auslösende Bedingung zur Verfügung.
 
-Ein Beispiel ist die optionale Gravur für eine Uhr. Der Benutzer wird zunächst gefragt, ob er eine Gravur wünscht. Lautet die Antwort "Nein", sind keine weiteren Eingaben erforderlich. Entscheidet sich der Benutzer jedoch für "Ja", wird ein Aufpreis von 10 EUR berechnet und weitere Eingabemöglichkeiten werden freigeschaltet. Der Benutzer kann dann Text für die Gravur auf der Vorder- und Rückseite der Uhr in entsprechende Textfelder eingeben. Zusätzlich kann über eine Auswahlbox die Schriftart ausgewählt werden.
+Neben den Attributwerten bietet AttributeRules zwei weitere Bedingungsarten:
 
-1. Attribut Gravur gewünscht
-2. Nein
-3. Ja (+10 EUR) 1. Textfeld Gravur vorne 2. Textfeld Gravur hinten 3. Schriftart (Combobox)
+- **Mehr-/Minderpreis:** Prüft die Summe der Preisanpassungen der aktuell ausgewählten Attributwerte.
+- **Gewicht:** Prüft das Produktgewicht einschließlich der Gewichtsanpassungen der aktuell ausgewählten Attributwerte.
 
-#### Aufdruck
+Mehrere Bedingungen können so verknüpft werden, dass entweder alle Bedingungen oder mindestens eine Bedingung erfüllt sein muss. Mit zusätzlichen Gruppen lassen sich auch umfangreichere Kombinationen aufbauen. Die verfügbaren Vergleiche hängen von der jeweiligen Bedingung ab. Kontrollkästchen und andere Mehrfachauswahlen bieten beispielsweise zusätzliche Möglichkeiten, mehrere ausgewählte Werte miteinander zu vergleichen.
 
-Ein weiteres Beispiel ist ein T-Shirt mit der Möglichkeit eines Aufdrucks. Der Benutzer wird gefragt, ob er einen Aufdruck wünscht. Wenn die Antwort "Nein" lautet, sind keine weiteren Eingaben erforderlich. Wählt der Benutzer jedoch "Ja", wird ein Aufpreis von 20 EUR berechnet und ein zusätzliches Attribut wird sichtbar. In diesem Fall muss der Benutzer eine Datei für den Aufdruck hochladen. Das Hochladen der Datei ist zwingend erforderlich, um den Bestellvorgang abzuschließen.
+## Attribute übernehmen
 
-1. Attribut Mit Aufdruck
-2. Nein
-3. Ja (+20 EUR) 1. Dateiupload (erforderlich)
+Mit **Attribute übernehmen** können Sie die Produktattribute eines bereits konfigurierten Produkts als Ausgangspunkt für ein anderes Produkt verwenden. Dabei werden die Attribute einschließlich ihrer Optionen und Regeln kopiert.
 
-#### Betriebssystem
+![Popup für die Attributübernahme](../../.gitbook/assets/module_attributerules_product_attributetab_popup_transferattributes.png)
 
-Ein anderes Beispiel ist die Auswahl eines Betriebssystems. Der Benutzer wählt zunächst das Attribut "OS" aus. Bei der Auswahl von "Linux" sind keine weiteren Eingaben erforderlich. Bei der Auswahl von "Windows" werden weitere Optionen angezeigt. Der Benutzer kann nun zwischen verschiedenen Windows-Versionen wählen, die jeweils mit unterschiedlichen Aufpreisen verbunden sind. Zur Auswahl stehen Windows Home (+50 EUR), Windows Server (+200 EUR) und Windows Pro (+100 EUR).
+1. Öffnen Sie unter **Katalog** &rarr; **Produkte** das Zielprodukt.
+2. Wechseln Sie zur Registerkarte **Attribute**.
+3. Klicken Sie auf **Attribute übernehmen…**.
+4. Wählen Sie das Produkt aus, dessen Attribute übernommen werden sollen.
+5. Prüfen Sie in der Vorschau die verfügbaren Attribute, Werte und Regeln.
+6. Klicken Sie auf **Attribute übernehmen**.
 
-1. Attribut OS
-2. Linux
-3. Windows 1. Windows Betriebssysteme
-   1. Windows Home (+50 EUR)
-   2. Windows Server (+200 EUR)
-   3. Windows Pro (+100 EUR)
+Attribute, die beim Zielprodukt bereits vorhanden sind, werden weder überschrieben noch verändert. Überprüfen Sie deshalb nach dem Kopieren insbesondere Regeln, die von weiteren Attributen abhängig sind.
 
-#### Bundle
+## Sie interessieren sich für dieses Plugin?
 
-Ein komplexes Beispiel ist ein Bundle-Angebot, beispielsweise das Samsung Galaxy S23 mit einer Galaxy Watch. Der Nutzer wird zunächst gefragt, ob er das Smartphone im Bundle mit einer Galaxy Watch kaufen möchte. Lautet die Antwort "Nein", sind keine weiteren Eingaben erforderlich. Bei "Ja" wird ein Aufpreis von 200 EUR berechnet und es werden zusätzliche Attribute zur Konfiguration der Galaxy Watch angezeigt.
+Gerne beraten wir Sie persönlich zu Funktionen, Einsatzmöglichkeiten und Lizenzoptionen. Gemeinsam klären wir, ob das Plugin zu Ihren Anforderungen passt, und begleiten Sie auf dem Weg zur passenden Kaufentscheidung.
 
-Der Benutzer kann zunächst die Größe der Galaxy Watch wählen: entweder 40 mm oder 44 mm. Bei Auswahl der 44 mm Variante wird ein Aufpreis von 100 EUR berechnet und ein weiteres Attribut angezeigt, mit dem der Nutzer entscheiden kann, ob die Galaxy Watch mit einer Displayschutzfolie geliefert werden soll. Bei Auswahl von "Ja" wird ein Aufpreis von 5 EUR für die Displayschutzfolie berechnet.
-
-Zusätzlich kann der Nutzer die Art der Konnektivität für die Galaxy Watch auswählen, wobei zwischen Bluetooth und LTE gewählt werden kann. Für LTE wird ein Aufpreis von 100 EUR berechnet. Schließlich kann die Farbe der Galaxy Watch zwischen rot, schwarz und grün gewählt werden.
-
-1. Attribut Im Bundle mit Galaxy Watch
-2. Nein
-3. Ja (+ 200 EUR) 1. Galaxy Watch Größe
-   1. 40mm
-   2. 44mm (+100 EUR)
-   3. Mit Displayschutzfolie 1. Nein 2. Ja (+5 EUR) 2. Galaxy Watch Connectivity
-   4. Bluetooth
-   5. LTE (+100 EUR) 3. Galaxy Watch Farben
-   6. Rot
-   7. Black
-   8. Grün
-
-## Elemente übernehmen
-
-Attribute, Regeln und Optionen können effizient von einem anderen Produkt übernommen werden, was eine erhebliche Zeitersparnis bedeutet.
-
-Der Prozess läuft wie folgt ab: Der Benutzer wählt im Admin-Bereich das zu bearbeitende Produkt aus und navigiert zum Reiter **Attribute**.
-
-![AttributeUebernehmen.PNG](../../.gitbook/assets/AttributeUebernehmen.PNG)
-
-Ein Klick auf den Button **Attribute übernehmen...** öffnet ein Popup, in dem das Produkt ausgewählt werden kann, dessen Attribute, Optionen und Regeln übernommen werden sollen.
-
-![AttributeUebernehmen\_Dialog.PNG](../../.gitbook/assets/AttributeUebernehmen_Dialog.PNG)
-
-Nach der Auswahl werden die entsprechenden Werte des Produkts im Popup angezeigt. Mit einem Klick auf **Übernehmen** werden die Werte endgültig in das aktuelle Produkt eingetragen.
-
-Diese Vorgehensweise erleichtert die Administration und spart Zeit bei der Produktkonfiguration.
+<a href="https://smartstore.com/de/persoenliche-beratung/" class="button primary">Persönliche Beratung anfragen</a>

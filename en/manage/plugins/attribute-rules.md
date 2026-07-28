@@ -1,135 +1,89 @@
 # AttributeRules
 
-## Rules
+With **AttributeRules**, you control which product attributes are displayed based on the current product selection. This keeps extensive product configurations clear and organized: Additional fields appear only when they are actually needed.
 
-Attributes can be dynamically shown or hidden depending on other attributes. This significantly increases clarity and flexibility when configuring products.
+![Editing an attribute rule](../../.gitbook/assets/module_attributerules_product_attributetab_rules_example.png)
 
-{% hint style="warning" %}
-Missing screenshot
+Typical use cases include optional engravings, prints, accessory packages, or additional choices for a specific product variant.
+
+{% hint style="info" %}
+Product attribute rules are configured directly on the respective attribute of a product. They are not part of the rule sets under **System** &rarr; **Rules** and do not need to be assigned to a separate action. For general information about creating a condition and using comparison operators, see [Rules](../configuration/rules.md).
 {% endhint %}
 
-### Old vs. New
+## Practical Example: Optional Engraving
 
-Previously, the process was much more complex. An example is [the Josef Hoffmann Sofa (3-seater, Cubus 1910)](https://core.smartstore.com/backend/josef-hoffmann-sofa-3-sitzer-cubus-1910/):
+A watch should be available to order with an optional engraving. If the customer decides against the engraving, the associated input fields remain hidden. When an engraving is selected, a required field for the engraving text and a font selection are displayed.
 
-* The old approach required creating numerous variants, leading to an unmanageable number of configuration possibilities.
-* Prices had to be entered manually for each variant, which was time-consuming and error-prone.
+![Attribute overview with rules](../../.gitbook/assets/module_attributerules_product_attributetab.png)
 
-The new approach simplifies this process significantly. Using the [same product](https://52a.smartstore.com/-josef-hoffmann-sofa-3-sitzer-cubus-1910-/) as an example, only three qualities and ten colors are now defined. Prices are entered at the quality level, reducing administrative effort and making the variant logic clearer.
+The following attributes are assigned to the product for this configuration:
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+| Attribute | Control and values | Setting |
+| --- | --- | --- |
+| **With engraving** | Radio button list with **No** and **Yes** | For example, an additional charge of 10 euros can be set for **Yes**. |
+| **Engraving text** | Text field | Mark as required. |
+| **Font** | Dropdown list with the available fonts | Create the desired fonts as values. |
 
-This improvement allows for more efficient and user-friendly handling of attributes and prices.
+### Setting Up the Rule for the Engraving Text
 
-### Example
+1. Under **Catalog** &rarr; **Products**, open the edit view for the watch.
+2. Switch to the **Attributes** tab.
+3. Open the edit view for the options and rules of the **Engraving text** attribute.
+4. Switch to the **Rules** tab.
+5. Add the **With engraving** condition.
+6. Select the **In** comparison and the value **Yes**.
+7. Save the changes.
 
-Let's take the [Playstation 4 Pro](https://52a.smartstore.com/playstation-4-pro/) as an example and the requirement *"Color selection only when purchasing with controller"*:
+![Attribute rule for the engraving text](../../.gitbook/assets/module_attributerules_product_attributetab_rules.png)
 
-This product has the attribute Controller with two options: with Controller and without Controller.
+Then configure the same condition for the **Font** attribute. Both attributes are now displayed only when the customer selects **Yes** for **With engraving**.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+| Without engraving | With engraving |
+| --- | --- |
+| ![](../../.gitbook/assets/module_attributerules_productdetails_withoutengraving.png) | ![](../../.gitbook/assets/module_attributerules_productdetails_withengraving.png) |
 
-With the new rules, it is possible to configure the product so that a color is offered only when a controller is selected. To do this, a new attribute **Color** with two options (**Yellow** and **Blue**) is created.
+The additional charge is not defined in the rule. Instead, it is assigned to the **Yes** attribute value. The rule only determines whether the dependent attributes are displayed.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+## Behavior on the Product Page
 
-In the edit view of the color attribute, switch to the **Rules** tab and add the group **Controller**. This defines the dependency of the attribute. Now select the condition **is one of** and the option **with Controller**.
+Smartstore reevaluates the product attribute rules whenever the product selection changes. An attribute without a rule is always visible. As soon as you assign one or more rules to an attribute, it is displayed only when the specified conditions are met.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+Hidden attributes are not merely concealed visually:
 
-After saving, the color attribute is now offered on the product detail page when the option **with Controller** is selected.
+- Previously selected values of an inactive attribute are not taken into account during further processing.
+- Additional charges or discounts for hidden attribute values are not included in the price calculation.
+- A hidden required attribute does not prevent the product from being added to the cart.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+Multi-level dependencies are also possible. For example, selecting **Add bundle** can first display the **Size** attribute. A specific size can then reveal additional options such as **Screen protector**. If a parent selection is deactivated again, Smartstore also takes this into account for the attributes that depend on it.
 
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
+## Attribute-Specific Conditions
 
-### Further Application Scenarios
+You can use other list-based attributes of the same product as conditions. These include dropdown lists, radio buttons, and checkboxes in particular. Free-form inputs such as text fields, date fields, or file uploads can be displayed conditionally, but they cannot themselves be used as triggering conditions.
 
-#### Engraving
+In addition to attribute values, AttributeRules provides two other types of conditions:
 
-An example is optional engraving for a watch. The user is first asked if they want an engraving. If the answer is "No", no further input is required. However, if the user decides for "Yes", a surcharge of 10 EUR is charged and further input options are unlocked. The user can then enter text for the engraving on the front and back of the watch in corresponding text fields. Additionally, a font can be selected via a dropdown box.
+- **Price adjustment:** Checks the sum of the price adjustments for the currently selected attribute values.
+- **Weight:** Checks the product weight, including the weight adjustments for the currently selected attribute values.
 
-1. Attribute Engraving desired
-2. No
-3. Yes (+10 EUR)
-    1. Text field Engraving front
-    2. Text field Engraving back
-    3. Font (Combobox)
+Multiple conditions can be combined so that either all conditions or at least one condition must be met. Additional groups can also be used to create more extensive combinations. The available comparisons depend on the respective condition. For example, checkboxes and other multiple selections offer additional ways to compare several selected values.
 
-#### Print
+## Transferring Attributes
 
-Another example is a T-shirt with the option of a print. The user is asked if they want a print. If the answer is "No", no further input is required. However, if the user selects "Yes", a surcharge of 20 EUR is charged and an additional attribute becomes visible. In this case, the user must upload a file for the print. Uploading the file is mandatory to complete the order process.
+With **Transfer attributes**, you can use the product attributes of an already configured product as the starting point for another product. This copies the attributes along with their options and rules.
 
-1. Attribute With Print
-2. No
-3. Yes (+20 EUR)
-    1. File upload (required)
+![Popup for copying attributes](../../.gitbook/assets/module_attributerules_product_attributetab_popup_transferattributes.png)
 
-#### Operating System
+1. Under **Catalog** &rarr; **Products**, open the target product.
+2. Switch to the **Attributes** tab.
+3. Click **Transfer attributes**.
+4. Select the product whose attributes you want to copy.
+5. Review the available attributes, values, and rules in the preview.
+6. Click **Transfer attributes**.
 
-Another example is the selection of an operating system. The user first selects the attribute "OS". When selecting "Linux", no further input is required. When selecting "Windows", further options are displayed. The user can now choose between different Windows versions, each associated with different surcharges. The choices are Windows Home (+50 EUR), Windows Server (+200 EUR), and Windows Pro (+100 EUR).
+Attributes that already exist on the target product are neither overwritten nor changed. After copying, pay particular attention to rules that depend on other attributes.
 
-1. Attribute OS
-2. Linux
-3. Windows
-    1. Windows Operating Systems
-        1. Windows Home (+50 EUR)
-        2. Windows Server (+200 EUR)
-        3. Windows Pro (+100 EUR)
+## Interested in This Plugin?
 
-#### Bundle
+We would be happy to advise you personally about features, possible applications, and licensing options. Together, we will determine whether the plugin meets your requirements and guide you toward the right purchase decision.
 
-A complex example is a bundle offer, for instance, the Samsung Galaxy S23 with a Galaxy Watch. The user is first asked if they want to buy the smartphone in a bundle with a Galaxy Watch. If the answer is "No", no further input is required. If "Yes", a surcharge of 200 EUR is charged and additional attributes for configuring the Galaxy Watch are displayed.
-
-The user can first choose the size of the Galaxy Watch: either 40 mm or 44 mm. Selecting the 44 mm variant incurs a surcharge of 100 EUR and displays another attribute allowing the user to decide if the Galaxy Watch should be delivered with a screen protector. Selecting "Yes" incurs a surcharge of 5 EUR for the screen protector.
-
-Additionally, the user can select the connectivity type for the Galaxy Watch, choosing between Bluetooth and LTE. For LTE, a surcharge of 100 EUR is charged. Finally, the color of the Galaxy Watch can be chosen between red, black, and green.
-
-1. Attribute In bundle with Galaxy Watch
-2. No
-3. Yes (+ 200 EUR)
-    1. Galaxy Watch Size
-        1. 40mm
-        2. 44mm (+100 EUR)
-        3. With screen protector
-            1. No
-            2. Yes (+5 EUR)
-    2. Galaxy Watch Connectivity
-        1. Bluetooth
-        2. LTE (+100 EUR)
-    3. Galaxy Watch Colors
-        1. Red
-        2. Black
-        3. Green
-
-## Copying Elements
-
-Attributes, rules, and options can be efficiently copied from another product, which means a significant time saving.
-
-The process is as follows: The user selects the product to be edited in the admin area and navigates to the **Attributes** tab.
-
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
-
-Clicking the **Copy attributes...** button opens a popup where the product can be selected from which attributes, options, and rules should be copied.
-
-{% hint style="warning" %}
-Missing screenshot
-{% endhint %}
-
-After selection, the corresponding values of the product are displayed in the popup. Clicking **Copy** permanently enters the values into the current product.
-
-This procedure facilitates administration and saves time during product configuration.
+<a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>
