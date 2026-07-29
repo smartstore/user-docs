@@ -20,39 +20,51 @@ Das AI Plugin bietet je nach Kontext unterschiedliche Dialoge für die Text- und
 
 Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …), wird der SimpleText-Dialog verwendet.
 
-![SimpleText\_Kontext.PNG](../../.gitbook/assets/SimpleText_Kontext.PNG)
+![SimpleText - Kontextmenü](../../.gitbook/assets/SimpleText_Kontext.PNG)
 
-Ein Klick auf das AI-Symbol ![icon.png](../../.gitbook/assets/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![send.png](../../.gitbook/assets/send.png), wird ihr Prompt an die KI geschickt.
+Ein Klick auf das AI-Symbol ![](../../.gitbook/assets/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![](../../.gitbook/assets/send.png), wird ihr Prompt an die KI geschickt.
 
-![SimpleText\_Dialog.PNG](../../.gitbook/assets/SimpleText_Dialog.PNG)
+![SimpleText-Dialog für eine Produkt-Kurzbeschreibung](../../.gitbook/assets/SimpleText_Dialog.PNG)
 
 Der Dialog bietet eine Vielzahl an Möglichkeiten, den Text zu generieren und bearbeiten. Durch die Eingabe eines Prompts in der Promptleiste können Sie beschreiben, welche Inhalte erstellt werden. Einen tieferen Einblick in die Dialoge finden Sie im Abschnitt [Allgemeiner Dialog](ai.md#allgemeiner-dialog).
 
-![Prompt\_AnswerOptions.PNG](../../.gitbook/assets/Prompt_AnswerOptions.PNG)
+![Antwort-Optionen](../../.gitbook/assets/Prompt_AnswerOptions.PNG)
 
-Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld übertragen. Außerdem kann die Antwort in die Zwischenablage kopiert ![copy.png](../../.gitbook/assets/copy.png) und die Stilistik geändert werden ![sliders.png](../../.gitbook/assets/sliders.png).
+Durch Klicken auf **Antwort übernehmen** wird der ausgewählte Text in das Feld übertragen. Außerdem kann die Antwort in die Zwischenablage kopiert ![](../../.gitbook/assets/copy.png) und die Stilistik geändert werden ![](../../.gitbook/assets/sliders.png).
 
 ### RichText
 
-Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol ![icon.png](../../.gitbook/assets/icon.png) wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
+Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Listen und Tabellen, wird der RichText-Dialog verwendet. Bei Klick auf das AI-Symbol ![](../../.gitbook/assets/icon.png) wird dasselbe Kontextmenü wie von SimpleText benutzt. Der Dialog hat zusätzlich eine Sidebar (links) bekommen.
 
-![Richtext\_Dialog.PNG](../../.gitbook/assets/Richtext_Dialog.PNG)
+![RichText-Dialog für einen Produkt-Langtext](../../.gitbook/assets/Richtext_Dialog.PNG)
 
 #### Sidebar
 
 Die Sidebar stellt erweiterte Einstellungsmöglichkeiten zum Erstellen von Inhalten bereit. Je nachdem welche Entität (Produkt, Blog, News, …) bearbeitet wird, werden andere Optionen angezeigt.
 
-![Richtext\_Dialog\_Sidebar\_Language.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Language.PNG)
+- **Sprache** bietet Optionen für Ton und Stil.
 
-![Richtext\_Dialog\_Sidebar\_Structure.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Structure.PNG)
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Language.PNG)
 
-![Richtext\_Dialog\_Sidebar\_Keywords.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Keywords.PNG)
+- **Struktur** bietet Optionen für Überschriften und Absätze.
 
-![Richtext\_Dialog\_Sidebar\_Pictures.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Pictures.PNG)
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Structure.PNG)
 
-![Richtext\_Dialog\_Sidebar\_Links\_Blog.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Links_Blog.PNG)
+- **Keywords** bietet Optionen für Schlüsselwörter.
 
-![Richtext\_Dialog\_Sidebar\_AdditionalContent\_Blog.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG)
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Keywords.PNG)
+
+- **Bilder** bietet Optionen um Bilder einzufügen.
+
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Pictures.PNG)
+
+- **Links** bietet Optionen für Verweise und Schaltflächen.
+
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Links_Blog.PNG)
+
+- **Zusätzliche Inhalte** bietet weitere Einstellungsmöglichkeiten.
+
+	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG)
 
 {% hint style="warning" %}
 Mit dem Button **Einstellungen speichern** können die verwendeten Sidebar-Einstellungen für die aktuell verwendete Entität als Standard gespeichert werden. Dies gewährleistet ein einheitliches Design in Ihrem Shop.
@@ -60,25 +72,25 @@ Mit dem Button **Einstellungen speichern** können die verwendeten Sidebar-Einst
 
 #### Bilder generieren
 
-![Richtext\_Dialog\_Images.PNG](../../.gitbook/assets/Richtext_Dialog_Images.PNG)
+![Platzhalter für die Bildgenerierung](../../.gitbook/assets/Richtext_Dialog_Images.PNG)
 
-Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im generierten Text zunächst nur Platzhalter ![file-earmark-image.png](../../.gitbook/assets/file-earmark-image.png) angezeigt. Dies dient dazu, die Anzahl der Generierungen gering zu halten und erst dann zu starten, wenn der Text nicht mehr verändert wird. Neben dem Button **Antwort übernehmen** erscheint der Button **Bilder erzeugen**. Wird dieser angeklickt, werden die Bilder nacheinander erzeugt und mit einem Klick auf **Antwort übernehmen** in den MedienManager übertragen und mit dem Text verknüpft.
+Wenn in der Sidebar die Option **Bilder einfügen** aktiviert ist, werden im generierten Text zunächst nur Platzhalter ![](../../.gitbook/assets/file-earmark-image.png) angezeigt. Dies dient dazu, die Anzahl der Generierungen gering zu halten und erst dann zu starten, wenn der Text nicht mehr verändert wird. Neben dem Button **Antwort übernehmen** erscheint der Button **Bilder erzeugen**. Wird dieser angeklickt, werden die Bilder nacheinander erzeugt und mit einem Klick auf **Antwort übernehmen** in den MedienManager übertragen und mit dem Text verknüpft.
 
 #### HTML-Editor Einbindung
 
-![Summernote\_Integration.PNG](../../.gitbook/assets/Summernote_Integration.PNG)
+![AI in der HTML-Editor-Toolbar](../../.gitbook/assets/Summernote_Integration.PNG)
 
-Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon ![icon.png](../../.gitbook/assets/icon.png) in der Toolbar und es öffnet sich der gewohnte Dialog.
+Wenn Sie im HTML-Editor AI nutzen wollen, klicken Sie einfach auf das Icon ![](../../.gitbook/assets/icon.png) in der Toolbar und es öffnet sich der gewohnte Dialog.
 
-![Summernote\_SelectedText.PNG](../../.gitbook/assets/Summernote_SelectedText.PNG)
+![Textabschnitt bearbeiten](../../.gitbook/assets/Summernote_SelectedText.PNG)
 
-Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon ![icon.png](../../.gitbook/assets/icon.png) in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
+Soll nur ein bestimmter Text überarbeitet werden, markieren Sie im Editor den gewünschten Textabschnitt und klicken wieder auf das Icon ![](../../.gitbook/assets/icon.png) in der Toolbar. Die Option Neu generieren ist jetzt deaktiviert, alle anderen Optionen beziehen sich jetzt auf den selektierten Text.
 
 ### Suggestions
 
-Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon ![icon.png](../../.gitbook/assets/icon.png) im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
+Bei neuen Blog und News Beiträgen, können Sie sich zu Themen oder Stichwörtern Titel vorschlagen lassen. Dazu gehen Sie einfach auf das AI-Icon ![](../../.gitbook/assets/icon.png) im leeren Titel-Feld und schon öffnet sich der Suggestions-Dialog. Nachdem Sie in der Promptleiste ihr Thema bzw. Stichwörter eingegeben haben, werden Titel generiert. Diese können Sie mit einem Klick auf **Übernehmen** übertragen.
 
-![Suggestions\_Dialog.PNG](../../.gitbook/assets/Suggestions_Dialog.PNG)
+![Suggestions-Dialog eines Blogbeitrags](../../.gitbook/assets/Suggestions_Dialog.PNG)
 
 {% hint style="info" %}
 Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die weitere Bearbeitung sonst nicht möglich ist!
@@ -86,83 +98,77 @@ Bitte vergessen Sie nicht, direkt danach den Beitrag zu **speichern**, da die we
 
 ### Translations
 
-![Translation\_Kontext.PNG](../../.gitbook/assets/Translation_Kontext.PNG)
+![Translations-Kontextmenü im Produkteditor](../../.gitbook/assets/Translation_Kontext.PNG)
 
-Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon ![icon.png](../../.gitbook/assets/icon.png) und wählen Sie das zu übersetzende Feld aus.
+Im Editor mit Sprachauswahl können die enthaltenen Felder automatisch per AI übersetzt werden. Klicken Sie dazu auf das AI-Icon ![](../../.gitbook/assets/icon.png) und wählen Sie das zu übersetzende Feld aus.
 
-![Translation\_Dialog.PNG](../../.gitbook/assets/Translation_Dialog.PNG)
+![Translations-Dialog](../../.gitbook/assets/Translation_Dialog.PNG)
 
 Der Translations-Dialog zeigt Ihnen alle Spracheinträge und bietet Ihnen die Möglichkeit, fehlende Sprachen zu übersetzen oder alle Sprachen neu zu übersetzen. Mit **Übernehmen** und **Alle übernehmen** können Sie Ihre Entität internationalisieren.
 
 1. Wählen Sie zuerst aus, ob alle Sprachen neu übersetzt werden sollen, oder nur die fehlenden Sprachen.
-2. Klicken Sie dann auf Senden ![send.png](../../.gitbook/assets/send.png) , um die Übersetzung des Textes zu starten.
+2. Klicken Sie dann auf Senden ![](../../.gitbook/assets/send.png) , um die Übersetzung des Textes zu starten.
 
 Wenn Sie einzelne Übersetzungen übernehmen wollen, klicken Sie in dem Reiter der jeweiligen Sprache auf **Übernehmen**. Sollen alle Übersetzungen übernommen werden, klicken Sie in der Promptleiste auf **Alle übernehmen**.
 
 ### Images
 
-![Bilder\_Blog.PNG](../../.gitbook/assets/Bilder_Blog.PNG)
+![Images-Dialog bei Blogbeiträgen](../../.gitbook/assets/Bilder_Blog.PNG)
 
 In Blog- und Newsbeiträgen bietet das AI-Tool die Möglichkeit zu erstellten Inhalten ein passendes Bild und eine Vorschau zu generieren.
 
-![Bilder\_Dialog.PNG](../../.gitbook/assets/Bilder_Dialog.PNG)
+![Image-Dialog für die Bildgenerierung im Blog](../../.gitbook/assets/Bilder_Dialog.PNG)
 
 Bei der Generierung von Bildern wird die Sidebar mit optionalen Einstellungsmöglichkeiten gefüllt.
 
-![Richtext\_Dialog\_Sidebar\_Images.PNG](../../.gitbook/assets/Richtext_Dialog_Sidebar_Images.PNG)
+![Sidebar für die Bildgenerierung](../../.gitbook/assets/Richtext_Dialog_Sidebar_Images.PNG)
 
 ### Allgemeiner Dialog
 
 #### Model-Auswahl
 
-![Prompt\_ModelChoice.PNG](../../.gitbook/assets/Prompt_ModelChoice.PNG)
+![Modelle des AI-Providers](../../.gitbook/assets/Prompt_ModelChoice.PNG)
 
 Wenn Sie auf die Modelauswahl klicken (oben rechts), wird eine Auflistung aller AI-Modelle angezeigt, die für den aktuellen Dialog verwendet werden können. Diese können Sie in der Konfiguration des Providers (z.B. [ChatGPT](openai-chatgpt.md)) bearbeiten.
 
 #### Promptleiste
 
-![Prompt\_Options.PNG](../../.gitbook/assets/Prompt_Options.PNG)
+![Dialog - Promptleiste](../../.gitbook/assets/Prompt_Options.PNG)
 
-Die Promptleiste bietet mehr als nur ein Eingabefeld für den einfachen Prompt. Sie können den erweiterten Prompt bearbeiten ![chat-square-text.png](../../.gitbook/assets/chat-square-text.png), die Wortgrenzen-![hash.png](../../.gitbook/assets/hash.png), den Sprachstil- ![vector-pen.png](../../.gitbook/assets/vector-pen.png) und den Ton ![emoji-wink.png](../../.gitbook/assets/emoji-wink.png) des Textes ändern.
+Die Promptleiste bietet mehr als nur ein Eingabefeld für den einfachen Prompt. Sie können den erweiterten Prompt bearbeiten ![](../../.gitbook/assets/chat-square-text.png), die Wortgrenzen-![](../../.gitbook/assets/hash.png), den Sprachstil- ![](../../.gitbook/assets/vector-pen.png) und den Ton ![](../../.gitbook/assets/emoji-wink.png) des Textes ändern.
 
 **RawPrompt**
 
-![RawPrompt.PNG](../../.gitbook/assets/RawPrompt.PNG)
+![Änderung des RawPrompts](../../.gitbook/assets/RawPrompt.PNG)
 
-Durch Klicken auf das Prompt-Icon ![chat-square-text.png](../../.gitbook/assets/chat-square-text.png) gelangt man zum RawPrompt ![chat-square-text-fill.png](../../.gitbook/assets/chat-square-text-fill.png) (erweiterter Prompt). Dieser enthält die Anweisungen, die tatsächlich an die KI weitergegeben werden. Hier können detaillierte Änderungen vorgenommen werden, um den Prompt an die eigenen Bedürfnisse anzupassen.
+Durch Klicken auf das Prompt-Icon ![](../../.gitbook/assets/chat-square-text.png) gelangt man zum RawPrompt ![](../../.gitbook/assets/chat-square-text-fill.png) (erweiterter Prompt). Dieser enthält die Anweisungen, die tatsächlich an die KI weitergegeben werden. Hier können detaillierte Änderungen vorgenommen werden, um den Prompt an die eigenen Bedürfnisse anzupassen.
 
-![RawPrompt\_Result.PNG](../../.gitbook/assets/RawPrompt_Result.PNG)
+![RawPrompt - Resultat](../../.gitbook/assets/RawPrompt_Result.PNG)
 
 {% hint style="warning" %}
 Anwendungsbeispiel: - Hinzufügen einer Tabelle mit wichtigen Merkmalen - Personalisierte Formatierung
 {% endhint %}
 
-### Beispiele
-
-#### Produkttexte
-
-#### Blog-Eintrag
-
 ## Konfiguration
 
-![Konfiguration\_TabEinstellungen.png](../../.gitbook/assets/Konfiguration_TabEinstellungen.png)
+![Konfiguration - Einstellungen](../../.gitbook/assets/Konfiguration_TabEinstellungen.png)
 
 | **Option**                 | **Beschreibung**                                                                                                                                                                                                 |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ausdrucksweisen            |                                                                                                                                                                                                                  |
-| Sprachstile                |                                                                                                                                                                                                                  |
-| Medientypen                |                                                                                                                                                                                                                  |
-| Umgebungen                 |                                                                                                                                                                                                                  |
-| Beleuchtungsarten          |                                                                                                                                                                                                                  |
-| Farbstile                  |                                                                                                                                                                                                                  |
-| Stimmungen                 |                                                                                                                                                                                                                  |
-| Kopositionsarten           |                                                                                                                                                                                                                  |
+| Ausdrucksweisen            | Beschreibt, wie die KI Emotionen oder Absichten sichtbar macht (z. B. freundlich, fordernd, dramatisch). |
+| Sprachstile                | Legt fest, wie formuliert wird (z. B. sachlich, rechtlich, geschäftlich). So klingt der Output konsistent in Tonalität und Satzbau. |
+| Medientypen                | Bestimmt das „Format“, das die KI nachbilden soll (z. B. Poster / Storyboard / Foto-Look). |
+| Umgebungen                 | Definiert den Ort bzw. den Kontext des Bildes (z. B. Büro, Wohnzimmer, Küche). |
+| Beleuchtungsarten          | Legt fest, wie Licht wirkt (z. B. warmes Glühen, kaltes Neon, weich, Softbox). |
+| Farbstile                  | Gibt vor, welche Farbwelt dominieren soll (z. B. pastellig, monochrom, Cinemascope, High-Saturation). |
+| Stimmungen                 | Steuert die emotionale Gesamtrichtung (z. B. ruhig, gespannt, melancholisch, energiegeladen). |
+| Kopositionsarten           | Regelt die Anordnung im Bild bzw. die Gliederung im Text (z. b. Portrait, zentriert, Weitwinkel). |
 | Standardsprache übersetzen | Die Standardsprache ist die erste aktive Sprache eines Stores. Ist kein Wert für sie hinterlegt, wird der Wert aus dem Reiter "Standard" genutzt. Daher wird empfohlen, die Standardsprache nicht zu übersetzen. |
 | Beispielgenerator anbieten | Stellt einen Chat-Generator zur Verfügung steht, der Beispieldaten erzeugt.                                                                                                                                      |
 
 ### Textlängen
 
-![Konfiguration\_TabTextlaengen.png](../../.gitbook/assets/Konfiguration_TabTextlaengen.png)
+![Konfiguration - Textlängen](../../.gitbook/assets/Konfiguration_TabTextlaengen.png)
 
 | **Option**                                        | **Beschreibung**                                                                                         |
 | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -174,7 +180,7 @@ Anwendungsbeispiel: - Hinzufügen einer Tabelle mit wichtigen Merkmalen - Person
 
 ### Bild-Metadaten
 
-![Konfiguration\_TabBildMetadaten.png](../../.gitbook/assets/Konfiguration_TabBildMetadaten.png)
+![Konfiguration - Bild-Metadaten](../../.gitbook/assets/Konfiguration_TabBildMetadaten.png)
 
 | **Option**                          | **Beschreibung**                                                                        |
 | ----------------------------------- | --------------------------------------------------------------------------------------- |
@@ -192,7 +198,7 @@ Wenn die Option ‘Metadaten bei Bild-Upload erstellen’ aktiviert ist, wird da
 
 ### Produkterstellung
 
-![Konfiguration\_TabProdukterstellung.png](../../.gitbook/assets/Konfiguration_TabProdukterstellung.png)
+![Konfiguration - Produkterstellung](../../.gitbook/assets/Konfiguration_TabProdukterstellung.png)
 
 | **Option**                   | **Beschreibung**                                                                                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -202,13 +208,3 @@ Wenn die Option ‘Metadaten bei Bild-Upload erstellen’ aktiviert ist, wird da
 | EAN ermitteln                | Bestimmt, ob bei der Erstellung von Produkten mit Hilfe von KI auch die EAN für das Produkt ermittelt werden soll.                               |
 | Gewicht ermitteln            | Bestimmt, ob bei der Erstellung von Produkten mit Hilfe von KI auch das Gewicht für das Produkt ermittelt werden soll.                           |
 | Abmessungen ermitteln        | Bestimmt, ob bei der Erstellung von Produkten mit Hilfe von KI auch die Abmessungen für das Produkt ermittelt werden sollen.                     |
-
-## Produkterstellung
-
-{% hint style="info" %}
-Dies ist ein experimentelles Feature!
-{% endhint %}
-
-{% hint style="info" %}
-Um lange Wartezeiten zu vermeiden, wird empfohlen, die Einstellung **Übersetzungen hinzufügen** auszuschalten, wenn sie nicht benötigt werden.
-{% endhint %}

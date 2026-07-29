@@ -1,12 +1,12 @@
 # Pixlr
 
-Allows you to create and edit images directly in the Media Manager.
+Allows you to create and edit images directly in the [Media Manager](mediamanager.md).
 
 ![The Pixlr editor](../../.gitbook/assets/module_pixlr_editor.png)
 
 ## Usage in Media Manager
 
-Pixlr functionality is integrated into the Media Manager starting with Smartstore v6. To access it, navigate to **CMS** → **Media** in the backend. We offer two ways to use Pixlr:
+Pixlr functionality is [integrated into the Media Manager](mediamanager/integrations.md) starting with Smartstore v6. To access it, navigate to **CMS** → **Media** in the backend. We offer two ways to use Pixlr:
 
 * With the option **Create with Pixlr**, which appears after right-clicking a folder, you can create new content.
 
@@ -36,3 +36,9 @@ After you have saved the image in Pixlr, a Smartstore dialog appears. This offer
 | Preselect “Save as copy” | By default, selects the option “Save as copy” in the save dialog. |
 | Background color | Sets the editor’s background color (workspace). |
 | Accent color | Sets the accent color for certain elements in the editor (e.g., buttons and tooltips). |
+
+## Interested in This Plugin?
+
+We would be happy to advise you personally about features, possible applications, and licensing options. Together, we will determine whether the plugin meets your requirements and guide you toward the right purchase decision.
+
+<a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>
