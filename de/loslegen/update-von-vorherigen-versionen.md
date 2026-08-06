@@ -1,59 +1,80 @@
 # Update von vorherigen Versionen
 
-Shops der Versionen 2 und 3 müssen zunächst auf Version 4.2, anschließend auf Version 5 und danach auf Version 6 aktualisiert werden.\
-Smartstore 5.x kann direkt auf Smartstore 6 aktualisiert werden.
+### Unterstützte Updatepfade
 
-### Achtung
+Der erforderliche Ablauf hängt von Ihrer Ausgangsversion ab:
 
-**Nur Shops der Version 4.2 können auf Version 5.0 aktualisiert werden.**\
-Wenn Ihr Shop mit einer älteren Version als 4.2 läuft, ist zunächst ein Update auf Version 4.2 erforderlich.\
-Die aktuelle Shop-Version können Sie im Adminbereich unter „System -> Systeminformationen“ anzeigen lassen. Vor dem Update müssen die folgenden technischen Voraussetzungen auf dem Server beziehungsweise auf dem Hosting erfüllt werden:
+* **Versionen vor Smartstore.NET 4.2:** Aktualisieren Sie zunächst auf Smartstore.NET 4.2.
+* **Smartstore.NET 4.2:** Führen Sie anschließend den gesonderten Plattformwechsel auf Smartstore 5 oder neuer durch.
+* **Smartstore 5 oder neuer:** Prüfen Sie in den Release Notes der Zielversion, ob ein direkter Versionssprung unterstützt wird oder Zwischenschritte erforderlich sind.
 
-* Das ASP.NET Core Hosting Bundle muss auf dem Server beziehungsweise im Hosting installiert sein. Sie können es hier herunterladen:\
-  [https://dotnet.microsoft.com/en-us/download/dotnet/7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
-* Der AppPool im IIS muss auf `64-Bit` eingestellt sein. Treffen Sie außerdem die folgenden Vorbereitungen im Shop-Adminbereich:
-* Gastbenutzer löschen: Führen Sie vor dem Update und dem Löschen der alten Shop-Dateien im Adminbereich unter „System -> Geplante Aufgaben“ die Aufgabe „Gastbenutzer löschen“ aus.
-* Medienspeicherort auf `Dateisystem` setzen: Wenn Sie Medien wie Artikelbilder oder Videos bisher in der Datenbank gespeichert haben, ändern Sie den Speicherort in „Dateisystem“. Diese Einstellung finden Sie unter „Konfiguration -> Einstellungen -> Medien“. Nach dem Update können Sie die Medien wieder in der Datenbank speichern.
-
-1\. Um Ihren Shop der Version 4.2 zu aktualisieren, laden Sie die [neuste Version der Smartstore-Shopsoftware von GitHub](https://github.com/smartstore/Smartstore/releases) herunter.\
-Zu jeder neuen Veröffentlichung gibt es den Sourcecode für Entwickler, die Smartstore selbst kompilieren möchten, sowie mehrere vorkompilierte Versionen, die Shop-Administratoren direkt einsetzen können.\
-Ab Smartstore 5 werden neben Windows weitere Betriebssysteme unterstützt.\
-Wählen Sie die für das Betriebssystem Ihres Hostings (in der Regel Windows oder Linux) und die Serverarchitektur (32-Bit oder 64-Bit, in der Regel 64-Bit) geeignete Version aus.\
-Fragen Sie im Zweifel Ihren Hoster, welches Betriebssystem und welche Serverarchitektur Ihr Hosting verwendet. Laden Sie die passende Smartstore-Version anschließend auf Ihren PC herunter.
-
-2. Erstellen Sie vor dem Update Sicherungskopien Ihrer Datenbank und Ihres Dateisystems. So können Sie den vorherigen Zustand Ihres Shops wiederherstellen, falls beim Update ein Fehler auftritt. Besonders wichtig ist die Sicherung der Datenbank. Nutzen Sie dazu geeignete Werkzeuge Ihres Hosting-Anbieters.
-3. **4.2 auf 5.x Update**: Nachdem Sie Ihre Backups erstellt haben, sollten Sie alle Verzeichnisse und Dateien Ihres Shops löschen, mit einigen wichtigen Ausnahmen: folgende Verzeichnisse und Dateien dürfen auf **keinen** Fall gelöscht werden:
-   * App\_Data/Tenants/Default/InstalledPlugins.txt
-   * App\_Data/ Tenants/Default/Settings.txt
-   * App\_Data/ Tenants/Default/PageBuilder/Templates (ist nicht bei allen Shops vorhanden)
-   * App\_Data/ Tenants/Default/Media/Storage
-   * App\_Data/ Tenants/Default/Media/QueuedEmailAttachmentMedia (ist nicht bei allen Shops vorhanden)
-
-3.2 **5.x auf 5.x Update**: Nachdem Sie Ihre Backups erstellt haben, sollten Sie alle Verzeichnisse und Dateien Ihres Shops löschen, mit einigen wichtigen Ausnahmen: folgende Verzeichnisse und Dateien dürfen auf **keinen** Fall gelöscht werden:
-
-* App\_Data einschließlich der Unterverzeichnisse
-* wwwroot einschließlich der Unterverzeichnisse
-
-Sollten sich weitere Dateien oder Verzeichnisse (z. B. Favicon oder Google-Dateien) im Installationsordner Ihres Shops befinden, gilt: Dateien und Verzeichnisse, die Sie dort einmal selbst angelegt haben, müssen nicht gelöscht werden.\
-Sollten externe Inhalte (Dateien und Verzeichnisse) in den Shop eingebunden worden sein, müssen diese gegebenenfalls im neuen Shop-Unterverzeichnis "wwwroot" abgelegt werden.\\
-
-4\. Entpacken Sie die zuvor heruntergeladene Smartstore-Version auf Ihrem PC. Laden Sie die Dateien anschließend mit FTP oder einem vergleichbaren Werkzeug auf Ihren Webspace hoch und lassen Sie bestehende Dateien überschreiben.
-
-Eventuell muss der AppPool im IIS vor dem Kopiervorgang gestoppt werden.\\
+Die aktuelle Shop-Version finden Sie im Adminbereich unter **System → Systeminformationen**. Verwenden Sie ausschließlich ein für Ihren Updatepfad freigegebenes Zielrelease.
 
 {% hint style="warning" %}
-**Troubleshooting**
-
-* Dokumentieren Sie eigene Änderungen am Sourcecode in geeigneter Form, damit Sie diese vor dem Update nachvollziehen und bei Bedarf rückgängig machen können.
-* Sichern Sie alle Theme-Anpassungen und eigenen Themes. Sichern Sie ebenfalls alle geänderten oder hinzugefügten cshtml- und scss-Dateien.
-* Wenn Sie die Datei _user.scss_, die nur durch den Shop-Admin angepasst werden sollte, verändert haben, dürfen Sie diese NICHT überschreiben oder wiederherstellen, nachdem das Update abgeschlossen wurde.
-* Wenn Sie Plugins von Drittanbietern installiert haben, die nach dem Update nicht mehr funktionieren, sollten Sie diese deaktivieren und sich mit dem Entwickler des Plugins in Verbindung setzen.
+Die nachfolgenden Datei- und Verzeichnislisten sind für die jeweiligen Updatepfade unterschiedlich. Prüfen Sie die Liste vor dem Löschen anhand der Release Notes und Ihrer individuellen Installation. Führen Sie das Update nicht ohne eine getestete Wiederherstellungsmöglichkeit durch.
 {% endhint %}
 
-{% hint style="info" %}
-**Info**
+### Vor dem Update
 
-* Die ersten Seitenaufrufe könnten etwas länger dauern, als Sie es gewohnt sind.
-* Wenn beim ersten Shop-Aufruf die HTTP-Fehlermeldung `500 Internal Server Error` erscheint, laden Sie die Seite erneut.
-* Smartstore übernimmt Änderungen an der Datenbank automatisch. Sie müssen in Ihrer Datenbankverwaltung keine SQL-Skripte ausführen.
+1. Planen Sie ein Wartungsfenster und stoppen Sie Shopzugriffe.
+2. Erstellen Sie vollständige Sicherungen der Datenbank und des Dateisystems.
+3. Prüfen Sie, ob sich beide Sicherungen wiederherstellen lassen.
+4. Inventarisieren Sie Plugins, Themes, eigene Dateien und Quellcodeänderungen. Beschaffen Sie kompatible Versionen und testen Sie diese vor dem Produktivupdate.
+5. Führen Sie im Adminbereich unter **System → Geplante Aufgaben** die Aufgabe **Gastbenutzer löschen** aus.
+6. Wenn Medien in der Datenbank gespeichert sind, setzen Sie unter **Konfiguration → Einstellungen → Medien** den Medienspeicherort vorübergehend auf **Dateisystem**.
+7. Prüfen Sie Betriebssystem, Serverarchitektur, freien Speicherplatz, Dateirechte und die Hostingvoraussetzungen der Zielversion.
+
+Offizielle Smartstore-Pakete werden standardmäßig plattformspezifisch und self-contained bereitgestellt. Für den Betrieb hinter IIS muss dennoch das zur Zielversion passende ASP.NET Core Module beziehungsweise [.NET Hosting Bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle) installiert sein. Pflegen Sie die konkrete .NET-Version zentral in den Systemvoraussetzungen, nicht in dieser Updateanleitung.
+
+### Updatepaket auswählen
+
+Laden Sie das passende vorkompilierte Paket von der Seite [Smartstore-Releases auf GitHub](https://github.com/smartstore/Smartstore/releases) herunter. Wählen Sie das Paket passend zum Betriebssystem und zur Serverarchitektur Ihres Hostings. Fragen Sie im Zweifel Ihren Hoster.
+
+Entpacken Sie das Paket zunächst auf Ihrem lokalen Rechner und prüfen Sie, ob der Download vollständig ist.
+
+### Anwendung stoppen und vorhandene Dateien sichern
+
+Stoppen Sie vor dem Dateiaustausch den IIS-AppPool beziehungsweise den Smartstore-Dienst oder Container. Dokumentieren und sichern Sie außerdem alle Dateien, die Sie selbst außerhalb der vorgesehenen Datenverzeichnisse angelegt haben.
+
+### Dateien je Ausgangsversion behandeln
+
+#### Smartstore.NET 4.2 auf Smartstore 5 oder neuer
+
+Entfernen Sie die alten Anwendungsdateien erst nach erfolgreicher Sicherung. Die folgenden vorhandenen Daten dürfen nicht gelöscht werden:
+
+* `App_Data/Tenants/Default/InstalledPlugins.txt`
+* `App_Data/Tenants/Default/Settings.txt`
+* `App_Data/Tenants/Default/PageBuilder/Templates` (nicht in jedem Shop vorhanden)
+* `App_Data/Tenants/Default/Media/Storage`
+* `App_Data/Tenants/Default/Media/QueuedEmailAttachmentMedia` (nicht in jedem Shop vorhanden)
+
+#### Update innerhalb von Smartstore 5 oder neuer
+
+Erhalten Sie die folgenden Verzeichnisse einschließlich ihrer Unterverzeichnisse:
+
+* `App_Data`
+* `wwwroot`
+
+Prüfen Sie eigene Dateien wie Favicons oder Verifikationsdateien separat. Übernehmen Sie keine alten Programmdateien ungeprüft in den neuen Stand. Externe Webinhalte müssen gegebenenfalls im neuen Unterverzeichnis `wwwroot` abgelegt werden.
+
+### Neue Version bereitstellen
+
+1. Entfernen Sie die alten Anwendungsdateien nach den für Ihren Updatepfad bestätigten Ausnahmeregeln.
+2. Übertragen Sie das neue Paket vollständig per FTP oder mit dem Bereitstellungswerkzeug Ihres Hostings.
+3. Prüfen Sie Dateirechte und Konfiguration.
+4. Starten Sie AppPool, Dienst oder Container kontrolliert.
+5. Kopieren Sie alte Binär- oder Programmdateien nicht pauschal über die neue Version.
+
+### Nach dem Update prüfen
+
+* Kontrollieren Sie Startprotokoll und Datenbankmigrationen.
+* Öffnen Sie Frontend und Adminbereich.
+* Prüfen Sie geplante Aufgaben, Medienzugriff und einen repräsentativen Bestellablauf.
+* Prüfen Sie Plugins, Themes und eigene Anpassungen.
+* Geben Sie den Shop erst wieder frei, wenn alle Prüfungen erfolgreich waren.
+
+{% hint style="info" %}
+Die ersten Seitenaufrufe können wegen Initialisierungs- und Kompilierungsvorgängen länger dauern. Smartstore führt erforderliche Datenbankmigrationen normalerweise automatisch aus; führen Sie keine zusätzlichen SQL-Skripte aus, sofern die Release Notes dies nicht ausdrücklich verlangen.
+
+Ein `500 Internal Server Error` ist kein Erfolgssignal. Prüfen Sie in diesem Fall Protokolle, Hostingvoraussetzungen, Dateirechte und Konfiguration, bevor Sie den Shop wieder freigeben.
 {% endhint %}
