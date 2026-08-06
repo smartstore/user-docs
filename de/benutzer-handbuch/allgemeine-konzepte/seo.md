@@ -34,9 +34,9 @@ Achten Sie bei manuellen URL-Änderungen auf verständliche, stabile Begriffe. H
 
 ## Mehrsprachige SEO-Einstellungen
 
-Wenn Sie Ihren Shop in mehreren Sprachen anbieten, sollte jede Sprachversion für Suchmaschinen eindeutig erkennbar sein. Smartstore unterstützt dies automatisch.
+Wenn Sie Ihren Shop in mehreren Sprachen anbieten, sollte jede Sprachversion für Suchmaschinen eindeutig erkennbar sein. Smartstore unterstützt diese eindeutige Kennzeichnung automatisch.
 
-Smartstore setzt im HTML-Code Ihres Shops das passende **lang**-Attribut und verwendet sprachbezogene URL-Bestandteile wie **/en** oder **/de**, abhängig von Ihren Spracheinstellungen. So können Suchmaschinen die Sprache einer Seite besser zuordnen und passende Inhalte in den jeweiligen lokalen Suchergebnissen anzeigen.
+Smartstore setzt im HTML-Code Ihres Shops das passende **lang**-Attribut und verwendet sprachbezogene URL-Bestandteile wie **/en** oder **/de**, abhängig von Ihren Spracheinstellungen. So können Suchmaschinen die Sprache einer Seite besser zuordnen und die Inhalte in passenden lokalen Suchergebnissen anzeigen.
 
 ## Weitere SEO-relevante Funktionen
 
@@ -54,6 +54,6 @@ Nutzen Sie die technischen Möglichkeiten von Smartstore zusammen mit klaren, hi
 * Schreiben Sie individuelle Meta-Titel und Meta-Beschreibungen für wichtige Seiten.
 * Halten Sie URLs kurz, verständlich und dauerhaft stabil.
 * Vermeiden Sie doppelte Inhalte, wenn sich Seiten stark ähneln.
-* Ergänzen Sie wichtige Produkte und Kategorien durch aussagekräftige Beschreibungen.
+* Ergänzen Sie wichtige Produkte und Warengruppen durch aussagekräftige Beschreibungen.
 
 So verbinden Sie die SEO-Funktionen von Smartstore mit Inhalten, die Nutzern und Suchmaschinen eine klare Orientierung geben.
