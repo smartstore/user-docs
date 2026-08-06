@@ -11,7 +11,7 @@ Das **Dashboard** ist in verschiedene Bereiche unterteilt, die in Diagrammen und
 ![Dashboard.png](../.gitbook/assets/dashboard.png)
 
 {% hint style="info" %}
-**Farben der Diagramme**: Alle Farben, die in den Verlaufs- und Tortendiagrammen der Dashboard-Karten verwendet werden, werden über die **Theme-Konfiguration** gesteuert. Standardmäßig handelt es sich um die folgenden Farben: **Rot**, **Sonnengelb**, **Blau**, **Grün** und **Grau**.\
+**Farben der Diagramme:** Alle Farben, die in den Verlaufs- und Tortendiagrammen der Dashboard-Karten verwendet werden, werden über die **Theme-Konfiguration** gesteuert. Standardmäßig handelt es sich um die folgenden Farben: **Rot**, **Sonnengelb**, **Blau**, **Grün** und **Grau**.\
 Sollten Änderungen in der Theme-Konfiguration vorgenommen worden sein, können die Farben entsprechend abweichen.
 {% endhint %}
 
@@ -33,7 +33,7 @@ Um die Auswertung übersichtlich zu halten, stehen verschiedene Zeiträume zur V
 
 ## Aufträge
 
-Dieser Bereich gibt einen Überblick über alle abgeschlossenen Bestellungen inklusive ihrer Umsätze. Damit lassen sich zeitliche Entwicklungen und Umsatztrends im Shop nachvollziehen.\
+Dieser Bereich gibt einen Überblick über alle abgeschlossenen Bestellungen einschließlich der damit erzielten Umsätze. Damit lassen sich zeitliche Entwicklungen und Umsatztrends im Shop nachvollziehen.\
 Die Auswahl der Zeiträume erfolgt analog zu den **Unvollständigen Aufträgen**.
 
 ![Orders.png](../.gitbook/assets/Orders.png)
@@ -53,14 +53,14 @@ Dieser Bereich zeigt die erfolgreichsten Produkte im Shop. Für jedes Produkt we
 Wenn Sie auf den Link des Produktnamens klicken, erreichen Sie die **Produktdetailseite**.
 {% endhint %}
 
-## Top Kunden
+## Top-Kunden
 
-Dieser Bereich zeigt die umsatzstärksten bzw. aktivsten Kunden im Shop. Angezeigt werden der Kundenname, die Anzahl der Bestellungen sowie der insgesamt erzielte Umsatz. Die Daten können entweder nach der Anzahl der Bestellungen oder nach dem Umsatz sortiert werden. Dadurch lassen sich die wichtigsten Stammkunden leicht identifizieren.
+Dieser Bereich zeigt die umsatzstärksten beziehungsweise aktivsten Kunden im Shop. Angezeigt werden der Kundenname, die Anzahl der Bestellungen sowie der insgesamt erzielte Umsatz. Die Daten können entweder nach der Anzahl der Bestellungen oder nach dem Umsatz sortiert werden. Dadurch lassen sich die wichtigsten Stammkunden leicht identifizieren.
 
 ![TopCustomers.png](../.gitbook/assets/TopCustomers.png)
 
 {% hint style="info" %}
-Wenn Sie auf den Link des Kundennamens klicken, erreichen Sie die **Kunden-Seite**.
+Wenn Sie auf den Link des Kundennamens klicken, erreichen Sie die **Kundenseite**.
 {% endhint %}
 
 ## Kundenregistrierungen
@@ -77,12 +77,12 @@ Dieser Bereich listet die zuletzt eingegangenen Aufträge auf. Zu jeder Bestellu
 ![LatestOrders.png](../.gitbook/assets/LatestOrders.png)
 
 {% hint style="info" %}
-Wenn Sie auf den Link der Kundennummer bzw. des Auftragsstatus klicken, erreichen Sie die **Auftragsseite**. Der Link des Kundennamens führt zur **Kunden-Seite**.
+Wenn Sie auf den Link der Kundennummer beziehungsweise des Auftragsstatus klicken, erreichen Sie die **Auftragsseite**. Der Link des Kundennamens führt zur **Kundenseite**.
 {% endhint %}
 
 ## Statistiken
 
-Dieser Bereich gibt einen kompakten Überblick über die wichtigsten Kennzahlen des Shops. Sie zeigt unter anderem die Anzahl der **Produkte**, -**Attribute**, -**Kombinationen**, **Warengruppen**, **Hersteller**, **Bilder** und **Mediengrößen** sowie die Gesamtzahl der **Kunden** und **Aufträge**. Darüber hinaus werden der **Umsatz**, die Anzahl der aktuell im Shop aktiven Kunden (**Kunden online**), die Gesamtsumme der **Warenkörbe** und der **Wunschlisten** dargestellt. Auf diese Weise lassen sich schnell zentrale Informationen zur Shop-Struktur und zu den Aktivitäten im Shop erfassen.
+Dieser Bereich gibt einen kompakten Überblick über die wichtigsten Kennzahlen des Shops. Er zeigt unter anderem die Anzahl der **Produkte**, **Attribute**, **Kombinationen**, **Warengruppen**, **Hersteller** und **Bilder** sowie die **Mediengrößen** sowie die Gesamtzahl der **Kunden** und **Aufträge**. Darüber hinaus werden der **Umsatz**, die Anzahl der aktuell im Shop aktiven Kunden (**Kunden online**), die Gesamtsumme der **Warenkörbe** und der **Wunschlisten** dargestellt. Auf diese Weise lassen sich schnell zentrale Informationen zur Shop-Struktur und zu den Aktivitäten im Shop erfassen.
 
 ![StoreStatistics.png](../.gitbook/assets/StoreStatistics.png)
 
