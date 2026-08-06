@@ -1,6 +1,6 @@
 # Smartstore und Datenbank zusammen als Docker-Container betreiben
 
-Wenn Sie eine Datenbankinstanz direkt mit Smartstore als Docker-Container ausführen möchten, gehen Sie bitte wie folgt vor.
+Wenn Sie Smartstore zusammen mit einer Datenbankinstanz als Docker-Container ausführen möchten, gehen Sie wie folgt vor.
 
 ### Smartstore und MySQL zusammen als Docker-Container betreiben
 
@@ -41,16 +41,16 @@ volumes:
 
 `docker compose up`
 
-Ein Smartstore und ein MySQL-Container werden gestartet. Die Verbindungsdaten zum mySQL-Server finden Sie ebenfalls am Anfang des Codes:
+Ein Smartstore-Container und ein MySQL-Container werden gestartet. Die Verbindungsdaten für den MySQL-Server finden Sie in der Compose-Datei:
 
-Datenbank-Name: `smartstore`\
+Datenbankname: `smartstore`\
 MySQL-Root-Passwort: `Smartstore2022!`
 
 Die Installation sieht dann wie folgt aus:
 
 ![](../../../.gitbook/assets/smartstore-installation-mysql-de.png)
 
-### Smartstore und MS SQL zusammen als Docker-Container betreiben
+### Smartstore und MS SQL Server zusammen als Docker-Container betreiben
 
 Erstellen Sie eine neue Datei in einem Texteditor Ihrer Wahl. Fügen Sie die folgenden Zeilen in die Datei ein und speichern Sie sie als `docker-compose.yml`.
 
@@ -89,15 +89,15 @@ volumes:
 
 `docker compose up`
 
-Ein Smartstore und ein MS SQL Server Container werden gestartet. Die Verbindungsdaten zum MS SQL Server finden Sie ebenfalls am Anfang des Codes:
+Ein Smartstore-Container und ein MS-SQL-Server-Container werden gestartet. Die Verbindungsdaten für den MS-SQL-Server finden Sie in der Compose-Datei:
 
-Datenbank Name: `smartstore`\
-MS SQL Passwort für Benutzer sa: `Smartstore2022!`
+Datenbankname: `smartstore`\
+MS-SQL-Passwort für den Benutzer sa: `Smartstore2022!`
 
 Die Installation sieht dann wie folgt aus:
 
 ![](../../../.gitbook/assets/smartstore-installation-mssql-de.png)
 
 {% hint style="info" %}
-Ändern Sie bitte unbedingt die Standardpasswörter und -benutzer auf den Produktivsystemen!
+Ändern Sie auf Produktivsystemen unbedingt die voreingestellten Passwörter und Benutzernamen!
 {% endhint %}
