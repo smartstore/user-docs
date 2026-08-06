@@ -1,35 +1,35 @@
 # Modifiziertes Docker-Image erstellen
 
-### Software-Voraussetzungen
+### Softwarevoraussetzungen
 
-* Installiertes Docker oder Docker Desktop
-* Ausführen von Shell-Skripten
+* Docker oder Docker Desktop ist installiert.
+* Shell-Skripte können ausgeführt werden.
 
-Nehmen wir an, wir möchten das [Smartstore Community Edition Docker Image](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux) verwenden, haben aber ein selbst entwickeltes Plugin oder ein Plugin eines Drittanbieters, das wir ebenfalls verwenden möchten. Wie bekommen wir das neue Plugin in das Docker-Image?
+Angenommen, Sie möchten das [Smartstore Community Edition Docker Image](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux) verwenden und zusätzlich ein selbst entwickeltes Plugin oder ein Plugin eines Drittanbieters integrieren. Wie lässt sich dieses Plugin in das Docker-Image aufnehmen?
 
 {% hint style="info" %}
-Das Beispiel wird unter Windows ausgeführt, aber unter Linux wird es ähnlich sein.
+Das Beispiel wird unter Windows ausgeführt. Unter Linux ist das Vorgehen ähnlich.
 {% endhint %}
 
 ### Download der Community Edition
 
-Wir laden die Smartstore Community Edition von [GitHub](https://github.com/smartstore/Smartstore/releases) herunter. Es ist wichtig, dass die Versionen des Smartstore Releases und des Plugins identisch sind.
+Laden Sie die Smartstore Community Edition von [GitHub](https://github.com/smartstore/Smartstore/releases) herunter. Die Versionen des Smartstore-Releases und des Plugins müssen übereinstimmen.
 
 Für das Docker-Image benötigen wir die Linux-Version von Smartstore.
 
 ![](../../../.gitbook/assets/BVFWng93ph.png)
 
-Wir **erstellen einen Unterordner**, der Name ist nicht relevant, ich habe den Ordner einfach `build_my_docker_image` genannt. Hier **erstellen wir einen weiteren Ordner** namens `smartstore-linux-x64` und **entpacken den Inhalt der Datei** in diesen Ordner.
+**Erstellen Sie einen Unterordner**. Dessen Name ist frei wählbar; im Beispiel lautet er `build_my_docker_image`. **Erstellen Sie darin einen weiteren Ordner** namens `smartstore-linux-x64` und **entpacken Sie den Inhalt der Datei** in diesen Ordner.
 
 ![](../../../.gitbook/assets/docker_folder.png)
 
-Wir **platzieren unser eigenes oder fremdes Plugin** im Ordner `\Modules` im Ordner `\smartstore-linux-x64`. **Nicht als Zip-Datei, sondern entpackt**.
+**Platzieren Sie Ihr eigenes Plugin oder das Plugin eines Drittanbieters** im Unterordner `\Modules` von `\smartstore-linux-x64`. **Legen Sie es entpackt und nicht als ZIP-Datei ab**.
 
 ![](../../../.gitbook/assets/a8KX1KD3GX.png)
 
-Nun benötigen wir die **Dockerdatei** und die **Skriptdatei** mit den Anweisungen zur **Erstellung des Docker-Images**.
+Sie benötigen nun die **Docker-Datei** und die **Skriptdatei** mit den Anweisungen zum **Erstellen des Docker-Images**.
 
-Wir **erstellen eine leere Textdatei** im Ordner `\build_my_docker_image` mit dem Dateinamen `Dockerfile` (ohne Erweiterung, nur Dockerfile), **kopieren den folgenden Inhalt hinein** und **speichern die Datei**.
+**Erstellen Sie eine leere Textdatei** im Ordner `\build_my_docker_image` und nennen Sie sie `Dockerfile` (ohne Dateiendung). **Kopieren Sie den folgenden Inhalt hinein** und **speichern Sie die Datei**.
 
 ```
 # -----------------------------------------------------------
@@ -59,19 +59,19 @@ RUN apt update &&\
 ENTRYPOINT ["./Smartstore.Web", "--urls", "http://0.0.0.0:80"]
 ```
 
-Wir wiederholen das Ganze für die Datei `dockerize.linux.nobuild.sh`. Wir erstellen also eine neue Textdatei, kopieren den folgenden Inhalt hinein und speichern die Datei.
+Erstellen Sie anschließend die Datei `dockerize.linux.nobuild.sh`. Kopieren Sie den folgenden Inhalt hinein und speichern Sie die Datei.
 
 ```
 docker build -t smartstore-linux-image -f Dockerfile .
 echo 'Press enter to exit...'; read dummy;
 ```
 
-Mit dem Schalter `-t` wird das Image "**getaggt**", d.h. mit einem Namen versehen. Diese können **nach Belieben geändert** werden.
+Mit dem Schalter `-t` wird das Image "**getaggt**", d. h. mit einem Namen versehen. Diesen können Sie **beliebig ändern**.
 
 Das Ergebnis sollte wie folgt aussehen:
 
 ![](../../../.gitbook/assets/OPc1TZMkZ0.png)
 
-Durch **Ausführen** der Datei `dockerize.linux.nobuild.sh` können wir **das neue Image erstellen**.
+Durch das **Ausführen** der Datei `dockerize.linux.nobuild.sh` **erstellen Sie das neue Image**.
 
 ![](../../../.gitbook/assets/0bmdlaBhkJ.png)
