@@ -1,103 +1,120 @@
 # Smartstore und Datenbank zusammen als Docker-Container betreiben
 
-Wenn Sie Smartstore zusammen mit einer Datenbankinstanz als Docker-Container ausführen möchten, gehen Sie wie folgt vor.
+Diese Anleitung zeigt zwei getrennte Docker-Compose-Beispiele: eines für MySQL und eines für Microsoft SQL Server. Wählen Sie genau eine Variante. Docker Engine beziehungsweise Docker Desktop muss installiert und gestartet sein; Docker Compose muss als `docker compose` verfügbar sein.
+
+Ersetzen Sie in den Beispielen `<RELEASE-TAG>` durch einen für Ihre Smartstore-Version freigegebenen Image-Tag. Legen Sie die verwendeten Passwörter in einer nicht veröffentlichten `.env`-Datei im selben Ordner ab:
+
+```
+MYSQL_ROOT_PASSWORD=<sicheres-mysql-passwort>
+MSSQL_SA_PASSWORD=<sicheres-sql-server-passwort>
+```
 
 ### Smartstore und MySQL zusammen als Docker-Container betreiben
 
-Erstellen Sie eine neue Datei in einem Texteditor Ihrer Wahl. Fügen Sie die folgenden Zeilen in die Datei ein und speichern Sie sie als `docker-compose.yml`.
+Erstellen Sie eine Datei namens `compose.yaml` mit folgendem Inhalt:
 
 ```
-version: "3.4"
 services:
   web:
-    image: ghcr.io/smartstore/smartstore-linux
-    container_name: web
+    image: ghcr.io/smartstore/smartstore-linux:<RELEASE-TAG>
+    container_name: smartstore
     ports:
       - "80:80"
+    restart: unless-stopped
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     volumes:
-      - "D:/mount/smtenants/mysql:/app/App_Data/Tenants"
+      - smartstore_tenants_mysql:/app/App_Data/Tenants
   db:
-    image: mysql
+    image: mysql:8.4
     container_name: mysql
+    restart: unless-stopped
     environment:
-      #MYSQL_DATABASE: smartstore
-      #MYSQL_USER: "root"
-      MYSQL_PASSWORD: "Smartstore2022!"
-      MYSQL_ROOT_PASSWORD: "Smartstore2022!"
-    ports:
-      - '3307:3306'
-    expose:
-      - '3306'
+      MYSQL_DATABASE: smartstore
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
     volumes:
-      - mysql:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
 
 volumes:
-  mysql:
+  smartstore_tenants_mysql:
+  mysql_data:
 ```
 
-Öffnen Sie ein Befehlsfenster und wechseln Sie zu dem Ordner, in dem die soeben erstellte Datei `docker-compose.yml` gespeichert wurde. Führen Sie die Datei mit dem folgenden Befehl aus:
+Öffnen Sie ein Befehlsfenster, wechseln Sie in den Ordner der Dateien `compose.yaml` und `.env` und starten Sie die Dienste im Hintergrund:
 
-`docker compose up`
+`docker compose up -d`
 
-Ein Smartstore-Container und ein MySQL-Container werden gestartet. Die Verbindungsdaten für den MySQL-Server finden Sie in der Compose-Datei:
+Prüfen Sie anschließend mit `docker compose ps`, ob beide Container ausgeführt werden. Die Smartstore-Installation erreichen Sie unter `http://localhost`. Verwenden Sie dort folgende MySQL-Verbindungsdaten:
 
+Server: `db`\
+Port: `3306`\
 Datenbankname: `smartstore`\
-MySQL-Root-Passwort: `Smartstore2022!`
+Benutzer: `root`\
+Passwort: Wert von `MYSQL_ROOT_PASSWORD` aus der `.env`-Datei
 
 Die Installation sieht dann wie folgt aus:
 
 ![](../../../.gitbook/assets/smartstore-installation-mysql-de.png)
 
-### Smartstore und MS SQL Server zusammen als Docker-Container betreiben
+### Smartstore und Microsoft SQL Server zusammen als Docker-Container betreiben
 
-Erstellen Sie eine neue Datei in einem Texteditor Ihrer Wahl. Fügen Sie die folgenden Zeilen in die Datei ein und speichern Sie sie als `docker-compose.yml`.
+Erstellen Sie für diese Variante eine Datei namens `compose.yaml` mit folgendem Inhalt:
 
 ```
 services:
-    web:
-        image: ghcr.io/smartstore/smartstore-linux
-        container_name: web
-        ports:
-            - "80:80"
-        restart: unless-stopped
-        depends_on:
-            - db
-        volumes:
-            - "C:/mount/smtenants/mysql:/app/App_Data/Tenants"
-    db:
-        image: "mcr.microsoft.com/mssql/server"
-        container_name: sqlserver
-        environment:
-            SA_PASSWORD: "Smartstore2022!"
-            ACCEPT_EULA: "Y"
-            MSSQL_PID: "Express"
-        ports:
-          - '1434:1433'
-        expose:
-          - '1433'
-        volumes:
-          - mssql_system:/var/opt/mssql/
-          - mssql_user:/var/opt/sqlserver/
+  web:
+    image: ghcr.io/smartstore/smartstore-linux:<RELEASE-TAG>
+    container_name: smartstore
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - smartstore_tenants_mssql:/app/App_Data/Tenants
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    volumes:
+      - mssql_data:/var/opt/mssql
+
 volumes:
-  mssql_system:
-  mssql_user:
+  smartstore_tenants_mssql:
+  mssql_data:
 ```
 
-Öffnen Sie ein Befehlsfenster und wechseln Sie zu dem Ordner, in dem die soeben erstellte Datei `docker-compose.yml` gespeichert wurde. Führen Sie die Datei mit dem folgenden Befehl aus:
+Starten und prüfen Sie die Dienste wie in der MySQL-Variante. Verwenden Sie im Smartstore-Installer folgende Verbindungsdaten:
 
-`docker compose up`
-
-Ein Smartstore-Container und ein MS-SQL-Server-Container werden gestartet. Die Verbindungsdaten für den MS-SQL-Server finden Sie in der Compose-Datei:
-
+Server: `db`\
+Port: `1433`\
 Datenbankname: `smartstore`\
-MS-SQL-Passwort für den Benutzer sa: `Smartstore2022!`
+Benutzer: `sa`\
+Passwort: Wert von `MSSQL_SA_PASSWORD` aus der `.env`-Datei
 
 Die Installation sieht dann wie folgt aus:
 
 ![](../../../.gitbook/assets/smartstore-installation-mssql-de.png)
 
 {% hint style="info" %}
-Ändern Sie auf Produktivsystemen unbedingt die voreingestellten Passwörter und Benutzernamen!
+Verwenden Sie individuelle, starke Passwörter und veröffentlichen Sie die `.env`-Datei nicht. Die Datenbankports werden in diesen Beispielen nicht auf dem Docker-Host freigegeben, weil Smartstore den Dienst `db` direkt über das Compose-Netzwerk erreicht.
 {% endhint %}
+
+Mit `docker compose logs` können Sie die Protokolle anzeigen. `docker compose down` stoppt und entfernt die Container, erhält aber die benannten Volumes. Verwenden Sie `docker compose down -v` nur, wenn die darin gespeicherten Shop- und Datenbankdaten ausdrücklich gelöscht werden sollen.
