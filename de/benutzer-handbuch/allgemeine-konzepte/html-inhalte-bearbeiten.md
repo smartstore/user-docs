@@ -1,13 +1,13 @@
 # HTML Inhalte bearbeiten
 
-HTML-Inhalte, die im Frontend angezeigt werden, können in unterschiedlichen Bereichen der Administrationsbereich bearbeitet werden. So müssen Sie beispielsweise HTML-Inhalte hinzufügen oder bearbeiten, wenn Sie [Ihre eigenen Seiten und Inhalte erstellen](../content-management/seiten-inhalte-verwalten.md) oder wenn Sie eine umfassende Beschreibung Ihres Produkts auf der Produktseite hinzufügen.
+HTML-Inhalte für das Frontend bearbeiten Sie an verschiedenen Stellen im Administrationsbereich, beispielsweise wenn Sie [Ihre eigenen Seiten und Inhalte erstellen](../content-management/seiten-inhalte-verwalten.md) oder ausführliche Produktbeschreibungen pflegen.
 
-Als HTML-Editor wird _Summernote_ benutzt.
+Für die Bearbeitung steht der Editor _Summernote_ zur Verfügung.
 
 ![](../../.gitbook/assets/summernote_editor.png)
 
 {% hint style="info" %}
 **Aufruf des HTML-Editors**
 
-Werden neue Produkte oder Warengruppen erstellt, öffnet sich der HTML-Editor nach dem Klick auf "Hier klicken, um HTML zu editieren..". Bei bereits vorhandenen Inhalten wird der Editor mit einem Klick in das Langtext-Feld aufgerufen.
+Bei neuen Produkten und Warengruppen öffnen Sie den HTML-Editor über "Hier klicken, um HTML zu editieren..". Bei vorhandenen Inhalten klicken Sie dazu in das Langtextfeld.
 {% endhint %}
