@@ -1,10 +1,10 @@
 # Zugriffsbeschränkungen (ACL)
 
-**Smartstore** stellt **Access Control Lists (ACLs)** zur Verfügung, mit denen sich der Zugang zu einem System auf autorisierte Nutzer bestimmter Kundengruppen beschränken lässt. Zugriffsrechte können für Warengruppen und Produkte konfiguriert werden. Die Zugriffsbeschränkungen für Produkte und Warengruppen legen fest, welche Inhalte für registrierte Kunden im Frontend Ihres Shops angezeigt werden.
+**Smartstore** bietet **Access Control Lists (ACLs)** zur Verfügung. Damit steuern Sie, welche Kundengruppen bestimmte Warengruppen und Produkte im Frontend sehen und bestellen können. So blenden Sie geschützte Shopbereiche nur für autorisierte Kunden ein.
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie betreiben ein Geschäft mit altersbeschränkten Produkten. Ihre Kunden müssen bestätigen, dass sie über 18 Jahre alt sind, indem sie Ihnen eine Kopie ihres Ausweises senden. Legen Sie zunächst eine Kundengruppe an und geben Sie dieser das Zugriffsrecht auf die Warengruppe, welche die Produkte mit Altersbeschränkung enthält. Nach Empfang der Ausweiskopie können Sie den Kunden nun dieser Kundengruppe zuordnen, wodurch die Produkte aus dieser Warengruppe für diesen Kunden einsehbar und bestellbar werden. Auf diese Weise können Sie sicherstellen, dass Besucher Ihres Shops altersbeschränkte Produkte nicht erreichen können, bis bestätigt ist, dass sie über 18 sind.
+Angenommen, Sie verkaufen altersbeschränkte Produkte. Legen Sie dafür eine Kundengruppe an und erlauben Sie ihr den Zugriff auf die entsprechende Warengruppe. Nachdem Sie den Altersnachweis eines Kunden geprüft haben, ordnen Sie ihn dieser Kundengruppe zu. Erst dann sind die geschützten Produkte für diesen Kunden sichtbar und bestellbar.
 
 ## Wie Sie Zugriffsbeschränkungen konfigurieren
 
@@ -15,7 +15,7 @@ Sie können den Zugriff auf Warengruppen und Produkte beschränken und festlegen
 {% hint style="info" %}
 **Diese Konfiguration für Kindelemente übernehmen**
 
-Diese Funktion übernimmt die Zugriffsrechtskonfiguration dieser Warengruppe für alle Unterwarengruppen und Produkte.\
-Bitte beachten Sie, dass die Änderungen der Zugriffsrechte zunächst gespeichert werden müssen, bevor diese für Unterwarengruppen und Produkte übernommen werden können.\
-**Vorsicht**: Bitte beachten Sie, dass vorhandene **Zugriffsrechte überschrieben beziehungsweise gelöscht werden**.
+Diese Funktion überträgt die Zugriffsrechte der Warengruppe auf alle Unterwarengruppen und Produkte.\
+Speichern Sie die geänderten Zugriffsrechte, bevor Sie sie auf die Kindelemente übertragen.\
+**Vorsicht**: Vorhandene **Zugriffsrechte werden dabei überschrieben beziehungsweise gelöscht**.
 {% endhint %}
