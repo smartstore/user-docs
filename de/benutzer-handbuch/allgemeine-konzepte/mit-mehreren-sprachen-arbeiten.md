@@ -1,12 +1,12 @@
 # Mit mehreren Sprachen arbeiten
 
-Smartstore beinhaltet nach der Installation die ausgewählte Standardsprache. Sie können aber eine unbegrenzte Anzahl weiterer Sprachen hinzufügen.
+Nach der Installation ist die bei der Einrichtung gewählte Standardsprache verfügbar. Weitere Sprachen können Sie jederzeit hinzufügen und veröffentlichen.
 
 ## So fügen Sie eine Sprache hinzu
 
 Um eine weitere Sprache hinzuzufügen, gehen Sie zu **Konfiguration > Regionale Einstellungen > Sprachen**.
 
-Hier gibt es zwei Möglichkeiten, Sprachen hinzuzufügen. Über die Funktion **„Verfügbare Sprachen“** können Sie kostenlose Sprachpakete herunterladen. Nach dem Download muss die neue Sprache nur noch veröffentlicht werden. Wenn die gewünschte Sprache nicht unter **„Verfügbare Sprachen“** aufgeführt ist, können Sie sie über **Neu** manuell anlegen und die Sprachressourcen über eine XML-Datei zu importieren.
+Sie können Sprachen auf zwei Wegen hinzufügen: Über **„Verfügbare Sprachen“** laden Sie ein vorhandenes Sprachpaket herunter und veröffentlichen es anschließend. Ist die gewünschte Sprache dort nicht aufgeführt, legen Sie sie über **Neu** manuell an und importieren die Sprachressourcen aus einer XML-Datei.
 
 ![doku\_mit\_mehreren\_sprachen\_arbeiten\_2025\_.png](../../.gitbook/assets/doku_mit_mehreren_sprachen_arbeiten_2025_.png)
 
@@ -20,21 +20,21 @@ Hier gibt es zwei Möglichkeiten, Sprachen hinzuzufügen. Über die Funktion **�
 | Flaggenbild       | Legt das Flaggenbild fest. Wenn Sie ein anderes Bild auswählen möchten, muss dieses in dem Ordner _content/images/flags/_ liegen.                                                                                                                                                |
 | Rechts nach links | Legt fest, ob für diese Sprache die Schreibrichtung "rechts nach links" aktiviert wird. Das verwendete Theme muss dies ebenfalls unterstützen.                                                                                                                                   |
 
-Sobald Sie Ihre gewünschte Sprache erstellt haben, müssen Sie die Ressourcen für diese Sprache hinzufügen, indem Sie auf **Ressourcen importieren** klicken, wodurch Sie eine XML-Datei für den Import auswählen können. Sie finden die XML-Dateien für Englisch und Deutsch in dem Ordner /_App\_Data/Localization/App._
+Nachdem Sie eine Sprache manuell angelegt haben, importieren Sie deren Ressourcen über **Ressourcen importieren** aus einer XML-Datei. Die XML-Dateien für Englisch und Deutsch finden Sie im Ordner /_App\_Data/Localization/App._
 
 ## Wie Sie eine einzelne Ressource hinzufügen oder bearbeiten
 
-Manchmal kommt es vor, dass Sie eine einzelne Ressource verändern möchten. Beispielsweise könnte es sein, dass Sie den Titel für das Forum von _Foren_ zu _Forum_ verändern möchten. Dies können Sie tun, indem Sie zu **Konfiguration > Regionale Einstellungen > Sprachen** gehen und dort auf **Ressourcen editieren** klicken.
+Einzelne Texte passen Sie direkt in den Sprachressourcen an. Öffnen Sie dazu **Konfiguration > Regionale Einstellungen > Sprachen** und klicken Sie auf **Ressourcen editieren**. Im folgenden Beispiel wird der Forentitel von _Foren_ in _Forum_ geändert.
 
 ![doku\_mit\_mehreren\_sprachen\_arbeiten\_2025\_einzelne\_ressource\_hinzufuegen.png](../../.gitbook/assets/doku_mit_mehreren_sprachen_arbeiten_2025_einzelne_ressource_hinzufuegen.png)
 
-Dort sehen Sie eine Tabelle, die alle hinzugefügten Ressourcen für diese Sprache anzeigt. Filtern Sie die Einträge, um die Ressource zu finden, die Sie suchen. Sie können entweder nach Wert oder Ressourcenname filtern. Da Sie den Text kennen, den Sie verändern möchten, klicken Sie auf das Filtersymbol und geben Sie in der Zelle Ressourcenwert =_Foren_ ein. Unter dem Tooltip "?" werden weitere Suchoperatoren angezeigt. Es wird Ihnen nun eine Liste mit unterschiedlichen Ressourcen angezeigt, die den Filterkriterien entsprechen. Einer dieser Einträge hat die Vorsilbe _admin_. Daran erkennen Sie, dass er zum Administrationsbereich gehört und für dieses Beispiel nicht relevant ist. Die Ressource, die Sie bearbeiten möchten, heißt in diesem Fall _Forum.PageTitle.Default._ Über den Drei-Punkte-Schaltfläche kann der gewünschte Wert geändert werden.
+Die Tabelle enthält alle Ressourcen der gewählten Sprache. Filtern Sie nach Ressourcenwert oder Ressourcenname. Für das Beispiel geben Sie beim Ressourcenwert _Foren_ ein; weitere Suchoperatoren finden Sie über den Tooltip „?“. Einträge mit der Vorsilbe _admin_ gehören zum Administrationsbereich und sind hier nicht relevant. Öffnen Sie bei _Forum.PageTitle.Default_ das Drei-Punkte-Menü und ändern Sie den Wert.
 
 ![doku\_mit\_mehreren\_sprachen\_arbeiten\_2025\_einzelne\_ressource\_bearbeiten.png](../../.gitbook/assets/doku_mit_mehreren_sprachen_arbeiten_2025_einzelne_ressource_bearbeiten.png)
 
 ## Lokalisierte Objekte
 
-Es gibt zahlreiche Objekte (z. B. Produkte, Warengruppen, Seiten) in Smartstore, bei denen Sie Texte, die dem Nutzer angezeigt werden sollen, angeben können, dazu gehören Produktnamen, Produktbeschreibungen oder auch verschiedene Anzeigenamen (z. B. Lieferzeit, Mengenangabe usw.). Wenn ein solcher Wert im Backend angegeben werden kann, finden Sie auch ein Steuerelement, mit dem Sie Texte in allen konfigurierten Sprachen Ihres Shops anzugeben. So können Sie alternative Ressourcen für spezifische Sprachen sowie einen Standardtext festlegen, welcher angezeigt wird, wenn keine andere Ressource für die von Ihrem Kunden ausgewählte Sprache angegeben wurde.
+Viele Smartstore-Objekte, etwa Produkte, Warengruppen und Seiten, besitzen lokalisierbare Textfelder. Dazu gehören Produktnamen, Beschreibungen und Anzeigenamen wie Lieferzeit oder Mengenangabe. Über das Sprach-Steuerelement pflegen Sie Werte für alle konfigurierten Sprachen und einen Standardtext. Dieser Standardtext wird verwendet, wenn für die ausgewählte Sprache kein eigener Wert hinterlegt ist.
 
 ![doku\_mit\_mehreren\_sprachen\_arbeiten\_2025\_lokalisierte\_objekte.png](../../.gitbook/assets/doku_mit_mehreren_sprachen_arbeiten_2025_lokalisierte_objekte.png)
 
