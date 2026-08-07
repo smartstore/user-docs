@@ -4,7 +4,7 @@ icon: lightbulb
 
 # Allgemeine Konzepte
 
-Einige Konzepte kehren in verschiedenen Bereichen von **Smartstore** wieder. Dieser Abschnitt erläutert diese allgemeinen Konzepte.
+Dieser Abschnitt bündelt Funktionen und Arbeitsweisen, die in mehreren Bereichen von **Smartstore** wiederkehren. Dazu gehören unter anderem Zugriffsrechte, HTML-Inhalte, Mehrsprachigkeit, mehrere Shops und SEO.
 
 {% columns %}
 {% column width="50%" %}
