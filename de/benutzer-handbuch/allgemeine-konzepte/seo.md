@@ -2,7 +2,7 @@
 
 Suchmaschinenoptimierung (SEO) hilft dabei, Produkte, Warengruppen und Inhalte Ihres Shops besser in Suchmaschinen auffindbar zu machen. Smartstore unterstützt Sie dabei mit suchmaschinenfreundlichen URLs, zentralen SEO-Standardwerten und individuellen Einstellungen pro Produkt oder Warengruppe.
 
-Auf dieser Seite erfahren Sie, wo Sie die wichtigsten SEO-Einstellungen finden und welche Smartstore-Funktionen Ihre Sichtbarkeit zusätzlich verbessern können.
+Die folgenden Abschnitte zeigen, wo Sie die wichtigsten SEO-Einstellungen finden und mit welchen Smartstore-Funktionen Sie Ihre Inhalte für Suchmaschinen aufbereiten können.
 
 ## Globale SEO-Einstellungen
 
@@ -14,7 +14,7 @@ Dort können Sie Standardwerte für Metadaten festlegen, die Smartstore auf Ihre
 * **Meta-Beschreibung**: eine kurze Zusammenfassung des Seiteninhalts für Suchmaschinen und Nutzer.
 * **Meta-Keywords**: optionale Schlagwörter, falls Sie diese weiterhin pflegen möchten.
 
-Diese globalen Werte dienen als Fallback. Sie werden verwendet, solange auf einer tieferen Ebene, etwa bei einem Produkt oder einer Warengruppe, keine eigenen SEO-Daten hinterlegt sind.
+Die globalen Werte dienen als Fallback: Smartstore verwendet sie, wenn für ein Produkt oder eine Warengruppe keine eigenen SEO-Daten hinterlegt sind.
 
 ## SEO für Produkte und Warengruppen
 
@@ -34,9 +34,9 @@ Achten Sie bei manuellen URL-Änderungen auf verständliche, stabile Begriffe. H
 
 ## Mehrsprachige SEO-Einstellungen
 
-Wenn Sie Ihren Shop in mehreren Sprachen anbieten, sollte jede Sprachversion für Suchmaschinen eindeutig erkennbar sein. Smartstore unterstützt diese eindeutige Kennzeichnung automatisch.
+Bei mehrsprachigen Shops unterstützt Smartstore Suchmaschinen dabei, die einzelnen Sprachversionen einer Seite korrekt zuzuordnen.
 
-Smartstore setzt im HTML-Code Ihres Shops das passende **lang**-Attribut und verwendet sprachbezogene URL-Bestandteile wie **/en** oder **/de**, abhängig von Ihren Spracheinstellungen. So können Suchmaschinen die Sprache einer Seite besser zuordnen und die Inhalte in passenden lokalen Suchergebnissen anzeigen.
+Abhängig von Ihren Spracheinstellungen setzt Smartstore im HTML-Code das passende **lang**-Attribut und verwendet sprachbezogene URL-Bestandteile wie **/en** oder **/de**. Dadurch können Suchmaschinen die Sprache einer Seite besser erkennen und Inhalte passenden Suchergebnissen zuordnen.
 
 ## Weitere SEO-relevante Funktionen
 
