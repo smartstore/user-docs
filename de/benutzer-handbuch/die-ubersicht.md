@@ -4,9 +4,9 @@ icon: house
 
 # Die Übersicht
 
-Die Startseite des Backends dient als zentrale Übersicht für alle wichtigen Kennzahlen, Statistiken und aktuellen Informationen zum Shop.
+Die Startseite des Backends bündelt wichtige Kennzahlen, Statistiken und aktuelle Informationen zu Ihrem Shop.
 
-Das **Dashboard** ist in verschiedene Bereiche unterteilt, die in Diagrammen und Listen dargestellt werden. So können Administratoren auf einen Blick den aktuellen Stand des Shops erfassen und schnell auf wichtige Ereignisse reagieren.
+Das **Dashboard** stellt diese Daten in Diagrammen und Listen dar. So erkennen Administratoren den aktuellen Shopstatus auf einen Blick und können auf relevante Entwicklungen reagieren.
 
 ![Dashboard.png](../.gitbook/assets/dashboard.png)
 
@@ -17,7 +17,7 @@ Sollten Änderungen in der Theme-Konfiguration vorgenommen worden sein, können 
 
 ## Unvollständige Aufträge
 
-Dieser Bereich zeigt alle Bestellungen an, die im Shop-System noch nicht vollständig abgeschlossen sind. Administratoren erhalten so einen schnellen Überblick über offene Vorgänge, die noch bearbeitet werden müssen.
+Dieser Bereich zeigt noch nicht vollständig abgeschlossene Aufträge. So erkennen Administratoren schnell, welche Vorgänge noch bearbeitet werden müssen.
 
 Um die Auswertung übersichtlich zu halten, stehen verschiedene Zeiträume zur Verfügung.\
 \- **Heute** – zeigt unvollständige Aufträge des aktuellen Tages.\
@@ -82,7 +82,7 @@ Wenn Sie auf den Link der Kundennummer beziehungsweise des Auftragsstatus klicke
 
 ## Statistiken
 
-Dieser Bereich gibt einen kompakten Überblick über die wichtigsten Kennzahlen des Shops. Er zeigt unter anderem die Anzahl der **Produkte**, **Attribute**, **Kombinationen**, **Warengruppen**, **Hersteller** und **Bilder** sowie die **Mediengrößen** sowie die Gesamtzahl der **Kunden** und **Aufträge**. Darüber hinaus werden der **Umsatz**, die Anzahl der aktuell im Shop aktiven Kunden (**Kunden online**), die Gesamtsumme der **Warenkörbe** und der **Wunschlisten** dargestellt. Auf diese Weise lassen sich schnell zentrale Informationen zur Shop-Struktur und zu den Aktivitäten im Shop erfassen.
+Dieser Bereich gibt einen kompakten Überblick über die wichtigsten Kennzahlen des Shops. Er zeigt unter anderem die Anzahl der **Produkte**, **Attribute**, **Kombinationen**, **Warengruppen**, **Hersteller** und **Bilder**, die **Mediengrößen** sowie die Gesamtzahl der **Kunden** und **Aufträge**. Darüber hinaus werden der **Umsatz**, die Anzahl der aktuell im Shop aktiven Kunden (**Kunden online**), die Gesamtsumme der **Warenkörbe** und der **Wunschlisten** dargestellt. Auf diese Weise lassen sich schnell zentrale Informationen zur Shop-Struktur und zu den Aktivitäten im Shop erfassen.
 
 ![StoreStatistics.png](../.gitbook/assets/StoreStatistics.png)
 
