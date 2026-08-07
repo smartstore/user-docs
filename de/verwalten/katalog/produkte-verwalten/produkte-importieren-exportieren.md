@@ -1,11 +1,11 @@
 # Produkte importieren & exportieren
 
-Smartstore ermöglicht Ihnen den Import und Export Ihrer Produktdaten in unterschiedlichen Formaten. Wenn Sie bereits eine Datenbank haben, die den Produktkatalog, den Sie online anbieten möchten, enthält, dann wollen Sie natürlich nicht alle Daten manuell erneut eingeben, sondern diese automatisch importieren. Ein verbreitetes Datenformat für strukturierte Daten ist CSV (delimiter separated values). CSV-Exporte können beispielsweise durch Excel bearbeitet werden.
+Smartstore ermöglicht Ihnen den Import und Export Ihrer Produktdaten in unterschiedlichen Formaten. Wenn Sie bereits eine Datenbank haben, die den Produktkatalog, den Sie online anbieten möchten, enthält, dann wollen Sie natürlich nicht alle Daten manuell erneut eingeben, sondern diese automatisch importieren. Ein verbreitetes Datenformat für strukturierte Daten ist CSV (Comma-Separated Values). CSV-Exporte können beispielsweise mit Excel bearbeitet werden.
 
 {% hint style="info" %}
-**Export Plugins**
+**Export-Plugins**
 
-Ein Datenexport erfordert einen Export-Provider, der Smartstore mitteilt, in welchem Format die Daten ausgegeben werden sollen. Export-Provider werden im allgemeinen durch Plugins bereit gestellt. Sie können diese im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) beziehen.
+Ein Datenexport erfordert einen Export-Provider, der Smartstore mitteilt, in welchem Format die Daten ausgegeben werden sollen. Export-Provider werden im Allgemeinen durch Plugins bereitgestellt. Sie können diese im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) beziehen.
 {% endhint %}
 
 ## Export
@@ -16,12 +16,12 @@ Sie können Ihre Produktdaten in XML, CSV oder PDF exportieren. Bei einem PDF-Ex
 
 Sie können Produktdaten importieren, indem Sie ein Importprofil nutzen. Um ein Importprofil zu erstellen, gehen Sie zu **Konfiguration > Import**. Für Informationen zu Importprofilen lesen Sie bitte [Importprofile verwalten](../../../benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md).
 
-Das Importprofil lässt Sie CSV-Dateien und auch Excel-Dateien hochladen, die die zu importierenden Katalogdaten enthalten. Um neue Produkte zu importieren, ist die Spalte **Name** das einzig erforderliche Feld, das einen Wert enthalten muss. Wenn Sie Ihre vorhandenen Produktdaten aktualisieren möchten, benötigen Sie zwingend Werte in den Feldern **SKU, GTIN (EAN), Herstellernummer** oder **ID.** Diese werden genutzt, um vorhandene Daten in Ihrem Katalog zu erkennen. Wenn ein Produkt mit einem dieser eindeutigen Schlüsselfelder gefunden wird, wird es aktualisiert. Wenn kein Produkt gefunden wird und ein Wert in der Spalte **Name** angegeben ist, wird ein neues Produkt erstellt und die Daten der Zeile werden entsprechend importiert. Eine vollständige Liste von Werten, die importiert werden, finden Sie in der unten stehende Liste.
+Das Importprofil lässt Sie CSV-Dateien und auch Excel-Dateien hochladen, die die zu importierenden Katalogdaten enthalten. Um neue Produkte zu importieren, ist die Spalte **Name** das einzig erforderliche Feld, das einen Wert enthalten muss. Wenn Sie Ihre vorhandenen Produktdaten aktualisieren möchten, benötigen Sie zwingend Werte in den Feldern **SKU, GTIN (EAN), Herstellernummer** oder **ID.** Diese werden genutzt, um vorhandene Daten in Ihrem Katalog zu erkennen. Wenn ein Produkt mit einem dieser eindeutigen Schlüsselfelder gefunden wird, wird es aktualisiert. Wenn kein Produkt gefunden wird und ein Wert in der Spalte **Name** angegeben ist, wird ein neues Produkt erstellt und die Daten der Zeile werden entsprechend importiert. Eine vollständige Liste von Werten, die importiert werden, finden Sie in der unten stehenden Liste.
 
 {% hint style="info" %}
 **Felder mit IDs formatieren**
 
-Felder, die IDs enthalten können mehrere Werte enthalten, die durch | getrennt werden. (z.B.: CategoryIds, StoreIds)
+Felder, die IDs enthalten, können mehrere Werte enthalten, die durch | getrennt werden (z. B. CategoryIds, StoreIds).
 {% endhint %}
 
 ### Allgemein
@@ -59,7 +59,7 @@ Produktbilder können unter anderem durch die Angabe einer URL importiert werden
 
 ImageUrls
 
-Wenn `ImageUrls` nur Dateinamen oder verknüpfte Pfade enthält, durchsucht der Produkt-Importer den Ordner des Importprofils nach Bilddateien. Beispiel: Für einen Importwert von `Content\MyImages\ProductPicture.jpg` erwartet der Produkt Importer die Datei unter `\App_Data\ImportProfiles\name-of-my-import-profile\Content\MyImages\ProductPicture.jpg`.
+Wenn `ImageUrls` nur Dateinamen oder verknüpfte Pfade enthält, durchsucht der Produkt-Importer den Ordner des Importprofils nach Bilddateien. Beispiel: Für einen Importwert von `Content\MyImages\ProductPicture.jpg` erwartet der Produkt-Importer die Datei unter `\App_Data\ImportProfiles\name-of-my-import-profile\Content\MyImages\ProductPicture.jpg`.
 
 ### Download
 
@@ -112,7 +112,7 @@ BasePriceBaseAmount
 
 ### Lokalisierung
 
-Lokalisierte Werte können für Produktnamen, Kurz- und Langbeschreibungen importiert werden. Der Sprachcode zwischen den Klammern muss dem SEO Code der in Ihrem Shop aktivierten Sprache entsprechen
+Lokalisierte Werte können für Produktnamen, Kurz- und Langbeschreibungen importiert werden. Der Sprachcode zwischen den Klammern muss dem SEO-Code der in Ihrem Shop aktivierten Sprache entsprechen.
 
 BasePriceBaseAmount\
 Name\[en]\
