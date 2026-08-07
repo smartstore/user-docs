@@ -4,14 +4,14 @@ icon: gear
 
 # Das Backend entdecken
 
-Das **Smartstore-Backend** stellt Ihnen eine Benutzeroberfläche zur Verfügung, die Ihnen dabei hilft, Ihren Shop und Ihren Produktkatalog einfach zu verwalten. Um zur Backend-Benutzeroberfläche zu gelangen, loggen Sie sich bitte ein. Sobald Sie als Shop-Administrator angemeldet sind, finden Sie einen Link in der Hauptnavigationsleiste des Shops sowie im Verwaltungsmenü für Ihren Account.
+Das **Smartstore-Backend** ist die zentrale Oberfläche für die Verwaltung Ihres Shops und Produktkatalogs. Melden Sie sich als Shop-Administrator an. Den Zugang zum Backend finden Sie anschließend in der Hauptnavigationsleiste und im Verwaltungsmenü Ihres Kontos.
 
 ![](../.gitbook/assets/smartstore-admin-login.png)
 
 1. Verwaltungsmenü für das Konto
 2. Verwaltungslink
 
-Anschließend wird die **Smartstore-Backend-Benutzeroberfläche** angezeigt.
+Nach dem Aufruf öffnet sich die **Smartstore-Backend-Benutzeroberfläche**.
 
 ![](../.gitbook/assets/admin-dashboard-smartstore.png)
 
@@ -24,13 +24,13 @@ Die Benutzeroberfläche besteht aus den folgenden Bereichen:
 
 ## Hauptnavigationsleiste
 
-Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den Kernmodulen von **Smartstore**, dazu gehören **Übersicht/Dashboard, Katalog, Verkauf, Kunden, Marketing, CMS, Konfiguration, System** und **Plugins**.
+Über die **Hauptnavigationsleiste** öffnen Sie die zentralen Bereiche **Übersicht/Dashboard, Katalog, Verkauf, Kunden, Marketing, CMS, Konfiguration, System** und **Plugins**.
 
 ![](../.gitbook/assets/smartstore-admin-hauptnavigationsleiste.png)
 
 ![](../.gitbook/assets/das_backend_entdecken_3.png)
 
-Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den folgenden wichtigen Modulen. Wenn Sie weitere Informationen benötigen, folgen Sie einfach den jeweiligen Links.
+Die folgenden Kurzbeschreibungen geben einen Überblick. Über die Links gelangen Sie zu den jeweiligen Anleitungen.
 
 * [**Übersicht**](die-ubersicht.md) - Hier finden Sie die Statistiken für Ihren Shop, dazu gehören Auftragssummen, Bestseller nach Menge, Bestseller nach Betrag, registrierte Kunden und unvollständige Aufträge.
 * [**Katalog**](../verwalten/katalog/) - Erlaubt die Erstellung und Verwaltung von Warengruppen und Produkten. Sie können hier auch Hersteller, Produktrezensionen, Tags und Attribute bearbeiten.
@@ -44,7 +44,7 @@ Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den folgenden wichtigen Modu
 
 ## Links rechts oben
 
-Über die **Links rechts oben** können Sie Ihre Kontoeinstellungen zu konfigurieren, den Shop anzusehen, eine Sprache auszuwählen, den Hilfebereich aufzurufen und sich aus **Smartstore** abzumelden.
+Über die **Links rechts oben** können Sie den Shop öffnen, die Anwendungssprache wechseln, die Online-Hilfe aufrufen, Ihre Kontoeinstellungen verwalten und sich aus **Smartstore** abmelden.
 
 | **Option**                                          | **Beschreibung**                                                                                                                |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -57,6 +57,6 @@ Die **Hauptnavigationsleiste** gibt Ihnen Zugang zu den folgenden wichtigen Modu
 
 ## Übersicht
 
-In der **Übersicht** können Sie alle Module in **Smartstore** aufrufen und bearbeiten.
+Die **Übersicht** bündelt zentrale Shop-Kennzahlen und bietet schnellen Zugriff auf wichtige Verwaltungsbereiche.
 
 ![](../.gitbook/assets/admin-dashboard-smartstore.png)
