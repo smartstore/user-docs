@@ -7,13 +7,13 @@
 |                            |                                                                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Preis                      | Der Preis des Produkts.                                                                                                                                                   |
-| Alter Preis                | Legt den alten Preis fest. Um den Unterschied zum aktuellen Preis zu verdeutlichen, wird der alte Preis neben dem aktuellen Preis des Produktes dargestellt.              |
+| Alter Preis                | Legt den alten Preis fest. Um den Unterschied zum aktuellen Preis zu verdeutlichen, wird der alte Preis neben dem aktuellen Preis des Produkts dargestellt.               |
 | Einkaufspreis              | Legt den Einkaufspreis fest.                                                                                                                                              |
 | Aktionspreis               | Legt einen Aktionspreis für das Produkt fest. Der neue Preis ist zwischen Anfangs- und Enddatum gültig. Anfangs- und Enddatum freilassen, um keinen Zeitraum festzulegen. |
 | Aktionspreis Anfangsdatum  | Anfangszeit für den Aktionspreis nach UTC.                                                                                                                                |
 | Aktionspreis Enddatum      | Ende des Aktionspreises nach UTC.                                                                                                                                         |
 | Rabatte                    | Legt auf das Objekt anzuwendende Rabatte fest.                                                                                                                            |
-| "Kaufen"-Button verbergen  | Legt fest, ob der Kaufen-Button ausgeblendet werden soll (erforderlich bspw. dann, wenn Produkte nur auf Anfrage erhältlich sind).                                        |
+| "Kaufen"-Button verbergen  | Legt fest, ob der Kaufen-Button ausgeblendet werden soll (erforderlich z. B. dann, wenn Produkte nur auf Anfrage erhältlich sind).                                        |
 | Wunschliste deaktivieren   | Legt fest, ob der Wunschlisten-Button für dieses Produkt deaktiviert werden soll.                                                                                         |
 | Vorbestellung möglich      | Markieren, falls Vorbestellungen möglich sein sollen ("Vorbestellen"- statt "Warenkorb"-Button wird angezeigt).                                                           |
 | Preis auf Anfrage          | Legt fest, ob "Preis auf Anfrage" anstelle des Preises angezeigt werden soll.                                                                                             |
@@ -23,12 +23,12 @@
 
 ## Grundpreis gemäß PAngV berechnen
 
-Der Zweck der Grundpreisberechnung nach PAngV \[Preisangabenverordnung] besteht darin, Ihre Kunden über den Grundpreis einer Verpackungseinheit, in der Sie Ihr Produkt verkaufen, zu informieren. Nehmen wir an, dass Sie Tee verkaufen und unterschiedliche Verpackungseinheiten (z. B. 200g, 300g, 500g) anbieten. In solchen Fällen könnten Ihre Kunden daran interessiert sein, den Preis des Produkts pro 100g zu erfahren, damit sie die Preise vergleichen können. Um diese Informationen darzustellen können Sie die Option **Grundpreis gemäßg PAngV berechnen**  aktivieren und die  **Grundeinheit** und die enthaltene **Menge** der von Ihnen angebotenen Verpackungseinheiten angeben.
+Der Zweck der Grundpreisberechnung nach PAngV (Preisangabenverordnung) besteht darin, Ihre Kunden über den Grundpreis einer Verpackungseinheit, in der Sie Ihr Produkt verkaufen, zu informieren. Nehmen wir an, dass Sie Tee verkaufen und unterschiedliche Verpackungseinheiten (z. B. 200 g, 300 g, 500 g) anbieten. In solchen Fällen könnten Ihre Kunden daran interessiert sein, den Preis des Produkts pro 100g zu erfahren, damit sie die Preise vergleichen können. Um diese Informationen darzustellen, können Sie die Option **Grundpreis gemäß PAngV berechnen** aktivieren und die **Grundeinheit** und die enthaltene **Menge** der von Ihnen angebotenen Verpackungseinheiten angeben.
 
-![](<../../../.gitbook/assets/pangv.png>)
+![](../../../.gitbook/assets/pangv.png)
 
 ## Staffelpreise
 
-Staffelpreise sind Preisnachlässe bei unterschiedlich hohen Mengenabnahmen.&#x20;
+Staffelpreise sind Preisnachlässe bei unterschiedlich hohen Mengenabnahmen.
 
 ![](<../../../.gitbook/assets/2022-10-18 11_23_49-Produktdetails _ Smartstore Administration.png>)
