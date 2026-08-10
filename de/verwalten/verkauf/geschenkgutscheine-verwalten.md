@@ -1,15 +1,15 @@
 # Geschenkgutscheine verwalten
 
-Geschenkgutscheine ermöglichen es Ihnen, Kunden zu erreichen, die Sie normalerweise nicht erreichen würden, weshalb dies ein ideales Werkzeug zur Erzeugung von Kaufimpulsen ist. Darüber hinaus ist ein Kunde, der eine Geschenkkarte erhält, hoch motiviert, diese auch zu benutzen.
+Geschenkgutscheine schaffen zusätzliche Kaufanreize und erreichen häufig neue Kunden, die den Gutschein als Geschenk erhalten.
 
 ## Wie Sie Geschenkgutscheine verwalten
 
-Geschenkgutscheine sind in Smartstore recht einfache Produkte, die das Label 'Geschenkgutschein' in der Registerkarte Allgemein in der Produktdetailansicht haben. Sie müssen sich entscheiden, ob der Geschenkgutschein physisch oder virtuell ist. Wenn der Geschenkgutschein virtuell ist, muss der Kunde keine Adressangaben beim Checkout machen, da das virtuelle Produkt ja nicht verschickt wird. Wenn der Kunde eine Geschenkkarte erworben hat, muss diese aktiviert werden, bevor sie beim Checkout-Vorgang in Ihrem Shop eingesetzt werden kann. Dies geschieht automatisch und richtet sich nach der entsprechenden Einstellung in **Konfiguration > Einstellungen > Auftrags-Einstellungen**. Sie können auswählen, ob Sie die Geschenkgutscheine aktivieren möchten, wenn der Auftragsstatus **Unerledigt, Komplett** oder **Abgebrochen** markiert ist. Sie können auch einen Status für die Deaktivierung von Geschenkgutscheinen festsetzen. Es ist auch möglich, alle gekauften Geschenkgutscheine über **Verkauf > Geschenkgutscheine** zu verwalten.
+Geschenkgutscheine werden als Produkte angelegt und in der Registerkarte Allgemein als Geschenkgutschein gekennzeichnet. Legen Sie fest, ob der Gutschein physisch oder virtuell ist. Bei virtuellen Gutscheinen sind keine Versandadressdaten erforderlich. Bevor ein gekaufter Gutschein im Checkout eingelöst werden kann, muss er aktiviert sein. Die automatische Aktivierung richtet sich nach den Einstellungen unter **Konfiguration > Einstellungen > Auftrags-Einstellungen**. Sie können auswählen, ob Sie die Geschenkgutscheine aktivieren möchten, wenn der Auftragsstatus **Unerledigt, Komplett** oder **Abgebrochen** erreicht. Zusätzlich können Sie einen Auftragsstatus für die automatische Deaktivierung festlegen. Alle gekauften Geschenkgutscheine verwalten Sie über **Verkauf > Geschenkgutscheine**.
 
 ![](../../.gitbook/assets/geschenkgutscheine_verwalten_1.png)
 
 ## Wie Ihre Kunden Geschenkgutscheine einsetzen können
 
-Wenn ein Geschenkgutschein aktiviert wurde, müssen Sie den Inhaber des Geschenkgutscheins darüber informieren, indem Sie **Empfänger benachrichtigen** drücken. Diese Funktion schickt einen generierten Gutscheincode an den Geschenkgutschein-Empfänger, der diesen Code in der Warenkorbübersicht des Checkout-Prozesses verwenden kann. Durch die Eingabe des Codes reduziert sich die Auftragssumme um den Betrag des Geschenkgutscheins. Wenn die Auftragssumme geringer ist als der Wert des Geschenkgutscheins, kann Ihr Kunde den Geschenkgutschein so lange weiter nutzen, bis dieser aufgebraucht ist.
+Informieren Sie den Empfänger nach der Aktivierung über **Empfänger benachrichtigen** über den generierten Gutscheincode. Der Code wird in der Warenkorbübersicht eingegeben und reduziert die Auftragssumme um den verfügbaren Gutscheinbetrag. Ein Restguthaben bleibt für weitere Einkäufe erhalten.
 
 ![](../../.gitbook/assets/geschenkgutscheine_verwalten_2.png)
