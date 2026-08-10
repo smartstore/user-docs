@@ -1,17 +1,17 @@
 # Retourenwünsche verwalten
 
-Wenn Sie online Produkte verkaufen, müssen Sie sich darauf einstellen, dass einige Produkte aus unterschiedlichen Gründen zurückgeschickt werden. Kunden senden einen Artikel vielleicht zurück, weil er nicht so ist, wie sie sich ihn vorgestellt haben, weil er einen Defekt aufweist oder weil sie beim Bestellvorgang ein falsches Attribut ausgewählt haben. Ihre Kunden können sich dazu in ihr Kundenkonto einloggen, einen Retourenwunsch einreichen und Ihnen das Produkt zurücksenden. In Smartstore können Sie Retourenwünsche unter **Konfiguration > Einstellungen > Auftrags-Einstellungen > Retoureneinstellungen** konfigurieren. Sie können alle Retourenwünsche verwalten, indem Sie zu **Verkauf > Retourenwünsche** navigieren.
+Kunden können über ihr Kundenkonto einen Retourenwunsch einreichen, beispielsweise bei einem Defekt, einer abweichenden Erwartung oder einem falsch gewählten Produktattribut. Die verfügbaren Retourenoptionen konfigurieren Sie unter **Konfiguration > Einstellungen > Auftrags-Einstellungen > Retoureneinstellungen**. Alle eingereichten Retourenwünsche verwalten Sie über **Verkauf > Retourenwünsche**.
 
 ![](../../.gitbook/assets/retourenwuensche_verwalten_1.png)
 
 ## Die Kundendetailansicht
 
-Bevor Ihre Kunden Artikel zurücksenden können, muss der dazugehörige Auftrag als **Komplett** markiert sein. Wenn der Auftrag vollständig abgeschlossen ist, können Kunden in ihrem Login-Bereich in der Auftragsübersicht bei den betreffenden Artikeln auf **Artikel zurücksenden** klicken. Sie werden dann zu einem Formular weitergeleitet, in dem sie die Artikel, die sie zurücksenden möchten und die Gründe für die Retoure angeben können. Ihre Kunden können darüber hinaus auswählen, wie die Rücksendung behandelt werden soll (Rücksendeaktion: **Reparatur, Ersatz, Gutschein**).
+Ein Retourenwunsch ist erst möglich, wenn der zugehörige Auftrag den Status **Komplett** hat. Kunden wählen anschließend in ihrer Auftragsübersicht **Artikel zurücksenden**. Im folgenden Formular geben sie die betroffenen Artikel, den Retourengrund und die gewünschte Rücksendeaktion an: **Reparatur, Ersatz, Gutschein**.
 
 ![](../../.gitbook/assets/retourenwuensche_verwalten_2.png)
 
 ## Die Administratoren-Detailansicht
 
-In der Detailansicht eines Retourenwunsches können Sie den Rücksendewunsch **Akzeptieren**, die Details bearbeiten und den Kunden über den Status seines Rücksendewunsches informieren.
+In der Detailansicht können Sie den Retourenwunsch **Akzeptieren**, bearbeiten und den Kunden über den aktuellen Status informieren.
 
 ![](../../.gitbook/assets/retourenwuensche_verwalten_3.png)
