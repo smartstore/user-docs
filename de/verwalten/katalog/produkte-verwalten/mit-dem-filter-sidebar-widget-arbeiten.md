@@ -1,6 +1,6 @@
 # Mit dem Filter Sidebar Widget arbeiten
 
-Das **Filter Sidebar Widget** ermöglicht es Ihren Kunden, Warengruppen in Ihrem Shop auf spezifische Weise zu filtern. Das Widget bestimmt dynamisch alle möglichen Hersteller und Preisspannen im Kontext der jeweiligen Warengruppe und zeigt sie gruppiert im Filter auf der linken Seite der Detailansicht für Warengruppen.
+Das **Filter Sidebar Widget** hilft Ihren Kunden, die Produktauswahl innerhalb einer Warengruppe gezielt einzugrenzen. Es ermittelt automatisch die verfügbaren Hersteller und Preisspannen und zeigt diese gruppiert in der Filterleiste der Warengruppenseite an.
 
 {% hint style="info" %}
 **Preis** und **Hersteller** bzw. **Marke** sind _implizite_ Attribute und werden immer ganz oben im Filter Widget angezeigt. Sie müssen keine Attribute für diese Eigenschaften angeben! Die verfügbaren Kriterien für **Preis** können in der **Warengruppenkonfiguration** bearbeitet werden **> Allgemein > Preisfilter**.
@@ -10,11 +10,11 @@ Das **Filter Sidebar Widget** ermöglicht es Ihren Kunden, Warengruppen in Ihrem
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie haben einen Produktkatalog, in dem viele Produkte innerhalb einer Warengruppe enthalten sind. In diesem Fall werden Ihre Kunden Schwierigkeiten haben, die Produkte zu finden, die sie suchen, wenn sie durch die Warengruppen navigieren. Um die Suche zu erleichtern, können Sie die Produkte spezifischer filtern lassen, indem Sie einen Hersteller oder eine Preisspanne angeben.
+Enthält eine Warengruppe viele Produkte, kann die Suche für Kunden unübersichtlich werden. Mit dem Filter Sidebar Widget grenzen sie die Auswahl beispielsweise nach Hersteller oder Preisspanne ein und gelangen schneller zum passenden Produkt.
 
 ## Welche Elemente können gefiltert werden?
 
-Die Elemente des **Filter Sidebar Widgets**, welche Ihre Kunden nutzen können, um bestimmte Produkte herauszufiltern, werden automatisch aus folgenden Elementen erstellt:
+Die Elemente des **Filter Sidebar Widgets**, mit denen Kunden die Produktauswahl eingrenzen, werden automatisch aus den folgenden Produkt- und Warengruppendaten erzeugt:
 
 **Marke:** Das Widget erkennt die Hersteller aller Produkte der jeweiligen Warengruppe und listet sie in der Filtergruppe **Marke**.
 
@@ -28,4 +28,4 @@ Die Elemente des **Filter Sidebar Widgets**, welche Ihre Kunden nutzen können, 
 
 ## Darstellung im Frontend
 
-Die Einstellungen, welche die Anzeige des **Filter Sidebar Widget** im Frontend festlegen, können in den [Sucheinstellungen](../../../benutzer-handbuch/konfiguration/einstellungen/suche.md) verändert werden. Dort können Sie die gewünschten Filtergruppen aktivieren oder deaktivieren und die Reihenfolge der Filtergruppen bestimmen.
+Die Einstellungen, welche die Anzeige des **Filter Sidebar Widget** im Frontend festlegen, können in den [Sucheinstellungen](../../../benutzer-handbuch/konfiguration/einstellungen/suche.md) konfigurieren. Dort aktivieren oder deaktivieren Sie einzelne Filtergruppen und legen deren Reihenfolge fest.
