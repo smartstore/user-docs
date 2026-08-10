@@ -1,11 +1,11 @@
 # Sendungen verwalten
 
-Sie können zu jeder Bestellung, die in Ihrem Shop vorgenommen wurde, eine Sendung hinzufügen. Das hilft Ihnen und Ihren Kunden, den Überblick über die Versandzeitpunkte zu behalten. Sie können einer Sendung auch eine Tracking-Nummer hinzufügen, sodass der Kunde die Sendung verfolgen kann. Um eine Sendung zu erstellen, müssen Sie in die Detailansicht der jeweiligen Bestellung gehen. In der Registerkarte **Versandinformation** können Sie eine Sendung anlegen. Um die Sendungen zu verwalten, navigieren Sie zu **Verkauf > Sendungen**. Sie können auch für alle oder ausgewählte Sendungen **Versandaufkleber drucken**.
+Zu jeder Bestellung können Sie eine Sendung mit Versandzeitpunkt und Tracking-Nummer anlegen. So behalten Sie und Ihre Kunden den Versandstatus im Blick. Öffnen Sie dazu die Detailansicht der Bestellung und wechseln Sie zur Registerkarte **Versandinformation**. Die zentrale Sendungsverwaltung erreichen Sie über **Verkauf > Sendungen**. Für alle oder ausgewählte Sendungen können Sie außerdem **Versandaufkleber drucken**.
 
 ![](../../.gitbook/assets/sendungen_verwalten_1.png)
 
 ## Sendungsdetails
 
-In der Detailansicht der Sendungsinformation können Sie alle Produkte ansehen, die zu der Sendung gehören, eine Tracking-Nummer für die Sendung vergeben und den Status der Sendung auf **Versandt** und **Geliefert** setzen. Sie können auch **Versandaufkleber erstellen,** den Sie als PDF herunterladen können.
+Die Detailansicht zeigt alle Produkte der Sendung. Hier hinterlegen Sie eine Tracking-Nummer und setzen den Sendungsstatus auf **Versandt** und **Geliefert** setzen. Sie können auch **Versandaufkleber erstellen,** und als PDF herunterladen.
 
 ![](../../.gitbook/assets/sendungen_verwalten_2.png)
