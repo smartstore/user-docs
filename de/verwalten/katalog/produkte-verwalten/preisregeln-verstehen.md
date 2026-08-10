@@ -1,26 +1,26 @@
 # Preisregeln verstehen
 
-In Smartstore können Sie mehrere Einstellungen vornehmen, die den Produktpreis, den Sie auf der Registerkarte [Preis](produktpreis-festlegen.md) festgelegt haben, beeinflussen.
+Der im Shop angezeigte Produktpreis entsteht aus mehreren Einstellungen. Ausgangspunkt ist der Preis in der Registerkarte [Preis](produktpreis-festlegen.md); weitere Regeln können ihn überschreiben oder ergänzen.
 
 ## Preis
 
-Der Preis, der im Frontend angezeigt wird, ist der **Preis**, den Sie unter [Produktdetails](produktpreis-festlegen.md) in der Registerkarte **Preis** festgelegt haben.
+Der unter [Produktdetails](produktpreis-festlegen.md) in der Registerkarte **Preis** eingetragene Wert bildet den Ausgangspreis.
 
 ![](../../../.gitbook/assets/Preis_1.png)
 
-In dem gleichen Bereich können Sie einen **Alten Preis** angeben, der unter dem eigentlichen **Preis** durchgestrichen angezeigt wird.
+Im selben Bereich können Sie einen **Alten Preis** hinterlegen. Dieser wird durchgestrichen neben dem aktuellen Preis angezeigt.
 
 ![](../../../.gitbook/assets/Preis_2.png)
 
 ## Aktionspreis
 
-Der **Aktionspreis** für den Sie eine Gültigkeitsperiode angeben können, wird anstelle des eigentlichen Preises angezeigt.
+Ein **Aktionspreis** ersetzt innerhalb des festgelegten Gültigkeitszeitraums den regulären Preis.
 
 ![](../../../.gitbook/assets/Preis_4.png)
 
 ## Transportzuschlag
 
-Der **Transportzuschlag** kann im Bereich [Produktdetails](produkte-erstellen-und-bearbeiten.md) in der Registerkarte **Allgemein** angegeben werden und wird den Versandkosten auf der Seite für die Versandauswahl und der Auftragszusammenfassung des Warenkorbs hinzugefügt.
+Den **Transportzuschlag** hinterlegen Sie unter [Produktdetails](produkte-erstellen-und-bearbeiten.md) in der Registerkarte **Allgemein**. Er wird bei der Versandauswahl und in der Auftragszusammenfassung zusätzlich zu den Versandkosten ausgewiesen.
 
 ![](../../../.gitbook/assets/preisregeln_verstehen_transportzuschlag_1.png)
 
@@ -28,29 +28,29 @@ Der **Transportzuschlag** kann im Bereich [Produktdetails](produkte-erstellen-un
 
 ## Produktattribute
 
-Der nächste Preis, den Sie in der Preiskette konfigurieren können, ist der Preis für einen Produktattributwert, für den Sie eine positive oder negative **Preisanpassung (Mehr-/Minderpreis)** vornehmen können, die dem aktuellen Preis hinzugefügt oder abgezogen wird.
+Für Produktattributwerte können Sie eine positive oder negative **Preisanpassung (Mehr-/Minderpreis)** festlegen. Sie wird zum aktuellen Preis addiert oder davon abgezogen.
 
 ![](../../../.gitbook/assets/preisregeln_verstehen_produktattribute_1.png)
 
-Sie können auch einen Fixpreis für Attributkombinationen angeben, der den ursprünglichen Preis überschreibt, der aber nicht angewendet wird, wenn eine **Preisanpassung** für Attributwerte definiert wurde.
+Alternativ können Sie für eine Attributkombination einen Fixpreis festlegen. Dieser überschreibt den Ausgangspreis, sofern keine **Preisanpassung** für einzelne Attributwerte definiert ist.
 
 ## Staffelpreise
 
-Das nächste Element in der Preiskette sind **Staffelpreise**. Mit Staffelpreisen können Sie Ihre Kunden dazu motivieren, größere Mengen Ihrer Produkte zu kaufen, indem Sie ihnen einen Rabatt anbieten, der steigt, je größer die Bestellmenge wird. Der angewendete Staffelpreis wird den ursprünglichen Preis überschreiben. Für weitere Informationen darüber, wie man Staffelpreise erstellt, lesen Sie bitte [Produktpreis festlegen](produktpreis-festlegen.md).
+**Staffelpreise** ersetzen ab der jeweils festgelegten Bestellmenge den Ausgangspreis. So können Sie für größere Mengen günstigere Stückpreise anbieten. Die Einrichtung ist unter [Produktpreis festlegen](produktpreis-festlegen.md) beschrieben.
 
 ![](../../../.gitbook/assets/preisregeln_verstehen_staffelpreise_1.png)
 
 ## Rabatte
 
-Als nächstes Element in der Preisberechnung werden **Rabatte** berücksichtigt. Rabatte werden auf den aktuellen Preis, der durch die oben beschriebene Preiskette entstanden ist, angewendet. Für weitere Informationen zu Rabatten lesen Sie bitte [Rabatte verwalten](../../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
+**Rabatte** werden auf den Preis angewendet, der sich aus den zuvor beschriebenen Regeln ergibt. Weitere Informationen finden Sie unter [Rabatte verwalten](../../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
 
 ## Steuern
 
-Ein weiteres Element, das den angezeigten Preis beeinflusst, sind die Einstellungen, die Sie für die Behandlung von Steuern ausgewählt haben. Für weitere Informationen über Steuereinstellungen lesen Sie bitte [Steuerberechnung einrichten](../../../benutzer-handbuch/konfiguration/steuerberechnung-einrichten.md).
+Die gewählten Steuereinstellungen beeinflussen ebenfalls den angezeigten Endpreis. Weitere Informationen finden Sie unter [Steuerberechnung einrichten](../../../benutzer-handbuch/konfiguration/steuerberechnung-einrichten.md).
 
 ## Grundpreis gemäß PAnGV berechnen
 
-Der Grundpreis gemäß PAngV hat keinerlei Einfluss auf die Preiskalkulation. Er dient lediglich der Information der Kunden über den Grundpreis pro Verpackungseinheit, in der Sie Ihr Produkt verkaufen. Für weitere Informationen über die Berechnung des Grundpreises lesen Sie bitte [Produktpreis festlegen](produktpreis-festlegen.md).
+Der Grundpreis gemäß PAngV verändert die Preiskalkulation nicht. Er informiert Kunden über den Preis je vorgegebener Mengeneinheit. Die Konfiguration ist unter [Produktpreis festlegen](produktpreis-festlegen.md) beschrieben.
 
 ## PAngV und Omnibus Richtlinie
 
