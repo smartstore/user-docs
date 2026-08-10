@@ -1,6 +1,6 @@
 # Produktpreis festlegen
 
-Über die Registerkarte Preis in der Produktkonfiguration können Sie verschiedene Elemente für die Preiskalkulation des Produkts festlegen (z. B. Standardpreis, Alter Preis, Einkaufspreis und Staffelpreise). Für weitere Informationen über die Preisverkettung, aus der sich die finalen Produktpreise ergeben, lesen Sie bitte [Preisregeln verstehen](preisregeln-verstehen.md).
+In der Registerkarte **Preis** konfigurieren Sie Standardpreis, alten Preis, Einkaufspreis, Aktionspreis, Staffelpreise und weitere preisbezogene Optionen. Wie Smartstore daraus den endgültigen Produktpreis ermittelt, erfahren Sie unter [Preisregeln verstehen](preisregeln-verstehen.md).
 
 ![](<../../../.gitbook/assets/2022-10-18 11_23_15-Produktdetails _ Smartstore Administration.png>)
 
@@ -23,12 +23,12 @@
 
 ## Grundpreis gemäß PAngV berechnen
 
-Der Zweck der Grundpreisberechnung nach PAngV (Preisangabenverordnung) besteht darin, Ihre Kunden über den Grundpreis einer Verpackungseinheit, in der Sie Ihr Produkt verkaufen, zu informieren. Nehmen wir an, dass Sie Tee verkaufen und unterschiedliche Verpackungseinheiten (z. B. 200 g, 300 g, 500 g) anbieten. In solchen Fällen könnten Ihre Kunden daran interessiert sein, den Preis des Produkts pro 100g zu erfahren, damit sie die Preise vergleichen können. Um diese Informationen darzustellen, können Sie die Option **Grundpreis gemäß PAngV berechnen** aktivieren und die **Grundeinheit** und die enthaltene **Menge** der von Ihnen angebotenen Verpackungseinheiten angeben.
+Mit dem Grundpreis können Kunden Produkte mit unterschiedlichen Verpackungsgrößen leichter vergleichen. Verkaufen Sie beispielsweise Tee in Packungen mit 200 g, 300 g und 500 g, können Sie zusätzlich den Preis je 100 g anzeigen. Aktivieren Sie dazu **Grundpreis gemäß PAngV berechnen** und tragen Sie **Grundeinheit** sowie enthaltene **Menge** ein.
 
 ![](../../../.gitbook/assets/pangv.png)
 
 ## Staffelpreise
 
-Staffelpreise sind Preisnachlässe bei unterschiedlich hohen Mengenabnahmen.
+Mit Staffelpreisen gewähren Sie abhängig von der bestellten Menge unterschiedliche Preisnachlässe.
 
 ![](<../../../.gitbook/assets/2022-10-18 11_23_49-Produktdetails _ Smartstore Administration.png>)
