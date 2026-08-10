@@ -1,6 +1,6 @@
 # Wie funktionieren Produktvarianten?
 
-Produktvarianten helfen Ihnen, unterschiedliche Versionen und Formen desselben Produkts zu verwalten. Sie können Varianten eines Produkts über die Registerkarte **Attribute** in der Produktdetailkonfiguration anlegen und verwalten.
+Mit Produktvarianten verwalten Sie unterschiedliche Ausführungen desselben Produkts, beispielsweise verschiedene Farben oder Größen. Legen Sie die Varianten in der Produktkonfiguration unter **Attribute** an.
 
 ![](<../../../.gitbook/assets/2022-10-19 10_09_14-Produktdetails _ Smartstore Administration.png>)
 
@@ -8,11 +8,11 @@ Produktvarianten helfen Ihnen, unterschiedliche Versionen und Formen desselben P
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie verkaufen T-Shirts in Ihrem Onlineshop. Ein T-Shirt ist normalerweise in unterschiedlichen Farben und Größen erhältlich. Da Sie für das Produkt mit unterschiedlichen Attributen nicht ständig neue Produkteinträge erstellen wollen, können Sie die Attribute Ihrem Produkt hinzufügen, um unterschiedliche Varianten besser verwalten zu können. Um Produktvarianten für ein T-Shirt zu erstellen, gehen Sie auf die Registerkarte **Attribute** in der Produktdetailkonfiguration und fügen die gewünschten Attribute (z. B. Farbe und Größe) hinzu. Wenn Sie das Farbattribut hinzufügen, sollten Sie den Typ **Farbflächen** wählen, für das Attribut Größe den Typ **Dropdown-Liste**. Nachdem Sie die Attribute hinzugefügt haben, enthalten sie zunächst noch keinerlei Werte (z. B. Größe > S, M, L, XL). Als Nächstes müssen Sie also Werte zu Ihren Attributen hinzufügen. Dies können Sie tun, indem Sie auf den Link **Attributwerte bearbeiten/ansehen** in der Tabelle klicken. Nachdem Sie die Werte hinzugefügt haben, gibt es zwei Optionen zum Handling Ihrer Attribute: Sie können es dabei belassen oder Attributkombinationen erstellen, die individuelle Produktdaten für jede Attributkombination ermöglichen (z. B. Lagerbestand, Preis, SKU usw.). Sie können sogar ein Produktbild auswählen, das angezeigt wird, wenn der Kunde Attribute auswählt, die zu dieser Kombination gehören.
+Angenommen, Sie verkaufen ein T-Shirt in mehreren Farben und Größen. Fügen Sie dem Produkt unter **Attribute** die Merkmale Farbe und Größe hinzu. Für Farbe eignet sich der Typ **Farbflächen**, für Größe beispielsweise **Dropdown-Liste**. Öffnen Sie anschließend **Attributwerte bearbeiten/ansehen** und hinterlegen Sie Werte wie S, M, L und XL. Wenn einzelne Varianten eigene Produktdaten wie Lagerbestand, Preis, SKU oder Bild benötigen, erstellen Sie zusätzlich Attributkombinationen.
 
 ## Attribute
 
-Bevor Sie neue Attribute hinzufügen können, müssen diese in **Katalog > Produktattribute** angelegt werden. In diesem Bereich können Sie ein neues Produktattribut anlegen, indem Sie es mit einem Namen versehen, der als eindeutiger Name für dieses Attribut in Ihrem Shop dienen wird. Sobald es erstellt wurde, können Sie unterschiedliche Namen und Beschreibungen für jede Sprache, die Sie für Ihren Shop konfiguriert haben, anlegen.
+Bevor Sie einem Produkt Attribute zuweisen, legen Sie diese unter **Katalog > Produktattribute** an. Der interne Name identifiziert das Attribut eindeutig. Für jede konfigurierte Shopsprache können Sie anschließend eigene Namen und Beschreibungen hinterlegen.
 
 Wenn Sie ein Produktattribut zu Ihrem Produkt hinzufügen, können Sie die folgenden Werte konfigurieren:
 
@@ -57,7 +57,7 @@ Wenn Sie Werte zu einem Attribut hinzufügen, können Sie die folgenden Daten da
 
 ## Attribut-Kombinationen
 
-Wenn Sie produktbezogene Daten (z. B. unterschiedliche SKUs, Preise, etc.) für Ihre Attribute verwalten möchten, müssen Sie **Attribut-Kombinationen** erstellen, indem Sie auf **Alle Kombinationen erstellen** klicken oder Attribut-Kombinationen manuell erstellen, indem Sie auf **Hinzufügen** klicken. Sie können die folgenden Daten für jede Attribut-Kombination bearbeiten, indem Sie auf die Kombination in der Tabelle klicken. All diese Werte werden im Hintergrund mit einer AJAX-Anforderung geladen und auf der Produktdetailseite angezeigt, wenn der Kunde die zugehörigen Attributwerte auswählt.
+Erstellen Sie **Attribut-Kombinationen**, wenn Varianten eigene Daten wie SKU, Preis oder Lagerbestand benötigen. Mit **Alle Kombinationen erstellen** erzeugen Sie sämtliche Kombinationen automatisch; über **Hinzufügen** legen Sie einzelne Kombinationen manuell an. Klicken Sie anschließend auf eine Tabellenzeile, um die folgenden Daten zu bearbeiten. Smartstore lädt die passenden Werte auf der Produktdetailseite, sobald der Kunde die zugehörigen Attribute auswählt.
 
 | Feld                                 | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
