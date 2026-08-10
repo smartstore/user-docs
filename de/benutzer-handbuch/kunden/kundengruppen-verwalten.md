@@ -1,6 +1,8 @@
 # Kundengruppen verwalten
 
-Mithilfe von **Kundengruppen** können unterschiedliche Einstellungen für eine ganze Gruppe von Kunden vorgenommen werden, indem Sie eine Kundengruppe wie gewünscht konfigurieren und dann die zugehörigen Kunden dieser Gruppe hinzufügen. So können Sie nicht nur festlegen, ob eine Kundengruppe **Mehrwertsteuerfrei** ist oder **Kostenlosen Versand** erhält, sondern auch die Sichtbarkeitseinschränkungen von Warengruppen oder Produkten, sowie Rabatte für bestimmte Kundengruppen einrichten. Für weitere Informationen zur Einschränkung der Sichtbarkeit von Warengruppen oder Produkten für Kundengruppen lesen Sie bitte [Zugriffsbeschränkungen (ACL)](../allgemeine-konzepte/zugriffsbeschrankungen-acl.md) und [Zugriffsrechte kontrollieren](../konfiguration/zugriffsrechte-kontrollieren.md). Sie können jeden Kunden mehreren Kundengruppen zuordnen. Gehen Sie zu **Kunden > Kundengruppen** um Ihre Kundengruppen zu verwalten. Dort können Sie alle angelegten Kundengruppen Ihres Shops einsehen und neue hinzufügen, indem Sie auf den Button **Neu** klicken.
+Mit **Kundengruppen** wenden Sie gemeinsame Regeln auf mehrere Kunden an. Dazu gehören beispielsweise Mehrwertsteuerbefreiung, kostenloser Versand, Rabatte sowie Sichtbarkeitsbeschränkungen für Warengruppen und Produkte. Weitere Informationen zu Sichtbarkeitsregeln finden Sie unter [Zugriffsbeschränkungen (ACL)](../allgemeine-konzepte/zugriffsbeschrankungen-acl.md) und [Zugriffsrechte kontrollieren](../konfiguration/zugriffsrechte-kontrollieren.md).
+
+Ein Kunde kann mehreren Kundengruppen angehören. Unter **Kunden > Kundengruppen** sehen Sie vorhandene Gruppen und legen über **Neu** weitere an.
 
 ![](../../.gitbook/assets/kundengruppen_verwalten_1.png)
 
