@@ -1,19 +1,19 @@
 # Tags verwalten
 
-Produkt-Tags können bearbeitet und gelöscht werden, indem Sie im Administrationsbereich zu **Katalog > Tags** navigieren. Produkt-Tags sind ideal geeignet, um Produkte unabhängig von Warengruppen zu gruppieren. Tags werden auch in den Suchergebnissen berücksichtigt.
+Produkt-Tags gruppieren Produkte unabhängig von ihrer Warengruppe und werden auch in den Suchergebnissen berücksichtigt. Zum Bearbeiten oder Löschen navigieren Sie im Administrationsbereich zu **Katalog > Tags**.
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie betreiben einen Onlineshop für Motorradkleidung. Sie führen auch Artikel, die mit bestimmten Rennfahrern assoziiert werden und über unterschiedliche Produktkategorien wie Jacken, Helme oder Mützen verteilt sind. Um diese zusammenzustellen, wollen Sie vermutlich nicht extra eine neue Warengruppe erstellen, sondern arbeiten stattdessen lieber mit Tags. Tags, die Sie Produkten zuordnen, werden direkt unter den Produktdetails aufgelistet. Wenn Kunden an einem der verknüpften Tags interessiert sind (in unserem Beispiel wäre das der Name eines Rennfahrers), können sie einfach auf den Tag klicken und sehen eine Liste mit allen Produkten, die mit diesem Tag verknüpft wurden.
+Ein Onlineshop für Motorradkleidung kann Artikel verschiedener Warengruppen – etwa Jacken, Helme und Mützen – über den Namen eines Rennfahrers verbinden. Dafür ist keine zusätzliche Warengruppe erforderlich: Ordnen Sie den Produkten denselben Tag zu. Der Tag erscheint unter den Produktdetails und führt Kunden per Klick zu allen entsprechend gekennzeichneten Produkten.
 
 ![](../../.gitbook/assets/tags-seite.PNG)
 
 ## Ein Tag erstellen
 
-Um ein Produkt-Tag zu erstellen, geben Sie das Tag, das mit dem Produkt verknüpft werden soll, innerhalb des Konfigurationsbereichs des Produkts im Reiter **Allgemein**. Wenn Sie mit der Eingabe beginnen, erhalten Sie eine Liste mit bereits in Ihrem Shop existierenden Produkt-Tags, welche die Buchstaben enthalten, die Sie gerade getippt haben.
+Um einem Produkt einen Tag zuzuordnen, öffnen Sie dessen Konfiguration und geben den gewünschten Begriff im Reiter **Allgemein** ein. Während der Eingabe schlägt Smartstore bereits vorhandene, passende Produkt-Tags vor.
 
 ![](../../.gitbook/assets/produkt-tags.PNG)
 
-Die am häufigsten verwendeten Tags werden in einer Tag-Cloud auf der Startseite Ihres Shops angezeigt. Dabei werden die am häufigsten genutzten Tags größer und fetter dargestellt als weniger oft verwendete Tags. Die Anzeige der Tags auf der Startseite kann unter **Konfiguration > Einstellungen > Katalog-Einstellungen**, Reiter **Allgemein** deaktiviert werden. Die Anzahl der angezeigten Tags wird unter dem Reiter **Produktlisten** bestimmt.
+Eine Tag-Cloud auf der Startseite hebt häufig verwendete Tags größer und fetter hervor. Sie können diese Anzeige unter **Konfiguration > Einstellungen > Katalog-Einstellungen**, Reiter **Allgemein** deaktiviert werden. Die Anzahl der angezeigten Tags wird unter dem Reiter **Produktlisten** festlegen.
 
 ![](../../.gitbook/assets/tags-startseite.PNG)
