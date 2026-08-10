@@ -1,6 +1,6 @@
 # Aufträge verwalten
 
-Um Ihre Aufträge zu verwalten, navigieren Sie im Administrationsbereich Ihres Shops zu **Verkauf > Aufträge**. Die hier angezeigte Tabelle können Sie nach Datum, Kundennamen, Kunden-E-Mail-Adressen, Auftragsstatus, Zahlungsstatus, Lieferstatus, Shop, Auftrags-GUID und Auftragsnummer sortieren. Wenn Sie die Auftragsnummer der Bestellung kennen, die Sie sich ansehen möchten, können Sie direkt in die Detailansicht eines Auftrags wechseln, indem Sie die Nummer in das dafür vorgesehene Feld eingeben und auf **Ausführen** klicken. Sie können auch alle Aufträge oder nur ausgewählte Aufträge in unterschiedliche Formate (PDF, Excel und XML) exportieren.&#x20;
+Um Ihre Aufträge zu verwalten, navigieren Sie im Administrationsbereich Ihres Shops zu **Verkauf > Aufträge**. Die hier angezeigte Tabelle können Sie nach Datum, Kundennamen, Kunden-E-Mail-Adressen, Auftragsstatus, Zahlungsstatus, Lieferstatus, Shop, Auftrags-GUID und Auftragsnummer sortieren. Wenn Sie die Auftragsnummer des Auftrags kennen, die Sie sich ansehen möchten, können Sie direkt in die Detailansicht eines Auftrags wechseln, indem Sie die Nummer in das dafür vorgesehene Feld eingeben und auf **Ausführen** klicken. Sie können auch alle Aufträge oder nur ausgewählte Aufträge in unterschiedlichen Formaten (PDF, Excel und XML) exportieren.
 
 ![](../../.gitbook/assets/auftraege_verwalten_1.png)
 
@@ -8,15 +8,13 @@ Um Ihre Aufträge zu verwalten, navigieren Sie im Administrationsbereich Ihres S
 
 ### ![](../../.gitbook/assets/auftragsdetails_1.png)
 
-&#x20;
-
 ### Allgemein
 
 In dieser Registerkarte können Sie grundlegende Informationen über den Auftrag einsehen, z. B. den Auftragsstatus und den Auftragswert. Sie können auch den Auftragsstatus und die Auftragssumme bearbeiten.
 
 ### Rechnung & Versand
 
-In dieser Registerkarte können Sie die Rechnungsadresse und  die Lieferadresse der Bestellung einsehen und bearbeiten. Weiterhin werden Ihnen die Versandart und der Lieferstatus angezeigt. Lieferung (oder eine Teillieferung) kann über die Tabelle **Lieferungen** verwaltet werden. Für weitere Informationen zum Versand lesen Sie bitte [Sendungen verwalten](sendungen-verwalten.md).
+In dieser Registerkarte können Sie die Rechnungsadresse und die Lieferadresse der Bestellung einsehen und bearbeiten. Weiterhin werden Ihnen die Versandart und der Lieferstatus angezeigt. Eine Lieferung (oder Teillieferung) kann über die Tabelle **Lieferungen** verwaltet werden. Für weitere Informationen zum Versand lesen Sie bitte [Sendungen verwalten](sendungen-verwalten.md).
 
 ### Produkte
 
