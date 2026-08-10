@@ -1,16 +1,16 @@
 # Checkout Attribute verwalten
 
-Sie können Checkout Attribute verwalten, indem Sie zu **Katalog > Checkout Attribute** navigieren.
+Checkout-Attribute erfassen zusätzliche Angaben oder kostenpflichtige Optionen für den gesamten Warenkorb. Sie verwalten sie unter **Katalog > Checkout Attribute**.
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, dass Sie Produkte verkaufen, die mit hoher Wahrscheinlichkeit verschenkt werden (z. B. Schmuck oder Blumen). Dann möchten Sie vielleicht Ihren Kunden eine Option anbieten, die gekauften Produkte in Geschenkpapier verpacken zu lassen. Da die meisten Ihrer Produkte potenzielle Geschenke sind, sollten Sie eine systemweite Option erstellen, um dies zu ermöglichen. **Checkout-Attribute** sind die ideale Lösung für diesen Zweck, da sie in der Warenkorbübersicht auf der ersten Seite des Checkout-Vorgangs angezeigt werden und Ihre Kunden sich an dieser Stelle dafür entscheiden können.
+Verkaufen Sie häufig Produkte, die verschenkt werden, können Sie beispielsweise eine systemweite Geschenkverpackung anbieten. Ein **Checkout-Attribut** erscheint bereits in der Warenkorbübersicht, sodass Kunden die Option vor Beginn des eigentlichen Checkout-Vorgangs auswählen können.
 
 ![](../../.gitbook/assets/checkout_attribute_verwalten_1.png)
 
 ## Ein Checkout Attribut erstellen
 
-Bei der Erstellung eines Checkout-Attributs erstellen und konfigurieren Sie zunächst das gewünschte Attribut, und fügen dann die Werte hinzu, aus denen Ihre Kunden während des Checkout-Vorgangs wählen können.
+Konfigurieren Sie zunächst das Checkout-Attribut und legen Sie anschließend die auswählbaren Werte fest. Diese Werte stehen Kunden im Checkout zur Verfügung.
 
 ![](../../.gitbook/assets/checkout_attribute_verwalten_2.png)
 
