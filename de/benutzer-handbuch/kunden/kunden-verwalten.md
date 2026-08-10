@@ -1,12 +1,12 @@
 # Kunden verwalten
 
-Jedes Konto, das in Smartstore angelegt wird, ist ein Kundenkonto welches unterschiedlichen Kundengruppen wie Gäste, Administratoren, Registriert u.s.w.. Deshalb werden selbst Besucher, die Ihren Shop gerade erst betreten haben oder sich nur registriert, aber nichts gekauft haben, intern als Kunden behandelt. Sie können Ihre Kunden über **Kunden > Kunden** verwalten. Hier können Sie die Kunden Ihres Shops anhand der zugeordneten Kundengruppen filtern oder Kunden über ihre E-Mail-Adresse, Nutzernamen, Vor- und Nachname, Geburtsdatum oder Unternehmen suchen.
+Jedes in Smartstore angelegte Konto ist ein Kundenkonto, das unterschiedlichen Kundengruppen wie Gäste, Administratoren oder Registrierte zugeordnet werden kann. Deshalb werden selbst Besucher, die Ihren Shop gerade erst betreten haben oder sich registriert, aber noch nichts gekauft haben, intern als Kunden behandelt. Sie können Ihre Kunden über **Kunden > Kunden** verwalten. Hier können Sie die Kunden Ihres Shops anhand der zugeordneten Kundengruppen filtern oder Kunden über ihre E-Mail-Adresse, Nutzernamen, Vor- und Nachnamen, Geburtsdatum oder Unternehmen suchen.
 
 ![](../../.gitbook/assets/Kunden_verwalten_1.png)
 
 ## Kunden-Detailansicht
 
-Indem Sie in der Tabelle auf eine E-Mail-Adresse oder den **Bearbeiten**-Link klicken, können Sie die Kunden-Detailansicht einsehen über welche Sie Ihren Kunden eine E-Mail oder PM senden oder das Kundenkonto löschen.
+Indem Sie in der Tabelle auf eine E-Mail-Adresse oder den **Bearbeiten**-Link klicken, können Sie die Kunden-Detailansicht einsehen, über die Sie Ihren Kunden eine E-Mail oder PM senden oder das Kundenkonto löschen.
 
 ![](../../.gitbook/assets/benutzerdaten.PNG)
 
@@ -32,11 +32,11 @@ Diese Registerkarte zeigt alle verfügbaren Kundengruppen an. Sie können den Ku
 
 ### Registerkarte Aufträge
 
-Diese Registerkarte zeigt alle Aufträge des Kunden in einer klar geordneten Tabelle an. Die hier dargestellten Daten zeigen im Überblick **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, den **Shop**, in dem der Auftrag getätigt wurde und das Erstellungsdatum jedes Auftrags. Über **Ansicht** gelangen Sie zur Detailansicht des dazu gehörigen Auftrags, in welchem Sie ihn bearbeiten können. Für weitere Informationen zum Bearbeiten von Auftragsdetails, gehen Sie bitte zu [Aufträge verwalten](../../verwalten/verkauf/auftrage-verwalten.md).
+Diese Registerkarte zeigt alle Aufträge des Kunden in einer klar geordneten Tabelle an. Die hier dargestellten Daten zeigen im Überblick **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, den **Shop**, in dem der Auftrag getätigt wurde und das Erstellungsdatum jedes Auftrags. Über **Ansicht** gelangen Sie zur Detailansicht des dazugehörigen Auftrags, in welchem Sie ihn bearbeiten können. Für weitere Informationen zum Bearbeiten von Auftragsdetails, gehen Sie bitte zu [Aufträge verwalten](../../verwalten/verkauf/auftrage-verwalten.md).
 
 ### Registerkarte Bonuspunkte
 
-Bonuspunkte müssen unter **Konfiguration > Einstellungen > Bonuspunkte-Einstellungen** aktiviert werden. Ihre Kunden können durch bestimmte Handlungen wie die Anmeldung zu einem Newsletter Bonuspunkte erhalten. Die Registerkarte **Bonuspunkte** zeigt einen Überblick über alle Bonuspunkte eines Kunden und auch Informationen dazu, wofür und wann der Kunde die Bonuspunkte erhalten hat. Sie können manuell Bonuspunkte und auch eine beschreibende Nachricht eingeben, weshalb der Kunde diese Punkte bekommen hat. Für weitere Informationen zu Bonuspunkten lesen Sie bitte [Mit Bonuspunkten arbeiten](mit-bonuspunkten-arbeiten.md) .
+Bonuspunkte müssen unter **Konfiguration > Einstellungen > Bonuspunkte-Einstellungen** aktiviert werden. Ihre Kunden können durch bestimmte Handlungen wie die Anmeldung zu einem Newsletter Bonuspunkte erhalten. Die Registerkarte **Bonuspunkte** zeigt einen Überblick über alle Bonuspunkte eines Kunden und auch Informationen dazu, wofür und wann der Kunde die Bonuspunkte erhalten hat. Sie können manuell Bonuspunkte und auch eine beschreibende Nachricht eingeben, weshalb der Kunde diese Punkte bekommen hat. Für weitere Informationen zu Bonuspunkten lesen Sie bitte [Mit Bonuspunkten arbeiten](mit-bonuspunkten-arbeiten.md).
 
 ### Registerkarte Adressen
 
@@ -44,11 +44,11 @@ In der Registerkarte **Adressen** finden Sie alle Adressen, die ein Kunde in Ihr
 
 ### Registerkarte Aktueller Warenkorb
 
-Diese Registerkarte zeigt sowohl alle Produkte, die der Kunde derzeit in seinem Warenkorb hat als auch die Produkte, die der Kunde derzeit auf seiner Wunschliste hat.
+Diese Registerkarte zeigt sowohl alle Produkte, die der Kunde derzeit in seinem Warenkorb hat, als auch die Produkte, die der Kunde derzeit auf seiner Wunschliste hat.
 
 ### Registerkarte Imitieren
 
-Wenn Sie auf Auftragserteilung beginnen klicken, können Sie Ihren Shop durch die Augen Ihres Kunden sehen. Sie sehen dann nahezu das Gleiche wie Ihr Kunde, wenn er durch Ihren Shop geht, mit Ausnahme des Header Menüs, wo Sie einen zusätzlichen Link mit dem Nutzernamen des Kunden sehen. Wenn Sie da drauf klicken, beenden Sie die Sitzung als Kunde und kehren zurück in die Kundendetailansicht. Indem Sie als Ihr Kunde auftreten, können Sie nicht nur Aufträge in seinem Namen erteilen, sondern auch überprüfen ob ACL- und Kundengruppen-Einschränkungen für diesen Account so funktionieren, wie von Ihnen vorgesehen. Daher ist diese Funktion auch ideal dazu geeignet, die Konfiguration Ihres Shops zu testen.
+Wenn Sie auf **Auftragserteilung beginnen** klicken, können Sie Ihren Shop durch die Augen Ihres Kunden sehen. Sie sehen dann nahezu das Gleiche wie Ihr Kunde, wenn er durch Ihren Shop geht, mit Ausnahme des Header-Menüs, wo Sie einen zusätzlichen Link mit dem Nutzernamen des Kunden sehen. Wenn Sie darauf klicken, beenden Sie die Sitzung als Kunde und kehren zurück in die Kundendetailansicht. Indem Sie als Ihr Kunde auftreten, können Sie nicht nur Aufträge in seinem Namen erteilen, sondern auch überprüfen, ob ACL- und Kundengruppen-Einschränkungen für diesen Account so funktionieren, wie von Ihnen vorgesehen. Daher ist diese Funktion auch ideal dazu geeignet, die Konfiguration Ihres Shops zu testen.
 
 ![](../../.gitbook/assets/kunden_verwalten_3.png)
 
