@@ -1,14 +1,14 @@
 # Produkt-Feeds exportieren
 
-Wenn Sie Produkte in einem Onlineshop verkaufen, müssen Sie diese bewerben, sodass potenzielle Kunden sie in Ihrem Shop finden. Eine Möglichkeit besteht darin, Ihre Produkte in einem Preisvergleichsportal wie _Google Shopping_ einzustellen, wodurch Ihre Produkte in der Registerkarte _Produkte_ der Suchmaschine erscheinen.
+Mit Produkt-Feeds stellen Sie Ihre Katalogdaten Preisvergleichsportalen wie _Google Shopping_ bereit. Dort können Ihre Angebote beispielsweise in der Registerkarte _Produkte_ der Suchmaschine erscheinen.
 
-Produkt-Feeds werden in Smartstore durch Exportprofile generiert. Sie können so viele Profile erstellen, wie Sie möchten. Um ein Exportprofil zu erstellen, navigieren Sie zu **Konfiguration > Exportieren**.
+Smartstore erzeugt Produkt-Feeds über Exportprofile. Für jedes Ziel oder Format können Sie ein eigenes Profil unter **Konfiguration > Exportieren** erstellen.
 
-Das Exportprofil verwendet einen Export-Provider, um die Daten in das gewünschte Format zu überführen. Export-Provider werden in der Regel durch Plugins bereitgestellt. Sie können den Feed in der Konfigurationsansicht des Plugins und in der Profilliste unter **Konfiguration > Export** manuell erzeugen. Sie können Feeds außerdem durch eine geplante Aufgabe, die für ein Exportprofil eingerichtet wurde, automatisch erzeugen lassen. Weitere Informationen zu Exportprofilen finden Sie unter [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md). Abhängig von der Anzahl der installierten Feed-Plugins gibt es unterschiedliche Portale, zu denen Sie Ihre Produkte exportieren können.
+Ein Exportprofil verwendet einen Export-Provider, der die Daten in das benötigte Format überführt. Diese Provider werden in der Regel durch Plugins bereitgestellt. Erzeugen Sie einen Feed manuell in der Plugin-Konfiguration oder in der Profilliste unter **Konfiguration > Export**. Alternativ automatisieren Sie die Erstellung über die geplante Aufgabe des Exportprofils. Weitere Informationen finden Sie unter [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md). Abhängig von den installierten Feed-Plugins stehen unterschiedliche Zielportale zur Verfügung.
 
 ## Das Dateiformat
 
-Um Ihre Produkte an ein Portal wie _Google Shopping_ zu übermitteln, benötigen Sie eine Datei (normalerweise CSV oder XML) in einem Format, das in der Regel vom Portal vorgegeben wird. Diese Datei enthält die Daten der Produkte, die Sie im Portal anzeigen möchten. Ein Export-Provider formatiert Ihre Daten so, dass sie die Anforderungen des Portals erfüllen. Es wird bestimmte Spaltennamen und speziell formatierte Spalteninhalte aufweisen, wie sie vom Preisportal zur Weiterverarbeitung benötigt werden. Um die URLs zu den erstellten Dateien zu erhalten, navigieren Sie zu **Konfiguration > Exportieren** und klicken Sie auf die Dateinummer in der Exportprofilliste.
+Für ein Portal wie _Google Shopping_ benötigen Sie meist eine CSV- oder XML-Datei im vorgegebenen Format. Der Export-Provider erzeugt die erforderlichen Spaltennamen und formatiert deren Inhalte entsprechend. Die URLs der erzeugten Dateien finden Sie unter **Konfiguration > Exportieren** und über die Dateinummer in der Exportprofilliste.
 
 ## Feed-Aufgaben
 
@@ -16,4 +16,4 @@ Wenn Sie ein Exportprofil erstellen, wird eine geplante Aufgabe für die Erstell
 
 ## Wie Sie weitere Feed-Plugins erhalten
 
-Weitere Feed-Plugins erhalten Sie im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) erhalten. Im **Smartstore Community Marketplace** finden Sie alle für Smartstore entwickelten Ressourcen, die Sie kostenlos herunterladen oder kaufen können. Weitere Informationen zum Kauf und zur Installation von Plugins finden Sie unter [Wie kaufe ich eine Erweiterung?](https://docs.smartstore.com/pages/viewpage.action?pageId=3768460) und [Wie installiere ich eine Erweiterung?](https://github.com/smartstore/user-docs/blob/main/smartstore-6-dokumentation-startseite/loslegen/community-marketplace/wie-installiere-ich-eine-erweiterung.md).
+Weitere Feed-Plugins finden Sie im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/). Im **Smartstore Community Marketplace** finden Sie alle für Smartstore entwickelten Ressourcen, die Sie kostenlos herunterladen oder kaufen können. Weitere Informationen zum Kauf und zur Installation von Plugins finden Sie unter [Wie kaufe ich eine Erweiterung?](https://docs.smartstore.com/pages/viewpage.action?pageId=3768460) und [Wie installiere ich eine Erweiterung?](https://github.com/smartstore/user-docs/blob/main/smartstore-6-dokumentation-startseite/loslegen/community-marketplace/wie-installiere-ich-eine-erweiterung.md).
