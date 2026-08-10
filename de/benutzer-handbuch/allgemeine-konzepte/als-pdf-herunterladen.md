@@ -1,6 +1,6 @@
 # Als PDF herunterladen
 
-In einigen Bereichen von Smartstore können Shopadministratoren und Kunden Dokumente im PDF-Format herunterladen (z. B. Aufträge, Adressaufkleber oder Produktkataloge). Um diese Dokumente zu erstellen, nutzt Smartstore die [Wkhtmltopdf Komponente](http://wkhtmltopdf.org/). Die Erstellung der Dokumente basiert auf HTML-Vorlagen, die in Smartstore enthalten sind und mit HTML-Basiskenntnissen leicht durch einen Shopadministrator angepasst werden können.
+Smartstore erzeugt in verschiedenen Bereichen PDF-Dokumente, beispielsweise Aufträge, Adressaufkleber und Produktkataloge. Dafür verwendet Smartstore die [Wkhtmltopdf-Komponente](http://wkhtmltopdf.org/). Die Ausgabe basiert auf den folgenden HTML-Vorlagen, die Shopadministratoren mit HTML-Grundkenntnissen anpassen können.
 
 ## Template Dateien
 
