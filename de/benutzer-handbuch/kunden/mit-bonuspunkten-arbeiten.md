@@ -1,8 +1,8 @@
 # Mit Bonuspunkten arbeiten
 
-Das **Bonuspunkte-Programm** erlaubt es Kunden, für unterschiedliche Handlungen in Ihrem Shop Bonuspunkte zu erhalten. Bonuspunkte können für das Kaufen von Waren und für Handlungen wie die Registrierung oder das Schreiben einer Produktrezension gegeben werden. Für weitere Informationen über die unterschiedlichen Einstellungen, die für Bonuspunkte angewendet werden können, lesen Sie bitte [Bonuspunkte-Einstellungen](../konfiguration/einstellungen/bonuspunkte-einstellungen.md) .
+Das **Bonuspunkte-Programm** belohnt Kunden mit Punkten für Einkäufe und weitere Aktionen, beispielsweise Registrierung oder Produktrezensionen. Die verfügbaren Regeln und Werte konfigurieren Sie unter [Bonuspunkte-Einstellungen](../konfiguration/einstellungen/bonuspunkte-einstellungen.md).
 
-Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem sie das entsprechende Kästchen auf der Zahlart-Auswahlseite anklicken. Wenn sie sich dazu entschließen, ihre Bonuspunkte zu verwenden, wird der entsprechende Geldwert der gesammelten Bonuspunkte vom Gesamtbetrag auf der Auftragsbestätigung abgezogen.
+Im Checkout aktivieren Kunden die Verwendung ihrer Bonuspunkte auf der Seite zur Auswahl der Zahlart. Der entsprechende Geldwert wird anschließend vom Gesamtbetrag des Auftrags abgezogen.
 
 ![](../../.gitbook/assets/mit_bonuspunkten_arbeiten_1.png)
 
@@ -10,4 +10,4 @@ Kunden können ihre Bonuspunkte beim Checkout-Vorgang nutzen, indem sie das ents
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie haben gerade die Funktion Produktrezensionen in Smartstore aktiviert und möchten nun so schnell wie möglich so viele Produktrezensionen wie möglich erhalten. In einem solchen Fall könnten Sie Ihren Kunden Anreize für das Schreiben von Produktrezensionen bieten, indem Sie ihnen dafür Bonuspunkte gutschreiben.
+Wenn Sie nach der Aktivierung von Produktrezensionen schnell mehr Rückmeldungen erhalten möchten, können Sie das Schreiben einer Rezension mit Bonuspunkten belohnen.
