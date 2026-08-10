@@ -1,6 +1,6 @@
 # Mit digitalen Produkten umgehen (ESD)
 
-Smartstore ist optimal dafür geeignet, digitale Produkte wie MP3s oder E-Books zu verkaufen. Um digitale Produkte zu verkaufen, müssen Sie lediglich Ihr Produkt als **Ist Download** in der Registerkarte **Allgemein** in der Produktkonfiguration markieren. Wenn Sie dies tun, erhalten Sie die folgenden zusätzlichen Eingabefelder.
+Mit Smartstore verkaufen Sie digitale Produkte wie MP3-Dateien oder E-Books. Aktivieren Sie dafür in der Produktkonfiguration unter **Allgemein** die Option **Ist Download**. Anschließend stehen die folgenden Eingabefelder zur Verfügung.
 
 ![](<../../../.gitbook/assets/2022-10-24 10_33_15-Produktdetails _ Smartstore Administration.png>)
 
@@ -17,9 +17,9 @@ Smartstore ist optimal dafür geeignet, digitale Produkte wie MP3s oder E-Books 
 | Hat Probedownload             | Legt fest, ob der Kunde eine Beispieldatei vor dem Checkout herunterladen kann.                                                                                               |
 | Beispiel-Download-Datei       | Legt eine Download-Datei als Beispiel fest. Sie können die Datei entweder auf den Server laden oder einfach eine Download-URL angeben.                                        |
 
-Die Datei, die Sie hochgeladen haben, kann durch Ihre Kunden nach erfolgreicher Bezahlung heruntergeladen werden. Dies ist erst möglich, wenn der Auftragsstatus den Wert **Komplett** hat. Wenn Sie die Option **Wenn der Auftrag bezahlt ist** aktiviert haben und der Kunde mit einem Online-Bezahlsystem bezahlt hat, wechselt der Auftragsstatus automatisch zu **Komplett**, sobald der Zahlungsvorgang abgeschlossen ist. Ihr Kunde erhält dann eine E-Mail darüber, dass die Bestellung abgeschlossen ist (_OrderCompleted.CustomerNotification_) und außerdem eine Auftragsbestätigung per E-Mail (_OrderPlaced.CustomerNotification_)_._ Die _OrderCompleted_-E-Mail enthält einen Link zum Download der erworbenen Datei. Kunden können die Datei auch in ihrem Kontobereich herunterladen. Wenn Kunden eine Zahlungsart wählen, die offline abgewickelt wird, wie Nachnahme oder Vorkasse, müssen Sie als Shopbetreiber den Auftrag manuell als **Bezahlt** und **Komplett** markieren, bevor der Kunde die _OrderCompleted_-E-Mail mit dem Download-Link erhält.
+Kunden können die hochgeladene Datei herunterladen, sobald der Auftrag den Status **Komplett** erreicht hat. Beim Aktivierungstyp **Wenn der Auftrag bezahlt ist** und einer erfolgreichen Onlinezahlung setzt Smartstore den Auftrag automatisch auf **Komplett**. Die Nachricht _OrderCompleted.CustomerNotification_ enthält den Download-Link; zusätzlich bleibt die Datei im Kontobereich verfügbar. Bei offline abgewickelten Zahlungsarten wie Vorkasse oder Nachnahme müssen Sie den Auftrag zunächst manuell als **Bezahlt** und **Komplett** markieren.
 
-Wenn Sie möchten, dass Ihre Kunden einer **Benutzervereinbarung** zustimmen müssen, bevor sie die erworbene Datei herunterladen können, aktivieren Sie das Kontrollkästchen **Hat Benutzervereinbarung** und den Text, dem die Kunden zustimmen müssen, in das entsprechende Feld eingeben. Dieser Text wird Nutzern angezeigt, sobald sie auf den Download-Link klicken, und sie müssen diesem Text zustimmen, indem sie ein Kästchen markieren und **Bestätigen** klicken.
+Soll vor dem Download eine **Benutzervereinbarung** bestätigt werden, aktivieren Sie **Hat Benutzervereinbarung** und tragen den Vereinbarungstext ein. Beim Öffnen des Download-Links muss der Kunde die Vereinbarung markieren und mit **Bestätigen** akzeptieren.
 
 {% hint style="info" %}
 **Versand erforderlich deaktivieren**
