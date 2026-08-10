@@ -1,36 +1,36 @@
 # Hersteller verwalten
 
-Sie können Ihren Produkten Hersteller zuweisen und diese in der Produktdetailansicht anzeigen. Jeder angelegte Hersteller wird auch auf seiner eigenen Seite dargestellt, in welcher eine Beschreibung des Herstellers angezeigt wird zusätzlich zu allen mit dem Hersteller verknüpften Produkten. Auf der Homepage Ihres Shops findet sich eine Liste mit Ihren wichtigsten Herstellern. Die Anzeige wird anhand der von Ihnen angegebenen Reihenfolge bestimmt. Ihr Kunde kann zudem Ihren Produktkatalog nach Herstellern filtern (für weitere Informationen zum Produktfilter lesen Sie bitte [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md)). Sie können Hersteller verwalten, indem Sie zu **Admin >** **Katalog > Hersteller** navigieren. Wenn Sie einen neuen Hersteller anlegen oder in der Herstellerliste auf **Bearbeiten** klicken, gelangen Sie zur Detailansicht des Herstellers. &#x20;
+Sie können Ihren Produkten Hersteller zuweisen und diese in der Produktdetailansicht anzeigen. Jeder angelegte Hersteller wird auch auf seiner eigenen Seite dargestellt. Dort werden eine Beschreibung des Herstellers sowie alle mit ihm verknüpften Produkte angezeigt. Auf der Homepage Ihres Shops findet sich eine Liste mit Ihren wichtigsten Herstellern. Die Anzeige wird anhand der von Ihnen angegebenen Reihenfolge bestimmt. Ihr Kunde kann zudem Ihren Produktkatalog nach Herstellern filtern (für weitere Informationen zum Produktfilter lesen Sie bitte [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md)). Sie können Hersteller verwalten, indem Sie zu **Admin >** **Katalog > Hersteller** navigieren. Wenn Sie einen neuen Hersteller anlegen oder in der Herstellerliste auf **Bearbeiten** klicken, gelangen Sie zur Detailansicht des Herstellers.
 
 ![](../../.gitbook/assets/hersteller-bearbeiten.PNG)
 
 ## Allgemein
 
-| **Eingabefeld**               | **Beschreibung**                                                                     |
-| ----------------------------- | ------------------------------------------------------------------------------------ |
-| Rabatte                       | Legt auf das Objekt anzuwendende Rabatte fest.                                       |
-| Auf Shop begrenzt             | Legt fest, ob der Eintrag nur für bestimmte Shops verfügbar ist.                     |
-| Design Vorlage                | Bestimmt eine Vorlage, mit dem der Hersteller und seine Produkte dargestellt werden. |
-| Kunde kann Listengröße ändern | Kunden können die Listengröße mit Hilfe einer vorgegebenen Optionsliste ändern.      |
-| Listengröße                   | Listengröße für Produkte dieses Herstellers festlegen (z.B. '12' Produkte pro Seite) |
-| Reihenfolge                   | Legt die Anzeige-Priorität fest (1 steht bspw. für das erste Element in der Liste)   |
+| **Eingabefeld**               | **Beschreibung**                                                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------- |
+| Rabatte                       | Legt auf das Objekt anzuwendende Rabatte fest.                                        |
+| Auf Shop begrenzt             | Legt fest, ob der Eintrag nur für bestimmte Shops verfügbar ist.                      |
+| Design Vorlage                | Bestimmt eine Vorlage, mit der der Hersteller und seine Produkte dargestellt werden.  |
+| Kunde kann Listengröße ändern | Kunden können die Listengröße mithilfe einer vorgegebenen Optionsliste ändern.        |
+| Listengröße                   | Listengröße für Produkte dieses Herstellers festlegen (z. B. '12' Produkte pro Seite) |
+| Reihenfolge                   | Legt die Anzeige-Priorität fest (1 steht bspw. für das erste Element in der Liste)    |
 
 ## Suchmaschinen (SEO)
 
-| **Eingabefeld**  | **Beschreibung**                                                                                                                                                          |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Meta Keywords    | Meta Schlüsselwörterliste, kommagetrennt. Wird von Suchmaschinen ausgewertet.                                                                                             |
-| Meta Description | Meta Beschreibung. Wird von Suchmaschinen ausgewertet.                                                                                                                    |
-| Meta Title       | Überschreibt den Seitentitel. Standard ist der Hersteller-Name.                                                                                                           |
-| URL Alias        | Legt einen Suchmaschinen-freundlichen Seitennamen für den Hersteller fest. 'Super Hersteller' resultiert bspw. in '\~/super-hersteller'. Standard ist der Herstellername. |
+| **Eingabefeld**  | **Beschreibung**                                                                                                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Meta Keywords    | Meta-Schlüsselwörterliste, kommagetrennt. Wird von Suchmaschinen ausgewertet.                                                                                            |
+| Meta Description | Meta-Beschreibung. Wird von Suchmaschinen ausgewertet.                                                                                                                   |
+| Meta Title       | Überschreibt den Seitentitel. Standard ist der Herstellername.                                                                                                           |
+| URL Alias        | Legt einen suchmaschinenfreundlichen Seitennamen für den Hersteller fest. 'Super Hersteller' resultiert bspw. in '\~/super-hersteller'. Standard ist der Herstellername. |
 
 ## Produkte
 
-Diese Registerkarte enthält eine Liste aller Produkte, die diesem Hersteller zugeordnet wurden. Klicken Sie auf **Produkt hinzufügen,** um der Liste neue Produkte hinzuzufügen.&#x20;
+Diese Registerkarte enthält eine Liste aller Produkte, die diesem Hersteller zugeordnet wurden. Klicken Sie auf **Produkt hinzufügen,** um der Liste neue Produkte hinzuzufügen.
 
 ## Rabatte
 
-Wurden Rabatte für Warengruppen eingerichtet können diese dem Hersteller zugeordnet werden. Für weitere Informationen zur Arbeit mit Rabatten lesen Sie bitte [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
+Wurden Rabatte für Warengruppen eingerichtet, können diese dem Hersteller zugeordnet werden. Für weitere Informationen zur Arbeit mit Rabatten lesen Sie bitte [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
 
 ## Shops
 
