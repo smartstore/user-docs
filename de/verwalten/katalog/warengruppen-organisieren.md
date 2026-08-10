@@ -1,22 +1,22 @@
 # Warengruppen organisieren
 
-Um Ihre Warengruppen zu verwalten, navigieren Sie im Administrationsbereich von Smartstore zu **Katalog > Warengruppen**. Über die Schaltflächen am oberen Rand können Sie die Listen- oder die Baumansicht aktivieren. Hier können Sie Warengruppen hinzufügen, bearbeiten oder löschen. Die Listenansicht zeigt alle erstellten Warengruppen in einer geordneten Liste an und stellt Ihnen ein Such-Widget zur Verfügung, sodass Sie die gewünschte Warengruppe schnell finden. Die Baumansicht erlaubt Ihnen, die Struktur Ihrer Warengruppen und Untergruppen per Drag-and-drop umzuordnen.
+Öffnen Sie im Administrationsbereich **Katalog > Warengruppen**, um Warengruppen anzulegen, zu bearbeiten oder zu löschen. Über die Schaltflächen am oberen Rand wechseln Sie zwischen Listen- und Baumansicht. In der Listenansicht suchen und filtern Sie Warengruppen; in der Baumansicht ordnen Sie Warengruppen und Untergruppen per Drag-and-drop.
 
 ## Listenansicht
 
-Die Listenansicht bietet eine Filterfunktion, mit der Sie nach unterschiedlichen **Warengruppennamen** oder dem **Alias** filtern können. Außerdem haben Sie hier die Möglichkeit, Ihre Warengruppen in eine XML-Datei zu exportieren.
+Filtern Sie die Listenansicht nach **Warengruppenname** oder **Alias**. Von hier aus können Sie Warengruppen außerdem als XML-Datei exportieren.
 
 ![](../../.gitbook/assets/listenansicht.png)
 
 ## Baumansicht
 
-Die Reihenfolge der Warengruppen, die Sie in der Baumansicht sehen, wird auf die Warengruppenstruktur im Frontend Ihres Shops angewendet und bildet die Hauptnavigation, die Ihre Shopbesucher nutzen, um Produkte in Ihrem Shop zu finden. Um Ihre Warengruppen umzuordnen, können Sie sie einfach per Drag-and-drop auf die gewünschte Position ziehen.
+Die Baumansicht bildet die Warengruppenstruktur des Shop-Frontends und damit die Hauptnavigation ab. Ziehen Sie Warengruppen per Drag-and-drop an die gewünschte Position oder in eine andere übergeordnete Warengruppe.
 
 ![](<../../.gitbook/assets/2022-10-06 09_55_52-Warengruppen verwalten _ Smartstore Administration.png>)
 
 ## Ansicht der Warengruppendetails
 
-Wenn Sie eine Warengruppe hinzufügen oder bearbeiten, wird Ihnen die unten abgebildete Ansicht zur Bearbeitung der Warengruppendetails angezeigt. Hier können Sie alle mit dieser Warengruppe verbundenen Daten in acht unterschiedlichen Registerkarten angeben. Mit den Schaltflächen in der oberen rechten Ecke erhalten Sie eine Vorschau der Warengruppe oder können sie speichern bzw. löschen. Wenn Sie das Löschen einer Warengruppe auswählen, erscheint ein neues Fenster, in dem Sie festlegen, ob die Unterwarengruppen ebenfalls gelöscht oder auf einer höheren Ebene erhalten bleiben sollen.
+Beim Anlegen oder Bearbeiten öffnet sich die Detailansicht der Warengruppe. Die zugehörigen Einstellungen sind auf mehrere Registerkarten verteilt. Über die Schaltflächen oben rechts zeigen Sie eine Vorschau an, speichern die Warengruppe oder löschen sie. Beim Löschen entscheiden Sie, ob Unterwarengruppen ebenfalls entfernt oder auf einer höheren Ebene erhalten bleiben.
 
 ![](<../../.gitbook/assets/2022-10-06 10_01_20-Warengruppen-Details - Basketball _ Smartstore Administration.png>)
 
