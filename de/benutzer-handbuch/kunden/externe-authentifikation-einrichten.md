@@ -1,14 +1,14 @@
 # Externe Authentifikation einrichten
 
-Smartstore stellt Plugins für die externe Authentifikation zur Verfügung. Diese Plugins erlauben es Ihren Kunden, sich in Ihrem Shop mit einem Account von Drittanbietern wie Facebook oder Twitter einzuloggen. So müssen Kunden keinen Account in Ihrem Shop eröffnen. Mit einem Klick während des Checkout-Vorgangs geschieht die Authentifizierung in Ihrem Shop automatisch mit den Login-Informationen des Drittanbieters, und Ihr Kunde kann den Kaufvorgang einfach fortsetzen. Sie können die automatische Registrierung von Kunden unter **Kunden-Einstellungen > Externe Authentifikation** ein- und ausschalten. Wenn die Funktion aktiv ist, wird für einen neuen Kunden automatisch ein neuer Account eingerichtet. Sie können bestimmen, welche Arten der externen Authentifikation in Ihrem Shop aktiv sind, indem Sie zu **Kunden > Externe Authentifizierung** gehen.
+Plugins für die externe Authentifikation ermöglichen Kunden die Anmeldung mit einem Konto eines Drittanbieters, beispielsweise Facebook oder Twitter. Im Checkout können sie sich damit anmelden und den Kauf ohne vorherige manuelle Kontoerstellung fortsetzen. Die automatische Registrierung steuern Sie unter **Kunden-Einstellungen > Externe Authentifikation**. Ist sie aktiviert, legt Smartstore beim ersten externen Login automatisch ein Kundenkonto an. Die verfügbaren Authentifikationsmethoden verwalten Sie unter **Kunden > Externe Authentifizierung**.
 
 ![](../../.gitbook/assets/externe_authentifikation_einrichten_1.png)
 
-Nachdem Ihr Kunde auf einen der Buttons geklickt hat, wird er um Erlaubnis gebeten, dass seine Daten (Daten, die bei dem jeweiligen Drittanbieter gespeichert sind, z. B. Facebook) vom Shop genutzt werden dürfen. Dieser Vorgang muss nur einmal durchgeführt werden; sobald Ihre Kunden zugestimmt haben, können sie sich in Ihren Shop immer wieder auf diese Weise einloggen.
+Beim ersten Login bittet der Drittanbieter den Kunden um Zustimmung zur Datenübermittlung an den Shop. Nach der Zustimmung kann sich der Kunde künftig direkt über denselben Anbieter anmelden.
 
 ## Einstellung der Authentifizierung durch Facebook
 
-* Erstellen Sie innerhalb der Developer Area von Facebook eine Anwendung mit Facebook-Login-Funktion, um die Facebook-Zugangsdaten zu erhalten.
+* Erstellen Sie in der Developer Area von Facebook eine Anwendung mit Facebook-Login und übernehmen Sie die erzeugten Zugangsdaten.
 * Aktivieren Sie die Auto-Registrierung in den Kunden-Einstellungen, wenn extern authentifizierte Besucher automatisch registriert werden sollen.
 * Geben Sie Ihre **Client Key Identifier (App ID)** und Ihr **Client Secret (App Secret)** ein.
 * Aktivieren Sie die Authentifizierung via Facebook unter **Kunden > Externe Authentifizierung**.
