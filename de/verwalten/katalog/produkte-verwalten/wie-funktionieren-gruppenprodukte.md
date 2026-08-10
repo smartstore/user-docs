@@ -1,6 +1,6 @@
 # Wie funktionieren Gruppenprodukte?
 
-Mit Hilfe von Gruppenprodukten können Sie mehrere Produkte auf einer einzelnen Produktdetailseite präsentieren. Statt lediglich ein Produkt anzubieten, das mehr oder weniger vom Rest Ihres Katalogs isoliert steht, können Sie zusammenhängende Produkte auf einer Seite zusammen präsentieren, wobei jedes Produkt ein eigener Warenkorb-Bestandteil wird. Gruppenprodukte einzusetzen, gibt Ihnen folgende Vorteile:
+Mit Gruppenprodukten präsentieren Sie zusammengehörige Einzelprodukte auf einer gemeinsamen Produktdetailseite. Jedes verknüpfte Produkt bleibt dabei ein eigener Warenkorb-Bestandteil. Das bietet folgende Vorteile:
 
 * Bessere, kundenfreundlichere Strukturierung Ihrer Katalogdaten.
 * Leichteres Auffinden ähnlicher Produkte und somit mehr Verkäufe.
@@ -32,8 +32,8 @@ Produkte einem Gruppenprodukt zuweisen
 1. Gehen Sie zur Registerkarte **Verknüpfte Produkte** Ihres Gruppenprodukts und klicken Sie auf **Verknüpftes Produkt hinzufügen**.
 2. Wählen Sie eines oder mehrere Produkte mit einem Mausklick aus. Sie können die Suche nutzen, um Produkte, die Sie verknüpfen wollen, schneller zu finden.
 3. Klicken Sie auf **Übernehmen**. Die ausgewählten Produkte erscheinen nun in der Tabelle der verknüpften Produkte.
-4. Sie können diese Verknüpfung wieder aufheben, indem Sie in der Tabelle verknüpfter Produkte bei dem entsprechenden Produkt **Löschen** drücken.
-5. Sie können die Anzeigereihenfolge der verknüpften Produkte auf der Gruppenproduktseite verändern, indem Sie auf **Bearbeiten** klicken und die Reihenfolge verändern.
+4. Um eine Verknüpfung aufzuheben, klicken Sie beim entsprechenden Produkt in der Tabelle auf **Löschen**.
+5. Um die Anzeigereihenfolge auf der Gruppenproduktseite zu ändern, klicken Sie auf **Bearbeiten** und passen die Reihenfolge an.
 
 {% hint style="info" %}
 Ein Produkt kann nur mit einem Gruppenprodukt verbunden werden.
