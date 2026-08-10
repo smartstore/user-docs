@@ -1,22 +1,22 @@
 # Produkte importieren & exportieren
 
-Smartstore ermöglicht Ihnen den Import und Export Ihrer Produktdaten in unterschiedlichen Formaten. Wenn Sie bereits eine Datenbank haben, die den Produktkatalog, den Sie online anbieten möchten, enthält, dann wollen Sie natürlich nicht alle Daten manuell erneut eingeben, sondern diese automatisch importieren. Ein verbreitetes Datenformat für strukturierte Daten ist CSV (Comma-Separated Values). CSV-Exporte können beispielsweise mit Excel bearbeitet werden.
+Mit Smartstore importieren und exportieren Sie Produktdaten in verschiedenen Formaten. Bestehende Katalogdaten müssen Sie dadurch nicht erneut manuell erfassen. Ein häufig verwendetes Format ist CSV (Comma-Separated Values), das sich beispielsweise mit Excel bearbeiten lässt.
 
 {% hint style="info" %}
 **Export-Plugins**
 
-Ein Datenexport erfordert einen Export-Provider, der Smartstore mitteilt, in welchem Format die Daten ausgegeben werden sollen. Export-Provider werden im Allgemeinen durch Plugins bereitgestellt. Sie können diese im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) beziehen.
+Für einen Datenexport benötigt Smartstore einen Export-Provider, der das Ausgabeformat festlegt. Solche Provider werden in der Regel durch Plugins bereitgestellt, die Sie im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/) beziehen können.
 {% endhint %}
 
 ## Export
 
-Sie können Ihre Produktdaten in XML, CSV oder PDF exportieren. Bei einem PDF-Export können Sie die Daten all Ihrer Produkte oder ausgewählter Produkte in einen visuell ansprechenden PDF-Katalog exportieren. Für weitere Informationen zum PDF-Format lesen Sie bitte [Als PDF herunterladen](../../../benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md).
+Exportieren Sie alle oder ausgewählte Produktdaten als XML, CSV oder PDF. Ein PDF-Export erzeugt einen gestalteten Produktkatalog. Weitere Informationen finden Sie unter [Als PDF herunterladen](../../../benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md).
 
 ## Import
 
-Sie können Produktdaten importieren, indem Sie ein Importprofil nutzen. Um ein Importprofil zu erstellen, gehen Sie zu **Konfiguration > Import**. Für Informationen zu Importprofilen lesen Sie bitte [Importprofile verwalten](../../../benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md).
+Für den Produktimport benötigen Sie ein Importprofil. Erstellen Sie es unter **Konfiguration > Import**. Für Informationen zu Importprofilen lesen Sie bitte [Importprofile verwalten](../../../benutzer-handbuch/datenaustausch/import/importprofile-verwalten.md).
 
-Das Importprofil lässt Sie CSV-Dateien und auch Excel-Dateien hochladen, die die zu importierenden Katalogdaten enthalten. Um neue Produkte zu importieren, ist die Spalte **Name** das einzig erforderliche Feld, das einen Wert enthalten muss. Wenn Sie Ihre vorhandenen Produktdaten aktualisieren möchten, benötigen Sie zwingend Werte in den Feldern **SKU, GTIN (EAN), Herstellernummer** oder **ID.** Diese werden genutzt, um vorhandene Daten in Ihrem Katalog zu erkennen. Wenn ein Produkt mit einem dieser eindeutigen Schlüsselfelder gefunden wird, wird es aktualisiert. Wenn kein Produkt gefunden wird und ein Wert in der Spalte **Name** angegeben ist, wird ein neues Produkt erstellt und die Daten der Zeile werden entsprechend importiert. Eine vollständige Liste von Werten, die importiert werden, finden Sie in der unten stehenden Liste.
+Mit einem Importprofil laden Sie Katalogdaten aus CSV- oder Excel-Dateien hoch. Für neue Produkte ist nur die Spalte **Name** erforderlich. Um vorhandene Produkte zu aktualisieren, muss mindestens eines der Felder **SKU, GTIN (EAN), Herstellernummer** oder **ID.** befüllt sein. Anhand dieser eindeutigen Schlüssel erkennt Smartstore bestehende Katalogeinträge und aktualisiert sie. Wird kein passendes Produkt gefunden und enthält die Spalte **Name** einen Wert, legt Smartstore ein neues Produkt mit den Daten dieser Zeile an. Die unterstützten Importfelder sind im Folgenden aufgeführt.
 
 {% hint style="info" %}
 **Felder mit IDs formatieren**
