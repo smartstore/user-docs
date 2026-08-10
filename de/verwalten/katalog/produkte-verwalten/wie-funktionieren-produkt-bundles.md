@@ -1,10 +1,10 @@
 # Wie funktionieren Produkt-Bundles?
 
-Bundling bedeutet, dass mehrere Produkte als Set, einem sogenannten Bundle, verkauft werden. Bundles sind in der Regel nicht aufteilbare, statische Produktpakete. Sie werden als Hersteller-Bundles bezeichnet, wenn der Hersteller die Produkte zusammenstellt, oder als Händler-Bundles, wenn der Verkäufer sie zusammenstellt. Ein Bundle wird immer als Ganzes erworben; einzelne Bestandteile kann der Kunde nicht separat in den Warenkorb legen.
+Ein Produkt-Bundle fasst mehrere Produkte zu einem festen, nicht aufteilbaren Set zusammen. Stellt der Hersteller das Set zusammen, handelt es sich um ein Hersteller-Bundle; bei einer Zusammenstellung durch den Verkäufer um ein Händler-Bundle. Kunden kaufen das Bundle als Ganzes und können seine Bestandteile nicht separat in den Warenkorb legen.
 
 ## Anwendungsszenario
 
-Stellen Sie sich vor, Sie möchten eine Videospielkonsole in Kombination mit zwei drahtlosen Gamepads und einem Videospiel anbieten. Um dies zu konfigurieren, legen Sie ein neues Produkt vom **Produkttyp:** **Produkt-Bundle** an. Sie finden diese Einstellung in der Registerkarte **Allgemein**. Sobald Sie das Produkt gespeichert haben, finden Sie eine neue Registerkarte mit dem Namen **Stückliste**, in welcher Sie dem Bundle existierende Produkte aus Ihrem Katalog hinzufügen können.
+Angenommen, Sie möchten eine Videospielkonsole zusammen mit zwei drahtlosen Gamepads und einem Spiel anbieten. Legen Sie dafür in der Registerkarte **Allgemein** ein neues Produkt mit dem **Produkttyp Produkt-Bundle** an. Nach dem Speichern erscheint die Registerkarte **Stückliste**. Dort fügen Sie dem Bundle vorhandene Katalogprodukte hinzu.
 
 {% hint style="info" %}
 Um Verkaufsanreize zu schaffen, sollte der Preis des Bundles natürlich niedriger sein als der Preis, den der Kunde zahlen würde, wenn er die Bestandteile des Bundles einzeln kaufen würde.
@@ -33,7 +33,7 @@ Es gibt drei wichtige Optionen, die das Verhalten eines Produkt-Bundles steuern.
 
 **Preis per Bundle-Bestandteil**
 
-Mit dieser Option steuern Sie die Preiskalkulation des Bundles. Wenn sie deaktiviert ist, wird der Preis für das Bundle als Ganzes festgelegt, ohne dass die Einzelpreise der Bundle-Bestandteile in Betracht gezogen werden. Wenn sie aktiviert ist, ist der Preis die Summe der Einzelpreise aller Produkte im Bundle.<br>
+Diese Option bestimmt, wie Smartstore den Bundlepreis berechnet. Ist sie deaktiviert, gilt der am Bundle hinterlegte Gesamtpreis. Ist sie aktiviert, ergibt sich der Preis aus der Summe der einzelnen Bundle-Bestandteile.<br>
 
 Preis per Bundle-Bestandteil ist deaktiviert:
 
@@ -47,7 +47,7 @@ Die Anzeige der Grundpreise kann durch eine Option gesteuert werden (siehe **Kon
 
 ### Versand per Bundle-Bestandteil
 
-Diese Option steuert die Preiskalkulation der Versandkosten. Wenn sie deaktiviert ist, werden die Versandkosten des Produkt-Bundles als Ganzes verwendet. Wenn sie aktiviert ist, werden die Versandkosten aller Produkte im Bundle kalkuliert.<br>
+Diese Option bestimmt die Berechnung der Versandkosten. Ist sie deaktiviert, gelten die Versanddaten des gesamten Bundles. Ist sie aktiviert, berechnet Smartstore die Versandkosten aus den einzelnen Bundle-Bestandteilen.<br>
 
 Versand per Bundle-Bestandteil ist aktiviert:
 
