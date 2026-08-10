@@ -1,6 +1,6 @@
 # Spezifikationsattribute verwalten
 
-Mit Spezifikationsattributen können Sie detailliertere Informationen über Ihre Produkte anbieten und Ihren Käufern dabei helfen, diese leichter zu vergleichen. Sie können auch Ihren Kataloginhalt präzisieren, beim Stöbern und Suchen. Mit Spezifikationsattributen zu arbeiten, bringt folgende Vorteile:
+Spezifikationsattribute bilden standardisierte Produkteigenschaften ab. Sie erleichtern Kunden das Vergleichen, Filtern und Auffinden von Produkten und vermeiden mehrfach gepflegte Angaben. Daraus ergeben sich folgende Vorteile:
 
 * Spezifikationsattribute werden als Tabellendaten auf der Produktdetailseite in Form eines **Datenblatts** dargestellt, das die Eigenschaften Ihres Produkts im Detail anzeigt.
 * Wenn Käufer in Ihrem Shop **Produkte vergleichen**, zeigt die Vergleichstabelle nicht nur Bilder, Namen und Preise, sondern auch die Schnittmenge aller Spezifikationsattribute, die mit den zu vergleichenden Produkten verbunden sind.
@@ -17,7 +17,7 @@ Stellen Sie sich vor, Sie betreiben einen Shop für Drucker. Dann dürften Käuf
 * **Auflösung:** 600 dpi, 1200 dpi, ...
 * **Unterstützte Papierformate:** A3, A4, A5, B5, Umschläge, ...
 
-Sie könnten die oben aufgeführten Informationen in einer langen Produktbeschreibung unterbringen, aber Sie würden die Möglichkeit verlieren, diese Merkmale im Filter-Widget und in Produktvergleichen unterzubringen. Wenn Sie außerdem den Namen oder den Wert eines Attributs überall verändern möchten, müssten Sie immer noch alle Produkteinträge manuell aktualisieren, was eine mühevolle und beschwerliche Aufgabe ist. Es ist daher viel besser, diese Art von Daten als globale Spezifikationsattribute in Ihrem Shop anzulegen und diese später mit Ihren Produkten zu verknüpfen.
+In einer freien Produktbeschreibung wären diese Angaben weder für Filter noch für Produktvergleiche strukturiert nutzbar. Als globale Spezifikationsattribute pflegen Sie Namen und Optionen zentral und ordnen sie anschließend den betreffenden Produkten zu.
 
 |                                                                                                                                                        |                                                                                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -26,7 +26,7 @@ Sie könnten die oben aufgeführten Informationen in einer langen Produktbeschre
 
 ## Spezifikationsattribute hinzufügen
 
-Sie können neue Spezifikationsattribute hinzufügen, indem Sie zu **Katalog > Spezifikations Attribute** navigieren. Die Attribute, die Sie hinzufügen, sind systemweit in Ihrem Shop verfügbar und können **jedem** Produkt in der Produktdetailansicht in der Registerkarte Spezifikationsattribute zugewiesen werden. Wenn Sie Spezifikationsattribute erstellen, können Sie den **Anzeigenamen** für jede Sprache, die Sie in Ihrem Shop angelegt haben, festlegen. Gleiches gilt für die Anzeigereihenfolge der Attribute im Frontend. Sobald Sie ein Spezifikationsattribut erstellt haben, können Sie die Optionen hinzufügen, die verfügbar werden, wenn man die Spezifikation eines Produkts konfiguriert. Gehen Sie dafür auf die Registerkarte **Optionen** und klicken Sie auf **Option hinzufügen**. Hier können Sie lokalisierte **Optionsnamen** und **Reihenfolge** festlegen.
+Öffnen Sie **Katalog > Spezifikations Attribute**, um ein global verfügbares Attribut anzulegen. In der Produktdetailansicht können Sie es anschließend jedem gewünschten Produkt zuweisen. Legen Sie den **Anzeigenamen** und die Reihenfolge für jede aktive Sprache fest. Wechseln Sie danach zur Registerkarte **Optionen** und wählen Sie **Option hinzufügen**, um lokalisierte Optionsnamen und deren Reihenfolge zu definieren.
 
 {% hint style="info" %}
 **Tipp**
@@ -36,7 +36,7 @@ Wenn Sie mehrere Werte auf einmal hinzufügen möchten, trennen Sie diese durch 
 
 ## Spezifikationsattribute Produkten zuordnen
 
-Nachdem Sie die Spezifikationsattribute eingerichtet haben, können Sie diese Ihren Produkten zuordnen. Die Zuordnung kann in der Registerkarte **Spezifikations Attribute** in der Produktdetailkonfiguration vorgenommen werden.
+Nach der Einrichtung ordnen Sie die Attribute in der Produktdetailkonfiguration über die Registerkarte **Spezifikations Attribute** zu.
 
 ### **Fields Reference**
 
@@ -48,16 +48,16 @@ Nachdem Sie die Spezifikationsattribute eingerichtet haben, können Sie diese Ih
 | **Auf Produktseite zeigen** | Klicken Sie diese Box an, um das Produktattribut auf der öffentlichen Produktdetailansicht anzuzeigen.                                                          |
 | **Reihenfolge**             | Anzeigenreihenfolge des Spezifikationsattributs. 1 bedeutet den ersten Platz in der Liste.                                                                      |
 
-Klicken Sie auf **Speichern**, um die Verknüpfung in der Datenbank zu speichern. Um mit einer weiteren Verknüpfung fortzufahren, ändern Sie einfach den Wert im Feld und klicken den Button erneut.
+Klicken Sie auf **Speichern**, um die Zuordnung anzulegen. Wählen Sie anschließend weitere Werte aus und speichern Sie erneut, wenn Sie zusätzliche Zuordnungen benötigen.
 
 ### Mehrfache Wert-Zuweisung
 
-Wenn Sie sich in der Bearbeitungsansicht eines Spezifikationsattributs befinden: **Katalog > Spezifikations Attribute >** _**Attribute**_ \_, können Sie die Werte dieses Attributs mit nur einem Klick für alle Produkte bearbeiten, denen dieses Attribut zugewiesen ist. So müssen Sie nicht jedes Produkt einzeln öffnen, verändern und abspeichern, wenn Sie beschließen, das Attribut global anders zu konfigurieren.
+In der Bearbeitungsansicht unter **Katalog > Spezifikations Attribute > Attribut** können Sie Einstellungen eines Attributs für alle zugeordneten Produkte gemeinsam ändern. Dadurch müssen die Produkte nicht einzeln geöffnet und gespeichert werden.
 
-| **Mehrfache Wert-Zuweisung**                 | **Beschreibung**                                                                                                                                                                                                                                                                      |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Auf der Produktseite anzeigen<br><br></p> | Legt fest, ob das Attribut auf der Produktdetailseite angezeigt werden soll.                                                                                                                                                                                                          |
-| Filtern ermöglichen                          | Legt fest, ob Suchergebnisse nach diesem Attribut gefiltert werden können. Diese Einstellung ist nur unter Verwendung des 'MegaSearchPlus' Plugins wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                 |
-| Darstellung der Suchfilter                   | Legt die Darstellung der Suchfilter fest. Diese Einstellung ist nur unter Verwendung des 'MegaSearchPlus' Plugins wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                                                  |
-| <p>Sortierung der Suchfilter<br><br></p>     | Legt die Sortierung der Suchfilter fest. Diese Einstellung ist nur unter Verwendung des 'MegaSearchPlus' Plugins wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                                                   |
-| Optionsnamen indexieren                      | Legt fest, ob Optionsnamen mit in den Suchindex aufgenommen werden sollen, damit Produkte über sie gefunden werden können. Diese Einstellung ist nur unter Verwendung des 'MegaSearchPlus' Plugins wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam. |
+| **Mehrfache Wert-Zuweisung**                 | **Beschreibung**                                                                                                                                                                                                                                                                                       |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <p>Auf der Produktseite anzeigen<br><br></p> | Legt fest, ob das Attribut auf der Produktdetailseite angezeigt werden soll.                                                                                                                                                                                                                           |
+| Filtern ermöglichen                          | Legt fest, ob Suchergebnisse nach diesem Attribut gefiltert werden können. Diese Einstellung ist nur mit dem kostenpflichtigen Enterprise-Plugin **MegaSearchPlus** wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                 |
+| Darstellung der Suchfilter                   | Legt die Darstellung der Suchfilter fest. Diese Einstellung ist nur mit dem kostenpflichtigen Enterprise-Plugin **MegaSearchPlus** wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                                                  |
+| <p>Sortierung der Suchfilter<br><br></p>     | Legt die Sortierung der Suchfilter fest. Diese Einstellung ist nur mit dem kostenpflichtigen Enterprise-Plugin **MegaSearchPlus** wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam.                                                                                   |
+| Optionsnamen indexieren                      | Legt fest, ob Optionsnamen mit in den Suchindex aufgenommen werden sollen, damit Produkte über sie gefunden werden können. Diese Einstellung ist nur mit dem kostenpflichtigen Enterprise-Plugin **MegaSearchPlus** wirksam. Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam. |
