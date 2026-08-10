@@ -12,7 +12,7 @@ Um aktuelle Wunschlisten zu analysieren, gehen Sie zu **Verkauf > Aktuelle Wunsc
 
 ## Bestseller
 
-Um Ihre Bestseller zu analysieren, gehen Sie zu **Verkauf > Bestseller**. Die 100 Produkte die den höchsten Umsatz in Ihrem Shop generiert haben, werden in einer Tabelle zusammengefasst, in der die Gesamtverkaufsmenge und der Umsatz für diese Produkte angegeben wird. Sie können auch Berichte für Zeitabschnitte erstellen, die Sie besonders interessieren, indem Sie ein _Anfangsdatum_ und ein _Enddatum_ für den Bericht festlegen. Des Weiteren können Sie  auch Berichte zu _Zahlungsstatus_ und _Auftragsstatus_ erstellen.
+Um Ihre Bestseller zu analysieren, gehen Sie zu **Verkauf > Bestseller**. Die 100 Produkte, die den höchsten Umsatz in Ihrem Shop generiert haben, werden in einer Tabelle zusammengefasst, in der die Gesamtverkaufsmenge und der Umsatz für diese Produkte angegeben wird. Sie können auch Berichte für Zeitabschnitte erstellen, die Sie besonders interessieren, indem Sie ein _Anfangsdatum_ und ein _Enddatum_ für den Bericht festlegen. Des Weiteren können Sie auch Berichte zu _Zahlungsstatus_ und _Auftragsstatus_ erstellen.
 
 ## Unverkäufliche Produkte
 
