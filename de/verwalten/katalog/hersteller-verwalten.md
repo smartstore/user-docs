@@ -1,6 +1,8 @@
 # Hersteller verwalten
 
-Sie können Ihren Produkten Hersteller zuweisen und diese in der Produktdetailansicht anzeigen. Jeder angelegte Hersteller wird auch auf seiner eigenen Seite dargestellt. Dort werden eine Beschreibung des Herstellers sowie alle mit ihm verknüpften Produkte angezeigt. Auf der Homepage Ihres Shops findet sich eine Liste mit Ihren wichtigsten Herstellern. Die Anzeige wird anhand der von Ihnen angegebenen Reihenfolge bestimmt. Ihr Kunde kann zudem Ihren Produktkatalog nach Herstellern filtern (für weitere Informationen zum Produktfilter lesen Sie bitte [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md)). Sie können Hersteller verwalten, indem Sie zu **Admin >** **Katalog > Hersteller** navigieren. Wenn Sie einen neuen Hersteller anlegen oder in der Herstellerliste auf **Bearbeiten** klicken, gelangen Sie zur Detailansicht des Herstellers.
+Hersteller lassen sich Produkten zuordnen und auf der Produktdetailseite anzeigen. Jeder Hersteller erhält außerdem eine eigene Seite mit Beschreibung und zugeordneten Produkten. Eine nach Reihenfolge sortierte Auswahl wichtiger Hersteller kann auf der Startseite erscheinen. Kunden können den Katalog zudem nach Herstellern filtern; weitere Informationen dazu finden Sie unter [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md).
+
+Öffnen Sie **Admin > Katalog > Hersteller**, um Hersteller anzulegen oder zu bearbeiten. Über **Bearbeiten** gelangen Sie zur jeweiligen Detailansicht.
 
 ![](../../.gitbook/assets/hersteller-bearbeiten.PNG)
 
@@ -26,12 +28,12 @@ Sie können Ihren Produkten Hersteller zuweisen und diese in der Produktdetailan
 
 ## Produkte
 
-Diese Registerkarte enthält eine Liste aller Produkte, die diesem Hersteller zugeordnet wurden. Klicken Sie auf **Produkt hinzufügen,** um der Liste neue Produkte hinzuzufügen.
+Diese Registerkarte listet alle dem Hersteller zugeordneten Produkte auf. Über **Produkt hinzufügen** ergänzen Sie weitere Produkte.
 
 ## Rabatte
 
-Wurden Rabatte für Warengruppen eingerichtet, können diese dem Hersteller zugeordnet werden. Für weitere Informationen zur Arbeit mit Rabatten lesen Sie bitte [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
+Bereits eingerichtete Rabatte können Sie dem Hersteller zuordnen. Weitere Informationen finden Sie unter [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
 
 ## Shops
 
-In der Zeile "Auf Shops begrenzt" können Sie den Hersteller einem oder mehreren Ihrer Shops zuordnen. Für weitere Informationen zur Arbeit mit mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+Über **Auf Shops begrenzt** ordnen Sie den Hersteller einem oder mehreren Shops zu. Weitere Informationen finden Sie unter [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
