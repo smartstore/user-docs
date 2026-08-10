@@ -1,12 +1,12 @@
 # Kunden verwalten
 
-Jedes in Smartstore angelegte Konto ist ein Kundenkonto, das unterschiedlichen Kundengruppen wie Gäste, Administratoren oder Registrierte zugeordnet werden kann. Deshalb werden selbst Besucher, die Ihren Shop gerade erst betreten haben oder sich registriert, aber noch nichts gekauft haben, intern als Kunden behandelt. Sie können Ihre Kunden über **Kunden > Kunden** verwalten. Hier können Sie die Kunden Ihres Shops anhand der zugeordneten Kundengruppen filtern oder Kunden über ihre E-Mail-Adresse, Nutzernamen, Vor- und Nachnamen, Geburtsdatum oder Unternehmen suchen.
+Smartstore behandelt jedes angelegte Konto als Kundenkonto – auch Konten von Gästen, Administratoren und registrierten Besuchern ohne Bestellung. Unter **Kunden > Kunden** filtern Sie Konten nach Kundengruppe oder suchen nach E-Mail-Adresse, Benutzername, Name, Geburtsdatum beziehungsweise Unternehmen.
 
 ![](../../.gitbook/assets/Kunden_verwalten_1.png)
 
 ## Kunden-Detailansicht
 
-Indem Sie in der Tabelle auf eine E-Mail-Adresse oder den **Bearbeiten**-Link klicken, können Sie die Kunden-Detailansicht einsehen, über die Sie Ihren Kunden eine E-Mail oder PM senden oder das Kundenkonto löschen.
+Öffnen Sie die Kunden-Detailansicht über die E-Mail-Adresse oder **Bearbeiten**. Dort können Sie unter anderem Nachrichten senden und das Kundenkonto verwalten oder löschen.
 
 ![](../../.gitbook/assets/benutzerdaten.PNG)
 
@@ -28,30 +28,30 @@ Felder wie **Geschlecht, Geburtsdatum, Unternehmen** und viele andere werden nur
 
 ### Registerkarte Kundengruppen
 
-Diese Registerkarte zeigt alle verfügbaren Kundengruppen an. Sie können den Kunden in dieser Registerkarte Ihren Kundengruppen zuordnen oder Zuordnungen entfernen, indem Sie die zugehörigen Kästchen neben den Kundengruppen anklicken.
+Hier ordnen Sie den Kunden einer oder mehreren Kundengruppen zu oder entfernen bestehende Zuordnungen über die jeweiligen Kontrollkästchen.
 
 ### Registerkarte Aufträge
 
-Diese Registerkarte zeigt alle Aufträge des Kunden in einer klar geordneten Tabelle an. Die hier dargestellten Daten zeigen im Überblick **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, den **Shop**, in dem der Auftrag getätigt wurde und das Erstellungsdatum jedes Auftrags. Über **Ansicht** gelangen Sie zur Detailansicht des dazugehörigen Auftrags, in welchem Sie ihn bearbeiten können. Für weitere Informationen zum Bearbeiten von Auftragsdetails, gehen Sie bitte zu [Aufträge verwalten](../../verwalten/verkauf/auftrage-verwalten.md).
+Diese Registerkarte zeigt alle Aufträge des Kunden mit **Auftragswert, Auftragsstatus, Zahlungsstatus, Versandstatus**, Shop und Erstellungsdatum. Über **Ansicht** öffnen Sie den jeweiligen Auftrag. Weitere Informationen finden Sie unter [Aufträge verwalten](../../verwalten/verkauf/auftrage-verwalten.md).
 
 ### Registerkarte Bonuspunkte
 
-Bonuspunkte müssen unter **Konfiguration > Einstellungen > Bonuspunkte-Einstellungen** aktiviert werden. Ihre Kunden können durch bestimmte Handlungen wie die Anmeldung zu einem Newsletter Bonuspunkte erhalten. Die Registerkarte **Bonuspunkte** zeigt einen Überblick über alle Bonuspunkte eines Kunden und auch Informationen dazu, wofür und wann der Kunde die Bonuspunkte erhalten hat. Sie können manuell Bonuspunkte und auch eine beschreibende Nachricht eingeben, weshalb der Kunde diese Punkte bekommen hat. Für weitere Informationen zu Bonuspunkten lesen Sie bitte [Mit Bonuspunkten arbeiten](mit-bonuspunkten-arbeiten.md).
+Aktivieren Sie Bonuspunkte zunächst unter **Konfiguration > Einstellungen > Bonuspunkte-Einstellungen**. Die Registerkarte zeigt Punktestand und Buchungshistorie des Kunden. Sie können Punkte manuell gutschreiben oder abziehen und eine Begründung hinterlegen. Weitere Informationen finden Sie unter [Mit Bonuspunkten arbeiten](mit-bonuspunkten-arbeiten.md).
 
 ### Registerkarte Adressen
 
-In der Registerkarte **Adressen** finden Sie alle Adressen, die ein Kunde in Ihrem Shop angelegt hat. Sie können die Detailansicht der Adresse öffnen, in welcher Sie diese bearbeiten können, indem Sie **Bearbeiten** drücken oder die Adresse löschen, indem Sie auf **Löschen** drücken.
+Die Registerkarte listet alle gespeicherten Kundenadressen auf. Über **Bearbeiten** öffnen und ändern Sie eine Adresse; über **Löschen** entfernen Sie sie.
 
 ### Registerkarte Aktueller Warenkorb
 
-Diese Registerkarte zeigt sowohl alle Produkte, die der Kunde derzeit in seinem Warenkorb hat, als auch die Produkte, die der Kunde derzeit auf seiner Wunschliste hat.
+Diese Registerkarte zeigt die aktuellen Produkte im Warenkorb und auf der Wunschliste des Kunden.
 
 ### Registerkarte Imitieren
 
-Wenn Sie auf **Auftragserteilung beginnen** klicken, können Sie Ihren Shop durch die Augen Ihres Kunden sehen. Sie sehen dann nahezu das Gleiche wie Ihr Kunde, wenn er durch Ihren Shop geht, mit Ausnahme des Header-Menüs, wo Sie einen zusätzlichen Link mit dem Nutzernamen des Kunden sehen. Wenn Sie darauf klicken, beenden Sie die Sitzung als Kunde und kehren zurück in die Kundendetailansicht. Indem Sie als Ihr Kunde auftreten, können Sie nicht nur Aufträge in seinem Namen erteilen, sondern auch überprüfen, ob ACL- und Kundengruppen-Einschränkungen für diesen Account so funktionieren, wie von Ihnen vorgesehen. Daher ist diese Funktion auch ideal dazu geeignet, die Konfiguration Ihres Shops zu testen.
+Mit **Auftragserteilung beginnen** wechseln Sie in die Ansicht des Kunden. Ein zusätzlicher Link mit dessen Benutzername im Header beendet die Imitation und führt zurück zur Kundendetailansicht. In dieser Ansicht können Sie Aufträge im Namen des Kunden ausführen und prüfen, ob ACL- sowie Kundengruppenregeln wie vorgesehen greifen.
 
 ![](../../.gitbook/assets/kunden_verwalten_3.png)
 
 ## Gastkonten löschen
 
-Wie oben bereits erwähnt, erhalten alle Besucher Ihres Shops ein eigenes Gastkonto. Daher müssen Sie in regelmäßigen Abständen Gastkonten löschen. Das machen Sie natürlich nicht manuell. Es gibt eine _Geplante Aufgabe_, die **Gastbenutzer löschen** heißt. Diese wird standardmäßig automatisch alle 10 Minuten durchgeführt. Für weitere Informationen zu geplanten Aufgaben lesen Sie bitte [Geplante Aufgaben verwalten](../system-wartung/geplante-aufgaben-verwalten.md).
+Da jeder Besucher ein Gastkonto erhält, sollten veraltete Gastkonten regelmäßig entfernt werden. Die geplante Aufgabe **Gastbenutzer löschen** übernimmt dies standardmäßig alle zehn Minuten. Weitere Informationen finden Sie unter [Geplante Aufgaben verwalten](../system-wartung/geplante-aufgaben-verwalten.md).
