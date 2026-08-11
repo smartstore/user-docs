@@ -8,11 +8,11 @@ Stellen Sie sich vor, Sie würden Bücher verkaufen. In diesem Fall möchten Sie
 
 ## Anwendungsszenario 2
 
-Stellen Sie sich vor, Sie betreiben ein Geschäft für Gartenbedarf und Sie möchten wissen, zu welchem Zeitpunkt Ihre Kunden mit der Aussaat und dem Anpflanzen beginnen. In diesem Fall könnten Sie Ihre Kunden direkt durch eine Umfrage fragen. Somit können Sie einschätzen, zu welchem Zeitpunkt Sie die meisten Bestellungen zu erwarten haben.
+Stellen Sie sich vor, Sie betreiben ein Geschäft für Gartenbedarf und möchten wissen, zu welchem Zeitpunkt Ihre Kunden mit der Aussaat und dem Anpflanzen beginnen. In diesem Fall könnten Sie Ihre Kunden direkt durch eine Umfrage fragen. Somit können Sie einschätzen, wann Sie die meisten Bestellungen erwarten können.
 
 ## Wie man Umfragen & Abstimmungen verwaltet
 
-Sie können **Umfragen** verwalten, indem Sie zu **CMS > Umfragen** gehen. Der **Name** der Umfrage ist zugleich die Frage, über die Ihre Kunden abstimmen sollen. Durch die Auswahl der **Sprache** legen Sie fest, in welchen der verfügbaren Sprachen die Umfrage angezeigt wird. Sie können auch einen Zeitraum für die Umfrage angeben, in welchem die Umfrage aktiv ist. Die Antworten, aus denen Ihre Kunden wählen können und die Reihenfolge, in der sie angezeigt werden, kann in der Registerkarte **Antworten** festgelegt werden. Wenn Sie **Auf der Homepage zeigen** auswählen, wird die Umfrage prominent in der rechten Spalte Ihrer Homepage angezeigt.
+Sie können **Umfragen** verwalten, indem Sie zu **CMS > Umfragen** gehen. Der **Name** der Umfrage ist zugleich die Frage, über die Ihre Kunden abstimmen sollen. Durch die Auswahl der **Sprache** legen Sie fest, in welchen der verfügbaren Sprachen die Umfrage angezeigt wird. Sie können auch einen Zeitraum für die Umfrage angeben, in dem die Umfrage aktiv ist. Die Antworten, aus denen Ihre Kunden wählen können, und die Reihenfolge, in der sie angezeigt werden, können in der Registerkarte **Antworten** festgelegt werden. Wenn Sie **Auf der Homepage zeigen** auswählen, wird die Umfrage prominent in der rechten Spalte Ihrer Homepage angezeigt.
 
 ![](../../.gitbook/assets/umfragen_starten_1.png)
 
