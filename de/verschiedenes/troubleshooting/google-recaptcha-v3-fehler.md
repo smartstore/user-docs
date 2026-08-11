@@ -2,7 +2,7 @@
 
 ## Google reCAPTCHA V3 funktioniert nicht
 
-Es kann vorkommen, dass nach der Umstellung auf reCAPTCHA V3 oder bei einer Neukonfiguration die Captcha-Funktion scheinbar ausfällt, ohne dass eine sichtbare Fehlermeldung im Shop erscheint.
+Nach der Umstellung auf reCAPTCHA V3 oder einer Neukonfiguration kann die Captcha-Funktion scheinbar ausfallen, ohne dass im Shop eine sichtbare Fehlermeldung erscheint.
 
 ### Symptome
 
