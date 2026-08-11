@@ -1,6 +1,6 @@
 # Für Entwickler
 
-Um einen eigenen Block zu entwickeln, benötigen Sie drei essenzielle Klassen.
+Für einen eigenen Block benötigen Sie drei zentrale Klassen.
 
 **1. Block-Klasse**
 
