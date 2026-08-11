@@ -1,6 +1,6 @@
 # Geplante Aufgaben verwalten
 
-In Smartstore ist es häufig nötig, Aufgaben regelmäßig zu bestimmten Zeiten auszuführen, um unterschiedliche Aktivitäten zu verwalten. Im Bereich Geplante Aufgaben können Sie Aufgaben festlegen, die automatisch zu festgelegten Zeiten durchgeführt werden. Zu den Aufgaben, die auf diese Weise im Vorfeld geplant werden können, gehören:
+In Smartstore ist es häufig nötig, Aufgaben regelmäßig zu bestimmten Zeiten auszuführen, um unterschiedliche Aktivitäten zu verwalten. Im Bereich Geplante Aufgaben können Sie Aufgaben festlegen, die automatisch zu den festgelegten Zeiten durchgeführt werden. Zu den Aufgaben, die auf diese Weise im Vorfeld geplant werden können, gehören:
 
 * Gespeicherte E-Mails versenden
 * Obsolet gewordene oder temporäre Dateien aus der Datenbank entfernen
@@ -74,23 +74,23 @@ Nachfolgende Darstellung zeigt, woraus ein Cron Ausdruck besteht:
 * Jedes der 5 Felder kann durch ein Asterix (\*) ausgefüllt werden. Das würde bedeuten, dass die gesamte Spanne möglicher Werte gilt, z. B. jede Minute, jede Stunde u.s.w.
 * Jedes Feld kann eine Liste von durch Kommata getrennten Werten enthalten (z. B. 1\*,3,7\*) oder eine Spanne von Werten (z.B.: ein Intervall getrennt durch einen Bindestrich, z. B. 1-5).
 * Nach einem Asterix ( _**\***_ ) oder einer Spanne von Werten können Sie einen Schrägstrich (_/)_ setzen, um anzugeben, dass Werte innerhalb eines bestimmten Intervalls immer und immer wieder wiederholt werden. Sie können zum Beispiel "_0-23/2"_ in das Feld _Stunde_ eingeben, um festzulegen, dass eine bestimmte Aktion alle zwei Stunden durchgeführt wird (den gleichen Effekt hat die Eingabe "_0,2,4,6,8,10,12,14,16,18,20,22"_); Wert _"\*/4"_ im Feld _Minute_ bedeutet, dass eine Aktion alle 4 Minuten durchgeführt werden soll. _"1-30/3"_ bedeutet das Gleiche wie "_1,4,7,10,13,16,19,22,25,28"_.
-* In den Feldern _Monat_ und _Tag_  können Sie die Namen von Monaten und Tagen mit den ersten drei Buchstaben abkürzen ("JAN, FEB,...,DEZ" oder "MON,DIE,...,SON"), statt ihre numerischen Werte einzugeben.
+* In den Feldern _Monat_ und _Tag_ können Sie die Namen von Monaten und Tagen mit den ersten drei Buchstaben abkürzen ("JAN, FEB,...,DEZ" oder "MON,DIE,...,SON"), statt ihre numerischen Werte einzugeben.
 
-### Beispiele für einen Cron Ausdruck&#x20;
+### Beispiele für einen Cron Ausdruck
 
 Hier sind einige vollständige Beispiele:
 
-| Ausdruck                                  | Bedeutung                                                                                                                            |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| \*   \*   \*   \*   \*                    | Jede Minute                                                                                                                          |
-| 5   \*   \*   \*   \*                     | Fünf Minuten nach jeder vollen Stunde (00:05, 01:05, 02:05 u.s.w.).                                                                  |
-| 0/15 \* \* \* \*                          | Alle 15 Minuten                                                                                                                      |
-| 0 \*/2 \* \* \*                           | Alle 2 Stunden                                                                                                                       |
-| 0 1 \* \* \*                              | Jeden Tag um 01:00 AM                                                                                                                |
-| \*   12   \*   \*   1                     | Jede Minute von 12:00 PM an, nur am Montag                                                                                           |
-| 59   11   \*   \*   1 , 2 , 3 , 4 , 5     | Um 11:59 AM, nur Montag, Dienstag, Mittwoch, Donnerstag und Freitag                                                                  |
-| 59   11   \*   \*   1 - 5                 | Dieses Muster ist equivalent zum vorhergehenden. Die Werte innerhalb der Spanne werden ausgelassen und durch den Bindestrich ersetzt |
-| \*/ 15   9 - 17   \*   \*   \*            | Alle 15 Minuten zwischen 09:00 AM und 05:59 PM                                                                                       |
-| \*   12   10 - 16 / 2   \*   \*           | Jede Minute von 12:00 PM, alle 2 Tage, zwischen dem 10. und 16. Tag des Monats                                                       |
-| \*   12   1 - 15 , 17 , 20 - 25   \*   \* | Jede Minute von 12:00 PM an, zwischen dem 1. und dem 15., dem 20. und dem 25. und am 17. des Monats .                                |
-|                                           |                                                                                                                                      |
+| Ausdruck                          | Bedeutung                                                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| \* \* \* \* \*                    | Jede Minute                                                                                                                          |
+| 5 \* \* \* \*                     | Fünf Minuten nach jeder vollen Stunde (00:05, 01:05, 02:05 u.s.w.).                                                                  |
+| 0/15 \* \* \* \*                  | Alle 15 Minuten                                                                                                                      |
+| 0 \*/2 \* \* \*                   | Alle 2 Stunden                                                                                                                       |
+| 0 1 \* \* \*                      | Jeden Tag um 01:00 AM                                                                                                                |
+| \* 12 \* \* 1                     | Jede Minute von 12:00 PM an, nur am Montag                                                                                           |
+| 59 11 \* \* 1 , 2 , 3 , 4 , 5     | Um 11:59 AM, nur Montag, Dienstag, Mittwoch, Donnerstag und Freitag                                                                  |
+| 59 11 \* \* 1 - 5                 | Dieses Muster ist equivalent zum vorhergehenden. Die Werte innerhalb der Spanne werden ausgelassen und durch den Bindestrich ersetzt |
+| \*/ 15 9 - 17 \* \* \*            | Alle 15 Minuten zwischen 09:00 AM und 05:59 PM                                                                                       |
+| \* 12 10 - 16 / 2 \* \*           | Jede Minute von 12:00 PM, alle 2 Tage, zwischen dem 10. und 16. Tag des Monats                                                       |
+| \* 12 1 - 15 , 17 , 20 - 25 \* \* | Jede Minute von 12:00 PM an, zwischen dem 1. und dem 15., dem 20. und dem 25. und am 17. des Monats .                                |
+|                                   |                                                                                                                                      |
