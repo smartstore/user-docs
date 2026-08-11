@@ -1,6 +1,6 @@
 # AI
 
-Das AI Plugin <img src="../../.gitbook/assets/icon.png" style="width: 16px; height: 16px; vertical-align: middle;"> arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
+Das AI Plugin ![](../../.gitbook/assets/icon.png) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
 
 {% hint style="info" %}
 **Hinweise:**
@@ -18,7 +18,7 @@ Das AI Plugin bietet je nach Kontext unterschiedliche Dialoge für die Text- und
 
 ### SimpleText
 
-Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …), wird der SimpleText-Dialog verwendet.
+Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …) wird der SimpleText-Dialog verwendet.
 
 ![SimpleText - Kontextmenü](../../.gitbook/assets/SimpleText_Kontext.PNG)
 
@@ -42,29 +42,24 @@ Für Texte mit Formatierungen, HTML und Rich-Content, wie z.B. Links, Bilder, Li
 
 Die Sidebar stellt erweiterte Einstellungsmöglichkeiten zum Erstellen von Inhalten bereit. Je nachdem welche Entität (Produkt, Blog, News, …) bearbeitet wird, werden andere Optionen angezeigt.
 
-- **Sprache** bietet Optionen für Ton und Stil.
+*   **Sprache** bietet Optionen für Ton und Stil.
 
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Language.PNG)
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Language.PNG)
+*   **Struktur** bietet Optionen für Überschriften und Absätze.
 
-- **Struktur** bietet Optionen für Überschriften und Absätze.
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Structure.PNG)
+*   **Keywords** bietet Optionen für Schlüsselwörter.
 
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Structure.PNG)
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Keywords.PNG)
+*   **Bilder** bietet Optionen um Bilder einzufügen.
 
-- **Keywords** bietet Optionen für Schlüsselwörter.
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Pictures.PNG)
+*   **Links** bietet Optionen für Verweise und Schaltflächen.
 
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Keywords.PNG)
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Links_Blog.PNG)
+*   **Zusätzliche Inhalte** bietet weitere Einstellungsmöglichkeiten.
 
-- **Bilder** bietet Optionen um Bilder einzufügen.
-
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Pictures.PNG)
-
-- **Links** bietet Optionen für Verweise und Schaltflächen.
-
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_Links_Blog.PNG)
-
-- **Zusätzliche Inhalte** bietet weitere Einstellungsmöglichkeiten.
-
-	![](../../.gitbook/assets/Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG)
+    ![](../../.gitbook/assets/Richtext_Dialog_Sidebar_AdditionalContent_Blog.PNG)
 
 {% hint style="warning" %}
 Mit dem Button **Einstellungen speichern** können die verwendeten Sidebar-Einstellungen für die aktuell verwendete Entität als Standard gespeichert werden. Dies gewährleistet ein einheitliches Design in Ihrem Shop.
@@ -155,14 +150,14 @@ Anwendungsbeispiel: - Hinzufügen einer Tabelle mit wichtigen Merkmalen - Person
 
 | **Option**                 | **Beschreibung**                                                                                                                                                                                                 |
 | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ausdrucksweisen            | Beschreibt, wie die KI Emotionen oder Absichten sichtbar macht (z. B. freundlich, fordernd, dramatisch). |
-| Sprachstile                | Legt fest, wie formuliert wird (z. B. sachlich, rechtlich, geschäftlich). So klingt der Output konsistent in Tonalität und Satzbau. |
-| Medientypen                | Bestimmt das „Format“, das die KI nachbilden soll (z. B. Poster / Storyboard / Foto-Look). |
-| Umgebungen                 | Definiert den Ort bzw. den Kontext des Bildes (z. B. Büro, Wohnzimmer, Küche). |
-| Beleuchtungsarten          | Legt fest, wie Licht wirkt (z. B. warmes Glühen, kaltes Neon, weich, Softbox). |
-| Farbstile                  | Gibt vor, welche Farbwelt dominieren soll (z. B. pastellig, monochrom, Cinemascope, High-Saturation). |
-| Stimmungen                 | Steuert die emotionale Gesamtrichtung (z. B. ruhig, gespannt, melancholisch, energiegeladen). |
-| Kopositionsarten           | Regelt die Anordnung im Bild bzw. die Gliederung im Text (z. b. Portrait, zentriert, Weitwinkel). |
+| Ausdrucksweisen            | Beschreibt, wie die KI Emotionen oder Absichten sichtbar macht (z. B. freundlich, fordernd, dramatisch).                                                                                                         |
+| Sprachstile                | Legt fest, wie formuliert wird (z. B. sachlich, rechtlich, geschäftlich). So klingt der Output konsistent in Tonalität und Satzbau.                                                                              |
+| Medientypen                | Bestimmt das „Format“, das die KI nachbilden soll (z. B. Poster / Storyboard / Foto-Look).                                                                                                                       |
+| Umgebungen                 | Definiert den Ort bzw. den Kontext des Bildes (z. B. Büro, Wohnzimmer, Küche).                                                                                                                                   |
+| Beleuchtungsarten          | Legt fest, wie Licht wirkt (z. B. warmes Glühen, kaltes Neon, weich, Softbox).                                                                                                                                   |
+| Farbstile                  | Gibt vor, welche Farbwelt dominieren soll (z. B. pastellig, monochrom, Cinemascope, High-Saturation).                                                                                                            |
+| Stimmungen                 | Steuert die emotionale Gesamtrichtung (z. B. ruhig, gespannt, melancholisch, energiegeladen).                                                                                                                    |
+| Kopositionsarten           | Regelt die Anordnung im Bild bzw. die Gliederung im Text (z. b. Portrait, zentriert, Weitwinkel).                                                                                                                |
 | Standardsprache übersetzen | Die Standardsprache ist die erste aktive Sprache eines Stores. Ist kein Wert für sie hinterlegt, wird der Wert aus dem Reiter "Standard" genutzt. Daher wird empfohlen, die Standardsprache nicht zu übersetzen. |
 | Beispielgenerator anbieten | Stellt einen Chat-Generator zur Verfügung steht, der Beispieldaten erzeugt.                                                                                                                                      |
 
