@@ -7,7 +7,7 @@
 | Aktiviert                              | Aktiviert News im Shop.                                                                      |
 | Gäste dürfen Kommentare schreiben      | Legt fest, ob Gäste Kommentare schreiben dürfen.                                             |
 | Benachrichtigung bei neuen Kommentaren | Benachrichtigt den Administrator bei neuen Kommentaren.                                      |
-| Auf Startseite anzeigen                | News auf der Startseite anzeigen.                                                            |
+| Auf Startseite anzeigen                | Zeigt News auf der Startseite an.                                                            |
 | Anzahl der gezeigten News              | Legt die Anzahl der angezeigten News auf der Startseite fest.                                |
 | Seitengröße                            | Legt die maximale Anzahl der angezeigten News pro Seite fest.                                |
 | Maximales Alter (in Tagen)             | Legt das maximale News-Alter in Tagen fest. Ältere News werden im RSS-Feed nicht exportiert. |
