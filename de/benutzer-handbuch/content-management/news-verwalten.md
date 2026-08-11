@@ -1,6 +1,6 @@
 # News verwalten
 
-_Content is King_ ist eine häufig verwendete Losung, wenn es um Suchmaschinenoptimierung geht – und das mit gutem Grund. Google bevorzugt neue Inhalte und verleiht Seiten, die häufig neue Textinhalte enthalten, ein besseres Ranking. Smartstore enthält ein System, um News-Einträge zu verwalten und versetzt Shop-Betreiber somit in die Lage, regelmäßig neue Inhalte zu erstellen. Die Newsbeiträge können auf der Homepage Ihres Shops angezeigt werden und sind je nach den Einstellungen zusätzlich über einen RSS-Feed zugänglich, die Sie in den [News-Einstellungen](../konfiguration/einstellungen/news-einstellungen.md) konfiguriert haben.
+Mit regelmäßig veröffentlichten News halten Sie Ihre Kunden über aktuelle Themen und Angebote auf dem Laufenden. In Smartstore erstellen und verwalten Sie diese News zentral. Die Newsbeiträge können auf der Homepage Ihres Shops angezeigt werden und sind je nach den Einstellungen zusätzlich über einen RSS-Feed zugänglich, die Sie in den [News-Einstellungen](../konfiguration/einstellungen/news-einstellungen.md) konfiguriert haben.
 
 ## Newsbeiträge erstellen
 
