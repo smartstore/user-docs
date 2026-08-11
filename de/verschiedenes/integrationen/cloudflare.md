@@ -1,15 +1,15 @@
 # Cloudflare
 
-Cloudflare kann als Reverse Proxy vor Smartstore betrieben werden und bietet Schutz vor Bots, DDoS-Angriffen sowie zusätzliche Performance-Optimierungen. Damit Smartstore und Cloudflare optimal zusammenarbeiten, sind einige Konfigurationsschritte erforderlich. Diese Seite beschreibt die empfohlenen Einstellungen.
+Cloudflare kann als Reverse-Proxy vor Smartstore betrieben werden und bietet Schutz vor Bots, DDoS-Angriffen sowie zusätzliche Performance-Optimierungen. Damit Smartstore und Cloudflare optimal zusammenarbeiten, sind einige Konfigurationsschritte erforderlich. Diese Seite beschreibt die empfohlenen Einstellungen.
 
 ## Vorteile
 
 Der Einsatz von Cloudflare bietet unter anderem folgende Vorteile:
 
-- Schutz vor Bot- und DDoS-Angriffen
-- Filterung schädlicher Anfragen
-- Verbesserte Performance durch das globale Cloudflare-Netzwerk
-- SSL/TLS-Terminierung und zusätzliche Sicherheitsfunktionen
+* Schutz vor Bot- und DDoS-Angriffen
+* Filterung schädlicher Anfragen
+* Verbesserte Performance durch das globale Cloudflare-Netzwerk
+* SSL/TLS-Terminierung und zusätzliche Sicherheitsfunktionen
 
 ## Cache-Regeln konfigurieren
 
@@ -19,7 +19,7 @@ Cloudflare kann standardmäßig CSS-Dateien und andere statische Inhalte zwische
 
 Erstellen Sie deshalb eine Cache-Regel, welche das Zwischenspeichern der entsprechenden Inhalte verhindert.
 
-1. Öffnen Sie in Cloudflare **Regeln &rarr; Cache Rules**.
+1. Öffnen Sie in Cloudflare **Regeln → Cache Rules**.
 2. Erstellen Sie eine neue Regel.
 3. Wählen Sie **Cache für alles umgehen**.
 4. Speichern Sie die Regel.
@@ -34,8 +34,8 @@ Cloudflare darf die automatisierten Aufgaben von Smartstore nicht blockieren.
 
 Stellen Sie sicher, dass folgende URLs unverändert an den Shop weitergeleitet werden:
 
-- `https://www.meinshop.com/taskscheduler`
-- `https://www.meinshop.com/taskscheduler/poll`
+* `https://www.meinshop.com/taskscheduler`
+* `https://www.meinshop.com/taskscheduler/poll`
 
 {% hint style="info" %}
 Ersetzen Sie `https://www.meinshop.com` durch die URL Ihres Shops.
