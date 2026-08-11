@@ -1,6 +1,6 @@
 # Zahlungsarten einrichten
 
-Einer wichtigsten Bereiche beim Einrichten eines Onlineshops ist die Konfiguration der Zahlungsarten. Die Auswahl der Zahlungsarten wird auf jeden Fall einen Einfluss auf die Kaufentscheidung in Ihrem Shop haben. Zahlungsvorgänge werden in Smartstore von so genannten Zahlart-Plugins abgewickelt. Abhängig von der Anzahl der installierten Zahlart-Plugins werden Ihren Kunden unterschiedliche Optionen für die Bezahlung zur Auswahl angeboten.
+Einer der wichtigsten Bereiche beim Einrichten eines Onlineshops ist die Konfiguration der Zahlungsarten. Die Auswahl der Zahlungsarten beeinflusst die Kaufentscheidung in Ihrem Shop. Zahlungsvorgänge werden in Smartstore von so genannten Zahlart-Plugins abgewickelt. Abhängig von der Anzahl der installierten Zahlart-Plugins werden Ihren Kunden unterschiedliche Optionen für die Bezahlung zur Auswahl angeboten.
 
 ## Wie Sie die Zahlungsarten konfigurieren
 
