@@ -2,7 +2,7 @@
 
 ## Blöcke Übersicht
 
-Blöcke sind ein essenzieller Bestandteil des Page Builders. Sämtliche Inhalte werden mithilfe von Blöcken dargestellt. Je nach gewünschtem Inhalt stehen Ihnen verschiedene Blöcke zur Verfügung.
+Blöcke bilden die Inhalte einer Page-Builder-Story ab. Je nach gewünschtem Inhalt stehen Ihnen verschiedene Blöcke zur Verfügung.
 
 ![](../../../.gitbook/assets/Blocks.png)
 
