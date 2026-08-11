@@ -1,12 +1,12 @@
 # Währungen verwalten
 
-In Smartstore können Sie abhängig von Ihrer Zielkundengruppe verschiedene Währungen konfigurieren. Auf diese Weise können Sie Ihren Kunden die Anzeige von Preisen und den Kauf Ihrer Produkte in der von Ihnen gewünschten Währung ermöglichen. Um Währungen zu verwalten, gehen Sie zu **Konfiguration > Regionale Einstellungen > Währungen**. &#x20;
+In Smartstore können Sie für unterschiedliche Zielgruppen verschiedene Währungen konfigurieren. Auf diese Weise können Sie Ihren Kunden die Anzeige von Preisen und den Kauf Ihrer Produkte in der von Ihnen gewünschten Währung ermöglichen. Um Währungen zu verwalten, gehen Sie zu **Konfiguration > Regionale Einstellungen > Währungen**.
 
 ![](../../.gitbook/assets/waehrungen-1.PNG)
 
 ## Leitwährung
 
-Abhängig von der Anzahl der installierten Wechselkurs-Plugins können Sie Ihren bevorzugten **Online Wechselkursdienst**  auswählen und festlegen, ob der Dienst die Wechselkurse automatisch aktualisieren soll, indem Sie das Kästchen **Autoupdate aktiviert** anklicken. Sie können Ihre Wechselkurse auch manuell aktualisieren, indem Sie auf **Wechselkurse aktualisieren** klicken. Wenn Ihr **Wechselkursdienst** eine Aktualisierung der Wechselkurse durchführt, greift er auf die aktuellen Wechselkurse auf einem Server zu (im Fall von ECB ist es der Server der Europäischen Zentralbank) und überschreibt die Wechselkurse Ihrer Währung mit dem aktuellen Wert des Servers. Die **Leitwährung** ist die Umrechnungswährung mit deren Hilfe die Wechselkurse berechnet werden.
+Abhängig von der Anzahl der installierten Wechselkurs-Plugins können Sie Ihren bevorzugten **Online Wechselkursdienst** auswählen und festlegen, ob der Dienst die Wechselkurse automatisch aktualisieren soll, indem Sie das Kästchen **Autoupdate aktiviert** anklicken. Sie können Ihre Wechselkurse auch manuell aktualisieren, indem Sie auf **Wechselkurse aktualisieren** klicken. Wenn Ihr **Wechselkursdienst** eine Aktualisierung der Wechselkurse durchführt, greift er auf die aktuellen Wechselkurse auf einem Server zu (im Fall von ECB ist es der Server der Europäischen Zentralbank) und überschreibt die Wechselkurse Ihrer Währung mit dem aktuellen Wert des Servers. Die **Leitwährung** ist die Umrechnungswährung mit deren Hilfe die Wechselkurse berechnet werden.
 
 ![](../../.gitbook/assets/waehrungen-2.PNG)
 
@@ -34,6 +34,6 @@ Die Währung, die als **Leitwährung des Shops** festgelegt wurde, ist die Währ
 | Beträge aller Bestellpositionen runden | Legt fest, ob die Beträge aller Bestellpositionen gerundet werden sollen (Produkte, Gebühren, Steuern etc.) |
 | Bestellsumme runden                    | Legt fest, ob die Bestellsumme gerundet werden soll.                                                        |
 
-Alle Währungen, die veröffentlicht sind, können von Ihren Kunden im Frontend Ihres Shops, wie im nachfolgenden Screenshot dargestellt, ausgewählt werden.&#x20;
+Alle Währungen, die veröffentlicht sind, können von Ihren Kunden im Frontend Ihres Shops, wie im nachfolgenden Screenshot dargestellt, ausgewählt werden.
 
 ![](../../.gitbook/assets/waehrungen-3.PNG)
