@@ -1,6 +1,6 @@
 # Foren verwalten
 
-Smartstore gibt Ihnen die Mittel an die Hand, um ein Nutzerforum einfach zu verwalten. Auf Administrationsebene können Sie **Forengruppen** und **Unterforen** anlegen und konfigurieren. Die Verwaltung der von Ihren Kunden erstellten Themen wird im Frontend vorgenommen. Der Nutzer, der für die Verwaltung der Themen verantwortlich ist, benötigt ein Zugriffsrecht, um die Foren verwalten zu können. Der Name des zugehörigen Zugriffsrechts lautet **Admin Area. Manage Forums.** Für weitere Informationen zu Zugriffsrechten lesen Sie bitte [Zugriffsbeschränkungen (ACL)](../allgemeine-konzepte/zugriffsbeschrankungen-acl.md).
+Mit Smartstore verwalten Sie Nutzerforen zentral und übersichtlich. Auf Administrationsebene können Sie **Forengruppen** und **Unterforen** anlegen und konfigurieren. Die Verwaltung der von Ihren Kunden erstellten Themen wird im Frontend vorgenommen. Der Nutzer, der für die Verwaltung der Themen verantwortlich ist, benötigt ein Zugriffsrecht, um die Foren verwalten zu können. Der Name des zugehörigen Zugriffsrechts lautet **Admin Area. Manage Forums.** Für weitere Informationen zu Zugriffsrechten lesen Sie bitte [Zugriffsbeschränkungen (ACL)](../allgemeine-konzepte/zugriffsbeschrankungen-acl.md).
 
 ## Konfiguration im Backend
 

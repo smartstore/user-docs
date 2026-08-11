@@ -1,6 +1,6 @@
 # Blogs verwalten
 
-_Content is King_ ist eine häufig verwendete Losung, wenn es um Suchmaschinenoptimierung geht – und das mit gutem Grund. Google bevorzugt neue Inhalte und verleiht Seiten, die häufig neue Textinhalte enthalten, ein besseres Ranking. Smartstore enthält ein System, um Ihren eigenen Blog zu verwalten und ermöglicht es Shop-Betreibern somit, regelmäßig neue Inhalte zu erstellen.
+Mit einem regelmäßig gepflegten Blog informieren Sie Ihre Kunden über aktuelle Themen und Angebote. In Smartstore erstellen und verwalten Sie Ihre Blogbeiträge zentral.
 
 ## Blogeinträge erstellen
 
