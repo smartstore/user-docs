@@ -1,10 +1,10 @@
 # Seiten & Inhalte verwalten
 
-Sie können Seiten und Inhalte verwalten, indem Sie zu  **CMS > Seiten und Inhalte** gehen. In diesem Bereich können Sie Seiten bearbeiten und hinzufügen, für die Sie Sie Ihre eigenen Inhalte erfassen können (z. B. Impressum oder Über uns). Dafür müssen Sie den HTML-Editor benutzen. Für weitere Informationen zur Bearbeitung von HTML-Inhalten gehen Sie zu [HTML Inhalte bearbeiten](../allgemeine-konzepte/html-inhalte-bearbeiten.md). Wenn Sie Links zu den von Ihnen geschaffenen Inhalten in die Menus Ihres Shops hinzufügen wollen, lesen Sie bitte [Menüs](menus.md).
+Sie können Seiten und Inhalte verwalten, indem Sie zu **CMS > Seiten und Inhalte** gehen. In diesem Bereich können Sie Seiten bearbeiten und hinzufügen, für die Sie Ihre eigenen Inhalte erfassen können (z. B. Impressum oder Über uns). Dafür müssen Sie den HTML-Editor benutzen. Für weitere Informationen zur Bearbeitung von HTML-Inhalten gehen Sie zu [HTML Inhalte bearbeiten](../allgemeine-konzepte/html-inhalte-bearbeiten.md). Wenn Sie Links zu den von Ihnen geschaffenen Inhalten in die Menüs Ihres Shops hinzufügen wollen, lesen Sie bitte [Menüs](menus.md).
 
 ## HTML Widgets ausführen
 
-Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcken überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden _Inhalt_ die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget Zonen und für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones).
+Widget-Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blöcke überall in Ihrem Shop erlauben. Jeder Bereich in Smartstore ist mit zahlreichen Widget-Zonen versehen, um Ihnen maximale Freiheit bei der Platzierung Ihres Inhalts zu ermöglichen. Um Ihren eigenen Inhalt an einer Stelle im Shop zu platzieren, wählen Sie für den betreffenden _Inhalt_ die Option **Als HTML-Widget darstellen**. Nutzen Sie dann einfach den HTML-Editor, um den gewünschten Inhalt zu erstellen und wählen Sie die gewünschte Widget Zone. Für weitere Informationen zu Widget-Zonen und für eine vollständige Liste aller Widget-Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones).
 
 ## Ansicht Seite bearbeiten
 
@@ -19,21 +19,21 @@ Widget Zonen sind Platzhalter, die Ihnen das Einfügen von Widgets und HTML-Blö
 | Passwort                      | Passwort für den Zugang zum Inhalt der Seite.                                                                                                                                                 |
 | In die Sitemap aufnehmen      | Legt fest, ob die Seite in die Sitemap aufgenommen werden soll.                                                                                                                               |
 | URL                           | Die URL dieser Seite.                                                                                                                                                                         |
-| Als HTML Widget darstellen    | Legt fest, ob der Inhalt inline als HTML Widget dargestellt werden soll.                                                                                                                      |
-| Widget Zone                   | Eine oder mehrere Widget Zonen, in denen das Widget dargestellt werden soll. Für eine vollständige Liste aller Widget Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones). |
+| Als HTML-Widget darstellen    | Legt fest, ob der Inhalt inline als HTML-Widget dargestellt werden soll.                                                                                                                      |
+| Widget Zone                   | Eine oder mehrere Widget-Zonen, in denen das Widget dargestellt werden soll. Für eine vollständige Liste aller Widget-Zonen lesen Sie bitte [Widget Zones](widgets-anordnen.md#widget-zones). |
 | Sortierung                    | Legt die Reihenfolge der Widgets innerhalb einer Zone fest.                                                                                                                                   |
-| Inhalt mit Container umhüllen | Umhüllt den Widget Inhalt mit einem HTML-Container                                                                                                                                            |
+| Inhalt mit Container umhüllen | Umhüllt den Widget-Inhalt mit einem HTML-Container                                                                                                                                            |
 | Titel anzeigen                | Legt fest, ob der Titel als Überschrift dargestellt werden soll.                                                                                                                              |
-| Title-Tag                     | Legt das Tag fest, welches für die Überschrift des Topics ausgegeben wird.                                                                                                                    |
+| Title-Tag                     | Legt das Tag fest, das für die Überschrift des Topics ausgegeben wird.                                                                                                                        |
 | Widget umrahmen               | Legt fest, ob ein Topic mit einem Rahmen dargestellt wird.                                                                                                                                    |
 
 ### Suchmaschinen (SEO)
 
-In dieser Registerkarte können Sie spezifische SEO-Werte für einen Inhalt festlegen, beispielsweise **Meta title**, **Meta keywords** oder einen SEO-freundlichen **URL Alias**. Für weitere Informationen über die Felder in der Registerkarte **Suchmaschinen** lesen Sie bitte [SEO](../allgemeine-konzepte/seo.md).
+In dieser Registerkarte können Sie spezifische SEO-Werte für einen Inhalt festlegen, beispielsweise **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL-Alias**. Für weitere Informationen über die Felder in der Registerkarte **Suchmaschinen** lesen Sie bitte [SEO](../allgemeine-konzepte/seo.md).
 
 ### Shops
 
-In dieser Registerkarte können Sie verwalten, in welchem oder welchen Shop(s) ein Topic veröffentlicht werden soll. Für weitere Informationen zu mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+In dieser Registerkarte können Sie verwalten, in welchem Shop beziehungsweise in welchen Shops ein Topic veröffentlicht werden soll. Für weitere Informationen zu mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
 
 ### ContentSlider
 
