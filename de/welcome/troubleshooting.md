@@ -6,7 +6,7 @@ icon: circle-exclamation
 
 ## Cache löschen
 
-Sollten Sie ein Problem mit Ihrem Shop haben, kann es oftmals mit der Bereinigung des Caches behoben werden. Versuchen Sie daher als Erstes den [Cache zu löschen](../benutzer-handbuch/system-wartung/cache-bereinigen.md).
+Viele Shopprobleme lassen sich durch das Bereinigen des Caches beheben. Versuchen Sie daher als Erstes den [Cache zu löschen](../benutzer-handbuch/system-wartung/cache-bereinigen.md).
 
 ## Cloudflare
 
