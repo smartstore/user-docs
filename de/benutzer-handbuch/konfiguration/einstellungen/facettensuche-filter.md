@@ -1,6 +1,6 @@
 # Facettensuche / Filter
 
-Durch dem in den Premium und Enterprise Editionen enthaltenen MegaSearchPlus Plugin lassen sich die Suchtreffer durch eine Facettennavigation eingrenzen.
+Durch das in den Premium und Enterprise Editionen enthaltenen MegaSearchPlus Plugin lassen sich die Suchtreffer durch eine Facettennavigation eingrenzen.
 
 ![Facettennavigation](../../../.gitbook/assets/module_megasearchplus_facettensuche.png)
 
