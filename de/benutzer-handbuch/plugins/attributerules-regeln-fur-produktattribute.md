@@ -2,12 +2,12 @@
 
 Mit **AttributeRules** steuern Sie, welche Produktattribute abhängig von der aktuellen Produktauswahl angezeigt werden. So lassen sich umfangreiche Produktkonfigurationen übersichtlich aufbauen: Zusätzliche Eingaben erscheinen erst dann, wenn sie tatsächlich benötigt werden.
 
-![Bearbeiung einer Attributregel](../../.gitbook/assets/module_attributerules_product_attributetab_rules_example.png)
+![Bearbeitung einer Attributregel](../../.gitbook/assets/module_attributerules_product_attributetab_rules_example.png)
 
 Typische Anwendungsfälle sind optionale Gravuren, Aufdrucke, Zubehörpakete oder weitere Auswahlmöglichkeiten für eine bestimmte Produktvariante.
 
 {% hint style="info" %}
-Produktattributregeln werden direkt am jeweiligen Attribut eines Produkts eingerichtet. Sie gehören nicht zu den Regelsätzen unter **System** &rarr; **Regeln** und müssen keiner separaten Aktion zugeordnet werden. Allgemeine Informationen zum Aufbau einer Bedingung und zu Vergleichsoperatoren finden Sie unter [Regeln](../konfiguration/regeln.md).
+Produktattributregeln werden direkt am jeweiligen Attribut eines Produkts eingerichtet. Sie gehören nicht zu den Regelsätzen unter **System** → **Regeln** und müssen keiner separaten Aktion zugeordnet werden. Allgemeine Informationen zum Aufbau einer Bedingung und zu Vergleichsoperatoren finden Sie unter [Regeln](../konfiguration/regeln.md).
 {% endhint %}
 
 ## Praxisbeispiel: Optionale Gravur
@@ -18,15 +18,15 @@ Eine Uhr soll wahlweise mit einer Gravur bestellt werden können. Entscheidet si
 
 Für diese Konfiguration werden dem Produkt folgende Attribute zugewiesen:
 
-| Attribut | Steuerelement und Werte | Einstellung |
-| --- | --- | --- |
-| **Mit Gravur** | Radiobuttonliste mit **Nein** und **Ja** | Für **Ja** kann beispielsweise ein Mehrpreis von 10 Euro hinterlegt werden. |
-| **Gravurtext** | Textfeld | Als Pflichtfeld kennzeichnen. |
-| **Schriftart** | Auswahlliste mit den angebotenen Schriftarten | Gewünschte Schriftarten als Werte anlegen. |
+| Attribut       | Steuerelement und Werte                       | Einstellung                                                                 |
+| -------------- | --------------------------------------------- | --------------------------------------------------------------------------- |
+| **Mit Gravur** | Radiobuttonliste mit **Nein** und **Ja**      | Für **Ja** kann beispielsweise ein Mehrpreis von 10 Euro hinterlegt werden. |
+| **Gravurtext** | Textfeld                                      | Als Pflichtfeld kennzeichnen.                                               |
+| **Schriftart** | Auswahlliste mit den angebotenen Schriftarten | Gewünschte Schriftarten als Werte anlegen.                                  |
 
 ### Regel für den Gravurtext einrichten
 
-1. Öffnen Sie unter **Katalog** &rarr; **Produkte** die Bearbeitungsansicht der Uhr.
+1. Öffnen Sie unter **Katalog** → **Produkte** die Bearbeitungsansicht der Uhr.
 2. Wechseln Sie zur Registerkarte **Attribute**.
 3. Öffnen Sie die Bearbeitungsansicht für die Optionen und Regeln des Attributs **Gravurtext**.
 4. Wechseln Sie zur Registerkarte **Regeln**.
@@ -38,8 +38,8 @@ Für diese Konfiguration werden dem Produkt folgende Attribute zugewiesen:
 
 Richten Sie dieselbe Bedingung anschließend für das Attribut **Schriftart** ein. Beide Attribute werden nun nur angezeigt, wenn der Kunde bei **Mit Gravur** den Wert **Ja** auswählt.
 
-| Ohne Gravur | Mit Gravur |
-| --- | --- |
+| Ohne Gravur                                                                          | Mit Gravur                                                                        |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | ![](../../.gitbook/assets/module_attributerules_productdetails_withoutengraving.png) | ![](../../.gitbook/assets/module_attributerules_productdetails_withengraving.png) |
 
 Der Mehrpreis wird nicht in der Regel festgelegt, sondern am Attributwert **Ja** hinterlegt. Die Regel bestimmt ausschließlich, ob die abhängigen Attribute angezeigt werden.
@@ -50,9 +50,9 @@ Smartstore wertet die Produktattributregeln bei jeder Änderung der Produktauswa
 
 Ausgeblendete Attribute werden nicht nur optisch verborgen:
 
-- Bereits ausgewählte Werte eines inaktiven Attributs werden bei der weiteren Verarbeitung nicht berücksichtigt.
-- Mehr- oder Minderpreise ausgeblendeter Attributwerte fließen nicht in die Preisberechnung ein.
-- Ein ausgeblendetes Pflichtattribut verhindert nicht, dass das Produkt in den Warenkorb gelegt wird.
+* Bereits ausgewählte Werte eines inaktiven Attributs werden bei der weiteren Verarbeitung nicht berücksichtigt.
+* Mehr- oder Minderpreise ausgeblendeter Attributwerte fließen nicht in die Preisberechnung ein.
+* Ein ausgeblendetes Pflichtattribut verhindert nicht, dass das Produkt in den Warenkorb gelegt wird.
 
 Auch mehrstufige Abhängigkeiten sind möglich. Beispielsweise kann die Auswahl **Bundle hinzufügen** zunächst das Attribut **Größe** einblenden. Eine bestimmte Größe kann anschließend weitere Optionen wie **Displayschutz** sichtbar machen. Wird eine übergeordnete Auswahl wieder deaktiviert, berücksichtigt Smartstore dies auch bei den davon abhängigen Attributen.
 
@@ -62,8 +62,8 @@ Als Bedingung können Sie andere listenbasierte Attribute desselben Produkts ver
 
 Neben den Attributwerten bietet AttributeRules zwei weitere Bedingungsarten:
 
-- **Mehr-/Minderpreis:** Prüft die Summe der Preisanpassungen der aktuell ausgewählten Attributwerte.
-- **Gewicht:** Prüft das Produktgewicht einschließlich der Gewichtsanpassungen der aktuell ausgewählten Attributwerte.
+* **Mehr-/Minderpreis:** Prüft die Summe der Preisanpassungen der aktuell ausgewählten Attributwerte.
+* **Gewicht:** Prüft das Produktgewicht einschließlich der Gewichtsanpassungen der aktuell ausgewählten Attributwerte.
 
 Mehrere Bedingungen können so verknüpft werden, dass entweder alle Bedingungen oder mindestens eine Bedingung erfüllt sein muss. Mit zusätzlichen Gruppen lassen sich auch umfangreichere Kombinationen aufbauen. Die verfügbaren Vergleiche hängen von der jeweiligen Bedingung ab. Kontrollkästchen und andere Mehrfachauswahlen bieten beispielsweise zusätzliche Möglichkeiten, mehrere ausgewählte Werte miteinander zu vergleichen.
 
@@ -73,7 +73,7 @@ Mit **Attribute übernehmen** können Sie die Produktattribute eines bereits kon
 
 ![Popup für die Attributübernahme](../../.gitbook/assets/module_attributerules_product_attributetab_popup_transferattributes.png)
 
-1. Öffnen Sie unter **Katalog** &rarr; **Produkte** das Zielprodukt.
+1. Öffnen Sie unter **Katalog** → **Produkte** das Zielprodukt.
 2. Wechseln Sie zur Registerkarte **Attribute**.
 3. Klicken Sie auf **Attribute übernehmen…**.
 4. Wählen Sie das Produkt aus, dessen Attribute übernommen werden sollen.
