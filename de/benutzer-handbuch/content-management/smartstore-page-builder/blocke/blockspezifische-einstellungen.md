@@ -2,15 +2,15 @@
 
 ## Text
 
-Der Text-Block bietet umfassende Möglichkeiten, Text zu formatieren. Mit dem Feld _Titel_ können Sie dem Block einen formatierten Titel vergeben. Der Titel wird über dem Intro- und Textelement angezeigt. Zusätzlich erhält der Block im [_Block-Manager_](../benutzeroberflache/block-manager.md) den Titel als Namen. Alternativ können Sie den Titel auch verstecken, wodurch dieser nicht als Text innerhalb des Blockes angezeigt wird. Die _Tagline_ wird oberhalb und das _Intro_ unterhalb des Titels dargestellt. Das Textfeld, welches für Fließtext gedacht ist, verfügt über einen umfangreichen Texteditor, mit dem Sie Ihren Fließtext formatieren können. Des Weiteren bieten die einzelnen Textelemente Optionen um Schriftgröße, Schriftart, Schriftfarbe, HTML-Tags und Abstände zu konfigurieren.
+Der Text-Block bietet umfassende Möglichkeiten, Text zu formatieren. Mit dem Feld _Titel_ können Sie dem Block einen formatierten Titel vergeben. Der Titel wird über dem Intro- und Textelement angezeigt. Zusätzlich erhält der Block im [_Block-Manager_](../benutzeroberflache/block-manager.md) den Titel als Namen. Alternativ können Sie den Titel auch verstecken, wodurch dieser nicht als Text innerhalb des Blockes angezeigt wird. Die _Tagline_ wird oberhalb und das _Intro_ unterhalb des Titels dargestellt. Das Textfeld, welches für Fließtext gedacht ist, verfügt über einen umfangreichen Texteditor, mit dem Sie Ihren Fließtext formatieren können. Des Weiteren bieten die einzelnen Textelemente Optionen, um Schriftgröße, Schriftart, Schriftfarbe, HTML-Tags und Abstände zu konfigurieren.
 
 ![](../../../../.gitbook/assets/Textblock_config_2.png)
 
-Alternativ finden Sie ein Video zur Erläuterung des Text-Blockes auf [Youtube](https://www.youtube.com/watch?v=TRuKwwOs-nI\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=2)
+Alternativ finden Sie ein Video zur Erläuterung des Textblocks auf [Youtube](https://www.youtube.com/watch?v=TRuKwwOs-nI\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=2)
 
 ## Bild
 
-Bei dem Bild-Block gibt es neben der Auswahloption der Grafik auch die Möglichkeit, die maximale Größe, der längsten Seite des Bildes, in Pixeln zu beschränken.
+Bei dem Bild-Block gibt es neben der Auswahloption der Grafik auch die Möglichkeit, die maximale Größe der längsten Seite des Bildes, in Pixeln zu beschränken.
 
 ![](../../../../.gitbook/assets/Bildblock_config_2.png)
 
@@ -22,7 +22,7 @@ Mit dem Produktlisten-Block können Sie eine Auswahl von Produkten anschaulich p
 
 ## Warengruppen
 
-Mit dem Warengruppen-Block  können Sie eine Auswahl von Warengruppen anschaulich präsentieren. Der Warengruppen-Block verfügt über dieselben Konfigurationsoptionen wie der Produktlistenblock.
+Mit dem Warengruppen-Block können Sie eine Auswahl von Warengruppen anschaulich präsentieren. Der Warengruppen-Block verfügt über dieselben Konfigurationsoptionen wie der Produktlistenblock.
 
 ![](../../../../.gitbook/assets/Warengruppen_config.png)
 
@@ -44,16 +44,15 @@ Der Galerie-Block kann verwendet werden, um Mediengalerien mit verschiedenen Sti
 
 ![](../../../../.gitbook/assets/Galerie_config_2.png)
 
-
 ## Video
 
-Ihr Video sollten Sie als MP4-Datei hochladen, da dieses Dateiformat von den meisten Browsern unterstützt wird. Zusätzlich können Sie WebM- und Ogg-Dateien hochladen. Des Weiteren gibt es verschiedene Einstellungsmöglichkeiten wie Bildformat oder Steuerelemente, um Ihren Videoplayer anzupassen.
+Sie sollten Ihr Video als MP4-Datei hochladen, da dieses Dateiformat von den meisten Browsern unterstützt wird. Zusätzlich können Sie WebM- und Ogg-Dateien hochladen. Des Weiteren gibt es verschiedene Einstellungsmöglichkeiten wie Bildformat oder Steuerelemente, um Ihren Videoplayer anzupassen.
 
 ![](../../../../.gitbook/assets/Videoblock_config_2.png)
 
 ## YouTube
 
-Der YouTube-Block bietet ähnliche Einstellungsoptionen wie der Videoblock. Anstelle eines Videos hochzuladen, müssen Sie die YouTube-ID oder die URL angeben. Neben Optionen wie Bildformat und Datenschutzmodus können Sie auch einen Zeitabschnitt im Video bestimmen, welcher abgespielt werden soll.&#x20;
+Der YouTube-Block bietet ähnliche Einstellungsoptionen wie der Videoblock. Anstatt ein Video hochzuladen, müssen Sie die YouTube-ID oder die URL angeben. Neben Optionen wie Bildformat und Datenschutzmodus können Sie auch einen Zeitabschnitt im Video bestimmen, welcher abgespielt werden soll.
 
 ![](../../../../.gitbook/assets/YouTubeBlock_config_2.png)
 
@@ -71,13 +70,13 @@ Eine Folie kann aus den vorhandenen Folien des Content Sliders ausgewählt und a
 
 ## Code
 
-Mit dem Code-Block können Sie eigenen Code einfügen. Sie können dadurch als Beispiel benutzerdefinierte Funktionalitäten einbauen  oder selbst Ihren Text formatieren. Beim Coden werden Sie von IntelliSense unterstützt.
+Mit dem Code-Block können Sie eigenen Code einfügen. Sie können dadurch als Beispiel benutzerdefinierte Funktionalitäten einbauen oder selbst Ihren Text formatieren. Beim Coden werden Sie von IntelliSense unterstützt.
 
 ![](../../../../.gitbook/assets/CodeBlock_config_2.png)
 
 ## Google Maps
 
-Mit dem Google Maps-Block können Sie eine Adresse auf Google Maps anzeigen lassen. Hierfür müssen Sie Ihren Google Maps API Key sowie die Koordinaten - Längen- und Breitengrad - der gewünschten Position angeben. &#x20;
+Mit dem Google Maps-Block können Sie eine Adresse auf Google Maps anzeigen lassen. Hierfür müssen Sie Ihren Google-Maps-API-Key sowie die Koordinaten – Längen- und Breitengrad – der gewünschten Position angeben.
 
 ![](../../../../.gitbook/assets/GoogleMaps_config_2.png)
 
@@ -113,9 +112,9 @@ Mit diesem Block kann eine Umfrage aus bestehenden Umfragen ausgewählt und ange
 
 ## MVC Route
 
-Verwenden Sie den Route-Block um eine Action direkt anzusteuern um das (partial) ViewResult auszugeben. Dafür müssen Sie Ihre Route als JSON-Objekt angeben. Dieser Block ist für erfahrene Entwickler gedacht.
+Verwenden Sie den Route-Block, um eine Action direkt anzusteuern und das (partial) ViewResult auszugeben. Dafür müssen Sie Ihre Route als JSON-Objekt angeben. Dieser Block ist für erfahrene Entwickler gedacht.
 
-JSON Beispiel:
+JSON-Beispiel:
 
 ```
 {  
@@ -125,18 +124,18 @@ JSON Beispiel:
 }
 ```
 
-In dem Beispiel steuern wir den Controller _News_ an um das ViewResult der Action-Methode _HomePageNews_ zu bekommen. Mit diesem Beispiel werden News ausgegeben.
+In dem Beispiel steuern wir den Controller _News_ an, um das ViewResult der Action-Methode _HomePageNews_ zu bekommen. Mit diesem Beispiel werden News ausgegeben.
 
 Ein Video zum MVC Route-Block finden Sie auf [Youtube](https://www.youtube.com/watch?v=rsTuHDK47rQ\&list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s\&index=4)
 
 ## Story
 
-Mithilfe des Story-Blockes können Sie komplette [_Stories_](../story.md) als ein atomares Element in Ihre derzeitige Story einfügen. Dadurch ist es möglich, komplexe Storytelling, welche aus diversen kleinen Stories bestehen und sich über die komplette Seite erstrecken, einfach und übersichtlich innerhalb einer Story zu organisieren und zu verwalten.
+Mithilfe des Story-Blockes können Sie komplette [_Stories_](../story.md) als ein atomares Element in Ihre derzeitige Story einfügen. Dadurch ist es möglich, komplexes Storytelling, das aus diversen kleinen Stories bestehen und sich über die komplette Seite erstrecken, einfach und übersichtlich innerhalb einer Story zu organisieren und zu verwalten.
 
 ![](../../../../.gitbook/assets/Storyblock_config_2.png)
 
 ## View Component
 
-Dieser Block unterstützt die Anzeige sogenannter View-Komponenten (siehe NET Core).
+Dieser Block unterstützt die Anzeige sogenannter View-Komponenten (siehe .NET Core).
 
 ![](../../../../.gitbook/assets/ViewComponent_config_2.png)
