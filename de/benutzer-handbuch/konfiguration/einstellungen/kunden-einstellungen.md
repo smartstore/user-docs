@@ -1,6 +1,6 @@
 # Kunden-Einstellungen
 
-Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **Konfiguration > Einstellungen > Kunden-Einstellungen** vornehmen.
+Einstellungen rund um die Kunden, die Ihren Shop besuchen, können Sie unter **Konfiguration > Einstellungen > Kunden-Einstellungen** vornehmen.
 
 ![](../../../.gitbook/assets/kundeneinstellungen.PNG)
 
@@ -87,7 +87,7 @@ Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **K
 | Kunden können die Zeitzone einstellen | Kunden können die Zeitzone einstellen.        |
 | Standard-Zeitzone                     | Legt die Standard-Zeitzone für den Shop fest. |
 
-## Externe Authentifikation&#x20;
+## Externe Authentifikation
 
 |                                      |                                                                                                                                                                                                 |
 | ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -95,11 +95,11 @@ Einstellungen rund um die Kunden, die Ihren Shop besuchen können Sie unter  **K
 
 ## Datenschutz
 
-|                                                  |                                                                                                                                                                                      |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|                                                  |                                                                                                                                                                              |
+| ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Cookie-Hinweis aktivieren                        | Legt fest, ob ein Element für die Zustimmung zur Nutzung von Cookies im Frontend angezeigt wird. Weitere Infos finden Sie unter [Datenschutz/DSGVO](../../plugins/dsgvo.md). |
-| Cookie-Hinweistext                               | Bestimmt den Text, der Ihren Kunden beim Besuch der Seite angezeigt wird, sofern Sie ihre Zustimmung zur Nutzung von Cookies noch nicht gegeben haben.                               |
-| IP-Adresse speichern                             | Legt fest, ob die IP-Adresse im Kundendatensatz gespeichert werden soll.                                                                                                             |
-| Einwilligungserklärung in Formularen fordern     | Bestimmt ob in Formularen eine Checkbox angezeigt wird, die den Benutzer auffordert der Verarbeitung seiner Daten zuzustimmen.                                                       |
-| Name im Kontaktformular ist erforderlich         | Legt fest, ob die Angabe des Namens im Kontaktformular erforderlich ist.                                                                                                             |
-| Name im Produktanfrage-Formular ist erforderlich | Legt fest, ob die Angabe des Namens im Produktanfrage-Formular erforderlich ist.                                                                                                     |
+| Cookie-Hinweistext                               | Bestimmt den Text, der Ihren Kunden beim Besuch der Seite angezeigt wird, sofern Sie ihre Zustimmung zur Nutzung von Cookies noch nicht gegeben haben.                       |
+| IP-Adresse speichern                             | Legt fest, ob die IP-Adresse im Kundendatensatz gespeichert werden soll.                                                                                                     |
+| Einwilligungserklärung in Formularen fordern     | Bestimmt ob in Formularen eine Checkbox angezeigt wird, die den Benutzer auffordert der Verarbeitung seiner Daten zuzustimmen.                                               |
+| Name im Kontaktformular ist erforderlich         | Legt fest, ob die Angabe des Namens im Kontaktformular erforderlich ist.                                                                                                     |
+| Name im Produktanfrage-Formular ist erforderlich | Legt fest, ob die Angabe des Namens im Produktanfrage-Formular erforderlich ist.                                                                                             |
