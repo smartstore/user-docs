@@ -1,6 +1,6 @@
 # Block-Basiseinstellungen
 
-Blöcke verfügen über gemeinsame Basiseinstellungen. Diese sind in der oberen Leiste in den Block-Aktionen zu finden: _Allgemein_, _Hintergrund_, _Box_, _Effekte_ und _Erweitert_.
+Blöcke verfügen über gemeinsame Basiseinstellungen. Sie finden sie in der oberen Leiste der Block-Aktionen: _Allgemein_, _Hintergrund_, _Box_, _Effekte_ und _Erweitert_.
 
 ![](../../../../.gitbook/assets/Block-Einstelllungen_Basis.png)
 
