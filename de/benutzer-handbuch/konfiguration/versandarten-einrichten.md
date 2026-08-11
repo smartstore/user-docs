@@ -1,6 +1,6 @@
 # Versandarten einrichten
 
-Wenn Sie einen Shop betreiben, müssen Sie Versandarten anbieten, aus denen Ihre Kunden die von ihnen bevorzugten auswählen können. Sie können Versandarten einrichten, indem Sie zu **Konfiguration > Regionale Einstellungen > Versandarten** navigieren.
+Wenn Sie einen Shop betreiben, müssen Sie Versandarten anbieten, aus denen Ihre Kunden die von ihnen bevorzugten auswählen können. Sie können Versandarten einrichten, indem Sie zu **Konfiguration > Regionale Einstellungen> Versandarten** navigieren.
 
 ![](../../.gitbook/assets/versandarten-1.PNG)
 

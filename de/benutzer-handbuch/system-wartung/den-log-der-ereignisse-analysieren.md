@@ -1,6 +1,6 @@
 # Den Log der Ereignisse analysieren
 
-Im Log für Ereignisse finden Sie alle Fehler, die beim Betrieb von Smartstore aufgetreten sind. Wenn Ihnen Fehler auffallen oder Ihre Kunden Ihnen eine Fehlfunktion Ihres Shops melden, können Sie das Problem mithilfe des Ereignis-Logs analysieren. Suchen Sie einfach nach dem aufgetretenen Fehler, und öffnen Sie die Detailansicht, um sich die Ereigniseinträge anzusehen.
+Im Log für Ereignisse finden Sie alle Fehler, die beim Betrieb von Smartstore aufgetreten sind. Wenn Ihnen Fehler auffallen oder Ihre Kunden Ihnen eine Fehlfunktion Ihres Shops melden, können Sie das Problem mit Hilfe des Ereignis-Logs analysieren. Suchen Sie einfach nach dem aufgetretenen Fehler, und öffnen Sie die Detailansicht, um sich die Ereigniseinträge anzusehen.
 
 ![](../../.gitbook/assets/ereignisse.PNG)
 

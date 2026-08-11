@@ -1,6 +1,6 @@
 # Cache bereinigen
 
-Es gibt unterschiedliche Elemente im Frontend Ihres Shops, die aus Performance-Gründen im Cache zwischengespeichert werden. Der Cache wird automatisch aktualisiert, wenn Sie etwas im Administrationsbereich Ihres Shops verändern. Wenn Sie die Datenbank jedoch direkt verändert haben, müssen Sie den Cache bereinigen, um die Änderungen sehen zu können. Sie können den Cache bereinigen, indem Sie auf das Zahnrad-Symbol im Administrationsbereich klicken und **Cache löschen** auswählen.
+Es gibt unterschiedliche Elemente im Frontend Ihres Shops, die aus Performance-Gründen im Cache zwischengespeichert werden. Der Cache wird automatisch aktualisiert, wenn Sie etwas im Administrations-Bereich Ihres Shops verändern. Wenn Sie die Datenbank jedoch direkt verändert haben, müssen Sie den Cache bereinigen, um die Änderungen sehen zu können. Sie können den Cache bereinigen, indem Sie auf das Zahnrad-Symbol im Administrationsbereich klicken und **Cache löschen** auswählen.
 
 ![](../../.gitbook/assets/cache-loeschen.PNG)
 
