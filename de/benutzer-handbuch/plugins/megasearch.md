@@ -1,6 +1,6 @@
 # MegaSearch
 
-In Smartstore kann die bisherige Suchfunktion durch eine auf Apache Lucene basierende Suche ersetzt werden. Schon während der Eingabe des Suchbegriffes kann die Instant-Suche unterhalb der Eingabezeile relevante Vorschläge zur aktuellen Suche anzeigen.
+In Smartstore können Sie die bisherige Suchfunktion durch eine auf Apache Lucene basierende Suche ersetzen. Schon während der Eingabe des Suchbegriffes kann die Instant-Suche unterhalb der Eingabezeile relevante Vorschläge zur aktuellen Suche anzeigen.
 
 ![](../../.gitbook/assets/megasearch-1.PNG)
 
