@@ -1,6 +1,6 @@
 # Das Raster
 
-Mithilfe des nativen _CSS Grid-Layoutsystems_ ist es möglich, Raster mit einer beliebigen Zeilen- und Spaltenanzahl zu definieren. Auf einem solchen Raster können Inhalte platziert werden, die responsiv und geräteunabhängig in allen Auflösungen dargestellt werden. Die enthaltenen Inhalte bestimmen, gegebenenfalls je nach Raster-Konfiguration, die Größe der einzelnen Zellen.
+Mithilfe des nativen _CSS Grid-Layoutsystems_ definieren Sie Raster mit einer beliebigen Anzahl von Zeilen und Spalten. Auf einem solchen Raster können Inhalte platziert werden, die responsiv und geräteunabhängig in allen Auflösungen dargestellt werden. Die enthaltenen Inhalte bestimmen, gegebenenfalls je nach Raster-Konfiguration, die Größe der einzelnen Zellen.
 
 ![](../../../../.gitbook/assets/image021.png)
 
