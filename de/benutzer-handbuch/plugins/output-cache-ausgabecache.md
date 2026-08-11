@@ -1,6 +1,6 @@
 # Output Cache (Ausgabecache)
 
-Mit dem **Output Cache** werden die fertigen Ausgaben kompletter Shop-Seiten zwischengespeichert. Das bedeutet: Smartstore muss nicht für jede Anfrage alles neu berechnen und neu ausgeben. Stattdessen kann die Seite bei passenden Anfragen aus dem Cache ausgeliefert werden. Das spart Rechenzeit und macht Seiten schneller, vor allem bei stark frequentierten Seiten wie Kategorien, Listenansichten oder Übersichtsseiten mit Inhalten.
+Der **Output Cache** speichert die vollständig erzeugten Ausgaben kompletter Shop-Seiten zwischen. Das bedeutet: Smartstore muss nicht für jede Anfrage alles neu berechnen und neu ausgeben. Stattdessen kann die Seite bei passenden Anfragen aus dem Cache ausgeliefert werden. Das spart Rechenzeit und macht Seiten schneller, vor allem bei stark frequentierten Seiten wie Kategorien, Listenansichten oder Übersichtsseiten mit Inhalten.
 
 Der Cache arbeitet auf dem Server und kann optional so eingestellt werden, dass er aktualisiert wird, wenn sich wichtige Inhalte im Shop ändern. Dadurch bleibt die Seite schnell und gleichzeitig möglichst aktuell.
 
