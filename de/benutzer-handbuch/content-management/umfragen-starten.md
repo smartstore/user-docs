@@ -1,6 +1,6 @@
 # Umfragen starten
 
-Umfragen geben Ihnen die Möglichkeit, das Verhalten Ihrer Kunden zu analysieren, indem Sie sie direkt über ihre Präferenzen, Wünsche oder Pläne für die Zukunft befragen.
+Mit Umfragen erfassen Sie die Präferenzen, Wünsche und Zukunftspläne Ihrer Kunden direkt.
 
 ## Anwendungsszenario
 
