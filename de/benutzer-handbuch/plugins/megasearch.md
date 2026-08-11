@@ -1,6 +1,6 @@
 # MegaSearch
 
-In den Smartstore kann die bisherige Suchfunktion durch eine auf Apache Lucene basierende Suche ersetzt werden. Schon während der Eingabe des Suchbegriffes kann die Instant-Suche unterhalb der Eingabezeile relevante Vorschläge zur aktuellen Suche anzeigen.
+In Smartstore kann die bisherige Suchfunktion durch eine auf Apache Lucene basierende Suche ersetzt werden. Schon während der Eingabe des Suchbegriffes kann die Instant-Suche unterhalb der Eingabezeile relevante Vorschläge zur aktuellen Suche anzeigen.
 
 ![](../../.gitbook/assets/megasearch-1.PNG)
 
@@ -61,11 +61,9 @@ In der Statuszeile wird der Status der letzten Indexierung und die Felder angeze
 
 ![](../../.gitbook/assets/megasearch-5.PNG)
 
-&#x20;
-
 ### MegaSearchPlus Plugin
 
-Erweiterungen für das MegaSearch Plugin. Ergänzt die Produktdaten des Suchindex um lokalisierte Daten und um Multistore- und Zugriffsbeschränkungen.&#x20;
+Erweiterungen für das MegaSearch Plugin. Ergänzt die Produktdaten des Suchindex um lokalisierte Daten und um Multistore- und Zugriffsbeschränkungen.
 
 ## Keywords
 

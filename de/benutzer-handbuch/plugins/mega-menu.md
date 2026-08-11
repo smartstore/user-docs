@@ -1,6 +1,6 @@
 # Mega Menu
 
-Zu den sichtbaren Highlights seit der Smartstore 3 Version gehört das MegaMenu.\
+Zu den sichtbaren Highlights seit Smartstore 3 gehört das MegaMenu.\
 Das MegaMenu wertet Ihren Shop exklusiv auf – z.B. mit attraktivem Layout, Hintergrundbildern, Produkt-Rotator oder vielfältigen Point\&Click Optionen.
 
 ![](../../.gitbook/assets/megamenu-1.PNG)
