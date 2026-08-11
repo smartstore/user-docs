@@ -1,6 +1,6 @@
 # Seiten & Inhalte verwalten
 
-Sie können Seiten und Inhalte verwalten, indem Sie zu **CMS > Seiten und Inhalte** gehen. In diesem Bereich können Sie Seiten bearbeiten und hinzufügen, für die Sie Ihre eigenen Inhalte erfassen können (z. B. Impressum oder Über uns). Dafür müssen Sie den HTML-Editor benutzen. Für weitere Informationen zur Bearbeitung von HTML-Inhalten gehen Sie zu [HTML Inhalte bearbeiten](../allgemeine-konzepte/html-inhalte-bearbeiten.md). Wenn Sie Links zu den von Ihnen geschaffenen Inhalten in die Menüs Ihres Shops hinzufügen wollen, lesen Sie bitte [Menüs](menus.md).
+Unter **CMS > Seiten und Inhalte** erstellen und bearbeiten Sie eigene Inhaltsseiten. In diesem Bereich können Sie Seiten bearbeiten und hinzufügen, für die Sie Ihre eigenen Inhalte erfassen können (z. B. Impressum oder Über uns). Dafür müssen Sie den HTML-Editor benutzen. Für weitere Informationen zur Bearbeitung von HTML-Inhalten gehen Sie zu [HTML Inhalte bearbeiten](../allgemeine-konzepte/html-inhalte-bearbeiten.md). Wenn Sie Links zu den von Ihnen geschaffenen Inhalten in die Menüs Ihres Shops hinzufügen wollen, lesen Sie bitte [Menüs](menus.md).
 
 ## HTML Widgets ausführen
 
