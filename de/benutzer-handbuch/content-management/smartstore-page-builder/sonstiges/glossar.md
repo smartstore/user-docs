@@ -10,9 +10,9 @@
 
 **%:** Prozentualer Anteil der Containergröße.
 
-**Em:** Ein em repräsentiert die vom Browser berechnete Schriftgröße des Elements. Dabei wird die Seitenlänge der Buchstaben als Referenz verwendet. Das entspricht ungefähr den Abmessungen des Großbuchstaben „M“. Wird die Schriftgröße selbst (font-size) in em festgelegt, bezieht sich die Einheit auf die Schriftgröße des Elternelements.
+**Em:** Ein em repräsentiert die vom Browser berechnete Schriftgröße des Elements. Dabei wird die Seitenlänge der Buchstaben als Referenz verwendet. Das entspricht ungefähr den Abmessungen des Großbuchstabens „M“. Wird die Schriftgröße selbst (font-size) in em festgelegt, bezieht sich die Einheit auf die Schriftgröße des Elternelements.
 
-**rem:** Ein rem (root-em) entspricht der Schriftgröße, die für das Wurzelelement (in HTML das html-Element) festgelegt wurde. (Evtl. Änderungen der Schriftgröße in Elternelementen können so übersprungen werden)
+**rem:** Ein rem (root-em) entspricht der Schriftgröße, die für das Wurzelelement (in HTML das html-Element) festgelegt wurde. Änderungen der Schriftgröße in Elternelementen können dadurch übersprungen werden.
 
 **vh:** (_Viewport-Height_) Die Einheit vh entspricht dem 100. Teil der Höhe des Anzeigebereichs (Viewport). Es gilt also: 100vh = Höhe des Viewports.
 
@@ -20,7 +20,7 @@
 
 ## Flexible Einheiten
 
-**fr:** Setzt die Größe auf einen Bruchteil des verbleibenden/verfügbaren zu füllenden Raumes.
+**fr:** Setzt die Größe auf einen Bruchteil des verbleibenden/verfügbaren zu füllenden Raums.
 
 **auto:** Setzt die Größe auf den minimalen Bedarf des vorhandenen Inhalts. Perfekt für die Höhenskalierung von Bildern.
 
@@ -36,13 +36,13 @@
 repeat wird nicht unterstützt
 {% endhint %}
 
-## Bildschirm Breakpoints
+## Bildschirm-Breakpoints
 
 **xs:** extra-small (Mobile)
 
 **sm:** small (Mobile Landscape)
 
-**md:** medium (Tablet)&#x20;
+**md:** medium (Tablet)
 
 **lg:** large (Tablet Landscape)
 

@@ -1,5 +1,6 @@
+# Sonstiges
 
-# Tastenkürzel
+## Tastenkürzel
 
 **STRG+S:** Speichern
 
@@ -15,15 +16,14 @@
 
 **STRG+F11:** Vollbildmodus
 
-# Videomaterial
+## Videomaterial
 
-Alle Page Builder Videos finden Sie auch auf unserem YouTube-Kanal zusammengefasst in [einer Playlist](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s)
+Alle Page-Builder-Videos finden Sie auch auf unserem YouTube-Kanal zusammengefasst in [einer Playlist](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s)
 
-# Referenzen
+## Referenzen
 
-Shops und Seiten die mit dem PageBuilder gestaltet wurden:
+Shops und Seiten, die mit dem Page Builder gestaltet wurden:
 
 [https://www.smartstore.com/](https://www.smartstore.com/)
 
 [https://shop.bauhaus-movement.com/](https://shop.bauhaus-movement.com/)
-
