@@ -1,6 +1,6 @@
 # Produktsicherheitsverordnung (GPSR)
 
-Seit Smartstore 6 erfüllt Smartstore die Anforderungen [der GPSR](https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/aenderung-produktsicherheitsgesetz.html).
+Smartstore erfüllt seit Version 6 die Anforderungen [der GPSR](https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/aenderung-produktsicherheitsgesetz.html).
 
 Mit dem GPSR-Plugin können erweiterte Produktinformationen angegeben werden, die für GPSR-Produkte Pflicht sind:
 

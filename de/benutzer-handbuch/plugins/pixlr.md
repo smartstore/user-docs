@@ -1,6 +1,6 @@
 # Pixlr
 
-Bietet die Möglichkeit, Bilder direkt im [Medien-Manager](mediamanager.md) zu Erstellen und Bearbeiten.
+Bietet die Möglichkeit, Bilder direkt im [Medien-Manager](mediamanager.md) zu erstellen und zu bearbeiten.
 
 ![Der Pixlr-Editor](../../.gitbook/assets/module_pixlr_editor.png)
 
