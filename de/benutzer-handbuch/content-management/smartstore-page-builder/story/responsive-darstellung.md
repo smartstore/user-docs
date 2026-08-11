@@ -2,7 +2,7 @@
 
 ## Mobile First
 
-Um eine responsive Darstellung für alle Auflösungen und Endgeräte zu verwirklichen, verfolgt der Page Builder das Mobile **First-Konzept**. Unter Mobile First versteht man, dass die Darstellung auf mobilen Endgeräten die höchste Priorität bei der Gestaltung einer Seite besitzt. Daher wird zuerst die mobile Version der Story konfiguriert. Darauf aufbauend werden für höhere Auflösungen stufenweise Anpassungen vorgenommen, um das Layout auf den dabei verfügbaren Platz auszulegen.
+Für eine responsive Darstellung auf allen Auflösungen und Endgeräten folgt der Page Builder dem Mobile-**First-Konzept**. Unter Mobile First versteht man, dass die Darstellung auf mobilen Endgeräten die höchste Priorität bei der Gestaltung einer Seite besitzt. Daher wird zuerst die mobile Version der Story konfiguriert. Darauf aufbauend werden für höhere Auflösungen stufenweise Anpassungen vorgenommen, um das Layout auf den dabei verfügbaren Platz auszulegen.
 
 Hier sehen Sie einen Vergleich zwischen der mobilen Ansicht und der Ansicht für Desktopauflösungen der Story _For Sale_.
 
