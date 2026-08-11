@@ -1,6 +1,6 @@
 # Plugins installieren
 
-Smartstore wird mit bereits installierten Plugins ausgeliefert. Weitere Plugins finden Sie auf dem [Smartstore Marketplace](http://community.smartstore.com/index.php?/files/) von Smartstore selbst und von Drittanbietern. Smartstore Plugin-Dateien haben das ZIP-Dateiformat und die Endung `.zip`.
+Smartstore wird mit bereits installierten Plugins ausgeliefert. Weitere Plugins von Smartstore und Drittanbietern finden Sie auf dem [Smartstore Marketplace](http://community.smartstore.com/index.php?/files/). Smartstore Plugin-Dateien haben das ZIP-Dateiformat und die Endung `.zip`.
 
 ## Wie man ein Plugin hochlädt und installiert
 
