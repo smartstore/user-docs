@@ -1,6 +1,6 @@
 # Block-Manager
 
-Im Block-Manager rechts neben Ihrer Story sehen Sie alle in der Story platzierten [_Blöcke_](../blocke.md) übersichtlich aufgelistet. Der Block-Manager bietet die Möglichkeit, Blöcke zu bearbeiten, die Reihenfolge anzupassen und die Darstellung des Blocks zu aktivieren oder zu deaktivieren.
+Im Block-Manager rechts neben Ihrer Story sehen Sie alle in der Story platzierten [_Blöcke_](../blocke.md) übersichtlich aufgelistet. Dort bearbeiten Sie Blöcke, ändern ihre Reihenfolge und aktivieren oder deaktivieren ihre Darstellung.
 
 ![](../../../../.gitbook/assets/image029.png)
 
