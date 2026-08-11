@@ -2,7 +2,7 @@
 
 Der Zweck eines Datenexports ist der Massenexport verschiedener Daten wie Produkten oder Kunden, damit sie außerhalb von SmartStore.NET verwendet werden können.
 
-Ein Exportprofil ist ein Konfigurationselement, das alle benötigten Informationen für einen Datenexport enthält, um den Exportvorgang auf Ihrer individuellen Bedürfnisse abzustimmen. Dazu gehören:
+Ein Exportprofil ist ein Konfigurationselement, das alle benötigten Informationen für einen Datenexport enthält, um den Exportvorgang an Ihre individuellen Bedürfnisse anzupassen. Dazu gehören:
 
 * **Planung**: Automatisch ausgelöstes Exportieren
 * **Aufteilung**: Partitionierung/Segmentierung von Daten

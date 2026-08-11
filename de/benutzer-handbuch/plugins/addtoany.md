@@ -1,6 +1,6 @@
 # AddToAny
 
-Das Plugin des Dienstes [AddToAny](https://www.addtoany.com/) fügt ein Widget zu festgelegten Seiten hinzu, damit Besucher Inhalte über verschiedene Social-Media- und Kommunikationsdienste teilen können.
+Das [AddToAny](https://www.addtoany.com/)-Plugin fügt ausgewählten Seiten ein Widget hinzu, über das Besucher Inhalte in verschiedenen Social-Media- und Kommunikationsdiensten teilen können.
 
 ![AddToAny-Widget auf der Startseite](../../.gitbook/assets/addtoany_frontend.png)
 
