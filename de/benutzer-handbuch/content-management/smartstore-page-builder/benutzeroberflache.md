@@ -2,7 +2,7 @@
 
 ![](../../../.gitbook/assets/image017.jpg)
 
-**① Raster:** Im Raster wird die Story komponiert. Hier können Sie Layout und Inhalte bearbeiten. Zudem sehen Sie direkt, wie Ihre Story dargestellt wird. (Siehe [_Das Raster_](benutzeroberflache/das-raster.md))
+**① Raster:** Im Raster stellen Sie die Story aus Layout und Inhalten zusammen. Zudem sehen Sie direkt, wie Ihre Story dargestellt wird. (Siehe [_Das Raster_](benutzeroberflache/das-raster.md))
 
 **② Device-Slider:** Die Position des Sliders bestimmt die aktuell ausgewählte Auflösungseinstellung. Die Story-Vorschau passt sich direkt auf die Veränderung der Schieberposition an. (Siehe [_Responsive Darstellung - Device Slider_](story/responsive-darstellung.md))
 
