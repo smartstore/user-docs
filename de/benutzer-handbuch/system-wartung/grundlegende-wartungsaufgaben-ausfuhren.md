@@ -1,6 +1,6 @@
 # Grundlegende Wartungsaufgaben ausführen
 
-Sie gelangen in den Wartungsbereich, indem Sie auf **System > Wartung**. gehen. In diesem Bereich können Sie die Performance Ihres Shops optimieren, indem Sie den Bildcache bereinigen, Gastbenutzer löschen oder alte exportierte Dateien löschen. Sie können auch SQL-Abfragen direkt gegen die Datenbank ausführen.
+Sie gelangen in den Wartungsbereich, indem Sie auf **System > Wartung** gehen. In diesem Bereich können Sie die Performance Ihres Shops optimieren, indem Sie den Bildcache bereinigen, Gastbenutzer löschen oder alte exportierte Dateien löschen. Sie können auch SQL-Abfragen direkt gegen die Datenbank ausführen.
 
 ## Bildcache reinigen
 
