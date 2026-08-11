@@ -1,21 +1,25 @@
 # Output Cache (Ausgabecache)
 
-Mit dem **Output Cache** werden die fertigen Ausgaben kompletter Shop-Seiten zwischengespeichert. Das bedeutet: Smartstore muss nicht für jede Anfrage alles neu berechnen und neu ausgeben. Stattdessen kann die Seite bei passenden Anfragen aus dem Cache ausgeliefert werden. Das spart Rechenzeit und macht Seiten schneller, vor allem auf Seiten mit vielen Besuchern wie Kategorien, Listenansichten oder Übersichtsseiten mit Inhalten.
+Mit dem **Output Cache** werden die fertigen Ausgaben kompletter Shop-Seiten zwischengespeichert. Das bedeutet: Smartstore muss nicht für jede Anfrage alles neu berechnen und neu ausgeben. Stattdessen kann die Seite bei passenden Anfragen aus dem Cache ausgeliefert werden. Das spart Rechenzeit und macht Seiten schneller, vor allem bei stark frequentierten Seiten wie Kategorien, Listenansichten oder Übersichtsseiten mit Inhalten.
 
 Der Cache arbeitet auf dem Server und kann optional so eingestellt werden, dass er aktualisiert wird, wenn sich wichtige Inhalte im Shop ändern. Dadurch bleibt die Seite schnell und gleichzeitig möglichst aktuell.
 
 ## Vorteile
 
 ### Schnellere Seitenladezeiten
+
 Häufig besuchte Seiten müssen nicht jedes Mal komplett neu erstellt werden. Dadurch wird die Wartezeit insbesondere bei häufig aufgerufenen Seiten spürbar reduziert.
 
 ### Weniger Last auf dem System
-Smartstore muss weniger Rechenarbeit leisten, weil die fertigen Seiteninhalte wiederverwendet werden. Dadurch fallen weniger wiederholte Verarbeitungsschritte bei jeder Anfrage an, und der Shop bleibt insgesamt *entspannter* im Betrieb.
+
+Smartstore muss weniger Rechenarbeit leisten, weil die fertigen Seiteninhalte wiederverwendet werden. Dadurch fallen weniger wiederholte Verarbeitungsschritte bei jeder Anfrage an, und der Shop bleibt insgesamt _entspannter_ im Betrieb.
 
 ### Stabileres Nutzererlebnis bei hohem Traffic
+
 Wenn viele Besucher gleichzeitig im Shop aktiv sind, steigt die Wahrscheinlichkeit, dass einzelne Seiten langsamer laden, da viele Anfragen parallel neu berechnet werden müssen. Durch den Output Cache wird ein Teil dieser Arbeit vorab erledigt und wiederverwendet, sodass die Performance eher konstant bleibt.
 
 ### Steuerung der Speicherzeit von Inhalten
+
 Es kann festgelegt werden, wie lange eine Seite im Zwischenspeicher bleibt, bevor sie neu erstellt wird. Dadurch wird bestimmt, wie stark „Geschwindigkeit“ gegenüber „maximaler Aktualität“ priorisiert wird. Kurze Cache-Zeiten sorgen für aktuellere Inhalte, während längere Cache-Zeiten die Performance verbessern.
 
 ## Konfiguration
