@@ -13,7 +13,7 @@ Es kann vorkommen, dass nach der Umstellung auf reCAPTCHA V3 oder bei einer Neuk
 
 ### Ursache
 
-Die wahrscheinlichste Ursache ist eine Unstimmigkeit in der Konfiguration des Google API Keys.
+Die wahrscheinlichste Ursache ist eine Unstimmigkeit in der Konfiguration des Google-API-Keys.
 
 Oft wurde ein bestehender Key, der ursprünglich für **reCAPTCHA V2 (Checkbox challenge)** erstellt wurde, für die Nutzung von V3 verwendet. In der Google Cloud Console ist bei diesem Key oft noch der Typ "Website • Checkbox challenge" hinterlegt. Dieser Typ lässt sich nachträglich oft nicht auf V3 ändern und ist nicht mit der V3-Integrationsweise kompatibel, was zum Blockieren des Skripts führt.
 
