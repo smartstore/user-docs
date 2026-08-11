@@ -1,6 +1,6 @@
 # Cloudflare
 
-Cloudflare kann als Reverse-Proxy vor Smartstore betrieben werden und bietet Schutz vor Bots, DDoS-Angriffen sowie zusätzliche Performance-Optimierungen. Damit Smartstore und Cloudflare optimal zusammenarbeiten, sind einige Konfigurationsschritte erforderlich. Diese Seite beschreibt die empfohlenen Einstellungen.
+Cloudflare kann als Reverse-Proxy vor Smartstore betrieben werden und bietet Schutz vor Bots, DDoS-Angriffen sowie zusätzliche Performance-Optimierungen. Damit Smartstore und Cloudflare optimal zusammenarbeiten, sind einige Konfigurationsschritte erforderlich. Auf dieser Seite finden Sie die empfohlenen Einstellungen.
 
 ## Vorteile
 
