@@ -1,6 +1,6 @@
 # News verwalten
 
-_Content is King_ ist eine häufig verwendete Losung, wenn es um Suchmaschinenoptimierung geht – und das mit gutem Grund. Google bevorzugt neue Inhalte und verleiht Seiten, die häufig neue Textinhalte enthalten, ein besseres Ranking. Smartstore enthält ein System, um News-Einträge zu verwalten und versetzt Shop-Betreiber somit in die Lage regelmäßig neue Inhalte zu erstellen. Die Newsbeiträge können auf der Homepage Ihres Shops angezeigt werden und werden zusätzlich durch einen RSS-Feed zugänglich, je nach den Einstellungen, die Sie in den [News-Einstellungen](../konfiguration/einstellungen/news-einstellungen.md) konfiguriert haben.
+_Content is King_ ist eine häufig verwendete Losung, wenn es um Suchmaschinenoptimierung geht – und das mit gutem Grund. Google bevorzugt neue Inhalte und verleiht Seiten, die häufig neue Textinhalte enthalten, ein besseres Ranking. Smartstore enthält ein System, um News-Einträge zu verwalten und versetzt Shop-Betreiber somit in die Lage, regelmäßig neue Inhalte zu erstellen. Die Newsbeiträge können auf der Homepage Ihres Shops angezeigt werden und sind je nach den Einstellungen zusätzlich über einen RSS-Feed zugänglich, die Sie in den [News-Einstellungen](../konfiguration/einstellungen/news-einstellungen.md) konfiguriert haben.
 
 ## Newsbeiträge erstellen
 
@@ -21,14 +21,14 @@ _Content is King_ ist eine häufig verwendete Losung, wenn es um Suchmaschinenop
 
 ### Suchmaschinen (SEO)
 
-In dieser Registerkarte können Sie spezifische SEO-Werte für einen Newseintrag festlegen, z. B. **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL Alias**. Für weitere Informationen zu den Feldern in der Registerkarte **Suchmaschinen**, lesen Sie bitte [SEO](../allgemeine-konzepte/seo.md).
+In dieser Registerkarte können Sie spezifische SEO-Werte für einen Newseintrag festlegen, z. B. **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL Alias**. Für weitere Informationen zu den Feldern in der Registerkarte **Suchmaschinen** lesen Sie bitte [SEO](../allgemeine-konzepte/seo.md).
 
 ### Shops
 
-In dieser Registerkarte können Sie festlegen, in welchem / welchen Shop(s) der Newseintrag veröffentlicht werden soll. Für weitere Informationen zur Arbeit mit mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+In dieser Registerkarte können Sie festlegen, in welchem Shop beziehungsweise in welchen Shops der Newseintrag veröffentlicht werden soll. Für weitere Informationen zur Arbeit mit mehreren Shops lesen Sie bitte [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
 
 ## Neue Kommentare verwalten
 
-Wenn die Kommentarfunktion bei Newseinträgen für Ihre Kunden aktiviert wurde, müssen Sie die Kommentare überprüfen und gegebenenfalls löschen.  Sie können die Kommentare zu Ihren Newseinträgen verwalten, indem Sie zu **CMS > News > Kommentare**. gehen. In diesem Bereich erhalten Sie einen Überblick über alle Kommentare. Darüber hinaus sehen Sie zusätzliche Informationen wie den Namen des Kunden, der den Kommentar erstellt hat, seine IP-Adresse und das Datum, an dem der Kommentar erstellt wurde. Hier können Sie die Kommentare auch löschen.
+Wenn die Kommentarfunktion bei Newseinträgen für Ihre Kunden aktiviert wurde, müssen Sie die Kommentare überprüfen und gegebenenfalls löschen. Sie können die Kommentare zu Ihren Newseinträgen verwalten, indem Sie zu **CMS > News > Kommentare** gehen. In diesem Bereich erhalten Sie einen Überblick über alle Kommentare. Darüber hinaus sehen Sie zusätzliche Informationen wie den Namen des Kunden, der den Kommentar erstellt hat, seine IP-Adresse und das Datum, an dem der Kommentar erstellt wurde. Hier können Sie die Kommentare auch löschen.
 
 ![](../../.gitbook/assets/news_verwalten_2.png)
