@@ -23,7 +23,7 @@
 ## Veröffentlichungsoptionen
 
 Eine Story kann in mehreren Widget-Zonen und auf mehreren Zielseiten gleichzeitig dargestellt werden.\
-Um Ihre Story auf der gewünschten Seite anzuzeigen, vergewissern Sie sich, dass mindestens eine **Widget-Zone** und **Zielseite** angegeben wurde und zudem **Veröffentlicht** angeschaltet ist. Widget-Zonen bestimmen die Positionierung Ihrer Story auf der gewünschten Seite.
+Damit Ihre Story auf der gewünschten Seite erscheint, weisen Sie mindestens eine **Widget-Zone** und eine **Zielseite** zu und aktivieren **Veröffentlicht**. Widget-Zonen bestimmen die Positionierung Ihrer Story auf der gewünschten Seite.
 
 **Raster**
 
