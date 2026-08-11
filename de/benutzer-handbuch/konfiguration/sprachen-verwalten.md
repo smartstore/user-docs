@@ -1,6 +1,6 @@
 # Sprachen verwalten
 
-Smartstore verfügt im Auslieferungszustand bereits über zwei Sprachen (Englisch und Deutsch), aber Sie können beliebig viele weitere Sprachen hinzufügen. Die Standardsprache ist diejenige, die Sie während des Installationsvorgangs ausgewählt haben. Bitte lesen Sie auch [Mit mehreren Sprachen arbeiten](../allgemeine-konzepte/mit-mehreren-sprachen-arbeiten.md).
+Smartstore verfügt im Auslieferungszustand bereits über zwei Sprachen (Englisch und Deutsch), aber Sie können beliebig viele weitere Sprachen hinzufügen. Die Standardsprache ist diejenige, die Sie während des Installationsvorgangs ausgewählt haben. Lesen Sie ergänzend [Mit mehreren Sprachen arbeiten](../allgemeine-konzepte/mit-mehreren-sprachen-arbeiten.md).
 
 ![](../../.gitbook/assets/sprachen_verwalten_1.png)
 
