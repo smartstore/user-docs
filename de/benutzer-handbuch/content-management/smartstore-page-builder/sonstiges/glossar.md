@@ -20,7 +20,7 @@
 
 ## Flexible Einheiten
 
-**fr:** Setzt die Größe auf einen Bruchteil des verbleibenden/verfügbaren zu füllenden Raums.
+**fr:** Legt die Größe als Bruchteil des noch verfügbaren Raums fest.
 
 **auto:** Setzt die Größe auf den minimalen Bedarf des vorhandenen Inhalts. Perfekt für die Höhenskalierung von Bildern.
 

@@ -1,6 +1,6 @@
 # Widget Zonen
 
-Widget-Zonen sind Platzhalter, die in großer Zahl auf sämtlichen Smartstore-Seiten definiert sind. Mithilfe von Widget-Zonen werden Stories, Widgets und Seiteninhalte platziert und dargestellt. Um herauszufinden, wo überall Widget-Zonen positioniert sind, aktivieren Sie die Widget-Zonen-Darstellung unter **Admin > Plugins > Developer Tools**.
+Widget-Zonen sind definierte Platzhalter auf Smartstore-Seiten. Mithilfe von Widget-Zonen werden Stories, Widgets und Seiteninhalte platziert und dargestellt. Um herauszufinden, wo überall Widget-Zonen positioniert sind, aktivieren Sie die Widget-Zonen-Darstellung unter **Admin > Plugins > Developer Tools**.
 
 Wenn diese Option aktiviert ist, werden Widget-Zonen angezeigt. Wenn Sie wissen wollen, wie eine Widget Zone heißt, fahren Sie mit der Maus über den Text _"Widget Zone"_, und der Name wird in einem Popup dargestellt. Widget-Zonen sind nur für Benutzer mit Administratorrechten sichtbar. Ihre Kunden können diese zu keinem Zeitpunkt sehen.
 
