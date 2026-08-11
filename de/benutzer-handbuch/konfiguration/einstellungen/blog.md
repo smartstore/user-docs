@@ -8,7 +8,7 @@
 | Gäste dürfen Kommentare schreiben                    | Legt fest, ob nicht registrierte Benutzer (Gäste) Kommentare hinterlassen dürfen.                            |
 | Kunden ohne Bestellungen dürfen Kommentare schreiben | Legt fest, ob Kunden Kommentare schreiben dürfen, auch wenn sie noch nie einen Artikel gekauft haben.        |
 | Benachrichtigung bei neuen Kommentaren               | Benachrichtigt den Shopbetreiber, wenn ein neuer Blog-Kommentar verfasst wurde.                              |
-| Navigation End Date                                  | Definiert das Datum, bis zu dem der Blog-Link in der Shop-Navigation erscheint.                              |
+| Enddatum der Navigation                              | Definiert das Datum, bis zu dem der Blog-Link in der Shop-Navigation erscheint.                              |
 | Anordnung der Beiträge                               | Wählt das visuelle Layout für die Blog-Auflistung (z. B. Masonry).                                           |
 | Spalten                                              | Bestimmt das Rasterlayout und die Position der Seitenleiste (z. B. 2 Beiträge pro Reihe + Blog Sidebar).     |
 | Beiträge pro Seite                                   | Legt die Anzahl der Beiträge fest, die pro Seite angezeigt werden.                                           |
