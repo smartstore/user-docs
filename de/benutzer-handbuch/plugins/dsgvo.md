@@ -1,6 +1,6 @@
 # DSGVO
 
-Seit Smartstore **3.1.5** unterstützt Smartstore die Anforderungen der Datenschutz-Grundverordnung (DSGVO) durch entsprechende Funktionen im Shop-Kontext. Ziel ist es, Kundinnen und Kunden sowie Shopbetreiber dabei zu unterstützen, datenschutzrelevante Prozesse rechtssicher abzubilden und konkrete Rechte der Betroffenen umzusetzen.
+Seit Smartstore **3.1.5** unterstützt Smartstore die Anforderungen der Datenschutz-Grundverordnung (DSGVO) durch integrierte Funktionen im Shop. Ziel ist es, Kundinnen und Kunden sowie Shopbetreiber dabei zu unterstützen, datenschutzrelevante Prozesse rechtssicher abzubilden und konkrete Rechte der Betroffenen umzusetzen.
 
 Im Rahmen der DSGVO-Funktionalität deckt Smartstore insbesondere folgende Bereiche ab:
 
