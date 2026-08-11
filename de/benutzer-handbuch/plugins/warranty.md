@@ -32,7 +32,7 @@ Die Anzeige der **Download** und **Drucken** Schaltflächen kann [separat gesteu
 
 ## Einstellungen
 
-### Plugin Konfiguration
+### Plugin-Konfiguration
 
 ![Die Plugin-Konfiguration im Backend](../../.gitbook/assets/module_warranty_konfiguration.png)
 
@@ -56,12 +56,12 @@ Im Produkt-Tab „EU-Garantielabel” können produktspezifische Garantiewerte h
 
 Die Voreinstellungen der einzelnen Felder lauten wie folgt:
 
-|Option|Beschreibung|
-|---|---|
-|Von Kennzeichnung ausgenommen|Die Einstellung **Standardmäßig sind alle Produkte...** aus der Plugin-Konfiguration.|
-|Garantiedauer|Leeres Feld &rarr; Das Garantielabel wird nicht angezeigt.|
-|Garantiegeber (Marke/Hersteller)|Der Hersteller des Produkts.|
-|Modellkennung|Die Herstellerproduktnummer (MPN) des Produkts.|
+| Option                           | Beschreibung                                                                          |
+| -------------------------------- | ------------------------------------------------------------------------------------- |
+| Von Kennzeichnung ausgenommen    | Die Einstellung **Standardmäßig sind alle Produkte...** aus der Plugin-Konfiguration. |
+| Garantiedauer                    | Leeres Feld → Das Garantielabel wird nicht angezeigt.                                 |
+| Garantiegeber (Marke/Hersteller) | Der Hersteller des Produkts.                                                          |
+| Modellkennung                    | Die Herstellerproduktnummer (MPN) des Produkts.                                       |
 
 ## Import
 

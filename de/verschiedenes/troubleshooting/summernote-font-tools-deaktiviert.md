@@ -6,8 +6,8 @@ Im Zuge der Entwicklung von Smartstore Version 6 haben wir auch den HTML-Editor 
 
 Die beiden wichtigsten sind:
 
-- Jedes Mal, wenn sie verwendet werden, umschließen die Einstellungsoptionen die bereits vorhandenen HTML-Elemente und versehen sie mit den entsprechenden Inline-Styles. Je öfter diese Funktion genutzt wird, desto mehr geschachtelte HTML-Elemente werden erzeugt. Ein solcher HTML-Code wird von Suchmaschinen nicht gerne gesehen und Seiten mit zu viel verschachteltem Code werden abgestraft und schlechter gerankt. Außerdem werden wichtige Suchbegriffe, die u.a. auch im Langtext enthalten sind, ignoriert.
-- Um ein einheitliches Erscheinungsbild des Fließtextes in der Produktbeschreibung zu gewährleisten, sollten keine unterschiedlichen Schriftarten verwendet werden. Auch bei den Größen sollte man sich auf wenige beschränken.
+* Jedes Mal, wenn sie verwendet werden, umschließen die Einstellungsoptionen die bereits vorhandenen HTML-Elemente und versehen sie mit den entsprechenden Inline-Styles. Je öfter diese Funktion genutzt wird, desto mehr geschachtelte HTML-Elemente werden erzeugt. Ein solcher HTML-Code wird von Suchmaschinen nicht gerne gesehen und Seiten mit zu viel verschachteltem Code werden abgestraft und schlechter gerankt. Außerdem werden wichtige Suchbegriffe, die u.a. auch im Langtext enthalten sind, ignoriert.
+* Um ein einheitliches Erscheinungsbild des Fließtextes in der Produktbeschreibung zu gewährleisten, sollten keine unterschiedlichen Schriftarten verwendet werden. Auch bei den Größen sollte man sich auf wenige beschränken.
 
 Stattdessen sollten verschiedene Tags verwendet werden, um den Fließtext zu strukturieren: [h\*-Tags](https://developer.mozilla.org/de/docs/Web/HTML/Element/Heading_Elements) für Überschriften (\* = 1-6) und [p-Tags](https://developer.mozilla.org/de/docs/Web/HTML/Element/p) für Absätze.
 
@@ -17,7 +17,7 @@ Die für Überschriften verwendeten h\*-Tags können im Editor ausgewählt werde
 
 Markieren Sie die Zeile, die der Überschrift entspricht, und wählen Sie das Dropdown-Menü Stil (Symbol: ¶). Dieses Menü bietet eine Auswahl von sechs verschiedenen Überschriften, die in hierarchischer Reihenfolge zu verwenden sind. Unterüberschriften sind durch eine größere Zahl gekennzeichnet. Wenn Sie eine Überschrift auswählen, wird die Formatierung automatisch angewendet und im Editor angezeigt.
 
-Im Quelltext (Symbol: </\>) sehen Sie, dass um den ausgewählten Text ein h\*-Tag gesetzt wurde.
+Im Quelltext (Symbol: \</>) sehen Sie, dass um den ausgewählten Text ein h\*-Tag gesetzt wurde.
 
 ## Kommende Funktionen
 
@@ -31,9 +31,9 @@ Wenn die Formatierung des Textes geändert werden soll, besteht immer die Mögli
 
 ## Eigene Styles
 
-In Kombination mit der *\_user.scss* können auch eigene Klassen für Schrift- und Textkombinationen geschrieben und im HTML-Editor verwendet werden.
+In Kombination mit der _\_user.scss_ können auch eigene Klassen für Schrift- und Textkombinationen geschrieben und im HTML-Editor verwendet werden.
 
-Es besteht auch die Möglichkeit eigene Formate in der *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) zu hinterlegen. Diese werden über das Objekt `cssclass` im Unterobjekt `formats` zur Verfügung gestellt und müssen manuell hinzugefügt werden.
+Es besteht auch die Möglichkeit, eigene Formate in der _globalinit.js_ (_\wwwroot\lib\editors\summernote\\_) zu hinterlegen. Diese werden über das Objekt `cssclass` im Unterobjekt `formats` zur Verfügung gestellt und müssen manuell hinzugefügt werden.
 
 ```javascript
 summernote_global_config = {
@@ -63,7 +63,7 @@ Die Eigenschaften `inline`, `displayClass` und `style` beziehen sich auf die Dar
 
 ## Alte Funktionen aktivieren
 
-Falls die Schrift- und Größenauswahl für Sie unverzichtbar ist, können Sie die Tools in *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) wieder aktivieren (ab Zeile 79):
+Falls die Schrift- und Größenauswahl für Sie unverzichtbar ist, können Sie die Tools in _globalinit.js_ (_\wwwroot\lib\editors\summernote\\_) wieder aktivieren (ab Zeile 79):
 
 ```javascript
 toolbar: [
@@ -79,7 +79,7 @@ toolbar: [
 
 Die Zeile `font` ist auskommentiert. Entfernen Sie den Kommentar oder verschieben Sie die Tools `fontname` oder `fontsize` in eine andere Toolbar.
 
-| **Methode** | **Vorher** | **Nachher** |
-| --- | --- | --- |
-| Kommentar entfernen | `//['font', ['fontname', 'fontsize']],` | `['font', ['fontname', 'fontsize']],` |
-| Tool verschieben | `['edit', ['undo', 'redo']],` | `['edit', ['undo', 'redo', 'fontsize']],` |
+| **Methode**         | **Vorher**                              | **Nachher**                               |
+| ------------------- | --------------------------------------- | ----------------------------------------- |
+| Kommentar entfernen | `//['font', ['fontname', 'fontsize']],` | `['font', ['fontname', 'fontsize']],`     |
+| Tool verschieben    | `['edit', ['undo', 'redo']],`           | `['edit', ['undo', 'redo', 'fontsize']],` |
