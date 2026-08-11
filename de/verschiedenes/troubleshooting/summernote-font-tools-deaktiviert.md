@@ -2,7 +2,7 @@
 
 ## Motivation
 
-Im Zuge der Entwicklung von Smartstore Version 6 haben wir auch den HTML-Editor überarbeitet. Dabei haben wir die Elemente zur Einstellung von Schriftart und Schriftgröße deaktiviert. Es gibt mehrere Gründe, warum wir diese Funktion(en) nicht mehr verwenden.
+Im Zuge der Entwicklung von Smartstore Version 6 haben wir auch den HTML-Editor überarbeitet. Dabei haben wir die Elemente zur Einstellung von Schriftart und Schriftgröße deaktiviert. Dafür gibt es mehrere Gründe.
 
 Die beiden wichtigsten sind:
 
