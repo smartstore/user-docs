@@ -1,6 +1,6 @@
 # Shops verwalten
 
-Sie können in Smartstore mehrere Shops anlegen und verwalten, indem Sie zu **Konfiguration > Shops** navigieren. Für weitere Informationen über die Arbeit in einer Multishop-Umgebung, lesen Sie bitte das Thema [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+Unter **Konfiguration > Shops** können Sie in Smartstore mehrere Shops anlegen und verwalten. Für weitere Informationen über die Arbeit in einer Multishop-Umgebung lesen Sie bitte das Thema [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
 
 ![](../../.gitbook/assets/shops_verwalten_1.png)
 
