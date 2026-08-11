@@ -1,6 +1,6 @@
 # Geplante Aufgaben verwalten
 
-In Smartstore ist es häufig nötig, Aufgaben regelmäßig zu bestimmten Zeiten auszuführen, um unterschiedliche Aktivitäten zu verwalten. Im Bereich Geplante Aufgaben können Sie Aufgaben festlegen, die automatisch zu den festgelegten Zeiten durchgeführt werden. Zu den Aufgaben, die auf diese Weise im Vorfeld geplant werden können, gehören:
+In Smartstore müssen Aufgaben häufig zu festgelegten Zeiten ausgeführt werden, um unterschiedliche Aktivitäten zu verwalten. Im Bereich Geplante Aufgaben können Sie Aufgaben festlegen, die automatisch zu den festgelegten Zeiten durchgeführt werden. Zu den Aufgaben, die auf diese Weise im Vorfeld geplant werden können, gehören:
 
 * Gespeicherte E-Mails versenden
 * Obsolet gewordene oder temporäre Dateien aus der Datenbank entfernen
