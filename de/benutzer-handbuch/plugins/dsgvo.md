@@ -1,21 +1,21 @@
 # DSGVO
 
-Seit der Smartstore Version **3.1.5** unterstützt Smartstore die Anforderungen der Datenschutz-Grundverordnung (DSGVO) durch entsprechende Funktionen im Shop-Kontext. Ziel ist es, Kundinnen und Kunden sowie Shopbetreiber dabei zu unterstützen, datenschutzrelevante Prozesse rechtssicher abzubilden und konkrete Rechte der Betroffenen umzusetzen.
+Seit Smartstore **3.1.5** unterstützt Smartstore die Anforderungen der Datenschutz-Grundverordnung (DSGVO) durch entsprechende Funktionen im Shop-Kontext. Ziel ist es, Kundinnen und Kunden sowie Shopbetreiber dabei zu unterstützen, datenschutzrelevante Prozesse rechtssicher abzubilden und konkrete Rechte der Betroffenen umzusetzen.
 
 Im Rahmen der DSGVO-Funktionalität deckt Smartstore insbesondere folgende Bereiche ab:
 
-- **EU-Cookie-Richtlinie**: Transparente und kontrollierbare Nutzung von Cookies über geeignete Hinweise und Einstellungen.
-- **Löschung bzw. Einschränkung von Kundendaten**: Unterstützung von Löschanfragen, die am Ende die Identifizierbarkeit des Kunden reduzieren (z. B. durch Anonymisierung).
-- **Anonymisierung von Kundendaten**: Eine Funktion, die Daten so verändert, dass eine direkte Zuordnung zu einer Person nicht mehr möglich ist.
-- **Download-Funktionalität für Kundendaten**: Kunden können ihre eigenen Daten einsehen bzw. als Export erhalten (JSON-Format), um ihre Rechte aus der DSGVO wahrnehmen zu können.
+* **EU-Cookie-Richtlinie**: Transparente und kontrollierbare Nutzung von Cookies über geeignete Hinweise und Einstellungen.
+* **Löschung bzw. Einschränkung von Kundendaten**: Unterstützung von Löschanfragen, die am Ende die Identifizierbarkeit des Kunden reduzieren (z. B. durch Anonymisierung).
+* **Anonymisierung von Kundendaten**: Eine Funktion, die Daten so verändert, dass eine direkte Zuordnung zu einer Person nicht mehr möglich ist.
+* **Download-Funktionalität für Kundendaten**: Kunden können ihre eigenen Daten einsehen bzw. als Export erhalten (JSON-Format), um ihre Rechte aus der DSGVO wahrnehmen zu können.
 
 ![Privatsphäre-Tab in "Mein Konto"](../../.gitbook/assets/module_gdpr_meinkonto_privatsphaere.png)
 
 Dabei ist besonders wichtig, dass je nach gewählter Einstellung Aktionen entweder:
 
-- direkt im Kundenkonto ausgelöst werden (z. B. Konto deaktivieren),
-- eine zusätzliche Bestätigungsstufe erfordern,
-- oder eine optionale Backend-Nachverarbeitung starten (z. B. automatische Anonymisierung nach einem Löschvorgang).
+* direkt im Kundenkonto ausgelöst werden (z. B. Konto deaktivieren),
+* eine zusätzliche Bestätigungsstufe erfordern,
+* oder eine optionale Backend-Nachverarbeitung starten (z. B. automatische Anonymisierung nach einem Löschvorgang).
 
 Weiterhin wird berücksichtigt, dass Smartstore Kundendatensätze **grundsätzlich nicht vollständig aus der Datenbank entfernt**, sondern als **gelöscht markiert** und anschließend (wenn konfiguriert) anonymisiert werden. So können technische Integrität und nachvollziehbare Abläufe im System gewährleistet werden, während gleichzeitig die Identifizierbarkeit des Datensatzes reduziert wird.
 
