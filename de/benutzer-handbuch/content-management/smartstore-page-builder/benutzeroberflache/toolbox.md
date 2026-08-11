@@ -4,7 +4,7 @@
 
 ![](../../../../.gitbook/assets/image031.jpg)
 
-**① Layout:** Beinhaltet allgemeine Story-Optionen. Zum Beispiel Veröffentlichungsoptionen oder Darstellungsoptionen. (Siehe [_Layout_](../story/toolbox-story-optionen.md))
+**① Layout:** Enthält allgemeine Optionen für die Veröffentlichung und Darstellung der Story. (Siehe [_Layout_](../story/toolbox-story-optionen.md))
 
 **② Hintergrund:** Bietet Optionen zur Anpassung des Hintergrundes der Story mit Bildern, Farbeffekten oder Videos. (Siehe [_Hintergrund_](../blocke/block-basiseinstellungen.md#hintergrund))
 
