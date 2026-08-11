@@ -22,7 +22,7 @@ Für einfache Texte ohne Formatierungen (Titel, Kurzbeschreibung, …) wird der 
 
 ![SimpleText - Kontextmenü](../../.gitbook/assets/SimpleText_Kontext.PNG)
 
-Ein Klick auf das AI-Symbol ![](../../.gitbook/assets/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Mit einem Klick auf Senden ![](../../.gitbook/assets/send.png), wird ihr Prompt an die KI geschickt.
+Ein Klick auf das AI-Symbol ![](../../.gitbook/assets/icon.png) öffnet ein Kontextmenü mit verschiedenen Befehlen, um Texte neu zu generieren, zusammenzufassen, Sprachstil und Tonfall zu ändern, den Schreibstil zu verbessern, den Text zu vereinfachen oder weiter auszuführen. Klicken Sie auf Senden ![](../../.gitbook/assets/send.png), um Ihren Prompt an die KI zu schicken.
 
 ![SimpleText-Dialog für eine Produkt-Kurzbeschreibung](../../.gitbook/assets/SimpleText_Dialog.PNG)
 
