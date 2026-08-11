@@ -12,7 +12,7 @@ Sollten Sie zu einem späteren Zeitpunkt Änderungen an Ihrer Story vornehmen, v
 
 **Testen**
 
-Testen Sie Ihre fertige Story ausführlich für alle verschiedenen Auflösungen und Endgeräte.
+Testen Sie Ihre fertige Story in allen vorgesehenen Auflösungen und auf den relevanten Endgeräten.
 
 **Vorschaumodus**
 
