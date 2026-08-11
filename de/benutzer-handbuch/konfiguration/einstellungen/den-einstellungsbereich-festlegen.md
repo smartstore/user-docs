@@ -1,6 +1,6 @@
 # Multi-Shop Konfiguration
 
-Wenn der Shop mehrere Shop-Konfigurationen vereint, handelt es sich um einen **Multi-Shop**.
+Enthält eine Installation mehrere Shop-Konfigurationen, handelt es sich um einen **Multi-Shop**.
 
 ## Shopauswahl
 

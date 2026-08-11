@@ -1,6 +1,6 @@
 # Suche
 
-Im Bereich **Suche** wird u.a. festgelegt welche Suchfelder für die Suche berücksichtigt werden und welche Filter in den Produktlisten angezeigt werden.
+Im Bereich **Suche** legen Sie u. a. fest, welche Suchfelder berücksichtigt und welche Filter in den Produktlisten angezeigt werden.
 
 ![](../../../.gitbook/assets/suche-1.PNG)
 
