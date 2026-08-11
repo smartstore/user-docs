@@ -1,6 +1,6 @@
 # TinyImage
 
-> Bildkomprimierung bis zu 80 %
+> Bilder um bis zu 80 % komprimieren
 
 TinyImage ist ein Plugin, das die Dateigröße hochgeladener Bilder deutlich reduzieren kann, ohne dass Sie dabei manuell jedes Bild neu komprimieren müssen. Sie bekommen schlankere Mediendateien, geringere Ladezeiten und dadurch ein insgesamt flüssigeres Nutzererlebnis, insbesondere auf Seiten mit vielen Bildern (z. B. Produktlisten, Blogs oder Content-Seiten).
 
