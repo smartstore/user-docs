@@ -1,6 +1,6 @@
 # Layout erstellen
 
-Wenn Sie eine eigene Vorlage oder eine neue Story erstellen wollen, können Sie mit einer komplett leeren Story beginnen. Wenn Sie Ihre neue Story erstellt haben, geben Sie ihr zunächst einen [_Systemnamen_](toolbox-story-optionen.md) und speichern Sie sie. Nun können Sie für das Raster der Story ein Layout erstellen.
+Für eine eigene Vorlage oder neue Story können Sie mit einer leeren Story beginnen. Wenn Sie Ihre neue Story erstellt haben, geben Sie ihr zunächst einen [_Systemnamen_](toolbox-story-optionen.md) und speichern Sie sie. Nun können Sie für das Raster der Story ein Layout erstellen.
 
 ## Ein einfaches Layout erstellen
 

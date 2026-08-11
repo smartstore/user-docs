@@ -18,7 +18,7 @@
 
 ## Videomaterial
 
-Alle Page-Builder-Videos finden Sie auch auf unserem YouTube-Kanal zusammengefasst in [einer Playlist](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s)
+Alle Page-Builder-Videos sind auf unserem YouTube-Kanal in [einer Playlist](https://www.youtube.com/playlist?list=PLog4smYIQ2NSZ5gfInsPxi-qGxMKCOf-s)
 
 ## Referenzen
 
