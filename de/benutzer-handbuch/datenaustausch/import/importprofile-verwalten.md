@@ -2,7 +2,7 @@
 
 Der Zweck von Datenimporten ist der Massenimport von externen Datenstrukturen wie Produkten oder Kunden mittels CSV-Dateien. Die Importfunktion ist auch in der Lage, riesige Datenmengen wie z. B. Produktpreise zu aktualisieren.
 
-Importprofile fassen alle benötigten Informationen zusammen, um den Importvorgang individuell zu steuern. Dazu gehört im Besonderen :
+Importprofile fassen alle benötigten Informationen zusammen, um den Importvorgang individuell zu steuern. Dazu gehören insbesondere:
 
 * Das Hochladen von Dateien, die als Datenquellen dienen
 * Objekttypen, die importiert werden sollen, z. B. Produkt, Kunde, u.s.w.
