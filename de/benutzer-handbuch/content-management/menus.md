@@ -1,6 +1,6 @@
 # Menüs
 
-Mit dem Menü Builder unter **CMS > Menüs** können Sie neue Menüs erstellen oder bestehende Menüs bearbeiten und erweitern.\
+Mit dem Menü-Builder unter **CMS > Menüs** erstellen Sie neue Menüs und bearbeiten oder erweitern bestehende Menüs.\
 ![](../../.gitbook/assets/menues-1.PNG)
 
 ## Bestehende Menüs bearbeiten / erweitern
