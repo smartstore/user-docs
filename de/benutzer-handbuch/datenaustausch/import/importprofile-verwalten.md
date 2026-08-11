@@ -1,6 +1,6 @@
 # Importprofile verwalten
 
-Der Zweck von Datenimporten ist der Massenimport von externen Datenstrukturen wie Produkten oder Kunden mittels CSV-Dateien. Die Importfunktion ist auch in der Lage riesige Datenmengen wie z. B. Produktpreise zu aktualisieren.
+Der Zweck von Datenimporten ist der Massenimport von externen Datenstrukturen wie Produkten oder Kunden mittels CSV-Dateien. Die Importfunktion ist auch in der Lage, riesige Datenmengen wie z. B. Produktpreise zu aktualisieren.
 
 Importprofile fassen alle benötigten Informationen zusammen, um den Importvorgang individuell zu steuern. Dazu gehört im Besonderen :
 
@@ -64,7 +64,7 @@ Durch Änderung des Trennzeichens werden gespeicherte Zuordnungen ungültig und 
 
 Wenn im Importprofil die Option **Zugehörige Daten importieren** aktiviert ist, werden bei einem CSV-Import von Produktdaten auch die zugehörigen Daten der Staffelpreise, Attributoptionen und Variantkombinationen importiert. Laden Sie dazu die Dateien mit den zugehörigen Daten, die Sie zuvor exportiert haben, im Importprofil hoch.
 
-<figure><img src="../../../.gitbook/assets/import (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/import.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Gemäß der Namenskonvention muss der Dateiname mit einem der technischen Datennamen **Tierprice**, **ProductVariantAttributeValue** oder **ProductVariantAttributeCombination** enden, da anhand dessen der Produktimport die Art der Daten in der Datei erkennt.
