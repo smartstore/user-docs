@@ -4,7 +4,7 @@ Mit diesem Plugin lassen sich kundenindividuelle Preise auf Basis von Kundengrup
 
 ## Funktionsweise
 
-Für jeden Preis, den Sie gezielt ändern möchten, legen Sie einen Datensatz im DependingPrices-Plugin an.\
+Legen Sie für jeden Preis, den Sie gezielt ändern möchten, einen Datensatz im DependingPrices-Plugin an.\
 In diesem Datensatz bestimmen Sie Preis und Berechnungsmethode.
 
 Mögliche Berechnungsmethoden:

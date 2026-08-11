@@ -1,6 +1,6 @@
 # AttributeRules (Regeln für Produktattribute)
 
-Mit **AttributeRules** steuern Sie, welche Produktattribute abhängig von der aktuellen Produktauswahl angezeigt werden. So lassen sich umfangreiche Produktkonfigurationen übersichtlich aufbauen: Zusätzliche Eingaben erscheinen erst dann, wenn sie tatsächlich benötigt werden.
+Mit **AttributeRules** steuern Sie, welche Produktattribute abhängig von der aktuellen Produktauswahl angezeigt werden. So bauen Sie umfangreiche Produktkonfigurationen übersichtlich auf: Zusätzliche Eingaben erscheinen erst, wenn sie benötigt werden.
 
 ![Bearbeitung einer Attributregel](../../.gitbook/assets/module_attributerules_product_attributetab_rules_example.png)
 

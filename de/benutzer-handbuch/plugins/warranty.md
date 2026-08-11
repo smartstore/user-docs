@@ -1,6 +1,6 @@
 # EU-Garantiekennzeichnung
 
-Mithilfe dieses Plugins können die harmonisierten EU-Label für Gewährleistung und Garantie sowohl auf der Produktdetailseite als auch bei Bedarf im Checkout konfiguriert und angezeigt werden.
+Mit diesem Plugin konfigurieren und zeigen Sie die harmonisierten EU-Label für Gewährleistung und Garantie auf der Produktdetailseite und bei Bedarf im Checkout an.
 
 ![Gewährleistungs- und Garantielabel auf der Produktdetailseite](../../.gitbook/assets/module_warranty_produktdetailseite2.png)
 
