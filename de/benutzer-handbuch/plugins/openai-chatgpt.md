@@ -1,6 +1,6 @@
 # OpenAI ChatGPT
 
-Ermöglicht die Erstellung von Texten und Bildern mit den generativen Sprachmodellen von OpenAI ChatGPT.
+Mit dem Plugin erstellen Sie Texte und Bilder mithilfe der generativen Sprachmodelle von OpenAI ChatGPT.
 
 ![ChatGPT\_Konfiguration.PNG](../../.gitbook/assets/ChatGPT_Konfiguration.PNG)
 
