@@ -2,7 +2,7 @@
 
 ## Text
 
-Der Text-Block bietet umfassende Möglichkeiten, Text zu formatieren. Mit dem Feld _Titel_ können Sie dem Block einen formatierten Titel vergeben. Der Titel wird über dem Intro- und Textelement angezeigt. Zusätzlich erhält der Block im [_Block-Manager_](../benutzeroberflache/block-manager.md) den Titel als Namen. Alternativ können Sie den Titel auch verstecken, wodurch dieser nicht als Text innerhalb des Blockes angezeigt wird. Die _Tagline_ wird oberhalb und das _Intro_ unterhalb des Titels dargestellt. Das Textfeld, welches für Fließtext gedacht ist, verfügt über einen umfangreichen Texteditor, mit dem Sie Ihren Fließtext formatieren können. Des Weiteren bieten die einzelnen Textelemente Optionen, um Schriftgröße, Schriftart, Schriftfarbe, HTML-Tags und Abstände zu konfigurieren.
+Mit dem Text-Block formatieren und strukturieren Sie Textelemente. Mit dem Feld _Titel_ können Sie dem Block einen formatierten Titel vergeben. Der Titel wird über dem Intro- und Textelement angezeigt. Zusätzlich erhält der Block im [_Block-Manager_](../benutzeroberflache/block-manager.md) den Titel als Namen. Alternativ können Sie den Titel auch verstecken, wodurch dieser nicht als Text innerhalb des Blockes angezeigt wird. Die _Tagline_ wird oberhalb und das _Intro_ unterhalb des Titels dargestellt. Das Textfeld, welches für Fließtext gedacht ist, verfügt über einen umfangreichen Texteditor, mit dem Sie Ihren Fließtext formatieren können. Des Weiteren bieten die einzelnen Textelemente Optionen, um Schriftgröße, Schriftart, Schriftfarbe, HTML-Tags und Abstände zu konfigurieren.
 
 ![](../../../../.gitbook/assets/Textblock_config_2.png)
 
