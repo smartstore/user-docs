@@ -7,7 +7,7 @@
 | Preise inkl. Mehrwertsteuer                        | Legt fest, ob die Preise inklusive Mehrwertsteuer gelten.                                                                                         |
 | Mehrwertsteueranzeige                              | Mehrwertsteueranzeige.                                                                                                                            |
 | Steuerhinweis anzeigen                             | Legt fest, ob der Steuerhinweis angezeigt werden soll ("inkl. Mwst.", "zzgl. Mwst.")                                                              |
-| Steuersätze anzeigen                               | Legt fest, ob die Steuerzeile (auf der Warenkorb-Seite) angezeigt werden sollen.                                                                  |
+| Steuersätze anzeigen                               | Legt fest, ob die Steuerzeile (auf der Warenkorb-Seite) angezeigt werden soll.                                                                    |
 | Null-Steuerbeträge ausblenden                      | Legt fest, ob Null-Steuerbeträge in der Auftragszusammenfassung ausgeblendet werden sollen.                                                       |
 | In Auftragszusammenfassung Steuern verbergen       | Die Mehrwertsteuer soll in der Auftragszusammenfassung nicht angezeigt werden, wenn die Preise im Shop inklusive Mehrwertsteuer angezeigt werden. |
 | Steuerhinweis in Produktlisten anzeigen            | Legt fest, ob ein Steuerhinweis in Produktlisten angezeigt werden soll.                                                                           |
