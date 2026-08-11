@@ -1,6 +1,6 @@
 # Toolbox Block-Optionen
 
-Wenn Sie einen Block ausgewählt haben, werden in der [_Toolbox_](../benutzeroberflache/toolbox.md) die Blockoptionen angezeigt. Hier können Sie die Darstellung und Ausrichtung der Inhalte für die aktuelle Auflösungsstufe anpassen. Da sich Stories je nach Bildschirmgröße dynamisch auf den verfügbaren Platz ausbreiten, sollten Sie für jede Auflösungsstufe die Ausrichtung der Inhalte überprüfen und ggf. anpassen, damit die Story auf allen Auflösungen richtig dargestellt wird.
+Wenn Sie einen Block ausgewählt haben, werden in der [_Toolbox_](../benutzeroberflache/toolbox.md) die Blockoptionen angezeigt. Hier können Sie die Darstellung und Ausrichtung der Inhalte für die aktuelle Auflösungsstufe anpassen. Da sich Stories an die verfügbare Bildschirmgröße anpassen, prüfen Sie die Ausrichtung der Inhalte für jede Auflösungsstufe und passen sie bei Bedarf an.
 
 ![](../../../../.gitbook/assets/image077.png)
 
