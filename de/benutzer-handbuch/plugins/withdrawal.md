@@ -1,6 +1,6 @@
 # Widerruf
 
-Das Plugin „Withdrawal“ (Widerruf) unterstützt Sie bei jedem Schritt des Online-Bestellwiderrufs: von der Anfrage über die Überprüfung und Bestätigung bis hin zur Nachverfolgung.
+Das Plugin „Withdrawal“ (Widerruf) begleitet den gesamten Online-Bestellwiderruf: von der Anfrage über die Prüfung und Bestätigung bis zur Nachverfolgung.
 
 ## Widerruf vs. Retoure
 
