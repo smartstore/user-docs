@@ -1,6 +1,6 @@
 # Content Slider
 
-Ein Content Slider ist ideal dazu geeignet, wichtige Informationen an die Besucher einer Seite zu vermitteln. Die Augen der Besucher richten sich während ihres ersten Besuchs direkt auf diesen Bereich. Daher sollten Sie dort Informationen platzieren, die Ihre Shopbesucher besonders interessieren (z. B. Sonderangebote). Sie können den Content Slider für Slides auf der Homepage und auf [Warengruppenseiten](../../verwalten/katalog/warengruppen-organisieren.md) verwenden.
+Ein Content Slider eignet sich ideal, um Besuchern einer Seite wichtige Informationen zu vermitteln. Die Augen der Besucher richten sich während ihres ersten Besuchs direkt auf diesen Bereich. Daher sollten Sie dort Informationen platzieren, die Ihre Shopbesucher besonders interessieren (z. B. Sonderangebote). Sie können den Content Slider für Slides auf der Homepage und auf [Warengruppenseiten](../../verwalten/katalog/warengruppen-organisieren.md) verwenden.
 
 {% hint style="info" %}
 Nach dem Sie das Contentslider Plugin installiert haben, müssen Sie unter **CMS > Widgets** das Content Slider Widget aktivieren.

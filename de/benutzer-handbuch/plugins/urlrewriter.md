@@ -1,6 +1,6 @@
 # UrlRewriter
 
-Mit dem UrlRewriter Plugin können Sie im Shop-Backend gezielt URL-Weiterleitungsregeln definieren. Das ist besonders nützlich, wenn Seiten umgezogen sind, Produkt- oder Kategorie-URLs sich geändert haben oder wenn Sie für bestimmte Domains bzw. Stores abweichende Ziele ansteuern möchten (z. B. in einer Multistore-Umgebung).
+Mit dem UrlRewriter-Plugin definieren Sie im Shop-Backend gezielt URL-Weiterleitungsregeln. Das ist besonders nützlich, wenn Seiten umgezogen sind, Produkt- oder Kategorie-URLs sich geändert haben oder wenn Sie für bestimmte Domains bzw. Stores abweichende Ziele ansteuern möchten (z. B. in einer Multistore-Umgebung).
 
 Das Plugin verwendet eine an **Apache mod\_rewrite** angelehnte Syntax mit reduziertem Funktionsumfang. So können Sie pro Zeile eine klare Regel hinterlegen und steuern das Verhalten der Weiterleitung über optionale Schalter.
 
