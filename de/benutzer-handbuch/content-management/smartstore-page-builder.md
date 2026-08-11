@@ -2,7 +2,7 @@
 
 ## Was ist der Page Builder?
 
-Der Smartstore Page Builder ist ein Content-Management-Werkzeug, mit dem Sie schnell und einfach beeindruckende Einkaufswelten gestalten können – und zwar ganz ohne Fachkenntnisse in HTML, CSS oder Webdesign. Auf Knopfdruck lassen sich Zielseiten und Positionierungen bestimmen und somit ganze Seiten mit faszinierendem Inhalt und umfangreichen Individualisierungs- und Präsentationsmöglichkeiten komplett geräteunabhängig gestalten. Nutzen Sie den Page Builder, um Ihre Produkte als Blickfang zu platzieren. Dadurch können Sie beispielsweise bestimmte Produkte abverkaufen oder Rabattaktionen bewerben.
+Mit dem Smartstore Page Builder gestalten Sie Einkaufswelten ohne Fachkenntnisse in HTML, CSS oder Webdesign. Auf Knopfdruck lassen sich Zielseiten und Positionierungen bestimmen und somit ganze Seiten mit faszinierendem Inhalt und umfangreichen Individualisierungs- und Präsentationsmöglichkeiten komplett geräteunabhängig gestalten. Nutzen Sie den Page Builder, um Ihre Produkte als Blickfang zu platzieren. Dadurch können Sie beispielsweise bestimmte Produkte abverkaufen oder Rabattaktionen bewerben.
 
 ![](../../.gitbook/assets/pb-bauhaus1.jpg)
 
