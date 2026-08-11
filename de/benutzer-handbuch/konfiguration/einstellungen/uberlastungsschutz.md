@@ -1,6 +1,6 @@
 # Überlastungsschutz
 
-Der Überlastungsschutz ist seit Smartstore v6 verfügbar und befindet sich in den Einstellungen unter dem Tab **Leistung**.
+Der Überlastungsschutz ist seit Smartstore v6 verfügbar und befindet sich in den Einstellungen auf der Registerkarte **Leistung**.
 
 Es handelt sich dabei um eine leistungsstarke Funktion, die die Stabilität und Leistung des Systems auch unter hoher Belastung sicherstellt. Es schützt vor einer Überlastung der Serverressourcen, verhindert ein starkes Ansteigen der Latenzzeiten und hält die Plattform auch bei plötzlichen Lastspitzen wie Werbeaktionen, unerwarteten Besucheranstiegen oder Bot-Attacken funktionsfähig. Dabei konzentriert sich der Überlastungsschutz auf die Verwaltung und Beschränkung des Zugriffs von Gastbenutzern und Bots, während registrierte Benutzer von den Einschränkungen ausgenommen bleiben. Mit flexibel einstellbaren Zeitfenstern und Grenzwerten für unterschiedliche Nutzergruppen können sowohl längerfristige Besucherströme als auch kurzfristige Lastspitzen effektiv gesteuert werden. Das Feature bietet somit eine maßgeschneiderte Möglichkeit, das Nutzererlebnis zu verbessern und die Verfügbarkeit der Plattform zu gewährleisten.
 
@@ -31,7 +31,7 @@ Mit diesen Einstellungen können Grenzwerte über einen längeren Zeitraum (z. B
 
 | **Option**             | **Beschreibung**                                                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Zeitfenster**        | Dauer des Zeitfensters (hh:mm:ss), in dem der anhaltende Traffic gemessen wird.                                                                                                         |
+| **Zeitfenster**        | Dauer des Zeitfensters (hh:flag\_mm:ss), in dem der anhaltende Traffic gemessen wird.                                                                                                   |
 | **Gäste-Grenzwert**    | Maximale Anzahl von Gastbenutzern innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                  |
 | **Bot-Grenzwert**      | Maximale Anzahl von Bots innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                           |
 | **Globaler Grenzwert** | Kombiniertes Limit für Gäste und Bots. Wenn die kumulierten Anfragen beider Typen dieses Limit überschreiten, werden weitere Anfragen abgewiesen. Ein leerer Wert bedeutet: kein Limit. |
@@ -42,7 +42,7 @@ Diese Einstellungen werden bei plötzlichen Traffic-Spitzen über einen sehr kur
 
 | **Option**             | **Beschreibung**                                                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Zeitfenster**        | Dauer des Zeitfensters (hh:mm:ss), in dem Lastspitzen erkannt werden.                                                                                                                   |
+| **Zeitfenster**        | Dauer des Zeitfensters (hh:flag\_mm:ss), in dem Lastspitzen erkannt werden.                                                                                                             |
 | **Gäste-Grenzwert**    | Maximale Anzahl von Gastbenutzern innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                  |
 | **Bot-Grenzwert**      | Maximale Anzahl von Bots innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                           |
 | **Globaler Grenzwert** | Kombiniertes Limit für Gäste und Bots. Wenn die kumulierten Anfragen beider Typen dieses Limit überschreiten, werden weitere Anfragen abgewiesen. Ein leerer Wert bedeutet: kein Limit. |
