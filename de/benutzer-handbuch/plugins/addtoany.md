@@ -8,11 +8,11 @@ Das Plugin des Dienstes [AddToAny](https://www.addtoany.com/) fügt ein Widget z
 
 Für die Anzeige des Widgets müssen folgende Voraussetzungen erfüllt sein:
 
-- **Cookies von Drittanbietern** müssen im **Cookie-Manager** zugelassen sein.
+* **Cookies von Drittanbietern** müssen im **Cookie-Manager** zugelassen sein.
 
 ## Einstellungen
 
-Die Konfiguration erfolgt über die Plugin-Einstellungen (Plugins &rarr; AddToAny). Unter anderem kann die **Art der Platzierung**, **Design des Widgets**, **angebotene Dienste** und **verwendete Seiten** festgelegt werden.
+Die Konfiguration erfolgt über die Plugin-Einstellungen (Plugins → AddToAny). Unter anderem können die **Art der Platzierung**, das **Design des Widgets**, die **angebotenen Dienste** und die **verwendeten Seiten** festgelegt werden.
 
 ![AddToAny Konfiguration](../../.gitbook/assets/addtoany_config.png)
 
