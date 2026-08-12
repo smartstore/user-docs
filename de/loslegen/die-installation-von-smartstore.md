@@ -4,7 +4,7 @@ icon: cloud-arrow-up
 
 # Die Installation von Smartstore
 
-Prüfen Sie vor der Installation, ob Ihr Hosting-Paket oder Server die Voraussetzungen für Smartstore erfüllt. In den folgenden Anleitungen erfahren Sie, wie Sie die jeweilige Umgebung vorbereiten:
+Prüfen Sie vor der Installation, ob Ihr Hosting-Paket beziehungsweise Server die Smartstore-Voraussetzungen erfüllt. In den folgenden Anleitungen erfahren Sie, wie Sie die jeweilige Umgebung vorbereiten:
 
 {% columns %}
 {% column %}
