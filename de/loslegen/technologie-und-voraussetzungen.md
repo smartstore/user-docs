@@ -9,7 +9,7 @@ icon: server
 * Modernste Architektur dank [.NET](http://asp.net) 9, Entity Framework Core 6 und Domain-Driven Design
 * Einfach zu erweitern und extrem flexibel dank eines modularen Designs
 * Hochgradig skalierbar dank vollständigem Seiten-Caching und Webfarm-Unterstützung
-* Eine leistungsstarke Theming-Engine ermöglicht die Erstellung von Themes und Skins mit minimalem Aufwand auf Basis der Theme-Vererbung
+* Leistungsstarke Theming-Engine zum Erstellen von Themes und Skins mit minimalem Aufwand durch Theme-Vererbung
 * Point-and-Click-Themenkonfiguration
 * Leistungsstarker und blitzschneller Medienmanager
 * Leistungsstarkes Regelsystem für die visuelle Erstellung von Geschäftsregeln
