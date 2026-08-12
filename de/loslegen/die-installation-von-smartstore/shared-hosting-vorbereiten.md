@@ -4,7 +4,7 @@
 
 Smartstore kann auf jedem Windows-Shared-Hosting betrieben werden, das die [ASP.NET](http://asp.net) Core Runtime 9 unterstützt. Erkundigen Sie sich bei Ihrem Hoster, ob diese Voraussetzung erfüllt ist.
 
-Übertragen Sie die Installationsdateien in das vom Hoster angegebene Webverzeichnis. In den meisten Fällen benötigen Sie dafür ein FTP-Programm. Liegen die Installationsdateien in einem ZIP-Archiv vor, entpacken Sie zunächst dessen Inhalt und übertragen Sie anschließend die entpackten Dateien. Sobald alle Dateien vollständig übertragen wurden, können Sie mit der Installation fortfahren.
+Laden Sie die Installationsdateien in das vom Hoster angegebene Webverzeichnis hoch. In den meisten Fällen benötigen Sie dafür ein FTP-Programm. Liegen die Installationsdateien in einem ZIP-Archiv vor, entpacken Sie zunächst dessen Inhalt und übertragen Sie anschließend die entpackten Dateien. Sobald alle Dateien vollständig übertragen wurden, können Sie mit der Installation fortfahren.
 
 ## Linux-Shared-Hosting
 
