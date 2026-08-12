@@ -1,6 +1,6 @@
 # Smartstore installieren
 
-Rufen Sie die Smartstore-Installationsseite auf, indem Sie `<Server-IP>` oder `localhost` in Ihrem Browser eingeben.
+Öffnen Sie die Smartstore-Installationsseite, indem Sie `<Server-IP>` oder `localhost` in die Adresszeile Ihres Browsers eingeben.
 
 Oben rechts auf der Seite können Sie die _Sprache_ ändern, _die für die Installation verwendet werden soll_.
 
