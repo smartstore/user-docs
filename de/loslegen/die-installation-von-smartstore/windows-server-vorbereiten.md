@@ -1,6 +1,6 @@
 # Windows Server vorbereiten
 
-Alle von Smartstore bereitgestellten [Releases](https://github.com/smartstore/Smartstore/releases) sind unabhängige, sogenannte „**self-contained**“ Releases. Ein solches Release enthält nicht nur die Anwendung, sondern auch **alle .NET-Bibliotheken** und die **Ziel-Laufzeitumgebung**. Auf einem Windows-Server muss nur das [.NET Core-Hosting-Bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-10.0) installiert werden. Mit dem .NET Core-Hosting-Bundle werden die .NET Core-Laufzeitumgebung und das [ASP.NET](http://asp.net) Core-Modul installiert, sodass [ASP.NET](http://asp.net) Core-Anwendungen in IIS ausgeführt werden.
+Alle von Smartstore bereitgestellten [Releases](https://github.com/smartstore/Smartstore/releases) sind eigenständige, sogenannte „**self-contained**“-Releases. Ein solches Release enthält nicht nur die Anwendung, sondern auch **alle .NET-Bibliotheken** und die **Ziel-Laufzeitumgebung**. Auf einem Windows-Server muss nur das [.NET Core-Hosting-Bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-10.0) installiert werden. Mit dem .NET Core-Hosting-Bundle werden die .NET Core-Laufzeitumgebung und das [ASP.NET](http://asp.net) Core-Modul installiert, sodass [ASP.NET](http://asp.net) Core-Anwendungen in IIS ausgeführt werden.
 
 Das .NET Core-Hosting-Bundle steht [hier](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-10.0) zum Download bereit.
 

@@ -2,7 +2,7 @@
 
 ## Smartstore 6 Dokumentation
 
-Willkommen beim offiziellen **Smartstore 6 Handbuch**. Hier finden Sie die komplette **Dokumentation zur Smartstore E-Commerce-Software** – von der Einführung und Installation bis zur Konfiguration und Verwaltung Ihres **Onlineshops**.
+Willkommen beim offiziellen **Smartstore 6 Handbuch**. Diese Dokumentation begleitet Sie von der Einführung und Installation bis zur Konfiguration und Verwaltung Ihres **Smartstore-Onlineshops**.
 
 Wenn Sie **Smartstore**, die kostenlose und leistungsstarke E-Commerce-Lösung, gerade erst entdeckt haben, lesen Sie zunächst den Abschnitt [Eine Einführung in Smartstore](loslegen/eine-einfuhrung-in-smartstore.md). Installieren Sie anschließend **Smartstore 6**, indem Sie die Schritte in dieser [Installationsanleitung](loslegen/die-installation-von-smartstore.md) ausführen. Sollten Sie dort nicht die benötigten Informationen finden, stellen Sie Ihre Frage einfach in unserem [Support-Forum](http://community.smartstore.com/).
 
