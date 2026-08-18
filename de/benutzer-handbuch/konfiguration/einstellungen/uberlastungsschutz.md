@@ -31,7 +31,7 @@ Mit diesen Einstellungen können Grenzwerte über einen längeren Zeitraum (z. B
 
 | **Option**             | **Beschreibung**                                                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Zeitfenster**        | Dauer des Zeitfensters (hh:flag\_mm:ss), in dem der anhaltende Traffic gemessen wird.                                                                                                   |
+| **Zeitfenster**        | Dauer des Zeitfensters (hh:mm:ss), in dem der anhaltende Traffic gemessen wird.                                                                                                   |
 | **Gäste-Grenzwert**    | Maximale Anzahl von Gastbenutzern innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                  |
 | **Bot-Grenzwert**      | Maximale Anzahl von Bots innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                           |
 | **Globaler Grenzwert** | Kombiniertes Limit für Gäste und Bots. Wenn die kumulierten Anfragen beider Typen dieses Limit überschreiten, werden weitere Anfragen abgewiesen. Ein leerer Wert bedeutet: kein Limit. |
@@ -42,7 +42,7 @@ Diese Einstellungen werden bei plötzlichen Traffic-Spitzen über einen sehr kur
 
 | **Option**             | **Beschreibung**                                                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Zeitfenster**        | Dauer des Zeitfensters (hh:flag\_mm:ss), in dem Lastspitzen erkannt werden.                                                                                                             |
+| **Zeitfenster**        | Dauer des Zeitfensters (hh:mm:ss), in dem Lastspitzen erkannt werden.                                                                                                             |
 | **Gäste-Grenzwert**    | Maximale Anzahl von Gastbenutzern innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                  |
 | **Bot-Grenzwert**      | Maximale Anzahl von Bots innerhalb des festgelegten Zeitfensters. Ein leerer Wert bedeutet: keine Begrenzung.                                                                           |
 | **Globaler Grenzwert** | Kombiniertes Limit für Gäste und Bots. Wenn die kumulierten Anfragen beider Typen dieses Limit überschreiten, werden weitere Anfragen abgewiesen. Ein leerer Wert bedeutet: kein Limit. |
