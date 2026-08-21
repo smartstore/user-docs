@@ -21,7 +21,7 @@ Before you can see the available widget zones in the store, their display must b
 
 Widget zones are displayed only when you are signed in with an administrator account. They remain hidden from regular customers.
 
-![Enabled Display widget zones option in the Developer Tools configuration](../../.gitbook/assets/screenshot.png)
+![Enabled Display widget zones option in the Developer Tools configuration](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
 
 {% hint style="info" %}
 Developer Tools must be installed and enabled before widget zones can be displayed in the frontend.
@@ -33,11 +33,11 @@ Since Smartstore 5.1, widget zones are displayed in a dedicated menu on the righ
 
 Open the widget zone menu using the layers icon on the right side of the browser window.
 
-![Store frontend with the button for opening the widget zone menu](../../.gitbook/assets/screenshot.png)
+![Store frontend with the button for opening the widget zone menu](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
 
 The menu contains a list of the widget zones available on the current page, grouped by page area.
 
-![Open widget zone menu with the zones available on the current page](../../.gitbook/assets/screenshot.png)
+![Open widget zone menu with the zones available on the current page](../../.gitbook/assets/module_devtools_widgetzones_menu.png)
 
 You can use the menu as follows:
 
@@ -51,7 +51,7 @@ You can use the menu as follows:
 
 You can also show or hide the markers using **Alt + K**.
 
-![Highlighted widget zone on the store page](../../.gitbook/assets/screenshot.png)
+![Highlighted widget zone on the store page](../../.gitbook/assets/module_devtools_widgetzones_menu_highlight.png)
 
 {% hint style="info" %}
 The menu displays the widget zones of the currently open page. Switch between the home page, a product page, and a category page, for example, to check the positions available on each page.
@@ -68,7 +68,7 @@ For example, a Page Builder story can target a product page and use a widget zon
 
 The available widget zones depend on the respective page, active theme, and feature being used. Some plugins determine their widget zone automatically.
 
-![Selecting a target page and widget zone](../../.gitbook/assets/screenshot.png)
+![Selecting a target page and widget zone](../../.gitbook/assets/module_pagebuilder_sidebar_widgetzone.png)
 
 ## Selecting the appropriate position
 

@@ -21,7 +21,7 @@ Damit Sie die verfügbaren Widget-Zonen im Shop sehen können, muss die Anzeige 
 
 Die Widget-Zonen werden nur angezeigt, wenn Sie mit einem Administratorkonto angemeldet sind. Für reguläre Kunden bleibt die Anzeige unsichtbar.
 
-![Aktivierte Option „Widget-Zonen darstellen“ in der Konfiguration der Developer Tools](../../.gitbook/assets/screenshot.png)
+![Aktivierte Option „Widget-Zonen darstellen“ in der Konfiguration der Developer Tools](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
 
 {% hint style="info" %}
 Die Developer Tools müssen installiert und aktiviert sein, damit die Widget-Zonen im Frontend angezeigt werden können.
@@ -33,11 +33,11 @@ Seit Smartstore 5.1 werden die Widget-Zonen über ein eigenes Menü am rechten R
 
 Öffnen Sie das Widget-Zonen-Menü über das Ebenensymbol am rechten Rand des Browserfensters.
 
-![Shop-Frontend mit Schaltfläche zum Öffnen des Widget-Zonen-Menüs](../../.gitbook/assets/screenshot.png)
+![Shop-Frontend mit Schaltfläche zum Öffnen des Widget-Zonen-Menüs](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
 
 Das Menü enthält eine nach Seitenbereichen gegliederte Liste der Widget-Zonen, die auf der aktuell geöffneten Seite zur Verfügung stehen.
 
-![Geöffnetes Widget-Zonen-Menü mit den verfügbaren Zonen der aktuellen Seite](../../.gitbook/assets/screenshot.png)
+![Geöffnetes Widget-Zonen-Menü mit den verfügbaren Zonen der aktuellen Seite](../../.gitbook/assets/module_devtools_widgetzones_menu.png)
 
 Sie können das Menü folgendermaßen verwenden:
 
@@ -51,7 +51,7 @@ Sie können das Menü folgendermaßen verwenden:
 
 Mit der Tastenkombination **Alt + K** können Sie die Markierungen ebenfalls ein- und ausblenden.
 
-![Auf der Shopseite hervorgehobene Widget-Zone](../../.gitbook/assets/screenshot.png)
+![Auf der Shopseite hervorgehobene Widget-Zone](../../.gitbook/assets/module_devtools_widgetzones_menu_highlight.png)
 
 {% hint style="info" %}
 Das Menü zeigt die Widget-Zonen der aktuell geöffneten Seite. Wechseln Sie beispielsweise zwischen Startseite, Produktseite und Warengruppe, um die dort verfügbaren Positionen zu prüfen.
@@ -68,7 +68,7 @@ Eine Page-Builder-Story kann beispielsweise einer Produktseite als Ziel und eine
 
 Welche Widget-Zonen zur Auswahl stehen, hängt von der jeweiligen Seite, dem verwendeten Theme und der eingesetzten Funktion ab. Einige Plugins bestimmen ihre Widget-Zone automatisch.
 
-![Auswahl einer Zielseite und einer Widget-Zone](../../.gitbook/assets/screenshot.png)
+![Auswahl einer Zielseite und einer Widget-Zone](../../.gitbook/assets/module_pagebuilder_sidebar_widgetzone.png)
 
 ## Die passende Position auswählen
 
