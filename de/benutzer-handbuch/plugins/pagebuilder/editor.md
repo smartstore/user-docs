@@ -2,7 +2,7 @@
 
 Im Page-Builder-Editor gestalten Sie eine Story, verwalten ihre Blöcke und prüfen die Darstellung für unterschiedliche Bildschirmgrößen.
 
-![Page-Builder-Editor mit den wichtigsten Arbeitsbereichen](../../../.gitbook/assets/screenshot.png)
+![Page-Builder-Editor mit den wichtigsten Arbeitsbereichen](../../../.gitbook/assets/module_pagebuilder_story.png)
 
 ## Arbeitsbereiche im Überblick
 
@@ -30,7 +30,7 @@ Die Werkzeugleiste oberhalb der Story enthält die wichtigsten Aktionen.
 | **Vollbild** | Vergrößert den Editor auf die verfügbare Bildschirmfläche. |
 | **Löschen** | Löscht die Story nach Bestätigung. |
 
-![Werkzeugleiste des Page-Builder-Editors](../../../.gitbook/assets/screenshot.png)
+![Werkzeugleiste des Page-Builder-Editors](../../../.gitbook/assets/module_pagebuilder_toolbar.png)
 
 Für häufig verwendete Aktionen stehen Tastenkombinationen zur Verfügung:
 
@@ -57,7 +57,7 @@ Zur Verfügung stehen:
 - **Desktop**
 - **Desktop&plus;**
 
-![Device-Slider mit den sechs Bildschirmgrößen](../../../.gitbook/assets/screenshot.png)
+![Device-Slider mit den sechs Bildschirmgrößen](../../../.gitbook/assets/module_pagebuilder_device-slider.png)
 
 Der Page Builder arbeitet nach dem Mobile-First-Prinzip. Einstellungen einer kleineren Bildschirmgröße werden an die nächstgrößere Stufe weitergegeben, solange dort kein eigener Wert hinterlegt wurde.
 
@@ -81,7 +81,7 @@ Der Block-Manager befindet sich auf der rechten Seite der Arbeitsfläche und zei
 
 Bei einer breiten Arbeitsansicht kann die Seitenleiste den Block-Manager abhängig von der verfügbaren Bildschirmauflösung verdecken. Ziehen Sie in diesem Fall den Device-Slider nach links, um die Arbeitsfläche zu verkleinern und den Block-Manager wieder sichtbar zu machen.
 
-![Block-Manager mit mehreren Blöcken und ihren Aktionen](../../../.gitbook/assets/screenshot.png)
+![Block-Manager mit mehreren Blöcken und ihren Aktionen](../../../.gitbook/assets/module_pagebuilder_block-manager.png)
 
 Im Block-Manager können Sie:
 
@@ -90,7 +90,7 @@ Im Block-Manager können Sie:
 - einen Block kopieren oder löschen,
 - die Sichtbarkeit für die gewählte Bildschirmgröße festlegen.
 
-Die Darstellungsreihenfolge wird im Block-Manager von unten nach oben aufgebaut. Ein Block, der in der Liste weiter oben steht, liegt vor den darunter aufgeführten Blöcken. Der oberste Block ist somit **top-most** und wird bei einer Überlagerung im Vordergrund dargestellt.
+Die Darstellungsreihenfolge wird im Block-Manager von unten nach oben aufgebaut. Ein Block, der in der Liste weiter oben steht, liegt vor den darunter aufgeführten Blöcken. Der oberste Block wird bei einer Überlagerung im Vordergrund dargestellt.
 
 {% hint style="info" %}
 Werden im Block-Manager keine Blöcke angezeigt, obwohl die Story Blöcke enthält, laden Sie die Seite mit **Strg + F5** vollständig neu. Dadurch wird die Blockliste in den meisten Fällen wieder aufgebaut.

@@ -12,7 +12,7 @@ Picture, Gallery, Video, and Audio Player blocks access files in the Smartstore 
 
 For more information, see [Media Manager](../mediamanager.md) and [Managing files and folders](../mediamanager/files-and-folders.md).
 
-![Selecting media from a Page Builder block](../../../.gitbook/assets/screenshot.png)
+![Selecting media from a Page Builder block](../../../.gitbook/assets/module_pagebuilder_story_block.png)
 
 {% hint style="info" %}
 When exporting a story, its media can be included as associated resources. Nevertheless, check an imported story for missing files and invalid links.
@@ -24,7 +24,7 @@ Use the **Products**, **Categories**, and **Brands** blocks to include existing 
 
 Depending on the block, you can select entries and present them as a list, grid, or slider. Changes to the underlying catalog data are reflected in the output.
 
-![Configuring a Products block](../../../.gitbook/assets/screenshot.png)
+![Configuring a Products block](../../../.gitbook/assets/module_pagebuilder_block_products.png)
 
 ## Binding content to catalog data
 
@@ -40,7 +40,7 @@ To configure data binding:
 4. Apply the data binding. Matching block properties are populated with the intended placeholders.
 5. Save the block and check the result in Preview mode.
 
-![Binding a block to a catalog entity](../../../.gitbook/assets/screenshot.png)
+![Binding a block to a catalog entity](../../../.gitbook/assets/module_pagebuilder_block_tab_databinding.png)
 
 ## Rendering stories in widget zones
 

@@ -2,7 +2,7 @@
 
 In the Page Builder editor, you design a story, manage its blocks, and check its appearance at different screen sizes.
 
-![Page Builder editor with its main work areas](../../../.gitbook/assets/screenshot.png)
+![Page Builder editor with its main work areas](../../../.gitbook/assets/module_pagebuilder_story.png)
 
 ## Work areas at a glance
 
@@ -30,7 +30,7 @@ The toolbar above the story contains the main actions.
 | **Full screen** | Enlarges the editor to use the available screen area. |
 | **Delete** | Deletes the story after confirmation. |
 
-![Page Builder editor toolbar](../../../.gitbook/assets/screenshot.png)
+![Page Builder editor toolbar](../../../.gitbook/assets/module_pagebuilder_toolbar.png)
 
 Keyboard shortcuts are available for frequently used actions:
 
@@ -57,7 +57,7 @@ The following sizes are available:
 - **Desktop**
 - **Desktop&plus;**
 
-![Device slider with the six screen sizes](../../../.gitbook/assets/screenshot.png)
+![Device slider with the six screen sizes](../../../.gitbook/assets/module_pagebuilder_device-slider.png)
 
 The Page Builder follows the mobile-first principle. Settings from a smaller screen size are passed to the next larger level unless a separate value has been configured there.
 
@@ -81,7 +81,7 @@ The Block Manager is located on the right side of the workspace and displays all
 
 At wide workspace sizes, the sidebar may cover the Block Manager depending on the available screen resolution. In this case, drag the device slider to the left to reduce the workspace size and make the Block Manager visible again.
 
-![Block Manager with multiple blocks and their actions](../../../.gitbook/assets/screenshot.png)
+![Block Manager with multiple blocks and their actions](../../../.gitbook/assets/module_pagebuilder_block-manager.png)
 
 In the Block Manager, you can:
 
@@ -90,7 +90,7 @@ In the Block Manager, you can:
 - copy or delete a block,
 - configure visibility for the selected screen size.
 
-The display order in the Block Manager is built from bottom to top. A block that appears higher in the list is placed in front of the blocks below it. The first block is therefore **top-most** and appears in the foreground when blocks overlap.
+The display order in the Block Manager is built from bottom to top. A block that appears higher in the list is placed in front of the blocks below it. The block at the top of the list is therefore the **topmost block** and appears in the foreground when blocks overlap.
 
 {% hint style="info" %}
 If the Block Manager does not display any blocks even though the story contains blocks, reload the page completely using **Ctrl + F5**. In most cases, this rebuilds the block list.

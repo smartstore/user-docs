@@ -12,7 +12,7 @@ Welche Blöcke zur Auswahl stehen, hängt von den installierten und lizenzierten
 4. Klicken Sie auf **Bearbeiten** oder auf das Zahnrad-Icon, um seine inhaltlichen Einstellungen zu öffnen.
 5. Speichern Sie die Story.
 
-![Auswahl der verfügbaren Blöcke im Page-Builder-Editor](../../../.gitbook/assets/screenshot.png)
+![Auswahl der verfügbaren Blöcke im Page-Builder-Editor](../../../.gitbook/assets/module_pagebuilder_blocks.png)
 
 {% hint style="info" %}
 Eine neu angelegte Story muss zuerst gespeichert werden, bevor Sie Blöcke hinzufügen können.
@@ -141,7 +141,7 @@ Klicken Sie einen Block auf der Arbeitsfläche an. Der ausgewählte Block wird h
 
 Alternativ wählen Sie den Block im Block-Manager aus. Das ist besonders hilfreich, wenn sich mehrere Blöcke überlagern.
 
-![Ausgewählter Block mit verfügbaren Aktionen](../../../.gitbook/assets/screenshot.png)
+![Ausgewählter Block mit verfügbaren Aktionen](../../../.gitbook/assets/module_pagebuilder_block-manager.png)
 
 Je nach Block stehen folgende Aktionen zur Verfügung:
 

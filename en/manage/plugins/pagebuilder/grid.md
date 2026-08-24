@@ -2,7 +2,7 @@
 
 The grid is the foundation of a story. It divides the workspace into rows and columns in which you can place and align blocks.
 
-![Story with a visible grid and multiple blocks](../../../.gitbook/assets/screenshot.png)
+![Story with a visible grid and multiple blocks](../../../.gitbook/assets/module_pagebuilder_story_grid.png)
 
 ## Building the grid
 
@@ -15,7 +15,7 @@ When you select a row or column, the corresponding grid tools appear. You can us
 - insert a row above or below,
 - delete a row.
 
-![Grid tools for inserting and deleting rows and columns](../../../.gitbook/assets/screenshot.png)
+![Grid tools for inserting and deleting rows and columns](../../../.gitbook/assets/module_pagebuilder_grid_tools.png)
 
 {% hint style="warning" %}
 Before deleting a row or column, check which blocks it contains. Changing the structure can affect the position or size of existing blocks.
@@ -70,7 +70,7 @@ The grid distinguishes between the outer container and the content container:
 
 For example, a background can extend across the full width of the page while the content remains within the regular store width.
 
-![Story with a full-width background and restricted content container](../../../.gitbook/assets/screenshot.png)
+![Story with a full-width background and restricted content container](../../../.gitbook/assets/module_pagebuilder_story_fullwidth_background.png)
 
 ### Distributing content in the grid
 
@@ -95,7 +95,9 @@ The row and column structure applies to the entire story. The position, size, al
 
 Start with the mobile layout. Then move step by step through the larger screen sizes and make only the adjustments required at each level.
 
-![Comparison of a story in mobile and desktop layouts](../../../.gitbook/assets/screenshot.png)
+![Mobile layout](../../../.gitbook/assets/module_pagebuilder_story_layout_mobile.png)
+
+![Desktop layout](../../../.gitbook/assets/module_pagebuilder_story_layout_desktop.png)
 
 Settings are passed from a smaller screen size to the next larger one unless a separate value has been configured there. A later change to the mobile layout therefore does not automatically overwrite values that were explicitly set for Desktop.
 

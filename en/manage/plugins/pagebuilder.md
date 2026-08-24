@@ -12,7 +12,7 @@ The available blocks and features depend on the plugins that are installed.
 
 Content created with the Page Builder is called a **story**. A story can be a single teaser, a larger page section, or a complete landing page.
 
-Stories consist of **blocks**. Each block contains a specific type of content, such as text, an image, a video, or a product list. For an overview, see [Blocks](pagebuilder/blocks.md).
+Stories consist of **blocks**. Each block contains a specific type of content, such as text, an image, a video, or a product list. For an overview, see [Using blocks](pagebuilder/blocks.md).
 
 The positions and sizes of blocks are controlled using a **grid**. For more information, see [Working with the grid](pagebuilder/grid.md).
 
@@ -22,7 +22,7 @@ In the backend, go to **CMS** &rarr; **Page Builder**.
 
 The overview displays the existing stories. From here, you can create new stories and open, duplicate, or manage existing content.
 
-![Overview of existing stories in the Page Builder](../../.gitbook/assets/module_pagebuilder_overview.png)
+![Overview of existing stories in the Page Builder](../../.gitbook/assets/module_pagebuilder_overview_stories.png)
 
 ## Creating a story
 
@@ -40,23 +40,23 @@ We recommend starting with an existing template. Replace the included text and i
 
 ## Getting to know the user interface
 
-In the editor, you modify the structure, content, and appearance of your story.
+In the Page Builder editor, you modify the structure, content, and appearance of your story.
 
 The main areas include:
 
-- the workspace with the grid,
-- the toolbox with blocks and settings,
-- the overview of blocks used in the story,
-- the screen-size selector,
-- the controls for saving and displaying the preview.
+- the **toolbar** with the general actions,
+- the **device slider** for selecting the screen size,
+- the **workspace** containing the grid,
+- the **Block Manager** containing the blocks used in the story,
+- the **sidebar** with the **Layout**, **Background**, and **Blocks** areas.
 
-![Page Builder editor with workspace, toolbox, and controls](../../.gitbook/assets/module_pagebuilder_story.png)
+![Page Builder editor with toolbar, device slider, workspace, Block Manager, and sidebar](../../.gitbook/assets/module_pagebuilder_story.png)
 
 For a detailed description of the workspace, see [User interface](pagebuilder/editor.md).
 
 ## Adding content
 
-Open the available block selection in the toolbox. Then drag the desired block to an empty position in the grid.
+Open **Blocks** in the **sidebar**. Then drag the desired block to an empty position in the grid.
 
 To edit a block:
 
@@ -68,7 +68,7 @@ To edit a block:
 
 ![Selected block with its settings open](../../.gitbook/assets/module_pagebuilder_story_block.png)
 
-Depending on the block, you can format text, select images, assemble products, or embed videos. For information about the available block types and their main settings, see [Blocks](pagebuilder/blocks.md).
+Depending on the block, you can format text, select images, assemble products, or embed videos. For information about the available block types and their main settings, see [Using blocks](pagebuilder/blocks.md).
 
 Images, videos, and other files are selected using the [Media Manager](mediamanager.md). For information about uploading and organizing your own files, see [Managing files and folders](mediamanager/files-and-folders.md).
 
@@ -134,7 +134,7 @@ For an overview of supported extensions and how to use them, see [Integrations](
 ## Further documentation
 
 - [User interface](pagebuilder/editor.md)
-- [Blocks](pagebuilder/blocks.md)
+- [Using blocks](pagebuilder/blocks.md)
 - [Working with the grid](pagebuilder/grid.md)
 - [Integrations](pagebuilder/integrations.md)
 - [Widget zones](../content-management/widget-zones.md)

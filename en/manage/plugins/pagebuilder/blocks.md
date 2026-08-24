@@ -12,7 +12,7 @@ The available blocks depend on the plugins that are installed and licensed.
 4. Click **Edit** or the gear icon to open its content settings.
 5. Save the story.
 
-![Available blocks in the Page Builder editor](../../../.gitbook/assets/screenshot.png)
+![Available blocks in the Page Builder editor](../../../.gitbook/assets/module_pagebuilder_blocks.png)
 
 {% hint style="info" %}
 A newly created story must be saved before you can add blocks.
@@ -141,7 +141,7 @@ Click a block in the workspace. The selected block is highlighted and can be edi
 
 Alternatively, select the block in the Block Manager. This is particularly helpful when several blocks overlap.
 
-![Selected block with its available actions](../../../.gitbook/assets/screenshot.png)
+![Selected block with its available actions](../../../.gitbook/assets/module_pagebuilder_block-manager.png)
 
 Depending on the block, the following actions are available:
 

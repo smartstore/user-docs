@@ -12,7 +12,7 @@ Bild-, Galerie-, Video- und Audio-Blöcke greifen auf Dateien aus dem Smartstore
 
 Weitere Informationen finden Sie unter [Medien-Manager](../mediamanager.md) und [Dateien und Ordner verwalten](../mediamanager/files-and-folders.md).
 
-![Medienauswahl aus einem Page-Builder-Block](../../../.gitbook/assets/screenshot.png)
+![Medienauswahl aus einem Page-Builder-Block](../../../.gitbook/assets/module_pagebuilder_story_block.png)
 
 {% hint style="info" %}
 Beim Export einer Story können die von ihr verwendeten Medien als zugehörige Ressourcen berücksichtigt werden. Prüfen Sie eine importierte Story trotzdem auf fehlende Dateien und ungültige Verknüpfungen.
@@ -24,7 +24,7 @@ Mit den Blöcken **Produktliste**, **Warengruppen** und **Herstellerliste** bind
 
 Je nach Block können Sie Einträge auswählen und die Ausgabe beispielsweise als Liste, Raster oder Slider gestalten. Änderungen an den zugrunde liegenden Katalogdaten werden bei der Ausgabe berücksichtigt.
 
-![Konfiguration eines Produktlisten-Blocks](../../../.gitbook/assets/screenshot.png)
+![Konfiguration eines Produktlisten-Blocks](../../../.gitbook/assets/module_pagebuilder_block_products.png)
 
 ## Inhalte an Katalogdaten binden
 
@@ -40,7 +40,7 @@ Gehen Sie folgendermaßen vor:
 4. Übernehmen Sie die Datenbindung. Dabei werden passende Blockeigenschaften mit den vorgesehenen Platzhaltern belegt.
 5. Speichern Sie den Block und prüfen Sie das Ergebnis im Vorschaumodus.
 
-![Datenbindung eines Blocks an einen Katalogeintrag](../../../.gitbook/assets/screenshot.png)
+![Datenbindung eines Blocks an einen Katalogeintrag](../../../.gitbook/assets/module_pagebuilder_block_tab_databinding.png)
 
 ## Storys über Widget-Zonen ausgeben
 

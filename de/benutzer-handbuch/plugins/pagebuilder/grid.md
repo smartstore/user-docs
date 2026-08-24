@@ -2,7 +2,7 @@
 
 Das Raster bildet die Grundlage einer Story. Es unterteilt die Arbeitsfläche in Zeilen und Spalten, in denen Sie Blöcke platzieren und ausrichten.
 
-![Story mit sichtbarem Raster und mehreren Blöcken](../../../.gitbook/assets/screenshot.png)
+![Story mit sichtbarem Raster und mehreren Blöcken](../../../.gitbook/assets/module_pagebuilder_story_grid.png)
 
 ## Raster aufbauen
 
@@ -15,7 +15,7 @@ Wenn Sie eine Zeile oder Spalte auswählen, erscheinen die zugehörigen Rasterwe
 - eine Zeile oberhalb oder unterhalb einfügen,
 - eine Zeile löschen.
 
-![Rasterwerkzeuge zum Einfügen und Löschen von Zeilen und Spalten](../../../.gitbook/assets/screenshot.png)
+![Rasterwerkzeuge zum Einfügen und Löschen von Zeilen und Spalten](../../../.gitbook/assets/module_pagebuilder_grid_tools.png)
 
 {% hint style="warning" %}
 Prüfen Sie vor dem Löschen einer Zeile oder Spalte, welche Blöcke darin liegen. Eine Strukturänderung kann die Position oder Größe vorhandener Blöcke beeinflussen.
@@ -70,7 +70,7 @@ Das Raster unterscheidet zwischen dem äußeren Container und dem Inhaltscontain
 
 Dadurch kann sich beispielsweise ein Hintergrund über die gesamte Seitenbreite erstrecken, während die Inhalte innerhalb der normalen Shopbreite bleiben.
 
-![Story mit vollflächigem Hintergrund und begrenztem Inhaltscontainer](../../../.gitbook/assets/screenshot.png)
+![Story mit vollflächigem Hintergrund und begrenztem Inhaltscontainer](../../../.gitbook/assets/module_pagebuilder_story_fullwidth_background.png)
 
 ### Inhalte im Raster verteilen
 
@@ -95,7 +95,9 @@ Die Struktur aus Zeilen und Spalten gilt für die gesamte Story. Position, Grö�
 
 Beginnen Sie mit der mobilen Darstellung. Wechseln Sie danach schrittweise zu den größeren Bildschirmgrößen und nehmen Sie nur die jeweils notwendigen Anpassungen vor.
 
-![Vergleich einer Story in mobiler und Desktop-Darstellung](../../../.gitbook/assets/screenshot.png)
+![Mobile-Darstellung](../../../.gitbook/assets/module_pagebuilder_story_layout_mobile.png)
+
+![Desktop-Darstellung](../../../.gitbook/assets/module_pagebuilder_story_layout_desktop.png)
 
 Einstellungen werden von einer kleineren Bildschirmgröße an die nächstgrößere weitergegeben, solange dort keine eigene Einstellung hinterlegt wurde. Eine spätere Änderung an der mobilen Ansicht überschreibt deshalb nicht automatisch Werte, die für Desktop bereits ausdrücklich gesetzt wurden.
 

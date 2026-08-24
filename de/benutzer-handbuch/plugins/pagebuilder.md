@@ -12,7 +12,7 @@ Welche Blöcke und Funktionen zur Verfügung stehen, hängt von den installierte
 
 Ein mit dem Page Builder erstellter Inhalt wird als **Story** bezeichnet. Eine Story kann einen einzelnen Teaser, einen größeren Seitenabschnitt oder eine vollständige Landingpage bilden.
 
-Stories bestehen aus **Blöcken**. Jeder Block enthält einen bestimmten Inhalt, zum Beispiel einen Text, ein Bild, ein Video oder eine Produktliste. Eine Übersicht finden Sie unter [Blöcke](pagebuilder/blocks.md).
+Stories bestehen aus **Blöcken**. Jeder Block enthält einen bestimmten Inhalt, zum Beispiel einen Text, ein Bild, ein Video oder eine Produktliste. Eine Übersicht finden Sie unter [Blöcke verwenden](pagebuilder/blocks.md).
 
 Die Positionen und Größen der Blöcke werden über ein **Raster** gesteuert. Weitere Informationen dazu finden Sie unter [Mit dem Raster arbeiten](pagebuilder/grid.md).
 
@@ -22,7 +22,7 @@ Die Positionen und Größen der Blöcke werden über ein **Raster** gesteuert. W
 
 Die Übersicht zeigt die vorhandenen Stories. Hier können Sie neue Stories erstellen und bestehende Inhalte öffnen, duplizieren oder verwalten.
 
-![Übersicht der vorhandenen Stories im Page Builder](../../.gitbook/assets/module_pagebuilder_overview.png)
+![Übersicht der vorhandenen Stories im Page Builder](../../.gitbook/assets/module_pagebuilder_overview_stories.png)
 
 ## Eine Story erstellen
 
@@ -40,23 +40,23 @@ Für den Einstieg empfiehlt sich eine vorhandene Vorlage. Ersetzen Sie zunächst
 
 ## Benutzeroberfläche kennenlernen
 
-Im Editor bearbeiten Sie den Aufbau, die Inhalte und die Darstellung Ihrer Story.
+Im Page-Builder-Editor bearbeiten Sie den Aufbau, die Inhalte und die Darstellung Ihrer Story.
 
 Zu den wichtigsten Bereichen gehören:
 
-- die Arbeitsfläche mit dem Raster,
-- die Toolbox mit Blöcken und Einstellungen,
-- die Übersicht der verwendeten Blöcke,
-- die Auswahl der Bildschirmgröße,
-- die Steuerelemente zum Speichern und Anzeigen der Vorschau.
+- die **Werkzeugleiste** mit den allgemeinen Aktionen,
+- der **Device-Slider** zur Auswahl der Bildschirmgröße,
+- die **Arbeitsfläche** mit dem Raster,
+- der **Block-Manager** mit den verwendeten Blöcken,
+- die **Seitenleiste** mit den Bereichen **Layout**, **Hintergrund** und **Blöcke**.
 
-![Page-Builder-Editor mit Arbeitsfläche, Toolbox und Steuerelementen](../../.gitbook/assets/module_pagebuilder_story.png)
+![Page-Builder-Editor mit Werkzeugleiste, Device-Slider, Arbeitsfläche, Block-Manager und Seitenleiste](../../.gitbook/assets/module_pagebuilder_story.png)
 
 Eine ausführlichere Beschreibung der Arbeitsbereiche finden Sie unter [Benutzeroberfläche](pagebuilder/editor.md).
 
 ## Inhalte hinzufügen
 
-Öffnen Sie in der Toolbox die Auswahl der verfügbaren Blöcke. Ziehen Sie den gewünschten Block anschließend an eine freie Position im Raster.
+Öffnen Sie in der **Seitenleiste** den Bereich **Blöcke**. Ziehen Sie den gewünschten Block anschließend an eine freie Position im Raster.
 
 So bearbeiten Sie einen Block:
 
@@ -68,7 +68,7 @@ So bearbeiten Sie einen Block:
 
 ![Ausgewählter Block mit geöffneten Einstellungen](../../.gitbook/assets/module_pagebuilder_story_block.png)
 
-Je nach Block können Sie beispielsweise Texte formatieren, Bilder auswählen, Produkte zusammenstellen oder Videos einbinden. Informationen zu den verfügbaren Blocktypen und ihren wichtigsten Einstellungen finden Sie unter [Blöcke](pagebuilder/blocks.md).
+Je nach Block können Sie beispielsweise Texte formatieren, Bilder auswählen, Produkte zusammenstellen oder Videos einbinden. Informationen zu den verfügbaren Blocktypen und ihren wichtigsten Einstellungen finden Sie unter [Blöcke verwenden](pagebuilder/blocks.md).
 
 Bilder, Videos und andere Dateien werden über den [Medien-Manager](mediamanager.md) ausgewählt. Hinweise zum Hochladen und Organisieren eigener Dateien finden Sie unter [Dateien und Ordner verwalten](mediamanager/files-and-folders.md).
 
@@ -134,7 +134,7 @@ Eine Übersicht der unterstützten Erweiterungen und ihrer Verwendung finden Sie
 ## Weiterführende Dokumentation
 
 - [Benutzeroberfläche](pagebuilder/editor.md)
-- [Blöcke](pagebuilder/blocks.md)
+- [Blöcke verwenden](pagebuilder/blocks.md)
 - [Mit dem Raster arbeiten](pagebuilder/grid.md)
 - [Integrationen](pagebuilder/integrations.md)
 - [Widget-Zonen](../content-management/widget-zonen.md)
