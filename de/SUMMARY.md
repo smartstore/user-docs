@@ -164,6 +164,7 @@
     * [Ollama](benutzer-handbuch/plugins/ai-provider/ollama.md)
     * [OpenAI ChatGPT](benutzer-handbuch/plugins/ai-provider/openai-chatgpt.md)
   * [AttributeRules (Regeln für Produktattribute)](benutzer-handbuch/plugins/attributerules-regeln-fur-produktattribute.md)
+  * [Blog](benutzer-handbuch/plugins/blog.md)
   * [Content Slider](benutzer-handbuch/plugins/content-slider.md)
   * [DependingPrices](benutzer-handbuch/plugins/dependingprices.md)
   * [DSGVO](benutzer-handbuch/plugins/dsgvo.md)

@@ -164,6 +164,7 @@
     * [Ollama](manage/plugins/ai-provider/ollama.md)
     * [OpenAI ChatGPT](manage/plugins/ai-provider/openai-chatgpt.md)
   * [Attribute Rules](manage/plugins/attribute-rules.md)
+  * [Blog](manage/plugins/blog.md)
   * [Content Slider](manage/plugins/content-slider.md)
   * [DependingPrices](manage/plugins/dependingprices.md)
   * [DSGVO](manage/plugins/dsgvo.md)
