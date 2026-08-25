@@ -1,6 +1,6 @@
 # AI
 
-Das AI Plugin ![](../../.gitbook/assets/icon.png) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
+Das AI Plugin ![](../../.gitbook/assets/icon.png) arbeitet mit einem AI Provider (z.B. [OpenAI ChatGPT](ai-provider/openai-chatgpt.md)) zusammen und bietet viele Möglichkeiten, Inhalte neu zu erstellen oder umzugestalten.
 
 {% hint style="info" %}
 **Hinweise:**
@@ -10,6 +10,22 @@ Das AI Plugin ![](../../.gitbook/assets/icon.png) arbeitet mit einem AI Provider
 3. Die Massenbearbeitung von Inhalten wird aus folgenden Gründen nicht unterstützt:
    * Der Inhalt muss immer vom Benutzer überprüft werden.
    * Die Leistung würde stark reduziert werden.
+{% endhint %}
+
+## AI-Provider auswählen und einrichten
+
+Das AI-Plugin stellt die Funktionen und Dialoge bereit. Für die Verbindung zu einem KI-Dienst muss zusätzlich mindestens ein Provider-Plugin installiert und konfiguriert sein.
+
+| **Provider** | **Text und Übersetzung** | **Bilder erstellen** | **Bilder analysieren** | **Verbindung** |
+| --- | --- | --- | --- | --- |
+| [Anthropic Claude](ai-provider/anthropic-claude.md) | Ja | Nein | Ja | API-Key |
+| [DeepSeek](ai-provider/deepseek.md) | Ja | Nein | Nein | API-Key |
+| [Google Gemini](ai-provider/google-gemini.md) | Ja | Ja | Ja | API-Key |
+| [Ollama](ai-provider/ollama.md) | Ja, modellabhängig | Nein | Modellabhängig | Ollama-Instanz |
+| [OpenAI ChatGPT](ai-provider/openai-chatgpt.md) | Ja | Ja | Ja | API-Key |
+
+{% hint style="info" %}
+Die Einrichtung, das Nachladen der Modelle, der Verbindungstest und providerspezifische Hinweise sind auf der jeweiligen Providerseite beschrieben.
 {% endhint %}
 
 ## Überblick der verschiedenen Dialoge
@@ -124,7 +140,7 @@ Bei der Generierung von Bildern wird die Sidebar mit optionalen Einstellungsmög
 
 ![Modelle des AI-Providers](../../.gitbook/assets/Prompt_ModelChoice.PNG)
 
-Wenn Sie auf die Modelauswahl klicken (oben rechts), wird eine Auflistung aller AI-Modelle angezeigt, die für den aktuellen Dialog verwendet werden können. Diese können Sie in der Konfiguration des Providers (z.B. [ChatGPT](openai-chatgpt.md)) bearbeiten.
+Wenn Sie auf die Modelauswahl klicken (oben rechts), wird eine Auflistung aller AI-Modelle angezeigt, die für den aktuellen Dialog verwendet werden können. Welche Modelle verfügbar sind, hängt von den installierten und konfigurierten Providern ab. Hinweise zur Auswahl und Einrichtung finden Sie in der [Providerübersicht](ai.md#ai-provider-auswählen-und-einrichten).
 
 #### Promptleiste
 
@@ -186,6 +202,8 @@ Anwendungsbeispiel: - Hinzufügen einer Tabelle mit wichtigen Merkmalen - Person
 | Tags erzeugen                       | Bestimmt, ob Tags zur besseren Auffindbarkeit im Medien-Manager erzeugen werden sollen. |
 | Anzahl der Tags                     |                                                                                         |
 | Bilder berücksichtigen für          | Bestimmt die Typen, für die Bilder beim Upload verarbeitet werden.                      |
+
+Für diese Funktion ist ein Provider erforderlich, der die Bildanalyse unterstützt. Geeignete Provider finden Sie in der [Providerübersicht](ai.md#ai-provider-auswählen-und-einrichten).
 
 {% hint style="warning" %}
 Wenn die Option ‘Metadaten bei Bild-Upload erstellen’ aktiviert ist, wird das Bild beim Upload durch die KI analysiert.

@@ -1,6 +1,6 @@
 # AI
 
-The AI Plugin  works with an AI Provider (e.g. [OpenAI ChatGPT](openai-chatgpt.md)) and offers many possibilities to create new content or restructure existing content.
+The AI Plugin works with an AI Provider (e.g. [OpenAI ChatGPT](ai-provider/openai-chatgpt.md)) and offers many possibilities to create new content or restructure existing content.
 
 {% hint style="info" %}
 **Notes:**
@@ -10,6 +10,22 @@ The AI Plugin  works with an AI Provider (e.g. [OpenAI ChatGPT](openai-chatgpt.m
 3. Bulk editing of content is not supported for the following reasons:
    * The content must always be reviewed by the user.
    * Performance would be severely reduced.
+{% endhint %}
+
+## Selecting and Configuring an AI Provider
+
+The AI plugin provides the features and dialogs. To connect to an AI service, at least one provider plugin must also be installed and configured.
+
+| **Provider** | **Text and translation** | **Generate images** | **Analyze images** | **Connection** |
+| --- | --- | --- | --- | --- |
+| [Anthropic Claude](ai-provider/anthropic-claude.md) | Yes | No | Yes | API key |
+| [DeepSeek](ai-provider/deepseek.md) | Yes | No | No | API key |
+| [Google Gemini](ai-provider/google-gemini.md) | Yes | Yes | Yes | API key |
+| [Ollama](ai-provider/ollama.md) | Yes, depending on the model | No | Depending on the model | Ollama instance |
+| [OpenAI ChatGPT](ai-provider/openai-chatgpt.md) | Yes | Yes | Yes | API key |
+
+{% hint style="info" %}
+Setup, model reloading, connection testing, and provider-specific information are documented on the respective provider page.
 {% endhint %}
 
 ## Overview of the Different Dialogs
@@ -137,7 +153,7 @@ Missing screenshot
 Missing screenshot
 {% endhint %}
 
-When you click on the model selection (top right), a list of all AI models that can be used for the current dialog is displayed. You can edit these in the configuration of the provider (e.g., [ChatGPT](openai-chatgpt.md)).
+When you click on the model selection (top right), a list of all AI models that can be used for the current dialog is displayed. The available models depend on the providers that are installed and configured. For selection and setup guidance, see the [provider overview](ai.md#selecting-and-configuring-an-ai-provider).
 
 #### Prompt Bar
 
@@ -220,6 +236,8 @@ Missing screenshot
 | Generate tags                   | Determines whether tags should be generated for better findability in the Media Manager. |
 | Number of tags                  |                                                                                          |
 | Consider images for             | Determines the types for which images are processed during upload.                       |
+
+This feature requires a provider that supports image analysis. See the [provider overview](ai.md#selecting-and-configuring-an-ai-provider) for suitable providers.
 
 {% hint style="warning" %}
 If the option ‘Create metadata on image upload’ is activated, the image is analyzed by the AI upon upload.
