@@ -169,6 +169,7 @@
   * [DependingPrices](benutzer-handbuch/plugins/dependingprices.md)
   * [DSGVO](benutzer-handbuch/plugins/dsgvo.md)
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins/warranty.md)
+  * [Legacy URL Rewriter](verwalten/plugins/legacy-url-rewriter.md)
   * [Medien-Manager](benutzer-handbuch/plugins/mediamanager.md)
     * [Dateien und Ordner verwalten](benutzer-handbuch/plugins/mediamanager/files-and-folders.md)
     * [Dateiinformationen und Metadaten pflegen](benutzer-handbuch/plugins/mediamanager/metadata.md)
