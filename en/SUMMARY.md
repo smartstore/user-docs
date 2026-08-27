@@ -168,6 +168,7 @@
   * [Content Slider](manage/plugins/content-slider.md)
   * [DependingPrices](manage/plugins/dependingprices.md)
   * [DSGVO](manage/plugins/dsgvo.md)
+  * [GeoBlocker](manage/plugins/geoblocker.md)
   * [Media Manager](manage/plugins/mediamanager.md)
     * [Managing Files and Folders](manage/plugins/mediamanager/files-and-folders.md)
     * [Managing File Information and Metadata](manage/plugins/mediamanager/metadata.md)
