@@ -167,6 +167,7 @@
   * [Blog](benutzer-handbuch/plugins/blog.md)
   * [Content Slider](benutzer-handbuch/plugins/content-slider.md)
   * [DependingPrices](benutzer-handbuch/plugins/dependingprices.md)
+  * [DirectOrder](benutzer-handbuch/plugins/directorder.md)
   * [DSGVO](benutzer-handbuch/plugins/dsgvo.md)
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins/warranty.md)
   * [GeoBlocker](benutzer-handbuch/plugins/geoblocker.md)
