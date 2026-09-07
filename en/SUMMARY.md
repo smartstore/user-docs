@@ -169,6 +169,7 @@
   * [DependingPrices](manage/plugins/dependingprices.md)
   * [DirectOrder](manage/plugins/directorder.md)
   * [DSGVO](manage/plugins/dsgvo.md)
+  * [File Manager](manage/plugins/filemanager.md)
   * [GeoBlocker](manage/plugins/geoblocker.md)
   * [Media Manager](manage/plugins/mediamanager.md)
     * [Managing Files and Folders](manage/plugins/mediamanager/files-and-folders.md)

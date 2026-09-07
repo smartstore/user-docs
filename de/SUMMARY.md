@@ -170,6 +170,7 @@
   * [DirectOrder](benutzer-handbuch/plugins/directorder.md)
   * [DSGVO](benutzer-handbuch/plugins/dsgvo.md)
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins/warranty.md)
+  * [File Manager](benutzer-handbuch/plugins/filemanager.md)
   * [GeoBlocker](benutzer-handbuch/plugins/geoblocker.md)
   * [Legacy URL Rewriter](verwalten/plugins/legacy-url-rewriter.md)
   * [Medien-Manager](benutzer-handbuch/plugins/mediamanager.md)
