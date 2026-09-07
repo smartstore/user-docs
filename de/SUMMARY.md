@@ -172,7 +172,7 @@
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins/warranty.md)
   * [File Manager](benutzer-handbuch/plugins/filemanager.md)
   * [GeoBlocker](benutzer-handbuch/plugins/geoblocker.md)
-  * [Legacy URL Rewriter](verwalten/plugins/legacy-url-rewriter.md)
+  * [LegacyUrlRewriter](benutzer-handbuch/plugins/legacyurlrewriter.md)
   * [Medien-Manager](benutzer-handbuch/plugins/mediamanager.md)
     * [Dateien und Ordner verwalten](benutzer-handbuch/plugins/mediamanager/files-and-folders.md)
     * [Dateiinformationen und Metadaten pflegen](benutzer-handbuch/plugins/mediamanager/metadata.md)
