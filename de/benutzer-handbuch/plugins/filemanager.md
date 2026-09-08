@@ -31,7 +31,7 @@ Auf der Konfigurationsseite legen Sie die standardmäßige [Darstellung der Doku
 | Darstellung | Beschreibung |
 | --- | --- |
 | **Details** | Kompakte Listenansicht mit Dateiname, Dateigröße und Änderungsdatum |
-| **Thumbnails** | Vorschauorientierte Darstellung, in der Dateigröße und Änderungsdatum ausgeblendet werden |
+| **Miniaturansichten** | Vorschauorientierte Darstellung, in der Dateigröße und Änderungsdatum ausgeblendet werden |
 | **Kacheln** | Kacheldarstellung mit Datei-Icon und zusätzlichen Dateiinformationen |
 
 Diese Einstellung dient als Standardwert. Die Darstellung kann später für jeden Dokument-Tab individuell festgelegt werden.
@@ -122,10 +122,10 @@ Informationen zur Bedienung des Editors finden Sie unter [HTML-Inhalte bearbeite
 Wählen Sie aus, wie die Dokumente innerhalb dieses Tabs angezeigt werden sollen:
 
 - Details
-- Thumbnails
+- Miniaturansichten
 - Kacheln
 
-Die Einstellung gilt nur für den aktuellen Tab. Dadurch können Sie beispielsweise technische Dokumente als Detailansicht und Broschüren als Thumbnailübersicht darstellen.
+Die Einstellung gilt nur für den aktuellen Tab. Dadurch können Sie beispielsweise technische Dokumente als Detailansicht und Broschüren als Miniaturansichten darstellen.
 
 ## Sprachen und Übersetzungen verwenden
 
@@ -222,7 +222,7 @@ Vollständig leere Tabs werden nicht angezeigt.
 | Darstellung | Vorschau |
 | --- | --- |
 | **Details** | ![File-Manager-Dokumentliste in der Detailansicht](../../.gitbook/assets/module_filemanager_listview_details.png) |
-| **Thumbnails** | ![File-Manager-Dokumentliste in der Thumbnailansicht](../../.gitbook/assets/module_filemanager_listview_thumbnails.png) |
+| **Miniaturansichten** | ![File-Manager-Dokumentliste in der Miniaturansicht](../../.gitbook/assets/module_filemanager_listview_thumbnails.png) |
 | **Kacheln** | ![File-Manager-Dokumentliste in der Kachelansicht](../../.gitbook/assets/module_filemanager_listview_tiles.png) |
 
 Je nach gewählter Darstellung werden unter anderem folgende Informationen angezeigt:
