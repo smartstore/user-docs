@@ -192,6 +192,7 @@
   * [Produktsicherheitsverordnung (GPSR)](benutzer-handbuch/plugins/produktsicherheitsverordnung-gpsr.md)
   * [TinyImage](benutzer-handbuch/plugins/tinyimage.md)
   * [UrlRewriter](benutzer-handbuch/plugins/urlrewriter.md)
+  * [Web API](benutzer-handbuch/plugins/webapi.md)
   * [Widerruf](benutzer-handbuch/plugins/withdrawal.md)
 * [Datenaustausch](handbuch/datenaustausch/README.md)
   * [Exportprofile verwalten](benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md)

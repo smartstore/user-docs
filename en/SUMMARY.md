@@ -191,6 +191,7 @@
   * [Product Safety Regulation (GPSR)](manage/plugins/product-safety-regulation-gpsr.md)
   * [TinyImage](manage/plugins/tinyimage.md)
   * [UrlRewriter](manage/plugins/urlrewriter.md)
+  * [Web API](manage/plugins/webapi.md)
   * [Warranty](manage/plugins/warranty.md)
   * [Withdrawal](manage/plugins/withdrawal.md)
 * [Data Exchange](manage/data-exchange/README.md)
