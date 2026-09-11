@@ -14,11 +14,15 @@ Die Widget-Zonen selbst sind für Kunden nicht sichtbar.
 
 Aktivieren Sie in den Developer Tools die Einstellung **Widget-Zonen darstellen**, um die verfügbaren Positionen im Shop-Frontend sichtbar zu machen. Die Anzeige ist bei regulären Shopaufrufen auf angemeldete Administratoren beschränkt.
 
+![Aktivierte Option „Widget-Zonen darstellen“ in der Konfiguration der Developer Tools](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
+
 Eine Anleitung zur Aktivierung finden Sie unter [Developer Tools](../plugins/devtools.md#anzeige-der-widget-zonen-aktivieren).
 
 ## Widget-Zonen im Shop anzeigen
 
 Das Widget-Zonen-Menü zeigt die auf der aktuellen Shopseite verfügbaren Positionen. Über das Menü können Sie eine Widget-Zone hervorheben und ihren Namen kopieren. Die angezeigten Zonen unterscheiden sich je nach Seite, Theme und aktiven Funktionen.
+
+![Shop-Frontend mit Schaltfläche zum Öffnen des Widget-Zonen-Menüs](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
 
 Die Bedienung des Menüs wird unter [Widget-Zonen mit den Developer Tools anzeigen](../plugins/devtools.md#widget-zonen-im-shop-anzeigen) beschrieben.
 

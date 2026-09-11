@@ -14,11 +14,15 @@ The widget zones themselves are not visible to customers.
 
 In Developer Tools, enable **Display widget zones** to make the available positions visible in the store frontend. When accessing the store normally, the display is restricted to signed-in administrators.
 
+![Enabled Display widget zones option in the Developer Tools configuration](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
+
 For activation instructions, see [Developer Tools](../plugins/devtools.md#enabling-the-widget-zone-display).
 
 ## Displaying widget zones in the store
 
 The widget zone menu shows the positions available on the current store page. You can use the menu to highlight a widget zone and copy its name. The displayed zones vary depending on the page, theme, and enabled features.
+
+![Store frontend with the button for opening the widget zone menu](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
 
 For instructions on using the menu, see [Displaying widget zones with Developer Tools](../plugins/devtools.md#displaying-widget-zones-in-the-store).
 
