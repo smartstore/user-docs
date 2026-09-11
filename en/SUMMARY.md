@@ -172,6 +172,7 @@
   * [Blog](manage/plugins/blog.md)
   * [Content Slider](manage/plugins/content-slider.md)
   * [DependingPrices](manage/plugins/dependingprices.md)
+  * [Developer Tools](manage/plugins/devtools.md)
   * [DirectOrder](manage/plugins/directorder.md)
   * [DSGVO](manage/plugins/dsgvo.md)
   * [File Manager](manage/plugins/filemanager.md)

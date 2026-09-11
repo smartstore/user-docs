@@ -12,50 +12,15 @@ Die Widget-Zonen selbst sind für Kunden nicht sichtbar.
 
 ## Anzeige der Widget-Zonen aktivieren
 
-Damit Sie die verfügbaren Widget-Zonen im Shop sehen können, muss die Anzeige zuerst in den Developer Tools aktiviert werden.
+Aktivieren Sie in den Developer Tools die Einstellung **Widget-Zonen darstellen**, um die verfügbaren Positionen im Shop-Frontend sichtbar zu machen. Die Anzeige ist bei regulären Shopaufrufen auf angemeldete Administratoren beschränkt.
 
-1. Öffnen Sie im Administrationsbereich **Plugins > Developer Tools**.
-2. Aktivieren Sie **Widget-Zonen darstellen**.
-3. Speichern Sie die Konfiguration.
-4. Öffnen Sie anschließend das Frontend Ihres Shops.
-
-Die Widget-Zonen werden nur angezeigt, wenn Sie mit einem Administratorkonto angemeldet sind. Für reguläre Kunden bleibt die Anzeige unsichtbar.
-
-![Aktivierte Option „Widget-Zonen darstellen“ in der Konfiguration der Developer Tools](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
-
-{% hint style="info" %}
-Die Developer Tools müssen installiert und aktiviert sein, damit die Widget-Zonen im Frontend angezeigt werden können.
-{% endhint %}
+Eine Anleitung zur Aktivierung finden Sie unter [Developer Tools](../plugins/devtools.md#anzeige-der-widget-zonen-aktivieren).
 
 ## Widget-Zonen im Shop anzeigen
 
-Seit Smartstore 5.1 werden die Widget-Zonen über ein eigenes Menü am rechten Rand des Shop-Frontends angezeigt. Die frühere Ansicht, bei der der Name einer Zone nur direkt auf der Seite eingeblendet wurde, wurde damit ersetzt.
+Das Widget-Zonen-Menü zeigt die auf der aktuellen Shopseite verfügbaren Positionen. Über das Menü können Sie eine Widget-Zone hervorheben und ihren Namen kopieren. Die angezeigten Zonen unterscheiden sich je nach Seite, Theme und aktiven Funktionen.
 
-Öffnen Sie das Widget-Zonen-Menü über das Ebenensymbol am rechten Rand des Browserfensters.
-
-![Shop-Frontend mit Schaltfläche zum Öffnen des Widget-Zonen-Menüs](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
-
-Das Menü enthält eine nach Seitenbereichen gegliederte Liste der Widget-Zonen, die auf der aktuell geöffneten Seite zur Verfügung stehen.
-
-![Geöffnetes Widget-Zonen-Menü mit den verfügbaren Zonen der aktuellen Seite](../../.gitbook/assets/module_devtools_widgetzones_menu.png)
-
-Sie können das Menü folgendermaßen verwenden:
-
-| Aktion | Funktion |
-| --- | --- |
-| **Widget-Zone auswählen** | Scrollt zur entsprechenden Position auf der Seite und hebt sie kurz hervor. |
-| **Kopiersymbol** | Kopiert den Namen der Widget-Zone in die Zwischenablage. |
-| **Ein-/Ausschalter** | Legt fest, ob die Widget-Zonen dauerhaft angezeigt werden sollen. |
-| **Augensymbol** | Blendet die Markierungen vorübergehend ein oder aus. |
-| **Schließen** | Schließt das Widget-Zonen-Menü. |
-
-Mit der Tastenkombination **Alt + K** können Sie die Markierungen ebenfalls ein- und ausblenden.
-
-![Auf der Shopseite hervorgehobene Widget-Zone](../../.gitbook/assets/module_devtools_widgetzones_menu_highlight.png)
-
-{% hint style="info" %}
-Das Menü zeigt die Widget-Zonen der aktuell geöffneten Seite. Wechseln Sie beispielsweise zwischen Startseite, Produktseite und Warengruppe, um die dort verfügbaren Positionen zu prüfen.
-{% endhint %}
+Die Bedienung des Menüs wird unter [Widget-Zonen mit den Developer Tools anzeigen](../plugins/devtools.md#widget-zonen-im-shop-anzeigen) beschrieben.
 
 ## Widget-Zone verwenden
 

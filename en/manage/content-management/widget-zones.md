@@ -12,50 +12,15 @@ The widget zones themselves are not visible to customers.
 
 ## Enabling the widget zone display
 
-Before you can see the available widget zones in the store, their display must be enabled in Developer Tools.
+In Developer Tools, enable **Display widget zones** to make the available positions visible in the store frontend. When accessing the store normally, the display is restricted to signed-in administrators.
 
-1. In the backend, go to **Plugins > Developer Tools**.
-2. Enable **Display widget zones**.
-3. Save the configuration.
-4. Open your store's frontend.
-
-Widget zones are displayed only when you are signed in with an administrator account. They remain hidden from regular customers.
-
-![Enabled Display widget zones option in the Developer Tools configuration](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
-
-{% hint style="info" %}
-Developer Tools must be installed and enabled before widget zones can be displayed in the frontend.
-{% endhint %}
+For activation instructions, see [Developer Tools](../plugins/devtools.md#enabling-the-widget-zone-display).
 
 ## Displaying widget zones in the store
 
-Since Smartstore 5.1, widget zones are displayed in a dedicated menu on the right side of the store frontend. This replaced the previous view in which a zone's name was displayed only directly on the page.
+The widget zone menu shows the positions available on the current store page. You can use the menu to highlight a widget zone and copy its name. The displayed zones vary depending on the page, theme, and enabled features.
 
-Open the widget zone menu using the layers icon on the right side of the browser window.
-
-![Store frontend with the button for opening the widget zone menu](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
-
-The menu contains a list of the widget zones available on the current page, grouped by page area.
-
-![Open widget zone menu with the zones available on the current page](../../.gitbook/assets/module_devtools_widgetzones_menu.png)
-
-You can use the menu as follows:
-
-| Action | Function |
-| --- | --- |
-| **Select widget zone** | Scrolls to the corresponding position on the page and briefly highlights it. |
-| **Copy icon** | Copies the name of the widget zone to the clipboard. |
-| **On/off switch** | Determines whether widget zones remain permanently displayed. |
-| **Eye icon** | Temporarily shows or hides the markers. |
-| **Close** | Closes the widget zone menu. |
-
-You can also show or hide the markers using **Alt + K**.
-
-![Highlighted widget zone on the store page](../../.gitbook/assets/module_devtools_widgetzones_menu_highlight.png)
-
-{% hint style="info" %}
-The menu displays the widget zones of the currently open page. Switch between the home page, a product page, and a category page, for example, to check the positions available on each page.
-{% endhint %}
+For instructions on using the menu, see [Displaying widget zones with Developer Tools](../plugins/devtools.md#displaying-widget-zones-in-the-store).
 
 ## Using a widget zone
 
