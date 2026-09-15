@@ -2,25 +2,43 @@
 
 Eine **Versandbedingung** verbindet eine [Versandmethode](../../konfiguration/versandarten-einrichten.md) und eine [Verpackungsgröße](package-types-and-sizes.md) mit Zielgebiet, Staffelgrenzen, Preis und Zuschlägen.
 
-Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff), wechseln Sie zur Registerkarte **Versandbedingungen** und klicken Sie auf **Neue Versandbedingung hinzufügen**.
+![Registerkarte Versandbedingungen mit veröffentlichten Bedingungen und eingeblendeten erweiterten Spalten](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions.png)
 
-Im Dialog enthält **Allgemein** den Gültigkeitsbereich, die Verpackungsgröße, den Grundpreis und den Veröffentlichungsstatus. Staffelgrenzen und Zuschläge finden Sie unter **Erweitert**. In der Übersicht sind die allgemeinen Angaben direkt sichtbar; die erweiterten Werte können Sie bei Bedarf über die Spaltenauswahl einblenden.
+Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#konfiguration-und-berechtigungen), wechseln Sie zur Registerkarte **Versandbedingungen** und klicken Sie auf **Neue Versandbedingung hinzufügen**.
 
-## Gültigkeitsbereich und Grundpreis
+## Allgemeine Bedingungen
 
-| Feld | Bedeutung |
+Der Reiter **Allgemein** umfasst den Gültigkeitsbereich, die Verpackungsgröße, den Grundpreis und den Veröffentlichungsstatus. Die allgemeinen Angaben sind in der Übersicht direkt sichtbar.
+
+![Dialog für eine neue Versandbedingung](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions_popup.png)
+
+### Gültigkeitsbereich und Grundpreis
+
+Im Gültigkeitsbereich legen Sie fest, für welche Stores, [Lieferländer](../../konfiguration/lander-und-regionen-verwalten.md), Postleitzahlen und Versandmethoden eine Versandbedingung angewendet werden kann. Zusätzlich wählen Sie die zugehörige Verpackungsart und -größe aus und hinterlegen den Grundpreis je erzeugtem Packstück. Nur veröffentlichte Versandbedingungen werden bei der Berechnung berücksichtigt.
+
+| Option | Beschreibung |
 | --- | --- |
 | Store | Gilt für einen ausgewählten Store oder mit `*` für alle Stores. |
 | Land | Gilt für das Land der Lieferadresse oder mit `*` für alle Länder. |
-| Postleitzahl | Gilt für die Postleitzahl der Lieferadresse. Leer oder `*` passt auf alle Postleitzahlen. Mehrere durch Kommas getrennte Platzhaltermuster sind möglich, zum Beispiel `10*, 12*`. |
+| Postleitzahl | Gilt für die Postleitzahl der Lieferadresse. |
 | Versandmethode | Versandmethode, für die die Versandbedingung gilt; `*` gilt für alle Methoden. |
 | Verpackungsart und -größe | Verpackungsgröße, in die der Warenkorb gepackt wird. |
 | Preis | Grundpreis je erzeugtem Packstück in der Primärwährung des Stores. |
 | Veröffentlicht | Nur veröffentlichte Bedingungen werden bei der Berechnung berücksichtigt. |
 
-## Staffelgrenzen
+Für die Eingabe der Postleitzahl können Sie `*` für beliebig viele und `?` für genau ein beliebiges Zeichen verwenden. Numerische Bereiche können mit einem Bindestrich angegeben und mehrere Muster durch Kommas getrennt werden, z. B. `10*, 12???, 50000-59999`. Ein leeres Feld oder `*` gilt für alle Postleitzahlen.
 
-| Feld | Bedeutung |
+## Erweiterte Bedingungen
+
+Im Reiter **Erweitert** finden Sie Staffelgrenzen und Zuschläge. In der Übersicht können Sie die erweiterten Werte bei Bedarf über die Spaltenauswahl (Zahnrad-Symbol) einblenden.
+
+![Reiter Erweitert im Dialog zum Anlegen einer Versandbedingung](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions_popup_advanced.png)
+
+### Staffelgrenzen
+
+Mit Staffelgrenzen beschränken Sie eine Versandbedingung auf bestimmte Bereiche für Abrechnungsgewicht, Volumen oder Artikelmenge. Gewichts- und Volumengrenzen beziehen sich jeweils auf ein einzelnes Packstück, während Mengengrenzen für die Gesamtmenge der versandpflichtigen Artikel im Warenkorb gelten.
+
+| Option | Beschreibung |
 | --- | --- |
 | Abrechnungsgewicht von / bis | Optionaler Bereich für das Abrechnungsgewicht eines einzelnen Packstücks. |
 | Volumen von / bis | Optionaler Volumenbereich eines einzelnen Packstücks. |
@@ -28,7 +46,7 @@ Im Dialog enthält **Allgemein** den Gültigkeitsbereich, die Verpackungsgröße
 
 Alle Unter- und Obergrenzen sind **einschließlich**. Eine Versandbedingung mit `Abrechnungsgewicht bis = 10` gilt auch bei exakt 10 Einheiten der [Standardgewichtseinheit](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
 
-## Gewichtsabhängiger Aufpreis
+### Gewichtsabhängiger Aufpreis
 
 Mit den folgenden Feldern bilden Sie einen Grundpreis mit zusätzlichen Gewichtsschritten ab:
 
@@ -36,20 +54,22 @@ Mit den folgenden Feldern bilden Sie einen Grundpreis mit zusätzlichen Gewichts
 - **Zusätzliche Gewichtseinheit**: Größe eines weiteren Abrechnungsschritts, beispielsweise `1` kg.
 - **Preis je zusätzlicher Gewichtseinheit**: Preis für jeden begonnenen Schritt.
 
-Beispiel: Der Grundpreis enthält 10 kg. Jede weitere angefangene Einheit von 2 kg kostet 3 €. Bei 15 kg werden drei zusätzliche Einheiten berechnet: `Grundpreis + 3 × 3 €`.
+Das folgende Beispiel zeigt, wie sich ein gewichtsabhängiger Aufpreis auf den Versandpreis auswirkt. Sobald das Abrechnungsgewicht eines Packstücks den festgelegten Schwellenwert überschreitet, wird der konfigurierte Aufpreis für jede weitere angefangene Gewichtseinheit berechnet und zum Grundpreis addiert. Die Beispielwerte verdeutlichen die einzelnen Berechnungsschritte und den daraus resultierenden Versandpreis.
 
-## Zuschläge
+> Der Grundpreis enthält 10 kg. Jede weitere angefangene Einheit von 2 kg kostet 3 €. Bei 15 kg werden drei zusätzliche Einheiten berechnet: `Grundpreis + 3 × 3 €`.
 
-| Feld | Bedeutung |
+### Zuschläge
+
+Zuschläge ergänzen den Grundpreis um weitere Kostenbestandteile. Sie können feste oder prozentuale Zuschläge, Verpackungskosten, Lademeterkosten und Sperrgutzuschläge konfigurieren.
+
+| Option | Beschreibung |
 | --- | --- |
 | Fester Zuschlag | Fester Betrag je Packstück, zum Beispiel für Maut oder Klimakosten. |
-| Prozentualer Zuschlag | Prozentsatz auf Grundpreis plus zusätzliche Gewichtskosten. |
+| Prozentualer Zuschlag | Prozentsatz auf die Zwischensumme aus Grundpreis und zusätzlichen Gewichtskosten. |
 | Verpackungspreis | Fester Verpackungspreis je Packstück. |
-| Lademeter-Zuschlag | Im Festmodus einmaliger Zuschlag je Packstück; im flächenbasierten Modus Preis je berechnetem Lademeter. |
-| Sperrgutgrenze | Grenzwert, ab dem der Sperrgutzuschlag gilt. Ist eine Gurtmaßformel vorhanden, wird deren Ergebnis verwendet; andernfalls die längste belegte Kante. |
+| Lademeter-Zuschlag | Die [Lademeterberechnung](settings.md#lademeterberechnung) **Festzuschlag je Packstück** berechnet einen einmaligen Zuschlag pro Packstück, **Flächenbasiert** den Preis pro Lademeter. |
+| Sperrgutgrenze | Grenzwert, ab dem der Sperrgutzuschlag gilt. Ist eine Gurtmaßformel vorhanden, wird deren Ergebnis verwendet, andernfalls die längste belegte Kante. |
 | Sperrgutzuschlag | Fester Betrag je Packstück ab einschließlich der Sperrgutgrenze. |
-
-## Reihenfolge der Preisberechnung
 
 Der Preis eines einzelnen Packstücks wird in dieser Reihenfolge berechnet:
 
@@ -93,7 +113,7 @@ Gewichts- und Volumenbereiche gelten für das einzelne Packstück. Mengenbereich
 
 Prüfen Sie außerdem:
 
-- Veröffentlichungsstatus der Versandbedingung,
-- Spezifität und berechneter Preis überlappender Bedingungen,
-- gewählten Lademetermodus,
-- Konfiguration der zusätzlichen Gewichtsschritte.
+- den Veröffentlichungsstatus der Versandbedingung,
+- die Spezifität und der berechneter Preis überlappender Bedingungen,
+- die gewählte Methode zur Berechnung der Lademeter,
+- die Konfiguration der zusätzlichen Gewichtsschritte.

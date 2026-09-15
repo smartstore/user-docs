@@ -21,6 +21,8 @@ Der Rechner verwendet diese Angaben später für die Eingabefelder und die Berec
 
 Die Einstellungen sind in die Bereiche **Darstellung** und **Berechnung** gegliedert. Unter **Darstellung** aktivieren und beschriften Sie den Rechner. Unter **Berechnung** bestimmen Sie, welche Eingaben möglich sind und wie daraus Maßwert, Artikelmenge oder Preis entstehen.
 
+![Konfiguration des Maß- und Mengenrechners innerhalb einer Maßvorlage](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_calculator.png)
+
 ### Darstellung
 
 | Einstellung | Beschreibung |
@@ -101,6 +103,8 @@ Width * Length
 Width / 2
 (A + Width) * Height
 ```
+
+![Berechnungsformel des Maß- und Mengenrechners mit den verfügbaren Maßvariablen](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_calculator_formula.png)
 
 Beim Speichern wird die Formel geprüft. Fehlerhafte Ausdrücke und Variablen, die in der Maßvorlage nicht vorhanden sind, werden direkt am Formelfeld gemeldet.
 

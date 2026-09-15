@@ -1,23 +1,23 @@
 # Praxisbeispiele
 
-{% hint style="warning" %}
-Alle Längenangaben beziehen sich auf die **Standardmaßeinheit**, alle Gewichtsangaben auf die **Standardgewichtseinheit**. Prüfen Sie beide Einheiten vor der Konfiguration.
-
-Ein Wert von `120` bedeutet beispielsweise nur dann 120 cm, wenn Zentimeter als Standardmaßeinheit eingestellt ist. Weitere Informationen finden Sie unter [Gewichte und Abmessungen verwalten](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
-{% endhint %}
-
 Die folgenden Beispiele zeigen typische Einsatzmöglichkeiten des Maß- und Mengenrechners. Sie decken alle vier [Betriebsarten](dimension-and-quantity-calculator.md#betriebsart-auswählen) sowie ein-, zwei- und dreidimensionale Produkte ab.
 
 Die Beispielpreise und Maße dienen der Veranschaulichung. Passen Sie Minimalwerte, Maximalwerte, Schrittweiten und Bezeichnungen an Ihr tatsächliches Sortiment an.
 
 | Beispiel | Eingabe des Kunden | Ergebnis |
 | --- | --- | --- |
-| [Bodenfliesen](#bodenfliesen-pakete-aus-einer-gesamtfläche-berechnen) | benötigte Gesamtfläche | Anzahl vollständiger Pakete |
-| [Vliestapete](#vliestapete-rollen-aus-wandmaßen-berechnen) | Breite und Höhe der Wandfläche | Anzahl vollständiger Rollen |
-| [Glasplatte](#glasplatte-preis-eines-zweidimensionalen-zuschnitts-berechnen) | Breite und Länge des Zuschnitts | Preis der Glasplatte |
-| [Textilkabel](#textilkabel-preis-aus-einer-länge-berechnen) | gewünschte Länge | Preis des Kabelzuschnitts |
-| [Tischplatte](#tischplatte-mehrere-identische-zuschnitte-bestellen) | Breite, Länge und Anzahl | Gesamtpreis identischer Tischplatten |
-| [Akustikschaum](#akustikschaum-dreidimensionale-blöcke-konfigurieren) | Breite, Höhe, Länge und Anzahl | Gesamtpreis identischer Schaumstoffblöcke |
+| [Bodenfliesen](practical-examples.md#bodenfliesen-pakete-aus-einer-gesamtfläche-berechnen) | benötigte Gesamtfläche | Anzahl vollständiger Pakete |
+| [Vliestapete](practical-examples.md#vliestapete-rollen-aus-wandmaßen-berechnen) | Breite und Höhe der Wandfläche | Anzahl vollständiger Rollen |
+| [Glasplatte](practical-examples.md#glasplatte-preis-eines-zweidimensionalen-zuschnitts-berechnen) | Breite und Länge des Zuschnitts | Preis der Glasplatte |
+| [Textilkabel](practical-examples.md#textilkabel-preis-aus-einer-länge-berechnen) | gewünschte Länge | Preis des Kabelzuschnitts |
+| [Tischplatte](practical-examples.md#tischplatte-mehrere-identische-zuschnitte-bestellen) | Breite, Länge und Anzahl | Gesamtpreis identischer Tischplatten |
+| [Akustikschaum](practical-examples.md#akustikschaum-dreidimensionale-blöcke-konfigurieren) | Breite, Höhe, Länge und Anzahl | Gesamtpreis identischer Schaumstoffblöcke |
+
+{% hint style="warning" %}
+Alle Längenangaben beziehen sich auf die **Standardmaßeinheit**, alle Gewichtsangaben auf die **Standardgewichtseinheit**. Prüfen Sie beide Einheiten vor der Konfiguration.
+
+Ein Wert von `120` bedeutet beispielsweise nur dann 120 cm, wenn Zentimeter als Standardmaßeinheit eingestellt ist. Weitere Informationen finden Sie unter [Gewichte und Abmessungen verwalten](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
+{% endhint %}
 
 ## Bodenfliesen: Pakete aus einer Gesamtfläche berechnen
 

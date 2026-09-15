@@ -2,6 +2,8 @@
 
 Mit dem Plugin **Versandkosten nach Maß** berechnen Sie Versandkosten anhand der Produktmaße und optional des Versandgewichts. Anhand dieser Angaben ermittelt das Plugin die benötigten konfigurierten Pakete, Paletten oder anderen quaderförmigen Verpackungsgrößen. Daraus ergeben sich die verfügbaren Versandmethoden und deren Preise.
 
+![Berechnung eine Produkts](../../.gitbook/assets/module_dimensionpricing_frontend_measurement-calculator.png)
+
 Das Plugin umfasst zwei unabhängig nutzbare Bereiche: Mit dem Maß- und Mengenrechner können Kunden Produkte nach individuellen Maßen konfigurieren und daraus den Preis oder die Artikelmenge berechnen lassen. Unabhängig davon können Sie Versandkosten anhand der Produktmaße berechnen. Für die alleinige Nutzung des Rechners müssen keine Verpackungsgrößen oder Versandbedingungen eingerichtet werden.
 
 Das Plugin unterstützt unter anderem:
@@ -29,7 +31,7 @@ Alle Längenangaben beziehen sich auf die **Standardmaßeinheit**, alle Gewichts
 Ein Wert von `120` bedeutet beispielsweise nur dann 120 cm, wenn Zentimeter als Standardmaßeinheit eingestellt ist. Weitere Informationen finden Sie unter [Gewichte und Abmessungen verwalten](../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
 {% endhint %}
 
-## Funktionsweise
+## Berechnungsablauf
 
 Für jede Versandmethode läuft die Berechnung vereinfacht in dieser Reihenfolge ab:
 
@@ -43,7 +45,7 @@ Für jede Versandmethode läuft die Berechnung vereinfacht in dieser Reihenfolge
 
 Kann keine passende Versandbedingung oder Verpackungsgröße ermittelt werden, wird für die betreffende Versandmethode kein Preis angeboten.
 
-## Empfohlene Reihenfolge
+## Empfohlener Konfigurationsablauf
 
 1. Legen Sie die benötigten [Versandmethoden](../konfiguration/versandarten-einrichten.md) an.
 2. Prüfen Sie die [Standardmaßeinheit und Standardgewichtseinheit](../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
@@ -52,22 +54,26 @@ Kann keine passende Versandbedingung oder Verpackungsgröße ermittelt werden, w
 5. Erfassen und veröffentlichen Sie die [Versandbedingungen](dimension-pricing/shipping-conditions.md).
 6. Legen Sie bei Bedarf [Maßvorlagen](dimension-pricing/dimension-templates.md) an und konfigurieren Sie deren globale, warengruppen- oder produktspezifische Verwendung.
 
-## Zugriff
+## Konfiguration und Berechtigungen
 
 Öffnen Sie **Konfiguration** &rarr; **Regionale Einstellungen** &rarr; **Berechnungsmethoden für Versandkosten**. Öffnen Sie bei **Versandkosten nach Maß** das Untermenü und wählen Sie **Konfigurieren**. Die Konfigurationsseite enthält vier Registerkarten:
 
 - [Einstellungen](dimension-pricing/settings.md)
-- [Maßvorlagen](dimension-pricing/dimension-templates.md)
-- [Verpackungsarten und -größen](dimension-pricing/package-types-and-sizes.md)
 - [Versandbedingungen](dimension-pricing/shipping-conditions.md)
+- [Verpackungsarten und -größen](dimension-pricing/package-types-and-sizes.md)
+- [Maßvorlagen](dimension-pricing/dimension-templates.md)
+
+![Konfigurationsseite des Plugins Versandkosten nach Maß mit den Registerkarten Einstellungen, Maßvorlagen, Verpackungsarten und -größen sowie Versandbedingungen](../../.gitbook/assets/module_dimensionpricing_configuration.png)
 
 Der [Maß- und Mengenrechner](dimension-pricing/dimension-and-quantity-calculator.md) wird innerhalb einer Maßvorlage konfiguriert. Konkrete Einsatzmöglichkeiten finden Sie unter [Praxisbeispiele](dimension-pricing/practical-examples.md).
 
 Über **Konfigurationsstatus** in der Werkzeugleiste können Sie prüfen, ob wesentliche Voraussetzungen und gespeicherte Formeln vollständig eingerichtet sind.
 
-### Berechtigungen
+![Konfigurationsstatus des Plugins mit den geprüften Voraussetzungen und Formeln](../../.gitbook/assets/module_dimensionpricing_configuration_status.png)
 
+{% hint style="info" %}
 Für **Versandkosten nach Maß** stehen getrennte [Berechtigungen](../konfiguration/zugriffsrechte-kontrollieren.md) zum Lesen, Anlegen, Bearbeiten und Löschen zur Verfügung. Administratoren erhalten diese Berechtigungen standardmäßig. Gewähren Sie anderen administrativen Rollen nur die tatsächlich benötigten Rechte.
+{% endhint %}
 
 ## Verhalten in Warenkorb und Checkout
 
@@ -75,9 +81,9 @@ Versandkostenfreie Artikel erzeugen kein eigenes Packstück; ihr Gewicht kann ab
 
 Jede angebotene Versandmethode muss den gesamten relevanten Warenkorb transportieren können. Eine automatische Aufteilung auf mehrere unterschiedliche Versandmethoden findet nicht statt.
 
-## Beispiel: Paketversand
+## Beispiel
 
-Das folgende vereinfachte Beispiel zeigt das Zusammenspiel der Konfigurationsbereiche:
+Das folgende vereinfachte Beispiel führt durch eine grundlegende Konfiguration für den Paketversand. Es zeigt, wie Versandmethode, Verpackungsart, Verpackungsgröße und Versandbedingung miteinander verknüpft werden und welche Prüfungen sich nach der Einrichtung empfehlen. Ausführliche Anwendungsfälle für den Maß- und Mengenrechner finden Sie unter [Praxisbeispiele](dimension-pricing/practical-examples.md).
 
 1. Legen Sie die Versandmethode `Standardpaket` an.
 2. Erstellen Sie die Verpackungsart `Paket` mit der Anzeigereihenfolge `10`.
@@ -90,4 +96,4 @@ Das folgende vereinfachte Beispiel zeigt das Zusammenspiel der Konfigurationsber
 
 ## Bekannte Einschränkungen
 
-- Die flächenbasierte Lademeterberechnung verwendet die rechteckige belegte Grundfläche und leitet keine speditionsspezifischen Sonderregeln ab.
+Die flächenbasierte Lademeterberechnung verwendet die rechteckige Grundfläche des gepackten Ergebnisses. Sie bildet daher keine speditionsspezifischen Regeln wie Stapelbarkeit, Palettentausch oder Achslast ab. Berücksichtigen Sie solche Vorgaben bei der Konfiguration selbst und vergleichen Sie die berechneten Werte mit den Anforderungen Ihres Versanddienstleisters. Weitere Informationen zu Mindestwert und Rundung finden Sie unter [Lademeterberechnung](dimension-pricing/settings.md#lademeterberechnung).
