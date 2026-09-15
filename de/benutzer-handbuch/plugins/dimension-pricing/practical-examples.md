@@ -1,6 +1,12 @@
 # Praxisbeispiele
 
-Die folgenden Beispiele zeigen typische Einsatzmöglichkeiten des Maß- und Mengenrechners. Sie decken alle vier [Betriebsarten](mass-und-mengenrechner.md#betriebsarten) sowie ein-, zwei- und dreidimensionale Produkte ab.
+{% hint style="warning" %}
+Alle Längenangaben beziehen sich auf die **Standardmaßeinheit**, alle Gewichtsangaben auf die **Standardgewichtseinheit**. Prüfen Sie beide Einheiten vor der Konfiguration.
+
+Ein Wert von `120` bedeutet beispielsweise nur dann 120 cm, wenn Zentimeter als Standardmaßeinheit eingestellt ist. Weitere Informationen finden Sie unter [Gewichte und Abmessungen verwalten](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
+{% endhint %}
+
+Die folgenden Beispiele zeigen typische Einsatzmöglichkeiten des Maß- und Mengenrechners. Sie decken alle vier [Betriebsarten](dimension-and-quantity-calculator.md#betriebsart-auswählen) sowie ein-, zwei- und dreidimensionale Produkte ab.
 
 Die Beispielpreise und Maße dienen der Veranschaulichung. Passen Sie Minimalwerte, Maximalwerte, Schrittweiten und Bezeichnungen an Ihr tatsächliches Sortiment an.
 

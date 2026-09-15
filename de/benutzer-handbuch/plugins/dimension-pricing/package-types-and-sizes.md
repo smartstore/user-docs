@@ -4,7 +4,7 @@ Eine **Verpackungsart** fasst zusammengehörende Transportformen zusammen, zum B
 
 ## Verpackungsart anlegen
 
-1. Öffnen Sie **Konfiguration** &rarr; **Regionale Einstellungen** &rarr; **Berechnungsmethoden für Versandkosten**. Öffnen Sie bei **Versandkosten nach Maß** das Untermenü, wählen Sie **Konfigurieren** und wechseln Sie zur Registerkarte **Verpackungsarten und -größen**.
+1. Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff) und wechseln Sie zur Registerkarte **Verpackungsarten und -größen**.
 2. Klicken Sie auf **Neue Verpackungsart**.
 3. Geben Sie einen eindeutigen Namen ein, zum Beispiel `Paketversand` oder `Palettenversand`.
 4. Legen Sie die **Anzeigereihenfolge** fest. Niedrigere Werte besitzen innerhalb der Auswahl die höhere Priorität.
@@ -24,7 +24,7 @@ Eine **Verpackungsart** fasst zusammengehörende Transportformen zusammen, zum B
 | Gurtmaßformel | Optionale Formel mit `Width`, `Height` und `Length`, die das Gurtmaß des gepackten Ergebnisses berechnet. |
 | Max. Volumen | Optionaler Höchstwert für die Summe der Produktvolumen im Packstück. `0` deaktiviert die Grenze. |
 | Volumengewichtsfaktor | Multipliziert das gepackte Volumen mit einem Faktor. Als Abrechnungsgewicht gilt der höhere Wert aus Realgewicht und Volumengewicht. `0` deaktiviert die Umrechnung. |
-| Max. Lademeter | Optionaler Höchstwert je Packstück. Seine Bedeutung hängt vom gewählten [Lademetermodus](einstellungen.md#lademeterberechnung) ab. `0` deaktiviert die Grenze. |
+| Max. Lademeter | Optionaler Höchstwert je Packstück. Seine Bedeutung hängt vom gewählten [Lademetermodus](settings.md#lademeterberechnung) ab. `0` deaktiviert die Grenze. |
 
 Beispiel für ein Gurtmaß:
 
@@ -38,14 +38,14 @@ Unter dem Formelfeld können Sie `Width`, `Height` und `Length` über Schaltflä
 
 ## Verwendung in Versandbedingungen
 
-Eine Verpackungsgröße wird über eine [Versandbedingung](versandbedingungen.md) mit einer Versandmethode, einem Zielgebiet und einem Preis verbunden. Legen Sie daher zuerst die benötigten Verpackungsarten und -größen an.
+Eine Verpackungsgröße wird über eine [Versandbedingung](shipping-conditions.md) mit einer Versandmethode, einem Zielgebiet und einem Preis verbunden. Legen Sie daher zuerst die benötigten Verpackungsarten und -größen an.
 
 ## Wenn keine Verpackungsgröße passt
 
 Prüfen Sie:
 
 - die Höchstmaße und das Höchstgewicht der Verpackungsgrößen,
-- die Quelle der Produktmaße in den [Einstellungen](einstellungen.md),
+- die Quelle der Produktmaße in den [Einstellungen](settings.md),
 - Gurtmaß-, Volumen- und Lademetergrenzen,
 - Packformeln für nicht quaderförmige Produkte,
 - Warenkörbe mit mehreren Artikeln oder höheren Mengen.

@@ -1,12 +1,12 @@
 # Maßvorlagen
 
-Maßvorlagen sind wiederverwendbare Datensätze zusätzlicher Produktmaße. Sie können außerdem den [Maß- und Mengenrechner](mass-und-mengenrechner.md) auf der Produktdetailseite bereitstellen und Packformeln für die platzsparende Kombination gleichartiger Produkte enthalten.
+Maßvorlagen sind wiederverwendbare Datensätze zusätzlicher Produktmaße. Sie können außerdem den [Maß- und Mengenrechner](dimension-and-quantity-calculator.md) auf der Produktdetailseite bereitstellen und Packformeln für die platzsparende Kombination gleichartiger Produkte enthalten.
 
 Sie benötigen keine Maßvorlage, wenn ausschließlich die regulären Produktfelder für Breite, Höhe und Länge verwendet werden und weder ein Maß- und Mengenrechner noch eine Packformel erforderlich ist.
 
 ## Maßvorlage anlegen
 
-1. Öffnen Sie **Konfiguration** &rarr; **Regionale Einstellungen** &rarr; **Berechnungsmethoden für Versandkosten**. Öffnen Sie bei **Versandkosten nach Maß** das Untermenü, wählen Sie **Konfigurieren** und wechseln Sie zur Registerkarte **Maßvorlagen**.
+1. Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff) und wechseln Sie zur Registerkarte **Maßvorlagen**.
 2. Klicken Sie auf **Neue Maßvorlage**.
 3. Geben Sie einen administrativen **Namen** ein.
 4. Wählen Sie eine **Startvorlage**.
@@ -30,7 +30,7 @@ Sie benötigen keine Maßvorlage, wenn ausschließlich die regulären Produktfel
 | Standardmaß | Wählen Sie **Breite**, **Höhe** oder **Länge**, um den zugehörigen Systemnamen automatisch zu übernehmen. Wählen Sie **Eigenes Maß** für weitere Maße. |
 | Systemname | Technische Bezeichnung des Maßes in Berechnungs- und Packformeln. Bei einem eigenen Maß vergeben Sie den Systemnamen selbst. |
 | Minimalwert | Kleinster administrativ oder vom Kunden eingegebener Wert. |
-| Max. Wert | Größter administrativ oder vom Kunden eingegebener Wert. |
+| Maximalwert | Größter administrativ oder vom Kunden eingegebener Wert. |
 | Standardwert | Wert, der für ein Produkt gilt, solange dort kein abweichender Wert eingetragen ist. |
 | Bezeichnung | Sichtbare Bezeichnung des Maßes. |
 | Hilfetext | Erläuterung für Administratoren oder Kunden. |
@@ -38,7 +38,7 @@ Sie benötigen keine Maßvorlage, wenn ausschließlich die regulären Produktfel
 | Im Frontend anzeigen | Zeigt das für das Produkt angewendete Maß im Bereich **Maße** der Produktdetailseite an. |
 
 {% hint style="warning" %}
-Wenn die gewählte [Quelle für Breite, Höhe und Länge](einstellungen.md#quelle-für-breite-höhe-und-länge) Maße aus der Vorlage verwendet, benötigt sie Maße mit den Systemnamen `Width`, `Height` und `Length`.
+Wenn die gewählte [Quelle für Breite, Höhe und Länge](settings.md#quelle-für-breite-höhe-und-länge) Maße aus der Vorlage verwendet, benötigt sie Maße mit den Systemnamen `Width`, `Height` und `Length`.
 {% endhint %}
 
 ## Maßvorlagen zuweisen
@@ -54,7 +54,7 @@ Sie können deshalb mit einer globalen Vorlage beginnen, Warengruppen abweichend
 
 ### Globale Vorgabe festlegen
 
-1. Öffnen Sie die [Einstellungen](einstellungen.md#globale-standardmaßvorlage) des Moduls.
+1. Öffnen Sie die [Einstellungen](settings.md#globale-standardmaßvorlage) des Plugins.
 2. Wählen Sie unter **Globale Standardmaßvorlage** die gewünschte Vorlage.
 3. Speichern Sie die Einstellungen.
 
@@ -114,7 +114,7 @@ Beim Löschen zeigt die Bestätigung an, wie vielen Produkten und Warengruppen d
 
 ## Packformeln
 
-Packformeln eignen sich für gleichartige, nicht quaderförmige Produkte, die sich zu einem kleineren rechteckigen Packelement zusammenlegen lassen.
+Packformeln eignen sich für gleichartige, nicht quaderförmige Produkte, die sich zu einem kleineren quaderförmigen Packelement zusammenlegen lassen.
 
 Öffnen Sie eine Maßvorlage und wechseln Sie zu **Packformeln**. Für jede Formel legen Sie fest:
 
@@ -144,7 +144,7 @@ Wird ein Systemname bereits in einer Formel verwendet, passen Sie zuerst die bet
 
 ## Wenn Produktmaße nicht verwendet werden
 
-- Prüfen Sie die [Quelle für Breite, Höhe und Länge](einstellungen.md#quelle-für-breite-höhe-und-länge).
+- Prüfen Sie die [Quelle für Breite, Höhe und Länge](settings.md#quelle-für-breite-höhe-und-länge).
 - Verwenden Sie für eigene Standardmaße die Systemnamen `Width`, `Height` und `Length`.
 - Prüfen Sie am Produkt, welche Maßvorlage angewendet wird und woher die Vorgabe stammt.
 - Berücksichtigen Sie Maße von Varianten oder Attributkombinationen, da diese die Basiswerte des Produkts beeinflussen können.

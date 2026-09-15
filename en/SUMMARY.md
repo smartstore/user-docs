@@ -170,7 +170,7 @@
     * [OpenAI ChatGPT](manage/plugins/ai-provider/openai-chatgpt.md)
   * [Attribute Rules](manage/plugins/attribute-rules.md)
   * [Blog](manage/plugins/blog.md)
-  * [Dimension-based shipping](manage/plugins/dimension-pricing-plugin.md)
+  * [Dimension-based shipping](manage/plugins/dimension-pricing.md)
     * [Settings](manage/plugins/dimension-pricing/settings.md)
     * [Dimension templates](manage/plugins/dimension-pricing/dimension-templates.md)
     * [Package types and sizes](manage/plugins/dimension-pricing/package-types-and-sizes.md)

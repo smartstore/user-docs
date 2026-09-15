@@ -1,8 +1,8 @@
 # Versandbedingungen
 
-Eine **Versandbedingung** verbindet eine [Versandmethode](../../konfiguration/versandarten-einrichten.md) und eine [Verpackungsgröße](verpackungsarten-und-groessen.md) mit Zielgebiet, Staffelgrenzen, Preis und Zuschlägen.
+Eine **Versandbedingung** verbindet eine [Versandmethode](../../konfiguration/versandarten-einrichten.md) und eine [Verpackungsgröße](package-types-and-sizes.md) mit Zielgebiet, Staffelgrenzen, Preis und Zuschlägen.
 
-Öffnen Sie **Konfiguration** &rarr; **Regionale Einstellungen** &rarr; **Berechnungsmethoden für Versandkosten**. Öffnen Sie bei **Versandkosten nach Maß** das Untermenü, wählen Sie **Konfigurieren**, wechseln Sie zur Registerkarte **Versandbedingungen** und klicken Sie auf **Neue Versandbedingung hinzufügen**.
+Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff), wechseln Sie zur Registerkarte **Versandbedingungen** und klicken Sie auf **Neue Versandbedingung hinzufügen**.
 
 Im Dialog enthält **Allgemein** den Gültigkeitsbereich, die Verpackungsgröße, den Grundpreis und den Veröffentlichungsstatus. Staffelgrenzen und Zuschläge finden Sie unter **Erweitert**. In der Übersicht sind die allgemeinen Angaben direkt sichtbar; die erweiterten Werte können Sie bei Bedarf über die Spaltenauswahl einblenden.
 
@@ -32,11 +32,11 @@ Alle Unter- und Obergrenzen sind **einschließlich**. Eine Versandbedingung mit 
 
 Mit den folgenden Feldern bilden Sie einen Grundpreis mit zusätzlichen Gewichtsschritten ab:
 
-- **Zusätzliches Gewicht ab:** Gewicht, das bereits im Grundpreis enthalten ist.
-- **Zusätzliche Gewichtseinheit:** Größe eines weiteren Abrechnungsschritts, beispielsweise `1` kg.
-- **Preis je zusätzlicher Gewichtseinheit:** Preis für jeden begonnenen Schritt.
+- **Zusätzliches Gewicht ab**: Gewicht, das bereits im Grundpreis enthalten ist.
+- **Zusätzliche Gewichtseinheit**: Größe eines weiteren Abrechnungsschritts, beispielsweise `1` kg.
+- **Preis je zusätzlicher Gewichtseinheit**: Preis für jeden begonnenen Schritt.
 
-Beispiel: Der Grundpreis enthält 10 kg. Jede weitere angefangene Einheit von 2 kg kostet 3 EUR. Bei 15 kg werden drei zusätzliche Einheiten berechnet: `Grundpreis + 3 × 3 EUR`.
+Beispiel: Der Grundpreis enthält 10 kg. Jede weitere angefangene Einheit von 2 kg kostet 3 €. Bei 15 kg werden drei zusätzliche Einheiten berechnet: `Grundpreis + 3 × 3 €`.
 
 ## Zuschläge
 

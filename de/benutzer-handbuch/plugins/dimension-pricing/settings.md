@@ -1,8 +1,8 @@
 # Einstellungen
 
-Auf dieser Seite finden Sie Erläuterungen zu den Einstellungen des Moduls **Versandkosten nach Maß**.
+Auf dieser Seite finden Sie Erläuterungen zu den Einstellungen des Plugins **Versandkosten nach Maß**.
 
-Um die Einstellungen zu bearbeiten, öffnen Sie im Administrationsbereich **Konfiguration** &rarr; **Regionale Einstellungen** &rarr; **Berechnungsmethoden für Versandkosten**. Öffnen Sie bei **Versandkosten nach Maß** das Untermenü und wählen Sie **Konfigurieren**. Die Registerkarte **Einstellungen** ist bereits ausgewählt.
+Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff). Die Registerkarte **Einstellungen** ist bereits ausgewählt.
 
 ## Maße und Maßvorlagen
 
@@ -14,7 +14,7 @@ Mit der **globalen Standardmaßvorlage** legen Sie eine Vorlage fest, die automa
 
 Wählen Sie **Keine Maßvorlage**, wenn keine globale Vorgabe gelten soll. Maßvorlagen können weiterhin über eine Warengruppe oder direkt am Produkt festgelegt werden.
 
-Wie globale, vererbte und produktspezifische Vorgaben zusammenspielen, erfahren Sie unter [Maßvorlagen zuweisen](massvorlagen.md#maßvorlagen-zuweisen).
+Wie globale, vererbte und produktspezifische Vorgaben zusammenspielen, erfahren Sie unter [Maßvorlagen zuweisen](dimension-templates.md#maßvorlagen-zuweisen).
 
 Wenn noch keine Maßvorlage vorhanden ist, können Sie über **Maßvorlage anlegen** direkt eine neue Vorlage erstellen.
 
@@ -29,7 +29,7 @@ Mit **Quelle für Breite, Höhe und Länge** bestimmen Sie, woher die drei für 
 | Zuerst reguläre Produktmaße verwenden | Verwendet für jedes Maß zunächst den regulären Produktwert. Ist dieser `0`, wird der Wert aus der Maßvorlage verwendet. |
 | Zuerst Maße aus der Maßvorlage verwenden | Verwendet für jedes Maß zunächst den Wert aus der Maßvorlage. Ist dieser `0`, wird der reguläre Produktwert verwendet. |
 
-Weitere Informationen zum Anlegen eigener Maße finden Sie unter [Maßvorlagen](massvorlagen.md).
+Weitere Informationen zum Anlegen eigener Maße finden Sie unter [Maßvorlagen](dimension-templates.md).
 
 ## Versandmethoden
 
@@ -44,6 +44,20 @@ Hier bestimmen Sie, ob Produktgewichte in die Berechnung einfließen und welche 
 
 **Gewicht der versandkostenfreien Produkte einbeziehen** wird nur angezeigt, wenn **Produktgewicht verwenden** aktiviert ist.
 
+### Auswahl der angebotenen Versandmethoden
+
+Diese Einstellung wird angewendet, nachdem alle geeigneten Versandmethoden berechnet wurden.
+
+| Option | Verhalten |
+| --- | --- |
+| Alle geeigneten Versandmethoden | Gibt jede passende Versandmethode zurück. |
+| Günstigste geeignete Versandmethode | Gibt nur die Methode mit dem niedrigsten berechneten Preis zurück. Bei Gleichstand entscheidet die Anzeigereihenfolge. |
+| Geeignete Versandmethode mit höchster Priorität | Gibt nur die geeignete Methode mit der niedrigsten Anzeigereihenfolge zurück. Bei Gleichstand entscheidet der Preis. |
+
+Alle von diesem Plugin berechneten Methoden nehmen an der Auswahl teil. Wenn beispielsweise Abholung nicht mit Liefermethoden konkurrieren soll, darf sie nicht als gleichwertige Methode dieses Plugins konfiguriert werden.
+
+Die Einstellungen unterstützen die Smartstore-Store-Gültigkeit. Prüfen Sie vor dem Speichern, ob Sie den gewünschten Store oder die globale Einstellungsebene bearbeiten.
+
 ## Lademeterberechnung
 
 Unter **Lademeterberechnung** stehen drei Modi zur Verfügung:
@@ -56,9 +70,9 @@ Unter **Lademeterberechnung** stehen drei Modi zur Verfügung:
 
 Für die flächenbasierte Berechnung konfigurieren Sie zusätzlich:
 
-- **Nutzbare Ladeflächenbreite:** Breite der verfügbaren Ladefläche in der [Standardmaßeinheit](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
-- **Mindest-Lademeter:** Optionaler Mindestwert je Packstück.
-- **Lademeter-Rundungsschritt:** Schritt, auf den je Packstück aufgerundet wird. `0` deaktiviert die Rundung.
+- **Nutzbare Ladeflächenbreite**: Breite der verfügbaren Ladefläche in der [Standardmaßeinheit](../../konfiguration/gewichte-verpackungseinheiten-abmessungen-verwalten.md).
+- **Mindest-Lademeter**: Optionaler Mindestwert je Packstück.
+- **Lademeter-Rundungsschritt**: Schritt, auf den je Packstück aufgerundet wird. `0` deaktiviert die Rundung.
 
 Beispiel: Ein Packstück belegt 1,20 m Länge und 0,80 m Breite. Bei 2,40 m nutzbarer Ladeflächenbreite ergeben sich `1,20 × 0,80 ÷ 2,40 = 0,40` Lademeter. Bei einem Mindestwert von `0,50` werden `0,50` Lademeter berechnet.
 
@@ -66,20 +80,6 @@ Beispiel: Ein Packstück belegt 1,20 m Länge und 0,80 m Breite. Bei 2,40 m nutz
 Die flächenbasierte Berechnung verwendet die rechteckige Grundfläche des gepackten Ergebnisses. Speditionsspezifische Regeln wie Stapelbarkeit, Palettentausch oder Achslast werden nicht automatisch abgeleitet.
 {% endhint %}
 
-### Auswahl der angebotenen Versandmethoden
+## Wenn eine Versandmethode mit einem Preis von 0 angeboten wird
 
-Diese Einstellung wird angewendet, nachdem alle geeigneten Versandmethoden berechnet wurden.
-
-| Option | Verhalten |
-| --- | --- |
-| Alle geeigneten Versandmethoden | Gibt jede passende Versandmethode zurück. |
-| Günstigste geeignete Versandmethode | Gibt nur die Methode mit dem niedrigsten berechneten Preis zurück. Bei Gleichstand entscheidet die Anzeigereihenfolge. |
-| Geeignete Versandmethode mit höchster Priorität | Gibt nur die geeignete Methode mit der niedrigsten Anzeigereihenfolge zurück. Bei Gleichstand entscheidet der Preis. |
-
-Alle von diesem Modul berechneten Methoden nehmen an der Auswahl teil. Wenn beispielsweise Abholung nicht mit Liefermethoden konkurrieren soll, darf sie nicht als gleichwertige Methode dieses Moduls konfiguriert werden.
-
-Die Einstellungen unterstützen die Smartstore-Store-Gültigkeit. Prüfen Sie vor dem Speichern, ob Sie den gewünschten Store oder die globale Einstellungsebene bearbeiten.
-
-## Wenn eine Versandmethode den Preis 0 hat
-
-Ist **Auf konfigurierte Methoden beschränken** deaktiviert, kann eine nicht konfigurierte Versandmethode mit einem Preis von `0` angeboten werden. Aktivieren Sie die Einstellung oder legen Sie eine passende veröffentlichte [Versandbedingung](versandbedingungen.md) an.
+Ist **Auf konfigurierte Methoden beschränken** deaktiviert, kann eine nicht konfigurierte Versandmethode mit einem Preis von `0` angeboten werden. Aktivieren Sie die Einstellung oder legen Sie eine passende veröffentlichte [Versandbedingung](shipping-conditions.md) an.
