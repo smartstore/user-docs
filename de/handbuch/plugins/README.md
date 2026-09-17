@@ -1,6 +1,0 @@
----
-icon: puzzle-piece
----
-
-# Plugins
-

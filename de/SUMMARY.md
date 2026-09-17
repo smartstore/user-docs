@@ -151,7 +151,7 @@
   * [Cache bereinigen](benutzer-handbuch/system-wartung/cache-bereinigen.md)
   * [Die Anwendung neu starten](benutzer-handbuch/system-wartung/die-anwendung-neu-starten.md)
   * [Geplante Aufgaben verwalten](benutzer-handbuch/system-wartung/geplante-aufgaben-verwalten.md)
-* [Plugins](benutzer-handbuch/plugins/toc.md)
+* [Plugins](benutzer-handbuch/plugins/README.md)
   * [Plugins installieren](benutzer-handbuch/plugins/plugins-installieren.md)
   * [Plugins verwalten](benutzer-handbuch/plugins/plugins-verwalten.md)
   * [Zahlungsanbieter und Zahlungsarten](benutzer-handbuch/plugins/paymentproviders.md)
