@@ -14,14 +14,14 @@ Installierte Plugins aktivieren, konfigurieren, aktualisieren oder entfernen Sie
 
 ## Plugin-Gruppen
 
-Die Plugins sind nach Funktionsbereichen gegliedert, ähnlich der Struktur im Smartstore-Backend. Hier gelangen Sie direkt zur [alphabetisch sortierten Liste](toc.md#plugins-von-a-bis-z).
+Die Plugins sind nach Funktionsbereichen gegliedert, ähnlich der Struktur im Smartstore-Backend. Hier gelangen Sie direkt zur [alphabetisch sortierten Liste](#plugins-von-a-bis-z).
 
 ### Administration
 
 Plugins für administrative Abläufe, Nummernformate und die Auswertung von Suchvorgängen.
 
-* [OrderNumberFormatter (Bestellnummern-Formatierer)](#ordernumberformatter-bestellnummern-formatierer)
-* [SearchLog (Suchprotokoll)](#searchlog-suchprotokoll)
+* [OrderNumberFormatter (Nummernkreis-Formatierer)](#ordernumberformatter-nummernkreis-formatierer)
+* [SearchLog (Suchprotokollierung)](#searchlog-suchprotokollierung)
 
 ### Analysen
 
@@ -34,69 +34,69 @@ Plugins zur Erfassung, Auswertung und Visualisierung von Besucher- und Shopdaten
 
 Funktionen für Freigabeprozesse und besondere Anforderungen im Geschäftskundenbereich.
 
-* [CartApproval (Warenkorbfreigabe)](#cartapproval-warenkorbfreigabe)
+* [CartApproval (Warenkorb Genehmigungen)](#cartapproval-warenkorb-genehmigungen)
 
 ### Content-Management
 
 Plugins zur Erstellung, Pflege und Präsentation von Inhalten und Medien.
 
-* [Blog (Smartstore-Blog)](#blog-smartstore-blog)
-* [ContentSlider (Inhalts-Slider)](#contentslider-inhalts-slider)
-* [Faq (Häufig gestellte Fragen)](#faq-häufig-gestellte-fragen)
-* [FileManager (Produktdatei-Manager)](#filemanager-produktdatei-manager)
-* [Forums (Smartstore-Foren)](#forums-smartstore-foren)
-* [MediaEditor.Pixlr (Pixlr-Bildeditor)](#mediaeditorpixlr-pixlr-bildeditor)
-* [MediaManager (Medienverwaltung)](#mediamanager-medienverwaltung)
-* [MegaMenu (Mega-Menü)](#megamenu-mega-menü)
-* [News (Smartstore-Nachrichten)](#news-smartstore-nachrichten)
-* [PageBuilder (Seitengestalter)](#pagebuilder-seitengestalter)
-* [Polls (Smartstore-Umfragen)](#polls-smartstore-umfragen)
-* [RemoveBadge (Smartstore-Hinweis entfernen)](#removebadge-smartstore-hinweis-entfernen)
-* [Timeline (Zeitleiste)](#timeline-zeitleiste)
+* [Blog](#blog)
+* [ContentSlider](#contentslider)
+* [Faq](#faq)
+* [FileManager](#filemanager)
+* [Forums](#forums)
+* [MediaEditor.Pixlr (Pixlr Medien-Editor)](#mediaeditorpixlr-pixlr-medien-editor)
+* [MediaManager](#mediamanager)
+* [MegaMenu](#megamenu)
+* [News](#news)
+* [PageBuilder](#pagebuilder)
+* [Polls (Umfragen)](#polls-umfragen)
+* [RemoveBadge](#removebadge)
+* [Timeline](#timeline)
 
 ### Daten
 
 Schnittstellen und Exportfunktionen für strukturierte Produkt-, Auftrags- und Katalogdaten.
 
-* [BMEcat](#bmecat)
+* [BMEcat (Datenaustausch)](#bmecat-datenaustausch)
 * [CommonExportProviders (Datenexporte)](#commonexportproviders-datenexporte)
-* [PdfExport (PDF-Export)](#pdfexport-pdf-export)
+* [PdfExport](#pdfexport)
 
 ### Entwicklung
 
 Werkzeuge und Schnittstellen für Entwicklung, Integration und Automatisierung.
 
-* [DevTools (Smartstore-Entwicklerwerkzeuge)](#devtools-smartstore-entwicklerwerkzeuge)
+* [DevTools](#devtools)
 * [WebApi](#webapi)
 
 ### Künstliche Intelligenz (KI)
 
 KI-Funktionen und Anbieteranbindungen für die automatisierte Erstellung und Verarbeitung von Inhalten.
 
-* [AI](#ai)
+* [AI (Smartstore KI Basis-Plugin)](#ai-smartstore-ki-basis-plugin)
 * [ChatGPT (OpenAI ChatGPT)](#chatgpt-openai-chatgpt)
 * [Claude (Anthropic Claude)](#claude-anthropic-claude)
 * [DeepSeek](#deepseek)
-* [Google.Gemini (Google Gemini)](#googlegemini-google-gemini)
-* [Ollama](#ollama)
+* [Google.Gemini](#googlegemini)
+* [Ollama (KI-Provider)](#ollama-ki-provider)
 
 ### Marketing
 
 Funktionen für Reichweite, Kundenansprache, Produktempfehlungen und externe Marketingdienste.
 
-* [AddToAny (AddToAny-Teilen-Schaltflächen)](#addtoany-addtoany-teilen-schaltflächen)
+* [AddToAny](#addtoany)
 * [AttributeRules (Regeln für Produktattribute)](#attributerules-regeln-für-produktattribute)
-* [BeezUp (BeezUP-Produktfeed)](#beezup-beezup-produktfeed)
-* [Billiger (billiger.de-Produktfeed)](#billiger-billigerde-produktfeed)
+* [BeezUp (BeezUP Feed)](#beezup-beezup-feed)
+* [Billiger](#billiger)
 * [Botsonic](#botsonic)
-* [Brevo](#brevo)
+* [Brevo (E-Mail-Synchronisierung)](#brevo-e-mail-synchronisierung)
 * [cXmlPunchout](#cxmlpunchout)
-* [EmailReminder (E-Mail-Erinnerungen)](#emailreminder-e-mail-erinnerungen)
-* [Google.MerchantCenter (Google-Merchant-Center-Produktfeed)](#googlemerchantcenter-google-merchant-center-produktfeed)
+* [EmailReminder (E-Mail-Erinnerung)](#emailreminder-e-mail-erinnerung)
+* [Google.MerchantCenter (Google Merchant Center Feed)](#googlemerchantcenter-google-merchant-center-feed)
 * [Google.Remarketing](#googleremarketing)
-* [Guenstiger (guenstiger.de-Produktfeed)](#guenstiger-guenstigerde-produktfeed)
-* [Idealo (idealo-Produktfeed)](#idealo-idealo-produktfeed)
-* [MailChimp](#mailchimp)
+* [Guenstiger (Guenstiger Feed)](#guenstiger-guenstiger-feed)
+* [Idealo (Idealo Feed)](#idealo-idealo-feed)
+* [MailChimp (E-Mail Synchronisierung)](#mailchimp-e-mail-synchronisierung)
 * [PersonalPromo (Personalisierte Produktempfehlungen)](#personalpromo-personalisierte-produktempfehlungen)
 
 ### Mobil
@@ -109,92 +109,92 @@ Anbindungen für mobile Kommunikationsdienste.
 
 Plugins zur Beschleunigung, Skalierung und Optimierung der Storefront und ihrer Medien.
 
-* [Azure (Microsoft-Azure-Dienste)](#azure-microsoft-azure-dienste)
+* [Azure (Microsoft Azure Services)](#azure-microsoft-azure-services)
 * [MegaSearch](#megasearch)
 * [MegaSearchPlus](#megasearchplus)
-* [OutputCache (Seitenausgabe-Cache)](#outputcache-seitenausgabe-cache)
+* [OutputCache (Ausgabecache)](#outputcache-ausgabecache)
 * [Redis](#redis)
-* [TinyImage (TinyImage-Bildoptimierung)](#tinyimage-tinyimage-bildoptimierung)
+* [TinyImage](#tinyimage)
 
 ### Recht
 
 Plugins zur Unterstützung rechtlicher Informations-, Datenschutz- und Kennzeichnungspflichten.
 
-* [GDPR (Datenschutz-Grundverordnung)](#gdpr-datenschutz-grundverordnung)
-* [GPSR (EU-Produktsicherheitsverordnung)](#gpsr-eu-produktsicherheitsverordnung)
-* [TrustedShops (Trusted-Shops-Widgets)](#trustedshops-trusted-shops-widgets)
-* [Warranty (EU-Garantie- und Gewährleistungshinweise)](#warranty-eu-garantie-und-gewährleistungshinweise)
-* [Withdrawal (Widerrufsverwaltung)](#withdrawal-widerrufsverwaltung)
+* [GDPR (DSGVO)](#gdpr-dsgvo)
+* [GPSR (Allgemeine Produktsicherheitsverordnung)](#gpsr-allgemeine-produktsicherheitsverordnung)
+* [TrustedShops (Trusted Shops Widgets)](#trustedshops-trusted-shops-widgets)
+* [Warranty (EU-Garantiekennzeichnung)](#warranty-eu-garantiekennzeichnung)
+* [Withdrawal (Vertragswiderruf von Bestellungen)](#withdrawal-vertragswiderruf-von-bestellungen)
 
 ### Sicherheit
 
 Plugins zum Schutz vor Bots sowie zur geografischen oder netzwerkbasierten Zugriffskontrolle.
 
-* [Apple.Auth (Apple-Anmeldung)](#appleauth-apple-anmeldung)
-* [CaptchaFox](#captchafox)
-* [Facebook.Auth (Facebook-Anmeldung)](#facebookauth-facebook-anmeldung)
+* [Apple.Auth (Apple Login)](#appleauth-apple-login)
+* [CaptchaFox (CaptchaFox CAPTCHA)](#captchafox-captchafox-captcha)
+* [Facebook.Auth (Facebook Login)](#facebookauth-facebook-login)
 * [FriendlyCaptcha](#friendlycaptcha)
-* [GeoBlocker (Geografische Zugriffssperre)](#geoblocker-geografische-zugriffssperre)
-* [Google.Auth (Google-Anmeldung)](#googleauth-google-anmeldung)
-* [Microsoft.Auth (Microsoft-Anmeldung)](#microsoftauth-microsoft-anmeldung)
-* [Twitter.Auth (X-Anmeldung)](#twitterauth-x-anmeldung)
+* [GeoBlocker](#geoblocker)
+* [Google.Auth (Google Login)](#googleauth-google-login)
+* [Microsoft.Auth (Microsoft Login)](#microsoftauth-microsoft-login)
+* [Twitter.Auth (X Login)](#twitterauth-x-login)
 
 ### Steuern
 
 Standardanbieter zur Steuerberechnung in Smartstore.
 
-* [Tax (Standard-Steueranbieter)](#tax-standard-steueranbieter)
+* [Tax (Standard-Steuerberechnung)](#tax-standard-steuerberechnung)
 
 ### Suchmaschinenoptimierung (SEO)
 
 Werkzeuge für Weiterleitungen, URL-Migrationen und den Erhalt bestehender Suchmaschinenverweise.
 
-* [BizUrlMapper (SmartStore.biz-URL-Zuordnung)](#bizurlmapper-smartstorebiz-url-zuordnung)
-* [LegacyUrlRewriter (Weiterleitung alter URLs)](#legacyurlrewriter-weiterleitung-alter-urls)
-* [UrlRewriter (URL-Weiterleitungen)](#urlrewriter-url-weiterleitungen)
+* [BizUrlMapper (SmartStore.biz URL Mapper)](#bizurlmapper-smartstorebiz-url-mapper)
+* [LegacyUrlRewriter](#legacyurlrewriter)
+* [UrlRewriter](#urlrewriter)
 
 ### Verkauf
 
 Funktionen für Preisgestaltung, Schnellbestellungen und die Anbindung von Beschaffungssystemen.
 
-* [DependingPrices (Abhängige Preise)](#dependingprices-abhängige-preise)
-* [DirectOrder (Schnellbestellung)](#directorder-schnellbestellung)
-* [Oci (OCI-Beschaffungsanbindung)](#oci-oci-beschaffungsanbindung)
-* [OpenTrans (OpenTrans-Bestellexport)](#opentrans-opentrans-bestellexport)
+* [DependingPrices (Preis-Abhängigkeiten)](#dependingprices-preis-abhängigkeiten)
+* [DirectOrder (Direktbestellung)](#directorder-direktbestellung)
+* [Oci](#oci)
+* [OpenTrans (OpenTrans Export)](#opentrans-opentrans-export)
 
 ### Versand
 
 Versandkostenberechnung und Standardanbieter für unterschiedliche Versandmodelle.
 
-* [DimensionPricing (Versandkosten nach Abmessungen)](#dimensionpricing-versandkosten-nach-abmessungen)
-* [Shipping (Standard-Versandanbieter)](#shipping-standard-versandanbieter)
-* [ShippingByWeight (Gewichtsabhängiger Versand)](#shippingbyweight-gewichtsabhängiger-versand)
+* [DimensionPricing (Versandkosten nach Maß)](#dimensionpricing-versandkosten-nach-maß)
+* [Shipping (Versandarten)](#shipping-versandarten)
+* [ShippingByWeight (Versand nach Gewicht)](#shippingbyweight-versand-nach-gewicht)
 
 ### Zahlung
 
 Zahlungsarten und Zahlungsdienstleister für unterschiedliche Märkte und Geschäftsmodelle.
 
-* [AdyenPay (Adyen-Zahlungen)](#adyenpay-adyen-zahlungen)
+* [AdyenPay](#adyenpay)
 * [AmazonPay](#amazonpay)
-* [BilliePay (Billie B2B-Rechnungskauf)](#billiepay-billie-b2b-rechnungskauf)
+* [BilliePay](#billiepay)
 * [EasyCredit](#easycredit)
 * [GiroCode](#girocode)
-* [IdealPayment (iDEAL-Zahlungen)](#idealpayment-ideal-zahlungen)
-* [IonosPayment (IONOS ipayment)](#ionospayment-ionos-ipayment)
-* [KlarnaPay (Klarna-Zahlungen)](#klarnapay-klarna-zahlungen)
-* [MolliePay (Mollie-Zahlungen)](#molliepay-mollie-zahlungen)
-* [OfflinePayment (Offline-Zahlungsarten)](#offlinepayment-offline-zahlungsarten)
+* [IdealPayment](#idealpayment)
+* [IonosPayment (ipayment Zahlungsarten)](#ionospayment-ipayment-zahlungsarten)
+* [KlarnaPay](#klarnapay)
+* [MolliePay](#molliepay)
+* [OfflinePayment (Offline Zahlungsarten)](#offlinepayment-offline-zahlungsarten)
 * [Payever](#payever)
 * [PayPal](#paypal)
 * [PostFinance](#postfinance)
 * [Skrill](#skrill)
-* [Sofortueberweisung (Klarna Pay Now)](#sofortueberweisung-klarna-pay-now)
+* [Sofortueberweisung](#sofortueberweisung)
 * [Stripe](#stripe)
-* [Wallet (Kundenguthaben)](#wallet-kundenguthaben)
+* [Wallet (Guthabenkonto)](#wallet-guthabenkonto)
 
 ## Plugins von A bis Z
 
-### AddToAny (AddToAny-Teilen-Schaltflächen)
+### AddToAny
 
 **Kostenpflichtig:** Ja
 
@@ -211,7 +211,7 @@ Ergänzt Seiten um Social-Sharing-Schaltflächen des Dienstes [AddToAny](https:/
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [AddToAny](addtoany.md).
 
-### AdyenPay (Adyen-Zahlungen)
+### AdyenPay
 
 **Kostenpflichtig:** Ja
 
@@ -230,7 +230,7 @@ Integriert die [Adyen](https://www.adyen.com/)-Zahlungsplattform in den Smartsto
 * optionales Transaktionsprotokoll.
 {% endhint %}
 
-### AI
+### AI (Smartstore KI Basis-Plugin)
 
 **Kostenpflichtig:** Ja
 
@@ -264,7 +264,7 @@ Ermöglicht Anmeldung und Bezahlung mit [Amazon Pay](https://pay.amazon.com/). K
 * Sandbox- und Produktivkonfiguration.
 {% endhint %}
 
-### Apple.Auth (Apple-Anmeldung)
+### Apple.Auth (Apple Login)
 
 **Kostenpflichtig:** Nein
 
@@ -299,7 +299,7 @@ Steuert die Sichtbarkeit von Produktattributen anhand definierter Bedingungen. D
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [AttributeRules](attributerules-regeln-fur-produktattribute.md).
 
-### Azure (Microsoft-Azure-Dienste)
+### Azure (Microsoft Azure Services)
 
 **Kostenpflichtig:** Ja
 
@@ -314,7 +314,7 @@ Aktiviert einen Dateisystem-Provider für [Microsoft Azure Blob Storage](https:/
 * Nutzung über Smartstores abstrahiertes Dateisystem.
 {% endhint %}
 
-### BeezUp (BeezUP-Produktfeed)
+### BeezUp (BeezUP Feed)
 
 **Kostenpflichtig:** Ja
 
@@ -329,7 +329,7 @@ Exportiert Produktdaten für die Multichannel-Plattform [BeezUP](https://www.bee
 * wiederholbare Feed-Erzeugung.
 {% endhint %}
 
-### BilliePay (Billie B2B-Rechnungskauf)
+### BilliePay
 
 **Kostenpflichtig:** Ja
 
@@ -349,7 +349,7 @@ Bindet [Billie](https://www.billie.io/) als B2B-Zahlungsanbieter ein. Geschäfts
 * optionales Webhook-Protokoll.
 {% endhint %}
 
-### Billiger (billiger.de-Produktfeed)
+### Billiger
 
 **Kostenpflichtig:** Ja
 
@@ -364,7 +364,7 @@ Stellt Produktdaten für [billiger.de](https://www.billiger.de/) bereit und unte
 * konfigurierbare Händlerkennung.
 {% endhint %}
 
-### BizUrlMapper (SmartStore.biz-URL-Zuordnung)
+### BizUrlMapper (SmartStore.biz URL Mapper)
 
 **Kostenpflichtig:** Ja
 
@@ -379,7 +379,7 @@ Leitet alte, statische URLs aus SmartStore.biz-Installationen auf die entspreche
 * Migrationsunterstützung ohne manuelle Einzelregeln.
 {% endhint %}
 
-### Blog (Smartstore-Blog)
+### Blog
 
 **Kostenpflichtig:** Ja
 
@@ -397,7 +397,7 @@ Ergänzt den Shop um einen redaktionellen Blog. Beiträge können veröffentlich
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Smartstore-Blog](blog.md).
 
-### BMEcat
+### BMEcat (Datenaustausch)
 
 **Kostenpflichtig:** Ja
 
@@ -427,7 +427,7 @@ Integriert einen [Botsonic](https://botsonic.com/)- beziehungsweise Writesonic-C
 * Anpassung der Darstellung über die Anbieterparameter.
 {% endhint %}
 
-### Brevo
+### Brevo (E-Mail-Synchronisierung)
 
 **Kostenpflichtig:** Ja
 
@@ -443,7 +443,7 @@ Synchronisiert Newsletter-Abonnenten mit [Brevo](https://www.brevo.com/), vormal
 * Abgleich von An- und Abmeldestatus.
 {% endhint %}
 
-### CaptchaFox
+### CaptchaFox (CaptchaFox CAPTCHA)
 
 **Kostenpflichtig:** Ja
 
@@ -458,7 +458,7 @@ Integriert [CaptchaFox](https://captchafox.com/) als Bot-Schutz in das modulare 
 * Nutzung an den von Smartstore unterstützten CAPTCHA-Positionen.
 {% endhint %}
 
-### CartApproval (Warenkorbfreigabe)
+### CartApproval (Warenkorb Genehmigungen)
 
 **Kostenpflichtig:** Ja
 
@@ -538,7 +538,7 @@ Stellt allgemeine CSV- und XML-Exportprovider für zentrale Shopdaten bereit. Di
 * Einbindung in das Smartstore-Exportsystem.
 {% endhint %}
 
-### ContentSlider (Inhalts-Slider)
+### ContentSlider
 
 **Kostenpflichtig:** Ja
 
@@ -590,7 +590,7 @@ Bindet [DeepSeek-Modelle](https://api-docs.deepseek.com/) als KI-Provider ein. B
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [DeepSeek](ai-provider/deepseek.md).
 
-### DependingPrices (Abhängige Preise)
+### DependingPrices (Preis-Abhängigkeiten)
 
 **Kostenpflichtig:** Ja
 
@@ -608,7 +608,7 @@ Ermöglicht kontextabhängige Produktpreise über die Standardpreislogik hinaus.
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [DependingPrices](dependingprices.md).
 
-### DevTools (Smartstore-Entwicklerwerkzeuge)
+### DevTools
 
 **Kostenpflichtig:** Nein
 
@@ -625,7 +625,7 @@ Stellt Diagnose- und Entwicklungswerkzeuge für Entwickler und Administratoren b
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Developer Tools](devtools.md).
 
-### DimensionPricing (Versandkosten nach Abmessungen)
+### DimensionPricing (Versandkosten nach Maß)
 
 **Kostenpflichtig:** Ja
 
@@ -643,7 +643,7 @@ Berechnet Versandkosten anhand von Abmessungen und Gewicht. Das Plugin eignet si
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Versandkosten nach Maß](dimension-pricing.md).
 
-### DirectOrder (Schnellbestellung)
+### DirectOrder (Direktbestellung)
 
 **Kostenpflichtig:** Ja
 
@@ -677,7 +677,7 @@ Bindet die Zahlungsangebote von [easyCredit](https://partner.easycredit.de/) in 
 * Test- und Produktivkonfiguration.
 {% endhint %}
 
-### EmailReminder (E-Mail-Erinnerungen)
+### EmailReminder (E-Mail-Erinnerung)
 
 **Kostenpflichtig:** Ja
 
@@ -708,7 +708,7 @@ Integriert das Tracking-Skript des deutschen Webanalyse-Anbieters [etracker](htt
 * Anschluss an Datenschutz- und Einwilligungsmechanismen.
 {% endhint %}
 
-### Facebook.Auth (Facebook-Anmeldung)
+### Facebook.Auth (Facebook Login)
 
 **Kostenpflichtig:** Nein
 
@@ -725,7 +725,7 @@ Ermöglicht die Anmeldung im Shop über ein [Facebook-Konto](https://developers.
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Facebook-Anmeldung](auth/facebook-auth.md).
 
-### Faq (Häufig gestellte Fragen)
+### Faq
 
 **Kostenpflichtig:** Ja
 
@@ -741,7 +741,7 @@ Stellt einen Bereich für häufig gestellte Fragen bereit. Fragen und Antworten 
 * redaktionelle Pflege über die Administration.
 {% endhint %}
 
-### FileManager (Produktdatei-Manager)
+### FileManager
 
 **Kostenpflichtig:** Ja
 
@@ -759,7 +759,7 @@ Ordnet Dokumente und andere Dateien Produkten zu und stellt sie in konfigurierba
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [File Manager](filemanager.md).
 
-### Forums (Smartstore-Foren)
+### Forums
 
 **Kostenpflichtig:** Ja
 
@@ -791,7 +791,7 @@ Bindet [Friendly Captcha](https://friendlycaptcha.com/) als datenschutzorientier
 * zentrale Aktivierung über das CAPTCHA-Framework.
 {% endhint %}
 
-### GDPR (Datenschutz-Grundverordnung)
+### GDPR (DSGVO)
 
 **Kostenpflichtig:** Ja
 
@@ -809,7 +809,7 @@ Unterstützt die Bearbeitung von Datenschutzrechten im Kundenkonto. Kunden könn
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [DSGVO](dsgvo.md).
 
-### GeoBlocker (Geografische Zugriffssperre)
+### GeoBlocker
 
 **Kostenpflichtig:** Ja
 
@@ -857,7 +857,7 @@ Bindet [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 * Berücksichtigung der Shop- und Tracking-Konfiguration.
 {% endhint %}
 
-### Google.Auth (Google-Anmeldung)
+### Google.Auth (Google Login)
 
 **Kostenpflichtig:** Nein
 
@@ -874,7 +874,7 @@ Erweitert den Shop um die Anmeldung mit einem [Google-Konto](https://developers.
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Google-Anmeldung](auth/google-auth.md).
 
-### Google.Gemini (Google Gemini)
+### Google.Gemini
 
 **Kostenpflichtig:** Ja
 
@@ -891,7 +891,7 @@ Verbindet Smartstore AI mit den [Gemini-Modellen von Google](https://ai.google.d
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Google Gemini](ai-provider/google-gemini.md).
 
-### Google.MerchantCenter (Google-Merchant-Center-Produktfeed)
+### Google.MerchantCenter (Google Merchant Center Feed)
 
 **Kostenpflichtig:** Nein
 
@@ -921,7 +921,7 @@ Integriert das [Google-Remarketing-Tag](https://support.google.com/google-ads/an
 * Anschluss an Consent-Einstellungen.
 {% endhint %}
 
-### GPSR (EU-Produktsicherheitsverordnung)
+### GPSR (Allgemeine Produktsicherheitsverordnung)
 
 **Kostenpflichtig:** Ja
 
@@ -939,7 +939,7 @@ Erweitert Produktinformationen zur Unterstützung der EU-Produktsicherheitsveror
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Produktsicherheitsverordnung (GPSR)](produktsicherheitsverordnung-gpsr.md).
 
-### Guenstiger (guenstiger.de-Produktfeed)
+### Guenstiger (Guenstiger Feed)
 
 **Kostenpflichtig:** Ja
 
@@ -954,7 +954,7 @@ Exportiert Produkte im von [guenstiger.de](https://www.guenstiger.de/) erwartete
 * konfigurierbare und wiederholbare Exportausgabe.
 {% endhint %}
 
-### Idealo (idealo-Produktfeed)
+### Idealo (Idealo Feed)
 
 **Kostenpflichtig:** Ja
 
@@ -969,7 +969,7 @@ Stellt einen auf [idealo](https://www.idealo.de/) zugeschnittenen Produktfeed be
 * Einbindung in das Smartstore-Exportsystem.
 {% endhint %}
 
-### IdealPayment (iDEAL-Zahlungen)
+### IdealPayment
 
 **Kostenpflichtig:** Ja
 
@@ -984,7 +984,7 @@ Integriert [iDEAL](https://www.ideal.nl/en/businesses/offer-ideal/) als niederl�
 * Statusverarbeitung.
 {% endhint %}
 
-### IonosPayment (IONOS ipayment)
+### IonosPayment (ipayment Zahlungsarten)
 
 **Kostenpflichtig:** Ja
 
@@ -1000,7 +1000,7 @@ Integriert [IONOS ipayment](https://www.ionos.de/eshop-loesungen/ipayment) für 
 * Test- und Livebetrieb.
 {% endhint %}
 
-### KlarnaPay (Klarna-Zahlungen)
+### KlarnaPay
 
 **Kostenpflichtig:** Ja
 
@@ -1019,7 +1019,7 @@ Integriert [Klarna-Zahlungen](https://www.klarna.com/) über die Klarna-Payments
 * konfigurierbare Zahlungsgebühren.
 {% endhint %}
 
-### LegacyUrlRewriter (Weiterleitung alter URLs)
+### LegacyUrlRewriter
 
 **Kostenpflichtig:** Nein
 
@@ -1037,7 +1037,7 @@ Leitet alte URLs eines Vorgängersystems auf die passenden neuen Smartstore-Adre
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [LegacyUrlRewriter](legacyurlrewriter.md).
 
-### MailChimp
+### MailChimp (E-Mail Synchronisierung)
 
 **Kostenpflichtig:** Ja
 
@@ -1053,7 +1053,7 @@ Synchronisiert Kunden und Newsletter-Daten mit [Mailchimp](https://mailchimp.com
 * Statusabgleich bei An- und Abmeldungen.
 {% endhint %}
 
-### MediaEditor.Pixlr (Pixlr-Bildeditor)
+### MediaEditor.Pixlr (Pixlr Medien-Editor)
 
 **Kostenpflichtig:** Ja
 
@@ -1070,7 +1070,7 @@ Bindet den [Pixlr-Bildeditor](https://pixlr.com/) in den MediaManager ein. Bilde
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Pixlr](pixlr.md).
 
-### MediaManager (Medienverwaltung)
+### MediaManager
 
 **Kostenpflichtig:** Ja
 
@@ -1088,7 +1088,7 @@ Erweitert die Medienverwaltung um eine leistungsfähige Explorer-Oberfläche. Re
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Medien-Manager](mediamanager.md).
 
-### MegaMenu (Mega-Menü)
+### MegaMenu
 
 **Kostenpflichtig:** Ja
 
@@ -1139,7 +1139,7 @@ Erweitert MegaSearch um zusätzliche Suchfunktionen und Komfortmerkmale. Das Plu
 * gemeinsame Nutzung des Lucene-Indexes.
 {% endhint %}
 
-### Microsoft.Auth (Microsoft-Anmeldung)
+### Microsoft.Auth (Microsoft Login)
 
 **Kostenpflichtig:** Nein
 
@@ -1156,7 +1156,7 @@ Ermöglicht die Kundenanmeldung mit einem [Microsoft-Konto](https://learn.micros
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Microsoft-Anmeldung](auth/microsoft-auth.md).
 
-### MolliePay (Mollie-Zahlungen)
+### MolliePay
 
 **Kostenpflichtig:** Ja
 
@@ -1173,7 +1173,7 @@ Bindet [Mollie](https://www.mollie.com/) als Multi-Payment-Service-Provider ein.
 * optionales Transaktionsprotokoll.
 {% endhint %}
 
-### News (Smartstore-Nachrichten)
+### News
 
 **Kostenpflichtig:** Ja
 
@@ -1189,7 +1189,7 @@ Ergänzt den Shop um einen klassischen Newsbereich für Unternehmens- und Produk
 * Newsübersicht und Detailseiten.
 {% endhint %}
 
-### Oci (OCI-Beschaffungsanbindung)
+### Oci
 
 **Kostenpflichtig:** Ja
 
@@ -1205,7 +1205,7 @@ Bindet Smartstore über die Open Catalog Interface-Spezifikation an E-Procuremen
 * zusätzliche strukturierte Exportdaten.
 {% endhint %}
 
-### OfflinePayment (Offline-Zahlungsarten)
+### OfflinePayment (Offline Zahlungsarten)
 
 **Kostenpflichtig:** Nein
 
@@ -1221,7 +1221,7 @@ Stellt klassische Zahlungsarten bereit, die nicht über ein Online-Payment-Gatew
 * konfigurierbare Hinweise und Zusatzgebühren.
 {% endhint %}
 
-### Ollama
+### Ollama (KI-Provider)
 
 **Kostenpflichtig:** Ja
 
@@ -1239,7 +1239,7 @@ Verbindet Smartstore mit einer eigenen [Ollama](https://ollama.com/)-Instanz und
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Ollama](ai-provider/ollama.md).
 
-### OpenTrans (OpenTrans-Bestellexport)
+### OpenTrans (OpenTrans Export)
 
 **Kostenpflichtig:** Ja
 
@@ -1254,7 +1254,7 @@ Exportiert Bestelldaten im OpenTrans-XML-Format. Dadurch lassen sich Aufträge s
 * Einbindung in Smartstores Exportpipeline.
 {% endhint %}
 
-### OrderNumberFormatter (Bestellnummern-Formatierer)
+### OrderNumberFormatter (Nummernkreis-Formatierer)
 
 **Kostenpflichtig:** Ja
 
@@ -1269,7 +1269,7 @@ Erzeugt Bestellnummern automatisch nach einem frei definierbaren Muster. So kön
 * automatische Vergabe im Bestellprozess.
 {% endhint %}
 
-### OutputCache (Seitenausgabe-Cache)
+### OutputCache (Ausgabecache)
 
 **Kostenpflichtig:** Ja
 
@@ -1286,7 +1286,7 @@ Speichert vollständig gerenderte Storefront-Seiten beziehungsweise Antworten zw
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Output Cache](output-cache-ausgabecache.md).
 
-### PageBuilder (Seitengestalter)
+### PageBuilder
 
 **Kostenpflichtig:** Ja
 
@@ -1336,7 +1336,7 @@ Integriert [PayPal](https://www.paypal.com/de/business) als Online-Zahlungsanbie
 * Erstattungs- und Storno-Unterstützung im Rahmen der PayPal-API.
 {% endhint %}
 
-### PdfExport (PDF-Export)
+### PdfExport
 
 **Kostenpflichtig:** Ja
 
@@ -1366,7 +1366,7 @@ Ersetzt allgemeine Produkte auf der Startseite durch individuell ausgewählte Em
 * Fallback für Besucher ohne ausreichende Historie.
 {% endhint %}
 
-### Polls (Smartstore-Umfragen)
+### Polls (Umfragen)
 
 **Kostenpflichtig:** Ja
 
@@ -1413,7 +1413,7 @@ Bindet [Redis](https://redis.io/) als verteilte Infrastrukturkomponente in Smart
 * gemeinsame Cache-Nutzung über mehrere Nodes.
 {% endhint %}
 
-### RemoveBadge (Smartstore-Hinweis entfernen)
+### RemoveBadge
 
 **Kostenpflichtig:** Ja
 
@@ -1427,7 +1427,7 @@ Entfernt den Hinweis „Powered by Smartstore“ aus dem Footer des Shops. Das P
 * updatefeste Aktivierung über das Pluginsystem.
 {% endhint %}
 
-### SearchLog (Suchprotokoll)
+### SearchLog (Suchprotokollierung)
 
 **Kostenpflichtig:** Ja
 
@@ -1442,7 +1442,7 @@ Protokolliert Suchbegriffe aus dem Storefront und bereitet häufige Suchanfragen
 * Grundlage für Sortiments- und Suchoptimierung.
 {% endhint %}
 
-### Shipping (Standard-Versandanbieter)
+### Shipping (Versandarten)
 
 **Kostenpflichtig:** Nein
 
@@ -1457,7 +1457,7 @@ Enthält die grundlegenden Versandkostenanbieter von Smartstore. Versandkosten k
 * Einbindung in die allgemeine Versandarten- und Länderlogik.
 {% endhint %}
 
-### ShippingByWeight (Gewichtsabhängiger Versand)
+### ShippingByWeight (Versand nach Gewicht)
 
 **Kostenpflichtig:** Nein
 
@@ -1487,7 +1487,7 @@ Integriert [Skrill Quick Checkout](https://www.skrill.com/en/business/shopping-c
 * Zahlungsstatus und Benachrichtigungen.
 {% endhint %}
 
-### Sofortueberweisung (Klarna Pay Now)
+### Sofortueberweisung
 
 **Kostenpflichtig:** Ja
 
@@ -1519,7 +1519,7 @@ Bindet [Stripe](https://stripe.com/de) als Zahlungsdienstleister ein. Kunden kö
 * PCI-entlastete Eingabe über Stripe-Komponenten.
 {% endhint %}
 
-### Tax (Standard-Steueranbieter)
+### Tax (Standard-Steuerberechnung)
 
 **Kostenpflichtig:** Nein
 
@@ -1534,7 +1534,7 @@ Stellt die Standardverfahren zur Steuerberechnung bereit. Dazu gehören feste St
 * Zusammenspiel mit Kunden-, Adress- und Storekontext.
 {% endhint %}
 
-### Timeline (Zeitleiste)
+### Timeline
 
 **Kostenpflichtig:** Ja
 
@@ -1550,7 +1550,7 @@ Erfasst Ereignisse und stellt sie als zeitliche Abfolge dar. Das Plugin kann bei
 * konfigurierbare Ausgabe.
 {% endhint %}
 
-### TinyImage (TinyImage-Bildoptimierung)
+### TinyImage
 
 **Kostenpflichtig:** Ja
 
@@ -1568,7 +1568,7 @@ Optimiert Bilder für kleinere Dateien und schnellere Storefront-Auslieferung. D
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [TinyImage](tinyimage.md).
 
-### TrustedShops (Trusted-Shops-Widgets)
+### TrustedShops (Trusted Shops Widgets)
 
 **Kostenpflichtig:** Ja
 
@@ -1584,7 +1584,7 @@ Integriert zentrale [Trusted-Shops](https://www.trustedshops.de/)-Bausteine in d
 * Einbindung an passenden Storefront-Positionen.
 {% endhint %}
 
-### Twitter.Auth (X-Anmeldung)
+### Twitter.Auth (X Login)
 
 **Kostenpflichtig:** Nein
 
@@ -1601,7 +1601,7 @@ Bindet [X](https://docs.x.com/overview), vormals Twitter, als externen Login-Anb
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [X-Anmeldung](auth/twitter-auth.md).
 
-### UrlRewriter (URL-Weiterleitungen)
+### UrlRewriter
 
 **Kostenpflichtig:** Ja
 
@@ -1619,7 +1619,7 @@ Ermöglicht einfache URL-Weiterleitungen und komplexere Rewrite-Regeln. Veraltet
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [UrlRewriter](urlrewriter.md).
 
-### Wallet (Kundenguthaben)
+### Wallet (Guthabenkonto)
 
 **Kostenpflichtig:** Ja
 
@@ -1635,7 +1635,7 @@ Stellt ein internes digitales Kundenguthaben als Zahlungsart bereit. Guthabenbew
 * Kundenansicht und zentrale Einstellungen.
 {% endhint %}
 
-### Warranty (EU-Garantie- und Gewährleistungshinweise)
+### Warranty (EU-Garantiekennzeichnung)
 
 **Kostenpflichtig:** Ja
 
@@ -1669,7 +1669,7 @@ Erweitert Smartstore um eine REST-orientierte, auf [OData](https://learn.microso
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Web API](webapi.md).
 
-### Withdrawal (Widerrufsverwaltung)
+### Withdrawal (Vertragswiderruf von Bestellungen)
 
 **Kostenpflichtig:** Ja
 
