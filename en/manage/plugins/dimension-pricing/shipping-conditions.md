@@ -2,54 +2,74 @@
 
 A **shipping condition** connects a [shipping method](../../configuration/setting-up-shipping-methods.md) and a [package size](package-types-and-sizes.md) to a destination, tier limits, price, and surcharges.
 
-Open **Configuration** &rarr; **Regional settings** &rarr; **Shipping rate computation methods**. Open the submenu for **Dimension-based shipping**, select **Configure**, open the **Shipping conditions** tab, and select **New shipping condition**.
+![Shipping conditions tab with published conditions and advanced columns displayed](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions.png)
 
-In the dialog, **General** contains the scope, package size, base price, and publication status. Tier limits and surcharges are available under **Advanced**. The overview displays the general values directly; use the column selector to show advanced values when needed.
+Open the [plugin configuration](../dimension-pricing.md#configuration-and-permissions), switch to the **Shipping conditions** tab, and click **Add new shipping condition**.
 
-## Scope and base price
+## General conditions
 
-| Field | Meaning |
+The **General** tab contains the scope, package size, base price, and publication status. The general values are displayed directly in the overview.
+
+![Dialog for a new shipping condition](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions_popup.png)
+
+### Scope and base price
+
+The scope determines the stores, [destination countries](../../configuration/managing-countries-regions.md), postal codes, and shipping methods to which a shipping condition can apply. You also select the associated package type and size and enter the base price for each package created. Only published shipping conditions are considered during calculation.
+
+| Option | Description |
 | --- | --- |
 | Store | Applies to the selected store or, with `*`, to all stores. |
 | Country | Applies to the country of the shipping address or, with `*`, to all countries. |
-| Postal code | Applies to the postal code of the shipping address. Empty or `*` matches all postal codes. Multiple comma-separated wildcard patterns are supported, for example `10*, 12*`. |
+| Postal code | Applies to the postal code of the shipping address. |
 | Shipping method | Shipping method to which the condition applies; `*` applies to all methods. |
 | Package type and size | Package size into which the cart is packed. |
 | Price | Base price per created package in the store's primary currency. |
 | Published | Only published conditions are considered during calculation. |
 
-## Tier limits
+For postal-code input, use `*` for any number of characters and `?` for exactly one arbitrary character. Numeric ranges can be specified with a hyphen, and multiple patterns can be separated by commas, for example `10*, 12???, 50000-59999`. An empty field or `*` applies to all postal codes.
 
-| Field | Meaning |
+## Advanced conditions
+
+The **Advanced** tab contains tier limits and surcharges. In the overview, you can display the advanced values as needed using the column selector (gear icon).
+
+![Advanced tab in the dialog for creating a shipping condition](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_shipping-conditions_popup_advanced.png)
+
+### Tier limits
+
+Tier limits restrict a shipping condition to specific ranges for chargeable weight, volume, or item quantity. Weight and volume limits apply to an individual package, while quantity limits apply to the total quantity of products requiring shipping in the cart.
+
+| Option | Description |
 | --- | --- |
-| Weight from / to | Optional range for the chargeable weight of an individual packed unit. |
+| Chargeable weight from / to | Optional range for the chargeable weight of an individual package. |
 | Volume from / to | Optional volume range for an individual package. |
 | Quantity from / to | Optional range for the total quantity of products requiring shipping in the cart. |
 
 All lower and upper limits are **inclusive**. A shipping condition with `Chargeable weight to = 10` also applies at exactly 10 units of the [base weight unit](../../configuration/managing-weights-quantity-units-dimensions.md).
 
-## Additional weight charge
+### Additional weight charge
 
 Use the following fields to combine a base price with additional weight increments:
 
-- **Additional weight from:** Weight already included in the base price.
-- **Additional weight unit:** Size of one additional increment, for example `1` kg.
-- **Price per additional weight unit:** Price for each started increment.
+- **Additional weight from**: Weight already included in the base price.
+- **Additional weight unit**: Size of one additional increment, for example `1` kg.
+- **Price per additional weight unit**: Price for each started increment.
 
-Example: The base price includes 10 kg. Every additional started unit of 2 kg costs EUR 3. At 15 kg, three additional units are charged: `base price + 3 × EUR 3`.
+The following example shows how an additional weight charge affects the shipping price. As soon as the chargeable weight of a package exceeds the specified threshold, the configured charge is calculated for each additional weight increment or part thereof and added to the base price. The example values illustrate the individual calculation steps and the resulting shipping price.
 
-## Surcharges
+> The base price includes 10 kg. Each additional 2 kg increment or part thereof costs €3. At 15 kg, three additional increments are charged: `base price + 3 × €3`.
 
-| Field | Meaning |
+### Surcharges
+
+Surcharges add further cost components to the base price. You can configure fixed or percentage surcharges, packaging costs, loading-meter costs, and oversize surcharges.
+
+| Option | Description |
 | --- | --- |
 | Fixed surcharge | Fixed amount per package, for example for tolls or climate costs. |
-| Percentage surcharge | Percentage applied to the base price plus additional weight charges. |
+| Percentage surcharge | Percentage applied to the subtotal of the base price and additional weight charges. |
 | Packaging price | Fixed packaging price per package. |
-| Loading-meter charge | In fixed mode, a one-time charge per packed unit; in area-based mode, a price per calculated loading meter. |
-| Oversize threshold | Value from which the oversize surcharge applies. If a girth formula exists, its result is used; otherwise the longest occupied edge is used. |
-| Oversize surcharge | Fixed amount per packed unit from and including the oversize threshold. |
-
-## Price calculation order
+| Loading-meter charge | The [loading-meter calculation](settings.md#loading-meter-calculation) **Fixed charge per packed unit** calculates a one-time charge per package; **Area-based** calculates the price per loading meter. |
+| Oversize threshold | Value from which the oversize surcharge applies. If a girth formula exists, its result is used; otherwise, the longest occupied edge is used. |
+| Oversize surcharge | Fixed amount per package from and including the oversize threshold. |
 
 The price of an individual package is calculated in this order:
 
@@ -95,5 +115,5 @@ Also check:
 
 - the publication status of the shipping condition,
 - the specificity and calculated price of overlapping conditions,
-- the selected loading-meter mode,
+- the selected loading-meter calculation method,
 - the configuration of additional weight increments.

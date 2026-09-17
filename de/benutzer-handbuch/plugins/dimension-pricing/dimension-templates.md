@@ -36,13 +36,13 @@ Maße bilden die Grundlage für Berechnungsformeln und können außerdem auf der
 
 | Option | Beschreibung |
 | --- | --- |
+| Bezeichnung | Sichtbare Bezeichnung des Maßes. |
+| Hilfetext | Erläuterung für Administratoren oder Kunden. |
 | Standardmaß | Wählen Sie **Breite**, **Höhe** oder **Länge**, um den zugehörigen Systemnamen automatisch zu übernehmen. Wählen Sie **Eigenes Maß** für weitere Maße. |
 | Systemname | Technische Bezeichnung des Maßes in Berechnungs- und Packformeln. Bei einem eigenen Maß vergeben Sie den Systemnamen selbst. |
 | Minimalwert | Kleinster administrativ oder vom Kunden eingegebener Wert. |
 | Max. Wert | Größter administrativ oder vom Kunden eingegebener Wert. |
 | Standardwert | Wert, der für ein Produkt gilt, solange dort kein abweichender Wert eingetragen ist. |
-| Bezeichnung | Sichtbare Bezeichnung des Maßes. |
-| Hilfetext | Erläuterung für Administratoren oder Kunden. |
 | Anzeigereihenfolge | Niedrigere Werte erscheinen zuerst. |
 | Im Frontend anzeigen | Zeigt das für das Produkt angewendete Maß im Bereich **Maße** der Produktdetailseite an. |
 

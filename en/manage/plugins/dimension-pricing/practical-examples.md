@@ -13,6 +13,12 @@ The example prices and dimensions are for illustration. Adapt minimum values, ma
 | [Tabletop](#tabletop-order-several-identical-cut-to-size-products) | width, length, and quantity | total price of identical tabletops |
 | [Acoustic foam](#acoustic-foam-configure-three-dimensional-blocks) | width, height, length, and quantity | total price of identical foam blocks |
 
+{% hint style="warning" %}
+All lengths use the **base dimension unit**, and all weights use the **base weight unit**. Check both units before configuring the plugin.
+
+For example, a value of `120` means 120 cm only if centimeters are configured as the base dimension unit. For more information, see [Managing weights, quantity units, and dimensions](../../configuration/managing-weights-quantity-units-dimensions.md).
+{% endhint %}
+
 ## Floor tiles: calculate packages from a total area
 
 The product **Urban Stone floor tiles – package for 1.44 m²** is sold only in complete packages. The customer knows the required floor area but does not have to calculate how many packages are needed.

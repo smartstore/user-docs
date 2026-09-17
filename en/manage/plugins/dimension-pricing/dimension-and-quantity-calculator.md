@@ -2,6 +2,8 @@
 
 The dimension and quantity calculator is an optional configurator on the product detail page. It replaces the standard quantity input and is suitable for cut-to-size products, panels, fabrics, floor coverings, and other products whose required quantity or price depends on dimensions.
 
+![Calculating a product](../../../.gitbook/assets/module_dimensionpricing_frontend_measurement-calculator.png)
+
 The calculator can:
 
 - convert a total measurement entered by the customer into an item quantity,
@@ -21,6 +23,8 @@ The calculator later uses these values for its input fields and calculations.
 
 The settings are divided into **Display** and **Calculation**. Under **Display**, enable and label the calculator. Under **Calculation**, determine which inputs are available and how they produce the dimension value, item quantity, or price.
 
+![Configuring the dimension and quantity calculator within a dimension template](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_calculator.png)
+
 ### Display
 
 | Setting | Description |
@@ -28,7 +32,7 @@ The settings are divided into **Display** and **Calculation**. Under **Display**
 | **Show dimension and quantity calculator** | Enables the calculator for all products that use this dimension template. It appears above the price on the product detail page and replaces the standard quantity input. |
 | **Dimension value label** | Labels the calculated value, for example **Area in m²**, **Length in m**, or **Volume in m³**. |
 
-The calculator takes the item quantity label from the product's **quantity unit**. It automatically uses the singular or plural form, for example **1 package** or **2 packages**.
+The calculator takes the item quantity label from the product's [**quantity unit**](../../configuration/managing-weights-quantity-units-dimensions.md). It automatically uses the singular or plural form, for example **1 package** or **2 packages**.
 
 ### Calculation
 
@@ -130,3 +134,5 @@ The entered dimensions and calculated dimension value accompany the product item
 
 - An item quantity determined by the calculator cannot be changed in the cart.
 - An item quantity selected by the customer remains editable in the cart.
+
+![Entered dimensions and the calculated dimension value in the cart](../../../.gitbook/assets/module_dimensionpricing_frontend_cart_calculator-results.png)
