@@ -151,7 +151,7 @@
   * [Clearing Cache](manage/system-maintenance/clearing-cache.md)
   * [Restarting Application](manage/system-maintenance/restarting-application.md)
   * [Managing Scheduled Tasks](manage/system-maintenance/managing-scheduled-tasks.md)
-* [Plugins](manage/plugins/README.md)
+* [Plugins](manage/plugins/toc.md)
   * [Installing Plugins](manage/plugins/installing-plugins.md)
   * [Managing Plugins](manage/plugins/managing-plugins.md)
   * [Payment Providers and Payment Methods](manage/plugins/paymentproviders.md)
