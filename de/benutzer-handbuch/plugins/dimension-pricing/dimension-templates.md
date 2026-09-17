@@ -2,16 +2,21 @@
 
 Maßvorlagen sind wiederverwendbare Datensätze zusätzlicher Produktmaße. Sie können außerdem den [Maß- und Mengenrechner](dimension-and-quantity-calculator.md) auf der Produktdetailseite bereitstellen und Packformeln für die platzsparende Kombination gleichartiger Produkte enthalten.
 
+![Registerkarte Maßvorlagen mit Übersicht aller angelegten Einträge](../../../.gitbook/assets/module_dimensionpricing_configuration_tab_dimension-templates.png)
+
+Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#konfiguration-und-berechtigungen) und wechseln Sie zur Registerkarte **Maßvorlagen**.
+
+{% hint style="info" %}
 Sie benötigen keine Maßvorlage, wenn ausschließlich die regulären Produktfelder für Breite, Höhe und Länge verwendet werden und weder ein Maß- und Mengenrechner noch eine Packformel erforderlich ist.
+{% endhint %}
 
 ## Maßvorlage anlegen
 
-1. Öffnen Sie die [Konfiguration des Plugins](../dimension-pricing.md#zugriff) und wechseln Sie zur Registerkarte **Maßvorlagen**.
-2. Klicken Sie auf **Neue Maßvorlage**.
-3. Geben Sie einen administrativen **Namen** ein.
-4. Wählen Sie eine **Startvorlage**.
-5. Legen Sie die **Anzeigereihenfolge** fest.
-6. Speichern Sie die Vorlage. Anschließend bleibt die Bearbeitungsseite geöffnet, sodass Sie die angelegten Maße und Einstellungen direkt prüfen können.
+1. Klicken Sie auf **Neue Maßvorlage**.
+2. Geben Sie einen administrativen **Namen** ein.
+3. Wählen Sie eine **Startvorlage**.
+4. Legen Sie die **Anzeigereihenfolge** fest.
+5. Speichern Sie die Vorlage. Anschließend bleibt die Bearbeitungsseite geöffnet, sodass Sie die angelegten Maße und Einstellungen direkt prüfen können.
 
 | Startvorlage | Angelegte Inhalte |
 | --- | --- |
@@ -21,16 +26,20 @@ Sie benötigen keine Maßvorlage, wenn ausschließlich die regulären Produktfel
 | Volumen (Breite × Höhe × Länge) | Legt `Width`, `Height` und `Length` sowie die entsprechende Volumenformel an. |
 | Zuschnitt (Breite × Länge) | Legt `Width` und `Length` sowie die Formel `Width * Length` an. |
 
+![Anlegen einer Maßvorlage](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_add.png)
+
 ## Maße hinzufügen
 
-Öffnen Sie die gespeicherte Vorlage, wechseln Sie zu **Maße** und klicken Sie auf **Neues Maß**.
+Maße bilden die Grundlage für Berechnungsformeln und können außerdem auf der Produktdetailseite angezeigt oder von Kunden eingegeben werden. Für jedes Maß legen Sie unter anderem den Systemnamen, den zulässigen Wertebereich und einen Standardwert fest.
 
-| Feld | Bedeutung |
+![Maße und Standardwerte einer Maßvorlage](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_dimensions_popup.png)
+
+| Option | Beschreibung |
 | --- | --- |
 | Standardmaß | Wählen Sie **Breite**, **Höhe** oder **Länge**, um den zugehörigen Systemnamen automatisch zu übernehmen. Wählen Sie **Eigenes Maß** für weitere Maße. |
 | Systemname | Technische Bezeichnung des Maßes in Berechnungs- und Packformeln. Bei einem eigenen Maß vergeben Sie den Systemnamen selbst. |
 | Minimalwert | Kleinster administrativ oder vom Kunden eingegebener Wert. |
-| Maximalwert | Größter administrativ oder vom Kunden eingegebener Wert. |
+| Max. Wert | Größter administrativ oder vom Kunden eingegebener Wert. |
 | Standardwert | Wert, der für ein Produkt gilt, solange dort kein abweichender Wert eingetragen ist. |
 | Bezeichnung | Sichtbare Bezeichnung des Maßes. |
 | Hilfetext | Erläuterung für Administratoren oder Kunden. |
@@ -54,15 +63,17 @@ Sie können deshalb mit einer globalen Vorlage beginnen, Warengruppen abweichend
 
 ### Globale Vorgabe festlegen
 
+Die globale Vorgabe gilt für alle Produkte, für die weder über eine Warengruppe noch direkt am Produkt eine andere Auswahl getroffen wurde. Mit **Keine Maßvorlage** deaktivieren Sie die globale Vorgabe.
+
 1. Öffnen Sie die [Einstellungen](settings.md#globale-standardmaßvorlage) des Plugins.
 2. Wählen Sie unter **Globale Standardmaßvorlage** die gewünschte Vorlage.
 3. Speichern Sie die Einstellungen.
 
-Die globale Vorgabe gilt für alle Produkte, für die weder über eine Warengruppe noch direkt am Produkt eine andere Auswahl getroffen wurde. Mit **Keine Maßvorlage** deaktivieren Sie die globale Vorgabe.
-
 ### Vorgabe für eine Warengruppe festlegen
 
-1. Öffnen Sie im Administrationsbereich **Katalog** &rarr; **Warengruppen**.
+Über Warengruppen weisen Sie mehreren Produkten gemeinsam eine Maßvorlage zu. Die Vorgabe kann von übergeordneten Warengruppen oder der globalen Einstellung übernommen, deaktiviert oder durch eine andere Maßvorlage ersetzt werden.
+
+1. Öffnen Sie im Administrationsbereich **Katalog** &rarr; [**Warengruppen**](../../../verwalten/katalog/warengruppen-organisieren.md).
 2. Öffnen Sie die gewünschte Warengruppe und wechseln Sie zur Registerkarte **Maßberechnung**.
 3. Wählen Sie unter **Verwendung** den gewünschten Modus.
 4. Wählen Sie bei **Andere Maßvorlage auswählen** die Vorlage aus.
@@ -74,11 +85,15 @@ Die globale Vorgabe gilt für alle Produkte, für die weder über eine Warengrup
 | Keine Maßvorlage | Verwendet für diese Warengruppe und ihre untergeordneten Warengruppen keine Maßvorlage. Eine spezifischere Warengruppen- oder Produktvorgabe kann dies wieder ändern. |
 | Andere Maßvorlage auswählen | Verwendet die ausgewählte Maßvorlage für die Warengruppe und ihre untergeordneten Warengruppen. Eine spezifischere Vorgabe hat Vorrang. |
 
+![Maßvorlagenvorgabe in den Einstellungen einer Warengruppe](../../../.gitbook/assets/module_dimensionpricing_categories_tab_dimension-template.png)
+
 Die Maske zeigt an, welche Vorgabe ohne eine eigene Auswahl geerbt würde und woher sie stammt.
 
 Ist ein Produkt mehreren Warengruppen zugeordnet, wird zunächst die Vorgabe der tiefsten und damit spezifischsten Warengruppe verwendet. Liegen mehrere Vorgaben auf derselben Ebene, entscheidet die niedrigere **Priorität**. Ist auch diese identisch, entscheidet die Anzeigereihenfolge der Warengruppenzuordnungen am Produkt.
 
 ### Vorgabe für ein Produkt festlegen
+
+Am einzelnen Produkt können Sie die über eine Warengruppe oder global festgelegte Vorgabe übernehmen, deaktivieren oder gezielt ersetzen. Zusätzlich lassen sich die Standardwerte der angewendeten Maßvorlage für dieses Produkt überschreiben.
 
 1. Öffnen Sie im Administrationsbereich **Katalog** &rarr; **Produkte**.
 2. Öffnen Sie das gewünschte Produkt und wechseln Sie zur Registerkarte **Maße**.
@@ -91,6 +106,8 @@ Ist ein Produkt mehreren Warengruppen zugeordnet, wird zunächst die Vorgabe der
 | Automatisch (Vorgabe übernehmen) | Verwendet die Vorgabe der spezifischsten Warengruppe oder die globale Vorgabe. |
 | Keine Maßvorlage | Deaktiviert die Maßvorlage für dieses Produkt. |
 | Andere Maßvorlage auswählen | Verwendet für dieses Produkt die ausgewählte Maßvorlage. |
+
+![Maßvorlage und produktspezifische Maßwerte in den Produkteinstellungen](../../../.gitbook/assets/module_dimensionpricing_products_tab_dimension-template.png)
 
 Unter **Angewendete Maßvorlage** sehen Sie die aktuell verwendete Vorlage und deren Herkunft. Eine Vorgabe am Produkt hat immer Vorrang vor Warengruppen und der globalen Vorgabe.
 
@@ -115,6 +132,8 @@ Beim Löschen zeigt die Bestätigung an, wie vielen Produkten und Warengruppen d
 ## Packformeln
 
 Packformeln eignen sich für gleichartige, nicht quaderförmige Produkte, die sich zu einem kleineren quaderförmigen Packelement zusammenlegen lassen.
+
+![Packformel einer Maßvorlage erstellen](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_pack-formulas.png)
 
 Öffnen Sie eine Maßvorlage und wechseln Sie zu **Packformeln**. Für jede Formel legen Sie fest:
 
@@ -147,4 +166,4 @@ Wird ein Systemname bereits in einer Formel verwendet, passen Sie zuerst die bet
 - Prüfen Sie die [Quelle für Breite, Höhe und Länge](settings.md#quelle-für-breite-höhe-und-länge).
 - Verwenden Sie für eigene Standardmaße die Systemnamen `Width`, `Height` und `Length`.
 - Prüfen Sie am Produkt, welche Maßvorlage angewendet wird und woher die Vorgabe stammt.
-- Berücksichtigen Sie Maße von Varianten oder Attributkombinationen, da diese die Basiswerte des Produkts beeinflussen können.
+- Berücksichtigen Sie Maße von [Varianten oder Attributkombinationen](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md), da diese die Basiswerte des Produkts beeinflussen können.

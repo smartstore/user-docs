@@ -2,6 +2,8 @@
 
 Der Maß- und Mengenrechner ist ein optionaler Konfigurator auf der Produktdetailseite. Er ersetzt die reguläre Mengeneingabe und eignet sich beispielsweise für Zuschnitte, Platten, Stoffe, Bodenbeläge oder andere Produkte, deren benötigte Menge oder Preis von Maßen abhängt.
 
+![Berechnung eine Produkts](../../../.gitbook/assets/module_dimensionpricing_frontend_measurement-calculator.png)
+
 Der Rechner kann:
 
 - ein vom Kunden eingegebenes Gesamtmaß in eine Artikelmenge umrechnen,
@@ -25,7 +27,7 @@ Die Einstellungen sind in die Bereiche **Darstellung** und **Berechnung** geglie
 
 ### Darstellung
 
-| Einstellung | Beschreibung |
+| Option | Beschreibung |
 | --- | --- |
 | **Maß- und Mengenrechner anzeigen** | Aktiviert den Rechner für alle Produkte mit dieser Maßvorlage. Er erscheint auf der Produktdetailseite oberhalb des Preises und ersetzt dort die reguläre Mengeneingabe. |
 | **Bezeichnung des Maßwerts** | Beschriftet den berechneten Wert, zum Beispiel **Fläche in m²**, **Länge in m** oder **Volumen in m³**. |
@@ -36,7 +38,7 @@ Die Bezeichnung der Artikelmenge übernimmt der Rechner aus der [**Verpackungsei
 
 Diese Einstellungen bestimmen, welche Angaben der Kunde macht und wie der Rechner daraus Maßwert, Artikelmenge oder Preis ermittelt.
 
-| Einstellung | Beschreibung |
+| Option | Beschreibung |
 | --- | --- |
 | **Betriebsart** | Bestimmt, ob der Kunde ein Gesamtmaß oder einzelne Maße eingibt und ob daraus Artikelmenge oder Preis berechnet werden. |
 | **Berechnungsformel** | Verbindet die Maße zu einem Maßwert. `Width * Length` berechnet beispielsweise eine Fläche aus Breite und Länge. |
@@ -104,8 +106,6 @@ Width / 2
 (A + Width) * Height
 ```
 
-![Berechnungsformel des Maß- und Mengenrechners mit den verfügbaren Maßvariablen](../../../.gitbook/assets/module_dimensionpricing_configuration_dimension-template_calculator_formula.png)
-
 Beim Speichern wird die Formel geprüft. Fehlerhafte Ausdrücke und Variablen, die in der Maßvorlage nicht vorhanden sind, werden direkt am Formelfeld gemeldet.
 
 #### Divisor
@@ -134,3 +134,5 @@ Die eingegebenen Maße und der berechnete Maßwert begleiten die Produktposition
 
 - Eine vom Rechner ermittelte Artikelmenge kann im Warenkorb nicht geändert werden.
 - Eine vom Kunden gewählte Artikelmenge bleibt im Warenkorb änderbar.
+
+![Eingegebenen Maße und der berechnete Maßwert im Warenkorb](../../../.gitbook/assets/module_dimensionpricing_frontend_cart_calculator-results.png)
