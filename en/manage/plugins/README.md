@@ -198,7 +198,7 @@ Payment methods and service providers for different markets and business models.
 
 **Paid:** Yes
 
-Adds [AddToAny](https://www.addtoany.com/) social sharing buttons to pages so customers can share content and products through social networks and messaging services.
+Adds AddToAny social sharing buttons to pages so customers can share content and products through social networks and messaging services.
 
 {% hint style="info" %}
 **Key Features**
@@ -214,7 +214,7 @@ For setup and usage details, see the [AddToAny](addtoany.md) plugin documentatio
 
 **Paid:** Yes
 
-Integrates the [Adyen](https://www.adyen.com/) payment platform into the Smartstore checkout, including secure handoff and asynchronous status updates through webhooks.
+Integrates the Adyen payment platform into the Smartstore checkout, including secure handoff and asynchronous status updates through webhooks.
 
 {% hint style="info" %}
 **Key Features**
@@ -244,7 +244,7 @@ For setup and usage details, see the [AI (Smartstore basic AI plugin)](ai.md) pl
 
 **Paid:** No
 
-Enables sign-in and payment with [Amazon Pay](https://pay.amazon.com/) using address and payment information stored in the customer's Amazon account.
+Enables sign-in and payment with Amazon Pay using address and payment information stored in the customer's Amazon account.
 
 {% hint style="info" %}
 **Key Features**
@@ -258,7 +258,7 @@ Enables sign-in and payment with [Amazon Pay](https://pay.amazon.com/) using add
 
 **Paid:** No
 
-Allows customers to register and sign in with their Apple ID through [Sign in with Apple](https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple).
+Allows customers to register and sign in with their Apple ID through Sign in with Apple.
 
 {% hint style="info" %}
 **Key Features**
@@ -290,7 +290,7 @@ For setup and usage details, see the [AttributeRules (Rules for product attribut
 
 **Paid:** Yes
 
-Adds a file-system provider for [Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/) so media and supported files can be stored outside the local web server.
+Adds a file-system provider for Microsoft Azure Blob Storage so media and supported files can be stored outside the local web server.
 
 {% hint style="info" %}
 **Key Features**
@@ -304,7 +304,7 @@ Adds a file-system provider for [Microsoft Azure Blob Storage](https://azure.mic
 
 **Paid:** Yes
 
-Exports product data to the [BeezUP](https://www.beezup.com/) multichannel platform as CSV or XML feeds for connected marketplaces and price-comparison portals.
+Exports product data to the BeezUP multichannel platform as CSV or XML feeds for connected marketplaces and price-comparison portals.
 
 {% hint style="info" %}
 **Key Features**
@@ -318,7 +318,7 @@ Exports product data to the [BeezUP](https://www.beezup.com/) multichannel platf
 
 **Paid:** Yes
 
-Integrates [Billie](https://www.billie.io/) for B2B purchases on account and transfers the required customer, company, cart, and order data to the provider.
+Integrates Billie for B2B purchases on account and transfers the required customer, company, cart, and order data to the provider.
 
 {% hint style="info" %}
 **Key Features**
@@ -332,7 +332,7 @@ Integrates [Billie](https://www.billie.io/) for B2B purchases on account and tra
 
 **Paid:** Yes
 
-Provides product data to [billiger.de](https://www.billiger.de/) and supports conversion tracking for referred sales.
+Provides product data to billiger.de and supports conversion tracking for referred sales.
 
 {% hint style="info" %}
 **Key Features**
@@ -376,7 +376,7 @@ For setup and usage details, see the [Blog](blog.md) plugin documentation.
 
 **Paid:** Yes
 
-Supports product and catalog exchange in the standardized [BMEcat format](https://www.bme.de/services/bmecat/), particularly for B2B scenarios and large supplier catalogs.
+Supports product and catalog exchange in the standardized BMEcat format, particularly for B2B scenarios and large supplier catalogs.
 
 {% hint style="info" %}
 **Key Features**
@@ -390,7 +390,7 @@ Supports product and catalog exchange in the standardized [BMEcat format](https:
 
 **Paid:** Yes
 
-Embeds a [Botsonic](https://botsonic.com/) or Writesonic chatbot in the storefront so visitors can use an externally configured assistant.
+Embeds a Botsonic or Writesonic chatbot in the storefront so visitors can use an externally configured assistant.
 
 {% hint style="info" %}
 **Key Features**
@@ -404,7 +404,7 @@ Embeds a [Botsonic](https://botsonic.com/) or Writesonic chatbot in the storefro
 
 **Paid:** Yes
 
-Synchronizes newsletter subscribers with [Brevo](https://www.brevo.com/), formerly Sendinblue, including subscription and unsubscription changes.
+Synchronizes newsletter subscribers with Brevo, formerly Sendinblue, including subscription and unsubscription changes.
 
 {% hint style="info" %}
 **Key Features**
@@ -418,7 +418,7 @@ Synchronizes newsletter subscribers with [Brevo](https://www.brevo.com/), former
 
 **Paid:** Yes
 
-Integrates [CaptchaFox](https://captchafox.com/) into Smartstore's modular CAPTCHA system to protect supported forms from automated abuse.
+Integrates CaptchaFox into Smartstore's modular CAPTCHA system to protect supported forms from automated abuse.
 
 {% hint style="info" %}
 **Key Features**
@@ -446,7 +446,7 @@ Adds purchaser and approver roles to B2B procurement workflows so carts can be r
 
 **Paid:** Yes
 
-Connects Smartstore AI to [OpenAI models](https://platform.openai.com/). Separate API credentials are required, and API usage is not included in the plugin license.
+Connects Smartstore AI to OpenAI models. Separate API credentials are required, and API usage is not included in the plugin license.
 
 {% hint style="info" %}
 **Key Features**
@@ -462,7 +462,7 @@ For setup and usage details, see the [ChatGPT (OpenAI ChatGPT)](ai-provider/open
 
 **Paid:** Yes
 
-Connects [Anthropic Claude models](https://claude.com/platform/api) to Smartstore's central AI layer as an alternative cloud provider.
+Connects Anthropic Claude models to Smartstore's central AI layer as an alternative cloud provider.
 
 {% hint style="info" %}
 **Key Features**
@@ -478,7 +478,7 @@ For setup and usage details, see the [Claude (Anthropic Claude)](ai-provider/ant
 
 **Paid:** No
 
-Uses [Clickatell](https://www.clickatell.com/) to send order notifications to shop administrators. A paid Clickatell account and credentials are required.
+Uses Clickatell to send order notifications to shop administrators. A paid Clickatell account and credentials are required.
 
 {% hint style="info" %}
 **Key Features**
@@ -522,7 +522,7 @@ For setup and usage details, see the [ContentSlider](content-slider.md) plugin d
 
 **Paid:** Yes
 
-Connects Smartstore with procurement systems through [cXML PunchOut](https://www.cxml.org/index.html), including session transfer and return of the assembled cart.
+Connects Smartstore with procurement systems through cXML PunchOut, including session transfer and return of the assembled cart.
 
 {% hint style="info" %}
 **Key Features**
@@ -536,7 +536,7 @@ Connects Smartstore with procurement systems through [cXML PunchOut](https://www
 
 **Paid:** Yes
 
-Makes [DeepSeek models](https://api-docs.deepseek.com/) available through Smartstore's shared AI infrastructure.
+Makes DeepSeek models available through Smartstore's shared AI infrastructure.
 
 {% hint style="info" %}
 **Key Features**
@@ -616,7 +616,7 @@ For setup and usage details, see the [DirectOrder](directorder.md) plugin docume
 
 **Paid:** Yes
 
-Integrates installment financing from [easyCredit](https://partner.easycredit.de/) into the checkout.
+Integrates installment financing from easyCredit into the checkout.
 
 {% hint style="info" %}
 **Key Features**
@@ -644,7 +644,7 @@ Sends automated email reminders for configured customer and order-related events
 
 **Paid:** Yes
 
-Integrates privacy-focused web analytics from [etracker](https://www.etracker.com/) into the storefront.
+Integrates privacy-focused web analytics from etracker into the storefront.
 
 {% hint style="info" %}
 **Key Features**
@@ -658,7 +658,7 @@ Integrates privacy-focused web analytics from [etracker](https://www.etracker.co
 
 **Paid:** No
 
-Allows customers to register and sign in with a [Facebook account](https://developers.facebook.com/docs/facebook-login/).
+Allows customers to register and sign in with a Facebook account.
 
 {% hint style="info" %}
 **Key Features**
@@ -718,7 +718,7 @@ Adds community forums for discussions between customers and administrators.
 
 **Paid:** Yes
 
-Integrates [Friendly Captcha](https://friendlycaptcha.com/) into Smartstore's CAPTCHA system for privacy-friendly bot protection.
+Integrates Friendly Captcha into Smartstore's CAPTCHA system for privacy-friendly bot protection.
 
 {% hint style="info" %}
 **Key Features**
@@ -778,7 +778,7 @@ Creates EPC QR codes for bank transfers so customers can transfer payment data t
 
 **Paid:** No
 
-Integrates [Google Analytics](https://marketingplatform.google.com/about/analytics/) tracking into the storefront.
+Integrates Google Analytics tracking into the storefront.
 
 {% hint style="info" %}
 **Key Features**
@@ -792,7 +792,7 @@ Integrates [Google Analytics](https://marketingplatform.google.com/about/analyti
 
 **Paid:** No
 
-Allows customers to register and sign in with a [Google account](https://developers.google.com/identity/).
+Allows customers to register and sign in with a Google account.
 
 {% hint style="info" %}
 **Key Features**
@@ -808,7 +808,7 @@ For setup and usage details, see the [Google.Auth (Google Login)](auth/google-au
 
 **Paid:** Yes
 
-Connects [Google Gemini models](https://ai.google.dev/) to Smartstore's central AI layer.
+Connects Google Gemini models to Smartstore's central AI layer.
 
 {% hint style="info" %}
 **Key Features**
@@ -824,7 +824,7 @@ For setup and usage details, see the [Google.Gemini](ai-provider/google-gemini.m
 
 **Paid:** No
 
-Exports product data for [Google Merchant Center](https://merchants.google.com/) and Shopping destinations.
+Exports product data for Google Merchant Center and Shopping destinations.
 
 {% hint style="info" %}
 **Key Features**
@@ -838,7 +838,7 @@ Exports product data for [Google Merchant Center](https://merchants.google.com/)
 
 **Paid:** Yes
 
-Adds the [Google remarketing tag](https://support.google.com/google-ads/answer/2453998?hl=en) to supported storefront pages.
+Adds the Google remarketing tag to supported storefront pages.
 
 {% hint style="info" %}
 **Key Features**
@@ -868,7 +868,7 @@ For setup and usage details, see the [GPSR (General Product Safety Regulation)](
 
 **Paid:** Yes
 
-Exports product data to the [guenstiger.de](https://www.guenstiger.de/) price-comparison portal.
+Exports product data to the guenstiger.de price-comparison portal.
 
 {% hint style="info" %}
 **Key Features**
@@ -882,7 +882,7 @@ Exports product data to the [guenstiger.de](https://www.guenstiger.de/) price-co
 
 **Paid:** Yes
 
-Exports product data to [idealo](https://www.idealo.de/) for listing on its price-comparison services.
+Exports product data to idealo for listing on its price-comparison services.
 
 {% hint style="info" %}
 **Key Features**
@@ -896,7 +896,7 @@ Exports product data to [idealo](https://www.idealo.de/) for listing on its pric
 
 **Paid:** Yes
 
-Integrates [iDEAL](https://www.ideal.nl/en/businesses/offer-ideal/) as a payment method for supported markets.
+Integrates iDEAL as a payment method for supported markets.
 
 {% hint style="info" %}
 **Key Features**
@@ -910,7 +910,7 @@ Integrates [iDEAL](https://www.ideal.nl/en/businesses/offer-ideal/) as a payment
 
 **Paid:** Yes
 
-Integrates [IONOS ipayment](https://www.ionos.de/eshop-loesungen/ipayment) into the Smartstore checkout.
+Integrates IONOS ipayment into the Smartstore checkout.
 
 {% hint style="info" %}
 **Key Features**
@@ -924,7 +924,7 @@ Integrates [IONOS ipayment](https://www.ionos.de/eshop-loesungen/ipayment) into 
 
 **Paid:** Yes
 
-Integrates payment methods from [Klarna](https://www.klarna.com/) into the checkout.
+Integrates payment methods from Klarna into the checkout.
 
 {% hint style="info" %}
 **Key Features**
@@ -954,7 +954,7 @@ For setup and usage details, see the [LegacyUrlRewriter](legacyurlrewriter.md) p
 
 **Paid:** Yes
 
-Synchronizes newsletter subscribers with [Mailchimp](https://mailchimp.com/) for email marketing campaigns.
+Synchronizes newsletter subscribers with Mailchimp for email marketing campaigns.
 
 {% hint style="info" %}
 **Key Features**
@@ -968,7 +968,7 @@ Synchronizes newsletter subscribers with [Mailchimp](https://mailchimp.com/) for
 
 **Paid:** Yes
 
-Opens the [Pixlr image editor](https://pixlr.com/) from Smartstore for browser-based media editing.
+Opens the Pixlr image editor from Smartstore for browser-based media editing.
 
 {% hint style="info" %}
 **Key Features**
@@ -1046,7 +1046,7 @@ Extends MegaSearch with additional search logic and convenience features while r
 
 **Paid:** No
 
-Allows customers to sign in with a [Microsoft account](https://learn.microsoft.com/en-us/entra/identity-platform/), including supported organizational accounts depending on app configuration.
+Allows customers to sign in with a Microsoft account, including supported organizational accounts depending on app configuration.
 
 {% hint style="info" %}
 **Key Features**
@@ -1062,7 +1062,7 @@ For setup and usage details, see the [Microsoft.Auth (Microsoft Login)](auth/mic
 
 **Paid:** Yes
 
-Integrates [Mollie](https://www.mollie.com/) as a multi-payment service provider and centrally handles redirects, webhooks, and transaction status.
+Integrates Mollie as a multi-payment service provider and centrally handles redirects, webhooks, and transaction status.
 
 {% hint style="info" %}
 **Key Features**
@@ -1118,7 +1118,7 @@ Provides classic payment methods that are processed outside an online payment ga
 
 **Paid:** Yes
 
-Connects Smartstore to an [Ollama](https://ollama.com/) instance for locally operated or self-hosted language models.
+Connects Smartstore to an Ollama instance for locally operated or self-hosted language models.
 
 {% hint style="info" %}
 **Key Features**
@@ -1194,7 +1194,7 @@ For setup and usage details, see the [PageBuilder](pagebuilder.md) plugin docume
 
 **Paid:** Yes
 
-Integrates payment products offered through [payever](https://payever.de/), including instant payment and selected Zinia financing or invoice solutions.
+Integrates payment products offered through payever, including instant payment and selected Zinia financing or invoice solutions.
 
 {% hint style="info" %}
 **Key Features**
@@ -1208,7 +1208,7 @@ Integrates payment products offered through [payever](https://payever.de/), incl
 
 **Paid:** No
 
-Integrates [PayPal](https://www.paypal.com/business) into the Smartstore checkout and associates authorization and status feedback with the order.
+Integrates PayPal into the Smartstore checkout and associates authorization and status feedback with the order.
 
 {% hint style="info" %}
 **Key Features**
@@ -1264,7 +1264,7 @@ Adds customer polls to the storefront with configurable questions, answers, sche
 
 **Paid:** Yes
 
-Integrates online payment services from [PostFinance](https://www.postfinance.ch/en/business/products/payment-collection/online-shop.html) and maps transactions to Smartstore orders.
+Integrates online payment services from PostFinance and maps transactions to Smartstore orders.
 
 {% hint style="info" %}
 **Key Features**
@@ -1278,7 +1278,7 @@ Integrates online payment services from [PostFinance](https://www.postfinance.ch
 
 **Paid:** Yes
 
-Uses [Redis](https://redis.io/) as distributed infrastructure for scaled Smartstore installations with multiple application instances.
+Uses Redis as distributed infrastructure for scaled Smartstore installations with multiple application instances.
 
 {% hint style="info" %}
 **Key Features**
@@ -1348,7 +1348,7 @@ Calculates shipping costs from total order weight and supports tiered rates and 
 
 **Paid:** Yes
 
-Integrates [Skrill Quick Checkout](https://www.skrill.com/en/business/shopping-carts/) as an external online payment option.
+Integrates Skrill Quick Checkout as an external online payment option.
 
 {% hint style="info" %}
 **Key Features**
@@ -1362,7 +1362,7 @@ Integrates [Skrill Quick Checkout](https://www.skrill.com/en/business/shopping-c
 
 **Paid:** Yes
 
-Provides [Klarna Pay Now](https://www.klarna.com/), historically integrated as Sofort transfer, as a checkout payment method.
+Provides Klarna Pay Now, historically integrated as Sofort transfer, as a checkout payment method.
 
 {% hint style="info" %}
 **Key Features**
@@ -1376,7 +1376,7 @@ Provides [Klarna Pay Now](https://www.klarna.com/), historically integrated as S
 
 **Paid:** No
 
-Integrates [Stripe](https://stripe.com/) and the online payment methods supported by the plugin and merchant account.
+Integrates Stripe and the online payment methods supported by the plugin and merchant account.
 
 {% hint style="info" %}
 **Key Features**
@@ -1434,7 +1434,7 @@ For setup and usage details, see the [TinyImage](tinyimage.md) plugin documentat
 
 **Paid:** Yes
 
-Integrates [Trusted Shops](https://www.trustedshops.com/) components such as the trust badge, buyer protection, and customer reviews.
+Integrates Trusted Shops components such as the trust badge, buyer protection, and customer reviews.
 
 {% hint style="info" %}
 **Key Features**
@@ -1448,7 +1448,7 @@ Integrates [Trusted Shops](https://www.trustedshops.com/) components such as the
 
 **Paid:** No
 
-Uses [X](https://docs.x.com/overview), formerly Twitter, as an external sign-in provider.
+Uses X, formerly Twitter, as an external sign-in provider.
 
 {% hint style="info" %}
 **Key Features**
@@ -1510,7 +1510,7 @@ For setup and usage details, see the [Warranty (EU Warranty Labelling)](warranty
 
 **Paid:** No
 
-Adds a REST-oriented programming interface based on [OData](https://learn.microsoft.com/en-us/odata/overview) for authorized access to shop data.
+Adds a REST-oriented programming interface based on OData for authorized access to shop data.
 
 {% hint style="info" %}
 **Key Features**

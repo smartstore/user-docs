@@ -198,7 +198,7 @@ Zahlungsarten und Zahlungsdienstleister für unterschiedliche Märkte und Gesch�
 
 **Kostenpflichtig:** Ja
 
-Ergänzt Seiten um Social-Sharing-Schaltflächen des Dienstes [AddToAny](https://www.addtoany.com/). Kunden können Inhalte und Produkte über verschiedene soziale Netzwerke und Kommunikationsdienste teilen.
+Ergänzt Seiten um Social-Sharing-Schaltflächen des Dienstes AddToAny. Kunden können Inhalte und Produkte über verschiedene soziale Netzwerke und Kommunikationsdienste teilen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -215,7 +215,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Integriert die [Adyen](https://www.adyen.com/)-Zahlungsplattform in den Smartstore-Checkout. Das Plugin verarbeitet die Zahlungsinitialisierung, die sichere Übergabe an Adyen sowie asynchrone Statusmeldungen über Webhooks.
+Integriert die Adyen-Zahlungsplattform in den Smartstore-Checkout. Das Plugin verarbeitet die Zahlungsinitialisierung, die sichere Übergabe an Adyen sowie asynchrone Statusmeldungen über Webhooks.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -252,7 +252,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Nein
 
-Ermöglicht Anmeldung und Bezahlung mit [Amazon Pay](https://pay.amazon.com/). Kunden können bei Amazon hinterlegte Adress- und Zahlungsinformationen im Checkout verwenden.
+Ermöglicht Anmeldung und Bezahlung mit Amazon Pay. Kunden können bei Amazon hinterlegte Adress- und Zahlungsinformationen im Checkout verwenden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -268,7 +268,7 @@ Ermöglicht Anmeldung und Bezahlung mit [Amazon Pay](https://pay.amazon.com/). K
 
 **Kostenpflichtig:** Nein
 
-Ermöglicht Kunden die Registrierung und Anmeldung mit ihrer Apple-ID. Das Plugin ergänzt die externe Authentifizierung von Smartstore um [„Mit Apple anmelden“](https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple).
+Ermöglicht Kunden die Registrierung und Anmeldung mit ihrer Apple-ID. Das Plugin ergänzt die externe Authentifizierung von Smartstore um „Mit Apple anmelden“.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -303,7 +303,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Aktiviert einen Dateisystem-Provider für [Microsoft Azure Blob Storage](https://azure.microsoft.com/en-us/products/storage/blobs/). Medien und andere unterstützte Dateien können damit außerhalb des lokalen Webservers in einem Azure-Container gespeichert werden.
+Aktiviert einen Dateisystem-Provider für Microsoft Azure Blob Storage. Medien und andere unterstützte Dateien können damit außerhalb des lokalen Webservers in einem Azure-Container gespeichert werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -318,7 +318,7 @@ Aktiviert einen Dateisystem-Provider für [Microsoft Azure Blob Storage](https:/
 
 **Kostenpflichtig:** Ja
 
-Exportiert Produktdaten für die Multichannel-Plattform [BeezUP](https://www.beezup.com/). Der Katalog kann als CSV- oder XML-Feed für angeschlossene Marktplätze und Preisportale bereitgestellt werden.
+Exportiert Produktdaten für die Multichannel-Plattform BeezUP. Der Katalog kann als CSV- oder XML-Feed für angeschlossene Marktplätze und Preisportale bereitgestellt werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -333,7 +333,7 @@ Exportiert Produktdaten für die Multichannel-Plattform [BeezUP](https://www.bee
 
 **Kostenpflichtig:** Ja
 
-Bindet [Billie](https://www.billie.io/) als B2B-Zahlungsanbieter ein. Geschäftskunden können – nach erfolgreicher Prüfung durch Billie – auf Rechnung bestellen. Das Plugin übermittelt dazu Kunden-, Firmen-, Warenkorb- und Bestelldaten an den Anbieter.
+Bindet Billie als B2B-Zahlungsanbieter ein. Geschäftskunden können – nach erfolgreicher Prüfung durch Billie – auf Rechnung bestellen. Das Plugin übermittelt dazu Kunden-, Firmen-, Warenkorb- und Bestelldaten an den Anbieter.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -353,7 +353,7 @@ Bindet [Billie](https://www.billie.io/) als B2B-Zahlungsanbieter ein. Geschäfts
 
 **Kostenpflichtig:** Ja
 
-Stellt Produktdaten für [billiger.de](https://www.billiger.de/) bereit und unterstützt die Erfolgsmessung vermittelter Verkäufe. Das Plugin verbindet damit Katalogexport und Sales-Tracking.
+Stellt Produktdaten für billiger.de bereit und unterstützt die Erfolgsmessung vermittelter Verkäufe. Das Plugin verbindet damit Katalogexport und Sales-Tracking.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -401,7 +401,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Unterstützt den Austausch von Produkt- und Katalogdaten im standardisierten [BMEcat-Format](https://www.bme.de/services/bmecat/). Das Plugin richtet sich insbesondere an B2B-Szenarien und die Übernahme umfangreicher Lieferantenkataloge.
+Unterstützt den Austausch von Produkt- und Katalogdaten im standardisierten BMEcat-Format. Das Plugin richtet sich insbesondere an B2B-Szenarien und die Übernahme umfangreicher Lieferantenkataloge.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -416,7 +416,7 @@ Unterstützt den Austausch von Produkt- und Katalogdaten im standardisierten [BM
 
 **Kostenpflichtig:** Ja
 
-Integriert einen [Botsonic](https://botsonic.com/)- beziehungsweise Writesonic-Chatbot in den Shop. Besucher können den extern konfigurierten Assistenten direkt im Storefront nutzen.
+Integriert einen Botsonic- beziehungsweise Writesonic-Chatbot in den Shop. Besucher können den extern konfigurierten Assistenten direkt im Storefront nutzen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -431,7 +431,7 @@ Integriert einen [Botsonic](https://botsonic.com/)- beziehungsweise Writesonic-C
 
 **Kostenpflichtig:** Ja
 
-Synchronisiert Newsletter-Abonnenten mit [Brevo](https://www.brevo.com/), vormals Sendinblue. Änderungen an An- und Abmeldungen können zwischen Smartstore und dem E-Mail-Marketing-Dienst abgeglichen werden.
+Synchronisiert Newsletter-Abonnenten mit Brevo, vormals Sendinblue. Änderungen an An- und Abmeldungen können zwischen Smartstore und dem E-Mail-Marketing-Dienst abgeglichen werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -447,7 +447,7 @@ Synchronisiert Newsletter-Abonnenten mit [Brevo](https://www.brevo.com/), vormal
 
 **Kostenpflichtig:** Ja
 
-Integriert [CaptchaFox](https://captchafox.com/) als Bot-Schutz in das modulare CAPTCHA-System von Smartstore. Geschützte Formulare können so automatisierte und missbräuchliche Zugriffe erschweren.
+Integriert CaptchaFox als Bot-Schutz in das modulare CAPTCHA-System von Smartstore. Geschützte Formulare können so automatisierte und missbräuchliche Zugriffe erschweren.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -478,7 +478,7 @@ Ergänzt B2B-Beschaffungsprozesse um Rollen für Einkäufer und Genehmiger. Ware
 
 **Kostenpflichtig:** Ja
 
-Verbindet die Smartstore-AI-Funktionen mit [Modellen von OpenAI](https://platform.openai.com/). Für die Nutzung werden eigene API-Zugangsdaten benötigt; die API-Kosten sind nicht in der Pluginlizenz enthalten.
+Verbindet die Smartstore-AI-Funktionen mit Modellen von OpenAI. Für die Nutzung werden eigene API-Zugangsdaten benötigt; die API-Kosten sind nicht in der Pluginlizenz enthalten.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -495,7 +495,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Bindet [Claude-Modelle von Anthropic](https://claude.com/platform/api) in die zentrale Smartstore-AI-Schicht ein. Damit stehen die allgemeinen KI-Funktionen des Shops über einen alternativen Cloud-Provider zur Verfügung.
+Bindet Claude-Modelle von Anthropic in die zentrale Smartstore-AI-Schicht ein. Damit stehen die allgemeinen KI-Funktionen des Shops über einen alternativen Cloud-Provider zur Verfügung.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -512,7 +512,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Nein
 
-Bindet [Clickatell](https://www.clickatell.com/) als SMS-Dienst ein und versendet Benachrichtigungen zu Bestellungen an die Shopadministration. Für den Versand sind Zugangsdaten und ein kostenpflichtiges Clickatell-Konto erforderlich.
+Bindet Clickatell als SMS-Dienst ein und versendet Benachrichtigungen zu Bestellungen an die Shopadministration. Für den Versand sind Zugangsdaten und ein kostenpflichtiges Clickatell-Konto erforderlich.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -560,7 +560,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Bindet Smartstore über [cXML PunchOut](https://www.cxml.org/index.html) an externe E-Procurement-Systeme an. Geschäftskunden starten aus ihrer Beschaffungssoftware eine Shopsitzung und übertragen den zusammengestellten Warenkorb zurück.
+Bindet Smartstore über cXML PunchOut an externe E-Procurement-Systeme an. Geschäftskunden starten aus ihrer Beschaffungssoftware eine Shopsitzung und übertragen den zusammengestellten Warenkorb zurück.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -576,7 +576,7 @@ Bindet Smartstore über [cXML PunchOut](https://www.cxml.org/index.html) an exte
 
 **Kostenpflichtig:** Ja
 
-Bindet [DeepSeek-Modelle](https://api-docs.deepseek.com/) als KI-Provider ein. Bestehende Smartstore-AI-Funktionen können damit über die DeepSeek-Schnittstelle ausgeführt werden.
+Bindet DeepSeek-Modelle als KI-Provider ein. Bestehende Smartstore-AI-Funktionen können damit über die DeepSeek-Schnittstelle ausgeführt werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -665,7 +665,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Bindet die Zahlungsangebote von [easyCredit](https://partner.easycredit.de/) in den Checkout ein. Das Plugin unterstützt sowohl Ratenkauf als auch – abhängig von Händlervertrag und Konfiguration – Rechnungslösungen.
+Bindet die Zahlungsangebote von easyCredit in den Checkout ein. Das Plugin unterstützt sowohl Ratenkauf als auch – abhängig von Händlervertrag und Konfiguration – Rechnungslösungen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -697,7 +697,7 @@ Versendet automatisierte Erinnerungs-E-Mails, um Kunden erneut anzusprechen. Unt
 
 **Kostenpflichtig:** Ja
 
-Integriert das Tracking-Skript des deutschen Webanalyse-Anbieters [etracker](https://www.etracker.com/) in den Shop. Die tatsächliche Datenerhebung richtet sich nach der etracker- und Consent-Konfiguration.
+Integriert das Tracking-Skript des deutschen Webanalyse-Anbieters etracker in den Shop. Die tatsächliche Datenerhebung richtet sich nach der etracker- und Consent-Konfiguration.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -712,7 +712,7 @@ Integriert das Tracking-Skript des deutschen Webanalyse-Anbieters [etracker](htt
 
 **Kostenpflichtig:** Nein
 
-Ermöglicht die Anmeldung im Shop über ein [Facebook-Konto](https://developers.facebook.com/docs/facebook-login/). Vorhandene oder neue Kundenkonten können mit der externen Identität verbunden werden.
+Ermöglicht die Anmeldung im Shop über ein Facebook-Konto. Vorhandene oder neue Kundenkonten können mit der externen Identität verbunden werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -780,7 +780,7 @@ Stellt ein vollständiges Kundenforum innerhalb des Shops bereit. Händler könn
 
 **Kostenpflichtig:** Ja
 
-Bindet [Friendly Captcha](https://friendlycaptcha.com/) als datenschutzorientierten Bot-Schutz ein. Das Plugin verwendet Smartstores allgemeine CAPTCHA-Schnittstelle und kann an unterstützten Formularen aktiviert werden.
+Bindet Friendly Captcha als datenschutzorientierten Bot-Schutz ein. Das Plugin verwendet Smartstores allgemeine CAPTCHA-Schnittstelle und kann an unterstützten Formularen aktiviert werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -846,7 +846,7 @@ Erzeugt einen standardisierten GiroCode als QR-Code mit vorausgefüllten Überwe
 
 **Kostenpflichtig:** Nein
 
-Bindet [Google Analytics](https://marketingplatform.google.com/about/analytics/) in den Shop ein und stellt die dafür benötigten Tracking-Skripte im Storefront bereit. Das Plugin dient der Messung von Besuchern, Seitenaufrufen und Commerce-Ereignissen; für die Nutzung wird ein eigenes Google-Analytics-Konto benötigt.
+Bindet Google Analytics in den Shop ein und stellt die dafür benötigten Tracking-Skripte im Storefront bereit. Das Plugin dient der Messung von Besuchern, Seitenaufrufen und Commerce-Ereignissen; für die Nutzung wird ein eigenes Google-Analytics-Konto benötigt.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -861,7 +861,7 @@ Bindet [Google Analytics](https://marketingplatform.google.com/about/analytics/)
 
 **Kostenpflichtig:** Nein
 
-Erweitert den Shop um die Anmeldung mit einem [Google-Konto](https://developers.google.com/identity/). Das Plugin reduziert die Hürde bei Registrierung und Login und nutzt Googles externen Authentifizierungsdienst.
+Erweitert den Shop um die Anmeldung mit einem Google-Konto. Das Plugin reduziert die Hürde bei Registrierung und Login und nutzt Googles externen Authentifizierungsdienst.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -878,7 +878,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Verbindet Smartstore AI mit den [Gemini-Modellen von Google](https://ai.google.dev/). Das Plugin übernimmt Authentifizierung, Modellwahl und Kommunikation mit dem Google-KI-Dienst.
+Verbindet Smartstore AI mit den Gemini-Modellen von Google. Das Plugin übernimmt Authentifizierung, Modellwahl und Kommunikation mit dem Google-KI-Dienst.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -895,7 +895,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Nein
 
-Exportiert Produktdaten in einem für das [Google Merchant Center](https://merchants.google.com/) geeigneten Feed. Damit lassen sich Shopprodukte für Google Shopping und weitere Google-Commerce-Dienste bereitstellen.
+Exportiert Produktdaten in einem für das Google Merchant Center geeigneten Feed. Damit lassen sich Shopprodukte für Google Shopping und weitere Google-Commerce-Dienste bereitstellen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -910,7 +910,7 @@ Exportiert Produktdaten in einem für das [Google Merchant Center](https://merch
 
 **Kostenpflichtig:** Ja
 
-Integriert das [Google-Remarketing-Tag](https://support.google.com/google-ads/answer/2453998?hl=de) in den Shop. Besucher und relevante Seitenkontexte können damit – vorbehaltlich Einwilligung und Google-Konfiguration – für Remarketing-Zielgruppen erfasst werden.
+Integriert das Google-Remarketing-Tag in den Shop. Besucher und relevante Seitenkontexte können damit – vorbehaltlich Einwilligung und Google-Konfiguration – für Remarketing-Zielgruppen erfasst werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -943,7 +943,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Exportiert Produkte im von [guenstiger.de](https://www.guenstiger.de/) erwarteten Feedformat. So können Preise, Verfügbarkeiten und Produktinformationen im Preisvergleich veröffentlicht werden.
+Exportiert Produkte im von guenstiger.de erwarteten Feedformat. So können Preise, Verfügbarkeiten und Produktinformationen im Preisvergleich veröffentlicht werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -958,7 +958,7 @@ Exportiert Produkte im von [guenstiger.de](https://www.guenstiger.de/) erwartete
 
 **Kostenpflichtig:** Ja
 
-Stellt einen auf [idealo](https://www.idealo.de/) zugeschnittenen Produktfeed bereit. Er übermittelt die für das Preisportal benötigten Angebots-, Preis- und Verfügbarkeitsinformationen.
+Stellt einen auf idealo zugeschnittenen Produktfeed bereit. Er übermittelt die für das Preisportal benötigten Angebots-, Preis- und Verfügbarkeitsinformationen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -973,7 +973,7 @@ Stellt einen auf [idealo](https://www.idealo.de/) zugeschnittenen Produktfeed be
 
 **Kostenpflichtig:** Ja
 
-Integriert [iDEAL](https://www.ideal.nl/en/businesses/offer-ideal/) als niederländisches Online-Banking-Zahlungsverfahren.
+Integriert iDEAL als niederländisches Online-Banking-Zahlungsverfahren.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -988,7 +988,7 @@ Integriert [iDEAL](https://www.ideal.nl/en/businesses/offer-ideal/) als niederl�
 
 **Kostenpflichtig:** Ja
 
-Integriert [IONOS ipayment](https://www.ionos.de/eshop-loesungen/ipayment) für Kreditkarten- und Lastschriftzahlungen. Die Zahlungsdaten werden über die Schnittstellen des Dienstleisters verarbeitet und der Bestellung zugeordnet.
+Integriert IONOS ipayment für Kreditkarten- und Lastschriftzahlungen. Die Zahlungsdaten werden über die Schnittstellen des Dienstleisters verarbeitet und der Bestellung zugeordnet.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1004,7 +1004,7 @@ Integriert [IONOS ipayment](https://www.ionos.de/eshop-loesungen/ipayment) für 
 
 **Kostenpflichtig:** Ja
 
-Integriert [Klarna-Zahlungen](https://www.klarna.com/) über die Klarna-Payments-Schnittstelle. Das Plugin erstellt Klarna-Sessions, verarbeitet die Autorisierung im Checkout und ordnet die Klarna-Bestellung der Smartstore-Bestellung zu.
+Integriert Klarna-Zahlungen über die Klarna-Payments-Schnittstelle. Das Plugin erstellt Klarna-Sessions, verarbeitet die Autorisierung im Checkout und ordnet die Klarna-Bestellung der Smartstore-Bestellung zu.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1041,7 +1041,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Synchronisiert Kunden und Newsletter-Daten mit [Mailchimp](https://mailchimp.com/). Das Plugin verbindet Smartstore-Adressbestände mit den Zielgruppen- und Kampagnenfunktionen des externen Dienstes.
+Synchronisiert Kunden und Newsletter-Daten mit Mailchimp. Das Plugin verbindet Smartstore-Adressbestände mit den Zielgruppen- und Kampagnenfunktionen des externen Dienstes.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1057,7 +1057,7 @@ Synchronisiert Kunden und Newsletter-Daten mit [Mailchimp](https://mailchimp.com
 
 **Kostenpflichtig:** Ja
 
-Bindet den [Pixlr-Bildeditor](https://pixlr.com/) in den MediaManager ein. Bilder können aus der Smartstore-Medienverwaltung heraus bearbeitet und anschließend wieder im Shop verwendet werden.
+Bindet den Pixlr-Bildeditor in den MediaManager ein. Bilder können aus der Smartstore-Medienverwaltung heraus bearbeitet und anschließend wieder im Shop verwendet werden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1143,7 +1143,7 @@ Erweitert MegaSearch um zusätzliche Suchfunktionen und Komfortmerkmale. Das Plu
 
 **Kostenpflichtig:** Nein
 
-Ermöglicht die Kundenanmeldung mit einem [Microsoft-Konto](https://learn.microsoft.com/en-us/entra/identity-platform/). Das Plugin eignet sich sowohl für private Microsoft-Konten als auch – abhängig von der App-Konfiguration – für unterstützte Organisationskonten.
+Ermöglicht die Kundenanmeldung mit einem Microsoft-Konto. Das Plugin eignet sich sowohl für private Microsoft-Konten als auch – abhängig von der App-Konfiguration – für unterstützte Organisationskonten.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1160,7 +1160,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Bindet [Mollie](https://www.mollie.com/) als Multi-Payment-Service-Provider ein. Das Plugin stellt mehrere Mollie-Zahlungsarten als eigenständige Smartstore-Payment-Provider zur Verfügung und verarbeitet Rückleitungen, Webhooks und Transaktionsstatus zentral.
+Bindet Mollie als Multi-Payment-Service-Provider ein. Das Plugin stellt mehrere Mollie-Zahlungsarten als eigenständige Smartstore-Payment-Provider zur Verfügung und verarbeitet Rückleitungen, Webhooks und Transaktionsstatus zentral.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1225,7 +1225,7 @@ Stellt klassische Zahlungsarten bereit, die nicht über ein Online-Payment-Gatew
 
 **Kostenpflichtig:** Ja
 
-Verbindet Smartstore mit einer eigenen [Ollama](https://ollama.com/)-Instanz und ermöglicht dadurch den Einsatz lokal oder selbst gehostet betriebener Sprachmodelle. Der Betreiber behält mehr Kontrolle über Endpunkt, Modelle und Datenfluss.
+Verbindet Smartstore mit einer eigenen Ollama-Instanz und ermöglicht dadurch den Einsatz lokal oder selbst gehostet betriebener Sprachmodelle. Der Betreiber behält mehr Kontrolle über Endpunkt, Modelle und Datenfluss.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1308,7 +1308,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Bindet mehrere über [payever](https://payever.de/) bereitgestellte Zahlungsprodukte ein. Der konkrete Umfang hängt vom Händlerkonto ab und umfasst unter anderem Sofortzahlung sowie Zinia-Finanzierungs- und Rechnungslösungen.
+Bindet mehrere über payever bereitgestellte Zahlungsprodukte ein. Der konkrete Umfang hängt vom Händlerkonto ab und umfasst unter anderem Sofortzahlung sowie Zinia-Finanzierungs- und Rechnungslösungen.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1324,7 +1324,7 @@ Bindet mehrere über [payever](https://payever.de/) bereitgestellte Zahlungsprod
 
 **Kostenpflichtig:** Nein
 
-Integriert [PayPal](https://www.paypal.com/de/business) als Online-Zahlungsanbieter in den Smartstore-Checkout. Das Plugin steuert Autorisierung, Rückmeldung und Zuordnung der PayPal-Zahlung zur Bestellung.
+Integriert PayPal als Online-Zahlungsanbieter in den Smartstore-Checkout. Das Plugin steuert Autorisierung, Rückmeldung und Zuordnung der PayPal-Zahlung zur Bestellung.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1386,7 +1386,7 @@ Ermöglicht Kundenumfragen direkt im Storefront. Administratoren definieren Frag
 
 **Kostenpflichtig:** Ja
 
-Integriert Zahlungsdienste der Schweizer [PostFinance AG](https://www.postfinance.ch/en/business/products/payment-collection/online-shop.html). Das Plugin unterstützt die neueren Checkout-Angebote und ordnet Transaktionen zuverlässig Smartstore-Bestellungen zu.
+Integriert Zahlungsdienste der Schweizer PostFinance AG. Das Plugin unterstützt die neueren Checkout-Angebote und ordnet Transaktionen zuverlässig Smartstore-Bestellungen zu.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1402,7 +1402,7 @@ Integriert Zahlungsdienste der Schweizer [PostFinance AG](https://www.postfinanc
 
 **Kostenpflichtig:** Ja
 
-Bindet [Redis](https://redis.io/) als verteilte Infrastrukturkomponente in Smartstore ein. Das ist vor allem für skalierte Installationen mit mehreren Anwendungsinstanzen und gemeinsamem Cache relevant.
+Bindet Redis als verteilte Infrastrukturkomponente in Smartstore ein. Das ist vor allem für skalierte Installationen mit mehreren Anwendungsinstanzen und gemeinsamem Cache relevant.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1476,7 +1476,7 @@ Berechnet Versandkosten anhand des Gesamtgewichts einer Bestellung. Das Plugin e
 
 **Kostenpflichtig:** Ja
 
-Integriert [Skrill Quick Checkout](https://www.skrill.com/en/business/shopping-carts/) als externe Online-Zahlung. Kunden wählen eine vom Skrill-Konto unterstützte Zahlungsart und kehren nach Abschluss in den Shop zurück.
+Integriert Skrill Quick Checkout als externe Online-Zahlung. Kunden wählen eine vom Skrill-Konto unterstützte Zahlungsart und kehren nach Abschluss in den Shop zurück.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1491,7 +1491,7 @@ Integriert [Skrill Quick Checkout](https://www.skrill.com/en/business/shopping-c
 
 **Kostenpflichtig:** Ja
 
-Stellt [Klarna Pay Now](https://www.klarna.com/), historisch als Sofortüberweisung integriert, als Zahlungsart bereit. Kunden werden durch den Online-Überweisungsprozess geführt und anschließend in den Shop zurückgeleitet.
+Stellt Klarna Pay Now, historisch als Sofortüberweisung integriert, als Zahlungsart bereit. Kunden werden durch den Online-Überweisungsprozess geführt und anschließend in den Shop zurückgeleitet.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1507,7 +1507,7 @@ Stellt [Klarna Pay Now](https://www.klarna.com/), historisch als Sofortüberweis
 
 **Kostenpflichtig:** Nein
 
-Bindet [Stripe](https://stripe.com/de) als Zahlungsdienstleister ein. Kunden können die vom Plugin und vom Stripe-Konto unterstützten Online-Zahlungsarten sicher über Stripe abwickeln.
+Bindet Stripe als Zahlungsdienstleister ein. Kunden können die vom Plugin und vom Stripe-Konto unterstützten Online-Zahlungsarten sicher über Stripe abwickeln.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1572,7 +1572,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Ja
 
-Integriert zentrale [Trusted-Shops](https://www.trustedshops.de/)-Bausteine in den Shop. Je nach Konfiguration werden Vertrauenssiegel, Käuferschutz und Kundenbewertungselemente angezeigt.
+Integriert zentrale Trusted-Shops-Bausteine in den Shop. Je nach Konfiguration werden Vertrauenssiegel, Käuferschutz und Kundenbewertungselemente angezeigt.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1588,7 +1588,7 @@ Integriert zentrale [Trusted-Shops](https://www.trustedshops.de/)-Bausteine in d
 
 **Kostenpflichtig:** Nein
 
-Bindet [X](https://docs.x.com/overview), vormals Twitter, als externen Login-Anbieter ein. Kunden können ihr X-Konto zur Authentifizierung im Shop verwenden.
+Bindet X, vormals Twitter, als externen Login-Anbieter ein. Kunden können ihr X-Konto zur Authentifizierung im Shop verwenden.
 
 {% hint style="info" %}
 **Wichtigste Features**
@@ -1656,7 +1656,7 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Nein
 
-Erweitert Smartstore um eine REST-orientierte, auf [OData](https://learn.microsoft.com/en-us/odata/overview) basierende Programmierschnittstelle. Externe Anwendungen können darüber ausgewählte Shopdaten lesen, filtern und – abhängig von Berechtigung und Endpunkt – bearbeiten.
+Erweitert Smartstore um eine REST-orientierte, auf OData basierende Programmierschnittstelle. Externe Anwendungen können darüber ausgewählte Shopdaten lesen, filtern und – abhängig von Berechtigung und Endpunkt – bearbeiten.
 
 {% hint style="info" %}
 **Wichtigste Features**
