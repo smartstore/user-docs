@@ -12,7 +12,7 @@ Die folgende Übersicht beschreibt den Stand vom **Juli 2026**. Zahlungsdienstle
 
 | Plugin | Zahlungsanbieter | Angebotene Zahlungsarten |
 |---|---|---|
-| `Smartstore.AmazonPay`<br>![Integriert](https://img.shields.io/badge/Plugin-integriert-2563eb) | Amazon Pay | Amazon Pay |
+| [`Smartstore.AmazonPay`](amazonpay.md)<br>![Integriert](https://img.shields.io/badge/Plugin-integriert-2563eb) | Amazon Pay | Amazon Pay |
 | `Smartstore.OfflinePayment`<br>![Integriert](https://img.shields.io/badge/Plugin-integriert-2563eb) | Kein externer Zahlungsanbieter | Nachnahme, Rechnung, Zahlung im Ladengeschäft, Vorkasse, manuelle Kreditkartenzahlung, Lastschrift, Zahlung per Bestellnummer |
 | `Smartstore.PayPal`<br>![Integriert](https://img.shields.io/badge/Plugin-integriert-2563eb) | PayPal | PayPal, Kauf auf Rechnung, SEPA-Lastschrift, Pay Later, Google Pay, Apple Pay, Kreditkarte, Trustly, Bancontact, BLIK, eps, iDEAL, MyBank, Przelewy24 |
 | [`Smartstore.Stripe`](stripe.md)<br>![Integriert](https://img.shields.io/badge/Plugin-integriert-2563eb) | Stripe | Kredit- und Debitkarte, Link, Apple Pay, Google Pay, Amazon Pay, PayPal, Revolut Pay, Cash App Pay, Alipay, WeChat Pay, SEPA-Lastschrift, ACH Direct Debit, Bacs Direct Debit, BECS Direct Debit, iDEAL, Bancontact, EPS, Przelewy24, BLIK, Klarna, Affirm, Afterpay/Clearpay, Pay by Bank, PayNow, PromptPay, Swish, Boleto, Konbini, Multibanco, OXXO, Stablecoin |

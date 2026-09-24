@@ -250,9 +250,12 @@ Enables sign-in and payment with Amazon Pay using address and payment informatio
 **Key Features**
 
 * Login with Amazon
-* Amazon Pay checkout
-* Sandbox and production configuration
+* Amazon Pay express checkout with stored address and payment information
+* immediate capture or authorization followed by later capture
+* full and partial refunds with payment status updates through IPN.
 {% endhint %}
+
+For setup and usage details, see the [Amazon Pay](amazonpay.md) plugin documentation.
 
 ### Apple.Auth (Apple Login)
 

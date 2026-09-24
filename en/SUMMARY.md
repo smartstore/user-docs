@@ -155,6 +155,7 @@
   * [Installing Plugins](manage/plugins/installing-plugins.md)
   * [Managing Plugins](manage/plugins/managing-plugins.md)
   * [Payment Providers and Payment Methods](manage/plugins/paymentproviders.md)
+    * [Amazon Pay](manage/plugins/amazonpay.md)
     * [Stripe](manage/plugins/stripe.md)
   * [Setting up External Authentication](manage/plugins/external-auth.md)
     * [Apple Auth](manage/plugins/auth/apple-auth.md)

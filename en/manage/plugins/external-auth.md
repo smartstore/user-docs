@@ -1,6 +1,6 @@
 # Setting up external authentication
 
-External authentication plugins allow customers to sign in to your store with an existing Apple, Google, Facebook, Microsoft, or X account. Once configured, an additional button such as **Sign in with Google** appears on the login page.
+External authentication plugins allow customers to sign in to your store with an existing Amazon, Apple, Google, Facebook, Microsoft, or X account. Once configured, an additional button such as **Sign in with Google** appears on the login page.
 
 ![Store login page with buttons for the enabled external authentication methods](../../.gitbook/assets/external-authentication_frontend_login.png)
 
@@ -10,11 +10,16 @@ Manage the available providers under **Customers > External authentication metho
 
 | Provider | Required credentials | Redirect URL |
 | --- | --- | --- |
+| [Amazon](amazonpay.md) | Merchant ID, Store ID, Public Key ID, and private key | The redirect URL displayed in the Amazon Pay configuration |
 | [Apple](auth/apple-auth.md) | Client ID, Team ID, Key ID, and private key | `https://shop.example.com/signin-apple` |
 | [Google](auth/google-auth.md) | Client ID and client secret | `https://shop.example.com/signin-google` |
 | [Facebook](auth/facebook-auth.md) | App ID and App Secret | `https://shop.example.com/signin-facebook` |
 | [Microsoft](auth/microsoft-auth.md) | Application ID and client secret | `https://shop.example.com/signin-microsoft` |
 | [X](auth/twitter-auth.md) | API Key and Consumer Secret | `https://shop.example.com/signin-twitter` |
+
+{% hint style="info" %}
+**Sign in with Amazon** is provided by the [Amazon Pay](amazonpay.md) payment plugin. The payment method and external authentication are therefore configured together on the plugin's configuration page.
+{% endhint %}
 
 {% hint style="info" %}
 The domain `shop.example.com` is only an example. Always use the redirect URL displayed by Smartstore on the configuration page of the respective plugin.

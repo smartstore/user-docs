@@ -258,11 +258,12 @@ Ermöglicht Anmeldung und Bezahlung mit Amazon Pay. Kunden können bei Amazon hi
 **Wichtigste Features**
 
 * Login mit Amazon
-* Amazon-Pay-Checkout
-* Übernahme von Liefer- und Zahlungsdaten
-* Zahlungsstatus und Rückmeldungen
-* Sandbox- und Produktivkonfiguration.
+* Amazon-Pay-Express-Checkout mit gespeicherten Adress- und Zahlungsdaten
+* sofortige Abbuchung oder Autorisierung mit späterem Einzug
+* vollständige und teilweise Rückerstattungen sowie Statusaktualisierung per IPN.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Amazon Pay](amazonpay.md).
 
 ### Apple.Auth (Apple Login)
 

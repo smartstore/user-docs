@@ -1,6 +1,6 @@
 # Externe Authentifizierung einrichten
 
-Mit Plugins für die externe Authentifizierung können sich Kunden über ein bestehendes Konto bei Apple, Google, Facebook, Microsoft oder X in Ihrem Shop anmelden. Nach der Einrichtung erscheint auf der Anmeldeseite eine zusätzliche Schaltfläche, beispielsweise **Mit Google anmelden**.
+Mit Plugins für die externe Authentifizierung können sich Kunden über ein bestehendes Konto bei Amazon, Apple, Google, Facebook, Microsoft oder X in Ihrem Shop anmelden. Nach der Einrichtung erscheint auf der Anmeldeseite eine zusätzliche Schaltfläche, beispielsweise **Mit Google anmelden**.
 
 ![Anmeldeseite des Shops mit den Schaltflächen für die aktivierten externen Authentifizierungsmethoden](../../.gitbook/assets/external-authentication_frontend_login.png)
 
@@ -10,11 +10,16 @@ Die verfügbaren Anbieter verwalten Sie unter **Kunden > Externe Authentifizieru
 
 | Anbieter | Benötigte Zugangsdaten | Weiterleitungs-URL |
 | --- | --- | --- |
+| [Amazon](amazonpay.md) | Händler-ID, Store-ID, Public Key-ID und privater Schlüssel | Die in der Amazon-Pay-Konfiguration angezeigte Rückleitungs-URL |
 | [Apple](auth/apple-auth.md) | Client-ID, Team-ID, Schlüssel-ID und privater Schlüssel | `https://shop.example.com/signin-apple` |
 | [Google](auth/google-auth.md) | Client-ID und Clientschlüssel | `https://shop.example.com/signin-google` |
 | [Facebook](auth/facebook-auth.md) | App-ID und App-Geheimcode | `https://shop.example.com/signin-facebook` |
 | [Microsoft](auth/microsoft-auth.md) | Anwendungs-ID und geheimer Clientschlüssel | `https://shop.example.com/signin-microsoft` |
 | [X](auth/twitter-auth.md) | API Key und Consumer Secret | `https://shop.example.com/signin-twitter` |
+
+{% hint style="info" %}
+**Anmelden mit Amazon** wird durch das Zahlungsplugin [Amazon Pay](amazonpay.md) bereitgestellt. Die Einrichtung der Zahlungsart und der externen Authentifizierung erfolgt deshalb gemeinsam in dessen Plugin-Konfiguration.
+{% endhint %}
 
 {% hint style="info" %}
 Die Domain `shop.example.com` dient nur als Beispiel. Verwenden Sie immer die Weiterleitungs-URL, die Smartstore auf der Konfigurationsseite des jeweiligen Plugins anzeigt.
