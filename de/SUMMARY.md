@@ -155,6 +155,7 @@
   * [Plugins installieren](benutzer-handbuch/plugins/plugins-installieren.md)
   * [Plugins verwalten](benutzer-handbuch/plugins/plugins-verwalten.md)
   * [Zahlungsanbieter und Zahlungsarten](benutzer-handbuch/plugins/paymentproviders.md)
+    * [Stripe](benutzer-handbuch/plugins/stripe.md)
   * [Externe Authentifizierung einrichten](benutzer-handbuch/plugins/external-auth.md)
     * [Apple Auth](benutzer-handbuch/plugins/auth/apple-auth.md)
     * [Google Auth](benutzer-handbuch/plugins/auth/google-auth.md)

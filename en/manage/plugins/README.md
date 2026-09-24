@@ -1378,12 +1378,15 @@ Provides Klarna Pay Now, historically integrated as Sofort transfer, as a checko
 
 Integrates Stripe and the online payment methods supported by the plugin and merchant account.
 
+For setup and usage details, see the [Stripe](stripe.md) plugin documentation.
+
 {% hint style="info" %}
 **Key Features**
 
-* Checkout or Payment Intent processing
-* Webhook feedback
-* Test/live modes, cancellations, and refunds
+* Stripe Elements and 3-D Secure
+* Express checkout in the cart and mini cart
+* Automatic or manual capture
+* Full and partial refunds with webhook synchronization
 {% endhint %}
 
 ### Tax (Standard Tax calculation)

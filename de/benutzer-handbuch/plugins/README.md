@@ -1509,14 +1509,15 @@ Stellt Klarna Pay Now, historisch als Sofortüberweisung integriert, als Zahlung
 
 Bindet Stripe als Zahlungsdienstleister ein. Kunden können die vom Plugin und vom Stripe-Konto unterstützten Online-Zahlungsarten sicher über Stripe abwickeln.
 
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Stripe](stripe.md).
+
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Stripe-Checkout beziehungsweise Payment-Intent-Verarbeitung
-* Webhook-Rückmeldungen
-* Test- und Live-Modus
-* Zahlungsstatus, Storno und Erstattung
-* PCI-entlastete Eingabe über Stripe-Komponenten.
+* Stripe Elements und 3-D Secure
+* Express-Checkout im Warenkorb und Miniwarenkorb
+* Automatischer oder manueller Geldeinzug
+* Vollständige und teilweise Rückerstattungen mit Webhook-Synchronisierung
 {% endhint %}
 
 ### Tax (Standard-Steuerberechnung)
