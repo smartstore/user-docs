@@ -156,6 +156,7 @@
   * [Plugins verwalten](benutzer-handbuch/plugins/plugins-verwalten.md)
   * [Zahlungsanbieter und Zahlungsarten](benutzer-handbuch/plugins/paymentproviders.md)
     * [Amazon Pay](benutzer-handbuch/plugins/amazonpay.md)
+    * [PayPal](benutzer-handbuch/plugins/paypal.md)
     * [Stripe](benutzer-handbuch/plugins/stripe.md)
   * [Externe Authentifizierung einrichten](benutzer-handbuch/plugins/external-auth.md)
     * [Apple Auth](benutzer-handbuch/plugins/auth/apple-auth.md)

@@ -1330,12 +1330,13 @@ Integriert PayPal als Online-Zahlungsanbieter in den Smartstore-Checkout. Das Pl
 {% hint style="info" %}
 **Wichtigste Features**
 
-* PayPal-Zahlung im Checkout
-* Express-orientierter Zahlungsablauf
-* Sandbox- und Live-Modus
-* Statusabgleich
-* Erstattungs- und Storno-Unterstützung im Rahmen der PayPal-API.
+* PayPal Checkout und weitere PayPal-Zahlungsarten
+* Express-Zahlungen in Warenkorb und Miniwarenkorb
+* sofortige Abbuchung oder vorherige Autorisierung
+* vollständige und teilweise Rückerstattungen.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [PayPal](paypal.md).
 
 ### PdfExport
 

@@ -1216,10 +1216,13 @@ Integrates PayPal into the Smartstore checkout and associates authorization and 
 {% hint style="info" %}
 **Key Features**
 
-* PayPal checkout
-* Sandbox and live modes
-* Status, cancellation, and refund support
+* PayPal Checkout and additional PayPal payment methods
+* Express payments in the cart and mini cart
+* Immediate capture or prior authorization
+* Full and partial refunds
 {% endhint %}
+
+For setup and usage details, see the [PayPal](paypal.md) plugin documentation.
 
 ### PdfExport
 
