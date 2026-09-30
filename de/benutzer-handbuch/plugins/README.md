@@ -1215,12 +1215,13 @@ Stellt klassische Zahlungsarten bereit, die nicht über ein Online-Payment-Gatew
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Vorkasse/Überweisung
-* Nachnahme
-* Zahlung bei Abholung
-* Kauf auf Rechnung beziehungsweise manuell abwickelbare Zahlungsarten
-* konfigurierbare Hinweise und Zusatzgebühren.
+* Nachnahme, Rechnung, Barzahlung und Vorkasse
+* manueller Lastschrifteinzug und manuelle Kreditkartenzahlung
+* Zahlung per kundenseitiger Bestellnummer
+* konfigurierbare Zahlungsstatus und Zusatzgebühren.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [OfflinePayment](offlinepayment.md).
 
 ### Ollama (KI-Provider)
 

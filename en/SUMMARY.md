@@ -156,6 +156,7 @@
   * [Managing Plugins](manage/plugins/managing-plugins.md)
   * [Payment Providers and Payment Methods](manage/plugins/paymentproviders.md)
     * [Amazon Pay](manage/plugins/amazonpay.md)
+    * [OfflinePayment](manage/plugins/offlinepayment.md)
     * [PayPal](manage/plugins/paypal.md)
     * [Stripe](manage/plugins/stripe.md)
   * [Setting up External Authentication](manage/plugins/external-auth.md)

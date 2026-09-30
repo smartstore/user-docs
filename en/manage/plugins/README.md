@@ -1112,10 +1112,13 @@ Provides classic payment methods that are processed outside an online payment ga
 {% hint style="info" %}
 **Key Features**
 
-* Bank transfer and cash on delivery
-* Payment on pickup and manual invoice methods
-* Configurable instructions and fees
+* Cash on delivery, invoice, payment in store, and prepayment
+* Manual direct debit and credit card payment
+* Payment by customer purchase order number
+* Configurable payment statuses and additional fees
 {% endhint %}
+
+For more information about setup and use, see the [OfflinePayment](offlinepayment.md) plugin documentation.
 
 ### Ollama (AI Provider)
 
