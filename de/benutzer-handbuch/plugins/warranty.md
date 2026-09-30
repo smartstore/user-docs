@@ -30,11 +30,32 @@ Genau wie beim Gewährleistungslabel wird auch beim Klick auf das Garantielabel 
 Die Anzeige der **Download** und **Drucken** Schaltflächen kann [separat gesteuert](warranty.md#plugin-konfiguration) werden.
 {% endhint %}
 
+## Labels in der Bestellbestätigung
+
+Das Plugin kann die Gewährleistungs- und Garantielabel automatisch als PNG-Dateien an die Bestellbestätigung anhängen. Kunden erhalten die Informationen dadurch nach dem Kauf in einer dauerhaft speicherbaren, druckbaren Form.
+
+![Dateianhänge der Bestellbestätigung](../../.gitbook/assets/module_warranty_email-attachments.png)
+
+Aktivieren oder deaktivieren Sie diese Funktion in der [Plugin-Konfiguration](warranty.md#plugin-konfiguration) über die Option **Labels an Bestellbestätigung anhängen**. Die Option ist standardmäßig aktiviert.
+
+Die E-Mail enthält:
+
+- die harmonisierte EU-Mitteilung zur gesetzlichen Gewährleistung,
+- für jedes betroffene Produkt ein eigenes GARAN-Label zur Haltbarkeitsgarantie.
+
+Die Anhänge werden in der Sprache der Bestellbestätigung erstellt. Ist die gesetzliche Mitteilung in dieser Sprache nicht verfügbar, wird die englische Version verwendet.
+
+Die eingestellten Anzeigeregeln und Produktausnahmen werden auch beim E-Mail-Versand berücksichtigt. Enthält eine Bestellung keine kennzeichnungspflichtigen Produkte, werden keine Dateien angehängt. Kommt dasselbe Produkt mehrfach in einer Bestellung vor, wird das zugehörige GARAN-Label nur einmal hinzugefügt.
+
+{% hint style="info" %}
+Kann ein Anhang nicht erzeugt werden, wird die Bestellbestätigung trotzdem versendet. Der Fehler wird im Systemprotokoll aufgezeichnet.
+{% endhint %}
+
 ## Einstellungen
 
 ### Plugin-Konfiguration
 
-![Die Plugin-Konfiguration im Backend](../../.gitbook/assets/module_warranty_konfiguration.png)
+![Die Plugin-Konfiguration im Backend](../../.gitbook/assets/module_warranty_configuration.png)
 
 Die Voreinstellungen für die Labels sowie deren Platzierung und die optionalen Schaltflächen können in der Konfiguration festgelegt werden.
 

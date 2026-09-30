@@ -30,6 +30,27 @@ Just like with the warranty label, a pop-up with information is displayed when y
 The **Download** and **Print** buttons can be [switched on and off separately](warranty.md#plugin-configuration).
 {% endhint %}
 
+## Labels in the order confirmation
+
+The plugin can automatically attach the warranty and guarantee labels to the order confirmation as PNG files. This provides customers with the information after purchase in a permanently storable and printable format.
+
+![Order confirmation attachments](../../.gitbook/assets/module_warranty_email-attachments.png)
+
+You can enable or disable this function in the [plugin configuration](warranty.md#plugin-configuration) using the **Attach labels to order confirmation** option. This option is enabled by default.
+
+The email contains:
+
+- the harmonised EU notice concerning the statutory warranty,
+- a separate GARAN durability guarantee label for each applicable product.
+
+The attachments are generated in the language of the order confirmation. If the statutory warranty notice is unavailable in that language, the English version is used.
+
+The configured display rules and product exemptions also apply to email attachments. If an order does not contain any products requiring labelling, no files are attached. If the same product appears more than once in an order, its GARAN label is attached only once.
+
+{% hint style="info" %}
+If an attachment cannot be generated, the order confirmation is still sent. The error is recorded in the system log.
+{% endhint %}
+
 ## Settings
 
 ### Plugin Configuration
