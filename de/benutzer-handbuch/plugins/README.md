@@ -528,16 +528,18 @@ Bindet Clickatell als SMS-Dienst ein und versendet Benachrichtigungen zu Bestell
 
 **Kostenpflichtig:** Ja
 
-Stellt allgemeine CSV- und XML-Exportprovider für zentrale Shopdaten bereit. Die Exporte können für Datenaustausch, Analyse und nachgelagerte Verarbeitung verwendet werden.
+Stellt allgemeine CSV- und XML-Exporte für zentrale Shopdaten bereit. Exportbefehle sind direkt in die jeweiligen Verwaltungslisten eingebunden.
 
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Export von Produkten, Kategorien, Herstellern, Kunden, Bestellungen, Warenkorbpositionen und Newsletter-Abonnenten
-* CSV und XML
-* Feld- und Kontextverarbeitung
-* Einbindung in das Smartstore-Exportsystem.
+* CSV- und XML-Exporte für Produkte, Warengruppen, Hersteller, Kunden, Aufträge, Warenkörbe und Wunschlisten; CSV für Newsletter-Abonnenten
+* Schnell-Export ausgewählter oder aller Datensätze aus Verwaltungslisten
+* Systemprofile mit Filtern, Projektion, Zeitplanung und Bereitstellung
+* zusätzliche CSV-Dateien für zugehörige Produktdaten.
 {% endhint %}
+
+Weitere Informationen finden Sie unter [Datenexporte](commonexportproviders.md).
 
 ### ContentSlider
 

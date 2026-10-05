@@ -495,15 +495,18 @@ Uses Clickatell to send order notifications to shop administrators. A paid Click
 
 **Paid:** Yes
 
-Provides general CSV and XML export providers for central shop data and makes them available through Smartstore's export system.
+Provides general CSV and XML exports for key store data. Export commands are available directly in the relevant administration lists.
 
 {% hint style="info" %}
 **Key Features**
 
-* CSV and XML exports
-* Reusable export profiles
-* Scheduled or repeatable data output
+* CSV and XML exports for products, categories, manufacturers, customers, orders, shopping carts, and wishlists; CSV for newsletter subscribers
+* Quick exports of selected or all records from administration lists
+* System profiles with filters, projection, scheduling, and delivery
+* Additional CSV files for associated product data
 {% endhint %}
+
+For more information, see [Data Exports](commonexportproviders.md).
 
 ### ContentSlider
 

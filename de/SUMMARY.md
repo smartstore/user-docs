@@ -175,6 +175,7 @@
   * [AttributeRules (Regeln für Produktattribute)](benutzer-handbuch/plugins/attributerules-regeln-fur-produktattribute.md)
   * [Blog](benutzer-handbuch/plugins/blog.md)
   * [Content Slider](benutzer-handbuch/plugins/content-slider.md)
+  * [Datenexporte](benutzer-handbuch/plugins/commonexportproviders.md)
   * [DependingPrices](benutzer-handbuch/plugins/dependingprices.md)
   * [Developer Tools](benutzer-handbuch/plugins/devtools.md)
   * [DirectOrder](benutzer-handbuch/plugins/directorder.md)
