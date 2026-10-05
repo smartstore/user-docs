@@ -412,10 +412,13 @@ Synchronizes newsletter subscribers with Brevo, formerly Sendinblue, including s
 {% hint style="info" %}
 **Key Features**
 
-* Subscriber synchronization
-* List mapping and API integration
-* Webhook-based status updates
+* Synchronization of newsletter subscriptions and unsubscribes
+* Initial synchronization of active subscribers
+* Automatic and manual queue processing
+* Webhook reporting of unsubscribes from Brevo
 {% endhint %}
+
+For setup and usage details, see the [Brevo](brevo.md) plugin documentation.
 
 ### CaptchaFox (CaptchaFox CAPTCHA)
 

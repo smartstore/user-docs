@@ -174,6 +174,7 @@
     * [OpenAI ChatGPT](benutzer-handbuch/plugins/ai-provider/openai-chatgpt.md)
   * [AttributeRules (Regeln für Produktattribute)](benutzer-handbuch/plugins/attributerules-regeln-fur-produktattribute.md)
   * [Blog](benutzer-handbuch/plugins/blog.md)
+  * [Brevo](benutzer-handbuch/plugins/brevo.md)
   * [Content Slider](benutzer-handbuch/plugins/content-slider.md)
   * [Datenexporte](benutzer-handbuch/plugins/commonexportproviders.md)
   * [DependingPrices](benutzer-handbuch/plugins/dependingprices.md)

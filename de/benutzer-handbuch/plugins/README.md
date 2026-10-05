@@ -437,12 +437,13 @@ Synchronisiert Newsletter-Abonnenten mit Brevo, vormals Sendinblue. Änderungen 
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Abonnentensynchronisation
-* Listen-Zuordnung
-* API-Anbindung
-* Webhook-Verarbeitung
-* Abgleich von An- und Abmeldestatus.
+* Synchronisierung von Newsletter-An- und -Abmeldungen
+* Initial-Synchronisierung aktiver Abonnenten
+* Automatische und manuelle Verarbeitung der Warteschlange
+* Webhook-Rückmeldung von Abmeldungen aus Brevo
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Brevo](brevo.md).
 
 ### CaptchaFox (CaptchaFox CAPTCHA)
 
