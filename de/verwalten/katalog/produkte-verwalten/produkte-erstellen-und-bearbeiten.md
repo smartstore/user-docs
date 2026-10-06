@@ -91,7 +91,7 @@ In dieser Registerkarte können Sie Produktattribute verwalten. Für weitere Inf
 
 ### Registerkarte Spezifikationsattribute
 
-In dieser Registerkarte können Sie die Spezifikationsattribute verwalten. Für weitere Informationen zu Spezifikationsattributen lesen Sie [Spezifikationsattribute verwalte](../spezifikationsattribute-verwalten.md)n.
+In dieser Registerkarte können Sie die Spezifikationsattribute verwalten. Für weitere Informationen zu Spezifikationsattributen lesen Sie [Spezifikationsattribute verwalten](../spezifikationsattribute-verwalten.md).
 
 ### Registerkarte Suchmaschinen (SEO)
 
