@@ -10,13 +10,13 @@ Wird eine Anfrage abgewiesen, antwortet Smartstore mit dem HTTP-Statuscode **403
 
 Der GeoBlocker eignet sich unter anderem für folgende Aufgaben:
 
-- bekannte einzelne IP-Adressen sperren,
-- bestimmte IPv4-Adressbereiche blockieren,
-- unerwünschte automatisierte Zugriffe aus bekannten IP-Adressen oder Herkunftsregionen reduzieren,
-- Schutzmaßnahmen gegen Bots, Scraper und missbräuchliche Anfragen ergänzen,
-- Zugriffe aus ausgewählten Ländern einschränken,
-- nur Besucher aus bestimmten Ländern zulassen,
-- einen Shop nur aus festgelegten Netzwerken erreichbar machen.
+* bekannte einzelne IP-Adressen sperren,
+* bestimmte IPv4-Adressbereiche blockieren,
+* unerwünschte automatisierte Zugriffe aus bekannten IP-Adressen oder Herkunftsregionen reduzieren,
+* Schutzmaßnahmen gegen Bots, Scraper und missbräuchliche Anfragen ergänzen,
+* Zugriffe aus ausgewählten Ländern einschränken,
+* nur Besucher aus bestimmten Ländern zulassen,
+* einen Shop nur aus festgelegten Netzwerken erreichbar machen.
 
 {% hint style="warning" %}
 Ländersperren beruhen auf der geografischen Zuordnung von IP-Adressen. Diese Zuordnung ist nicht in jedem Fall eindeutig oder vollständig. Der GeoBlocker ist daher eine ergänzende Schutzmaßnahme und ersetzt keine Firewall, Web Application Firewall oder sichere Konfiguration des Administrationsbereichs.
@@ -34,9 +34,9 @@ Weitere Informationen finden Sie unter [Multi-Shop-Konfiguration](../konfigurati
 
 ## Allgemeine Einstellungen
 
-| Einstellung | Beschreibung |
-|---|---|
-| **Ist aktiviert** | Schaltet die Zugriffsprüfung ein oder aus. |
+| Einstellung                            | Beschreibung                                                           |
+| -------------------------------------- | ---------------------------------------------------------------------- |
+| **Ist aktiviert**                      | Schaltet die Zugriffsprüfung ein oder aus.                             |
 | **Blockierte Anfragen protokollieren** | Schreibt blockierte Anfragen als Information in das Ereignisprotokoll. |
 
 {% hint style="info" %}
@@ -51,13 +51,17 @@ Im Bereich **IP-Adressen** legen Sie fest, wie IPv4-Adressen behandelt werden.
 
 Die Einstellung **Standardmäßig sind alle IP-Adressen...** bietet zwei Auswahlmöglichkeiten:
 
-| Auswahl | Verhalten |
-|---|---|
-| **Zugriffsberechtigt** | Grundsätzlich dürfen alle IP-Adressen zugreifen.<br>Die eingetragenen Adressen und Muster werden gesperrt (Sperrliste). |
-| **Vom Zugriff ausgeschlossen** | Grundsätzlich werden alle IP-Adressen gesperrt.<br>Nur Adressen, die mit einem eingetragenen Muster übereinstimmen, dürfen die IP-Prüfung passieren (Positivliste). |
+| Auswahl                        | Verhalten                                                                                                                                                                  |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Zugriffsberechtigt**         | <p>Grundsätzlich dürfen alle IP-Adressen zugreifen.<br>Die eingetragenen Adressen und Muster werden gesperrt (Sperrliste).</p>                                             |
+| **Vom Zugriff ausgeschlossen** | <p>Grundsätzlich werden alle IP-Adressen gesperrt.<br>Nur Adressen, die mit einem eingetragenen Muster übereinstimmen, dürfen die IP-Prüfung passieren (Positivliste).</p> |
 
 {% hint style="warning" %}
 Bei einer Positivliste kann eine fehlerhafte Regel auch Ihren eigenen Zugriff auf den Administrationsbereich sperren. Tragen Sie Ihre öffentliche IP-Adresse ein und testen Sie die Konfiguration, bevor Sie den GeoBlocker aktivieren.
+{% endhint %}
+
+{% hint style="info" %}
+IP-Regeln werden vor Länderregeln ausgewertet. Bei einer Sperrliste wird eine passende Adresse sofort blockiert; alle anderen Adressen werden anschließend anhand der Länderregeln geprüft. Bei einer Positivliste wird einer passenden Adresse sofort Zugriff gewährt und die Länderregeln werden nicht mehr ausgewertet; alle anderen Adressen werden blockiert.
 {% endhint %}
 
 ### IP-Regeln eingeben
@@ -66,7 +70,7 @@ Geben Sie im Feld **Mit Ausnahme der hier aufgeführten** eine Regel pro Zeile e
 
 Beispiele:
 
-```text
+```
 2.17.65.255
 2.56.160.0
 123.??.*.?
@@ -75,11 +79,11 @@ Beispiele:
 
 Die Platzhalter haben folgende Bedeutung:
 
-| Schreibweise | Bedeutung |
-|---|---|
-| `*` | Beliebige Ziffernfolge innerhalb des Musters |
-| `?` | Genau eine beliebige Ziffer |
-| `11-200` | Numerischer Bereich einschließlich der angegebenen Grenzwerte |
+| Schreibweise | Bedeutung                                                     |
+| ------------ | ------------------------------------------------------------- |
+| `*`          | Beliebige Ziffernfolge innerhalb des Musters                  |
+| `?`          | Genau eine beliebige Ziffer                                   |
+| `11-200`     | Numerischer Bereich einschließlich der angegebenen Grenzwerte |
 
 IPv4-Adressen bestehen aus vier durch Punkte getrennten Zahlenblöcken. Jeder vollständig angegebene Block muss einen Wert zwischen `0` und `255` enthalten.
 
@@ -99,9 +103,9 @@ Die Länderzuordnung erfolgt anhand der IP-Adresse des Besuchers. Der GeoBlocker
 
 Die Einstellung **Standardmäßig sind alle Länder...** bietet ebenfalls zwei Möglichkeiten:
 
-| Auswahl | Verhalten |
-|---|---|
-| **Zugriffsberechtigt** | Grundsätzlich dürfen Besucher aus allen Ländern zugreifen. Die ausgewählten Länder werden gesperrt. |
+| Auswahl                        | Verhalten                                                                                                            |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Zugriffsberechtigt**         | Grundsätzlich dürfen Besucher aus allen Ländern zugreifen. Die ausgewählten Länder werden gesperrt.                  |
 | **Vom Zugriff ausgeschlossen** | Grundsätzlich werden alle erkannten Länder gesperrt. Nur die ausgewählten Länder dürfen die Länderprüfung passieren. |
 
 Wählen Sie anschließend unter **Mit Ausnahme der hier aufgeführten** die Länder aus, die von der Standardregel abweichen sollen. Bleibt die Länderliste leer, erzeugt Smartstore keine Länderregel. Die gewählte Betriebsart allein bewirkt dann keine Sperre.
@@ -120,9 +124,9 @@ Auf der rechten Seite der Konfigurationsseite befindet sich der Bereich **Testen
 
 Geben Sie folgende Daten an:
 
-- **IP Adresse**
-- optional ein **Land (ISO Code)**
-- bei mehreren Shops den zu prüfenden **Shop**
+* **IP Adresse**
+* optional ein **Land (ISO Code)**
+* bei mehreren Shops den zu prüfenden **Shop**
 
 Wenn Sie kein Land auswählen, versucht Smartstore, das Land aus der eingegebenen IP-Adresse zu ermitteln.
 
@@ -136,8 +140,8 @@ Speichern Sie geänderte Einstellungen, bevor Sie den Test ausführen. Der Test 
 
 Der Test simuliert ausschließlich die IP- und Länderregeln. Folgende Bedingungen der tatsächlichen Anfrageverarbeitung werden dabei nicht geprüft:
 
-- ob **Ist aktiviert** eingeschaltet ist,
-- ob es sich um eine lokale Anfrage handelt.
+* ob **Ist aktiviert** eingeschaltet ist,
+* ob es sich um eine lokale Anfrage handelt.
 
 Der Test kann deshalb **Blockiert** anzeigen, obwohl eine reale Anfrage aufgrund einer dieser Bedingungen nicht gesperrt würde.
 
@@ -168,9 +172,9 @@ Wenn **Blockierte Anfragen protokollieren** aktiviert ist, finden Sie die Eintr�
 
 Ein Eintrag enthält insbesondere:
 
-- die IP-Adresse der blockierten Anfrage,
-- den Sperrgrund,
-- den betroffenen Shop.
+* die IP-Adresse der blockierten Anfrage,
+* den Sperrgrund,
+* den betroffenen Shop.
 
 ![Ereignisprotokoll mit einem durch den GeoBlocker blockierten Zugriff und den zugehörigen Details](../../.gitbook/assets/module_geoblocker_logger.png)
 
@@ -178,10 +182,10 @@ Hinweise zur Suche und Detailansicht finden Sie unter [Den Log der Ereignisse an
 
 ## Weiterführende Dokumentation
 
-- [Plugins installieren](plugins-installieren.md)
-- [Plugins verwalten und lizenzieren](plugins-verwalten.md)
-- [Multi-Shop-Konfiguration](../konfiguration/einstellungen/den-einstellungsbereich-festlegen.md)
-- [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md)
-- [Allgemeine Einstellungen](../konfiguration/einstellungen/allgemeine-einstellungen.md)
-- [Länder und Regionen verwalten](../konfiguration/lander-und-regionen-verwalten.md)
-- [Den Log der Ereignisse analysieren](../system-wartung/den-log-der-ereignisse-analysieren.md)
+* [Plugins installieren](plugins-installieren.md)
+* [Plugins verwalten und lizenzieren](plugins-verwalten.md)
+* [Multi-Shop-Konfiguration](../konfiguration/einstellungen/den-einstellungsbereich-festlegen.md)
+* [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md)
+* [Allgemeine Einstellungen](../konfiguration/einstellungen/allgemeine-einstellungen.md)
+* [Länder und Regionen verwalten](../konfiguration/lander-und-regionen-verwalten.md)
+* [Den Log der Ereignisse analysieren](../system-wartung/den-log-der-ereignisse-analysieren.md)
