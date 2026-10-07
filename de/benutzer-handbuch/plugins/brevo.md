@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Multi-Shop Konfiguration](../konfigurati
 
 Die von Brevo synchronisierten Anmeldungen und Abmeldungen beziehen sich auf die Newsletter-Abonnenten von Smartstore.
 
-Öffnen Sie **Admin > Marketing > Newsletter-Abonnenten**, um die lokal gespeicherten Abonnenten zu kontrollieren. Dort können Sie prüfen, ob eine Anmeldung aktiv ist oder ob eine durch den Brevo-Webhook übermittelte Abmeldung entfernt wurde.
+Öffnen Sie **Marketing > Newsletter-Abonnenten**, um die lokal gespeicherten Abonnenten zu kontrollieren. Dort können Sie prüfen, ob eine Anmeldung aktiv ist oder ob eine durch den Brevo-Webhook übermittelte Abmeldung entfernt wurde.
 
 Weitere Informationen zur Verwaltung und zum Import oder Export von Newsletter-Abonnenten finden Sie unter [Newsletter-Kampagnen verwalten](../marketing-promotion/newsletter-kampagnen-verwalten.md#abonnenten-verwalten).
 

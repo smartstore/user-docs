@@ -118,7 +118,7 @@ For more information, see [Defining the Scope of Settings](../configuration/gene
 
 The subscriptions and unsubscribes synchronized by Brevo relate to Smartstore newsletter subscribers.
 
-Open **Admin > Marketing > Newsletter Subscribers** to check the subscribers stored locally. There you can determine whether a subscription is active or whether an unsubscribe reported through the Brevo webhook has been removed.
+Open **Promotions > Newsletter Subscribers** to check the subscribers stored locally. There you can determine whether a subscription is active or whether an unsubscribe reported through the Brevo webhook has been removed.
 
 For more information about managing, importing, or exporting newsletter subscribers, see [Managing Newsletter Campaigns](../marketing-promotions/managing-newsletter-campaigns.md#manage-subscribers).
 
