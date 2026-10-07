@@ -787,14 +787,17 @@ Creates EPC QR codes for bank transfers so customers can transfer payment data t
 
 **Paid:** No
 
-Integrates Google Analytics tracking into the storefront.
+Integrates Google Analytics into the storefront and tracks visits as well as selected catalog and checkout activity. A separate Google Analytics account and measurement ID are required.
+
+For setup and usage details, see the [Google Analytics](googleanalytics.md) plugin documentation.
 
 {% hint style="info" %}
 **Key Features**
 
-* Analytics tracking
-* Configurable measurement ID
-* Storefront and commerce events
+* configurable Google Analytics measurement ID
+* catalog and checkout tracking
+* Cookie Manager integration
+* configurable item ID.
 {% endhint %}
 
 ### Google.Auth (Google Login)

@@ -190,6 +190,7 @@
   * [DSGVO](manage/plugins/dsgvo.md)
   * [File Manager](manage/plugins/filemanager.md)
   * [GeoBlocker](manage/plugins/geoblocker.md)
+  * [Google Analytics](manage/plugins/googleanalytics.md)
   * [LegacyUrlRewriter](manage/plugins/legacyurlrewriter.md)
   * [Media Manager](manage/plugins/mediamanager.md)
     * [Managing Files and Folders](manage/plugins/mediamanager/files-and-folders.md)
