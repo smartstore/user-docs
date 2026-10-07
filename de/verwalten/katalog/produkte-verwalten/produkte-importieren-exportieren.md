@@ -51,7 +51,8 @@ BundleItemSkus\
 AvailableStartDateTimeUtc\
 AvailableEndDateTimeUtc\
 StoreIds\
-LimitedToStores
+LimitedToStores\
+IsEsd
 
 ### Bilder
 
@@ -64,9 +65,8 @@ Wenn `ImageUrls` nur Dateinamen oder verknüpfte Pfade enthält, durchsucht der 
 ### Download
 
 IsDownload\
-DownloadId\
-UnlimitedDownloads\
 MaxNumberOfDownloads\
+DownloadExpirationDays\
 DownloadActivationTypeId\
 HasSampleDownload\
 SampleDownloadId\
@@ -75,7 +75,6 @@ UserAgreementText
 
 ### Lager
 
-IsDownload\
 ManageInventoryMethodId\
 StockQuantity\
 DisplayStockAvailability\
