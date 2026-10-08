@@ -6,20 +6,21 @@ In the section **Catalog Settings**, you can edit global settings relating to th
 
 ## General
 
-|  |  |
-| :--- | :--- |
-| Use small product box on homepage | Determines the size of product boxes on your shop's homepage. |
-| Hide default image on products | Specifies whether the default image should be hidden for products. The default image is displayed when no image is assigned to the product. |
-| Ignore recommended products | Disables the display of recommended products in the shop. This can improve performance. |
-| 'Compare Products' enabled | Activates the product comparison feature. |
-| Include short description in compare products | Specifies whether the short description should be displayed on the product comparison page. |
-| Include full description in compare products | Specifies whether the full product description should be included on the product comparison page. |
-| Show best sellers on home page | Displays best sellers on the homepage. |
-| Number of best sellers on home page | Sets the number of best sellers displayed on the homepage if the display of best sellers is activated. |
-| Truncate long texts | Option to truncate long texts and show them in full length only when clicked. |
+|                                               |                                                                                                                                             |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Use small product box on homepage             | Determines the size of product boxes on your shop's homepage.                                                                               |
+| Hide default image on products                | Specifies whether the default image should be hidden for products. The default image is displayed when no image is assigned to the product. |
+| Ignore recommended products                   | Disables the display of recommended products in the shop. This can improve performance.                                                     |
+| 'Compare Products' enabled                    | Activates the product comparison feature.                                                                                                   |
+| Include short description in compare products | Specifies whether the short description should be displayed on the product comparison page.                                                 |
+| Include full description in compare products  | Specifies whether the full product description should be included on the product comparison page.                                           |
+| Show best sellers on home page                | Displays best sellers on the homepage.                                                                                                      |
+| Number of best sellers on home page           | Sets the number of best sellers displayed on the homepage if the display of best sellers is activated.                                      |
+| Truncate long texts                           | Option to truncate long texts and show them in full length only when clicked.                                                               |
 
 ## Product Lists
-|                                                            |                                                                                               |
+
+|                                                            |                                                                                                |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Include Products From Subcategories                        | Check the box if you want a category details page to include products from subcategories.      |
 | Include Featured Products In Normal Lists                  | Check the box if you want to include featured products in normal lists.                        |
@@ -38,13 +39,14 @@ In the section **Catalog Settings**, you can edit global settings relating to th
 
 ### Products
 
-|                                           |                                                                                                                                         |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Show Delivery Times In Product Lists      | Check the box to enable the product sorting option on the category/manufacturer details page.                                           |
-| Display Base Price Info In Product Lists  | Specifies how product lists should be displayed by default. The customer can also change the appearance manually.                       |
-| Show Color Squares In Product Lists       | Specifies whether the colors of the first color type attribute should be displayed in product lists.                                    |
-| Hide Buy-Button In Product Lists          | Click the box to hide the buy button in product lists.                                                                                  |
-| Label Product as "new" for max. \[x] Days | Specifies the number of days that a “New” label should be displayed in the product list. Leave the field blank to disable this feature. |
+|                                           |                                                                                                                                                             |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Legal information in product lists        | Specifies which tax and shipping cost notices are displayed in the list view and in the product comparison. If nothing is selected, no notice is displayed. |
+| Show Delivery Times In Product Lists      | Check the box to enable the product sorting option on the category/manufacturer details page.                                                               |
+| Display Base Price Info In Product Lists  | Specifies how product lists should be displayed by default. The customer can also change the appearance manually.                                           |
+| Show Color Squares In Product Lists       | Specifies whether the colors of the first color type attribute should be displayed in product lists.                                                        |
+| Hide Buy-Button In Product Lists          | Click the box to hide the buy button in product lists.                                                                                                      |
+| Label Product as "new" for max. \[x] Days | Specifies the number of days that a “New” label should be displayed in the product list. Leave the field blank to disable this feature.                     |
 
 ### Product Tags
 
@@ -57,23 +59,24 @@ In the section **Catalog Settings**, you can edit global settings relating to th
 
 ## Product Details
 
-|                                                                 |                                                                                                                                                               |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 'Recently Viewed Products' Enabled                              | Check the box to allow customers to use the ‘recently viewed products’ feature in your store.                                                                 |
-| Number of 'Recently Viewed Products'                            | The number of ‘Recently viewed products’ to display when the ‘Recently viewed products’ option is enabled.                                                    |
-| 'Recently Added Products' Enabled                               | Check the box to allow customers to use the ‘Recently added products’ feature in your store.                                                                  |
-| Number of 'Recently Added Products'                             | The number of ‘Recently added products’ to be displayed when the ‘Recently added products’ option is enabled.                                                 |
-| Show A Share Button                                             | Check the box to show the share button on the product details page.                                                                                           |
-| 'Products Also Purchased' Enabled                               | Check the box to allow customers to view a list of additional products purchased by other customers who purchased the above.                                  |
-| Number Of Also Purchased Products To Display                    | The number of products also purchased by other customers to be displayed when the ‘Products also purchased’ option is enabled.                                |
-| Number From Which Images Are Only Displayed On Variation Change | Upper limit from which variation images are displayed only if the related value has been selected. Below that limit, all images are displayed.                |
-| Show Delivery Times                                             | Determines whether delivery times should be displayed on the product details page.                                                                            |
-| Delivery Time Id For Empty Stock                                | Determines the delivery time ID for products that are out of stock.                                                                                           |
-| Enable Dynamic Price Update                                     | Check the box if you want to enable the dynamic price update on the product details page in case price adjustments have been made for a product's attributes. |
-| Base Price For Bundle Items                                     | Defines whether the base price should be displayed for bundle items.                                                                                          |
-| Show Variant Combination Price Adjustments                      | Determines whether variant combination price adjustments should be displayed.                                                                                 |
-| Show Quantity Of Linked Product                                 | Determines whether the quantity of linked products appears at a variant attribute value.                                                                      |
-| Show Image Of Linked Product                                    | Determines whether the image of linked products appears at a variant attribute value.                                                                         |
+|                                                                 |                                                                                                                                                                                     |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Legal information on product page                               | Specifies which tax and shipping cost notices are displayed on the product page. If nothing is selected, no notice is displayed. An additional shipping charge is always displayed. |
+| 'Recently Viewed Products' Enabled                              | Check the box to allow customers to use the ‘recently viewed products’ feature in your store.                                                                                       |
+| Number of 'Recently Viewed Products'                            | The number of ‘Recently viewed products’ to display when the ‘Recently viewed products’ option is enabled.                                                                          |
+| 'Recently Added Products' Enabled                               | Check the box to allow customers to use the ‘Recently added products’ feature in your store.                                                                                        |
+| Number of 'Recently Added Products'                             | The number of ‘Recently added products’ to be displayed when the ‘Recently added products’ option is enabled.                                                                       |
+| Show A Share Button                                             | Check the box to show the share button on the product details page.                                                                                                                 |
+| 'Products Also Purchased' Enabled                               | Check the box to allow customers to view a list of additional products purchased by other customers who purchased the above.                                                        |
+| Number Of Also Purchased Products To Display                    | The number of products also purchased by other customers to be displayed when the ‘Products also purchased’ option is enabled.                                                      |
+| Number From Which Images Are Only Displayed On Variation Change | Upper limit from which variation images are displayed only if the related value has been selected. Below that limit, all images are displayed.                                      |
+| Show Delivery Times                                             | Determines whether delivery times should be displayed on the product details page.                                                                                                  |
+| Delivery Time Id For Empty Stock                                | Determines the delivery time ID for products that are out of stock.                                                                                                                 |
+| Enable Dynamic Price Update                                     | Check the box if you want to enable the dynamic price update on the product details page in case price adjustments have been made for a product's attributes.                       |
+| Base Price For Bundle Items                                     | Defines whether the base price should be displayed for bundle items.                                                                                                                |
+| Show Variant Combination Price Adjustments                      | Determines whether variant combination price adjustments should be displayed.                                                                                                       |
+| Show Quantity Of Linked Product                                 | Determines whether the quantity of linked products appears at a variant attribute value.                                                                                            |
+| Show Image Of Linked Product                                    | Determines whether the image of linked products appears at a variant attribute value.                                                                                               |
 
 ## Customers
 
