@@ -12,7 +12,7 @@ With **Rules**, you can assemble conditions for products, customers, and shoppin
 
 ## The central rule overview
 
-Under **System &rarr; Rules**, you’ll find the central overview of all created rule sets. Here, cart, customer, and product rules are shown together.
+Under **System → Rules**, you’ll find the central overview of all created rule sets. Here, cart, customer, and product rules are shown together.
 
 The overview includes, among other things, the name, application scope (type), activation status, and the creation date of a rule set. By clicking the name, you can open an existing rule set for editing. Inactive rule sets remain visible in the overview, but they are not considered during evaluation.
 
@@ -22,9 +22,9 @@ New rule sets can also be created directly from this overview. When you create t
 
 In addition, you can access filtered overviews for each rule type:
 
-- **Marketing &rarr; Cart rules**
-- **Promotions &rarr; Customer rules**
-- **Catalog &rarr; Product rules**
+* **Marketing → Cart rules**
+* **Promotions → Customer rules**
+* **Catalog → Product rules**
 
 These views display only the rule sets of the selected type. They’re especially useful for day-to-day administration when you want to focus specifically on cart, customer, or product rules.
 
@@ -32,11 +32,11 @@ These views display only the rule sets of the selected type. They’re especiall
 
 Smartstore distinguishes three application scopes:
 
-| Rule type | Typical use |
-| --- | --- |
-| **Cart rules** | Control discounts as well as available shipping or payment methods |
+| Rule type          | Typical use                                                                   |
+| ------------------ | ----------------------------------------------------------------------------- |
+| **Cart rules**     | Control discounts as well as available shipping or payment methods            |
 | **Customer rules** | Automatically assign customers to customer groups based on defined attributes |
-| **Product rules** | Automatically assign products to categories based on their attributes |
+| **Product rules**  | Automatically assign products to categories based on their attributes         |
 
 The selected application scope determines which conditions are available as **Rules**. For instance, a cart rule can check the cart value, products included, or customer attributes. A product rule, on the other hand, works with product attributes such as manufacturer, price, stock, or tags.
 
@@ -44,10 +44,10 @@ The selected application scope determines which conditions are available as **Ru
 
 A rule set consists of general information and the actual conditions. The general information includes:
 
-- a meaningful name,
-- an optional description,
-- the activation status,
-- and the application scope.
+* a meaningful name,
+* an optional description,
+* the activation status,
+* and the application scope.
 
 The description has no effect on evaluation. However, it helps you understand the purpose and usage of a rule set later.
 
@@ -61,13 +61,13 @@ A simple condition might look like this:
 
 > **Cart subtotal** is greater than or equal to **100 euros**.
 
-The three parts are: `Subtotal amount of cart` &plus; `Greater than or equal` &plus; `100`
+The three parts are: `Subtotal amount of cart` + `Greater than or equal` + `100`
 
 Which comparison operators are offered depends on the selected attribute. For numeric values, size comparisons can be used. For text or selection lists, appropriate comparisons are available.
 
 ## Creating a rule set
 
-1. Open **System &rarr; Rule Builder** or one of the filtered rule overviews.
+1. Open **System → Rule Builder** or one of the filtered rule overviews.
 2. Click **Add new**.
 3. Enter a name for the rule set.
 4. Add a short description if needed.
@@ -85,8 +85,8 @@ After the first save, the rule editing area appears. Open **Add rule** and selec
 
 For cart and customer rules, multiple conditions can be linked in different ways:
 
-- **All rules must match:** Every condition in the rule set must be satisfied.
-- **At least one rule must match:** It’s enough if one of the conditions is satisfied.
+* **All rules must match:** Every condition in the rule set must be satisfied.
+* **At least one rule must match:** It’s enough if one of the conditions is satisfied.
 
 For more complex cart or customer rules, you can create additional groups. This lets you model different combinations of required and alternative conditions.
 
@@ -102,6 +102,10 @@ To do this, create a cart rule with this condition:
 
 After saving, the rule set is assigned to a previously configured discount. **Rules** check the prerequisite conditions. The discount settings determine the discount amount, the calculation method, and other properties of the discount.
 
+{% hint style="info" %}
+For cart rules that check the cart subtotal or total, the **Cart rules calculate amounts including tax** setting under **Configuration → Settings → Catalog Settings → Prices → Miscellaneous** determines whether Smartstore compares the gross or net amount with the rule value. If set to **Not specified**, the tax settings for the current customer and shopping cart apply.
+{% endhint %}
+
 If the discount should also apply only to registered customers, you can add an additional condition. In this case, both conditions must be met.
 
 ## Testing rules
@@ -110,9 +114,9 @@ Use the **Test rules** feature to check which data matches the conditions. The t
 
 Depending on the rule type, Smartstore shows different results:
 
-- For a cart rule, it checks whether the current cart of the signed-in administrator meets the conditions.
-- For a customer rule, it shows the number of matching customers.
-- For a product rule, it determines the number of matching products.
+* For a cart rule, it checks whether the current cart of the signed-in administrator meets the conditions.
+* For a customer rule, it shows the number of matching customers.
+* For a product rule, it determines the number of matching products.
 
 A successful test result initially only means that matching data was found. For the rule to actually have an effect, the rule set must still be assigned to the intended discount, shipping method, payment method, customer group, or category.
 
@@ -136,73 +140,73 @@ In the rule set editing view, Smartstore also shows which objects the rule set h
 
 The discount should apply starting at a cart subtotal of 100 euros.
 
-- **Application scope:** Cart rule
-- **Linking:** All rules must match
-- **Condition:** `Subtotal amount of cart` + `Greater than or equal to` + `100`
-- **Use:** Assign the rule set to the desired discount.
+* **Application scope:** Cart rule
+* **Linking:** All rules must match
+* **Condition:** `Subtotal amount of cart` + `Greater than or equal to` + `100`
+* **Use:** Assign the rule set to the desired discount.
 
 ### Weekend promotion
 
 The discount should apply exclusively on Saturdays and Sundays.
 
-- **Application scope:** Cart rule
-- **Linking:** All rules must match
-- **Condition:** `Weekday` + `In` + [`Saturday`, `Sunday`]
-- **Use:** Assign the rule set to the discount for the weekend promotion.
+* **Application scope:** Cart rule
+* **Linking:** All rules must match
+* **Condition:** `Weekday` + `In` + \[`Saturday`, `Sunday`]
+* **Use:** Assign the rule set to the discount for the weekend promotion.
 
 ### Discount for repeat customers
 
 The discount should be offered to customers who have placed at least five orders or who have spent at least 1,000 euros in total.
 
-- **Application scope:** Cart rule
-- **Linking:** At least one rule must match
-- **Condition 1:** `Number of orders` + `Greater than or equal to` + `5`
-- **Condition 2:** `Amount spent` + `Greater than or equal to` + `1000`
-- **Use:** Assign the rule set to the repeat-customer discount.
+* **Application scope:** Cart rule
+* **Linking:** At least one rule must match
+* **Condition 1:** `Number of orders` + `Greater than or equal to` + `5`
+* **Condition 2:** `Amount spent` + `Greater than or equal to` + `1000`
+* **Use:** Assign the rule set to the repeat-customer discount.
 
 ### Premium shipping
 
 The shipping method should be offered starting at a cart subtotal of 250 euros, or when the total cart weight is at least 20 kilograms.
 
-- **Application scope:** Cart rule
-- **Linking:** At least one rule must match
-- **Condition 1:** `Subtotal amount of cart` + `Greater than or equal to` + `250`
-- **Condition 2:** `Weight of all products in the cart` + `Greater than or equal to` + `20`
-- **Use:** Assign the rule set to the **Premium shipping** shipping method.
+* **Application scope:** Cart rule
+* **Linking:** At least one rule must match
+* **Condition 1:** `Subtotal amount of cart` + `Greater than or equal to` + `250`
+* **Condition 2:** `Weight of all products in the cart` + `Greater than or equal to` + `20`
+* **Use:** Assign the rule set to the **Premium shipping** shipping method.
 
 ### Customer group for inactive customers
 
 Customers should be considered inactive if they have at least one completed order and their last order was at least 180 days ago.
 
-- **Application scope:** Customer rule
-- **Linking:** All rules must match
-- **Condition 1:** `Number of orders` + `Greater than or equal to` + `1`
-- **Condition 2:** `Days since last order` + `Greater than or equal to` + `180`
-- **Use:** Assign the rule set to the customer group **Inactive customers**. The assignment is made when the rules are run again, or via the corresponding scheduled task.
+* **Application scope:** Customer rule
+* **Linking:** All rules must match
+* **Condition 1:** `Number of orders` + `Greater than or equal to` + `1`
+* **Condition 2:** `Days since last order` + `Greater than or equal to` + `180`
+* **Use:** Assign the rule set to the customer group **Inactive customers**. The assignment is made when the rules are run again, or via the corresponding scheduled task.
 
 ### Automatic promotion category
 
 Products that have an assigned discount should automatically appear in a category for special offers.
 
-- **Application scope:** Product rule
-- **Linking:** All rules must match
-- **Condition:** `Has discounts applied` + `Is equal to` + `Yes`
-- **Use:** Assign the rule set to the category **Special offers**. Product assignment is updated when the rules are run again, or via the corresponding scheduled task.
+* **Application scope:** Product rule
+* **Linking:** All rules must match
+* **Condition:** `Has discounts applied` + `Is equal to` + `Yes`
+* **Use:** Assign the rule set to the category **Special offers**. Product assignment is updated when the rules are run again, or via the corresponding scheduled task.
 
 ### Payment by invoice
 
 The payment method should be available to registered customers and members of a selected customer group.
 
-- **Application scope:** Cart rule
-- **Linking:** All rules must match
-- **Condition:** `In customer role` + `Left contains ALL values from the right` + [`Registered`, `Invoice customers`]
-- **Use:** Assign the rule set to the **Invoice** payment method.
+* **Application scope:** Cart rule
+* **Linking:** All rules must match
+* **Condition:** `In customer role` + `Left contains ALL values from the right` + \[`Registered`, `Invoice customers`]
+* **Use:** Assign the rule set to the **Invoice** payment method.
 
 ### Automatic manufacturer category
 
 All products from a specific manufacturer should automatically appear in their own category.
 
-- **Application scope:** Product rule
-- **Linking:** All rules must match
-- **Condition:** `Manufacturer` + `In` + `Example manufacturer`
-- **Use:** Assign the rule set to the desired manufacturer category. Product assignment is updated when the rules are run again, or via the corresponding scheduled task.
+* **Application scope:** Product rule
+* **Linking:** All rules must match
+* **Condition:** `Manufacturer` + `In` + `Example manufacturer`
+* **Use:** Assign the rule set to the desired manufacturer category. Product assignment is updated when the rules are run again, or via the corresponding scheduled task.
