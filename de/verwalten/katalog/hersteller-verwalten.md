@@ -19,12 +19,7 @@ Hersteller lassen sich Produkten zuordnen und auf der Produktdetailseite anzeige
 
 ## Suchmaschinen (SEO)
 
-| **Eingabefeld**  | **Beschreibung**                                                                                                                                                         |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Meta Keywords    | Meta-Schlüsselwörterliste, kommagetrennt. Wird von Suchmaschinen ausgewertet.                                                                                            |
-| Meta Description | Meta-Beschreibung. Wird von Suchmaschinen ausgewertet.                                                                                                                   |
-| Meta Title       | Überschreibt den Seitentitel. Standard ist der Herstellername.                                                                                                           |
-| URL Alias        | Legt einen suchmaschinenfreundlichen Seitennamen für den Hersteller fest. 'Super Hersteller' resultiert bspw. in '\~/super-hersteller'. Standard ist der Herstellername. |
+Für Hersteller können Sie in dieser Registerkarte einen eigenen Seitentitel, eine Meta-Beschreibung, Meta-Keywords und einen URL-Alias festlegen. Die Bedeutung der Felder, Sprachvarianten und früheren URL-Aliase erläutert die Seite [SEO](../../benutzer-handbuch/allgemeine-konzepte/seo.md).
 
 ## Produkte
 
