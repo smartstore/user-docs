@@ -9,7 +9,6 @@
   * [Starting Smartstore Installation](get-started/installing-smartstore/starting-smartstore-installation.md)
   * [Preparing Windows Server](get-started/installing-smartstore/preparing-windows-server-vps-cloud-or-dedicated.md)
   * [Preparing Linux Server](get-started/installing-smartstore/preparing-linux-vps-cloud-or-dedicated-server.md)
-  * [Preparing Shared Hosting](get-started/installing-smartstore/preparing-shared-hosting.md)
   * [Running Smartstore Docker Images](get-started/installing-smartstore/running-docker-images/README.md)
     * [Run Smartstore Docker Image on Windows](get-started/installing-smartstore/running-docker-images/run-smartstore-docker-image-on-windows.md)
     * [Run Smartstore Docker Image on Linux](get-started/installing-smartstore/running-docker-images/run-smartstore-docker-image-on-linux.md)

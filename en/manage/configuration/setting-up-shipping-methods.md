@@ -74,10 +74,10 @@ The **Shipping by Total** computation method gives you the option to make the ca
 
 ## Further Information
 
-Please also read the topic [Shipping Settings](einstellungen/versand-einstellungen.md).
+Please also read the topic [Shipping Settings](https://github.com/smartstore/user-docs/blob/main/en/manage/configuration/einstellungen/versand-einstellungen.md).
 
-Shipping costs can be deactivated for individual customer roles. If you want to learn more about this possibility, please read [Manage Customer Roles](../kunden/kundengruppen-verwalten.md).
+Shipping costs can be deactivated for individual customer roles. If you want to learn more about this possibility, please read [Manage Customer Roles](https://github.com/smartstore/user-docs/blob/main/en/manage/kunden/kundengruppen-verwalten.md).
 
-Additional shipping costs that can be defined at the product level are added to the shipping costs you have set in the computation methods. More information on this setting can be found under [Create and Edit Products](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
+Additional shipping costs that can be defined at the product level are added to the shipping costs you have set in the computation methods. More information on this setting can be found under [Create and Edit Products](https://github.com/smartstore/user-docs/blob/main/en/verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
 
-For a product for which free shipping has been set up, the rates mentioned above are ignored as long as no product without this option is in the order cart. More information on this setting can be found under [Create and Edit Products](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
+For a product for which free shipping has been set up, the rates mentioned above are ignored as long as no product without this option is in the order cart. More information on this setting can be found under [Create and Edit Products](https://github.com/smartstore/user-docs/blob/main/en/verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md).
