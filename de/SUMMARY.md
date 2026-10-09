@@ -9,7 +9,6 @@
   * [Smartstore installieren](loslegen/die-installation-von-smartstore/smartstore-installieren.md)
   * [Windows Server vorbereiten](loslegen/die-installation-von-smartstore/windows-server-vorbereiten.md)
   * [Linux Server vorbereiten](loslegen/die-installation-von-smartstore/linux-server-vorbereiten.md)
-  * [Shared Hosting vorbereiten](loslegen/die-installation-von-smartstore/shared-hosting-vorbereiten.md)
   * [Smartstore Docker-Images ausführen](loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren.md)
     * [Smartstore Docker-Images unter Windows ausführen](loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-windows-ausfuhren.md)
     * [Smartstore Docker-Images unter Linux ausführen](loslegen/die-installation-von-smartstore/smartstore-docker-images-ausfuhren/smartstore-docker-images-unter-linux-ausfuhren.md)

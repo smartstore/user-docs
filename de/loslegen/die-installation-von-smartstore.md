@@ -8,10 +8,6 @@ Prüfen Sie vor der Installation, ob Ihr Hosting-Paket beziehungsweise Server di
 
 {% columns %}
 {% column %}
-{% content-ref url="die-installation-von-smartstore/shared-hosting-vorbereiten.md" %}
-[shared-hosting-vorbereiten.md](die-installation-von-smartstore/shared-hosting-vorbereiten.md)
-{% endcontent-ref %}
-
 {% content-ref url="die-installation-von-smartstore/windows-server-vorbereiten.md" %}
 [windows-server-vorbereiten.md](die-installation-von-smartstore/windows-server-vorbereiten.md)
 {% endcontent-ref %}
