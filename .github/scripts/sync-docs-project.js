@@ -19,12 +19,24 @@ function stripMarkdown(value) {
   return trimmed.replace(/^`|`$/g, "").replace(/^<|>$/g, "").trim();
 }
 
-function readBodyValue(body, label) {
+function readBodyField(body, label) {
   const escaped = label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = String(body || "").match(
     new RegExp(`^[ \\t]*(?:-[ \\t]*)?${escaped}:[ \\t]*(.*)$`, "im"),
   );
-  return match ? stripMarkdown(match[1]) : "";
+  return match ? stripMarkdown(match[1]) : undefined;
+}
+
+function readBodyValue(body, label) {
+  return readBodyField(body, label) ?? "";
+}
+
+function readFirstBodyValue(body, labels) {
+  for (const label of labels) {
+    const value = readBodyField(body, label);
+    if (value !== undefined) return value;
+  }
+  return undefined;
 }
 
 function labelSuffix(labels, prefix) {
@@ -45,10 +57,10 @@ function parseIssueMetadata(issue) {
   const labels = issue.labels || [];
   const pagePath = readBodyValue(issue.body, "Pfad");
   const gitBookUrl = readBodyValue(issue.body, "GitBook URL");
-  const sprachreviewCr = readBodyValue(issue.body, "DE Sprache");
-  const optimierungsCr = readBodyValue(issue.body, "Optimierung");
-  const fachcheckCr = readBodyValue(issue.body, "Fachcheck");
-  const enSyncCr = readBodyValue(issue.body, "EN Sync");
+  const sprachreviewCr = readFirstBodyValue(issue.body, ["DE Sprache", "DE Sprachreview"]);
+  const optimierungsCr = readFirstBodyValue(issue.body, ["Optimierung", "DE Optimierung"]);
+  const fachcheckCr = readFirstBodyValue(issue.body, ["Fachcheck", "DE Fachcheck"]);
+  const enSyncCr = readFirstBodyValue(issue.body, ["EN Sync"]);
 
   if (!pagePath) throw new Error("Issue body is missing 'Pfad'.");
   if (!gitBookUrl) throw new Error("Issue body is missing 'GitBook URL'.");
@@ -201,6 +213,11 @@ function buildFieldUpdates(project, metadata) {
   return { singleSelect, text };
 }
 
+function getTextFieldAction(value, required) {
+  if (value === undefined || (required && !value)) return "skip";
+  return value ? "set" : "clear";
+}
+
 async function run({ github, context, core, issueNumber, organization, projectNumber }) {
   if (!Number.isInteger(issueNumber) || issueNumber < 1) {
     throw new Error("issue_number must be a positive integer.");
@@ -232,9 +249,10 @@ async function run({ github, context, core, issueNumber, organization, projectNu
   }
 
   for (const { field, value, required } of updates.text) {
-    if (value) {
+    const action = getTextFieldAction(value, required);
+    if (action === "set") {
       await setFieldValue(github, project.id, itemId, field.id, { text: value });
-    } else if (!required) {
+    } else if (action === "clear") {
       await clearFieldValue(github, project.id, itemId, field.id);
     }
   }
@@ -264,6 +282,7 @@ module.exports = {
   buildFieldUpdates,
   findField,
   findOption,
+  getTextFieldAction,
   normalize,
   parseIssueMetadata,
   readBodyValue,
