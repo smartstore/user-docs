@@ -69,7 +69,7 @@ Hier können die Positionierung und Sichtbarkeit der Schaltflächen sowie die Wi
 
 ![Widerruf-Konfiguration](../../.gitbook/assets/module_withdrawal_einstellungen.png)
 
-Neben der globalen Einstellung kann die Widerrufsfrist sowohl beim Produkt als auch bei einer Warengruppe (sofern sie für alle Produkte dieser Warengruppe gelten soll) zusätzlich eingestellt werden. Wenn hier der Wert 0 (Tage) festgelegt wird, ist ein Widerruf des Produkts grundsätzlich nicht möglich.
+Neben der globalen Einstellung kann die Widerrufsfrist sowohl beim Produkt als auch bei einer Warengruppe (sofern sie für alle Produkte dieser Warengruppe gelten soll) zusätzlich eingestellt werden. Wenn hier der Wert 0 (Tage) festgelegt wird, ist ein Widerruf des Produkts grundsätzlich nicht möglich. Mit der Option „**Widerruf vor Versand erlauben**“ kann ein versandfähiges Produkt trotzdem widerrufen werden, solange die betreffende Bestellposition noch nicht versendet wurde. Die Option lässt sich global sowie abweichend am Produkt oder in einer Warengruppe festlegen. Die Einstellung am Produkt hat Vorrang. Bei mehreren Warengruppen setzt sich eine Deaktivierung durch. Ohne abweichende Einstellung gilt der globale Wert.
 
 Standardmäßig sind die Widerrufs- und Retourenfunktion nach der Installation des Plugins gleichzeitig aktiviert.
 
