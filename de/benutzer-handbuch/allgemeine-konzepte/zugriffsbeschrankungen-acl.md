@@ -1,14 +1,14 @@
 # Zugriffsbeschränkungen (ACL)
 
-**Smartstore** bietet **Access Control Lists (ACLs)** zur Verfügung. Damit steuern Sie, welche Kundengruppen bestimmte Warengruppen und Produkte im Frontend sehen und bestellen können. So blenden Sie geschützte Shopbereiche nur für autorisierte Kunden ein.
+Mit **Access Control Lists (ACLs)** legen Sie in **Smartstore** fest, welche Kundengruppen bestimmte Shop-Inhalte sehen können. Beispielsweise können Sie ein Händlersortiment nur für registrierte Geschäftskunden freigeben. Beschränken Sie dazu die Warengruppe und die zugehörigen Produkte auf die Kundengruppe „Händler“.
 
-## Anwendungsszenario
+## Was Sie mit Zugriffsbeschränkungen steuern
 
-Angenommen, Sie verkaufen altersbeschränkte Produkte. Legen Sie dafür eine Kundengruppe an und erlauben Sie ihr den Zugriff auf die entsprechende Warengruppe. Nachdem Sie den Altersnachweis eines Kunden geprüft haben, ordnen Sie ihn dieser Kundengruppe zu. Erst dann sind die geschützten Produkte für diesen Kunden sichtbar und bestellbar.
+Neben Warengruppen und Produkten können Sie Herstellerseiten und Inhaltsseiten (Topics) auf Kundengruppen beschränken. Menüs und einzelne Menüeinträge lassen sich abhängig von der Kundengruppe anzeigen. Bei Newsletter-Kampagnen begrenzen die zugewiesenen Kundengruppen den Empfängerkreis. Wenn Sie eine Herstellerseite einschränken, gilt das nicht automatisch für deren Produkte. Wenn Sie einen Menüeintrag ausblenden, bleibt die verlinkte Seite ohne eigene Zugriffsbeschränkung erreichbar.
 
 ## Wie Sie Zugriffsbeschränkungen konfigurieren
 
-Sie können den Zugriff auf Warengruppen und Produkte beschränken und festlegen, welche Kundengruppen im Frontend Ihres Shops Zugriff auf die jeweiligen Warengruppen und Produkte erhalten. Die Vergabe von Zugriffsrechten für eine Warengruppe oder ein Produkt ist identisch. Navigieren Sie einfach zu der Registerkarte **Zugriffsbeschränkung** der jeweiligen Warengruppe oder des jeweiligen Produkts und fügen Sie dort die Kundengruppen hinzu, denen der Zugang erlaubt ist.
+Öffnen Sie die Registerkarte **Zugriffsbeschränkung** der Warengruppe oder des Produkts. Wählen Sie die Kundengruppen aus, denen Sie Zugriff gewähren möchten, und speichern Sie. Die Beschränkung einer Warengruppe wird nicht automatisch auf enthaltene Produkte übertragen. Dafür steht die unten beschriebene Übernahmefunktion zur Verfügung.
 
 ![](../../.gitbook/assets/smartstore-acl.png)
 
