@@ -48,7 +48,6 @@
     * [Understanding Grouped Products](manage/catalog/managing-products/understanding-grouped-products.md)
     * [Understanding Recurring Products](manage/catalog/managing-products/understanding-recurring-products.md)
     * [Handling Digital Products (ESD)](manage/catalog/managing-products/handling-digital-products-esd.md)
-    * [Bulk Edit Products](manage/catalog/managing-products/bulk-edit-products.md)
     * [Importing & Exporting Products](manage/catalog/managing-products/importing-exporting-products.md)
     * [Exporting Product Feeds](manage/catalog/managing-products/exporting-product-feeds.md)
     * [Working with the filter sidebar widget](manage/catalog/managing-products/working-with-the-filter-sidebar-widget.md)
