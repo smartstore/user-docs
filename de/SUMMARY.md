@@ -48,7 +48,6 @@
     * [Wie funktionieren Gruppenprodukte?](verwalten/katalog/produkte-verwalten/wie-funktionieren-gruppenprodukte.md)
     * [Mit Abonnements umgehen](verwalten/katalog/produkte-verwalten/mit-abonnements-umgehen.md)
     * [Mit digitalen Produkten umgehen (ESD)](verwalten/katalog/produkte-verwalten/mit-digitalen-produkten-umgehen-esd.md)
-    * [Produktmassenbearbeitung](verwalten/katalog/produkte-verwalten/produktmassenbearbeitung.md)
     * [Produkte importieren & exportieren](verwalten/katalog/produkte-verwalten/produkte-importieren-exportieren.md)
     * [Produkt-Feeds exportieren](verwalten/katalog/produkte-verwalten/produkt-feeds-exportieren.md)
     * [Mit dem Filter Sidebar Widget arbeiten](verwalten/katalog/produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md)
