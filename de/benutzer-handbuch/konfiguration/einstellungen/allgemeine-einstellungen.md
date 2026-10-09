@@ -2,8 +2,6 @@
 
 Unter **Allgemeine Einstellungen** legen Sie globale Einstellungen für verschiedene Bereiche fest. Es gibt nicht für jede Einstellung eine Erklärung, da einige selbsterklärend sind. Wenn die Einstellung, die Sie suchen, nicht dokumentiert ist, fahren Sie bitte mit dem Mauszeiger über den Platz zwischen Titel und Eingabefeld der Einstellung. Es taucht dann ein Fragezeichen auf, das Ihnen einen Hinweis zur Benutzung dieser Einstellung gibt.
 
-![](../../../.gitbook/assets/allgemeine_einstellungen_1.png)
-
 ## Allgemein
 
 | Einstellung                                 | Beschreibung                                                               |
