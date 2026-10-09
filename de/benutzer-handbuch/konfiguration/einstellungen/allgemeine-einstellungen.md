@@ -13,17 +13,7 @@ Unter **Allgemeine Einstellungen** legen Sie globale Einstellungen für verschie
 
 ## Suchmaschinen
 
-| Einstellung                               | Beschreibung                                                                                                                                                 |
-| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Titel-Trennzeichen                        | Legt das Seiten-Titel-Trennzeichen fest.                                                                                                                     |
-| Seiten-Titel-Anpassung                    | SEO-relevante Seitentitel-Anpassung. Der erzeugte Seitentitel könnte z. B. statt \`MEINSHOP.DE                                                               |
-| Standard-Titel                            | Legt den Standard-Titel für Seiten im Shop fest.                                                                                                             |
-| Standard-Meta-Keywords                    | Legt die Standard-Meta-Keywords für alle Seiten fest. Für Warengruppen, Produkte und Hersteller können diese individuell angegeben werden.                   |
-| Standard-Meta-Beschreibung                | Legt die Standard-Meta-Beschreibung (description) fest. Diese kann für Warengruppen, Produkte und Hersteller nochmal individuell angepasst werden.           |
-| Nicht-westliche Zeichensätze konvertieren | Konvertiert Buchstaben mit Akzentzeichen aus SEO-relevanten Namen zu Buchstaben ohne Akzentzeichen.                                                          |
-| Kanonische Urls aktivieren                | Aktiviert kanonische Urls (Canonical Tags), um Duplicate Content zu vermeiden.                                                                               |
-| Regel für kanonischen Domänennamen        | Erzwingt die permanente Umleitung zu einem einzelnen Domänennamen für ein besseres Seitenranking (z. B. `meinshop.de` > `www.meinshop.de` oder umgekehrt).   |
-| Extra Disallows für robots.txt            | Geben Sie hier zusätzliche Pfade an, die als Disallow-Einträge zur `robots.txt` hinzugefügt werden sollen. Jeder Eintrag muss in einer neuen Zeile erfolgen. |
+Im Reiter **SEO** konfigurieren Sie die shopweiten Vorgaben für Suchmaschinen. Erklärungen zu Meta-Angaben, kanonischen URLs, robots.txt und XML-Sitemap finden Sie auf der Seite [SEO](../../allgemeine-konzepte/seo.md).
 
 ## Sicherheit
 
