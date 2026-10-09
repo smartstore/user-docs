@@ -1,6 +1,11 @@
 name: Sync docs issue to project
 
 on:
+  pull_request:
+    paths:
+      - ".github/scripts/sync-docs-project.js"
+      - ".github/scripts/sync-docs-project.test.js"
+      - ".github/workflows/sync-docs-project.yml"
   issues:
     types: [opened, edited, labeled, unlabeled, reopened]
   workflow_dispatch:
@@ -15,12 +20,21 @@ permissions:
   issues: read
 
 concurrency:
-  group: docs-project-sync-${{ github.event.issue.number || inputs.issue_number }}
+  group: docs-project-sync-${{ github.event.issue.number || inputs.issue_number || github.event.pull_request.number || github.run_id }}
   cancel-in-progress: true
 
 jobs:
+  test:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Test metadata parser
+        run: node --test .github/scripts/sync-docs-project.test.js
+
   sync:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name, 'docs-overhaul')
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'issues' && contains(github.event.issue.labels.*.name, 'docs-overhaul'))
     runs-on: ubuntu-latest
     env:
       ISSUE_NUMBER: ${{ inputs.issue_number || github.event.issue.number }}
