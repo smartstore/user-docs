@@ -4,7 +4,7 @@ icon: lightbulb
 
 # Common Concepts
 
-There are several common operations performed throughout the **Smartstore** application. This section covers these common concepts.
+This section brings together features and workflows used in several areas of **Smartstore**. These include access control, HTML content, multiple languages, multiple stores, and SEO.
 
 {% columns %}
 {% column width="50%" %}
