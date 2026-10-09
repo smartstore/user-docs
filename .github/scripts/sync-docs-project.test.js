@@ -4,6 +4,7 @@ const test = require("node:test");
 const {
   buildFieldUpdates,
   findOption,
+  getTextFieldAction,
   normalize,
   parseIssueMetadata,
   readBodyValue,
@@ -68,6 +69,35 @@ test("reads markdown links and backtick values", () => {
     readBodyValue("GitBook URL: [Open](https://example.com/page)", "GitBook URL"),
     "https://example.com/page",
   );
+});
+
+test("accepts existing issue CR headings used by editors", () => {
+  const result = parseIssueMetadata({
+    body: `Pfad: example
+GitBook URL: https://example.com
+- DE Sprachreview: https://example.com/sprache
+- DE Optimierung: https://example.com/optimierung
+- DE Fachcheck: Nicht erforderlich – Fachcheck ohne Änderungsbedarf abgeschlossen.`,
+    labels: ["stage:en-sync", "lang:de", "area:loslegen"],
+  });
+
+  assert.equal(result.sprachreviewCr, "https://example.com/sprache");
+  assert.equal(result.optimierungsCr, "https://example.com/optimierung");
+  assert.equal(result.fachcheckCr, "Nicht erforderlich – Fachcheck ohne Änderungsbedarf abgeschlossen.");
+});
+
+test("omitted CR headings preserve project values while blank headings clear them", () => {
+  const labels = ["stage:en-sync", "lang:de", "area:loslegen"];
+  const base = "Pfad: example\nGitBook URL: https://example.com";
+
+  const omitted = parseIssueMetadata({ body: base, labels });
+  const blank = parseIssueMetadata({ body: base + "\n- Fachcheck:", labels });
+
+  assert.equal(omitted.fachcheckCr, undefined);
+  assert.equal(blank.fachcheckCr, "");
+  assert.equal(getTextFieldAction(omitted.fachcheckCr, false), "skip");
+  assert.equal(getTextFieldAction(blank.fachcheckCr, false), "clear");
+  assert.equal(getTextFieldAction("https://example.com/cr", false), "set");
 });
 
 test("matches labels to project options independent of punctuation and case", () => {
