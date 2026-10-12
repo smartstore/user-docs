@@ -8,7 +8,7 @@ Mit Produktvarianten verwalten Sie unterschiedliche Ausführungen desselben Prod
 
 ## Anwendungsszenario
 
-Angenommen, Sie verkaufen ein T-Shirt in mehreren Farben und Größen. Fügen Sie dem Produkt unter **Attribute** die Merkmale Farbe und Größe hinzu. Für Farbe eignet sich der Typ **Farbflächen**, für Größe beispielsweise **Dropdown-Liste**. Öffnen Sie anschließend **Attributwerte bearbeiten/ansehen** und hinterlegen Sie Werte wie S, M, L und XL. Wenn einzelne Varianten eigene Produktdaten wie Lagerbestand, Preis, SKU oder Bild benötigen, erstellen Sie zusätzlich Attributkombinationen.
+Angenommen, Sie verkaufen ein T-Shirt in mehreren Farben und Größen. Fügen Sie dem Produkt unter **Attribute** die Merkmale Farbe und Größe hinzu. Für Farbe eignet sich der Typ **Farb- und Bildmuster**, für Größe beispielsweise **Dropdown-Liste**. Öffnen Sie anschließend **Attributwerte bearbeiten/ansehen** und hinterlegen Sie Werte wie S, M, L und XL. Wenn einzelne Varianten eigene Produktdaten wie Lagerbestand, Preis, SKU oder Bild benötigen, erstellen Sie zusätzlich Attributkombinationen.
 
 ## Attribute
 
@@ -27,27 +27,27 @@ Wenn Sie ein Produktattribut zu Ihrem Produkt hinzufügen, können Sie die folge
 
 ### Verfügbare Typen
 
-| Typ                 | Beschreibung                                                                                              |
-| ------------------- | --------------------------------------------------------------------------------------------------------- |
-| Dropdown-Liste      | Erzeugt eine Dropdown-Liste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.             |
-| Radiobuttonliste    | Erzeugt eine Radiobuttonliste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.           |
-| Kontrollkästchen    | Erzeugt Kontrollkästchen für jeden Wert, um Kunden einen der hinterlegten Attributwerte wählen zu lassen. |
-| Textbox             | Erzeugt eine Textbox.                                                                                     |
-| Mehrzeilige Textbox | Erzeugt eine mehrzeilige Textbox.                                                                         |
-| Kalender            | Erzeugt einen Kalender, mit welchem Kunden ein Datum wählen können.                                       |
-| Datei-Upload        | Erzeugt ein Datei-Upload-Feld, mit welchem Kunden Dateien hochladen können.                               |
-| Farbflächen         | Erzeugt Farbflächen, um Kunden eine Farbe auswählen zu lassen.                                            |
+| Typ                  | Beschreibung                                                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------------- |
+| Dropdown-Liste       | Erzeugt eine Dropdown-Liste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.             |
+| Radiobuttonliste     | Erzeugt eine Radiobuttonliste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.           |
+| Kontrollkästchen     | Erzeugt Kontrollkästchen für jeden Wert, um Kunden einen der hinterlegten Attributwerte wählen zu lassen. |
+| Textbox              | Erzeugt eine Textbox.                                                                                     |
+| Mehrzeilige Textbox  | Erzeugt eine mehrzeilige Textbox.                                                                         |
+| Kalender             | Erzeugt einen Kalender, mit welchem Kunden ein Datum wählen können.                                       |
+| Datei-Upload         | Erzeugt ein Datei-Upload-Feld, mit welchem Kunden Dateien hochladen können.                               |
+| Farb- und Bildmuster | Erzeugt Farb- und Bildmuster, über die Kunden einen Attributwert auswählen können.                        |
 
 ## Attributwerte
 
-Abhängig vom ausgewählten Typ können Sie unterschiedliche Felder oder keines bearbeiten. Wenn Sie die Typen **Textbox, Mehrzeilige Textbox, Kalender** oder **Datei-Upload** auswählen, können Sie keine Werte hinzufügen, da der Wert dieser Typen von den Kunden bestimmt wird, da sie frei mit diesen Steuerelementen interagieren können. Für den Typ **Farbflächen** können Sie Farbwerte angeben, die als Flächen erzeugt werden und von Ihren Kunden auf der Produktdetailseite ausgewählt werden können, indem sie darauf klicken. Farbflächen können auch in der Produktbox aus Produktlisten angezeigt werden, wenn die folgende Option aktiviert ist: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktlisten > Zeige Farbvarianten in Produktlisten**.
+Abhängig vom ausgewählten Typ können Sie unterschiedliche Felder oder keines bearbeiten. Wenn Sie die Typen **Textbox, Mehrzeilige Textbox, Kalender** oder **Datei-Upload** auswählen, können Sie keine Werte hinzufügen, da der Wert dieser Typen von den Kunden bestimmt wird, da sie frei mit diesen Steuerelementen interagieren können. Für den Typ **Farb- und Bildmuster** können Sie Farben oder Bilder angeben, die Ihre Kunden auf der Produktdetailseite auswählen können. Farbvarianten können auch in der Produktbox aus Produktlisten angezeigt werden, wenn die folgende Option aktiviert ist: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktlisten > Zeige Farbvarianten in Produktlisten**.
 
 Wenn Sie Werte zu einem Attribut hinzufügen, können Sie die folgenden Daten dafür spezifizieren:
 
 | Feld                | Beschreibung                                                                                                                                                                                                                                      |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Name                | Name des Attributwerts, wie er im Frontend angezeigt wird. Erlaubt unterschiedliche Werte für jede angelegte Sprache.                                                                                                                             |
-| RGB-Farbe           | Der RGB-Wert der Farbe, die im Frontend erzeugt wird. Nur für den Typ **Farbflächen** verfügbar.                                                                                                                                                  |
+| RGB-Farbe           | Der RGB-Wert der Farbe, die im Frontend erzeugt wird. Nur für den Typ **Farb- und Bildmuster** verfügbar.                                                                                                                                         |
 | Alias               | Zur internen Verwendung (Entwicklerfunktion).                                                                                                                                                                                                     |
 | Verknüpftes Produkt | Wenn Sie den Werttyp **Produkt** anstelle von **Einfach** benutzen, können Sie ein Produkt als Variantenwert hinzufügen, das automatisch zum Warenkorb hinzugefügt wird, sobald der Kunde das Attribut wählt.                                     |
 | Mehr-/Minderpreis   | Der Wert wird auf der Produktdetailseite neben dem Wert angezeigt, wenn die folgende Option aktiviert ist: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktdetail > Mehr- und Minderpreise bei Variant-Kombinationen anzeigen**. |
