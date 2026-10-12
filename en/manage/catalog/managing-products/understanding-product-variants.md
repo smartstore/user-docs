@@ -44,6 +44,32 @@ Depending on the chosen control type, you can edit different fields or none of t
 | Is Pre-Selected   | Specifies whether the value is pre-selected as the customer enters the product detail page.                                                                                                                                                                  |
 | Display Order     | Determines the display order.                                                                                                                                                                                                                                |
 
+## Color and image swatches
+
+The **Color and image swatches** control type displays variant values as selectable swatches. It is suitable for colors, materials, finishes, or variant images.
+
+Configure their appearance under **Catalog > Product Attributes** in the **Color and image swatches** section. Size and shape initially use the global defaults from **Configuration > Settings > Catalog Settings**. The product attribute settings then apply to every product that uses the attribute.
+
+For an individual product, you can override these defaults in the **Attributes** section by selecting **Edit color and image swatches**. Only values set there differ from the product attribute settings.
+
+You can assign an image or up to four RGB colors to each attribute value. When multiple colors are specified, Smartstore divides the swatch into equal color areas. Select the primary color first, then add further colors.
+
+### Configuring the appearance
+
+**Swatch Size:** Sets the size from XS to XXL. Names and prices can appear inside a swatch card from size L.
+
+**Swatch Aspect Ratio:** Sets the height-to-width ratio. 1:1 is square, while 0.5 corresponds to 2:1. This setting only affects the card layout.
+
+**Swatch Shape:** Choose Pill, Rectangular, or Circle. Smartstore uses Pill instead of Circle when content appears in a swatch card or an option has neither a color nor an image.
+
+**Show option name:** Displays the name inside the swatch card. The name is always shown when price information is displayed.
+
+**Swatch Price Display: None** hides prices. **Price adjustment** shows the surcharge or reduction for the attribute value. **Product, Comparison, and Base Price** shows the calculated product price and, when available, the comparison and base price for the respective selection.
+
+{% hint style="info" %}
+The card layout is only used when size L or larger is selected, option names or price display are enabled, and every attribute value has a color or image. Prices must also be visible to the customer. If these conditions are not met, Smartstore displays compact swatches and the aspect ratio has no visible effect.
+{% endhint %}
+
 ## Attribute Combinations
 
 If you want to manage product-related data (e.g. differing SKUs, Prices, etc.) for your attributes, you need to create **Attribute Combinations** by clicking on the button **Create All Combinations** or add attribute combinations manually by clicking on the button **Add Combination**. You can edit the following data for each of your attribute combinations by clicking on the combination in the data grid. All of these values will be loaded with an AJAX-request in the background and displayed on the product details page when a customer chooses the corresponding attribute values.
