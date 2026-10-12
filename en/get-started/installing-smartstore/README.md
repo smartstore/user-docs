@@ -4,7 +4,7 @@ icon: cloud-arrow-up
 
 # Installing Smartstore
 
-Before installation, please check if your hosting or server meets the [prerequisites](https://smartstore.atlassian.net/wiki/spaces/SMNET60/pages/2511044897/Technology+Prerequisites#Software-prerequisites) for Smartstore installation. Here's how to prepare your hosting or server for Smartstore installation:
+Before installation, please check if your hosting or server meets the [prerequisites](../technology-prerequisites.md) for Smartstore installation. Here's how to prepare your hosting or server for Smartstore installation:
 
 {% columns %}
 {% column %}
