@@ -55,6 +55,32 @@ Wenn Sie Werte zu einem Attribut hinzufügen, können Sie die folgenden Daten da
 | Vorausgewählt       | Spezifiziert, ob der Wert vorausgewählt ist, wenn der Kunde die Produktdetailseite betritt.                                                                                                                                                       |
 | Reihenfolge         | Legt die Reihenfolge der Anzeige fest.                                                                                                                                                                                                            |
 
+## Farb- und Bildmuster
+
+Mit dem Typ **Farb- und Bildmuster** stellen Sie Variantenwerte als anklickbare Muster dar. Das eignet sich beispielsweise für Farben, Materialien, Oberflächen oder Variantenbilder.
+
+Konfigurieren Sie die Darstellung unter **Katalog > Produktattribute** im Bereich **Farb- und Bildmuster**. Größe und Form übernehmen zunächst die globalen Vorgaben aus **Konfiguration > Einstellungen > Katalog-Einstellungen**. Die Einstellungen am Produktattribut gelten anschließend für alle Produkte, die dieses Attribut verwenden.
+
+Für ein einzelnes Produkt können Sie die Vorgaben im Bereich **Attribute** über **Farb- und Bildmuster bearbeiten** überschreiben. Nur die dort gesetzten Werte weichen von den Einstellungen des Produktattributs ab.
+
+Jedem Attributwert können Sie ein Bild oder bis zu vier RGB-Farben zuweisen. Bei mehreren Farben unterteilt Smartstore das Muster in gleich große Farbflächen. Wählen Sie zuerst die Hauptfarbe und fügen Sie anschließend weitere Farben hinzu.
+
+### Darstellung konfigurieren
+
+**Mustergröße:** Bestimmt die Größe von XS bis XXL. Namen und Preise können ab Größe L innerhalb einer Musterkarte erscheinen.
+
+**Muster-Seitenverhältnis:** Bestimmt das Verhältnis von Höhe zu Breite. 1:1 ist quadratisch, 0,5 entspricht 2:1. Die Einstellung wirkt nur im Kartenformat.
+
+**Musterform:** Wählen Sie zwischen Abgerundet, Rechteckig und Rund. Smartstore verwendet statt Rund die Form Abgerundet, wenn Inhalte in einer Musterkarte erscheinen oder eine Option weder Farbe noch Bild besitzt.
+
+**Optionsnamen anzeigen:** Zeigt den Namen innerhalb der Musterkarte an. Bei eingeblendeten Preisinformationen wird der Name immer angezeigt.
+
+**Preisanzeige im Muster: Keine** blendet Preise aus. **Preisanpassung** zeigt den Mehr- oder Minderpreis des Attributwerts. **Produkt-, Vergleichs- und Grundpreis** zeigt den berechneten Produktpreis und, sofern verfügbar, Vergleichs- und Grundpreis für die jeweilige Auswahl.
+
+{% hint style="info" %}
+Das Kartenformat wird nur verwendet, wenn mindestens Größe L eingestellt, die Namens- oder Preisanzeige aktiviert und jeder Attributwert mit einer Farbe oder einem Bild versehen ist. Preise müssen außerdem für den Kunden sichtbar sein. Sind diese Bedingungen nicht erfüllt, zeigt Smartstore kompakte Muster; das Seitenverhältnis hat dann keine sichtbare Wirkung.
+{% endhint %}
+
 ## Attribut-Kombinationen
 
 Erstellen Sie **Attribut-Kombinationen**, wenn Varianten eigene Daten wie SKU, Preis oder Lagerbestand benötigen. Mit **Alle Kombinationen erstellen** erzeugen Sie sämtliche Kombinationen automatisch; über **Hinzufügen** legen Sie einzelne Kombinationen manuell an. Klicken Sie anschließend auf eine Tabellenzeile, um die folgenden Daten zu bearbeiten. Smartstore lädt die passenden Werte auf der Produktdetailseite, sobald der Kunde die zugehörigen Attribute auswählt.
