@@ -27,6 +27,18 @@ In Smartstore können Sie die bisherige Suchfunktion durch eine auf Apache Lucen
 | Top-Hersteller aktivieren                     | Legt fest, ob zu einem Suchbegriff Vorschläge für Hersteller/Marken angezeigt werden sollen.                                                                                                                                                              |
 | Maximale Vorschläge                           | Legt die maximale Anzahl der angezeigten Hersteller/Marken fest.                                                                                                                                                                                          |
 
+#### Relevanzbewertung nach Suchfeldern
+
+Die folgenden Einstellungen beeinflussen die Reihenfolge, wenn die Suchergebnisse nach Relevanz („Beste Ergebnisse“) sortiert werden. Sie ändern nicht, welche Treffer gefunden werden. Bei einer anderen Sortierung, beispielsweise nach Preis, haben sie keinen Einfluss auf die sichtbare Reihenfolge.
+
+**Relevanz durch bestes Suchfeld bestimmen:** Wenn aktiviert (Standard), bestimmt grundsätzlich das am höchsten bewertete passende Suchfeld die Relevanz eines Treffers. Dasselbe Produkt erhält nicht allein deshalb eine höhere Platzierung, weil der Suchbegriff zusätzlich in mehreren geringer gewichteten Feldern vorkommt. Die Option kann auch ohne individuell festgelegte Suchfeld-Gewichtungen verwendet werden und gilt für alle MegaSearch-Indizes mit mehreren Suchfeldern.
+
+**Bonus für weitere passende Suchfelder:** Legt fest, wie stark Treffer in weiteren Suchfeldern die Relevanz zusätzlich erhöhen. Bei 0 (Standard) wird ausschließlich das am besten passende Suchfeld berücksichtigt. Bei 10 fließt 1 % der Summe der Bewertungen aller weiteren passenden Felder ein, bei 100 sind es 10 %. Zulässig sind Werte von 0 bis 100. Da die Bewertungen der weiteren Felder zuerst summiert werden, können bereits kleine Werte die Reihenfolge merklich verändern.
+
+{% hint style="info" %}
+Beispiel: Das Feld „Keywords“ ist höher gewichtet als „Name“. Bei der Suche nach „Hammer“ kann ein Produkt, das über das Keyword „Hammer“ gefunden wird, vor Produkten mit Namen wie „Hammerbacher“ oder „Hammerbohrer“ erscheinen. Ein Bonus größer als 0 belohnt zusätzlich Produkte, bei denen „Hammer“ in weiteren Suchfeldern vorkommt.
+{% endhint %}
+
 ### Gewichtung der Suchfelder (Boost)
 
 Mit der Gewichtung der Felder kann die Reihenfolge von Suchtreffern beinflusst werden.
