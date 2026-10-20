@@ -16,16 +16,29 @@ Konfigurieren Sie zunächst das Checkout-Attribut und legen Sie anschließend di
 
 ### Allgemein Eigenschaften
 
-| **Feld**                          | **Beschreibung**                                                                                   |
-| --------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Name                              | Der Name des Checkout-Attributs.                                                                   |
-| Anzeigename                       | Anzeigename.                                                                                       |
-| Aktiv                             | Legt fest, ob das Checkout-Attribut in Ihrem Shop aktiv ist.                                       |
-| Erforderlich                      | Legt fest, ob ein Kunde einen Wert angeben muss, bevor der Bestellprozess fortgesetzt werden kann. |
-| Versandfertiges Produkt notwendig | Legt fest, ob zur Anzeige des Attributs versandfähige Produkte im Warenkorb liegen müssen.         |
-| MwSt.-frei                        | Bestimmt, ob diese Option steuerfrei ist (beim Checkout an der Kasse wird keine Steuer berechnet)  |
-| Typ                               | Bestimmt den Steuerelementtyp für die Erfassung der Attribut-Werte.                                |
-| Reihenfolge                       | Legt die Anzeige-Priorität fest (1 steht für das erste Element in der Liste)                       |
+| **Feld**                          | **Beschreibung**                                                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                              | Der Name des Checkout-Attributs.                                                                                                            |
+| Anzeigename                       | Anzeigename.                                                                                                                                |
+| Aktiv                             | Legt fest, ob das Checkout-Attribut in Ihrem Shop aktiv ist.                                                                                |
+| Erforderlich                      | Legt fest, ob ein Kunde einen Wert angeben muss, bevor der Bestellprozess fortgesetzt werden kann.                                          |
+| Versandfertiges Produkt notwendig | Legt fest, ob zur Anzeige des Attributs versandfähige Produkte im Warenkorb liegen müssen.                                                  |
+| MwSt.-frei                        | Bestimmt, ob diese Option steuerfrei ist (beim Checkout an der Kasse wird keine Steuer berechnet)                                           |
+| Typ                               | Bestimmt den Steuerelementtyp für die Erfassung der Attribut-Werte.                                                                         |
+| Reihenfolge                       | Legt die Anzeige-Priorität fest (1 steht für das erste Element in der Liste)                                                                |
+| Voraussetzungen                   | Legt anhand zugewiesener Warenkorb-Regelsätze fest, wann das Checkout-Attribut angezeigt wird. Bei mehreren Regelsätzen genügt ein Treffer. |
+
+### Regelbasierte Voraussetzungen
+
+Im Bereich **Voraussetzungen** können Sie dem Checkout-Attribut einen oder mehrere Warenkorb-Regelsätze zuweisen. Damit lässt sich die Anzeige beispielsweise von der Kundenrolle, enthaltenen Produkten oder dem Warenkorbwert abhängig machen. So können Sie Angaben zur elektronischen Rechnungsstellung ausschließlich für B2B-Kunden einblenden und als erforderlich kennzeichnen.
+
+Ohne zugewiesenen Regelsatz bleibt das bisherige Verhalten unverändert. Bei mehreren Regelsätzen wird das Attribut angezeigt, sobald mindestens ein Regelsatz zutrifft. Wie die Regeln und Gruppen innerhalb eines Regelsatzes verknüpft werden, bestimmt dessen logischer Operator.
+
+Shop-Einschränkungen und die Option **Versandfertiges Produkt notwendig** gelten zusätzlich. Ein erforderliches Attribut wird nur geprüft, solange seine Voraussetzungen erfüllt sind. Ändert sich der Warenkorb und kein zugewiesener Regelsatz trifft mehr zu, wird das Attribut ausgeblendet und ein zuvor ausgewählter Wert nicht weiter verwendet.
+
+{% hint style="info" %}
+Bitte beachten Sie, dass einige Angaben, wie beispielsweise die Lieferanschrift oder die Versandart, erst während des Checkouts festgelegt werden. Regeln, die sich auf diese Angaben beziehen, greifen daher unter Umständen nicht.
+{% endhint %}
 
 ### Attribut-Wert Eigenschaften
 
