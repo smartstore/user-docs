@@ -1,54 +1,37 @@
 # Linux Server vorbereiten
 
-Diese Anleitung beschreibt die Installation von Smartstore auf einem frisch installierten Ubuntu Server, insbesondere auf Ubuntu Server 21.10. Bei anderen Linux-Distributionen sollte der Ablauf ähnlich sein. Wenn NGINX, ein FTP-Server oder andere benötigte Komponenten bereits installiert sind, können Sie die entsprechenden Abschnitte überspringen.
+Diese Anleitung zeigt, wie Sie Smartstore auf einem Ubuntu-Server mit NGINX als Reverse Proxy bereitstellen. Als Beispiel dient ein offizielles, eigenständig ausführbares Smartstore-Release für Linux x64. Die Datenbank kann auf demselben oder einem anderen Server liegen. Passen Sie Pfade, Domäne und Datenbankzugang an Ihre Umgebung an.
 
 ***
 
 ## Anforderungen
 
-* Smartstore (self-contained, framework-unabhängig) für Linux X64
-* Ubuntu Server 21.10
-* Nicht-Root-Benutzer mit sudo-Rechten
+* Ubuntu Server 22.04 oder neuer, vorzugsweise eine LTS-Version
+* Smartstore-Release für Linux x64 (eigenständig ausführbar)
+* Benutzerkonto mit sudo-Rechten und eine passende Datenbank
+* Domäne und TLS-Zertifikat für den produktiven Betrieb
 
 ## Ablauf
 
-* .NET Installation und andere Voraussetzungen
-* NGINX Reverse Proxy installieren
-* Firewall konfigurieren
-* FTP-Server installieren und konfigurieren
-* NGINX einrichten
-* MySQL oder MS SQL-Server einrichten
-* Smartstore als Dienst einrichten
+* Voraussetzungen und gegebenenfalls ASP.NET Core Runtime prüfen
+* NGINX installieren und Firewall konfigurieren
+* Datenbank vorbereiten
+* Smartstore-Dateien übertragen und Berechtigungen setzen
+* Smartstore als systemd-Dienst einrichten und NGINX als Reverse Proxy konfigurieren
 
-## .NET und andere Voraussetzungen
+## Laufzeit und weitere Voraussetzungen
 
-Hinweis: Offizielle Smartstore-Releases sind framework-unabhängig. Daher benötigen Sie auf dem Zielsystem keine .NET Runtime. Wenn Sie ein eigenes framework-abhängiges Release erstellen, muss die .NET Runtime auf dem Zielsystem installiert sein. \{% endhint % }
+{% hint style="info" %}
+Für das offizielle eigenständig ausführbare Linux-Release ist keine separate .NET-Installation erforderlich. Nur bei einem selbst erstellten frameworkabhängigen Release muss die zur Smartstore-Version passende ASP.NET Core Runtime installiert sein.
+{% endhint %}
 
-Um .NET Runtime 7 zu installieren, führen Sie die folgenden Befehle in der Kommandozeile aus:
+Für die aktuelle Version auf Ubuntu finden Sie Paketquellen und Installationsbefehle in der [Microsoft-Anleitung zur .NET-Installation unter Ubuntu](https://learn.microsoft.com/de-de/dotnet/core/install/linux-ubuntu-install). Verwenden Sie bei einer frameworkabhängigen Webanwendung die ASP.NET Core Runtime, nicht nur die .NET Runtime.
 
-```
-sudo apt install -y dotnet-runtime-9.0
-sudo apt update && sudo apt install -y wget apt-transport-https
-wget https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/packages-microsoft-prod.deb
-sudo dpkg -i packages-microsoft-prod.deb
-sudo apt update
-```
-
-Überprüfen Sie die Installation:
-
-`dotnet --info`
-
-### `wkhtmltopdf` installieren
-
-Da diese Komponente von der Linux-Distribution abhängt, wird sie nicht mit Smartstore ausgeliefert. Sie müssen sie separat installieren.
-
-`sudo apt-get update`
-
-`sudo apt -y install wkhtmltopdf`
+PDF-Funktionen benötigen unter Linux eine passende native wkhtmltopdf-Bibliothek. Smartstore versucht, diese bei der ersten Verwendung bereitzustellen. Prüfen Sie bei Problemen die Ausgabe der Anwendung und installieren Sie die Bibliothek nur dann manuell in einer passenden Version.
 
 ## NGINX installieren
 
-NGINX ist eine Open-Source-Webserver-Software mit Funktionen für Lastausgleich und Medien-Streaming. Sie kann auch als Reverse Proxy eingesetzt werden. Obwohl [ASP.NET](http://asp.net) Core mit Kestrel über eine Standard-Server-Implementierung verfügt, bietet NGINX unter Linux zusätzliche Vorteile.
+NGINX nimmt Webanfragen entgegen und leitet sie an Smartstore weiter. Prüfen Sie zunächst, ob der Dienst bereits installiert ist:
 
 Prüfen Sie, ob NGINX bereits installiert ist:
 
@@ -58,15 +41,15 @@ Prüfen Sie, ob NGINX bereits installiert ist:
 
 ![](../../.gitbook/assets/NGINX_installed.png)
 
-Wenn NGINX bereits installiert ist, können die folgenden Schritte übersprungen werden.
+Ist NGINX bereits installiert, fahren Sie mit der Firewall-Konfiguration fort.
 
-#### Das System aktualisieren und NGINX installieren
+#### Paketquellen aktualisieren und NGINX installieren
 
-Dieser Befehl aktualisiert die Paketinformationen, sodass der Paketmanager aktuelle Pakete und deren Abhängigkeiten finden kann.
+Aktualisieren Sie die Paketinformationen:
 
 `sudo apt-get update`
 
-Installieren Sie anschließend NGINX:
+Installieren Sie NGINX:
 
 `sudo apt-get install nginx`
 
@@ -84,20 +67,16 @@ Aktivieren Sie den NGINX-Dienst, damit er nach einem Server-Neustart automatisch
 
 `sudo systemctl enable nginx`
 
-#### NGINX-Konfiguration neu laden und den Dienst neu starten
-
-`sudo systemctl reload nginx`
-
 ## Firewall-Regeln konfigurieren
 
-Sie können diesen Abschnitt überspringen, wenn die Firewall an anderer Stelle verwaltet wird oder Sie keine Firewall benötigen.
+Wenn die Firewall auf dem Server mit ufw verwaltet wird, geben Sie die benötigten Dienste frei. Bei einer extern verwalteten Firewall richten Sie die entsprechenden Regeln dort ein.
 
-Wir gehen davon aus, dass die ufw (**u**ncomplicated **f**ire**w**all) installiert ist. Zunächst listen wir die bereits eingerichteten Anwendungsprofile auf.
+Prüfen Sie zunächst die verfügbaren ufw-Profile:
 
 `sudo ufw app list`
 
 {% hint style="info" %}
-Hinweis: Wenn der Befehl die Meldung `sudo: ufw: command not found` zurückgibt, ist keine Firewall installiert. Sie können diesen Schritt überspringen oder die Firewall installieren.
+Falls ufw nicht installiert ist, richten Sie die Freigaben mit der Firewall Ihrer Umgebung ein. Aktivieren Sie ufw nur, wenn Sie den SSH-Zugang zuvor freigegeben haben.
 {% endhint %}
 
 Üblicherweise sind drei NGINX-Profile verfügbar:
@@ -106,110 +85,207 @@ Hinweis: Wenn der Befehl die Meldung `sudo: ufw: command not found` zurückgibt,
 * **Nginx HTTP**: Dieses Profil öffnet nur Port 80 für NGINX.
 * **Nginx HTTPS**: Dieses Profil öffnet nur Port 443 für NGINX.
 
-Wir aktivieren das vollständige Webprofil mit Port 80 und Port 443 für SSL:\
-`sudo ufw allow 'Nginx FULL'`
+Geben Sie zunächst SSH frei, wenn Sie den Server darüber verwalten:
 
-Kontrollieren Sie das Ergebnis des Befehls:
+`sudo ufw allow 'OpenSSH'`
+
+Öffnen Sie anschließend HTTP für den ersten Funktionstest. Für den produktiven Betrieb richten Sie HTTPS mit einem Zertifikat ein und geben Port 443 frei.
+
+`sudo ufw allow 'Nginx HTTP'`
+
+Prüfen Sie die aktuellen Regeln und aktivieren Sie ufw, falls es noch nicht aktiv ist:
 
 `sudo ufw status`
 
-Wenn die Firewall nicht aktiviert ist, wird diese Ausgabe angezeigt:
-
 ![](../../.gitbook/assets/ufw_inactive.png)
-
-Wenn der aktuelle Zugriff auf diesen Server über SSH erfolgt, muss das SSH-Profil aktiviert werden, bevor die Firewall aktiviert wird:
-
-`sudo ufw allow 'OpenSSH'`
 
 Nun kann die Firewall mit dem folgenden Befehl aktiviert werden:
 
 `sudo ufw enable`
 
-## FTP-Server installieren und konfigurieren
+## Datenbank vorbereiten
 
-Die Smartstore-Installationsdateien müssen in einem Ordner auf dem Server liegen. Wenn Sie die Dateien nicht direkt auf dem Server herunterladen, benötigen Sie für die Übertragung einen FTP-Zugang. Dafür installieren Sie den FTP-Server `vsftp`.
+Smartstore unterstützt MySQL, Microsoft SQL Server, PostgreSQL und SQLite. Wählen Sie den passenden Datenbanktyp im Installationsassistenten. Die folgenden Schritte zeigen beispielhaft eine lokale MySQL-Datenbank. Wenn Sie bereits eine Datenbank verwenden, benötigen Sie deren Verbindungsdaten und ausreichende Rechte für die Installation.
 
-Mit diesem Befehl installieren Sie `vsftp`:
+### MySQL installieren
 
-`sudo apt install vsftpd`
+Aktualisieren Sie die Paketinformationen und installieren Sie MySQL:
 
-Ist die Firewall aktiviert, müssen die Ports 20 und 21 für FTP und 40000 bis 50000 (dieser Bereich ist frei wählbar) für passive FTP-Verbindungen geöffnet werden. Wenn TLS gewünscht ist, muss auch der Port 990 geöffnet werden:
+`sudo apt update`
 
+`sudo apt install mysql-server`
+
+### MySQL absichern
+
+Nach der Installation können Sie mit mysql\_secure\_installation die Grundeinstellungen des MySQL-Servers prüfen. Je nach MySQL-Version fragt das Programm nach einer Passwortrichtlinie und bietet an, anonyme Konten und die Testdatenbank zu entfernen sowie den Root-Zugriff aus dem Netzwerk zu sperren. Lesen Sie jede Frage, bevor Sie eine Option bestätigen.
+
+`sudo mysql_secure_installation`
+
+![](../../.gitbook/assets/linux-mysql-installing-validate-passwd-component.png)
+
+Für Smartstore ist kein Wechsel der Authentifizierung des MySQL-Root-Kontos erforderlich. Auf Ubuntu können Sie die folgenden Datenbankbefehle mit sudo mysql ausführen.
+
+### Datenbank und Benutzer für Smartstore anlegen
+
+Öffnen Sie die MySQL-Konsole mit dem administrativen Systemkonto:
+
+`sudo mysql`
+
+Legen Sie eine eigene Datenbank und einen Benutzer für Smartstore an. Ersetzen Sie den Platzhalter durch ein sicheres Passwort. Bei einer externen Datenbank muss der erlaubte Host an die tatsächliche Verbindung angepasst werden.
+
+{% code collapsedlinecount="10" %}
 ```
-sudo ufw allow 20/tcp
-sudo ufw allow 21/tcp
-sudo ufw allow 40000:50000/tcp
-sudo ufw allow 990/tcp
+CREATE DATABASE smartstore CHARACTER SET utf8mb4;
+CREATE USER 'smartstore'@'localhost' IDENTIFIED BY '<sicheres-passwort>';
+GRANT ALL PRIVILEGES ON smartstore.* TO 'smartstore'@'localhost';
+SHOW GRANTS FOR 'smartstore'@'localhost';
+exit
 ```
+{% endcode %}
 
-### FTP-Benutzer anlegen
+Tragen Sie später im Smartstore-Installationsassistenten den Datenbanknamen, den Benutzer und das Passwort ein. Der Benutzer erhält Rechte für diese Datenbank, nicht für andere Datenbanken auf dem Server.
 
-Mit diesem Befehl erstellen Sie den Benutzer "`ftpuser`":
+Für Microsoft SQL Server auf Ubuntu folgen Sie der [Installationsanleitung von Microsoft](https://learn.microsoft.com/de-de/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver17). PostgreSQL und SQLite benötigen eine entsprechend vorbereitete Datenbank beziehungsweise einen beschreibbaren Speicherort.
 
-`sudo adduser ftpuser`
+## Smartstore bereitstellen
 
-Wenn `ftpuser` keinen SSH-Zugang haben soll, muss er in der SSH-Konfigurationsdatei deaktiviert werden:
+### Dateien übertragen
 
-`sudo nano /etc/ssh/sshd_config`
+Übertragen Sie die Dateien des Linux-Releases nach /var/www/html, beispielsweise verschlüsselt mit SFTP über Ihren bestehenden SSH-Zugang. Entpacken Sie das Release dort. Ein zusätzlicher FTP-Server ist dafür nicht erforderlich.
 
-Fügen Sie am Ende der Konfigurationsdatei Folgendes hinzu:
+### FTP-Server mit vsftpd einrichten (optional)
 
-`DenyUsers ftpuser`
+Wenn Ihr Übertragungsprozess einen FTP-Client voraussetzt, können Sie vsftpd verwenden. Richten Sie dafür FTPS mit TLS ein: Einfaches FTP überträgt Zugangsdaten und Dateien unverschlüsselt. SFTP aus dem vorherigen Absatz verwendet dagegen SSH und benötigt keinen zusätzlichen FTP-Server.
 
-Nachdem Sie die Konfigurationsdatei gespeichert haben, starten Sie den SSH-Dienst neu:
+#### Dienst installieren und Upload-Benutzer anlegen
 
-`sudo service sshd restart`
+Installieren Sie vsftpd und legen Sie einen eigenen Benutzer an. Der Benutzer lädt die Dateien in ein separates Verzeichnis hoch. Dessen übergeordnetes Verzeichnis bleibt für ihn nicht beschreibbar, damit die Verzeichnisbeschränkung von vsftpd funktioniert.
 
-### Berechtigungen für Ordner
+{% code collapsedlinecount="10" %}
+```
+sudo apt install vsftpd
+sudo adduser ftpuser
+sudo install -d -o root -g root -m 755 /srv/smartstore-ftps
+sudo install -d -o ftpuser -g ftpuser -m 750 /srv/smartstore-ftps/upload
+sudo usermod -d /srv/smartstore-ftps ftpuser
+```
+{% endcode %}
 
-Die Dateien sollen in den Ordner `/var/www/html` übertragen werden. Legen Sie deshalb den übergeordneten Ordner als Heimatordner für den `ftpuser` fest:
+Das mit adduser erstellte Systemkonto kann je nach SSH-Konfiguration auch für SSH verwendet werden. Soll ftpuser ausschließlich über FTPS zugreifen, sperren Sie das Konto zusätzlich für SSH und prüfen Sie die SSH-Konfiguration, bevor Sie den SSH-Dienst neu laden.
 
-`sudo usermod -d /var/www ftpuser`
+#### FTPS und passive Verbindungen konfigurieren
 
-Setzen Sie den `ftpuser` als Eigentümer von `/var/www/html`:
-
-`sudo chown ftpuser:ftpuser /var/www/html`
-
-### Weitere Konfiguration
-
-Benennen Sie die vorhandene Konfigurationsdatei um:
-
-`sudo mv /etc/vsftpd.conf /etc/vsftpd.conf.bak`
-
-Erstellen Sie eine neue Konfigurationsdatei und öffnen Sie sie mit `nano` (Editor):
+Bearbeiten Sie die vorhandene Konfigurationsdatei. Setzen Sie die folgenden Optionen auf die angegebenen Werte und vermeiden Sie doppelte Einträge. Ersetzen Sie die Zertifikatpfade durch ein für Ihren Server gültiges Zertifikat und den zugehörigen privaten Schlüssel.
 
 `sudo nano /etc/vsftpd.conf`
 
-Fügen Sie die folgende Konfiguration ein. Speichern Sie anschließend die Datei und schließen Sie den Editor:
-
+{% code collapsedlinecount="10" %}
 ```
-listen=NO
-listen_ipv6=YES
+listen=YES
+listen_ipv6=NO
 anonymous_enable=NO
 local_enable=YES
 write_enable=YES
-local_umask=022
-dirmessage_enable=YES
-use_localtime=YES
-xferlog_enable=YES
-connect_from_port_20=YES
 chroot_local_user=YES
-secure_chroot_dir=/var/run/vsftpd/empty
-pam_service_name=vsftpd
-force_dot_files=YES
+local_root=/srv/smartstore-ftps
+userlist_enable=YES
+userlist_deny=NO
+userlist_file=/etc/vsftpd.user_list
+ssl_enable=YES
+force_local_logins_ssl=YES
+force_local_data_ssl=YES
+ssl_tlsv1=NO
+ssl_tlsv1_1=NO
+ssl_tlsv1_2=YES
+ssl_tlsv1_3=YES
+rsa_cert_file=/pfad/zum/serverzertifikat.pem
+rsa_private_key_file=/pfad/zum/privaten-schluessel.pem
 pasv_min_port=40000
-pasv_max_port=50000
+pasv_max_port=40100
 ```
+{% endcode %}
 
-### `vsftp` neu starten
+Erlauben Sie nur dem angelegten Benutzer die Anmeldung an vsftpd. Wenn ufw aktiv ist, öffnen Sie Port 21 und den konfigurierten Bereich für passive Datenverbindungen. Für dieses explizite FTPS-Beispiel ist Port 990 nicht erforderlich.
 
-Mit diesem Befehl wird der FTP-Server neu gestartet:
+{% code collapsedlinecount="10" %}
+```
+printf 'ftpuser\n' | sudo tee /etc/vsftpd.user_list
+sudo ufw allow 21/tcp
+sudo ufw allow 40000:40100/tcp
+sudo systemctl restart vsftpd
+sudo systemctl status vsftpd
+```
+{% endcode %}
 
-`sudo systemctl restart vsftpd`
+Verbinden Sie Ihren FTP-Client mit „Explizites FTP über TLS“ und prüfen Sie das Zertifikat. Übertragen Sie die entpackten Dateien des Linux-Releases in den Ordner upload. Kopieren Sie die Dateien anschließend mit administrativen Rechten in das Anwendungsverzeichnis; setzen Sie danach die im nächsten Abschnitt beschriebenen Dateirechte.
 
-## NGINX einrichten
+`sudo cp -a /srv/smartstore-ftps/upload/. /var/www/html/`
 
-Rufen Sie die NGINX-Standardseite auf, um zu prüfen, ob NGINX läuft und erreichbar ist. Wenn Sie die IP-Adresse des Servers nicht kennen, ermitteln Sie sie mit diesem Befehl:
+Weitere Optionen für Benutzerzugang und TLS beschreibt die [Ubuntu-Anleitung für vsftpd](https://documentation.ubuntu.com/server/how-to/networking/ftp/index.html).
+
+### Berechtigungen einrichten
+
+Der Dienst läuft im folgenden Beispiel als www-data. Dieses Konto benötigt Leserechte auf die Anwendung und Schreibrechte für App\_Data, Modules und wwwroot/exchange. Smartstore prüft die erforderlichen Zugriffsrechte während der Installation. Verwenden Sie bei abweichendem Installationspfad oder Dienstkonto die entsprechenden Werte.
+
+{% code collapsedlinecount="10" %}
+```
+sudo chgrp -R www-data /var/www/html
+sudo chmod -R g+rX,o-rwx /var/www/html
+sudo chmod -R g+rwX /var/www/html/App_Data /var/www/html/Modules /var/www/html/wwwroot/exchange
+sudo chmod +x /var/www/html/Smartstore.Web
+```
+{% endcode %}
+
+{% hint style="info" %}
+Auch App\_Data/Tenants/Default/Media und das Verzeichnis runtimes/\<Linux-RID>/native müssen für den Dienst beschreibbar sein, sofern sie in Ihrem Release vorhanden sind. Für Linux x64 lautet die Runtime-ID linux-x64. Prüfen Sie diese Pfade, falls der Installationsassistent fehlende Schreibrechte meldet.
+{% endhint %}
+
+### systemd-Dienst einrichten
+
+Richten Sie Smartstore als systemd-Dienst ein, damit die Anwendung nach einem Neustart automatisch startet. Das Beispiel verwendet das eigenständig ausführbare Linux-Release und bindet Kestrel nur an die lokale Adresse, die NGINX anschließend anspricht.
+
+Erstellen Sie eine Dienstdefinitionsdatei für `systemd`:
+
+`sudo nano /etc/systemd/system/kestrel-smartstore.service`
+
+Fügen Sie den folgenden Codeauszug ein und speichern Sie ihn:
+
+{% code collapsedlinecount="10" %}
+```
+[Unit]
+Description=Smartstore
+
+[Service]
+WorkingDirectory=/var/www/html
+ExecStart=/var/www/html/Smartstore.Web
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://127.0.0.1:5000
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+```
+{% endcode %}
+
+Passen Sie WorkingDirectory und ExecStart an, wenn Sie Smartstore in einem anderen Verzeichnis installiert haben. Bei einem frameworkabhängigen Release muss ExecStart stattdessen die passende dotnet-Anwendung starten.
+
+### Dienst starten und prüfen
+
+Laden Sie die neue Dienstdefinition und aktivieren Sie den Dienst:
+
+{% code collapsedlinecount="10" %}
+```
+sudo systemctl daemon-reload
+sudo systemctl enable --now kestrel-smartstore.service
+sudo systemctl status kestrel-smartstore.service
+```
+{% endcode %}
+
+## NGINX als Reverse Proxy einrichten
+
+Prüfen Sie zunächst über die IP-Adresse des Servers, ob NGINX erreichbar ist:
 
 `hostname -I`
 
@@ -221,16 +297,13 @@ Die Standard-Startseite für NGINX wird angezeigt:
 
 ![](../../.gitbook/assets/welcome_nginx.png)
 
-### NGINX als Reverse-Proxy einrichten
-
-[ASP.NET](http://asp.net) Core-Apps können auch direkt mit dem Kestrel-Webserver ausgeführt werden. Da Kestrel jedoch nicht alle Funktionen eines Webservers wie IIS oder NGINX bietet, verwenden wir unter Linux NGINX als Reverse Proxy. NGINX leitet die Anfragen an den Kestrel-Webserver weiter.
-
-Öffnen Sie die folgende Datei in einem Editor und ersetzen Sie ihren Inhalt durch das Konfigurationsbeispiel:
+NGINX leitet Anfragen an den lokal laufenden Smartstore-Dienst weiter. Bearbeiten Sie die Standardkonfiguration und ersetzen Sie example.com durch Ihre Domäne:
 
 `sudo nano /etc/nginx/sites-available/default`
 
-Ersetzen Sie den Inhalt durch das folgende Konfigurationsbeispiel. Ersetzen Sie `example.com` durch Ihren Domänennamen. Wenn Sie noch keinen Domänennamen haben, können Sie die IP-Adresse des Servers angeben.
+Verwenden Sie zum Einstieg dieses Beispiel für HTTP:
 
+{% code collapsedlinecount="10" %}
 ```
 server {
 	listen        80;
@@ -247,160 +320,19 @@ server {
     		   }
        }
 ```
+{% endcode %}
 
-Danach muss die NGINX-Konfiguration neu geladen werden:
+Prüfen Sie die NGINX-Konfiguration und laden Sie den Dienst anschließend neu:
 
-`sudo systemctl reload nginx`
-
-## MySQL-Server installieren
-
-Smartstore kann mit MySQL oder MS SQL Server betrieben werden.\
-Wenn Sie MySQL installieren, können Sie die Installation von MS SQL Server überspringen.
-
-Aktualisieren Sie zunächst den lokalen Paketindex:
-
-`sudo apt update`
-
-Installieren Sie anschließend MySQL:
-
-`sudo apt install mysql-server`
-
-Wir empfehlen, MySQL gegen Angriffe abzusichern.\
-Dazu rufen Sie das Skript mit dem folgenden Befehl auf:
-
-`sudo mysql_secure_installation`
-
-Das Skript fragt Sie unter anderem, ob das Plugin "Validate Password" installiert und eingerichtet werden soll. Das Plugin prüft die Stärke von Passwörtern.
-
-![](../../.gitbook/assets/linux-mysql-installing-validate-passwd-component.png)
-
-Bei der Installation des Plugins werden Sie aufgefordert, eine Stufe der Passwortvalidierung zu wählen. Wenn Sie die stärkste Stufe, Stufe 2, wählen, müssen MySQL-Passwörter mindestens acht Zeichen lang sein und eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten.
-
-Unabhängig von der Installation des Plugins werden Sie auch aufgefordert, ein Passwort für den Root-Benutzer festzulegen. Die übrigen Einstellungen können auf den Standardwerten bleiben.
-
-Das neu gesetzte root-Passwort ist noch nicht für die Verbindung zur MySQL-Shell konfiguriert. Zu diesem Zweck muss die MySQL-Authentifizierungsmethode wie folgt angepasst werden:
-
-`mysql -u root -p`
-
-Authentifizierungsmethode prüfen:
-
-`SELECT user,authentication_string,plugin,host FROM mysql.user;`
-
-Wenn der `root`-Benutzer über das `auth-socket`-Plugin authentifiziert wird, muss das `root`-Konto neu konfiguriert werden. Dieser Befehl ändert das bisherige Root-Passwort. Es sollte ein sicheres Passwort gewählt werden. Ersetzen Sie `password` durch Ihr eigenes Passwort in dem Befehl.
-
-`ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';`
-
-Danach müssen die MySQL-Berechtigungstabellen neu geladen werden:
-
-`FLUSH PRIVILEGES;`
-
-Mit diesem Befehl verlassen Sie die MySQL-Shell:
-
-`exit`
-
-### Eigenen MySQL-Benutzer für Smartstore anlegen
-
-Aus Sicherheitsgründen arbeiten wir nicht mit dem Root-Benutzer, sondern legen einen eigenen Benutzer für unsere Datenbank an.
-
-Melden Sie sich dazu als Root-Benutzer in der MySQL-Shell an:
-
-`mysql -u root -p`
-
-Erstellen Sie nun einen MySQL-Benutzer "`smartstore`" mit dem Passwort "`password`". Passen Sie `smartstore` und `password` an Ihre Anforderungen an:
-
-`CREATE USER 'smartstore'@'localhost' IDENTIFIED BY 'password';`
-
-Nun müssen wir dem neuen Benutzer Berechtigungen zuweisen. Mit dem nachstehenden Befehl erteilen wir dem Benutzer Berechtigungen für alle Tabellen sowie Berechtigungen zum Hinzufügen, Ändern und Entfernen von Benutzerberechtigungen.
-
-`GRANT ALL PRIVILEGES ON *.* TO 'smartstore'@'localhost' WITH GRANT OPTION;`
-
-Mit dem Befehl `exit` verlassen wir die Shell:
-
-`exit`
-
-## MS SQL Server installieren
-
-Bitte befolgen Sie die Anweisungen von Microsoft auf dieser Website: [Ubuntu: Install SQL Server on Linux](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver15)
-
-## Smartstore als Dienst einrichten
-
-### Dateien übertragen
-
-Nach der Installation der benötigten Komponenten kopieren Sie die Smartstore-Installationsdateien auf den Server.\
-Übertragen Sie die Dateien per FTP in den Ordner `/var/www/html`.
-
-### Dienst einrichten
-
-Smartstore ist eine .NET-Anwendung und muss gestartet werden. Zu Testzwecken können Sie die Anwendung manuell starten. Auf einem Produktionsserver sollte sie als Dienst eingerichtet werden. Dafür verwenden Sie den `systemd` System- und Sitzungsdienst.
-
-Erstellen Sie eine Dienstdefinitionsdatei für `systemd`:
-
-`sudo nano /etc/systemd/system/kestrel-smartstore.service`
-
-Fügen Sie den folgenden Codeauszug ein und speichern Sie ihn:
-
+{% code collapsedlinecount="10" %}
 ```
-[Unit]
-Description=Smartstore Core Web App running on Linux
-
-[Service]
-WorkingDirectory=/var/www/html
-ExecStart=/var/www/html/Smartstore.Web
-Restart=always
-#Restart service after 10 seconds if dotnet service crashes:
-RestartSec=10
-KillSignal=SIGINT
-SyslogIdentifier=smartstore-core
-User=www-data
-Environment=ASPNETCORE_ENVIRONMENT=Production
-Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
-
-[Install]
-WantedBy=multi-user.target
+sudo nginx -t
+sudo systemctl reload nginx
 ```
+{% endcode %}
 
-Passen Sie ggf. die Pfade in `WorkingDirectory` und `ExecStart` an. \{% endhint % }
+{% hint style="info" %}
+Die Beispielkonfiguration verwendet nur HTTP. Richten Sie vor dem produktiven Einsatz ein TLS-Zertifikat und HTTPS für Ihre Domäne ein. Geben Sie danach Port 443 in der Firewall frei und leiten Sie HTTP auf HTTPS um.
+{% endhint %}
 
-Code für **framework-abhängige** Bereitstellung: `ExecStart=/usr/bin/dotnet /var/www/html/Smartstore.Web.dll` Code für die **eigenständige** Bereitstellung: `ExecStart=/var/www/html/Smartstore.Web` \{% endhint % }
-
-### Aktivieren und Starten des Dienstes
-
-Dienst aktivieren:
-
-`sudo systemctl enable kestrel-smartstore.service`
-
-Dienst starten:
-
-`sudo systemctl start kestrel-smartstore.service`
-
-Um den Dienst zu stoppen: \`sudo systemctl stop kestrel-smartstore.service\` \{% endhint % }
-
-### Einstellen der Ordnerberechtigungen
-
-Setzen Sie den eigenen Benutzer als Eigentümer des Websiteordners mit vollen Lese-, Schreib- und Ausführungsrechten:
-
-`chown -R www-data/var/www/html/`
-
-Webserver als Gruppenbesitzer festlegen:
-
-`chgrp -R www-data /var/www/html/`
-
-Rekursiv Lese-, Schreib- und Ausführungsberechtigungen für den Eigentümer und die Gruppe für alle Dateien und Ordner festlegen und keine Berechtigungen für andere:
-
-`chmod -R 750 /var/www/html/`
-
-Vererbung von Gruppenbesitz an neue Dateien und Ordner:
-
-`chmod g+s /var/www/html/`
-
-Spezielle Ordner rekursiv mit Schreibrechten für Webserver versehen:
-
-`chmod -R g+w /var/www/html/App_Data`
-
-`chmod -R g+w /var/www/html/Modules`
-
-Die Datei `Smartstore.Web` als ausführbar deklarieren:
-
-`chmod +x /var/www/html/Smartstore.Web`
-
-Anschließend können Sie mit der Installation von Smartstore fortfahren.
+Rufen Sie anschließend Ihre Domäne auf und schließen Sie die Einrichtung im [Smartstore-Installationsassistenten](smartstore-installieren.md) ab.
