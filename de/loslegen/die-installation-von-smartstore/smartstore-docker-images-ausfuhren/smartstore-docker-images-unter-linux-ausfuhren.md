@@ -14,7 +14,7 @@ Das folgende Beispiel lädt das Smartstore-Linux-Image mit dem Tag \`latest\` au
 
 ![](../../../.gitbook/assets/linux_pulled_smartstore_from_github.png)
 
-Starten Sie das Image anschließend als Testcontainer. Der Container-Port 80 wird dabei auf Port 80 des Docker-Hosts abgebildet. Dieser Einzelcontainer enthält noch keine Datenbank und bindet keine persistenten Shopdaten ein.
+Starten Sie das Image anschließend als Testcontainer. Der Container-Port 80 wird dabei auf Port 80 des Docker-Hosts abgebildet. Der Container startet ohne vorkonfigurierte Datenbank und ohne persistenten Speicher für Shopdaten.
 
 `sudo docker run --name smartstore-test -p 80:80 ghcr.io/smartstore/smartstore-linux:latest`
 
@@ -24,4 +24,4 @@ Starten Sie das Image anschließend als Testcontainer. Der Container-Port 80 wir
 
 ![](../../../.gitbook/assets/chrome-smartstore-installation-docker.png)
 
-Für die Smartstore-Installation benötigen Sie zusätzlich eine erreichbare MS-SQL-Server- oder MySQL-Instanz. Wenn Smartstore und Datenbank gemeinsam mit Docker Compose gestartet werden sollen, folgen Sie der Anleitung [Smartstore und Datenbank zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md). Planen Sie für einen dauerhaften Betrieb außerdem persistente Daten, sichere Zugangsdaten und einen freigegebenen Release-Tag ein.
+Für die Smartstore-Installation wählen Sie im Installationsdialog einen Datenbanktyp. Unterstützt werden MySQL, Microsoft SQL Server, PostgreSQL und SQLite. Die ersten drei benötigen einen erreichbaren Datenbankserver; SQLite speichert eine Datenbankdatei im Container. Wenn Smartstore und Datenbank gemeinsam mit Docker Compose gestartet werden sollen, folgen Sie der Anleitung [Smartstore und Datenbank zusammen als Docker-Container betreiben](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md). Planen Sie für einen dauerhaften Betrieb außerdem persistente Daten, sichere Zugangsdaten und einen freigegebenen Release-Tag ein.
