@@ -4,7 +4,11 @@ Ein Container-Image enthält die Dateien, Bibliotheken und Konfigurationen, die 
 
 Das offizielle Linux-Image finden Sie im [Smartstore-Linux-Paket auf GitHub](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux). Der vollständige Image-Name lautet ghcr.io/smartstore/smartstore-linux. Verwenden Sie für reproduzierbare Installationen einen konkreten Release-Tag. Der Tag latest verweist dagegen auf den jeweils aktuell als latest veröffentlichten Stand.
 
-Voraussetzung ist, dass Docker Desktop oder Docker Engine installiert und gestartet ist. Ein allein gestarteter Smartstore-Container benötigt für die Installation eine erreichbare, unterstützte Datenbank. Für produktive Systeme müssen Sie außerdem persistente Daten, sichere Zugangsdaten und eine kontrollierte Versionsstrategie berücksichtigen.
+Voraussetzung ist, dass Docker Desktop oder Docker Engine installiert und gestartet ist. Ein allein gestarteter Smartstore-Container benötigt für die Installation eine erreichbare, unterstützte Datenbank.
+
+{% hint style="danger" %}
+Für produktive Systeme müssen Sie außerdem persistente Daten, sichere Zugangsdaten und eine kontrollierte Versionsstrategie berücksichtigen.
+{% endhint %}
 
 Wählen Sie den passenden Ablauf:
 
