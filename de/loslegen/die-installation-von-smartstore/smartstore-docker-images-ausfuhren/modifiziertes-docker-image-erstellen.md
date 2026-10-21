@@ -1,13 +1,13 @@
 # Modifiziertes Docker-Image erstellen
 
-### Softwarevoraussetzungen
+Ein eigenes Docker-Image ermöglicht es, Smartstore zusammen mit zusätzlichen Dateien bereitzustellen. Diese Anleitung zeigt den Ablauf am Beispiel eines Plugins: Sie ergänzen das [Linux-x64-Artefakt eines Smartstore-Releases](https://github.com/smartstore/Smartstore/releases) um die Plugin-Dateien und bauen daraus ein neues Image. Das Plugin ist damit im Container vorhanden. Ob es im Shop installiert ist, prüfen Sie nach dem Start.
+
+Das Plugin muss zum verwendeten Smartstore-Release passen. Prüfen Sie vor dem Build auch seine Lizenz und benötigte Abhängigkeiten.
+
+### Voraussetzungen
 
 * Docker Engine oder Docker Desktop ist installiert und gestartet.
-* Das Linux-x64-Artefakt eines bestimmten Smartstore-Releases wurde heruntergeladen.
-* Das Plugin liegt vollständig entpackt vor und ist mit diesem Smartstore-Release kompatibel.
-* Unter Windows steht eine Shell wie Git Bash oder WSL zum Ausführen des Skripts zur Verfügung.
-
-Mit diesem Ablauf erstellen Sie aus einem offiziellen [Smartstore Community Edition Docker Image](https://github.com/smartstore/Smartstore/pkgs/container/smartstore-linux) und einem zusätzlichen Plugin ein eigenes Docker-Image. Prüfen Sie vorab die Plugin-Lizenz, erforderliche Abhängigkeiten und die unterstützte Smartstore-Version.
+* Ein mit dem gewählten Smartstore-Release kompatibles Plugin ist verfügbar.
 
 {% hint style="info" %}
 Das Beispiel wird unter Windows mit einer Unix-kompatiblen Shell ausgeführt. Unter Linux ist das Vorgehen identisch.
@@ -15,9 +15,7 @@ Das Beispiel wird unter Windows mit einer Unix-kompatiblen Shell ausgeführt. Un
 
 ### Smartstore und Plugin vorbereiten
 
-Laden Sie die passende Smartstore Community Edition von [GitHub](https://github.com/smartstore/Smartstore/releases) herunter. Verwenden Sie für Smartstore, Dockerdateien und Plugin denselben kompatiblen Releasestand.
-
-Für das Docker-Image benötigen Sie das Linux-x64-Artefakt von Smartstore.
+Laden Sie das Linux-x64-Artefakt der passenden Smartstore Community Edition von [GitHub](https://github.com/smartstore/Smartstore/releases) herunter. Verwenden Sie die Dockerdateien aus demselben Release und ein dazu kompatibles Plugin.
 
 ![](../../../.gitbook/assets/BVFWng93ph.png)
 
@@ -35,11 +33,11 @@ Entpacken Sie das Plugin in den Ordner `smartstore-linux-x64/Modules`. Legen Sie
 
 Kopieren Sie zusätzlich `install-wkhtmltopdf.sh` aus dem Quellarchiv desselben Smartstore-Releases in den Ordner `build_my_docker_image`. Das Skript installiert die native Bibliothek, die Smartstore für die PDF-Erzeugung benötigt.
 
-Erstellen Sie anschließend in diesem Ordner eine Datei namens `Dockerfile`. Das folgende Beispiel verwendet ASP.NET Core 10. Prüfen Sie beim nächsten Smartstore-Release, ob der Runtime-Tag weiterhin zum Release passt.
+Erstellen Sie anschließend in diesem Ordner eine Datei namens `Dockerfile`. Das Beispiel verwendet ASP.NET Core 10 auf Ubuntu 24.04, weil das mitgelieferte `install-wkhtmltopdf.sh` diese Ubuntu-Version voraussetzt. Prüfen Sie bei einem späteren Smartstore-Release, ob Runtime-Tag und Installationsskript weiterhin zusammenpassen.
 
 ```
 # Creates a Docker image from an existing Smartstore Linux artifact
-ARG ASPNET_TAG=10.0
+ARG ASPNET_TAG=10.0-noble
 
 FROM mcr.microsoft.com/dotnet/aspnet:${ASPNET_TAG}
 EXPOSE 80
@@ -57,11 +55,11 @@ RUN chmod +x /tmp/install-wkhtmltopdf.sh && \
 ENTRYPOINT ["./Smartstore.Web", "--urls", "http://0.0.0.0:80"]
 ```
 
-Erstellen Sie anschließend im selben Ordner die Datei `dockerize.linux.nobuild.sh`. Ersetzen Sie `<SMARTSTORE-VERSION>` durch die Version des verwendeten Artefakts.
+Erstellen Sie anschließend im selben Ordner die Datei `dockerize.linux.nobuild.sh`. Ersetzen Sie `<SMARTSTORE-VERSION>` durch die Version des verwendeten Smartstore-Artefakts und `<PLUGIN-VERSION>` durch die Version des eingebundenen Plugins.
 
 ```
 docker build \
-  -t smartstore-linux-custom:<SMARTSTORE-VERSION> \
+  -t smartstore-linux-custom:<SMARTSTORE-VERSION>-plugin-<PLUGIN-VERSION> \
   -f Dockerfile .
 ```
 
@@ -73,8 +71,10 @@ Der Arbeitsordner sollte anschließend wie folgt aussehen:
 
 ### Image erstellen und prüfen
 
-Führen Sie `dockerize.linux.nobuild.sh` im Ordner `build_my_docker_image` aus. Prüfen Sie danach mit `docker image ls smartstore-linux-custom`, ob das neue Image mit dem erwarteten Tag vorhanden ist.
+Führen Sie `bash dockerize.linux.nobuild.sh` im Ordner `build_my_docker_image` aus. Prüfen Sie danach mit `docker image ls smartstore-linux-custom`, ob das neue Image mit dem erwarteten Tag vorhanden ist.
 
 ![](../../../.gitbook/assets/0bmdlaBhkJ.png)
 
-Starten Sie das Image zunächst in einer Testumgebung und prüfen Sie, ob Smartstore und das Plugin geladen werden. Für eine vollständige Installation benötigen Sie außerdem eine erreichbare Datenbank und persistent eingebundene Shopdaten. Bei einem Smartstore- oder Plugin-Update erstellen und testen Sie ein neues Image; verändern Sie keinen bereits laufenden Container nachträglich.
+Starten Sie aus dem Image zunächst einen Container in einer Testumgebung. Für eine vollständige Installation benötigen Sie eine erreichbare Datenbank und persistent eingebundene Shopdaten. Nutzen Sie dafür beispielsweise die [Docker-Compose-Anleitung](smartstore-und-datenbank-zusammen-als-docker-container-betreiben.md) und ersetzen Sie dort im Dienst `web` den Image-Namen durch den Tag Ihres eigenen Images.
+
+Prüfen Sie nach dem Start unter **Plugins > Plugins verwalten**, ob das Plugin angezeigt wird, und installieren Sie es bei Bedarf. Bei einem Smartstore- oder Plugin-Update erstellen und testen Sie ein neues Image; verändern Sie keinen bereits laufenden Container nachträglich.
