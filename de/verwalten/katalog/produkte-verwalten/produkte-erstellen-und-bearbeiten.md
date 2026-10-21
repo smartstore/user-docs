@@ -12,7 +12,7 @@ In der Filterfunktion suchen Sie nach dem Produktnamen und grenzen die Liste unt
 
 ![](<../../../.gitbook/assets/2022-10-14 09_50_35-Produktdetails _ Smartstore Administration.png>)
 
-### Registerkarte für Produktinformationen
+### Produktinformationen
 
 In dieser Registerkarte erfassen Sie die Produktdaten und legen fest, wie und unter welchen Bedingungen das Produkt angeboten wird. Das Fragezeichen neben einer Feldbezeichnung zeigt bei Bedarf zusätzliche Hinweise.
 
@@ -106,23 +106,23 @@ Hier steuern Sie unter anderem die Reihenfolge und Darstellung auf der Startseit
 Mit dem Enterprise-Plugin [Widerruf](../../../benutzer-handbuch/plugins/withdrawal.md) erscheinen hier zusätzlich die Felder für die Widerrufsfrist und den Widerruf vor dem Versand. Diese Einstellungen können die allgemeinen Vorgaben für ein Produkt überschreiben.
 {% endhint %}
 
-### Registerkarte Inventar
+### Inventar
 
 Bei einfachen Produkten und bei Bundles, die als ein Artikel in den Warenkorb gelegt werden, konfigurieren Sie hier die Bestandsverfolgung. Weitere Informationen finden Sie unter [Produktbestand tracken](lagerbestand-fuhren.md).
 
-### Registerkarte Verknüpfte Produkte
+### Verknüpfte Produkte
 
 Bei einem gespeicherten Gruppenprodukt ordnen Sie hier die zugehörigen Produkte zu. Weitere Informationen finden Sie unter [Wie funktionieren Gruppenprodukte?](wie-funktionieren-gruppenprodukte.md).
 
-### Registerkarte Stückliste
+### Stückliste
 
 Bei einem gespeicherten Produkt-Bundle stellen Sie hier die enthaltenen Produkte zusammen. Weitere Informationen finden Sie unter [Wie funktionieren Produkt-Bundles?](wie-funktionieren-produkt-bundles.md).
 
-### Registerkarte Preis
+### Preis
 
 In dieser Registerkarte legen Sie den Verkaufspreis sowie weitere Preis- und Kaufoptionen fest. Sie erscheint nicht bei Gruppenprodukten; bei Bundles hängen einzelne Einstellungen von der Preisbildung ab. Die Felder erläutert [Produktpreis festlegen](produktpreis-festlegen.md). Wie die Preise berechnet werden, erklärt [Preisregeln verstehen](preisregeln-verstehen.md). Hier können Sie dem Produkt auch Rabatte zuordnen.
 
-### Registerkarte Bilder
+### Bilder
 
 In dieser Registerkarte hinterlegen Sie Bilder und Videos für das Produkt. Das erste Bild wird standardmäßig auch als Vorschaubild in Produktlisten verwendet. Sie können es aus der Galerie auf der Produktdetailseite ausschließen. Bei Produkten mit Varianten legen Sie außerdem fest, ab welcher Bildanzahl nur Bilder der gewählten Variante angezeigt werden. Weitere Informationen finden Sie unter [Bilder hochladen](../../../benutzer-handbuch/allgemeine-konzepte/bilder-hochladen.md).
 
@@ -132,15 +132,15 @@ In dieser Registerkarte hinterlegen Sie Bilder und Videos für das Produkt. Das 
 Freigestellte Grafiken eignen sich besonders für die Produktgalerie.
 {% endhint %}
 
-### Registerkarte Warengruppen
+### Warengruppen
 
 In dieser Registerkarte ordnen Sie das Produkt Warengruppen zu. Sie können es beliebig vielen Warengruppen zuweisen und in ausgewählten Warengruppen hervorheben. Dann erscheint es auf der jeweiligen Warengruppenseite als hervorgehobenes Produkt. Sie können auch eine **Reihenfolge** festlegen. Diese greift, wenn für die Warengruppe die Sortierung **Position** eingestellt ist.
 
-### Registerkarte Hersteller
+### Hersteller
 
 In dieser Registerkarte ordnen Sie dem Produkt Hersteller zu. Sie können beliebig viele Hersteller zuweisen und das Produkt bei ausgewählten Herstellern hervorheben. Dann erscheint es auf der jeweiligen Herstellerseite als hervorgehobenes Produkt. Zugewiesene Hersteller werden auf der Produktdetailseite unterhalb der Produkteigenschaften angezeigt. Weitere Informationen finden Sie unter [Hersteller verwalten](../hersteller-verwalten.md).
 
-### Registerkarte Promotion
+### Promotion
 
 In dieser Registerkarte können Sie Promotionen für ein Produkt verwalten. Sie können **Cross-Selling-Produkte** im unteren Bereich der Produktdetailansicht im Frontend Ihres Shops anzeigen lassen oder **Produkte** konfigurieren, die Kunden im Checkout empfohlen werden. Wenn Sie auf **Cross-Selling-****Produkt hinzufügen** oder **Checkout-Selling-Produkt hinzufügen** klicken, öffnet sich die Produktauswahl. Dort wählen Sie die Produkte für den jeweiligen Bereich aus. Weitere Informationen finden Sie unter [Tabellenansichten](../../../benutzer-handbuch/allgemeine-konzepte/tabellenansichten.md).
 
@@ -152,26 +152,26 @@ Wenn Sie MP3-Player verkaufen, können passende Kopfhörer für Ihre Kunden inte
 
 Wenn Sie Schmuck verkaufen, können Sie Kunden beim Bestellvorgang Geschenkpapier als **Checkout-Selling-Produkt** empfehlen.
 
-### Registerkarte Attribute
+### Attribute
 
 In dieser Registerkarte verwalten Sie Produktattribute und Attributkombinationen. Sie erscheint nicht bei Produkt-Bundles. Weitere Informationen finden Sie unter [Wie funktionieren Produktvarianten?](wie-funktionieren-produktvarianten.md)
 
-### Registerkarte Spezifikationsattribute
+### Spezifikationsattribute
 
 In dieser Registerkarte können Sie die Spezifikationsattribute verwalten. Für weitere Informationen zu Spezifikationsattributen lesen Sie [Spezifikationsattribute verwalten](../spezifikationsattribute-verwalten.md).
 
-### Registerkarte Suchmaschinen (SEO)
+### Suchmaschinen (SEO)
 
 In dieser Registerkarte können Sie ausgewählte SEO-Werte für Ihr Produkt festlegen, so zum Beispiel **Meta title**, **Meta Keywords** oder ein **URL Alias**. Für weitere Informationen über die Felder in der Registerkarte **Suchmaschinen** lesen Sie [SEO](../../../benutzer-handbuch/allgemeine-konzepte/seo.md).
 
-### Registerkarte Downloads
+### Downloads
 
 In dieser Registerkarte aktivieren Sie **Ist Download** und konfigurieren Datei oder URL, Versionen, Abruflimit, Aktivierung und Benutzervereinbarung. Die vollständige Anleitung finden Sie unter [Mit digitalen Produkten umgehen (ESD)](mit-digitalen-produkten-umgehen-esd.md).
 
-### Registerkarte Aufträge
+### Aufträge
 
 Nach dem Speichern des Produkts sehen Sie in dieser Registerkarte die Aufträge, in denen es gekauft wurde.
 
-### Andere Registerkarten
+### Weitere Bereiche
 
 Abhängig von Ihren Plugins kann es weitere Registerkarten geben. Für weitere Informationen zu diesen Registerkarten wenden Sie sich bitte an den Entwickler des Plugins.
