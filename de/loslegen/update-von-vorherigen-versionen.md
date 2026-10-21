@@ -11,7 +11,7 @@ Der erforderliche Ablauf hängt von Ihrer Ausgangsversion ab:
 Die aktuelle Shop-Version finden Sie im Adminbereich unter **System → Systeminformationen**. Verwenden Sie ausschließlich ein für Ihren Updatepfad freigegebenes Zielrelease.
 
 {% hint style="warning" %}
-Die nachfolgenden Datei- und Verzeichnislisten sind für die jeweiligen Updatepfade unterschiedlich. Prüfen Sie die Liste vor dem Löschen anhand der Release Notes und Ihrer individuellen Installation. Führen Sie das Update nicht ohne eine getestete Wiederherstellungsmöglichkeit durch.
+Der vorhandene Ordner `App_Data` darf beim Update weder gelöscht noch mit Dateien aus dem neuen Paket überschrieben werden. Sichern Sie vor dem Dateiaustausch die Datenbank und die gesamte Shopinstallation und testen Sie, ob sich beide Sicherungen wiederherstellen lassen.
 {% endhint %}
 
 ### Vor dem Update
@@ -20,11 +20,13 @@ Die nachfolgenden Datei- und Verzeichnislisten sind für die jeweiligen Updatepf
 2. Erstellen Sie vollständige Sicherungen der Datenbank und des Dateisystems.
 3. Prüfen Sie, ob sich beide Sicherungen wiederherstellen lassen.
 4. Inventarisieren Sie Plugins, Themes, eigene Dateien und Quellcodeänderungen. Beschaffen Sie kompatible Versionen und testen Sie diese vor dem Produktivupdate.
-5. Führen Sie im Adminbereich unter **System → Geplante Aufgaben** die Aufgabe **Gastbenutzer löschen** aus.
-6. Wenn Medien in der Datenbank gespeichert sind, setzen Sie unter **Konfiguration → Einstellungen → Medien** den Medienspeicherort vorübergehend auf **Dateisystem**.
-7. Prüfen Sie Betriebssystem, Serverarchitektur, freien Speicherplatz, Dateirechte und die Hostingvoraussetzungen der Zielversion.
+5. Prüfen Sie Betriebssystem, Serverarchitektur, freien Speicherplatz, Dateirechte und die Hostingvoraussetzungen der Zielversion.
 
-Offizielle Smartstore-Pakete werden standardmäßig plattformspezifisch und self-contained bereitgestellt. Für den Betrieb hinter IIS muss dennoch das zur Zielversion passende ASP.NET Core Module beziehungsweise [.NET Hosting Bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle) installiert sein. Pflegen Sie die konkrete .NET-Version zentral in den Systemvoraussetzungen, nicht in dieser Updateanleitung.
+{% hint style="info" %}
+**Falls die Medienübernahme beim Update scheitert:** Stellen Sie die vor dem Update erstellten Sicherungen von Datenbank und Shopdateien wieder her. Wechseln Sie im wiederhergestellten Shop unter **Konfiguration → Einstellungen → Medien** den Medienspeicherort vorübergehend auf **Dateisystem** um. Prüfen und sichern Sie die ausgelagerten Mediendateien, bevor Sie das Update erneut durchführen.
+{% endhint %}
+
+Offizielle Smartstore-Pakete werden standardmäßig plattformspezifisch und self-contained bereitgestellt. Für den Betrieb hinter IIS muss dennoch das zur Zielversion passende ASP.NET Core Module beziehungsweise [.NET Hosting Bundle](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/iis/hosting-bundle) installiert sein.
 
 ### Updatepaket auswählen
 
@@ -40,27 +42,18 @@ Stoppen Sie vor dem Dateiaustausch den IIS-AppPool beziehungsweise den Smartstor
 
 #### Smartstore.NET 4.2 auf Smartstore 5 oder neuer
 
-Entfernen Sie die alten Anwendungsdateien erst nach erfolgreicher Sicherung. Die folgenden vorhandenen Daten dürfen nicht gelöscht werden:
-
-* `App_Data/Tenants/Default/InstalledPlugins.txt`
-* `App_Data/Tenants/Default/Settings.txt`
-* `App_Data/Tenants/Default/PageBuilder/Templates` (nicht in jedem Shop vorhanden)
-* `App_Data/Tenants/Default/Media/Storage`
-* `App_Data/Tenants/Default/Media/QueuedEmailAttachmentMedia` (nicht in jedem Shop vorhanden)
+Entfernen Sie alte Anwendungsdateien erst nach erfolgreicher Sicherung. Bewahren Sie den gesamten Ordner `App_Data` einschließlich aller Mandanten und Unterverzeichnisse auf. Sichern Sie eigene statische Dateien gesondert; in Smartstore 5 und neuer gehören sie gegebenenfalls nach `wwwroot`.
 
 #### Update innerhalb von Smartstore 5 oder neuer
 
-Erhalten Sie die folgenden Verzeichnisse einschließlich ihrer Unterverzeichnisse:
+Bewahren Sie auch bei Updates innerhalb von Smartstore 5 oder neuer den gesamten Ordner `App_Data` mit allen Unterverzeichnissen auf.
 
-* `App_Data`
-* `wwwroot`
-
-Prüfen Sie eigene Dateien wie Favicons oder Verifikationsdateien separat. Übernehmen Sie keine alten Programmdateien ungeprüft in den neuen Stand. Externe Webinhalte müssen gegebenenfalls im neuen Unterverzeichnis `wwwroot` abgelegt werden.
+Lassen Sie den Ordner `wwwroot` einschließlich seiner Unterordner bestehen und kopieren Sie die Dateien aus dem Updatepaket darüber. Gleichnamige Dateien werden überschrieben; zusätzliche eigene Dateien bleiben erhalten.
 
 ### Neue Version bereitstellen
 
-1. Entfernen Sie die alten Anwendungsdateien nach den für Ihren Updatepfad bestätigten Ausnahmeregeln.
-2. Übertragen Sie das neue Paket vollständig per FTP oder mit dem Bereitstellungswerkzeug Ihres Hostings.
+1. Entfernen Sie nur alte Anwendungsdateien, die nach den Hinweisen für Ihren Updatepfad ausgetauscht werden dürfen. Lassen Sie `App_Data` vollständig bestehen. Bei Updates innerhalb von Smartstore 5 oder neuer bleibt auch `wwwroot` stehen.
+2. Übertragen Sie die Anwendungsdateien des neuen Pakets vollständig per FTP oder mit dem Bereitstellungswerkzeug Ihres Hostings. Überschreiben Sie den bestehenden Ordner `App_Data` dabei nicht mit Dateien aus dem Paket.
 3. Prüfen Sie Dateirechte und Konfiguration.
 4. Starten Sie AppPool, Dienst oder Container kontrolliert.
 5. Kopieren Sie alte Binär- oder Programmdateien nicht pauschal über die neue Version.
