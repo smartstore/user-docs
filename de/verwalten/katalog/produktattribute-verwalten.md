@@ -16,7 +16,7 @@ In der Übersicht filtern Sie nach Name, Alias und Filtern zulassen. Über den N
 
 ## Registerkarte Allgemein
 
-| Einstellung                  | Beschreibung                                                                                                                                                                                                                                                                                                                                 |
+| **Einstellung**              | **Beschreibung**                                                                                                                                                                                                                                                                                                                             |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Name                         | Name des Attributs, beispielsweise Farbe oder Größe.                                                                                                                                                                                                                                                                                         |
 | Alias                        | Optionaler SEO-konformer URL-Alias für Suchfilter. Er kann je Sprache gepflegt werden.                                                                                                                                                                                                                                                       |
@@ -33,7 +33,7 @@ In der Übersicht filtern Sie nach Name, Alias und Filtern zulassen. Über den N
 
 Die folgenden Felder stehen ebenfalls unter Allgemein. Sie wirken nur mit dem kostenpflichtigen Enterprise-Plugin MegaSearch Plus; Änderungen werden nach der nächsten Aktualisierung des Suchindex wirksam. Weitere Informationen finden Sie unter [MegaSearch](../../benutzer-handbuch/plugins/megasearch.md).
 
-| Einstellung             | Beschreibung                                                                                   |
+| **Einstellung**         | **Beschreibung**                                                                               |
 | ----------------------- | ---------------------------------------------------------------------------------------------- |
 | Filtern zulassen        | Erlaubt Kunden, Suchergebnisse nach diesem Attribut einzugrenzen.                              |
 | Suchfilter Darstellung  | Darstellung des Attributfilters. Das Feld erscheint bei aktiviertem Filtern zulassen.          |
