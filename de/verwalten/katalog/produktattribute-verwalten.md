@@ -49,7 +49,7 @@ Ein Options-Set bündelt wiederkehrende Attributwerte als Vorlage. Für Größe 
 
 ![Registerkarte Options-Sets mit einem aufgeklappten Set und dessen Attributoptionen](../../.gitbook/assets/screenshot.png)
 
-Optionen enthalten dieselben Grunddaten wie Attributwerte am Produkt: Name und Alias einschließlich Übersetzungen, Bild und Farben, Mehr-/Minderpreis, Mehr-/Mindergewicht, Vorauswahl und Reihenfolge. Bei einer Produktverknüpfung wählen Sie stattdessen das verknüpfte Produkt und dessen Menge. Die Wirkung dieser Werte ist auf der Seite Wie funktionieren Produktvarianten? beschrieben.
+Optionen enthalten dieselben Grunddaten wie Attributwerte am Produkt: Name und Alias einschließlich Übersetzungen, Bild und Farben, Mehr-/Minderpreis, Mehr-/Mindergewicht, Vorauswahl und Reihenfolge. Bei einer Produktverknüpfung wählen Sie stattdessen das verknüpfte Produkt und dessen Menge. Die Wirkung dieser Werte ist auf der Seite [Wie funktionieren Produktvarianten?](produkte-verwalten/wie-funktionieren-produktvarianten.md) beschrieben.
 
 ### Options-Sets am Produkt verwenden
 
