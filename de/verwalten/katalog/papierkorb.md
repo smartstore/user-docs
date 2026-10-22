@@ -26,7 +26,11 @@ Die Wiederherstellung kann auch zugehörige gelöschte Produkte, etwa Bestandtei
 
 Markieren Sie die Produkte, wählen Sie Endgültig löschen und bestätigen Sie die Rückfrage. Für ein einzelnes Produkt steht die Aktion auch an der Tabellenzeile zur Verfügung. Endgültig gelöschte Produkte können über den Papierkorb nicht wiederhergestellt werden.
 
-Produkte mit Auftragszuordnung werden nicht endgültig gelöscht. Bei einer gemischten Auswahl bleiben diese Produkte erhalten; Smartstore meldet, wenn Einträge übersprungen wurden.
+{% hint style="danger" %}
+**Warum lassen sich manche Produkte nicht endgültig löschen?**
+
+Produkte, die einem Auftrag zugeordnet sind, können nicht endgültig gelöscht werden. Smartstore schützt diese Produkte, damit die zugehörigen Auftragsdaten erhalten bleiben. Das gilt auch für „Papierkorb leeren“: Bei einer gemischten Auswahl werden die löschbaren Produkte entfernt; Produkte mit Auftragszuordnung bleiben im Papierkorb. Smartstore meldet, wenn Einträge übersprungen wurden.
+{% endhint %}
 
 ## Papierkorb leeren
 
