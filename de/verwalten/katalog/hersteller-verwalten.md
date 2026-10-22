@@ -8,14 +8,21 @@ Hersteller lassen sich Produkten zuordnen und auf der Produktdetailseite anzeige
 
 ## Allgemein
 
-| **Eingabefeld**               | **Beschreibung**                                                                      |
-| ----------------------------- | ------------------------------------------------------------------------------------- |
-| Rabatte                       | Legt auf das Objekt anzuwendende Rabatte fest.                                        |
-| Auf Shop begrenzt             | Legt fest, ob der Eintrag nur für bestimmte Shops verfügbar ist.                      |
-| Design Vorlage                | Bestimmt eine Vorlage, mit der der Hersteller und seine Produkte dargestellt werden.  |
-| Kunde kann Listengröße ändern | Kunden können die Listengröße mithilfe einer vorgegebenen Optionsliste ändern.        |
-| Listengröße                   | Listengröße für Produkte dieses Herstellers festlegen (z. B. '12' Produkte pro Seite) |
-| Reihenfolge                   | Legt die Anzeige-Priorität fest (1 steht bspw. für das erste Element in der Liste)    |
+| **Eingabefeld**               | **Beschreibung**                                                                                                                                                                                                                           |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Reihenfolge                   | Bestimmt die Position des Herstellers in sortierten Herstellerlisten.                                                                                                                                                                      |
+| Veröffentlicht                | Legt fest, ob der Hersteller im Shop angezeigt wird.                                                                                                                                                                                       |
+| Name                          | Name des Herstellers. Sie können für weitere Sprachen eigene Namen eingeben.                                                                                                                                                               |
+| Beschreibung                  | Text oberhalb der Produkte auf der Herstellerseite. Für weitere Sprachen kann eine eigene Beschreibung hinterlegt werden.                                                                                                                  |
+| Untere Beschreibung           | Optionaler Text unterhalb der Produkte auf der Herstellerseite. Das Feld erscheint über die Umschaltfläche für Beschreibungen.                                                                                                             |
+| Bild                          | Bild des Herstellers.                                                                                                                                                                                                                      |
+| Kunde kann Listengröße ändern | Ermöglicht Kunden, die Anzahl angezeigter Produkte pro Seite aus vorgegebenen Werten auszuwählen.                                                                                                                                          |
+| Listengröße                   | Anzahl der Produkte pro Seite, wenn Kunden die Listengröße nicht selbst ändern können.                                                                                                                                                     |
+| Optionen für die Listengröße  | Kommagetrennte Auswahlwerte für die Listengröße, wenn Kunden diese selbst ändern können. Der erste Wert ist die Vorgabe.                                                                                                                   |
+| Design Vorlage                | Bestimmt eine Vorlage, mit der der Hersteller und seine Produkte dargestellt werden.                                                                                                                                                       |
+| Rabatte                       | Ordnet dem Hersteller bereits eingerichtete Rabatte zu. Weitere Informationen zur Rabattzuordnung finden Sie unter [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).                              |
+| Auf Shop begrenzt             | Begrenzt die Sichtbarkeit des Herstellers auf die ausgewählten Shops. Weitere Informationen zur Shopbegrenzung finden Sie unter [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md). |
+| Auf Kundengruppen begrenzt    | Begrenzt die Sichtbarkeit des Herstellers auf die ausgewählten Kundengruppen.                                                                                                                                                              |
 
 ## Suchmaschinen (SEO)
 
@@ -23,12 +30,4 @@ Für Hersteller können Sie in dieser Registerkarte einen eigenen Seitentitel, e
 
 ## Produkte
 
-Diese Registerkarte listet alle dem Hersteller zugeordneten Produkte auf. Über **Produkt hinzufügen** ergänzen Sie weitere Produkte.
-
-## Rabatte
-
-Bereits eingerichtete Rabatte können Sie dem Hersteller zuordnen. Weitere Informationen finden Sie unter [Mit Rabatten arbeiten](../../benutzer-handbuch/marketing-promotion/rabatte-verwalten.md).
-
-## Shops
-
-Über **Auf Shops begrenzt** ordnen Sie den Hersteller einem oder mehreren Shops zu. Weitere Informationen finden Sie unter [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).
+Diese Registerkarte zeigt die zugeordneten Produkte. Sie erscheint erst, nachdem Sie den Hersteller gespeichert haben. Über **Produkt hinzufügen** ordnen Sie ein weiteres Produkt zu. Für jede Zuordnung können Sie festlegen, ob das Produkt auf der Herstellerseite hervorgehoben wird, und seine Reihenfolge bestimmen. Bestehende Zuordnungen können Sie bearbeiten oder entfernen.
