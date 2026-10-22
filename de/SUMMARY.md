@@ -56,7 +56,6 @@
   * [Produkt Rezensionen verwalten](verwalten/katalog/produkt-rezensionen-verwalten.md)
   * [Hersteller verwalten](verwalten/katalog/hersteller-verwalten.md)
   * [Tags verwalten](verwalten/katalog/tags-verwalten.md)
-  * [Lagerbestände ansehen](verwalten/katalog/lagerbestande-ansehen.md)
   * [Checkout Attribute verwalten](verwalten/katalog/checkout-attribute-verwalten.md)
   * [Spezifikationsattribute verwalten](verwalten/katalog/spezifikationsattribute-verwalten.md)
 * [Verkauf](verwalten/verkauf/README.md)
