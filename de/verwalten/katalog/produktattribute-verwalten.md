@@ -12,7 +12,7 @@ In der Übersicht filtern Sie nach Name, Alias und Filtern zulassen. Über den N
 2. Geben Sie unter Allgemein einen Namen ein und ergänzen Sie bei Bedarf Alias und Beschreibung. Bei mehreren Shopsprachen können Sie eigene Übersetzungen hinterlegen.
 3. Prüfen Sie Reihenfolge und die gewünschten Anzeigeeinstellungen. Speichern Sie das Attribut mit Speichern und fortsetzen, wenn Sie anschließend Options-Sets anlegen möchten.
 
-![Zentrale Produktattributverwaltung, Registerkarte Allgemein mit Stammdaten und Darstellungseinstellungen](../../.gitbook/assets/screenshot.png)
+![Zentrale Produktattributverwaltung, Registerkarte Allgemein mit Stammdaten und Darstellungseinstellungen](../../.gitbook/assets/produkt_attribute_general.png)
 
 ## Registerkarte Allgemein
 
@@ -47,7 +47,7 @@ Ein Options-Set bündelt wiederkehrende Attributwerte als Vorlage. Für Größe 
 2. Legen Sie über Neu ein Set mit einem aussagekräftigen Namen an und speichern Sie die Tabellenänderung.
 3. Klappen Sie das Set auf und legen Sie seine Optionen an. Über den Namen einer Option öffnen Sie deren Bearbeitung.
 
-![Registerkarte Options-Sets mit einem aufgeklappten Set und dessen Attributoptionen](../../.gitbook/assets/screenshot.png)
+![Registerkarte Options-Sets mit einem aufgeklappten Set und dessen Attributoptionen](../../.gitbook/assets/produktattribute_optionssets.png)
 
 Optionen enthalten dieselben Grunddaten wie Attributwerte am Produkt: Name und Alias einschließlich Übersetzungen, Bild und Farben, Mehr-/Minderpreis, Mehr-/Mindergewicht, Vorauswahl und Reihenfolge. Bei einer Produktverknüpfung wählen Sie stattdessen das verknüpfte Produkt und dessen Menge. Die Wirkung dieser Werte ist auf der Seite [Wie funktionieren Produktvarianten?](produkte-verwalten/wie-funktionieren-produktvarianten.md) beschrieben.
 
