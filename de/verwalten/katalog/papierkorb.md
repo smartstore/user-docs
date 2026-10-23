@@ -2,7 +2,7 @@
 
 Unter Katalog > Papierkorb finden Sie gelöschte Produkte. Sie können diese prüfen, wiederherstellen oder endgültig löschen. Der Produkt-Papierkorb ist unabhängig vom Papierkorb des Medien-Managers.
 
-![Produkt-Papierkorb mit Filter, Produktliste und Aktionen zum Wiederherstellen und endgültigen Löschen](../../.gitbook/assets/screenshot.png)
+![Produkt-Papierkorb mit Filter, Produktliste und Aktionen zum Wiederherstellen und endgültigen Löschen](../../.gitbook/assets/papierkorb_produktuebersicht.png)
 
 ## Gelöschte Produkte finden
 
