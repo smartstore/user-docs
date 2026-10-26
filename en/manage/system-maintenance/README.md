@@ -8,10 +8,6 @@ Tools to keep your Smartstore application healthy and optimized.
 
 {% columns %}
 {% column width="50%" %}
-{% content-ref url="restarting-application.md" %}
-[restarting-application.md](restarting-application.md)
-{% endcontent-ref %}
-
 {% content-ref url="managing-scheduled-tasks.md" %}
 [managing-scheduled-tasks.md](managing-scheduled-tasks.md)
 {% endcontent-ref %}

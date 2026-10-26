@@ -11,7 +11,7 @@ The **Smartstore** backend provides an interface that helps you to easily admini
 1. Account Management Menu
 2. Administration Link
 
-The **Smartstore** backend interface will be displayed.&#x20;
+The **Smartstore** backend interface will be displayed.
 
 ![Smartstore-administration.png](../.gitbook/assets/Smartstore-administration-03-26-2025_03_44_PM.png)
 
@@ -39,21 +39,21 @@ The **Main Navigation Menu** provides access to the following important modules.
 * [**System**](../manage/system-maintenance/) - Allows you to view and manage system logs, message queues, SEO and warnings and to schedule tasks.
 * [**Plugins**](../manage/plugins/) - Allows you to install and update plugins. You can also manage various SMS providers and developer tools.
 
-## Top Right Links&#x20;
+## Top Right Links
 
 The **Top Right Links** allows you to configure account settings, view store, change language, access help and log out of the **Smartstore** application.
 
 ![Smartstore-backend-top-right-links.png](../.gitbook/assets/Smartstore-administration-03-26-2025_03_59_PM.png)
 
-| **Option**                                                                                                                              | **Description**                                                                                   |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| ![Smartstore-backend-settings-icon.png](../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM.png)                           | Provides drop down list with options to view your store, clear cache and restart the application. |
-| ![Smartstore-backend-language-icon.png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (1).png>)                     | Allows you to change the language of the application.                                             |
-| ![Smartstore-backend-help-icon.png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (2).png>)                         | Allows you to access online help.                                                                 |
-| ![Smartstore-administration-03-26-2025\_04\_02\_PM (3).png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (3).png>) | Allows you to configure account settings and log out of the application.                          |
+| **Option**                                                                                                                              | **Description**                                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Smartstore-backend-settings-icon.png](../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM.png)                           | Opens the actions menu, where you can view your store and clear the cache. Select **Restart application** to restart the store application. The store is briefly unavailable during the restart. |
+| ![Smartstore-backend-language-icon.png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (1).png>)                     | Allows you to change the language of the application.                                                                                                                                            |
+| ![Smartstore-backend-help-icon.png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (2).png>)                         | Allows you to access online help.                                                                                                                                                                |
+| ![Smartstore-administration-03-26-2025\_04\_02\_PM (3).png](<../.gitbook/assets/Smartstore-administration-03-26-2025_04_02_PM (3).png>) | Allows you to configure account settings and log out of the application.                                                                                                                         |
 
 ## Workspace
 
-The **Workspace** is the area in which you can explore and work with all the modules within the **Smartstore** application. &#x20;
+The **Workspace** is the area in which you can explore and work with all the modules within the **Smartstore** application.
 
 ![Smartstore-administration-03-26-2025\_04\_40\_PM.png](../.gitbook/assets/Smartstore-administration-03-26-2025_04_40_PM.png)

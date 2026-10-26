@@ -147,7 +147,6 @@
   * [Analyzing the Message Queue](manage/system-maintenance/analyzing-the-message-queue.md)
   * [Managing SEO Names](manage/system-maintenance/managing-seo-names.md)
   * [Clearing Cache](manage/system-maintenance/clearing-cache.md)
-  * [Restarting Application](manage/system-maintenance/restarting-application.md)
   * [Managing Scheduled Tasks](manage/system-maintenance/managing-scheduled-tasks.md)
 * [Plugins](manage/plugins/README.md)
   * [Installing Plugins](manage/plugins/installing-plugins.md)
