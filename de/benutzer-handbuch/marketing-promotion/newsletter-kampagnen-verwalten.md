@@ -20,7 +20,7 @@ Platzhalter für Nachrichten, intern auch MessageTokens genannt, werden zur Lauf
 
 Die verfügbaren Platzhalter werden angezeigt, sobald Sie auf **+ Platzhalter auswählen** klicken.
 
-![](../../.gitbook/assets/platzhalter.PNG)
+![](../../.gitbook/assets/screenshot.png)
 
 Die folgende Tabelle zeigt Beispiele für Platzhalter, die Sie in Newsletter-Kampagnen verwenden können.
 

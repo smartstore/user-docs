@@ -148,7 +148,6 @@
   * [E-Mail-Korrespondenz analysieren](benutzer-handbuch/system-wartung/e-mail-korrespondenz-analysieren.md)
   * [SEO Namen verwalten](benutzer-handbuch/system-wartung/seo-namen-verwalten.md)
   * [Cache bereinigen](benutzer-handbuch/system-wartung/cache-bereinigen.md)
-  * [Die Anwendung neu starten](benutzer-handbuch/system-wartung/die-anwendung-neu-starten.md)
   * [Geplante Aufgaben verwalten](benutzer-handbuch/system-wartung/geplante-aufgaben-verwalten.md)
 * [Plugins](benutzer-handbuch/plugins/README.md)
   * [Plugins installieren](benutzer-handbuch/plugins/plugins-installieren.md)

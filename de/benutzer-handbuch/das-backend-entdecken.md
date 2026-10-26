@@ -46,12 +46,12 @@ Die folgenden Kurzbeschreibungen geben einen Überblick. Über die Links gelange
 
 Über die **Links rechts oben** können Sie den Shop öffnen, die Anwendungssprache wechseln, die Online-Hilfe aufrufen, Ihre Kontoeinstellungen verwalten und sich aus **Smartstore** abmelden.
 
-| **Option**                                          | **Beschreibung**                                                                                                                |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| ![](../.gitbook/assets/admin-tool-1.png)            | Zeigt Ihnen eine Drop-down-Liste mit Möglichkeiten, Ihren Shop anzusehen, den Cache zu leeren und die Anwendung neu zu starten. |
-| ![](../.gitbook/assets/das_backend_entdecken_5.png) | Erlaubt die Sprachauswahl für die Anwendung.                                                                                    |
-| ![](../.gitbook/assets/admin-tool-3.png)            | Hier erreichen Sie die Online-Hilfe.                                                                                            |
-| ![](../.gitbook/assets/admin-tool-4.png)            | Hier können Sie Ihre Kontoeinstellungen konfigurieren und sich abmelden.                                                        |
+| **Option**                                          | **Beschreibung**                                                                                                                                                                                  |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](../.gitbook/assets/admin-tool-1.png)            | Öffnet das Aktionsmenü, über das Sie Ihren Shop ansehen und den Cache leeren können. Mit **Neustart** starten Sie die Shop-Anwendung neu. Währenddessen ist der Shop kurzzeitig nicht erreichbar. |
+| ![](../.gitbook/assets/das_backend_entdecken_5.png) | Erlaubt die Sprachauswahl für die Anwendung.                                                                                                                                                      |
+| ![](../.gitbook/assets/admin-tool-3.png)            | Hier erreichen Sie die Online-Hilfe.                                                                                                                                                              |
+| ![](../.gitbook/assets/admin-tool-4.png)            | Hier können Sie Ihre Kontoeinstellungen konfigurieren und sich abmelden.                                                                                                                          |
 
 ![](../.gitbook/assets/smartstore-admin-accounteinstellungen.png)
 
