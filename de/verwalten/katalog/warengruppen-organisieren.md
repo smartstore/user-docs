@@ -20,7 +20,7 @@ Beim Anlegen oder Bearbeiten öffnet sich die Detailansicht der Warengruppe. Die
 
 ![](<../../.gitbook/assets/2022-10-06 10_01_20-Warengruppen-Details - Basketball _ Smartstore Administration.png>)
 
-### Registerkarte Allgemein
+### Allgemein <a href="#registerkarte-allgemein" id="registerkarte-allgemein"></a>
 
 |                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,24 +47,22 @@ Beim Anlegen oder Bearbeiten öffnet sich die Detailansicht der Warengruppe. Die
 | Auf Shops begrenzt                        | Beschränkt die Warengruppe auf ausgewählte Shops. Unterwarengruppen und Produkte erhalten diese Zuordnung erst, wenn Sie die Einstellungen speichern und die Schaltfläche zur Übernahme auf Unterwarengruppen und Produkte verwenden. Dabei werden vorhandene Shop-Zuordnungen der betroffenen Einträge überschrieben. Weitere Informationen: [Mit mehreren Shops arbeiten](../../benutzer-handbuch/allgemeine-konzepte/mit-mehreren-shops-arbeiten.md).            |
 | Auf Kundengruppen begrenzt                | Beschränkt die Warengruppe auf ausgewählte Kundengruppen. Unterwarengruppen und Produkte erhalten diese Zugriffsrechte erst, wenn Sie die Einstellungen speichern und die Schaltfläche zur Übernahme auf Unterwarengruppen und Produkte verwenden. Dabei werden vorhandene Zugriffsrechte der betroffenen Einträge überschrieben. Weitere Informationen: [Zugriffsbeschränkungen (ACL)](../../benutzer-handbuch/allgemeine-konzepte/zugriffsbeschrankungen-acl.md). |
 
-### Registerkarte Suchmaschinen (SEO)
+### Suchmaschinen (SEO) <a href="#registerkarte-suchmaschinen-seo" id="registerkarte-suchmaschinen-seo"></a>
 
 In dieser Registerkarte können Sie spezifische SEO-Werte für die Warengruppe festlegen, z. B. **Meta Title**, **Meta Keywords** oder einen SEO-freundlichen **URL-Alias**. Für weitere Informationen über die Felder in der Registerkarte **Suchmaschinen** lesen Sie bitte [SEO](../../benutzer-handbuch/allgemeine-konzepte/seo.md).
 
-### Registerkarte Produkte
+### Produkte <a href="#registerkarte-produkte" id="registerkarte-produkte"></a>
 
 Hier ordnen Sie der Warengruppe bereits angelegte Produkte zu. Über „Produkt hinzufügen“ können Sie mehrere Produkte auswählen. In der Liste bearbeiten Sie die Reihenfolge und markieren Produkte als „Hervorgehobenes Produkt“ der Warengruppe. Sie können Zuordnungen auch wieder entfernen. Mit Produktregeln lassen sich passende Produkte automatisch zuordnen; über „Regeln erneut anwenden“ stoßen Sie die Auswertung bei Bedarf erneut an.
 
-### Registerkarte Mega Menu
+### Plugin-Funktionen <a href="#weitere-plugin-funktionen" id="weitere-plugin-funktionen"></a>
+
+Installierte Plugins können weitere Registerkarten oder Felder ergänzen.
 
 Mit dem Enterprise-Plugin „Mega Menu“ konfigurieren Sie die Darstellung dieser Warengruppe im Mega Menu. Weitere Informationen finden Sie unter [das Mega Menu Plugin](../../benutzer-handbuch/plugins/mega-menu.md).
 
-### Registerkarte ContentSlider
-
 Mit dem Enterprise-Plugin „ContentSlider“ können Sie für diese Warengruppe einen Slider einrichten und seine Slides verwalten. Weitere Informationen finden Sie unter [das ContentSlider Plugin](../../benutzer-handbuch/plugins/content-slider.md).
 
-### Weitere Plugin-Funktionen
-
-Installierte Plugins können weitere Registerkarten oder Felder ergänzen. Das Enterprise-Plugin „Widerruf“ ergänzt unter „Allgemein“ die Felder „Widerrufsfrist“ und „Widerruf vor Versand erlauben“. Weitere Informationen finden Sie unter [Widerruf](../../benutzer-handbuch/plugins/withdrawal.md).
+Das Enterprise-Plugin „Widerruf“ ergänzt unter „Allgemein“ die Felder „Widerrufsfrist“ und „Widerruf vor Versand erlauben“. Weitere Informationen finden Sie unter [Widerruf](../../benutzer-handbuch/plugins/withdrawal.md).
 
 Das Enterprise-Plugin „Datenexporte“ ergänzt die Warengruppenliste um das Menü „Exportieren“. Dort können Sie ausgewählte oder alle Warengruppen im CSV- oder XML-Format exportieren. Weitere Informationen finden Sie unter [Datenexporte](../../benutzer-handbuch/plugins/commonexportproviders.md).
