@@ -10,7 +10,7 @@ Wählen Sie bei mehreren Shops zuerst den gewünschten Geltungsbereich. Für ein
 
 ## Allgemein <a href="#allgemein" id="allgemein"></a>
 
-<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen"><figcaption><p>Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katalogeinstellungen-allgemein.png" alt="Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen"><figcaption><p>Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen</p></figcaption></figure>
 
 ### Homepage <a href="#homepage" id="homepage"></a>
 
@@ -77,7 +77,7 @@ Mit **Produktvergleich aktivieren** können Kunden Produkte einer Vergleichslist
 
 ## Produktlisten <a href="#produktlisten" id="produktlisten"></a>
 
-<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln"><figcaption><p>Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katalogeinstellungen-produktlisten.png" alt="Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln"><figcaption><p>Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln</p></figcaption></figure>
 
 ### Aufbau und Bedienung <a href="#produktlisten-greater-than-allgemein" id="produktlisten-greater-than-allgemein"></a>
 
@@ -168,7 +168,7 @@ Diese Vorgaben steuern die Liste der verknüpften Einzelprodukte auf einer Grupp
 
 Hier legen Sie zentrale Anzeige- und Berechnungsvorgaben fest. Preise, Aktionszeiträume und Staffelpreise pflegen Sie am Produkt unter [Produktpreis festlegen](../../../verwalten/katalog/produkte-verwalten/produktpreis-festlegen.md). Die Ermittlung des Endpreises erläutert [Preisregeln verstehen](../../../verwalten/katalog/produkte-verwalten/preisregeln-verstehen.md).
 
-<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung"><figcaption><p>Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/katalogeinstellungen-preise.png" alt="Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung"><figcaption><p>Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung</p></figcaption></figure>
 
 ### Darstellung <a href="#preise-greater-than-darstellung" id="preise-greater-than-darstellung"></a>
 
