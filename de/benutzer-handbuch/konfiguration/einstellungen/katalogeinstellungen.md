@@ -1,158 +1,275 @@
 # Katalogeinstellungen
 
-Im Bereich **Katalog-Einstellungen** können globale Einstellungen für die Darstellung Ihres Katalogs vorgenommen werden. Es gibt nicht für jede Einstellung eine Erklärung, da einige selbsterklärend sind. Wenn eine der Einstellungen nicht dokumentiert ist, fahren Sie mit Ihrem Mauszeiger über die Fläche zwischen Titel und Eingabefeld. Dann erscheint ein Fragezeichen, das einen Hinweis über die Benutzung der Einstellung gibt.
+Unter **Konfiguration > Einstellungen > Katalog** legen Sie fest, wie Produkte, Warengruppen, Marken und Preise im Shop dargestellt werden. Dazu gehören Startseite, Produktlisten, Produktdetailseiten und ergänzende Funktionen wie Produktvergleich und Bewertungen.
 
-![](<../../../.gitbook/assets/2022-11-22 13_55_32-Katalog-Einstellungen _ Smartstore Administration.png>)
+Die folgenden Abschnitte entsprechen den Reitern der Katalogeinstellungen. Sie beschreiben zentrale Vorgaben; Produktdaten und Zuordnungen pflegen Sie am jeweiligen Produkt.
 
-## Allgemein
+{% hint style="info" %}
+Wählen Sie bei mehreren Shops zuerst den gewünschten Geltungsbereich. Für einen einzelnen Shop können Sie Einstellungen gezielt überschreiben; ohne Überschreibung gilt die gemeinsame Vorgabe. Schließen Sie Änderungen mit **Speichern** ab.
+{% endhint %}
 
-|                                                          |                                                                                                                                                    |
-| -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Kleine Produktbox auf der Homepage verwenden             | Bestimmt die Größe der Produktboxen auf der Startseite Ihres Shops.                                                                                |
-| Standardbild bei Produkten ausblenden                    | Legt fest, ob das Standardbild bei Produkten ausgeblendet werden soll. Das Standardbild wird angezeigt, wenn dem Produkt kein Bild zugeordnet ist. |
-| Ignoriere empfohlene Produkte                            | Deaktiviert die Anzeige empfohlener Produkte im Shop. Dies kann die Performance erhöhen.                                                           |
-| Produktvergleich aktivieren                              | Aktiviert den Produktvergleich.                                                                                                                    |
-| Kurzbeschreibung beim Produktvergleich einbeziehen       | Legt fest, ob beim Produktvergleich die Kurzbeschreibung angezeigt werden soll.                                                                    |
-| Komplette Beschreibung beim Produktvergleich einbeziehen | Legt fest, ob beim Produktvergleich die komplette Produktbeschreibung einbezogen werden soll.                                                      |
-| Zeige Bestseller auf der Homepage                        | Bestseller auf der Homepage anzeigen.                                                                                                              |
-| Anzahl der angezeigten Bestseller                        | Legt die Anzahl der angezeigten Bestseller auf der Startseite fest, falls die Anzeige der Bestseller aktiviert wurde.                              |
-| Langtexte kürzen                                         | Option, bei der Langtexte gekürzt und erst auf Klick in voller Länge angezeigt werden.                                                             |
+## Allgemein <a href="#allgemein" id="allgemein"></a>
 
-## Produktlisten -> Allgemein
+<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen"><figcaption><p>Katalogeinstellungen: Reiter Allgemein mit Homepage und übergreifenden Produkteinstellungen</p></figcaption></figure>
 
-|                                                   |                                                                                                                                                                        |
-| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Produkte von Unterkategorien einschließen         | Legt fest, ob Unterwarengruppen in Warengruppen-Detailseiten angezeigt werden sollen.                                                                                  |
-| Top-Produkte in Listen anzeigen                   | Legt fest, ob Top-Produkte sowohl in den Produkt- als auch in den Filterlisten angezeigt werden sollen. Ansonsten erscheinen sie nur oberhalb in der Top-Produktliste. |
-| Top-Produkte auch in Unterseiten anzeigen         | Unterseite: Listenindex größer 1 oder mind. ein aktiver Filter.                                                                                                        |
-| Unterwarengruppen anzeigen                        | Legt fest, ob und wo Unterwarengruppen auf einer Warengruppenseite angezeigt werden sollen.                                                                            |
-| Unterwarengruppen auch in Unterseiten anzeigen    | Unterseite: Listenindex größer 1 oder mind. ein aktiver Filter.                                                                                                        |
-| Seitenbeschreibungen auch in Unterseiten anzeigen | Unterseite: Listenindex größer 1 oder mind. ein aktiver Filter.                                                                                                        |
-| Produktsortierung zulassen                        | Legt fest, ob Produktsortierung auf Produkt- und Herstellerseiten möglich ist.                                                                                         |
-| Standard Listendarstellung                        | Legt fest, wie Produktlisten standardmäßig dargestellt werden sollen. Der Kunde kann die Darstellung im Shop ändern.                                                   |
-| Anzahl Produkte pro Zeile in Rasteransicht        | Legt das responsive Verhalten der Produktliste in der Rasteransicht fest. Je breiter der Bildschirm, desto mehr Produkte werden in einer Zeile angeordnet.             |
-| Standardsortierreihenfolge für Produkte           | Legt die Standardsortierreihenfolge für Produkte fest.                                                                                                                 |
-| Änderung der Produktansicht zulassen              | Legt fest, ob der Ansichtsmodus verändert werden kann.                                                                                                                 |
-| Anzahl pro Seite angezeigter Produkte             | Legt die Anzahl der pro Seite angezeigten Produkte in einer Produktliste fest.                                                                                         |
-| Auswahlmöglichkeiten für Seitengröße              | Kommagetrennte Liste mit Optionen für Seitengröße, die ein Kunde in Produktlisten wählen kann.                                                                         |
-| Standardbild bei Warengruppen ausblenden          | Legt fest, ob das Standardbild bei Warengruppen ausgeblendet werden soll. Das Standardbild wird angezeigt, wenn der Warengruppe kein Bild zugeordnet ist.              |
+### Homepage <a href="#homepage" id="homepage"></a>
 
-## Produktlisten -> Produkte
+| **Einstellung**                              | **Wirkung**                                                         |
+| -------------------------------------------- | ------------------------------------------------------------------- |
+| Kleine Produktbox auf der Homepage verwenden | Verwendet auf der Startseite die kompakte Produktbox.               |
+| Zeige Bestseller auf der Homepage            | Blendet Bestseller auf der Startseite ein.                          |
+| Anzahl der angezeigten Bestseller            | Begrenzt deren Anzahl. Erscheint bei aktivierter Bestselleranzeige. |
 
-|                                                   |                                                                                                                                                                                     |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rechtliche Hinweise in Produktlisten              | Legt fest, welche Hinweise zu Steuer und Versandkosten in der Listenansicht und im Produktvergleich angezeigt werden. Ohne Auswahl wird kein Hinweis angezeigt.                     |
-| Zeige Kurzbeschreibung in Produktlisten           | Legt fest, ob die Produkt-Kurzbeschreibung auch in Produktlisten angezeigt werden sollen                                                                                            |
-| Darstellung von Lieferzeiten                      | Legt die Darstellungsart von Lieferzeiten in Produktlisten fest. Aus Platzgründen wird in der Rasteransicht kein Datum zur Lieferzeit angezeigt.                                    |
-| Zeige Hersteller/Marke in Produktlisten           | Legt fest, ob der Markenname auch in Rasterstil Produktlisten angezeigt werden sollen                                                                                               |
-| Zeige Marken-Logo statt -Name                     | Legt fest, ob das Marken-Logo in Produktlisten dargestellt werden soll (nicht anwendbar in Rasteransicht). Wenn kein Logo hochgeladen wurde, wird grundsätzlich der Name angezeigt. |
-| Zeige Variantnamen in Produktlisten               | Legt fest, ob Variantnamen in Produktlisten angezeigt werden sollen                                                                                                                 |
-| Zeige Farbvarianten in Produktlisten              | Legt fest, ob die Farben des ersten Farbattributes auch in Produktlisten angezeigt werden sollen                                                                                    |
-| Verberge Kaufen-Button in Produktlisten           | Legt fest, ob der Kaufen-Button in Produktlisten ausgeblendet werden soll.                                                                                                          |
-| Produkt als "neu" kennzeichnen für max. \[x] Tage | Legt die Anzahl Tage fest, die das Produkt in der Liste mit einer "NEU"-Kennzeichnung versehen werden soll. Lassen Sie das Feld leer, um die Funktion zu deaktivieren.              |
+#### Produkt-Tags auf der Startseite <a href="#produktlisten-greater-than-tags" id="produktlisten-greater-than-tags"></a>
 
-## Produktlisten -> Navigation
+| **Einstellung**                       | **Wirkung**                                                   |
+| ------------------------------------- | ------------------------------------------------------------- |
+| Zeige Produkt-Tags auf der Startseite | Zeigt beliebte Produkt-Tags auf der Startseite.               |
+| Anzahl der Produkt-Tags               | Begrenzt deren Anzahl. Erscheint bei aktivierter Tag-Anzeige. |
 
-|                                               |                                                                                                          |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Produktanzahl neben den Warengruppen anzeigen | Zeigt die Anzahl der in der Warengruppe enthaltenen Produkte neben der Warengruppe an.                   |
-| Unterwarengruppen einbeziehen                 | Bei der Berechnung der Anzahl der Produkte in einer Warengruppe werden Unterwarengruppen mit einbezogen. |
-| Kategorien-Breadcrumb aktivieren              | Aktiviert Breadcrumbs für Kategorien.                                                                    |
+### Übergreifende Produkteinstellungen <a href="#ubergreifende-produkteinstellungen" id="ubergreifende-produkteinstellungen"></a>
 
-## Produktlisten -> Tags
+Diese Optionen wirken an mehreren Stellen im Shop. Unter **Produktinformationen anzeigen…** wählen Sie die gewünschten Angaben:
 
-|                         |                                                       |
-| ----------------------- | ----------------------------------------------------- |
-| Anzahl der Produkt-Tags | Anzahl der angezeigten Produkt-Tags in der Tag-Cloud. |
+* **Artikelnummer:** erscheint auf Produktdetailseiten, in der Listenansicht, im Produktvergleich und Warenkorb sowie auf der Merkliste und im Bestellvorgang. Die Vorgabe gilt auch für Bestell- und Versanddetails sowie die Druckansicht von Bestellungen und Lieferscheinen.
+* **Gewicht:** erscheint auf Produktdetailseiten, in der Listenansicht und im Produktvergleich, sofern ein Gewicht hinterlegt ist. Für den Warenkorb gibt es eine eigene Einstellung unter [Warenkorb-Einstellungen](warenkorb-einstellungen.md).
+* **Abmessungen:** zeigt hinterlegte Werte für Breite, Höhe und Länge auf Produktdetailseiten, in der Listenansicht und im Produktvergleich.
 
-## Produktdetails
+| **Einstellung**                        | **Wirkung**                                                                                                |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Standard-Verpackungseinheit verwenden  | Verwendet die Standard-Verpackungseinheit, wenn dem Produkt keine eigene Einheit zugewiesen ist.           |
+| Standard-Lieferzeit verwenden          | Verwendet die Standard-Lieferzeit, wenn dem Produkt keine eigene Lieferzeit zugewiesen ist.                |
+| Angezeigte Lieferzeit bei leerem Lager | Wählt die Lieferzeit bei einem Lagerbestand kleiner oder gleich null.                                      |
+| Standardbild bei Produkten ausblenden  | Unterdrückt das Platzhalterbild für Produkte ohne Bild. Die Vorgabe wirkt unter anderem auch im Warenkorb. |
 
-|                                                                      |                                                                                                                                                                                     |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rechtliche Hinweise auf der Produktseite                             | Legt fest, welche Hinweise zu Steuer und Versandkosten auf der Produktseite angezeigt werden. Ohne Auswahl wird kein Hinweis angezeigt. Ein Transportzuschlag wird immer angezeigt. |
-| Artikelzustand anzeigen                                              | Legt fest, ob der Artikelzustand im Shop angezeigt werden soll.                                                                                                                     |
-| Zeige "kürzlich angesehene Produkte"                                 | Kunden können eine Liste kürzlich angesehener Produkte einsehen.                                                                                                                    |
-| Anzahl Produkte in "kürzlich angesehene Produkte"                    | Legt die Anzahl der sichtbaren Produkte in der Liste der kürzlich angesehenen Produkte fest.                                                                                        |
-| "Kürzlich angesehene Produkte" aktivieren                            | Ermöglicht Kunden, kürzlich hinzugefügte Produkte anzusehen.                                                                                                                        |
-| Angezeigte Zahl der "kürzlich hinzugefügten Produkte"                | Legt die maximale Anzahl der angezeigten Produkte in "kürzlich hinzugefügte Produkte" fest.                                                                                         |
-| Share-Button anzeigen                                                | Legt fest, ob ein Share-Button auf der Produkt-Detailseite angezeigt werden soll.                                                                                                   |
-| "Auch gekaufte Produkte" aktivieren                                  | Zeigt dem Kunden, was andere Kunden, die auch dieses Produkt gekauft haben, sonst noch gekauft haben.                                                                               |
-| Angezeigte Anzahl der "auch gekauften Produkte"                      | Zeigt die Anzahl der von anderen Kunden "auch gekauften Produkte".                                                                                                                  |
-| Anzahl, ab der Bilder nur noch bei Variantenwechsel angezeigt werden | Obergrenze, ab der Variantenbilder nur bei Auswahl des entsprechenden Werts angezeigt werden. Unterhalb dieser Obergrenze werden alle Bilder angezeigt.                             |
-| Zeige Lieferzeiten                                                   | Bestimmt, ob Lieferzeitinformationen auf der Produktdetailseite angezeigt werden.                                                                                                   |
-| Lieferzet, die mit leerem Lagerbestand angezeigt wird                | Lieferzeit, die angezeigt wird, wenn der Warenbestand des Produktes kleiner gleich 0 ist.                                                                                           |
-| Dynamische Preisänderungen aktivieren                                | Dynamische Preisanpassung auf den Produktdetailseiten aktivieren.                                                                                                                   |
-| Grundpreis bei Bundle-Bestandteilen                                  | Legt fest, ob der Grundpreis bei Bundle-Bestandteilen angezeigt werden soll.                                                                                                        |
-| Mehr- und Minderpreise bei Variant-Kombinationen anzeigen            | Bestimmt ob Mehr- und Minderpreise bei Variant-Kombinationen angezeigt werden.                                                                                                      |
-| Menge verknüpfter Produkte anzeigen                                  | Bestimmt, ob bei Werten von Variantenattributen die Menge von verknüpften Produkten angezeigt werden soll.                                                                          |
-| Bild zu verknüpften Produkten anzeigen                               | Bestimmt, ob bei Werten von Variantenattributen das Bild von verknüpften Produkten angezeigt werden soll.                                                                           |
+Die Stammdaten richten Sie unter [Gewichte, Verpackungseinheiten & Abmessungen verwalten](../gewichte-verpackungseinheiten-abmessungen-verwalten.md) und [Lieferzeiten einrichten](../lieferzeiten-einrichten.md) ein. Ob und wie Lieferzeiten sichtbar sind, bestimmen die Anzeigeoptionen in **Produktlisten** und **Produktdetail**. Bei Produkten ohne Versand werden keine Lieferzeiten angezeigt.
 
-## Kunden
+### Produktvergleich <a href="#produktvergleich" id="produktvergleich"></a>
 
-|                                                                             |                                                                                                                     |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| Zeige Produktbewertungen in Produktlisten                                   | Legt fest, ob Produktbewertungen in Produktlisten angezeigt werden.                                                 |
-| Zeige Produktbewertungen in der Produktdetailansicht                        | Legt fest, ob Produktbewertungen in der Produktdetailansicht angezeigt werden.                                      |
-| Zeige Badge für verifizierte Käufe                                          | Zeigt bei Produktrezensionen einen Badge an, der anzeigt, ob der Verfasser ein verifizierter Käufer ist.            |
-| Produktbewertungen müssen genehmigt werden                                  | Produktbewertungen müssen vor der Veröffentlichung genehmigt werden.                                                |
-| Gäste dürfen Bewertungen abgeben                                            | Legt fest, ob Gäste Produktbewertungen verfassen dürfen.                                                            |
-| Admin über neue Bewertungen informieren                                     | Administrator über neue Produktbewertungen informieren.                                                             |
-| 'Produktanfragen' ermöglichen                                               | Legt fest, ob Kunden eine Anfrage zu einem Produkt stellen können.                                                  |
-| Tell-a-Friend aktivieren                                                    | User können Freunden eine E-Mail senden.                                                                            |
-| Gästen erlauben, E-Mails an Freunde zu versenden                            | Legt fest, ob Gäste E-Mails an Freunde versenden dürfen.                                                            |
-| Zulassen einer anderen E-Mail-Adresse für die Weiterleitung an einen Freund | Legt fest, ob Kunden eine andere E-Mail-Adresse angeben dürfen als die, mit der sie sich im Shop registriert haben. |
+Mit **Produktvergleich aktivieren** können Kunden Produkte einer Vergleichsliste hinzufügen. Bei aktivierter Funktion wählen Sie unter **Beim Produktvergleich einbeziehen…**, ob auch **Kurzbeschreibung** und **Komplette Beschreibung** erscheinen. Artikelnummer, Gewicht und Abmessungen richten sich nach den übergreifenden Produkteinstellungen.
 
-##
+### Navigation <a href="#produktlisten-greater-than-navigation" id="produktlisten-greater-than-navigation"></a>
 
-Hersteller
+| **Einstellung**                               | **Wirkung**                                                                                                                                      |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Produktanzahl neben den Warengruppen anzeigen | Zeigt neben einer Warengruppe die Anzahl ihrer Produkte.                                                                                         |
+| Unterwarengruppen einbeziehen                 | Zählt dabei Produkte aus Unterwarengruppen mit. Erscheint bei aktivierter Produktanzahl.                                                         |
+| Kategorien-Breadcrumb aktivieren              | Zeigt den Warengruppenpfad als Breadcrumb-Navigation.                                                                                            |
+| Maximale Anzahl von Elementen im Katalogmenü  | Begrenzt die sichtbaren Einträge der obersten Ebene im Katalogmenü. Weitere Einträge werden in einem zusätzlichen Dropdown-Menü zusammengefasst. |
 
-|                                                       |                                                                                                                                                                      |
-| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Zeige Hersteller auf Startseite                       | Legt fest, ob Hersteller auf der Startseite angezeigt werden.                                                                                                        |
-| Anzahl der anzuzeigenden Hersteller auf der Homepage  | Bestimmt die Anzahl der anzuzeigenden Hersteller auf der Homepage.                                                                                                   |
-| Zeige Hersteller in OffCanvas-Menu                    | Legt fest, ob Hersteller im OffCanvas-Menu angezeigt werden.                                                                                                         |
-| Anzahl der anzuzeigenden Hersteller im OffCanvas-Menu | Bestimmt die Anzahl der anzuzeigenden Hersteller im OffCanvas-Menu.                                                                                                  |
-| Herstellerbilder in Listen anzeigen                   | Bestimmt ob Herstellerbilder in Listen angezeigt werden sollen. Diese Einstellung betrifft alle partiellen Herstellerlisten im Shop (z.B. Homepage, OffCanvas-Menu). |
-| Standardbild bei Herstellern ausblenden               | Legt fest, ob das Standardbild bei Herstellern ausgeblendet werden soll. Das Standardbild wird angezeigt, wenn dem Hersteller kein Bild zugeordnet ist.              |
-| Hersteller alphabetisch sortieren                     | Legt fest ob Hersteller auf der Herstellerübersichtsseite alphabetisch sortiert dargestellt werden.                                                                  |
+### Weitere Produktübersichten <a href="#weitere-produktubersichten" id="weitere-produktubersichten"></a>
 
-## Preise -> Darstellung
+**Zuletzt angesehen** zeigt die vom jeweiligen Kunden angesehenen Produkte. **Neu eingetroffen** präsentiert die zuletzt hinzugefügten Produkte des Shops. Beide Funktionen haben eine eigene Obergrenze:
 
-|                                                           |                                                                                              |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Preisanzeige                                              | Legt fest, ob bzw. welcher Typ von Preis in Produktlisten angezeigt werden soll.             |
-| Mehr- und Minderpreise bei Variant-Kombinationen anzeigen | Bestimmt, ob Mehr- und Minderpreise bei Variant-Kombinationen angezeigt werden.              |
-| Hinweis "Preis nach Anmeldung" anzeigen                   | Legt fest, ob ein Hinweis erscheinen soll, dass Preise erst nach Anmeldung angezeigt werden. |
-| Zeige Text wenn Preise 0,00 sind                          | Bestimmt, ob statt dem Wert 0,00 eine textuelle Resource (kostenlos) angezeigt werden soll.  |
+| **Einstellung**                            | **Wirkung**                                                                    |
+| ------------------------------------------ | ------------------------------------------------------------------------------ |
+| „Zuletzt angesehen“ aktivieren             | Aktiviert die Übersicht der zuletzt angesehenen Produkte.                      |
+| Maximale Produktanzahl (Zuletzt angesehen) | Begrenzt diese Übersicht. Erscheint bei aktivierter Funktion.                  |
+| „Neu eingetroffen“ aktivieren              | Aktiviert die Seite Neu eingetroffen.                                          |
+| Maximale Produktanzahl (Neu eingetroffen)  | Begrenzt die Auswahl für Neu eingetroffen. Erscheint bei aktivierter Funktion. |
 
-## Preise -> Grundpreise
+### Verschiedenes <a href="#allgemein-verschiedenes" id="allgemein-verschiedenes"></a>
 
-|                                       |                                                                              |
-| ------------------------------------- | ---------------------------------------------------------------------------- |
-| Zeige den Grundpreis in Produktlisten | Bestimmt, ob der Grundpreis gemäß PAngV in Produktlisten angezeigt wird.     |
-| Grundpreis bei Bundle-Bestandteilen   | Legt fest, ob der Grundpreis bei Bundle-Bestandteilen angezeigt werden soll. |
+| **Einstellung**               | **Wirkung**                                                                             |
+| ----------------------------- | --------------------------------------------------------------------------------------- |
+| Langtexte kürzen              | Kürzt lange HTML-Texte in der Anzeige. Kunden können den vollständigen Text aufklappen. |
+| Höhe des gekürzten Langtextes | Legt die Höhe des gekürzten Textes in Pixeln fest. Erscheint bei aktivierter Kürzung.   |
 
-## Preise -> Rabatte
+## Produktlisten <a href="#produktlisten" id="produktlisten"></a>
 
-|                                                                                         |                                                                                                                                                                                                                                                                                   |
-| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Ignoriere Rabatte                                                                       | Rabatte im ganzen Shop deaktivieren.                                                                                                                                                                                                                                              |
-| Prüfe die Rabattgültigkeit in Produktlisten                                             | Die Aktivierung dieser Option kann die Performance beeinträchtigen.                                                                                                                                                                                                               |
-| Prüfe Warenkorbregeln von Rabatten in Produktlisten                                     | Die Aktivierung dieser Option kann die Performance beeinträchtigen.                                                                                                                                                                                                               |
-| Prüfe den Warenkorb auf Gutscheine bei der Rabattvalidierung in Produktlisten           | Legt fest, ob bei der Rabattvalidierung in Produktlisten der Warenkorb auf vorhandene Gutscheine überprüft werden soll. Bei Gutscheinen wird kein Rabatt gewährt, weil der Kunde damit Geld verdienen könnte. Die Aktivierung dieser Option kann die Performance beeinträchtigen. |
-| Prozentuale Rabatte auf Staffelpreise anwenden                                          | Legt fest, ob prozentuale Rabatte auch auf Staffelpreise angewendet werden sollen.                                                                                                                                                                                                |
-| Prozentuale Ermäßigungen von Staffelpreisen auf Auf- & Abpreise von Attributen anwenden | Bestimmt, ob prozentuale Ermäßigungen von Staffelpreisen auf Auf- & Abpreise von Attributen angewendet werden sollen                                                                                                                                                              |
-| Aktionspreis ersetzt regulären Preis                                                    | Wenn aktiv, ersetzt der Aktionspreis einfach den regulären Preis als ob es kein Angebot gäbe. Wenn inaktiv, wird der reguläre Preis durchgestrichen dargestellt.                                                                                                                  |
+<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln"><figcaption><p>Katalogeinstellungen: Reiter Produktlisten mit Anzeige beim Blättern und Filtern sowie Inhalt der Produktkacheln</p></figcaption></figure>
 
-## Preise -> Rabattdarstellung
+### Aufbau und Bedienung <a href="#produktlisten-greater-than-allgemein" id="produktlisten-greater-than-allgemein"></a>
 
-|                                                              |                                                                                                                                                                                                                                                                                     |
-| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Rabattzeichen anzeigen                                       | Legt fest, ob ein Badge mit Rabattzeichen auf dem Produktbild in Produktlisten angezeigt werden soll, wenn Rabatte angewendet wurden.                                                                                                                                               |
-| Preisersparnis gegenüber UVP anzeigen                        | Legt fest, ob die Preisersparnis auch dann angezeigt werden soll, wenn die Ermäßigung lediglich auf den UVP angewandt wurde.                                                                                                                                                        |
-| UVP immer anzeigen                                           | Wenn aktiv, wird die unverbindliche Preisempfehlung (UVP) in den Produktdetails angezeigt, auch wenn es bereits eine Preisermäßigung gibt. In diesem Fall wird der UVP als weiterer durchgestrichener Preis angezeigt.                                                              |
-| Standard Label für den Vergleichspreis                       | Wird wirksam, wenn für ein Produkt kein Vergleichspreis-Label ausgewählt ist.                                                                                                                                                                                                       |
-| Standard Label für den regulären Preis                       | Das Standard Label, das für den durchgestrichenen regulären Preis verwendet werden soll. Wird wirksam, wenn es einen Aktionspreis gibt oder ein Rabatt auf ein Produkt angewendet wurde.                                                                                            |
-| Zeige Preis-Label in Listen                                  | Bestimmt, ob das Label des Vergleichspreises in Produkt-Listen angezeigt wird.                                                                                                                                                                                                      |
-| Angebotsrestzeit, ab der ein Countdown angezeigt werden soll | Legt die verbleibende Zeit (in Stunden) eines Angebotes fest, ab der ein Countdown im Produktdetail angezeigt werden soll, z.B. "endet in 3 Stunden, 23 Min." Um den Countdown auszublenden, lassen Sie das Feld leer. Gilt nur für zeitlich begrenzte Angebote mit einem Enddatum. |
-| Zeige Badge für Angebote                                     | Zeigt ein Promo Badge an, wenn ein Angebotspreis aktiv ist.                                                                                                                                                                                                                         |
+Die Anzeige von Unterwarengruppen und die Auswahl der Produkte sind getrennte Vorgaben: Eine Warengruppenliste kann Produkte aus Unterwarengruppen enthalten, auch wenn die Unterwarengruppen selbst ausgeblendet sind.
+
+| **Einstellung**                           | **Wirkung**                                                                                  |
+| ----------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Unterwarengruppen anzeigen                | Blendet Unterwarengruppen aus oder zeigt sie oberhalb bzw. unterhalb der Produktliste.       |
+| Standardbild bei Warengruppen ausblenden  | Blendet Platzhalterbilder für Warengruppen ohne eigenes Bild aus.                            |
+| Produkte von Unterkategorien einschließen | Nimmt Produkte aus Unterwarengruppen in die Produktliste der übergeordneten Warengruppe auf. |
+| Top-Produkte-Block ausblenden             | Blendet den separaten Top-Produkte-Block auf Warengruppen- und Markenseiten aus.             |
+| Top-Produkte in Listen anzeigen           | Nimmt Top-Produkte zusätzlich in die normale Produktliste auf.                               |
+
+Unter **Beim Blättern und Filtern beibehalten…** legen Sie fest, welche ergänzenden Inhalte ab Seite 2 und bei aktiven Filtern sichtbar bleiben:
+
+* **Top-Produkte:** behält den separaten Top-Produkte-Block bei. Das wirkt nur, wenn der Block nicht ausgeblendet ist. Die Option wird bei aktivierter Einstellung **Top-Produkte in Listen anzeigen** eingeblendet.
+* **Unterwarengruppen:** behält die Übersicht oberhalb der Produktliste bei. Die Option erscheint nur bei dieser Platzierung.
+* **Seitenbeschreibungen:** behält die Beschreibung der Warengruppen- bzw. Markenseite bei.
+
+| **Einstellung**                            | **Wirkung**                                                                                                                                |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Standard Listendarstellung                 | Wählt Raster- oder Listenansicht als anfängliche Darstellung.                                                                              |
+| Änderung der Produktansicht zulassen       | Erlaubt Kunden, zwischen beiden Ansichten umzuschalten.                                                                                    |
+| Anzahl Produkte pro Zeile in Rasteransicht | Legt die maximale Spaltenzahl der Rasteransicht auf großen Bildschirmen fest. Auf kleineren Bildschirmen werden weniger Spalten verwendet. |
+| Standardsortierreihenfolge für Produkte    | Bestimmt die anfängliche Sortierung.                                                                                                       |
+| Produktsortierung zulassen                 | Erlaubt Kunden, die Sortierung zu ändern.                                                                                                  |
+| Produkte pro Seite                         | Bestimmt die Anzahl der Produkte pro Seite.                                                                                                |
+| Auswahlmöglichkeiten für Seitengröße       | Legt die Seitengrößen fest, die Kunden auswählen können. Fügen Sie die gewünschten positiven Zahlen als einzelne Werte hinzu.              |
+
+### Inhalt der Produktkacheln <a href="#produktlisten-greater-than-produkte" id="produktlisten-greater-than-produkte"></a>
+
+Unter **Produktinformationen anzeigen…** steuern Sie die ergänzenden Angaben in der Produktliste:
+
+* **Kurzbeschreibung** und **Hersteller/Marke:** steuern deren Anzeige in der Rasteransicht.
+* **Variantnamen:** zeigt Informationen zu Variantenoptionen an.
+* **Farbvarianten:** zeigt die Farben des ersten Farbattributs.
+* **Markenlogo statt Markenname:** verwendet in der Listenansicht das Markenlogo. Fehlt ein Logo, erscheint der Name. Mit der eingeblendeten Option **Markenlogo verlinken** führt das Logo zur Markenseite.
+
+| **Einstellung**                                        | **Wirkung**                                                                                                                             |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Rechtliche Hinweise in Produktlisten                   | Wählt die Hinweise zu Steuer und Versandkosten in Produktlisten und im Produktvergleich. Eine leere Auswahl blendet diese Hinweise aus. |
+| Darstellung von Lieferzeiten                           | Wählt die Darstellungsart der Lieferzeit. In der Rasteransicht wird aus Platzgründen kein Lieferdatum ausgegeben.                       |
+| Verberge Kaufen-Button in Produktlisten                | Blendet den Kaufen-Button in Produktlisten aus. Die Kaufmöglichkeit auf der Produktdetailseite wird dadurch nicht deaktiviert.          |
+| Produkt als "neu" kennzeichnen für max. \[x] Tage      | Markiert Produkte für die angegebene Anzahl von Tagen als neu. Ein leeres Feld deaktiviert die Kennzeichnung.                           |
+| Als "neu" anhand des Verfügbarkeitsdatums kennzeichnen | Berechnet den Zeitraum anhand von Verfügbar ab statt anhand des Erstellungsdatums. Erscheint bei eingetragener Tagesanzahl.             |
+
+## Produktdetail <a href="#produktdetails" id="produktdetails"></a>
+
+### Produktinformationen und Lieferzeiten <a href="#produktinformationen-und-lieferzeiten" id="produktinformationen-und-lieferzeiten"></a>
+
+Unter **Produktinformationen anzeigen…** wählen Sie **Herstellerartikelnummer**, **GTIN**, **Artikelzustand**, **Tags** und **Hersteller/Marke**. Bei aktivierter Herstelleranzeige können Sie zusätzlich **Markenlogo** einschalten. Die Angaben müssen am Produkt bzw. Hersteller hinterlegt sein. Artikelnummer, Gewicht und Abmessungen werden im Reiter **Allgemein** gesteuert.
+
+| **Einstellung**                          | **Wirkung**                                                                                                                                                             |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Darstellung von Lieferzeiten             | Wählt die Darstellung der Lieferzeit auf der Produktdetailseite.                                                                                                        |
+| Rechtliche Hinweise auf der Produktseite | Wählt Hinweise zu Steuer und Versandkosten. Ein hinterlegter Transportzuschlag wird unabhängig von dieser Auswahl angezeigt.                                            |
+| Versandinformationen für Suchmaschinen   | Ergänzt strukturierte Versandinformationen für Suchmaschinen bei Produkten mit kostenlosem Versand. Individuell berechnete Versandkosten werden dabei nicht übernommen. |
+
+### Bilder und Variantenauswahl <a href="#bilder-und-variantenauswahl" id="bilder-und-variantenauswahl"></a>
+
+| **Einstellung**                               | **Wirkung**                                                                                                                                                                                        |
+| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Alle Produktbilder anzeigen bis               | Bis zu dieser Gesamtzahl zeigt die Galerie alle Produktbilder. Darüber erscheinen nur Bilder ohne Variantenzuordnung und Bilder der gewählten Variante. Eine eigene Grenze am Produkt hat Vorrang. |
+| Produktmenge in der Variantenauswahl anzeigen | Zeigt bei einer Variantenoption mit Produktverknüpfung die hinterlegte Menge vor dem Namen, etwa 2 x Ersatzakku. Gilt bei Mengen größer als 1 und nur, wenn der Kunde Preise sehen darf.           |
+| Produktbild in der Variantenauswahl anzeigen  | Verwendet das erste Bild des verknüpften Produkts als Vorschau einer Variantenoption. Die Darstellung hängt vom Auswahltyp des Attributs ab.                                                       |
+| Standardgröße von Farb- und Bildmustern       | Legt die Standardgröße von Farb- und Bildmustern fest.                                                                                                                                             |
+| Standardform von Farb- und Bildmustern        | Legt die Standardform von Farb- und Bildmustern fest.                                                                                                                                              |
+
+Größe und Form der Muster können an Produkt- und Checkoutattributen sowie am einzelnen Produkt überschrieben werden. Wie Varianten angelegt und konfiguriert werden, beschreibt [Wie funktionieren Produktvarianten?](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md).
+
+### Auch gekauft <a href="#auch-gekauft" id="auch-gekauft"></a>
+
+**„Auch gekauft“ aktivieren** blendet auf der Produktdetailseite Produkte ein, die zusammen mit dem betrachteten Produkt bestellt wurden. Die eingeblendete **Maximale Produktanzahl** begrenzt diese Auswahl.
+
+### Gruppenprodukt <a href="#gruppenprodukt" id="gruppenprodukt"></a>
+
+Diese Vorgaben steuern die Liste der verknüpften Einzelprodukte auf einer Gruppenproduktseite. Sie können am jeweiligen Gruppenprodukt überschrieben werden. Die Zuordnung erläutert [Wie funktionieren Gruppenprodukte?](../../../verwalten/katalog/produkte-verwalten/wie-funktionieren-gruppenprodukte.md).
+
+| **Einstellung**                                | **Wirkung**                                                                                                                                 |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Listentitel der verknüpften Produkte           | Überschrift der Liste. Der Text kann je Sprache gepflegt werden.                                                                            |
+| Listengröße der verknüpften Produkten          | Anzahl der verknüpften Produkte pro Listenseite.                                                                                            |
+| Minimale Anzahl verknüpfter Produkte für Suche | Ab dieser Anzahl verknüpfter Produkte erscheint ein Suchfeld.                                                                               |
+| Aufklappbare verknüpfte Produkte               | Zeigt die verknüpften Produkte als aufklappbare Einträge.                                                                                   |
+| Felder in der Titelzeile verknüpfter Produkte  | Wählt zusätzliche Angaben für deren Titelzeile. Der Produktname erscheint immer. Die Auswahl wird bei aufklappbaren Einträgen eingeblendet. |
+
+## Preise <a href="#preise" id="preise"></a>
+
+Hier legen Sie zentrale Anzeige- und Berechnungsvorgaben fest. Preise, Aktionszeiträume und Staffelpreise pflegen Sie am Produkt unter [Produktpreis festlegen](../../../verwalten/katalog/produkte-verwalten/produktpreis-festlegen.md). Die Ermittlung des Endpreises erläutert [Preisregeln verstehen](../../../verwalten/katalog/produkte-verwalten/preisregeln-verstehen.md).
+
+<figure><img src="../../../.gitbook/assets/screenshot.png" alt="Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung"><figcaption><p>Katalogeinstellungen: Reiter Preise mit Rabattprüfungen und Angebotsdarstellung</p></figcaption></figure>
+
+### Darstellung <a href="#preise-greater-than-darstellung" id="preise-greater-than-darstellung"></a>
+
+| **Einstellung**                           | **Wirkung**                                                                                                                                                                                                              |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Preisanzeige                              | Wählt für Produktlisten den niedrigsten möglichen Preis, den Preis der Vorauswahl, den Produktpreis ohne Rabatte und Attribute oder keine Preisanzeige.                                                                  |
+| Auf- und Abschläge bei Varianten anzeigen | Zeigt Auf- und Abschläge an Variantenoptionen, beispielsweise Extra groß (+ 5,00 €). Die Berechnung bleibt auch bei ausgeblendeter Angabe bestehen.                                                                      |
+| Hinweis "Preis nach Anmeldung" anzeigen   | Zeigt auf der Produktdetailseite einen Anmeldehinweis, wenn der Besucher keine Preise sehen darf. Das Recht zur Preisanzeige konfigurieren Sie unter [Zugriffsrechte kontrollieren](../zugriffsrechte-kontrollieren.md). |
+| Zeige Text wenn Preise 0,00 sind          | Ersetzt die Preisanzeige 0,00 durch den vorgesehenen Text, etwa kostenlos.                                                                                                                                               |
+| "Ab-Preis" in Produktdetails anzeigen     | Zeigt vor der Variantenauswahl einen Preis mit dem Zusatz ab.                                                                                                                                                            |
+| Zusatzpreise beim Hauptprodukt anzeigen   | Zeigt Preise automatisch hinzugefügter Pflichtprodukte unter dem Hauptpreis, beispielsweise + 3,00 € Pfand.                                                                                                              |
+
+### Grundpreise <a href="#preise-greater-than-grundpreise" id="preise-greater-than-grundpreise"></a>
+
+| **Einstellung**                       | **Wirkung**                                                           |
+| ------------------------------------- | --------------------------------------------------------------------- |
+| Zeige den Grundpreis in Produktlisten | Zeigt den am Produkt konfigurierten Grundpreis auch in Produktlisten. |
+| Grundpreis bei Bundle-Bestandteilen   | Zeigt Grundpreise bei Bundle-Bestandteilen.                           |
+
+### Rabatte <a href="#preise-greater-than-rabatte" id="preise-greater-than-rabatte"></a>
+
+**Rabatte deaktivieren** lässt eingerichtete Rabatte bei der Preisberechnung unberücksichtigt. Aktionspreise, Staffelpreise und ausdrücklich an Bundle-Bestandteilen hinterlegte Rabatte bleiben bestehen. Die zugehörigen Rabattprüfungen werden bei deaktivierten Rabatten ausgeblendet.
+
+Unter **Bei Listenpreisen prüfen…** bestimmen Sie, welche zusätzlichen Bedingungen bereits bei der Anzeige von Produktlisten ausgewertet werden. Diese Prüfungen können die Ladezeit verlängern. Ohne sie kann sich ein angezeigter Listenpreis vom späteren Preis im Warenkorb unterscheiden.
+
+| **Einstellung**                                         | **Wirkung**                                                                                                                                                                                                                                          |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rabatt-Nutzungsgrenzen                                  | Berücksichtigt Begrenzungen der Rabattnutzung bereits im Listenpreis.                                                                                                                                                                                |
+| Warenkorbregeln von Rabatten                            | Wertet zugeordnete Warenkorbregeln bereits für den Listenpreis aus.                                                                                                                                                                                  |
+| Geschenkgutscheine im Warenkorb                         | Bezieht sich auf Geschenkgutschein-Produkte im Warenkorb, nicht auf eingelöste Rabattcodes. In der normalen Produktlistenberechnung hat die Option derzeit keine Wirkung, weil die Prüfung nur Rabatte auf die Bestell- oder Zwischensumme betrifft. |
+| Produktrabatte bei Aktionspreisen ignorieren            | Unterdrückt direkt dem Produkt zugeordnete Rabatte, wenn ein Aktionspreis gilt. Rabatte über Warengruppen oder Marken werden davon nicht pauschal ausgeschlossen.                                                                                    |
+| Rabatte von verknüpften Produkten anwenden              | Berücksichtigt Rabatte verknüpfter Produkte bei der Berechnung von Variantenaufschlägen.                                                                                                                                                             |
+| Prozentuale Rabatte auf Staffelpreise anwenden          | Erlaubt prozentuale Rabatte zusätzlich zu Staffelpreisen.                                                                                                                                                                                            |
+| Staffelrabatt auf Variantenauf- und -abschläge anwenden | Wendet prozentuale Staffelermäßigungen auch auf Variantenauf- und -abschläge an. Gilt bei Bestellmengen größer als 1 und nicht für Optionen mit Produktverknüpfung.                                                                                  |
+| Aktionspreis ersetzt regulären Preis                    | Ersetzt den regulären Preis durch den Aktionspreis. Ist die Option ausgeschaltet, kann der reguläre Preis daneben durchgestrichen erscheinen.                                                                                                        |
+
+Rabatte und ihre Bedingungen verwalten Sie unter [Rabatte verwalten](../../marketing-promotion/rabatte-verwalten.md).
+
+### Rabattdarstellung <a href="#preise-greater-than-rabattdarstellung" id="preise-greater-than-rabattdarstellung"></a>
+
+| **Einstellung**                        | **Wirkung**                                                                                                                                                                                                                        |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Rabattzeichen anzeigen                 | Kennzeichnet angewendete Rabatte mit einem Rabattzeichen auf dem Produktbild in Produktlisten.                                                                                                                                     |
+| Preisersparnis gegenüber UVP anzeigen  | Zeigt die Ersparnis auch dann, wenn sie nur aus dem Vergleich mit der unverbindlichen Preisempfehlung entsteht.                                                                                                                    |
+| UVP immer anzeigen                     | Zeigt die UVP auf der Produktdetailseite auch zusätzlich zu einem bereits reduzierten regulären Preis.                                                                                                                             |
+| Standard Label für den Vergleichspreis | Standardbeschriftung des Vergleichspreises, sofern das Produkt keine eigene Beschriftung vorgibt.                                                                                                                                  |
+| Standard Label für den regulären Preis | Beschriftung des durchgestrichenen regulären Preises bei einem Angebot oder Rabatt.                                                                                                                                                |
+| Zeige Preis-Label in Listen            | Zeigt die Kurzbezeichnung des Vergleichspreis-Labels in Produktlisten.                                                                                                                                                             |
+| Countdown vor Angebotsende anzeigen    | Anzahl der Stunden vor Angebotsende, ab der ein Countdown auf der Produktdetailseite und im Warenkorb erscheint. Erfordert ein Enddatum. Ein leeres Feld deaktiviert die zentrale Vorgabe; ein eigener Wert am Rabatt hat Vorrang. |
+| Zeige Badge für Angebote               | Aktiviert ein Angebots-Badge und blendet die folgenden Einstellungen ein.                                                                                                                                                          |
+
+Für Angebote können Sie normale und zeitlich begrenzte Badges unterschiedlich beschriften und gestalten. Die Texte lassen sich je Sprache pflegen. Eine eigene Badge-Beschriftung am Rabatt hat Vorrang vor der zentralen Beschriftung.
+
+| **Einstellung**                                     | **Wirkung**                                                                                                  |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Angebots-Badge Text                                 | Beschriftung für das normale Angebots-Badge.                                                                 |
+| Angebots-Badge Text für zeitlich begrenztes Angebot | Beschriftung für ein zeitlich begrenztes Angebot. Ohne eigenen Text wird die normale Beschriftung verwendet. |
+| Angebots-Badge Stil                                 | Darstellungsstil des normalen Badges.                                                                        |
+| Angebots-Badge Stil für zeitlich begrenztes Angebot | Darstellungsstil des Badges für zeitlich begrenzte Angebote.                                                 |
+| Angebots-Badge in Listen anzeigen                   | Zeigt Angebots-Badges zusätzlich in Produktlisten. Setzt die aktivierte Badge-Funktion voraus.               |
+
+### Verschiedenes <a href="#preise-verschiedenes" id="preise-verschiedenes"></a>
+
+| **Einstellung**                                    | **Wirkung**                                                                                                                                                                     |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Warenkorbregeln berechnen Beträge inklusive Steuer | Legt fest, ob Warenkorbregeln Beträge inklusive oder exklusive Umsatzsteuer auswerten. Ohne feste Vorgabe gelten die Steuereinstellungen des jeweiligen Warenkorbs bzw. Kunden. |
+
+## Kunden <a href="#kunden" id="kunden"></a>
+
+### Produktbewertungen <a href="#produktbewertungen" id="produktbewertungen"></a>
+
+Unter **Bewertungen anzeigen…** schalten Sie die Darstellung **In Produktlisten** und **Auf der Produktdetailseite** getrennt ein. Ob ein einzelnes Produkt bewertet werden darf, legen Sie mit **Kundenbewertungen erlauben** am Produkt fest.
+
+| **Einstellung**                              | **Wirkung**                                                         |
+| -------------------------------------------- | ------------------------------------------------------------------- |
+| Zeige Badge für verifizierte Käufe           | Kennzeichnet Rezensionen verifizierter Käufer.                      |
+| Produktbewertungen müssen genehmigt werden   | Veröffentlicht neue Rezensionen erst nach Freigabe.                 |
+| Gäste dürfen Bewertungen abgeben             | Erlaubt Rezensionen ohne Kundenanmeldung.                           |
+| Über neue Bewertungen per E-Mail informieren | Benachrichtigt den Shop-Betreiber über neue Rezensionen per E-Mail. |
+
+Die Prüfung und Freigabe erläutert [Produkt Rezensionen verwalten](../../../verwalten/katalog/produkt-rezensionen-verwalten.md).
+
+### Produktanfragen & Weiterempfehlungen <a href="#produktanfragen-und-weiterempfehlungen" id="produktanfragen-und-weiterempfehlungen"></a>
+
+| **Einstellung**                                  | **Wirkung**                                                                                                                                                                                            |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 'Produktanfragen' ermöglichen                    | Ermöglicht Kunden eine Anfrage zu einem Produkt.                                                                                                                                                       |
+| Weiterempfehlung per E-Mail aktivieren           | Aktiviert das Formular zur Produktempfehlung per E-Mail.                                                                                                                                               |
+| Gästen erlauben, E-Mails an Freunde zu versenden | Erlaubt Weiterempfehlungen durch Gäste. Erscheint bei aktivierter Weiterempfehlung.                                                                                                                    |
+| Abweichende E-Mail-Adresse erlauben              | Erlaubt eine abweichende eigene E-Mail-Adresse im Formular. Andernfalls ist die Adresse aus dem Kundenkonto vorgegeben. Für Weiterempfehlungen durch Gäste muss diese Option ebenfalls aktiviert sein. |
+
+## Hersteller <a href="#hersteller" id="hersteller"></a>
+
+Diese Optionen betreffen die Herstellerübersichten auf der Startseite und im seitlich eingeblendeten OffCanvas-Menü, beispielsweise auf mobilen Geräten. Die Herstelleranzeige direkt am Produkt konfigurieren Sie in **Produktlisten** bzw. **Produktdetail**.
+
+| **Einstellung**                              | **Wirkung**                                                                        |
+| -------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Hersteller auf der Startseite anzeigen       | Zeigt Hersteller auf der Startseite.                                               |
+| Maximale Herstelleranzahl auf der Startseite | Begrenzt deren Anzahl. Erscheint bei aktivierter Anzeige.                          |
+| Hersteller im OffCanvas-Menü anzeigen        | Zeigt Hersteller im seitlich eingeblendeten Navigationsmenü.                       |
+| Maximale Herstelleranzahl im OffCanvas-Menü  | Begrenzt die dortige Anzahl. Erscheint bei aktivierter Anzeige.                    |
+| Herstellerbilder in Listen anzeigen          | Verwendet Herstellerbilder in den Listen auf der Startseite und im OffCanvas-Menü. |
+| Hersteller-Platzhalterbilder ausblenden      | Blendet Platzhalterbilder für Hersteller ohne eigenes Bild aus.                    |
+| Herstellerübersicht alphabetisch sortieren   | Sortiert die Herstellerübersichtsseite alphabetisch.                               |
