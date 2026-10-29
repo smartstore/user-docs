@@ -128,6 +128,8 @@ Bei der Synchronisierung übermittelt Smartstore die E-Mail-Adressen der Newslet
 
 Das Plugin überträgt keine Namen, Adressen, Bestellungen oder sonstigen Kundendaten. Die weitere Verarbeitung der Kontakte sowie der Versand und die Auswertung von Brevo-Kampagnen erfolgen im Brevo-Konto.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Informationen
 
 - [Newsletter-Kampagnen verwalten](../marketing-promotion/newsletter-kampagnen-verwalten.md)
@@ -137,9 +139,3 @@ Das Plugin überträgt keine Namen, Adressen, Bestellungen oder sonstigen Kunden
 - [Brevo API-Keys](https://app.brevo.com/settings/keys/api)
 - [E-Mail-Kampagne in Brevo erstellen und versenden](https://help.brevo.com/hc/de/articles/4413566705298-Erstellen-und-versenden-einer-E-Mail-Kampagne)
 - [Ausgehenden Webhook in Brevo erstellen](https://help.brevo.com/hc/de/articles/27824932835474-Erstellung-von-ausgehenden-Webhooks-um-Echtzeitdaten-von-Brevo-an-eine-externe-App-zu-versenden)
-
-## Sie interessieren sich für dieses Plugin?
-
-Gerne beraten wir Sie persönlich zu Funktionen, Einsatzmöglichkeiten und Lizenzoptionen. Gemeinsam klären wir, ob das Plugin zu Ihren Anforderungen passt, und begleiten Sie auf dem Weg zur passenden Kaufentscheidung.
-
-<a href="https://smartstore.com/de/persoenliche-beratung/" class="button primary">Persönliche Beratung anfragen</a>

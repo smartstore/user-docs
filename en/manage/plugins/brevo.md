@@ -128,6 +128,8 @@ During synchronization, Smartstore transfers newsletter subscriber email address
 
 The plugin does not transfer names, addresses, orders, or other customer data. Further contact processing as well as sending and analyzing Brevo campaigns takes place in the Brevo account.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Further information
 
 - [Managing Newsletter Campaigns](../marketing-promotions/managing-newsletter-campaigns.md)
@@ -137,9 +139,3 @@ The plugin does not transfer names, addresses, orders, or other customer data. F
 - [Brevo API Keys](https://app.brevo.com/settings/keys/api)
 - [Create and send an email campaign in Brevo](https://help.brevo.com/hc/en-us/articles/4413566705298-Create-and-send-an-email-campaign)
 - [Create an outbound webhook in Brevo](https://help.brevo.com/hc/en-us/articles/27824932835474-Create-outbound-webhooks-to-send-real-time-data-from-Brevo-to-an-external-app)
-
-## Interested in This Plugin?
-
-We would be happy to advise you personally about features, possible applications, and licensing options. Together, we will determine whether the plugin meets your requirements and guide you toward the right purchase decision.
-
-<a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>

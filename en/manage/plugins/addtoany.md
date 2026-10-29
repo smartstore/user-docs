@@ -18,4 +18,6 @@ The configuration is done through the plugin settings (Plugins &rarr; AddToAny).
 
 The services available in the widget can be selected and added via the dropdown menu.
 
-![AddToAny configuration](../../.gitbook/assets/addtoany_config_services.png)
+![Available list of services](../../.gitbook/assets/addtoany_config_services.png)
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

@@ -82,8 +82,4 @@ Mit **Attribute übernehmen** können Sie die Produktattribute eines bereits kon
 
 Attribute, die beim Zielprodukt bereits vorhanden sind, werden weder überschrieben noch verändert. Überprüfen Sie deshalb nach dem Kopieren insbesondere Regeln, die von weiteren Attributen abhängig sind.
 
-## Sie interessieren sich für dieses Plugin?
-
-Gerne beraten wir Sie persönlich zu Funktionen, Einsatzmöglichkeiten und Lizenzoptionen. Gemeinsam klären wir, ob das Plugin zu Ihren Anforderungen passt, und begleiten Sie auf dem Weg zur passenden Kaufentscheidung.
-
-<a href="https://smartstore.com/de/persoenliche-beratung/" class="button primary">Persönliche Beratung anfragen</a>
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
