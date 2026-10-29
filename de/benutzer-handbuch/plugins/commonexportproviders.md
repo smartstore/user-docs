@@ -164,6 +164,8 @@ Exportdateien können sensible oder personenbezogene Informationen enthalten, da
 
 Aus diesem Grund ist es empfehlenswert, die üblichen Datenschutzrichtlinien zu beachten.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Informationen
 
 - [Exportprofile verwalten](../datenaustausch/export/exportprofile-verwalten.md)

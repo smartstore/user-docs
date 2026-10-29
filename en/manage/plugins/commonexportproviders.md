@@ -164,6 +164,8 @@ Export files can contain sensitive or personal information, including:
 
 For this reason, follow your usual data protection policies.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Further information
 
 - [Managing Export Profiles](../data-exchange/managing-export-profiles.md)
