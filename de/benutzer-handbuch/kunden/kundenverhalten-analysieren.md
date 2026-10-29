@@ -4,18 +4,34 @@ Die Auswertungen zum Kundenverhalten helfen Ihnen, Nutzungsmuster zu erkennen un
 
 ## Aktivitätslog
 
-Öffnen Sie **Kunden > Aktivitätslog**. Dort sehen Sie protokollierte Shopaktivitäten und filtern diese nach Zeitraum, Kunden-E-Mail oder **Ereignistyp** filtern. Die **Ereignistypen** umfassen Vorgänge im Backend, etwa die Bearbeitung eines Produkts, und im Frontend, beispielsweise das Hinzufügen zum Warenkorb oder das Aufgeben einer Bestellung. Ein Klick auf eine E-Mail-Adresse öffnet die zugehörigen Kundeninformationen.
+Unter **Kunden > Aktivitätslog** finden Sie protokollierte Vorgänge aus dem Backend und dem öffentlichen Shop. Dazu gehören beispielsweise die Bearbeitung eines Produkts, das Hinzufügen zum Warenkorb oder das Aufgeben einer Bestellung. Die Einträge enthalten den Ereignistyp, eine Beschreibung, den zugehörigen Kunden und den Zeitpunkt.
+
+Welche Vorgänge aufgezeichnet werden, legen Sie unter **Konfiguration > Ereignistypen** fest. Nur aktivierte Ereignistypen erzeugen neue Einträge; eine nachträgliche Aktivierung ergänzt keine vergangenen Aktivitäten. Die Einrichtung beschreibt die Seite [Ereignistypen einrichten](../konfiguration/ereignistypen-einrichten.md).
 
 ![](../../.gitbook/assets/kundenverhalten_analysieren_1.png)
 
 ## Kunden online
 
-Unter **Kunden > Kunden online** sehen Sie in Echtzeit, welche Kunden gerade im Shop aktiv sind, welche URL sie zuletzt aufgerufen haben und über welche Quelle sie gekommen sind.
+Unter **Kunden > Kunden online** sehen Sie registrierte Kunden und Gäste, deren letzte Aktivität innerhalb des eingestellten Zeitfensters liegt. Standardmäßig beträgt dieses Zeitfenster 20 Minuten. Die Anzeige bedeutet daher nicht, dass der Besucher die Seite in diesem Moment noch geöffnet hat.
+
+Die Übersicht zeigt unter anderem den Zeitpunkt der letzten Aktivität, die zuletzt gespeicherte IP-Adresse und die zuletzt besuchte Seite. **Herkunft** bezeichnet das anhand der IP-Adresse ermittelte Land, sofern es bestimmt werden kann.
+
+Welche Angaben gespeichert werden, hängt von den Kunden- und Datenschutzeinstellungen ab. Ist die Speicherung der zuletzt besuchten Seite oder der IP-Adresse deaktiviert, werden diese Angaben nicht mehr laufend aktualisiert.
 
 ## Kundenauswertungen
 
+Unter **Kunden > Kundenauswertungen** finden Sie die Bereiche **Top Kunden** und **Registrierte Kunden**.
+
+### Top Kunden
+
 ![](../../.gitbook/assets/kundenverhalten_analysieren_2.png)
 
-Unter **Kunden > Kundenauswertungen**, analysieren Sie die im Shop aufgegebenen Bestellungen. Wählen Sie Zeitraum, Auftrags-, Zahlungs- und Versandstatus und klicken Sie auf **Bericht erstellen** klicken. Die Registerkarte **Top 20 Kunden nach Bestellwert** zeigt die Ergebnisse absteigend nach Bestellsumme geordnet und die Registerkarte **Top 20 Kunden nach Auftragsanzahl** nach Anzahl der Bestellungen geordnet an. Der Reiter **Registrierte Kunden** zeigt die Anzahl der Registrierungen im gewählten Zeitraum.
+**Top Kunden** fasst die Bestellungen je Kunde zusammen. Angezeigt werden die **Auftragsanzahl** und der **Auftragswert**. Der Auftragswert ist die Summe der Auftragsgesamtbeträge in der primären Shopwährung. Auch darin enthaltene Steuern, Versand- und Zahlungsgebühren fließen ein.
+
+Mit **Erstellt am** grenzen Sie die Auswertung nach dem Erstellungsdatum der Aufträge ein. Zusätzlich stehen **Auftragsstatus**, **Zahlungsstatus** und **Versandstatus** zur Verfügung. Ohne Statusauswahl werden auch offene, unbezahlte oder stornierte Aufträge berücksichtigt. Für eine Auswertung bezahlter Bestellungen wählen Sie beispielsweise den Zahlungsstatus **Bezahlt**.
+
+### Registrierte Kunden
+
+**Registrierte Kunden** zeigt die Anzahl registrierter Kundenkonten für die letzten 7, 14, 30 und 365 Tage. Maßgeblich ist das Erstellungsdatum des Kundenkontos. Die Angaben **Im letzten Monat** und **Im letzten Jahr** beziehen sich auf die zurückliegenden 30 beziehungsweise 365 Tage, nicht auf den vorherigen Kalendermonat oder das vorherige Kalenderjahr. Die Zeit- und Statusfilter aus **Top Kunden** gelten hier nicht.
 
 ![](../../.gitbook/assets/kundenverhalten_analysieren_3.png)
