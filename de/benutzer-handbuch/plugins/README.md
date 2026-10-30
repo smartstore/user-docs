@@ -852,8 +852,6 @@ Erzeugt einen standardisierten GiroCode als QR-Code mit vorausgefüllten Überwe
 
 Bindet Google Analytics in den Shop ein und stellt die dafür benötigten Tracking-Skripte im Storefront bereit. Das Plugin dient der Messung von Besuchern, Seitenaufrufen und Commerce-Ereignissen; für die Nutzung wird ein eigenes Google-Analytics-Konto benötigt.
 
-Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Google Analytics](googleanalytics.md).
-
 {% hint style="info" %}
 **Wichtigste Features**
 
@@ -862,6 +860,8 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 * Einbindung in den Cookie-Manager
 * konfigurierbare Artikel-ID.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Google Analytics](googleanalytics.md).
 
 ### Google.Auth (Google Login)
 
