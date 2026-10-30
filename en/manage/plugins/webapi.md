@@ -2,6 +2,8 @@
 
 The **Smartstore Web API** allows external applications to retrieve and modify data in your store. Typical use cases include connecting ERP systems, mobile applications, marketplaces, or custom integrations.
 
+{% include "../../.gitbook/includes/hint_for-developers_page.md" %}
+
 The Web API is based on **OData**. The available data and functions depend on the Smartstore version and the installed plugins.
 
 {% hint style="info" %}

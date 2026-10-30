@@ -4,6 +4,8 @@
 
 Die Developer Tools unterstützen Administratoren bei der Analyse und Konfiguration eines Smartstore-Shops. Sie können damit die Verarbeitung von Seitenaufrufen untersuchen, verfügbare Widget-Zonen sichtbar machen und in verteilten Umgebungen die aktuell antwortende Anwendungsinstanz erkennen.
 
+{% include "../../.gitbook/includes/hint_for-developers_page.md" %}
+
 Die Funktionen sind für Diagnose- und Einrichtungsarbeiten vorgesehen. Schalten Sie nicht benötigte Funktionen nach der Verwendung wieder aus.
 
 ## Developer Tools konfigurieren

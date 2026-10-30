@@ -2,6 +2,8 @@
 
 Mit der **Smartstore Web API** können externe Anwendungen Daten Ihres Shops abrufen und bearbeiten. Typische Einsatzbereiche sind die Anbindung von Warenwirtschaftssystemen, mobilen Anwendungen, Marktplätzen oder individuellen Integrationen.
 
+{% include "../../.gitbook/includes/hint_for-developers_page.md" %}
+
 Die Web API basiert auf **OData**. Welche Daten und Funktionen verfügbar sind, hängt von der Smartstore-Version und den installierten Plugins ab.
 
 {% hint style="info" %}

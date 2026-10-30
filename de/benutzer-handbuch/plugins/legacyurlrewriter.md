@@ -4,6 +4,8 @@
 
 Der **LegacyUrlRewriter** leitet veraltete Produkt- und Kategorie-URLs dauerhaft auf die aktuellen SEO-URLs in Smartstore weiter.
 
+{% include "../../.gitbook/includes/hint_for-developers_page.md" %}
+
 Das Plugin eignet sich besonders für Shopmigrationen und Änderungen der URL-Struktur. Bestehende Links aus Suchmaschinen, Lesezeichen, Newslettern oder externen Websites bleiben dadurch erreichbar.
 
 Grundlegende Informationen zu SEO-freundlichen URLs finden Sie unter [SEO](../allgemeine-konzepte/seo.md).

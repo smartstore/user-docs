@@ -4,6 +4,8 @@
 
 Developer Tools help administrators analyze and configure a Smartstore store. You can use them to examine the processing of page requests, make available widget zones visible, and identify the application instance currently responding in distributed environments.
 
+{% include "../../.gitbook/includes/hint_for-developers_page.md" %}
+
 These features are intended for diagnostics and configuration work. Turn off any features you no longer need after use.
 
 ## Configuring Developer Tools
