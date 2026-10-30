@@ -37,8 +37,4 @@ After you have saved the image in Pixlr, a Smartstore dialog appears. This offer
 | Background color | Sets the editor’s background color (workspace). |
 | Accent color | Sets the accent color for certain elements in the editor (e.g., buttons and tooltips). |
 
-## Interested in This Plugin?
-
-We would be happy to advise you personally about features, possible applications, and licensing options. Together, we will determine whether the plugin meets your requirements and guide you toward the right purchase decision.
-
-<a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

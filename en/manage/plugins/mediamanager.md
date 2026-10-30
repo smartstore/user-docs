@@ -188,15 +188,6 @@ Select the desired files and click **Select**. If a file is outside the intended
 
 The Media Manager does not have its own configuration page for store operators. Upload limits, permitted file types, image processing, file storage, and media caching are managed centrally in the [Media Settings](../configuration/general-settings-preferences/media-settings.md).
 
-## Related topics
-
-- [Managing files and folders](mediamanager/files-and-folders.md): All file actions and context menus in detail.
-- [Managing file information and metadata](mediamanager/metadata.md): Manage ALT text, titles, tags, languages, and references.
-- [Cleaning up the media library](mediamanager/cleanup.md): Trash, restoration, and orphaned files.
-- [Reprocessing images](mediamanager/image-processing.md): Re-encode images and understand video thumbnails.
-- [Media Manager extensions](mediamanager/integrations.md): Integrate TinyImage, Smartstore AI, and Pixlr.
-- [Troubleshooting the Media Manager](mediamanager/troubleshooting.md): Answers to common questions and problems.
-
 ## Recommendations for daily work
 
 - Use descriptive file and folder names.
@@ -206,10 +197,13 @@ The Media Manager does not have its own configuration page for store operators. 
 - Delete files through the Trash first.
 - Consider file size and image dimensions to keep frontend loading times low.
 
-## Extending your media workflows
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
 
-The Media Manager can be enhanced with image optimization, AI-assisted content creation, and external image editing features. The right combination depends on your media library, workflows, and store requirements.
+## Related topics
 
-The Smartstore team will be happy to help you identify suitable modules and an appropriate configuration.
-
-<a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>
+- [Managing files and folders](mediamanager/files-and-folders.md): All file actions and context menus in detail.
+- [Managing file information and metadata](mediamanager/metadata.md): Manage ALT text, titles, tags, languages, and references.
+- [Cleaning up the media library](mediamanager/cleanup.md): Trash, restoration, and orphaned files.
+- [Reprocessing images](mediamanager/image-processing.md): Re-encode images and understand video thumbnails.
+- [Media Manager extensions](mediamanager/integrations.md): Integrate TinyImage, Smartstore AI, and Pixlr.
+- [Troubleshooting the Media Manager](mediamanager/troubleshooting.md): Answers to common questions and problems.

@@ -47,3 +47,5 @@ Die Optionen Routen und Invalidierung sollten nur von erfahrenen Anwendern genut
 Unter dem Reiter Statistik werden die im Cache gespeicherten Seiten angezeigt und können dort auch aus dem Cache gelöscht werden.
 
 ![Konfiguration - Reiter "Statistik"](../../.gitbook/assets/module_outputcache_einstellungen_statistik.png)
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

@@ -91,3 +91,5 @@ Extensions for the MegaSearch Plugin. Supplements the product data of the search
 When editing products, keywords can be defined in the **Search** tab, via which the product can be found during a search. For printer paper, for example, the names of compatible printers could be entered here. One keyword is always defined per line. For the keywords to be taken into account, they must be selected as a search field in the search settings. In the MegaSearch configuration, the order of search hits via the keyword field can also be influenced using the search field weighting.
 
 Keywords can be imported as part of a product data import. To do this, use the column **MegaSearch.Product.Keywords** for keywords to be imported in the shop's default language. If keywords are to be imported in another language, append the corresponding locale code in square brackets to the column name. For English, for example, the column name is **MegaSearch.Product.Keywords\[en-US]**. Multiple values per field are separated by a semicolon, comma, or pipe symbol `|`.
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

@@ -50,3 +50,5 @@ The Mega Menu plugin is mainly used within the [categories configuration](../cat
 For the introduction area which will be displayed in the first column of the dropdown element you can specify whether the category picture will be displayed and you can enter a short introductory text. For this text you can work with HTML formating (e.g. _, , , etc.). The text will only be displayed along with the category picture._
 
 _TeaserThe teaser area within a dropdown element allows you to highlight your products by displaying a specific selection of products within the product rotator in the dropdown menu, or by displaying completely custom HTML._
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

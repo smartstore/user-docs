@@ -38,3 +38,5 @@ Das Suchmuster prüft nur den URL-Pfad, nicht die Query-Parameter nach `?`. Der 
 | Ist aktiv          | Aktiviert oder deaktiviert die im Backend erfassten Regeln. Regeln aus externen Dateien werden unabhängig davon geladen.                                                                                   |
 | Dateierweiterungen | Kommagetrennte Dateiendungen ohne Punkt, beispielsweise php oder html. Pfade mit anderen Endungen werden von den im Backend erfassten Regeln übersprungen; Pfade ohne Dateiendung bleiben davon unberührt. |
 | Rewrite-Regeln     | Eine Regel pro Zeile. Dieses Feld wird shopübergreifend gespeichert; die Shop-Auswahl oben begrenzt die Regeln nicht. Mit dem Schalter H können Sie eine Regel auf bestimmte Hostnamen beschränken.        |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

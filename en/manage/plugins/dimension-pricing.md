@@ -97,3 +97,5 @@ The following simplified example guides you through a basic parcel-shipping conf
 ## Known limitations
 
 Area-based loading-meter calculation uses the rectangular footprint of the packed result. It therefore does not represent carrier-specific rules such as stackability, pallet exchange, or axle load. Account for such requirements in your configuration and compare the calculated values with your shipping provider's specifications. For more information about the minimum value and rounding, see [Loading-meter calculation](dimension-pricing/settings.md#loading-meter-calculation).
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

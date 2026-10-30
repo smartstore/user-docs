@@ -90,3 +90,5 @@ Missing screenshot
 {% endhint %}
 
 The display of manufacturer data and text blocks can be changed in [the configuration](product-safety-regulation-gpsr.md#configuration-of-the-gpsr-plugin).
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

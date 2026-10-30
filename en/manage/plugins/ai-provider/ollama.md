@@ -35,3 +35,5 @@ If no models are displayed, check that Ollama is running, at least one model is 
 {% hint style="warning" %}
 Do not expose an Ollama instance to a public network without protection. Whether data is processed locally or transmitted to external services also depends on the selected model and the configuration of the Ollama instance.
 {% endhint %}
+
+{% include "../../../.gitbook/includes/consultation_request_plugin.md" %}

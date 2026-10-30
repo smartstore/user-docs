@@ -93,3 +93,5 @@ In der Importdatei müssen das Schlüsselfeld „SKU” sowie die Felder „Dura
 {% hint style="info" %}
 Im Hinweiskasten der Plugin-Konfiguration steht eine Beispieldatei zum Download bereit.
 {% endhint %}
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

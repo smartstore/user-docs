@@ -42,3 +42,5 @@ Browsers that do not support WebP will continue to receive images in the origina
 | **Tools** | TinyImage uses various third-party tools in the background for compression, with the selection depending on the file format. Each tool offers various options for defining output quality. The TinyImage default settings offer the best compromise between file size and quality. If you still wish to make adjustments, visit the provider sites for more information. |
 | **Miscellaneous** | |
 | Display notifications    | Displays a short summary of the achieved compression rate after a file upload. |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

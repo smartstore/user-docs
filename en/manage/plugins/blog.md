@@ -321,6 +321,8 @@ Check the following:
 * Are customers without an order allowed to comment?
 * Is the visitor signed in if this is required?
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Related documentation
 
 * [AI](ai.md)

@@ -131,6 +131,8 @@ Der Page Builder kann durch weitere Smartstore-Module und Funktionen ergänzt we
 
 Eine Übersicht der unterstützten Erweiterungen und ihrer Verwendung finden Sie unter [Integrationen](pagebuilder/integrations.md).
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Dokumentation
 
 - [Benutzeroberfläche](pagebuilder/editor.md)

@@ -35,3 +35,5 @@ Werden keine Modelle angezeigt, prüfen Sie, ob Ollama läuft, mindestens ein Mo
 {% hint style="warning" %}
 Stellen Sie eine Ollama-Instanz nicht ungeschützt im öffentlichen Netzwerk bereit. Welche Daten lokal verarbeitet oder an externe Dienste übertragen werden, hängt auch vom verwendeten Modell und der Konfiguration der Ollama-Instanz ab.
 {% endhint %}
+
+{% include "../../../.gitbook/includes/consultation_request_plugin.md" %}

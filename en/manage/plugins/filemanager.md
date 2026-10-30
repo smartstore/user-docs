@@ -324,6 +324,8 @@ Check the following:
 
 For more information, see [Media Settings](../configuration/general-settings-preferences/media-settings.md) and [Troubleshooting the Media Manager](mediamanager/troubleshooting.md).
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Related Documentation
 
 - [Importing & Exporting Products](../catalog/managing-products/importing-exporting-products.md)

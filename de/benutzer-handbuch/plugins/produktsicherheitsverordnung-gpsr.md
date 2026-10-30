@@ -76,3 +76,5 @@ Die Darstellung der Herstellerdaten und Textbausteine kann in [der Konfiguration
 | Hersteller vor Textbausteinen anzeigen    | Legt fest, ob die Herstellerinformationen vor den Textbausteinen angezeigt werden.                                                                                                               |
 | Hintergrundfarbe Herstellerinformationen  | Legt die Hintergrundfarbe der Hinweis-Box fest, in der die Herstellerinformationen angezeigt werden. Leer lassen, wenn der Hersteller nicht in einer Hinweis-Box angezeigt werden soll.          |
 | Nur den ersten Hersteller berücksichtigen | Legt fest, ob nur die Informationen des ersten dem Produkt zugeordneten Herstellers angezeigt werden sollen. Wenn deaktiviert, werden die Informationen aller zugeordneten Hersteller angezeigt. |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

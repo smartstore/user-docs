@@ -43,3 +43,5 @@ The Routes and Invalidation options should only be used/changed by experienced u
 Under the Statistics tab, the pages stored in the cache are displayed and can also be deleted from the cache there.
 
 ![Configuration - Tab "Statistics"](../../.gitbook/assets/module_outputcache_configuration_statistics.png)
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

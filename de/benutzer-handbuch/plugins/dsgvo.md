@@ -31,3 +31,5 @@ Weiterhin wird berücksichtigt, dass Smartstore Kundendatensätze **grundsätzli
 | Kunden können Konto eigenständig deaktivieren      | Bestimmt, ob ein Kunde sein Konto eigenständig deaktivieren kann oder ob zunächst eine Anforderung an den Shopbetreiber gesendet werden soll. In beiden Fällen ist eine mehrfache Bestätigung durch den Kunden erforderlich.                      |
 | Download von Kundendaten ermöglichen               | Bestimmt, ob ein Kunde seine Daten eigenständig im JSON-Format downloaden kann.                                                                                                                                                                   |
 | Nach Löschvorgang autom. anonymisieren             | Legt fest, ob nach einem Kunden-Löschvorgang im Backend automatisch anonymisiert werden soll. Bitte bachten Sie: in Smartstore werden Kundendatensätze grundsätzlich nicht aus der Datenbank entfernt, sondern lediglich als gelöscht markiert.   |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

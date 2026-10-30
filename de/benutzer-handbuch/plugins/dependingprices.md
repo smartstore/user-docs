@@ -127,3 +127,5 @@ Eine Zeile wird für DependingPrices verarbeitet, wenn sie **DP\_Price** oder **
 Der Import sucht vorhandene Datensätze anhand des Produkts, der jeweiligen Zuordnungsbedingungen und der Mindestbestellmenge. So können Sie bei sonst gleichen Bedingungen mehrere Mengenstaffeln getrennt importieren. Eine leere Mindestbestellmenge und 0 bezeichnen denselben uneingeschränkten Eintrag. Geben Sie beim Ändern oder Löschen einer Staffel die zugehörige Mindestbestellmenge an.
 
 Mit installiertem und eingerichtetem **Web API**-Plugin steht außerdem die OData-Entität **DependingPricesRecords** bereit. Sie unterstützt Lesen, Anlegen, Ändern und Löschen von Datensätzen, einschließlich Menge und Preis auf Anfrage. Dafür sind die passenden DependingPrices-Berechtigungen und ein autorisierter API-Zugang erforderlich.
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

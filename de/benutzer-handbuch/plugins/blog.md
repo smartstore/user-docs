@@ -321,6 +321,8 @@ Prüfen Sie:
 * Dürfen Kunden ohne Bestellung kommentieren?
 * Ist der Besucher angemeldet, falls dies erforderlich ist?
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Dokumentation
 
 * [AI](ai.md)

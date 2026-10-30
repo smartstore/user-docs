@@ -188,15 +188,6 @@ Wählen Sie die gewünschten Dateien aus und klicken Sie auf **Auswählen**. Lie
 
 Der Medien-Manager besitzt keine eigene Konfigurationsseite für Shopbetreiber. Uploadgrenzen, erlaubte Dateitypen, Bildverarbeitung, Dateispeicher und Medien-Caching werden zentral über die [Medien-Einstellungen](../konfiguration/einstellungen/medien-einstellungen.md) gesteuert.
 
-## Weiterführende Themen
-
-- [Dateien und Ordner verwalten](mediamanager/files-and-folders.md): Alle Dateiaktionen und Kontextmenüs im Detail.
-- [Dateiinformationen und Metadaten pflegen](mediamanager/metadata.md): ALT-Texte, Titel, Tags, Sprachen und Verweise pflegen.
-- [Medienbestand bereinigen](mediamanager/cleanup.md): Papierkorb, Wiederherstellung und verwaiste Dateien.
-- [Bilder neu verarbeiten](mediamanager/image-processing.md): Bilder erneut kodieren und Video-Thumbnails verstehen.
-- [Erweiterungen für den Medien-Manager](mediamanager/integrations.md): TinyImage, Smartstore AI und Pixlr integrieren.
-- [Probleme mit dem Medien-Manager lösen](mediamanager/troubleshooting.md): Antworten auf häufige Fragen und Fehlerbilder.
-
 ## Empfehlungen für die tägliche Arbeit
 
 - Verwenden Sie verständliche Datei- und Ordnernamen.
@@ -206,10 +197,13 @@ Der Medien-Manager besitzt keine eigene Konfigurationsseite für Shopbetreiber. 
 - Löschen Sie Dateien zunächst über den Papierkorb.
 - Berücksichtigen Sie Dateigröße und Bildabmessungen, um die Ladezeit des Frontends gering zu halten.
 
-## Medienprozesse passend erweitern
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
 
-Der Medien-Manager lässt sich mit Funktionen für Bildoptimierung, KI-gestützte Inhaltserstellung und externe Bildbearbeitung ergänzen. Welche Kombination sinnvoll ist, hängt von Medienbestand, Arbeitsabläufen und den Anforderungen Ihres Shops ab.
+## Weiterführende Themen
 
-Das Smartstore-Team unterstützt Sie gerne dabei, passende Module und eine geeignete Konfiguration einzuordnen.
-
-<a href="https://smartstore.com/de/persoenliche-beratung/" class="button primary">Persönliche Beratung anfragen</a>
+- [Dateien und Ordner verwalten](mediamanager/files-and-folders.md): Alle Dateiaktionen und Kontextmenüs im Detail.
+- [Dateiinformationen und Metadaten pflegen](mediamanager/metadata.md): ALT-Texte, Titel, Tags, Sprachen und Verweise pflegen.
+- [Medienbestand bereinigen](mediamanager/cleanup.md): Papierkorb, Wiederherstellung und verwaiste Dateien.
+- [Bilder neu verarbeiten](mediamanager/image-processing.md): Bilder erneut kodieren und Video-Thumbnails verstehen.
+- [Erweiterungen für den Medien-Manager](mediamanager/integrations.md): TinyImage, Smartstore AI und Pixlr integrieren.
+- [Probleme mit dem Medien-Manager lösen](mediamanager/troubleshooting.md): Antworten auf häufige Fragen und Fehlerbilder.

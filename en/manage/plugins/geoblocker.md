@@ -180,6 +180,8 @@ An entry contains in particular:
 
 For information about searching the log and opening its details, see [Analyzing the Event Log](../system-maintenance/analyzing-the-event-log.md).
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Related documentation
 
 * [Installing Plugins](installing-plugins.md)

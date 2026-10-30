@@ -32,3 +32,5 @@ Die Farben der Button-Typen werden im Konfigurationsbereichs Ihres Themes festge
 2. Text
 3. Bild
 4. Button
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

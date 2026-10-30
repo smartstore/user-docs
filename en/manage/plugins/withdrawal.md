@@ -105,3 +105,5 @@ The withdrawal link is automatically included by default. If you want it to be d
 * have the **rel** attribute set to `nofollow`
 
 Example: `<a href="/withdrawal/" rel="nofollow">Withdraw from contract</a>`
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

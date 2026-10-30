@@ -33,3 +33,5 @@ If the connection cannot be established, check the API key, API billing, and whe
 {% hint style="warning" %}
 API requests can incur usage-based costs.
 {% endhint %}
+
+{% include "../../../.gitbook/includes/consultation_request_plugin.md" %}

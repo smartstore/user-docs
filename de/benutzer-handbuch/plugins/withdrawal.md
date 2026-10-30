@@ -105,3 +105,5 @@ Der Widerruflink wird standardmäßig automatisch eingebunden. Soll er an einer 
 * das **rel**-Attribut `nofollow` enthalten
 
 Beispiel: `<a href="/withdrawal/" rel="nofollow">Vertrag widerrufen</a>`
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

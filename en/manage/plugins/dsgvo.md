@@ -31,3 +31,5 @@ It is also taken into account that Smartstore **generally does not fully remove 
 | Customers can deactivate account independently | Determines whether a customer can deactivate their account independently or whether a request must first be sent to the shop operator. In both cases, multiple confirmations by the customer are required. |
 | Enable download of customer data | Determines whether a customer can download their data independently in JSON format. |
 | Anonymize automatically after deletion process | Determines whether anonymization should occur automatically after a customer deletion process in the backend. Please note: in Smartstore, customer records are generally not removed from the database, but merely marked as deleted. |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

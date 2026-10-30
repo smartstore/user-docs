@@ -93,3 +93,5 @@ The import file must contain the key field "SKU" as well as the fields "Durabili
 {% hint style="info" %}
 A sample file is available for download in the plugin configuration notice box.
 {% endhint %}
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

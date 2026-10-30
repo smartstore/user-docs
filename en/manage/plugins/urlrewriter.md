@@ -36,3 +36,5 @@ The following details about **the switches**, **escaping** (which characters sho
 | Is enabled | Determines whether the redirect rules are currently effective. Disable this option to temporarily switch off changes. |
 | File extensions | For static files: comma-separated list of file extensions (without the dot) that should be considered when processing the rewrite rules. |
 | Rewrite rules | Enter the rules here line by line, with which incoming URLs are matched and redirected to target URLs. |
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

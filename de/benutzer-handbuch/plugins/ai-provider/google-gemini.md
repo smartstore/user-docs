@@ -35,3 +35,5 @@ Wenn die Verbindung nicht hergestellt werden kann, prüfen Sie den API-Key, den 
 {% hint style="warning" %}
 Abhängig vom verwendeten Tarif und Umfang können API-Anfragen Kosten verursachen.
 {% endhint %}
+
+{% include "../../../.gitbook/includes/consultation_request_plugin.md" %}

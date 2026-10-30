@@ -97,3 +97,5 @@ Das folgende vereinfachte Beispiel führt durch eine grundlegende Konfiguration 
 ## Bekannte Einschränkungen
 
 Die flächenbasierte Lademeterberechnung verwendet die rechteckige Grundfläche des gepackten Ergebnisses. Sie bildet daher keine speditionsspezifischen Regeln wie Stapelbarkeit, Palettentausch oder Achslast ab. Berücksichtigen Sie solche Vorgaben bei der Konfiguration selbst und vergleichen Sie die berechneten Werte mit den Anforderungen Ihres Versanddienstleisters. Weitere Informationen zu Mindestwert und Rundung finden Sie unter [Lademeterberechnung](dimension-pricing/settings.md#lademeterberechnung).
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

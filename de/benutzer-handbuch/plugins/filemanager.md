@@ -324,6 +324,8 @@ Prüfen Sie:
 
 Weitere Informationen finden Sie unter [Medien-Einstellungen](../konfiguration/einstellungen/medien-einstellungen.md) und [Probleme mit dem Medien-Manager lösen](mediamanager/troubleshooting.md).
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Dokumentation
 
 - [Produkte importieren & exportieren](../../verwalten/katalog/produkte-verwalten/produkte-importieren-exportieren.md)

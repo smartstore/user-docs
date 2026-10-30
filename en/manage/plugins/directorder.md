@@ -119,6 +119,8 @@ For more information, see [Edit Menu Items](../content-management/edit-menu-item
 
 Depending on the plugin configuration, DirectOrder either redirects the customer to the product search or ignores the unknown SKU. Therefore, review the transferred items after manual entry or a file upload.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Related Documentation
 
 * [Managing Plugins](managing-plugins.md)

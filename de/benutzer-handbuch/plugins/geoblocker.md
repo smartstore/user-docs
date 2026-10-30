@@ -180,6 +180,8 @@ Ein Eintrag enthält insbesondere:
 
 Hinweise zur Suche und Detailansicht finden Sie unter [Den Log der Ereignisse analysieren](../system-wartung/den-log-der-ereignisse-analysieren.md).
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Dokumentation
 
 * [Plugins installieren](plugins-installieren.md)

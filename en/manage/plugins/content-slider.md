@@ -36,3 +36,5 @@ Missing screenshot
 2. Text
 3. Image
 4. Button
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}

@@ -119,6 +119,8 @@ Weitere Informationen finden Sie unter [Menüs](../content-management/menus.md).
 
 Abhängig von der Plugin-Konfiguration wird zur Produktsuche weitergeleitet oder die unbekannte Artikelnummer wird ignoriert. Kontrollieren Sie deshalb nach der Erfassung beziehungsweise nach einem Upload die übernommenen Positionen.
 
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
+
 ## Weiterführende Dokumentation
 
 * [Plugins verwalten](plugins-verwalten.md)

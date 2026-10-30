@@ -86,3 +86,5 @@ Optional fields can be used:
 `DP_ItemGroupId`, `DP_VariantCombinationId`
 
 Additionally, a WebAPI endpoint is available via which records can be maintained programmatically.
+
+{% include "../../.gitbook/includes/consultation_request_plugin.md" %}
