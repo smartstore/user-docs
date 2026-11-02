@@ -172,6 +172,7 @@
   * [Attribute Rules](manage/plugins/attribute-rules.md)
   * [Blog](manage/plugins/blog.md)
   * [Brevo](manage/plugins/brevo.md)
+  * [Clickatell SMS Provider](manage/plugins/clickatell.md)
   * [Common Export Providers](manage/plugins/commonexportproviders.md)
   * [Content Slider](manage/plugins/content-slider.md)
   * [DependingPrices](manage/plugins/dependingprices.md)

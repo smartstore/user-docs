@@ -520,10 +520,12 @@ Bindet Clickatell als SMS-Dienst ein und versendet Benachrichtigungen zu Bestell
 **Wichtigste Features**
 
 * SMS-Benachrichtigungen bei Bestellungen
-* konfigurierbare Empfänger- und Zugangsdaten
-* Testversand
-* Anbindung an den Smartstore-Nachrichtenfluss.
+* Konfiguration von Empfängernummern und API-Key
+* Versand von Testnachrichten
+* interne Auftragsnotiz zum SMS-Versand.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Clickatell SMS-Anbieter](clickatell.md).
 
 ### CommonExportProviders (Datenexporte)
 

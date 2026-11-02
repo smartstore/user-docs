@@ -490,9 +490,12 @@ Uses Clickatell to send order notifications to shop administrators. A paid Click
 **Key Features**
 
 * Order SMS notifications
-* Recipient and credential configuration
-* Test messages and workflow integration
+* Configuration of recipient numbers and API key
+* Sending test messages
+* Internal order note about the SMS
 {% endhint %}
+
+For setup and usage details, see the [Clickatell SMS Provider](clickatell.md) plugin documentation.
 
 ### CommonExportProviders (Data Exports)
 
