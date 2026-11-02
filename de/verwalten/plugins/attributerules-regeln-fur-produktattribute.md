@@ -1,0 +1,2 @@
+# AttributeRules (Regeln für Produktattribute)
+

@@ -1,0 +1,6 @@
+---
+icon: lightbulb
+---
+
+# Allgemeine Konzepte
+

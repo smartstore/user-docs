@@ -1,0 +1,2 @@
+# Google Merchant Center Feed
+
