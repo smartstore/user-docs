@@ -1,2 +1,71 @@
 # Importprofile verwalten
 
+Der Zweck von Datenimporten ist der Massenimport von externen Datenstrukturen wie Produkten oder Kunden mittels CSV-Dateien. Die Importfunktion ist auch in der Lage, riesige Datenmengen wie z. B. Produktpreise zu aktualisieren.
+
+Importprofile fassen alle benötigten Informationen zusammen, um den Importvorgang individuell zu steuern. Dazu gehören insbesondere:
+
+* Das Hochladen von Dateien, die als Datenquellen dienen
+* Objekttypen, die importiert werden sollen, z. B. Produkt, Kunde, u.s.w.
+* CSV-spezfische Einstellungen
+* Felddaten-Mapping
+* Einstellung von automatischen Importen als _Geplante Aufgabe_
+
+Um Importprofile zu verwalten, gehen Sie zu **Konfiguration > Importieren**.
+
+![](../../.gitbook/assets/import-1.PNG)
+
+Sie können eine Geplante Aufgabe, die im Profil konfiguriert wurde, direkt auslösen, indem Sie **Jetzt ausführen** in der Profil-Liste klicken und sich die Fortschrittsanzeige des Imports ansehen. der Button **Ereignisprotokoll** öffnet die Log-Datei des letzten Importvorgangs. Diese enthält wichtige Informationen (wie z. B. Fehlermeldungen) über die letzte Ausführung eines Imports.
+
+## Importprofile erstellen und bearbeiten
+
+Klicken Sie auf **Neu**, um ein neues Importprofil zu erstellen. Auf der folgenden Seite laden Sie Ihre Importdatei hoch und wählen das zu importierende Object. Nachdem Sie **Speichern** gedrückt haben, werden Sie zu dem neuen Importprofil geleitet.
+
+Klicken Sie auf den Namen des Importprofils, um es zu bearbeiten.
+
+![](../../.gitbook/assets/importprofile_verwalten_2.png) ![](../../.gitbook/assets/importprofile_verwalten_3.png)
+
+Datenimporte können automatisch jederzeit über [Geplante Aufgaben](../system-and-wartung/geplante-aufgaben-verwalten.md) ausgeführt werden. Daher wird jedem Importprofil bei seiner Erstellung eine _Geplante Aufgabe_ zugeordnet. Die Ausführung ist standardmäßig nicht aktiviert, weshalb das Profil nicht automatisch ausgeführt wird. Klicken Sie auf **Ausführung**, um einen Link zu der verbundenen geplanten Aufgabe zu erhalten und die Planungs-Einstellungen zu verändern.
+
+### Objekttypen
+
+Das Framework für den Import unterstützt folgende Objekttypen:
+
+* Produkt
+* Kategorie
+* Kunde
+* Newsletter Abonnent
+
+### CSV Konfiguration
+
+| **Eingabefeld**                    | **Beschreibung**                                                                         |
+| ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| Alle Felder in Anführungszeichen   | Legt fest, ob die Werte aller Felder durch Anführungszeichen begrenzt vorliegen.         |
+| Überflüssige Leerzeichen entfernen | Legt fest, ob Leerzeichen am Anfang und am Ende eines Feldwertes entfernt werden sollen. |
+| Mehrzeilen erlaubt                 | Legt fest, ob mehrzeilige Feldwerte unterstützt werden.                                  |
+| Trennzeichen                       | Legt das zu verwendende Trennzeichen für die Felder fest.                                |
+| Anführungszeichen                  | Legt das zu verwendende Anführungszeichen fest.                                          |
+| Inneres Anführungszeichen          | Legt das innere Anführungszeichen (Escaping) fest.                                       |
+
+{% hint style="info" %}
+Die erste Zeile einer CSV-Datei muss die Spaltenüberschriften enthalten, die die Werte beschreiben welche in der Spalten enthalten sind.
+{% endhint %}
+
+### Zuordnung der Importfelder
+
+Sie können optional für jedes Feld der Importdatei festlegen, ob und für welche Objekteigenschaft dessen Daten zu importieren sind. Gleichnamige Felder werden grundsätzlich immer importiert, sofern sie nicht explizit ignoriert werden sollen. Noch nicht ausgewählte Eigenschaften sind in der Auswahlliste hervorgehoben. Zudem ist die Angabe eines Standardwertes möglich, der angewendet wird, wenn das Importfeld leer ist.
+
+![](../../.gitbook/assets/import-2.PNG)
+
+{% hint style="info" %}
+Durch Änderung des Trennzeichens werden gespeicherte Zuordnungen ungültig und zurückgesetzt.
+{% endhint %}
+
+### Import zugehöriger Daten
+
+Wenn im Importprofil die Option **Zugehörige Daten importieren** aktiviert ist, werden bei einem CSV-Import von Produktdaten auch die zugehörigen Daten der Staffelpreise, Attributoptionen und Variantkombinationen importiert. Laden Sie dazu die Dateien mit den zugehörigen Daten, die Sie zuvor exportiert haben, im Importprofil hoch.
+
+<figure><img src="../../.gitbook/assets/import.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Gemäß der Namenskonvention muss der Dateiname mit einem der technischen Datennamen **Tierprice**, **ProductVariantAttributeValue** oder **ProductVariantAttributeCombination** enden, da anhand dessen der Produktimport die Art der Daten in der Datei erkennt.
+{% endhint %}
