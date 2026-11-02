@@ -8,8 +8,8 @@ Manage your web content, blogs, news, forums, and page layout.
 
 {% columns %}
 {% column width="50%" %}
-{% content-ref url="managing-pages-topics.md" %}
-[managing-pages-topics.md](managing-pages-topics.md)
+{% content-ref url="managing-pages-and-topics.md" %}
+[managing-pages-and-topics.md](managing-pages-and-topics.md)
 {% endcontent-ref %}
 
 {% content-ref url="managing-news.md" %}
@@ -24,8 +24,8 @@ Manage your web content, blogs, news, forums, and page layout.
 [managing-forums.md](managing-forums.md)
 {% endcontent-ref %}
 
-{% content-ref url="starting-polls-votes.md" %}
-[starting-polls-votes.md](starting-polls-votes.md)
+{% content-ref url="starting-polls-and-votes.md" %}
+[starting-polls-and-votes.md](starting-polls-and-votes.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
@@ -38,16 +38,16 @@ Manage your web content, blogs, news, forums, and page layout.
 [arranging-the-content-slider.md](arranging-the-content-slider.md)
 {% endcontent-ref %}
 
-{% content-ref url="arranging-widgets.md" %}
-[arranging-widgets.md](arranging-widgets.md)
+{% content-ref url="arranging-widgets/" %}
+[arranging-widgets](arranging-widgets/)
 {% endcontent-ref %}
 
 {% content-ref url="edit-menu-items.md" %}
 [edit-menu-items.md](edit-menu-items.md)
 {% endcontent-ref %}
 
-{% content-ref url="smartstore-cms-page-builder/" %}
-[smartstore-cms-page-builder](smartstore-cms-page-builder/)
+{% content-ref url="smartstore-page-builder/" %}
+[smartstore-page-builder](smartstore-page-builder/)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

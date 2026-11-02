@@ -42,8 +42,8 @@ Create, edit, and manage your product catalog, including inventory, pricing, and
 [handling-digital-products-esd.md](handling-digital-products-esd.md)
 {% endcontent-ref %}
 
-{% content-ref url="importing-exporting-products.md" %}
-[importing-exporting-products.md](importing-exporting-products.md)
+{% content-ref url="importing-and-exporting-products.md" %}
+[importing-and-exporting-products.md](importing-and-exporting-products.md)
 {% endcontent-ref %}
 
 {% content-ref url="exporting-product-feeds.md" %}

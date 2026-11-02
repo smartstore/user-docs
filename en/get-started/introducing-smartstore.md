@@ -14,7 +14,7 @@ A comprehensive set of tools for CRM & CMS, sales, marketing, payment & shipping
 
 **Smartstore delivers a beautiful and configurable shop front end out-of-the-box**, built with a design approach on the highest level, including components like `Twitter Bootstrap`, `Less CSS` and others. The innovative ShopBar, a powerful layered navigation, reviews & ratings, an optimized checkout process... they all provide a perfect shopping experience for your buyers.
 
-The state-of-the-art architecture of Smartstore - with `ASP.NET Core 7`, `Entity Framework Core 6` and Domain Driven Design approach - makes it easy to extend, extremely flexible and essentially fun to work with. &#x20;
+The state-of-the-art architecture of Smartstore - with `ASP.NET Core 7`, `Entity Framework Core 6` and Domain Driven Design approach - makes it easy to extend, extremely flexible and essentially fun to work with.
 
 ## Features
 

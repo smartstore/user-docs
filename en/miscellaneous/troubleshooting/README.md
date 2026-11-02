@@ -6,13 +6,13 @@ icon: circle-exclamation
 
 ## Clear cache
 
-If you are having problems with your shop, you can often solve them by [clearing the cache](../../manage/system-maintenance/clearing-cache.md). Try this first.
+If you are having problems with your shop, you can often solve them by [clearing the cache](../../manage/system-and-maintenance/clearing-cache.md). Try this first.
 
 ## Cloudflare
 
 Problems with Cloudflare can be caused by caching, blocked automated tasks, or an incorrectly identified visitor IP address.
 
-Recommended settings and solutions can be found in [the Cloudflare article](../integrations/cloudflare.md).
+Recommended settings and solutions can be found in [the Cloudflare article](cloudflare.md).
 
 ## Google reCAPTCHA is not working
 

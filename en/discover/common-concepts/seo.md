@@ -12,7 +12,7 @@ You can edit and overwrite the global settings for the metadata mentioned above 
 
 ## Language SEO Settings
 
-If you're targeting an audience in different languages, you need to consider some rules, so Google indexes your content in the local search for these languages. Smartstore takes care of that automatically, as it sets a _lang_ tag in the HTML code of your shop that indicates which language the content is in. Also, your store will be accessed by different subdirectories, which contain the SEO code you've determined for the languages (e.g. _/en_ or _/de_).&#x20;
+If you're targeting an audience in different languages, you need to consider some rules, so Google indexes your content in the local search for these languages. Smartstore takes care of that automatically, as it sets a _lang_ tag in the HTML code of your shop that indicates which language the content is in. Also, your store will be accessed by different subdirectories, which contain the SEO code you've determined for the languages (e.g. _/en_ or _/de_).
 
 ## Miscellaneous
 

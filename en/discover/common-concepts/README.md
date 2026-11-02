@@ -34,8 +34,8 @@ This section brings together features and workflows used in several areas of **S
 [uploading-pictures.md](uploading-pictures.md)
 {% endcontent-ref %}
 
-{% content-ref url="previewing-themes-stores.md" %}
-[previewing-themes-stores.md](previewing-themes-stores.md)
+{% content-ref url="previewing-themes-and-stores.md" %}
+[previewing-themes-and-stores.md](previewing-themes-and-stores.md)
 {% endcontent-ref %}
 
 {% content-ref url="downloading-as-pdf.md" %}

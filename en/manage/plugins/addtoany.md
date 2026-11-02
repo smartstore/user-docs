@@ -8,11 +8,11 @@ The [AddToAny](https://www.addtoany.com/) plugin adds a widget to specified page
 
 For the widget to display, the following conditions must be met:
 
-- Third-party cookies must be allowed in the cookie manager.
+* Third-party cookies must be allowed in the cookie manager.
 
 ## Configuration
 
-The configuration is done through the plugin settings (Plugins &rarr; AddToAny). Among other things, you can specify the placement and design of the widget, offered services, and the applicable pages.
+The configuration is done through the plugin settings (Plugins → AddToAny). Among other things, you can specify the placement and design of the widget, offered services, and the applicable pages.
 
 ![AddToAny configuration](../../.gitbook/assets/addtoany_config.png)
 

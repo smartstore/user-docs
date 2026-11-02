@@ -37,5 +37,5 @@ When configuring your message template, you may want to add information about th
 {% hint style="info" %}
 **Select placeholder**
 
-To insert a placeholder in your template, you can place the cursor anywhere in the HTML editor and insert the desired placeholder as described below. At the desired position in the editor, type two opening curly braces followed immediately by a space and click on the selection **Order**. Then enter a dot and click on the option **OrderNumber** in the selection. Finally, save the changes.  &#x20;
+To insert a placeholder in your template, you can place the cursor anywhere in the HTML editor and insert the desired placeholder as described below. At the desired position in the editor, type two opening curly braces followed immediately by a space and click on the selection **Order**. Then enter a dot and click on the option **OrderNumber** in the selection. Finally, save the changes.
 {% endhint %}

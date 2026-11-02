@@ -8,189 +8,189 @@ Plugins extend Smartstore with additional features, integrations, and payment, s
 
 ## Using, Installing, and Managing Plugins
 
-Depending on the offering, you can obtain new plugins through the [Smartstore Community & Marketplace](../../get-started/community-marketplace/README.md), directly from Smartstore, or from a third-party provider. See [Installing Plugins](installing-plugins.md) for step-by-step instructions.
+Depending on the offering, you can obtain new plugins through the [Smartstore Community & Marketplace](../../get-started/community-and-marketplace/), directly from Smartstore, or from a third-party provider. See [Installing Plugins](installing-plugins.md) for step-by-step instructions.
 
 Use the administration area to activate, configure, update, or remove installed plugins. For details, see [Managing Plugins](managing-plugins.md).
 
 ## Plugin Groups
 
-The plugins are organized by functional area, similar to the structure of the Smartstore backend. You can also go directly to the [alphabetical list](#plugins-from-a-to-z).
+The plugins are organized by functional area, similar to the structure of the Smartstore backend. You can also go directly to the [alphabetical list](./#plugins-from-a-to-z).
 
 ### Administration
 
 Plugins for administrative workflows, number formats, and search analysis.
 
-* [OrderNumberFormatter](#ordernumberformatter)
-* [SearchLog](#searchlog)
+* [OrderNumberFormatter](./#ordernumberformatter)
+* [SearchLog](./#searchlog)
 
 ### Analytics
 
 Plugins for collecting, analyzing, and presenting visitor and shop data.
 
-* [ETracker](#etracker)
-* [Google.Analytics](#googleanalytics)
+* [ETracker](./#etracker)
+* [Google.Analytics](./#googleanalytics)
 
 ### B2B
 
 Features for approval workflows and business-customer purchasing.
 
-* [CartApproval](#cartapproval)
+* [CartApproval](./#cartapproval)
 
 ### Content Management
 
 Plugins for creating, managing, and presenting content and media.
 
-* [Blog](#blog)
-* [ContentSlider](#contentslider)
-* [Faq](#faq)
-* [FileManager](#filemanager)
-* [Forums](#forums)
-* [MediaEditor.Pixlr](#mediaeditorpixlr)
-* [MediaManager](#mediamanager)
-* [MegaMenu](#megamenu)
-* [News](#news)
-* [PageBuilder](#pagebuilder)
-* [Polls](#polls)
-* [RemoveBadge](#removebadge)
-* [Timeline](#timeline)
+* [Blog](./#blog)
+* [ContentSlider](./#contentslider)
+* [Faq](./#faq)
+* [FileManager](./#filemanager)
+* [Forums](./#forums)
+* [MediaEditor.Pixlr](./#mediaeditorpixlr)
+* [MediaManager](./#mediamanager)
+* [MegaMenu](./#megamenu)
+* [News](./#news)
+* [PageBuilder](./#pagebuilder)
+* [Polls](./#polls)
+* [RemoveBadge](./#removebadge)
+* [Timeline](./#timeline)
 
 ### Data
 
 Interfaces and exports for structured product, order, and catalog data.
 
-* [BMEcat (BMEcat.de data exchange)](#bmecat-bmecatde-data-exchange)
-* [CommonExportProviders (Data Exports)](#commonexportproviders-data-exports)
-* [PdfExport](#pdfexport)
+* [BMEcat (BMEcat.de data exchange)](./#bmecat-bmecatde-data-exchange)
+* [CommonExportProviders (Data Exports)](./#commonexportproviders-data-exports)
+* [PdfExport](./#pdfexport)
 
 ### Developer
 
 Tools and interfaces for development, integration, and automation.
 
-* [DevTools](#devtools)
-* [WebApi](#webapi)
+* [DevTools](./#devtools)
+* [WebApi](./#webapi)
 
 ### Artificial Intelligence (AI)
 
 AI features and provider integrations for automated content creation and processing.
 
-* [AI (Smartstore basic AI plugin)](#ai-smartstore-basic-ai-plugin)
-* [ChatGPT (OpenAI ChatGPT)](#chatgpt-openai-chatgpt)
-* [Claude (Anthropic Claude)](#claude-anthropic-claude)
-* [DeepSeek](#deepseek)
-* [Google.Gemini](#googlegemini)
-* [Ollama (AI Provider)](#ollama-ai-provider)
+* [AI (Smartstore basic AI plugin)](./#ai-smartstore-basic-ai-plugin)
+* [ChatGPT (OpenAI ChatGPT)](./#chatgpt-openai-chatgpt)
+* [Claude (Anthropic Claude)](./#claude-anthropic-claude)
+* [DeepSeek](./#deepseek)
+* [Google.Gemini](./#googlegemini)
+* [Ollama (AI Provider)](./#ollama-ai-provider)
 
 ### Marketing
 
 Features for reach, customer engagement, product recommendations, and external marketing services.
 
-* [AddToAny](#addtoany)
-* [AttributeRules (Rules for product attributes)](#attributerules-rules-for-product-attributes)
-* [BeezUp (BeezUP Feed)](#beezup-beezup-feed)
-* [Billiger](#billiger)
-* [Botsonic](#botsonic)
-* [Brevo (Email Synchronization)](#brevo-email-synchronization)
-* [cXmlPunchout](#cxmlpunchout)
-* [EmailReminder](#emailreminder)
-* [Google.MerchantCenter (Google Merchant Center feed)](#googlemerchantcenter-google-merchant-center-feed)
-* [Google.Remarketing](#googleremarketing)
-* [Guenstiger (Guenstiger feed)](#guenstiger-guenstiger-feed)
-* [Idealo (Idealo Feed)](#idealo-idealo-feed)
-* [MailChimp (e-mail synchronization)](#mailchimp-e-mail-synchronization)
-* [PersonalPromo (Personalized Product Recommendations)](#personalpromo-personalized-product-recommendations)
+* [AddToAny](./#addtoany)
+* [AttributeRules (Rules for product attributes)](./#attributerules-rules-for-product-attributes)
+* [BeezUp (BeezUP Feed)](./#beezup-beezup-feed)
+* [Billiger](./#billiger)
+* [Botsonic](./#botsonic)
+* [Brevo (Email Synchronization)](./#brevo-email-synchronization)
+* [cXmlPunchout](./#cxmlpunchout)
+* [EmailReminder](./#emailreminder)
+* [Google.MerchantCenter (Google Merchant Center feed)](./#googlemerchantcenter-google-merchant-center-feed)
+* [Google.Remarketing](./#googleremarketing)
+* [Guenstiger (Guenstiger feed)](./#guenstiger-guenstiger-feed)
+* [Idealo (Idealo Feed)](./#idealo-idealo-feed)
+* [MailChimp (e-mail synchronization)](./#mailchimp-e-mail-synchronization)
+* [PersonalPromo (Personalized Product Recommendations)](./#personalpromo-personalized-product-recommendations)
 
 ### Mobile
 
 Integrations for mobile communication services.
 
-* [Clickatell (Clickatell SMS Provider)](#clickatell-clickatell-sms-provider)
+* [Clickatell (Clickatell SMS Provider)](./#clickatell-clickatell-sms-provider)
 
 ### Performance
 
 Plugins for accelerating, scaling, and optimizing the storefront and its media.
 
-* [Azure (Microsoft Azure Services)](#azure-microsoft-azure-services)
-* [MegaSearch](#megasearch)
-* [MegaSearchPlus](#megasearchplus)
-* [OutputCache](#outputcache)
-* [Redis](#redis)
-* [TinyImage](#tinyimage)
+* [Azure (Microsoft Azure Services)](./#azure-microsoft-azure-services)
+* [MegaSearch](./#megasearch)
+* [MegaSearchPlus](./#megasearchplus)
+* [OutputCache](./#outputcache)
+* [Redis](./#redis)
+* [TinyImage](./#tinyimage)
 
 ### Legal
 
 Plugins supporting legal information, privacy, and labeling obligations.
 
-* [GDPR](#gdpr)
-* [GPSR (General Product Safety Regulation)](#gpsr-general-product-safety-regulation)
-* [TrustedShops (TrustedShops Widgets)](#trustedshops-trustedshops-widgets)
-* [Warranty (EU Warranty Labelling)](#warranty-eu-warranty-labelling)
-* [Withdrawal (Contract withdrawal of orders)](#withdrawal-contract-withdrawal-of-orders)
+* [GDPR](./#gdpr)
+* [GPSR (General Product Safety Regulation)](./#gpsr-general-product-safety-regulation)
+* [TrustedShops (TrustedShops Widgets)](./#trustedshops-trustedshops-widgets)
+* [Warranty (EU Warranty Labelling)](./#warranty-eu-warranty-labelling)
+* [Withdrawal (Contract withdrawal of orders)](./#withdrawal-contract-withdrawal-of-orders)
 
 ### Security
 
 Plugins for bot protection and geographic or network-based access control.
 
-* [Apple.Auth (Apple Login)](#appleauth-apple-login)
-* [CaptchaFox (CaptchaFox CAPTCHA)](#captchafox-captchafox-captcha)
-* [Facebook.Auth (Facebook Login)](#facebookauth-facebook-login)
-* [FriendlyCaptcha](#friendlycaptcha)
-* [GeoBlocker](#geoblocker)
-* [Google.Auth (Google Login)](#googleauth-google-login)
-* [Microsoft.Auth (Microsoft Login)](#microsoftauth-microsoft-login)
-* [Twitter.Auth (X Login)](#twitterauth-x-login)
+* [Apple.Auth (Apple Login)](./#appleauth-apple-login)
+* [CaptchaFox (CaptchaFox CAPTCHA)](./#captchafox-captchafox-captcha)
+* [Facebook.Auth (Facebook Login)](./#facebookauth-facebook-login)
+* [FriendlyCaptcha](./#friendlycaptcha)
+* [GeoBlocker](./#geoblocker)
+* [Google.Auth (Google Login)](./#googleauth-google-login)
+* [Microsoft.Auth (Microsoft Login)](./#microsoftauth-microsoft-login)
+* [Twitter.Auth (X Login)](./#twitterauth-x-login)
 
 ### Tax
 
 Standard providers for tax calculation in Smartstore.
 
-* [Tax (Standard Tax calculation)](#tax-standard-tax-calculation)
+* [Tax (Standard Tax calculation)](./#tax-standard-tax-calculation)
 
 ### Search Engine Optimization (SEO)
 
 Tools for redirects, URL migrations, and preserving existing search-engine references.
 
-* [BizUrlMapper (SmartStore.biz URL Mapper)](#bizurlmapper-smartstorebiz-url-mapper)
-* [LegacyUrlRewriter](#legacyurlrewriter)
-* [UrlRewriter](#urlrewriter)
+* [BizUrlMapper (SmartStore.biz URL Mapper)](./#bizurlmapper-smartstorebiz-url-mapper)
+* [LegacyUrlRewriter](./#legacyurlrewriter)
+* [UrlRewriter](./#urlrewriter)
 
 ### Sales
 
 Features for pricing, quick orders, and procurement-system integrations.
 
-* [DependingPrices](#dependingprices)
-* [DirectOrder](#directorder)
-* [Oci](#oci)
-* [OpenTrans (OpenTrans export)](#opentrans-opentrans-export)
+* [DependingPrices](./#dependingprices)
+* [DirectOrder](./#directorder)
+* [Oci](./#oci)
+* [OpenTrans (OpenTrans export)](./#opentrans-opentrans-export)
 
 ### Shipping
 
 Shipping-cost calculation and standard providers for different shipping models.
 
-* [DimensionPricing (Dimension-based shipping)](#dimensionpricing-dimension-based-shipping)
-* [Shipping](#shipping)
-* [ShippingByWeight](#shippingbyweight)
+* [DimensionPricing (Dimension-based shipping)](./#dimensionpricing-dimension-based-shipping)
+* [Shipping](./#shipping)
+* [ShippingByWeight](./#shippingbyweight)
 
 ### Payment
 
 Payment methods and service providers for different markets and business models.
 
-* [AdyenPay](#adyenpay)
-* [AmazonPay](#amazonpay)
-* [BilliePay](#billiepay)
-* [EasyCredit](#easycredit)
-* [GiroCode](#girocode)
-* [IdealPayment](#idealpayment)
-* [IonosPayment (ipayment Methods)](#ionospayment-ipayment-methods)
-* [KlarnaPay](#klarnapay)
-* [MolliePay](#molliepay)
-* [OfflinePayment](#offlinepayment)
-* [Payever](#payever)
-* [PayPal](#paypal)
-* [PostFinance](#postfinance)
-* [Skrill](#skrill)
-* [Sofortueberweisung (Pay Now)](#sofortueberweisung-pay-now)
-* [Stripe](#stripe)
-* [Wallet](#wallet)
+* [AdyenPay](./#adyenpay)
+* [AmazonPay](./#amazonpay)
+* [BilliePay](./#billiepay)
+* [EasyCredit](./#easycredit)
+* [GiroCode](./#girocode)
+* [IdealPayment](./#idealpayment)
+* [IonosPayment (ipayment Methods)](./#ionospayment-ipayment-methods)
+* [KlarnaPay](./#klarnapay)
+* [MolliePay](./#molliepay)
+* [OfflinePayment](./#offlinepayment)
+* [Payever](./#payever)
+* [PayPal](./#paypal)
+* [PostFinance](./#postfinance)
+* [Skrill](./#skrill)
+* [Sofortueberweisung (Pay Now)](./#sofortueberweisung-pay-now)
+* [Stripe](./#stripe)
+* [Wallet](./#wallet)
 
 ## Plugins from A to Z
 
@@ -238,7 +238,7 @@ Provides Smartstore's shared AI infrastructure and extension points for model pr
 * Streaming responses and reusable AI services
 {% endhint %}
 
-For setup and usage details, see the [AI (Smartstore basic AI plugin)](ai.md) plugin documentation.
+For setup and usage details, see the [AI (Smartstore basic AI plugin)](ai/) plugin documentation.
 
 ### AmazonPay
 
@@ -255,7 +255,7 @@ Enables sign-in and payment with Amazon Pay using address and payment informatio
 * full and partial refunds with payment status updates through IPN.
 {% endhint %}
 
-For setup and usage details, see the [Amazon Pay](amazonpay.md) plugin documentation.
+For setup and usage details, see the [Amazon Pay](payment-providers-and-payment-methods/amazon-pay.md) plugin documentation.
 
 ### Apple.Auth (Apple Login)
 
@@ -271,7 +271,7 @@ Allows customers to register and sign in with their Apple ID through Sign in wit
 * Apple client and key configuration
 {% endhint %}
 
-For setup and usage details, see the [Apple.Auth (Apple Login)](auth/apple-auth.md) plugin documentation.
+For setup and usage details, see the [Apple.Auth (Apple Login)](setting-up-external-authentication/apple-auth.md) plugin documentation.
 
 ### AttributeRules (Rules for product attributes)
 
@@ -462,7 +462,7 @@ Connects Smartstore AI to OpenAI models. Separate API credentials are required, 
 * Text generation, streaming, and connection testing
 {% endhint %}
 
-For setup and usage details, see the [ChatGPT (OpenAI ChatGPT)](ai-provider/openai-chatgpt.md) plugin documentation.
+For setup and usage details, see the [ChatGPT (OpenAI ChatGPT)](ai/openai-chatgpt.md) plugin documentation.
 
 ### Claude (Anthropic Claude)
 
@@ -478,7 +478,7 @@ Connects Anthropic Claude models to Smartstore's central AI layer as an alternat
 * Streaming through the shared AI infrastructure
 {% endhint %}
 
-For setup and usage details, see the [Claude (Anthropic Claude)](ai-provider/anthropic-claude.md) plugin documentation.
+For setup and usage details, see the [Claude (Anthropic Claude)](ai/anthropic-claude.md) plugin documentation.
 
 ### Clickatell (Clickatell SMS Provider)
 
@@ -490,12 +490,9 @@ Uses Clickatell to send order notifications to shop administrators. A paid Click
 **Key Features**
 
 * Order SMS notifications
-* Configuration of recipient numbers and API key
-* Sending test messages
-* Internal order note about the SMS
+* Recipient and credential configuration
+* Test messages and workflow integration
 {% endhint %}
-
-For setup and usage details, see the [Clickatell SMS Provider](clickatell.md) plugin documentation.
 
 ### CommonExportProviders (Data Exports)
 
@@ -512,7 +509,7 @@ Provides general CSV and XML exports for key store data. Export commands are ava
 * Additional CSV files for associated product data
 {% endhint %}
 
-For more information, see [Data Exports](commonexportproviders.md).
+For more information, see [Data Exports](common-export-providers.md).
 
 ### ContentSlider
 
@@ -558,7 +555,7 @@ Makes DeepSeek models available through Smartstore's shared AI infrastructure.
 * Streaming text generation
 {% endhint %}
 
-For setup and usage details, see the [DeepSeek](ai-provider/deepseek.md) plugin documentation.
+For setup and usage details, see the [DeepSeek](ai/deepseek.md) plugin documentation.
 
 ### DependingPrices
 
@@ -590,7 +587,7 @@ Provides development and diagnostics utilities for Smartstore extensions and int
 * Tools for implementation and troubleshooting
 {% endhint %}
 
-For setup and usage details, see the [DevTools](devtools.md) plugin documentation.
+For setup and usage details, see the [DevTools](developer-tools.md) plugin documentation.
 
 ### DimensionPricing (Dimension-based shipping)
 
@@ -606,7 +603,7 @@ Calculates shipping costs from package or product dimensions for scenarios in wh
 * Integration with shipping rules and destinations
 {% endhint %}
 
-For setup and usage details, see the [DimensionPricing (Dimension-based shipping)](dimension-pricing.md) plugin documentation.
+For setup and usage details, see the [DimensionPricing (Dimension-based shipping)](dimension-based-shipping/) plugin documentation.
 
 ### DirectOrder
 
@@ -680,7 +677,7 @@ Allows customers to register and sign in with a Facebook account.
 * App ID and secret configuration
 {% endhint %}
 
-For setup and usage details, see the [Facebook.Auth (Facebook Login)](auth/facebook-auth.md) plugin documentation.
+For setup and usage details, see the [Facebook.Auth (Facebook Login)](setting-up-external-authentication/facebook-auth.md) plugin documentation.
 
 ### Faq
 
@@ -710,7 +707,7 @@ Associates downloadable files and documents with products and manages their stor
 * Central file management
 {% endhint %}
 
-For setup and usage details, see the [FileManager](filemanager.md) plugin documentation.
+For setup and usage details, see the [FileManager](file-manager.md) plugin documentation.
 
 ### Forums
 
@@ -801,7 +798,7 @@ Integrates Google Analytics into the storefront and tracks visits as well as sel
 * configurable item ID.
 {% endhint %}
 
-For setup and usage details, see the [Google Analytics](googleanalytics.md) plugin documentation.
+For setup and usage details, see the [Google Analytics](google-analytics.md) plugin documentation.
 
 ### Google.Auth (Google Login)
 
@@ -817,7 +814,7 @@ Allows customers to register and sign in with a Google account.
 * Client ID and secret configuration
 {% endhint %}
 
-For setup and usage details, see the [Google.Auth (Google Login)](auth/google-auth.md) plugin documentation.
+For setup and usage details, see the [Google.Auth (Google Login)](setting-up-external-authentication/google-auth.md) plugin documentation.
 
 ### Google.Gemini
 
@@ -833,7 +830,7 @@ Connects Google Gemini models to Smartstore's central AI layer.
 * Streaming through the shared AI infrastructure
 {% endhint %}
 
-For setup and usage details, see the [Google.Gemini](ai-provider/google-gemini.md) plugin documentation.
+For setup and usage details, see the [Google.Gemini](ai/google-gemini.md) plugin documentation.
 
 ### Google.MerchantCenter (Google Merchant Center feed)
 
@@ -850,7 +847,7 @@ Exports product data for Google Merchant Center and Shopping destinations.
 * scheduled exports with a public feed URL
 {% endhint %}
 
-For setup and usage details, see the [Google Merchant Center Feed](googlemerchantcenter.md) plugin documentation.
+For setup and usage details, see the [Google Merchant Center Feed](google-merchant-center-feed.md) plugin documentation.
 
 ### Google.Remarketing
 
@@ -1012,7 +1009,7 @@ Provides central management for images, videos, documents, and other media used 
 * Metadata and storefront integration
 {% endhint %}
 
-For setup and usage details, see the [MediaManager](mediamanager.md) plugin documentation.
+For setup and usage details, see the [MediaManager](media-manager/) plugin documentation.
 
 ### MegaMenu
 
@@ -1074,7 +1071,7 @@ Allows customers to sign in with a Microsoft account, including supported organi
 * OAuth/OpenID client configuration
 {% endhint %}
 
-For setup and usage details, see the [Microsoft.Auth (Microsoft Login)](auth/microsoft-auth.md) plugin documentation.
+For setup and usage details, see the [Microsoft.Auth (Microsoft Login)](setting-up-external-authentication/microsoft-auth.md) plugin documentation.
 
 ### MolliePay
 
@@ -1133,7 +1130,7 @@ Provides classic payment methods that are processed outside an online payment ga
 * Configurable payment statuses and additional fees
 {% endhint %}
 
-For more information about setup and use, see the [OfflinePayment](offlinepayment.md) plugin documentation.
+For more information about setup and use, see the [OfflinePayment](payment-providers-and-payment-methods/offlinepayment.md) plugin documentation.
 
 ### Ollama (AI Provider)
 
@@ -1149,7 +1146,7 @@ Connects Smartstore to an Ollama instance for locally operated or self-hosted la
 * Local generation and streaming
 {% endhint %}
 
-For setup and usage details, see the [Ollama (AI Provider)](ai-provider/ollama.md) plugin documentation.
+For setup and usage details, see the [Ollama (AI Provider)](ai/ollama.md) plugin documentation.
 
 ### OpenTrans (OpenTrans export)
 
@@ -1209,7 +1206,7 @@ Provides visual creation of modular content pages and landing pages using reusab
 * Preview and publishing with shop content
 {% endhint %}
 
-For setup and usage details, see the [PageBuilder](pagebuilder.md) plugin documentation.
+For setup and usage details, see the [PageBuilder](page-builder/) plugin documentation.
 
 ### Payever
 
@@ -1240,7 +1237,7 @@ Integrates PayPal into the Smartstore checkout and associates authorization and 
 * Full and partial refunds
 {% endhint %}
 
-For setup and usage details, see the [PayPal](paypal.md) plugin documentation.
+For setup and usage details, see the [PayPal](payment-providers-and-payment-methods/paypal.md) plugin documentation.
 
 ### PdfExport
 
@@ -1402,7 +1399,7 @@ Provides Klarna Pay Now, historically integrated as Sofort transfer, as a checko
 
 Integrates Stripe and the online payment methods supported by the plugin and merchant account.
 
-For setup and usage details, see the [Stripe](stripe.md) plugin documentation.
+For setup and usage details, see the [Stripe](payment-providers-and-payment-methods/stripe.md) plugin documentation.
 
 {% hint style="info" %}
 **Key Features**
@@ -1485,7 +1482,7 @@ Uses X, formerly Twitter, as an external sign-in provider.
 * API key and callback configuration
 {% endhint %}
 
-For setup and usage details, see the [Twitter.Auth (X Login)](auth/twitter-auth.md) plugin documentation.
+For setup and usage details, see the [Twitter.Auth (X Login)](setting-up-external-authentication/x-auth.md) plugin documentation.
 
 ### UrlRewriter
 
@@ -1547,7 +1544,7 @@ Adds a REST-oriented programming interface based on OData for authorized access 
 * Filtering, sorting, paging, and data exchange
 {% endhint %}
 
-For setup and usage details, see the [WebApi](webapi.md) plugin documentation.
+For setup and usage details, see the [WebApi](web-api.md) plugin documentation.
 
 ### Withdrawal (Contract withdrawal of orders)
 
@@ -1570,4 +1567,3 @@ For setup and usage details, see the [Withdrawal (Contract withdrawal of orders)
 We would be happy to advise you personally on features, use cases, and licensing options. Together, we will determine which plugin fits your requirements and guide you toward the right purchasing decision.
 
 <a href="https://smartstore.com/en/personal-consultation/" class="button primary">Request a personal consultation</a>
-

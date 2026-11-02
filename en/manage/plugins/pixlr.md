@@ -1,20 +1,19 @@
 # Pixlr
 
-Allows you to create and edit images directly in the [Media Manager](mediamanager.md).
+Allows you to create and edit images directly in the [Media Manager](media-manager/).
 
 ![The Pixlr editor](../../.gitbook/assets/module_pixlr_editor.png)
 
 ## Usage in Media Manager
 
-Pixlr functionality is [integrated into the Media Manager](mediamanager/integrations.md) starting with Smartstore v6. To access it, navigate to **CMS** → **Media** in the backend. We offer two ways to use Pixlr:
+Pixlr functionality is [integrated into the Media Manager](media-manager/media-manager-extensions.md) starting with Smartstore v6. To access it, navigate to **CMS** → **Media** in the backend. We offer two ways to use Pixlr:
 
-* With the option **Create with Pixlr**, which appears after right-clicking a folder, you can create new content.
+*   With the option **Create with Pixlr**, which appears after right-clicking a folder, you can create new content.
 
-  ![New content - Create with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_createnew.png)
+    ![New content - Create with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_createnew.png)
+*   Editing can be started by right-clicking an image and selecting **Edit with Pixlr**.
 
-* Editing can be started by right-clicking an image and selecting **Edit with Pixlr**.
-
-  ![Existing content - Edit with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_edit.png)
+    ![Existing content - Edit with Pixlr](../../.gitbook/assets/module_pixlr_mediamanager_edit.png)
 
 Both variants open the Pixlr editor, which allows for a multitude of editing possibilities.
 
@@ -28,13 +27,13 @@ After you have saved the image in Pixlr, a Smartstore dialog appears. This offer
 
 ![Plugin configuration](../../.gitbook/assets/module_pixlr_configuration.png)
 
-| **Option** | **Description** |
-| --- | --- |
-| Client key | Sets the Pixlr client key to be used. |
-| Client secret | Sets the Pixlr client secret to be used. |
-| Editor | Determines whether the extended Pixlr editor should be used. |
-| Preselect “Save as copy” | By default, selects the option “Save as copy” in the save dialog. |
-| Background color | Sets the editor’s background color (workspace). |
-| Accent color | Sets the accent color for certain elements in the editor (e.g., buttons and tooltips). |
+| **Option**               | **Description**                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------- |
+| Client key               | Sets the Pixlr client key to be used.                                                  |
+| Client secret            | Sets the Pixlr client secret to be used.                                               |
+| Editor                   | Determines whether the extended Pixlr editor should be used.                           |
+| Preselect “Save as copy” | By default, selects the option “Save as copy” in the save dialog.                      |
+| Background color         | Sets the editor’s background color (workspace).                                        |
+| Accent color             | Sets the accent color for certain elements in the editor (e.g., buttons and tooltips). |
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}

@@ -1,6 +1,6 @@
 # Managing News
 
-_Content is King_ is a commonly used phrase relating to search engine optimization, and it exists for a good reason. Google likes fresh content and gives a higher ranking to sites that are frequently creating new textual content. Smartstore contains a system to manage news entries, enabling shop administrators to create new content on a regular basis. The news you create can be displayed on the home page of your shop, and are made available through an RSS feed based on the settings you've configured in [News Settings](../configuration/general-settings-preferences/news-settings.md).
+_Content is King_ is a commonly used phrase relating to search engine optimization, and it exists for a good reason. Google likes fresh content and gives a higher ranking to sites that are frequently creating new textual content. Smartstore contains a system to manage news entries, enabling shop administrators to create new content on a regular basis. The news you create can be displayed on the home page of your shop, and are made available through an RSS feed based on the settings you've configured in [News Settings](../configuration/general-settings-and-preferences/news-settings.md).
 
 ## Creating News Items
 

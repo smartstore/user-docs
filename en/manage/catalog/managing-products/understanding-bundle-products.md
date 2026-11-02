@@ -4,7 +4,7 @@ Bundling means selling multiple products as one, namely as a bundle. Bundles are
 
 ## Usage scenario
 
-Imagine you want to sell a video game console together with two wireless controllers and one video game. To do so, you would create a new product with the **Product Type:**  **Bundle Product**. You'll find this setting in the **Product Info Tab**. Once you've saved this product, there will be a new tab named **Bundled Products**, where you can add existing products from your catalog to this bundle.&#x20;
+Imagine you want to sell a video game console together with two wireless controllers and one video game. To do so, you would create a new product with the **Product Type:** **Bundle Product**. You'll find this setting in the **Product Info Tab**. Once you've saved this product, there will be a new tab named **Bundled Products**, where you can add existing products from your catalog to this bundle.
 
 {% hint style="info" %}
 To create a sales incentive, the bundle price should obviously be less than what the customer would have to pay for the individual components of the bundle product.
@@ -18,7 +18,7 @@ To create a sales incentive, the bundle price should obviously be less than what
 
 A product that is assigned to a bundle is called a bundle item.
 
-1. Switch to the **Bundled Products**  tab of your bundle product and click the **Add New** button.
+1. Switch to the **Bundled Products** tab of your bundle product and click the **Add New** button.
 2. Select one or more products by activating the checkbox in the first column. You can use the search form to find the products you want to bundle more quickly.
 3. Click the **Save** button. The selected products will now appear in the grid of bundled products.
 4. You can remove the assignment by clicking **Delete** in the grid of bundled products.
@@ -33,8 +33,7 @@ There are three important options that control the behavior of the bundle produc
 
 Per-item pricing
 
-This option controls the price calculation of the bundle. If it's deactivated, the price is determined for the bundle as a whole without taking the prices of the individual components into consideration. If it's activated, the price is the sum of the individual prices of all the products in the bundle.\
-&#x20;
+This option controls the price calculation of the bundle. If it's deactivated, the price is determined for the bundle as a whole without taking the prices of the individual components into consideration. If it's activated, the price is the sum of the individual prices of all the products in the bundle.<br>
 
 Per-item pricing is deactivated:
 
@@ -48,8 +47,7 @@ The display of basic prices can be controlled through an option (see **Configura
 
 ### Per-item shipping
 
-This option controls the price calculation of shipping costs. If it's deactivated, the shipping costs of the bundle product as a whole are used. If it's activated, the amount of shipping of all the products in the bundle is calculated.\
-&#x20;
+This option controls the price calculation of shipping costs. If it's deactivated, the shipping costs of the bundle product as a whole are used. If it's activated, the amount of shipping of all the products in the bundle is calculated.<br>
 
 Per-item shipping is activated:
 

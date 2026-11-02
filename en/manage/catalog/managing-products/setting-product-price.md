@@ -23,7 +23,7 @@ In the Price Tab of the product configuration, you specify several elements for 
 
 ## Price Indication Regulation \[PAngV]
 
-The purpose of the base price calculation according to Price Indication Regulation \[PAngV] is to inform your customers about the base price of the packaging unit in which you sell your product. Let's assume you sell tea, and you sell different types of tea in various sizes (e.g. 200g, 300g, 500g). In this case, your customers would be interested in knowing the price of each product per 100g so that they can compare them to each other. Therefore, you would activate the option  **Calculate base price according to Price Indication Regulation \[PAngV]** a nd enter the **Basic Unit** and the **Amount** that is included in the packaging size you are selling.
+The purpose of the base price calculation according to Price Indication Regulation \[PAngV] is to inform your customers about the base price of the packaging unit in which you sell your product. Let's assume you sell tea, and you sell different types of tea in various sizes (e.g. 200g, 300g, 500g). In this case, your customers would be interested in knowing the price of each product per 100g so that they can compare them to each other. Therefore, you would activate the option **Calculate base price according to Price Indication Regulation \[PAngV]** a nd enter the **Basic Unit** and the **Amount** that is included in the packaging size you are selling.
 
 ![](../../../.gitbook/assets/base-price-backend.png)
 
@@ -31,6 +31,6 @@ The purpose of the base price calculation according to Price Indication Regulati
 
 ## Tier Prices
 
-Graduated prices are discounts for different quantity purchases. &#x20;
+Graduated prices are discounts for different quantity purchases.
 
 ![](<../../../.gitbook/assets/2022-10-18 11_30_12-Edit product details _ Smartstore administration.png>)

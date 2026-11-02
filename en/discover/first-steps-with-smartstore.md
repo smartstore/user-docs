@@ -16,8 +16,8 @@ Essential steps to get your shop up and running.
 [organizing-product-categories.md](../manage/catalog/organizing-product-categories.md)
 {% endcontent-ref %}
 
-{% content-ref url="../manage/configuration/general-settings-preferences/" %}
-[general-settings-preferences](../manage/configuration/general-settings-preferences/)
+{% content-ref url="../manage/configuration/general-settings-and-preferences/" %}
+[general-settings-and-preferences](../manage/configuration/general-settings-and-preferences/)
 {% endcontent-ref %}
 {% endcolumn %}
 

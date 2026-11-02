@@ -7,15 +7,19 @@ The cache runs on the server and can optionally be configured to refresh when im
 ## Benefits
 
 ### Faster page load times
+
 Pages that are visited frequently don’t have to be fully rebuilt every time. This reduces waiting time, especially on pages that are called often.
 
 ### Less load on the system
+
 Smartstore has to do less computation because the ready-made page content can be reused. That means fewer repeated processing steps for every request and the shop runs smoother overall.
 
 ### More stable user experience during high traffic
+
 When many visitors are active in the shop at the same time, it’s more likely that some pages load slower because many requests need to be recalculated in parallel. With the Output Cache, part of that work is done ahead of time and reused, so performance remains more consistent.
 
 ### Control over how long content is kept
+
 You can set how long a page remains in the cache before it’s regenerated. This determines how strongly “speed” is prioritized over “maximum freshness.” Short cache durations keep content more current, while longer cache durations improve performance.
 
 ## Configuration

@@ -1,6 +1,6 @@
 # Content Slider
 
-A content slider is ideally suited to convey important information to the visitors of a page. Visitors' eyes are directed straight to this area during their first visit. Therefore, you should place information there that is of particular interest to your shop visitors (e.g., special offers). You can use the content slider for slides on the homepage and on [category pages](../../manage/catalog/organizing-product-categories.md).
+A content slider is ideally suited to convey important information to the visitors of a page. Visitors' eyes are directed straight to this area during their first visit. Therefore, you should place information there that is of particular interest to your shop visitors (e.g., special offers). You can use the content slider for slides on the homepage and on [category pages](../catalog/organizing-product-categories.md).
 
 {% hint style="info" %}
 After you have installed the Content Slider plugin, you must activate the Content Slider widget under **CMS > Widgets**.
@@ -8,7 +8,7 @@ After you have installed the Content Slider plugin, you must activate the Conten
 
 ## How to Configure the Content Slider
 
-You can configure the content slider for the homepage in the administration area under **Plugins > Content Slider**. You can configure the slides for category pages directly on the [category detail pages](../../manage/catalog/organizing-product-categories.md) on the **Content Slider** tab.
+You can configure the content slider for the homepage in the administration area under **Plugins > Content Slider**. You can configure the slides for category pages directly on the [category detail pages](../catalog/organizing-product-categories.md) on the **Content Slider** tab.
 
 Here you can enter the height and the background image and define whether the content should slide in automatically without user interaction.
 

@@ -1,6 +1,6 @@
 # Understanding Recurring Products
 
-Recurring products are products that need to be billed and shipped periodically.&#x20;
+Recurring products are products that need to be billed and shipped periodically.
 
 ## Usage Scenario
 

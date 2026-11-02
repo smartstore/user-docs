@@ -14,15 +14,15 @@ Missing screenshot
 
 ## Configuration of the GPSR Plugin
 
-| Option | Description |
-| :--- | :--- |
-| Active | |
-| Show information in tabs | Determines whether the GPSR information is displayed in tabs on the product detail page. If disabled, it is displayed in blocks below the long text. |
-| Product tabs | Defines the tabs on the product detail page where product safety information is displayed. |
-| Insert before tab x | Specifies the name of the tab before which the GPSR tabs should be inserted. Leave empty to append them. |
-| Display manufacturer before text blocks | |
-| Background color for manufacturer information | Sets the background color of the alert box where manufacturer information is displayed. Leave empty if the manufacturer should not be displayed in an alert box. |
-| Consider first manufacturer only | Determines whether only information from the first manufacturer assigned to the product should be displayed. If disabled, information from all assigned manufacturers is displayed. |
+| Option                                        | Description                                                                                                                                                                         |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Active                                        |                                                                                                                                                                                     |
+| Show information in tabs                      | Determines whether the GPSR information is displayed in tabs on the product detail page. If disabled, it is displayed in blocks below the long text.                                |
+| Product tabs                                  | Defines the tabs on the product detail page where product safety information is displayed.                                                                                          |
+| Insert before tab x                           | Specifies the name of the tab before which the GPSR tabs should be inserted. Leave empty to append them.                                                                            |
+| Display manufacturer before text blocks       |                                                                                                                                                                                     |
+| Background color for manufacturer information | Sets the background color of the alert box where manufacturer information is displayed. Leave empty if the manufacturer should not be displayed in an alert box.                    |
+| Consider first manufacturer only              | Determines whether only information from the first manufacturer assigned to the product should be displayed. If disabled, information from all assigned manufacturers is displayed. |
 
 {% hint style="info" %}
 The examples cited in this article are neither legally binding nor legally compliant. They serve solely for explanation and application purposes.
@@ -36,10 +36,10 @@ Data must be stored for the manufacturer, which is then displayed in the product
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** | **Example** |
-| :--- | :--- | :--- |
-| Manufacturer details | <p>- Manufacturer or brand name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>TEA Sports Deutschland GmbH<br><br>TEA Sports Deutschland GmbH<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: info@tea-sports.de</p> |
-| Responsible Person | <p>- Only if there is no branch within the EU<br>- Name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>Dr. Julia Meyer<br><br>TEA Sports Deutschland GmbH<br>Legal & Compliance Dept.<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: julia.meyer@tea-sports.de</p> |
+| **Option**           | **Description**                                                                                                           | **Example**                                                                                                                                                                         |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Manufacturer details | <p>- Manufacturer or brand name<br>- Postal address<br>- Electronic address (Email / Website)</p>                         | <p>TEA Sports Deutschland GmbH<br><br>TEA Sports Deutschland GmbH<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: info@tea-sports.de</p>                             |
+| Responsible Person   | <p>- Only if there is no branch within the EU<br>- Name<br>- Postal address<br>- Electronic address (Email / Website)</p> | <p>Dr. Julia Meyer<br><br>TEA Sports Deutschland GmbH<br>Legal &#x26; Compliance Dept.<br>Sample Street 123<br>50667 Cologne<br>Germany<br><br>Email: julia.meyer@tea-sports.de</p> |
 
 For all products assigned to the manufacturer, the stored data is automatically displayed in the product details.
 
@@ -61,15 +61,15 @@ Additional text blocks can be added via **Add new**.
 Missing screenshot
 {% endhint %}
 
-| **Option** | **Description** | **Example** |
-| :--- | :--- | :--- |
-| Published | | On |
-| Display order | Sets the display priority. For example, 1 stands for the first item in the list. | |
-| Background color | Sets the background color of the alert box. Leave empty if the text should not be displayed in an alert box. | warning |
-| Show title | | On |
-| Rules for automatic assignment | The text block is automatically assigned to products if they meet one of the selected rules and the rule is active. | |
-| Title | | Gaming Product Safety Regulation |
-| Body | | Important note: If you notice that your reflexes are better, your concentration is increased, and your hand-eye coordination is superhumanly precise – keep going, but remember: the dishes won't do themselves! |
+| **Option**                     | **Description**                                                                                                     | **Example**                                                                                                                                                                                                      |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Published                      |                                                                                                                     | On                                                                                                                                                                                                               |
+| Display order                  | Sets the display priority. For example, 1 stands for the first item in the list.                                    |                                                                                                                                                                                                                  |
+| Background color               | Sets the background color of the alert box. Leave empty if the text should not be displayed in an alert box.        | warning                                                                                                                                                                                                          |
+| Show title                     |                                                                                                                     | On                                                                                                                                                                                                               |
+| Rules for automatic assignment | The text block is automatically assigned to products if they meet one of the selected rules and the rule is active. |                                                                                                                                                                                                                  |
+| Title                          |                                                                                                                     | Gaming Product Safety Regulation                                                                                                                                                                                 |
+| Body                           |                                                                                                                     | Important note: If you notice that your reflexes are better, your concentration is increased, and your hand-eye coordination is superhumanly precise – keep going, but remember: the dishes won't do themselves! |
 
 {% hint style="info" %}
 Media such as images and PDFs can also be easily integrated via HTML links in text blocks.

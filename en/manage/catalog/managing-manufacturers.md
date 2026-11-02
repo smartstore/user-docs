@@ -1,6 +1,6 @@
 # Managing Manufacturers
 
-You can assign manufacturers to products and display them in the product details view. Each created manufacturer will also be displayed on its own page, where the description of the manufacturer will be shown along with all the products that have been assigned to this manufacturer. On the home page of your shop, there will also be a list that displays the first few manufacturers according to the display order you've determined for them. You can manage manufacturers by navigating to **Catalog > Manufacturers**. When creating a new manufacturer or clicking on **Edit** in the list, you'll be forwarded to the details view of a manufacturer as shown below.&#x20;
+You can assign manufacturers to products and display them in the product details view. Each created manufacturer will also be displayed on its own page, where the description of the manufacturer will be shown along with all the products that have been assigned to this manufacturer. On the home page of your shop, there will also be a list that displays the first few manufacturers according to the display order you've determined for them. You can manage manufacturers by navigating to **Catalog > Manufacturers**. When creating a new manufacturer or clicking on **Edit** in the list, you'll be forwarded to the details view of a manufacturer as shown below.
 
 ![](../../.gitbook/assets/hersteller-bearbeiten-eng.PNG)
 
@@ -27,11 +27,11 @@ You can assign manufacturers to products and display them in the product details
 
 ### Products Tab
 
-This tab contains a list of all products that have been assigned to this manufacturer. By clicking on **Add New Product**, you can also add new products to this list.&#x20;
+This tab contains a list of all products that have been assigned to this manufacturer. By clicking on **Add New Product**, you can also add new products to this list.
 
 ### Discounts
 
-If discounts have been set up for product groups, these can be assigned to the manufacturer. For more information on working with discounts, please read [Managing Discounts](../marketing-promotions/managing-discounts.md).
+If discounts have been set up for product groups, these can be assigned to the manufacturer. For more information on working with discounts, please read [Managing Discounts](../marketing-and-promotions/managing-discounts.md).
 
 ### Stores
 

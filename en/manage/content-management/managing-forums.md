@@ -1,6 +1,6 @@
 # Managing Forums
 
-Smartstore provides the means to manage a user forum out of the box. In the administration area, you can freely create **Forum Groups** and **Subforums** and configure your forum. The administration of topics created by your customers will be managed in the frontend. The user in charge of managing forum topics needs access permission to manage the forums. The corresponding permission name is  **Admin area. Manage** **Forums**. For more information about access rights, read the topic [Access Control Lists (ACL)](../../discover/common-concepts/access-control-lists-acl.md).
+Smartstore provides the means to manage a user forum out of the box. In the administration area, you can freely create **Forum Groups** and **Subforums** and configure your forum. The administration of topics created by your customers will be managed in the frontend. The user in charge of managing forum topics needs access permission to manage the forums. The corresponding permission name is **Admin area. Manage** **Forums**. For more information about access rights, read the topic [Access Control Lists (ACL)](../../discover/common-concepts/access-control-lists-acl.md).
 
 ## Configuration in the Backend
 
@@ -10,7 +10,7 @@ You can configure your forum by navigating to **CMS > Forums**. Here, you can cr
 
 ## Management in the Frontend
 
-The administration of topics created by your customers will be managed in the frontend. The user who wants to manage forum topics needs access permission to manage the forums. The corresponding permission name is  **Admin area. Manage**  **Forums**. For more information about access rights, read the topic [Access Control Lists (ACL)](../../discover/common-concepts/access-control-lists-acl.md).&#x20;
+The administration of topics created by your customers will be managed in the frontend. The user who wants to manage forum topics needs access permission to manage the forums. The corresponding permission name is **Admin area. Manage** **Forums**. For more information about access rights, read the topic [Access Control Lists (ACL)](../../discover/common-concepts/access-control-lists-acl.md).
 
 ![](../../.gitbook/assets/forum-frontend.png)
 

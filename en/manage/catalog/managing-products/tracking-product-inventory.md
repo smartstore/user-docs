@@ -1,6 +1,6 @@
 # Tracking Product Inventory
 
-In this section, you can decide whether to track the stock level of a product. If you choose to track it, you can enter the available stock for a product and configure certain actions to be initiated when the stock level of a product is below a critical quantity and needs to be reordered.&#x20;
+In this section, you can decide whether to track the stock level of a product. If you choose to track it, you can enter the available stock for a product and configure certain actions to be initiated when the stock level of a product is below a critical quantity and needs to be reordered.
 
 ![](<../../../.gitbook/assets/2022-10-18 11_06_05-Edit product details _ Smartstore administration.png>)
 

@@ -1,6 +1,6 @@
 # Analyzing Customer Activity
 
-When running an online shop you can optimize your shop by analyzing customer activity.&#x20;
+When running an online shop you can optimize your shop by analyzing customer activity.
 
 ## Activity Log
 

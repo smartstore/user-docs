@@ -1,6 +1,6 @@
 # Understanding Pricing Rules
 
-In Smartstore, you can perform several actions that have an impact on the product price you have configured in the [product details area](setting-product-price.md).&#x20;
+In Smartstore, you can perform several actions that have an impact on the product price you have configured in the [product details area](setting-product-price.md).
 
 ## Price
 
@@ -28,7 +28,7 @@ The **Additional Shipping Charge** can be set in the [product details area](crea
 
 ## Product Attributes
 
-The next price you can configure in the price chain is the price for a product attribute value, for which you can define a **Price Adjustment** that can be a positive or negative value and will be subtracted or added to the current price accordingly.&#x20;
+The next price you can configure in the price chain is the price for a product attribute value, for which you can define a **Price Adjustment** that can be a positive or negative value and will be subtracted or added to the current price accordingly.
 
 ![](../../../.gitbook/assets/pricechain-attribute-value.png)
 
@@ -42,9 +42,9 @@ The next element in the price chain is **Tier Prices**. With tier prices, you ca
 
 ## Discounts
 
-Next in line are **Discounts**. Discounts will be applied on top of the current price that has been defined by the price chain explained above. For more information about discounts, read the topic [Managing Discounts](../../marketing-promotions/managing-discounts.md).&#x20;
+Next in line are **Discounts**. Discounts will be applied on top of the current price that has been defined by the price chain explained above. For more information about discounts, read the topic [Managing Discounts](../../marketing-and-promotions/managing-discounts.md).
 
-## Taxes&#x20;
+## Taxes
 
 The next element that influence the displayed price are the settings you've determined for the handling of taxes. For more information about tax settings, read the topic [Setting up Tax Calculation](../../configuration/setting-up-tax-calculation.md).
 

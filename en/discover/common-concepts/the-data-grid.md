@@ -2,7 +2,7 @@
 
 ## Filtering the Grid
 
-You can filter the entries that appear in the table view by pressing the filter icon on the left of the table view, if one is present. The displayed entries can be filtered with up to three combined criteria (name, value, store). The filter options that can be applied are displayed after clicking on the question mark:&#x20;
+You can filter the entries that appear in the table view by pressing the filter icon on the left of the table view, if one is present. The displayed entries can be filtered with up to three combined criteria (name, value, store). The filter options that can be applied are displayed after clicking on the question mark:
 
 ![](<../../.gitbook/assets/2022-10-04 11_52_40-All settings (advanced) _ Smartstore administration.png>)
 

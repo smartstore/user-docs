@@ -51,7 +51,7 @@ In this tab, you configure the tracking mode for this product and its details. F
 ### Price Tab
 
 In this tab, you enter and configure the prices and the price display for this product. For more information about configuring prices, read the topic [Understanding Pricing Rules](understanding-pricing-rules.md).\
-In addition, product discounts can also be assigned under the Price tab. Keep in mind that only discounts of the **Discount Type** _Assigned to Products_ can be managed here. For more information about discounts, read the topic [Managing Discounts](../../marketing-promotions/managing-discounts.md).
+In addition, product discounts can also be assigned under the Price tab. Keep in mind that only discounts of the **Discount Type** _Assigned to Products_ can be managed here. For more information about discounts, read the topic [Managing Discounts](../../marketing-and-promotions/managing-discounts.md).
 
 ### Pictures Tab
 

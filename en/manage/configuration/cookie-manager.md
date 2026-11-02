@@ -6,7 +6,7 @@ With the Cookie Manager you make this possibility available to your customers. T
 
 ## Cookie Manager in the Frontend
 
-When a user visits your shop for the first time, the cookie manager is displayed. The customer therefore has the possibility to choose which cookies he wants to allow.&#x20;
+When a user visits your shop for the first time, the cookie manager is displayed. The customer therefore has the possibility to choose which cookies he wants to allow.
 
 ![](../../.gitbook/assets/cookie-manager.png)
 
@@ -16,23 +16,22 @@ When a user visits your shop for the first time, the cookie manager is displayed
 
 Required cookies are cookies that are used by the shop system and without which the shop cannot operate. According to the guideline, no consent is required for these cookies. For this reason, this option cannot be changed by the shop visitor and is already preselected. Below you will find a list of the required cookies that are set by Smartstore.
 
-| **Cookie Name** | **Usage** |
-| :--- | :--- |
-| .Smart.Session | This cookie is used to maintain the user session state across HTTP requests. |
-| .Smart.Identity | This cookie is used to authenticate and identify registered users across requests. |
-| .Smart.Visitor | This cookie is used to track and identify guest users who are not registered. |
-| .Smart.CookieConsent | This cookie is used to store the user's cookie preferences and consent choices. |
-| .Smart.RecentlyViewedProducts | This cookie stores the product IDs of the products the customer has recently viewed. |
-| .Smart.ComparedProducts | This cookie is used to store the list of products that the user wants to compare. |
-| .Smart.Antiforgery | This cookie is used to protect the application against Cross-Site Request Forgery (CSRF) attacks. |
-| .Smart.Consent | This cookie is used to store the user's GDPR consent status for data processing. |
-| .Smart.TempData | This cookie is used to store temporary data between requests, typically used for redirects. |
-| .Smart.ExternalAuth | This cookie is used to manage authentication via external providers (e.g., Google, Facebook). |
-| .Smart.StoreIdOverride | This cookie is used to override the default store selection in multi-store scenarios. |
-| .Smart.PreviewModeOverride | This cookie is used to enable or disable preview mode for testing unpublished content. |
-| .Smart.PreviewToolOpen | This cookie is used to remember the open/closed state of the preview tool panel. |
-| .Smart.UserThemeChoice | This cookie is used to store the user's preferred theme selection (e.g., light or dark mode). |
-
+| **Cookie Name**               | **Usage**                                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- |
+| .Smart.Session                | This cookie is used to maintain the user session state across HTTP requests.                      |
+| .Smart.Identity               | This cookie is used to authenticate and identify registered users across requests.                |
+| .Smart.Visitor                | This cookie is used to track and identify guest users who are not registered.                     |
+| .Smart.CookieConsent          | This cookie is used to store the user's cookie preferences and consent choices.                   |
+| .Smart.RecentlyViewedProducts | This cookie stores the product IDs of the products the customer has recently viewed.              |
+| .Smart.ComparedProducts       | This cookie is used to store the list of products that the user wants to compare.                 |
+| .Smart.Antiforgery            | This cookie is used to protect the application against Cross-Site Request Forgery (CSRF) attacks. |
+| .Smart.Consent                | This cookie is used to store the user's GDPR consent status for data processing.                  |
+| .Smart.TempData               | This cookie is used to store temporary data between requests, typically used for redirects.       |
+| .Smart.ExternalAuth           | This cookie is used to manage authentication via external providers (e.g., Google, Facebook).     |
+| .Smart.StoreIdOverride        | This cookie is used to override the default store selection in multi-store scenarios.             |
+| .Smart.PreviewModeOverride    | This cookie is used to enable or disable preview mode for testing unpublished content.            |
+| .Smart.PreviewToolOpen        | This cookie is used to remember the open/closed state of the preview tool panel.                  |
+| .Smart.UserThemeChoice        | This cookie is used to store the user's preferred theme selection (e.g., light or dark mode).     |
 
 **Analytical cookies**
 
@@ -52,7 +51,7 @@ If you want to include your own scripts that use cookies, you can also provide i
 
 To include the corresponding scripts, there is either the possibility to add them as a widget in the backend or to include them directly in views.
 
-#### Topics&#x20;
+#### Topics
 
 To mark a script that sets cookies as such, first add it to **Admin > CMS > Pages**. The topic must now be displayed as a widget by checking the option **Display as HTML Widget**. The Cookie Type option now determines whether the script is output depending on the customer selection in the Cookie Manager. Information about the cookie can be stored in the data protection settings as described above.
 

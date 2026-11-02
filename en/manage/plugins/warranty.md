@@ -1,4 +1,4 @@
-# EU Warranty Labelling
+# Warranty
 
 This plugin allows you to configure and display the harmonized EU labels for warranty and guarantee on the product detail page and, if necessary, at checkout.
 
@@ -40,8 +40,8 @@ You can enable or disable this function in the [plugin configuration](warranty.m
 
 The email contains:
 
-- the harmonised EU notice concerning the statutory warranty,
-- a separate GARAN durability guarantee label for each applicable product.
+* the harmonised EU notice concerning the statutory warranty,
+* a separate GARAN durability guarantee label for each applicable product.
 
 The attachments are generated in the language of the order confirmation. If the statutory warranty notice is unavailable in that language, the English version is used.
 
@@ -77,12 +77,12 @@ In the "EU Warranty" tab of the product editor, you can enter product-specific w
 
 The default settings for the individual fields are as follows:
 
-|Option|Description|
-|---|---|
-|Exempt from labeling requirements|The setting **By default, all products are...** from the plugin configuration.|
-|Guarantee duration|No entry &rarr; The warranty label is not displayed.|
-|Guarantee issuer (brand/manufacturer)|The manufacturer of the product.|
-|Model identifier|The manufacturer's product number (MPN) of the product.|
+| Option                                | Description                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------ |
+| Exempt from labeling requirements     | The setting **By default, all products are...** from the plugin configuration. |
+| Guarantee duration                    | No entry → The warranty label is not displayed.                                |
+| Guarantee issuer (brand/manufacturer) | The manufacturer of the product.                                               |
+| Model identifier                      | The manufacturer's product number (MPN) of the product.                        |
 
 ## Import
 

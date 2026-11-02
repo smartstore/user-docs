@@ -33,10 +33,10 @@ The **Main Navigation Menu** provides access to the following important modules.
 * [**Catalog**](../manage/catalog/) - Allows you to define and manage categories and products. You can also manage manufacturers as well as product reviews, tags and attributes.
 * [**Sales**](../manage/sales/) - Allows you to manage all orders, shipments, recurring payments, return requests, gift cards, the shopping cart, wish lists, bestsellers and products not purchased.
 * [**Customers**](../manage/customers/) - Allows you to add, edit, remove and manage all customers. You can also manage their roles, orders, reward points, shopping carts and wish lists.
-* [**Promotions**](../manage/marketing-promotions/) - Allows you to add, edit and manage discounts, affiliates, newsletter subscribers and campaigns.
+* [**Promotions**](../manage/marketing-and-promotions/) - Allows you to add, edit and manage discounts, affiliates, newsletter subscribers and campaigns.
 * [**CMS**](../manage/content-management/) - Allows you to manage content related to your store such as topics, news, blogs, forums, polls and widgets. You can also customize message templates.
 * [**Configuration**](../manage/configuration.md) - Allows you to configure the core system and regional settings. You can also configure stores, payment methods, lists, e-mail accounts, access types, ACL and themes.
-* [**System**](../manage/system-maintenance/) - Allows you to view and manage system logs, message queues, SEO and warnings and to schedule tasks.
+* [**System**](../manage/system-and-maintenance/) - Allows you to view and manage system logs, message queues, SEO and warnings and to schedule tasks.
 * [**Plugins**](../manage/plugins/) - Allows you to install and update plugins. You can also manage various SMS providers and developer tools.
 
 ## Top Right Links

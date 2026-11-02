@@ -1,4 +1,4 @@
-# AttributeRules
+# Attribute Rules
 
 With **AttributeRules**, you control which product attributes are displayed based on the current product selection. This keeps extensive product configurations clear and organized: Additional fields appear only when they are actually needed.
 
@@ -7,7 +7,7 @@ With **AttributeRules**, you control which product attributes are displayed base
 Typical use cases include optional engravings, prints, accessory packages, or additional choices for a specific product variant.
 
 {% hint style="info" %}
-Product attribute rules are configured directly on the respective attribute of a product. They are not part of the rule sets under **System** &rarr; **Rules** and do not need to be assigned to a separate action. For general information about creating a condition and using comparison operators, see [Rules](../configuration/rules.md).
+Product attribute rules are configured directly on the respective attribute of a product. They are not part of the rule sets under **System** → **Rules** and do not need to be assigned to a separate action. For general information about creating a condition and using comparison operators, see [Rules](../configuration/rules.md).
 {% endhint %}
 
 ## Practical Example: Optional Engraving
@@ -18,15 +18,15 @@ A watch should be available to order with an optional engraving. If the customer
 
 The following attributes are assigned to the product for this configuration:
 
-| Attribute | Control and values | Setting |
-| --- | --- | --- |
+| Attribute          | Control and values                        | Setting                                                               |
+| ------------------ | ----------------------------------------- | --------------------------------------------------------------------- |
 | **With engraving** | Radio button list with **No** and **Yes** | For example, an additional charge of 10 euros can be set for **Yes**. |
-| **Engraving text** | Text field | Mark as required. |
-| **Font** | Dropdown list with the available fonts | Create the desired fonts as values. |
+| **Engraving text** | Text field                                | Mark as required.                                                     |
+| **Font**           | Dropdown list with the available fonts    | Create the desired fonts as values.                                   |
 
 ### Setting Up the Rule for the Engraving Text
 
-1. Under **Catalog** &rarr; **Products**, open the edit view for the watch.
+1. Under **Catalog** → **Products**, open the edit view for the watch.
 2. Switch to the **Attributes** tab.
 3. Open the edit view for the options and rules of the **Engraving text** attribute.
 4. Switch to the **Rules** tab.
@@ -38,8 +38,8 @@ The following attributes are assigned to the product for this configuration:
 
 Then configure the same condition for the **Font** attribute. Both attributes are now displayed only when the customer selects **Yes** for **With engraving**.
 
-| Without engraving | With engraving |
-| --- | --- |
+| Without engraving                                                                    | With engraving                                                                    |
+| ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- |
 | ![](../../.gitbook/assets/module_attributerules_productdetails_withoutengraving.png) | ![](../../.gitbook/assets/module_attributerules_productdetails_withengraving.png) |
 
 The additional charge is not defined in the rule. Instead, it is assigned to the **Yes** attribute value. The rule only determines whether the dependent attributes are displayed.
@@ -50,9 +50,9 @@ Smartstore reevaluates the product attribute rules whenever the product selectio
 
 Hidden attributes are not merely concealed visually:
 
-- Previously selected values of an inactive attribute are not taken into account during further processing.
-- Additional charges or discounts for hidden attribute values are not included in the price calculation.
-- A hidden required attribute does not prevent the product from being added to the cart.
+* Previously selected values of an inactive attribute are not taken into account during further processing.
+* Additional charges or discounts for hidden attribute values are not included in the price calculation.
+* A hidden required attribute does not prevent the product from being added to the cart.
 
 Multi-level dependencies are also possible. For example, selecting **Add bundle** can first display the **Size** attribute. A specific size can then reveal additional options such as **Screen protector**. If a parent selection is deactivated again, Smartstore also takes this into account for the attributes that depend on it.
 
@@ -62,8 +62,8 @@ You can use other list-based attributes of the same product as conditions. These
 
 In addition to attribute values, AttributeRules provides two other types of conditions:
 
-- **Price adjustment:** Checks the sum of the price adjustments for the currently selected attribute values.
-- **Weight:** Checks the product weight, including the weight adjustments for the currently selected attribute values.
+* **Price adjustment:** Checks the sum of the price adjustments for the currently selected attribute values.
+* **Weight:** Checks the product weight, including the weight adjustments for the currently selected attribute values.
 
 Multiple conditions can be combined so that either all conditions or at least one condition must be met. Additional groups can also be used to create more extensive combinations. The available comparisons depend on the respective condition. For example, checkboxes and other multiple selections offer additional ways to compare several selected values.
 
@@ -73,7 +73,7 @@ With **Transfer attributes**, you can use the product attributes of an already c
 
 ![Popup for copying attributes](../../.gitbook/assets/module_attributerules_product_attributetab_popup_transferattributes.png)
 
-1. Under **Catalog** &rarr; **Products**, open the target product.
+1. Under **Catalog** → **Products**, open the target product.
 2. Switch to the **Attributes** tab.
 3. Click **Transfer attributes**.
 4. Select the product whose attributes you want to copy.

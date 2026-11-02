@@ -6,6 +6,6 @@ If you have configured recurring products, you need to manage the periodic payme
 
 ## Recurring Payment Detail View
 
-In the detail view of a recurring payment, you can view the details of the Recurring Payment, alter its settings, and see the order recurrence history as well as cancel upcoming payments (e.g. when you did not receive the last payment) and you can **Process the Next Payment (Create a New Order)**.&#x20;
+In the detail view of a recurring payment, you can view the details of the Recurring Payment, alter its settings, and see the order recurrence history as well as cancel upcoming payments (e.g. when you did not receive the last payment) and you can **Process the Next Payment (Create a New Order)**.
 
 ![](../../.gitbook/assets/recurring-payments-history.png)

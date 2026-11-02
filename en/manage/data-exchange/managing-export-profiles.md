@@ -33,7 +33,7 @@ To change an export profile, click the name of the profile in the profile list.
 
 In this tab you can enter the name of the profile and whether it is enabled. Disabled profiles are never executed. The page also summarizes the most important information about the export provider, such as author, version, file type, etc.
 
-Data exports can run automatically via scheduled tasks at any time. Therefore a scheduled task is assigned to each export profile when it is created. This task is always unplanned by default, in other words the profile will not automatically execute. Click **Execution** to get a link to the related task and to change the scheduling settings. For more information about scheduled tasks read the topic [Managing Scheduled Tasks](../system-maintenance/managing-scheduled-tasks.md).
+Data exports can run automatically via scheduled tasks at any time. Therefore a scheduled task is assigned to each export profile when it is created. This task is always unplanned by default, in other words the profile will not automatically execute. Click **Execution** to get a link to the related task and to change the scheduling settings. For more information about scheduled tasks read the topic [Managing Scheduled Tasks](../system-and-maintenance/managing-scheduled-tasks.md).
 
 ### Export associated data
 

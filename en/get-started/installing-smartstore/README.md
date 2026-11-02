@@ -4,22 +4,22 @@ icon: cloud-arrow-up
 
 # Installing Smartstore
 
-Before installation, please check if your hosting or server meets the [prerequisites](../technology-prerequisites.md) for Smartstore installation. Here's how to prepare your hosting or server for Smartstore installation:
+Before installation, please check if your hosting or server meets the [prerequisites](../technology-and-prerequisites.md) for Smartstore installation. Here's how to prepare your hosting or server for Smartstore installation:
 
 {% columns %}
 {% column %}
-{% content-ref url="preparing-windows-server-vps-cloud-or-dedicated.md" %}
-[preparing-windows-server-vps-cloud-or-dedicated.md](preparing-windows-server-vps-cloud-or-dedicated.md)
+{% content-ref url="preparing-windows-server.md" %}
+[preparing-windows-server.md](preparing-windows-server.md)
 {% endcontent-ref %}
 
-{% content-ref url="preparing-linux-vps-cloud-or-dedicated-server.md" %}
-[preparing-linux-vps-cloud-or-dedicated-server.md](preparing-linux-vps-cloud-or-dedicated-server.md)
+{% content-ref url="preparing-linux-server.md" %}
+[preparing-linux-server.md](preparing-linux-server.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="running-docker-images/" %}
-[running-docker-images](running-docker-images/)
+{% content-ref url="running-smartstore-docker-images/" %}
+[running-smartstore-docker-images](running-smartstore-docker-images/)
 {% endcontent-ref %}
 
 {% content-ref url="starting-smartstore-installation.md" %}

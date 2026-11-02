@@ -1,3 +1,7 @@
+---
+title: consultation_request_plugin
+---
+
 # Interested in This Plugin?
 
 We would be happy to advise you personally about features, possible applications, and licensing options. Together, we will determine whether the plugin meets your requirements and guide you toward the right purchase decision.

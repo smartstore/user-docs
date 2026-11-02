@@ -47,7 +47,7 @@ Click **Add Attribute** to save the assignment to the database. To proceed to an
 
 ### How to Batch-Edit Assignment Values
 
-When managing a specification attribute (Catalog > Specification Attributes > _Attribute_ _), &#x74;_&#x68;ere's a button (**Bundled**) in the upper right corner which allows you to batch-edit this attribute. With this button, you can change the values of all assignments referring to the current attribute in one go, instead of opening, changing and saving each and every product one by one.&#x20;
+When managing a specification attribute (Catalog > Specification Attributes > _Attribute_ _), &#x74;_&#x68;ere's a button (**Bundled**) in the upper right corner which allows you to batch-edit this attribute. With this button, you can change the values of all assignments referring to the current attribute in one go, instead of opening, changing and saving each and every product one by one.
 
 | **Bundled Function**       | **Description**                                                                |
 | -------------------------- | ------------------------------------------------------------------------------ |

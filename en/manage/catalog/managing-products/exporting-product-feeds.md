@@ -10,10 +10,10 @@ The export profile always uses an export provider to transfer the data in the de
 
 To import your products into a portal such as _Google Shopping_, you will need a file in a format (usually in CSV or XML) that is usually defined by the third party itself. This file contains the data of the products you want the portal to display. An export provider formats the data in this special file format that is customized to meet the requirements of the third party and will contain certain header names and differing column contents as needed by the third party. To get the URLs to the generated files, go to **Configuration > Export** and click the file number in the export profile list.
 
-## Feed Tasks&#x20;
+## Feed Tasks
 
-At the time you create an export profile, a task will be created for the generation of the product feed, controlling the frequency at which the product data of the files will be updated. For more information about managing tasks, please read the topic [Managing Scheduled Tasks](../../system-maintenance/managing-scheduled-tasks.md).
+At the time you create an export profile, a task will be created for the generation of the product feed, controlling the frequency at which the product data of the files will be updated. For more information about managing tasks, please read the topic [Managing Scheduled Tasks](../../system-and-maintenance/managing-scheduled-tasks.md).
 
 ## How to Obtain More Feed Plugins
 
-More feed plugins can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/marketplace/). The **SmartStore Community Marketplace** is where all the resources created for Smartstore are offered and can either be downloaded for free or purchased. For more information on how to buy and install plugins, please read the topics [How to Buy an Extension](../../../get-started/community-marketplace/how-to-buy-an-extension.md) and [How to Install an Extension](../../../get-started/community-marketplace/how-to-install-an-extension.md).
+More feed plugins can be obtained in the [SmartStore Community Marketplace](http://community.smartstore.com/marketplace/). The **SmartStore Community Marketplace** is where all the resources created for Smartstore are offered and can either be downloaded for free or purchased. For more information on how to buy and install plugins, please read the topics [How to Buy an Extension](../../../get-started/community-and-marketplace/how-to-buy-an-extension.md) and [How to Install an Extension](../../../get-started/community-and-marketplace/how-to-install-an-extension.md).

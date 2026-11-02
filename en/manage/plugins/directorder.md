@@ -39,23 +39,23 @@ When file uploads are enabled, customers can upload a prepared order list. The s
 
 The file must contain at least the following columns:
 
-| Column | Data type | Description |
-| --- | --- | --- |
-| `DO_Sku` | Text | The product's item number or SKU |
-| `DO_Quantity` | Number | The required quantity |
+| Column        | Data type | Description                      |
+| ------------- | --------- | -------------------------------- |
+| `DO_Sku`      | Text      | The product's item number or SKU |
+| `DO_Quantity` | Number    | The required quantity            |
 
 Example:
 
-| DO_Sku | DO_Quantity |
-| --- | ---: |
-| ART-10001 | 5 |
-| ART-10027 | 2 |
-| ART-10480 | 10 |
+| DO\_Sku   | DO\_Quantity |
+| --------- | -----------: |
+| ART-10001 |            5 |
+| ART-10027 |            2 |
+| ART-10480 |           10 |
 
 Instructions and a sample file are available for download directly from the order form.
 
 {% hint style="info" %}
-The DirectOrder upload is used exclusively to compile a shopping cart. It is separate from the administrative product import. For information about importing product and catalog data, see [Importing & Exporting Products](../catalog/managing-products/importing-exporting-products.md).
+The DirectOrder upload is used exclusively to compile a shopping cart. It is separate from the administrative product import. For information about importing product and catalog data, see [Importing & Exporting Products](../catalog/managing-products/importing-and-exporting-products.md).
 {% endhint %}
 
 ### Saving Recurring Orders
@@ -128,4 +128,4 @@ Depending on the plugin configuration, DirectOrder either redirects the customer
 * [Controlling Access Permissions](../configuration/controlling-access-permissions.md)
 * [Edit Menu Items](../content-management/edit-menu-items.md)
 * [Creating and Editing Products](../catalog/managing-products/creating-and-editing-products.md)
-* [Importing & Exporting Products](../catalog/managing-products/importing-exporting-products.md)
+* [Importing & Exporting Products](../catalog/managing-products/importing-and-exporting-products.md)

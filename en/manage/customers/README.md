@@ -26,8 +26,8 @@ Manage customer accounts, roles, and authentication methods.
 [analyzing-customer-activity.md](analyzing-customer-activity.md)
 {% endcontent-ref %}
 
-{% content-ref url="../plugins/external-auth.md" %}
-[external-auth.md](../plugins/external-auth.md)
+{% content-ref url="../plugins/setting-up-external-authentication/" %}
+[setting-up-external-authentication](../plugins/setting-up-external-authentication/)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

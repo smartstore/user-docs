@@ -30,7 +30,7 @@ In the administration area, go to **Plugins > GeoBlocker**.
 
 In a multi-store installation, the settings can be overridden for individual stores. First select the required store at the top of the page.
 
-For more information, see [Defining the Scope of Settings](../configuration/general-settings-preferences/defining-the-scope-of-settings.md) and [Working with Multiple Stores](../../discover/common-concepts/working-with-multiple-stores.md).
+For more information, see [Defining the Scope of Settings](../configuration/general-settings-and-preferences/multi-store-configuration.md) and [Working with Multiple Stores](../../discover/common-concepts/working-with-multiple-stores.md).
 
 ## General settings
 
@@ -110,7 +110,7 @@ The **By default, all countries will be...** setting also provides two options:
 
 Under **Except those listed here**, select the countries that should be treated differently from the default rule. If the country list is empty, Smartstore does not create a country rule. The selected access mode alone therefore does not block any visitors.
 
-For more information about the countries available in Smartstore, see [Managing Countries and Regions](../configuration/managing-countries-regions.md).
+For more information about the countries available in Smartstore, see [Managing Countries and Regions](../configuration/managing-countries-and-regions.md).
 
 ### Unrecognized countries
 
@@ -178,7 +178,7 @@ An entry contains in particular:
 
 ![Event log showing an access request blocked by GeoBlocker and its details](../../.gitbook/assets/module_geoblocker_logger.png)
 
-For information about searching the log and opening its details, see [Analyzing the Event Log](../system-maintenance/analyzing-the-event-log.md).
+For information about searching the log and opening its details, see [Analyzing the Event Log](../system-and-maintenance/analyzing-the-event-log.md).
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
 
@@ -186,8 +186,8 @@ For information about searching the log and opening its details, see [Analyzing 
 
 * [Installing Plugins](installing-plugins.md)
 * [Managing and Licensing Plugins](managing-plugins.md)
-* [Defining the Scope of Settings](../configuration/general-settings-preferences/defining-the-scope-of-settings.md)
+* [Defining the Scope of Settings](../configuration/general-settings-and-preferences/multi-store-configuration.md)
 * [Working with Multiple Stores](../../discover/common-concepts/working-with-multiple-stores.md)
-* [General Settings](../configuration/general-settings-preferences/general-settings.md)
-* [Managing Countries and Regions](../configuration/managing-countries-regions.md)
-* [Analyzing the Event Log](../system-maintenance/analyzing-the-event-log.md)
+* [General Settings](../configuration/general-settings-and-preferences/general-settings.md)
+* [Managing Countries and Regions](../configuration/managing-countries-and-regions.md)
+* [Analyzing the Event Log](../system-and-maintenance/analyzing-the-event-log.md)

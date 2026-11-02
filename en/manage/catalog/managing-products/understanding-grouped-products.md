@@ -25,12 +25,11 @@ Imagine you want to sell a video game console. If someone is interested in buyin
 
 1. Navigate to **Catalog > Manage products** and click **Add new**.
 2. Select **Grouped product** as **Product type** and as **Product template**.
-3. Enter a **Product name** and click **Save and continue edit.**\
-   &#x20;
+3. Enter a **Product name** and click **Save and continue edit.**<br>
 
 Assigning products to a grouped product
 
-1. Switch to the **Associated products**  tab of your grouped product and click **Add new associated product**.
+1. Switch to the **Associated products** tab of your grouped product and click **Add new associated product**.
 2. Select one or more products by activating the checkbox in the first column. You can use the search form to find the products you want to associate more quickly.
 3. Click the **Save** button. The selected products now appear in the grid of associated products.
 4. You can remove the assignment again by clicking **Delete** in the grid of associated products.

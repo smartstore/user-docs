@@ -9,15 +9,15 @@ The two main reasons are:
 * Every time these options are used, they wrap the existing HTML elements and apply the corresponding inline styles. The more often this feature is used, the more nested HTML elements are created. Search engines do not favor overly nested HTML, and pages with excessive nesting may be penalized with lower rankings. Additionally, important keywords, including those in the product description, may be ignored.
 * To ensure a consistent appearance throughout the product description, different font families should not be used. Font sizes should also be limited to only a few predefined sizes.
 
-Instead, use different HTML tags to structure your content: [h* tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) for headings (* = 1–6) and [p tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) for paragraphs.
+Instead, use different HTML tags to structure your content: [h\* tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements) for headings (\* = 1–6) and [p tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p) for paragraphs.
 
 ## Headings
 
-The h* tags used for headings can be selected directly in the editor.
+The h\* tags used for headings can be selected directly in the editor.
 
 Select the line that should become a heading, then open the **Style** dropdown (¶ icon). This menu provides six heading levels, which should be used hierarchically. Subheadings are represented by higher heading numbers. Once you select a heading level, the formatting is applied automatically and displayed in the editor.
 
-In the source code view (</\> icon), you can see that an h* tag has been added around the selected text.
+In the source code view (\</> icon), you can see that an h\* tag has been added around the selected text.
 
 ## Upcoming Features
 
@@ -31,9 +31,9 @@ If you need to customize the appearance of your text, you can always edit the HT
 
 ## Custom Styles
 
-In combination with the *_user.scss* file, you can also create your own CSS classes for font and text styling and use them in the HTML editor.
+In combination with the _\_user.scss_ file, you can also create your own CSS classes for font and text styling and use them in the HTML editor.
 
-You can also define custom formats in *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*). These are made available through the `cssclass` object inside the `formats` section and must be added manually.
+You can also define custom formats in _globalinit.js_ (_\wwwroot\lib\editors\summernote\\_). These are made available through the `cssclass` object inside the `formats` section and must be added manually.
 
 ```javascript
 summernote_global_config = {
@@ -63,7 +63,7 @@ The `inline`, `displayClass`, and `style` properties control how the option is d
 
 ## Re-enabling the Legacy Font Tools
 
-If font family and font size selection are essential for your workflow, you can re-enable these tools in *globalinit.js* (*\\wwwroot\\lib\\editors\\summernote\\*) (starting around line 79):
+If font family and font size selection are essential for your workflow, you can re-enable these tools in _globalinit.js_ (_\wwwroot\lib\editors\summernote\\_) (starting around line 79):
 
 ```javascript
 toolbar: [
@@ -81,5 +81,5 @@ The `font` line is commented out. Remove the comment to restore both tools, or m
 
 | **Method**         | **Before**                              | **After**                                 |
 | ------------------ | --------------------------------------- | ----------------------------------------- |
-| Remove the comment | `//['font', ['fontname', 'fontsize']],` | `['font', ['fontname', 'fontsize']],`       |
-| Move a tool        | `['edit', ['undo', 'redo']],` | `['edit', ['undo', 'redo', 'fontsize']],`       |
+| Remove the comment | `//['font', ['fontname', 'fontsize']],` | `['font', ['fontname', 'fontsize']],`     |
+| Move a tool        | `['edit', ['undo', 'redo']],`           | `['edit', ['undo', 'redo', 'fontsize']],` |

@@ -1,18 +1,18 @@
 # Managing Currencies
 
-In Smartstore, you can configure several currencies depending on your target customer group. This way, you're able to offer your customers the display of prices and the purchase of your products in their preferred currency. To manage currencies, go to **Configuration > Regional Settings > Currencies**. &#x20;
+In Smartstore, you can configure several currencies depending on your target customer group. This way, you're able to offer your customers the display of prices and the purchase of your products in their preferred currency. To manage currencies, go to **Configuration > Regional Settings > Currencies**.
 
 ![](../../.gitbook/assets/currencies.png)
 
 ## Primary Exchange Rate Currency
 
-Depending on the number of exchange rate plugins installed, you can choose your preferred  **Current Exchange Rate Provider**  and determine whether this provider should perform automatic updates of exchange rates by checking the box **Auto Update Enabled**. You can also update rates manually by clicking the button **Get Live Rates**. When your **Exchange Rate Provider** performs an update of exchange rates, it will access the current exchange rate from a server (in the case of an ECB provider, it will be the server of the European Central Bank) and overwrite the exchange rate of your currency with the current value of the server. The **Primary Exchange Rate Currency** will be the reference value against which the rates will be calculated.&#x20;
+Depending on the number of exchange rate plugins installed, you can choose your preferred **Current Exchange Rate Provider** and determine whether this provider should perform automatic updates of exchange rates by checking the box **Auto Update Enabled**. You can also update rates manually by clicking the button **Get Live Rates**. When your **Exchange Rate Provider** performs an update of exchange rates, it will access the current exchange rate from a server (in the case of an ECB provider, it will be the server of the European Central Bank) and overwrite the exchange rate of your currency with the current value of the server. The **Primary Exchange Rate Currency** will be the reference value against which the rates will be calculated.
 
 ## Primary Store Currency
 
 The currency which is defined as the **Primary Store Currency** is the currency in which the prices of your products and other costs will be entered in the store.
 
-## Currency Details&#x20;
+## Currency Details
 
 |                   |                                                                                           |
 | ----------------- | ----------------------------------------------------------------------------------------- |

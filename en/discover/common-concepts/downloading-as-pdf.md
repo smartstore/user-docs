@@ -1,6 +1,6 @@
 # Downloading as PDF
 
-There are several areas in Smartstore where the shop administrator or even users can download documents in PDF format (e.g. orders, shipment slips, or product catalog). To create these documents, Smartstore uses the the [Wkhtmltopdf component](http://wkhtmltopdf.org/). The creation of these documents is based on HTML templates, which are included in Smartstore and can easily be adapted by the shop administrator who has some knowledge of HTML.&#x20;
+There are several areas in Smartstore where the shop administrator or even users can download documents in PDF format (e.g. orders, shipment slips, or product catalog). To create these documents, Smartstore uses the the [Wkhtmltopdf component](http://wkhtmltopdf.org/). The creation of these documents is based on HTML templates, which are included in Smartstore and can easily be adapted by the shop administrator who has some knowledge of HTML.
 
 ## Template Files
 

@@ -74,7 +74,7 @@ The **Shipping by Total** computation method gives you the option to make the ca
 
 ## Further Information
 
-Please also read the topic [Shipping Settings](general-settings-preferences/shipping-settings.md).
+Please also read the topic [Shipping Settings](general-settings-and-preferences/shipping-settings.md).
 
 Shipping costs can be deactivated for individual customer roles. If you want to learn more about this possibility, please read [Manage Customer Roles](../customers/managing-customer-roles.md).
 

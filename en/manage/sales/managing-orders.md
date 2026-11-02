@@ -1,12 +1,13 @@
 # Managing Orders
 
-To manage orders, navigate to **Sales > Orders** within the administration area of your store. Beneath the search mask, all orders are displayed within a grid. You can filter the grid by date, customer name, billing e-mail address, order status, payment status, shipping status, store, order GUID or order number. If you know the order number, you can go directly into the edit mode of an order by entering the number in the designated field and clicking on **Go**. You can also export all orders or just the ones you've selected in the grid to several formats (PDF, Excel and XML).&#x20;
+To manage orders, navigate to **Sales > Orders** within the administration area of your store. Beneath the search mask, all orders are displayed within a grid. You can filter the grid by date, customer name, billing e-mail address, order status, payment status, shipping status, store, order GUID or order number. If you know the order number, you can go directly into the edit mode of an order by entering the number in the designated field and clicking on **Go**. You can also export all orders or just the ones you've selected in the grid to several formats (PDF, Excel and XML).
 
 ![](../../.gitbook/assets/manage-orders.png)
 
 ## Order Details View
 
 ![!](../../.gitbook/assets/order-detail.png)
+
 ### Info
 
 In this tab, you can see general information about the order such as the order status, number or total. You can also set the order status and the payment status or edit the order totals.
@@ -29,7 +30,7 @@ In this tab, you can view and add order notes. Order notes are something like a 
 
 ### Attributes
 
-In this tab, you can see all the attributes created for the order. Although the shop administrator can add values here, this feature was originally developed to let developers store data for the order (such as payment response data returned by payment gateways).&#x20;
+In this tab, you can see all the attributes created for the order. Although the shop administrator can add values here, this feature was originally developed to let developers store data for the order (such as payment response data returned by payment gateways).
 
 ### Other Tabs
 

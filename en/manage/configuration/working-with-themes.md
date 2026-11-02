@@ -42,12 +42,12 @@ To preview a theme, click on the little eye symbol in the theme box. Your store 
 
 ## Settings
 
-| Option                                  | Description                                                                                                                                                                                                                                                   |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Allow customers to select their own theme | Allows customers to select their own theme. When this option is enabled, your customers can select a theme in the footer from all themes installed in your store.                                                                                              |
-| Save user theme in cookie               | If this option is not selected, the user's theme is linked to the customer account. This may be undesirable, for example, when multiple users share a guest account.                                                                                           |
-| Enable asset bundling                   | Determines whether JS and CSS files are grouped together to speed up page rendering. Select **Auto** if bundling should depend on the debug setting in `web.config`.                                                                                           |
-| Enable asset caching                    | Determines whether compiled JS and CSS files, such as Sass files, are cached in the file system to speed up application startup. Select **Auto** if caching should depend on the debug setting in `web.config`.                                                  |
+| Option                                    | Description                                                                                                                                                                                                     |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Allow customers to select their own theme | Allows customers to select their own theme. When this option is enabled, your customers can select a theme in the footer from all themes installed in your store.                                               |
+| Save user theme in cookie                 | If this option is not selected, the user's theme is linked to the customer account. This may be undesirable, for example, when multiple users share a guest account.                                            |
+| Enable asset bundling                     | Determines whether JS and CSS files are grouped together to speed up page rendering. Select **Auto** if bundling should depend on the debug setting in `web.config`.                                            |
+| Enable asset caching                      | Determines whether compiled JS and CSS files, such as Sass files, are cached in the file system to speed up application startup. Select **Auto** if caching should depend on the debug setting in `web.config`. |
 
 {% hint style="info" %}
 **Developer Tip**
