@@ -2,7 +2,7 @@
 
 Mit Farb- und Bildmustern stellen Sie Attributwerte als anklickbare Farben, Bilder oder Auswahlkarten dar. So können Kunden beispielsweise eine Stofffarbe erkennen oder verschiedene Oberflächen vergleichen. Die Funktion gehört zur regulären Attributdarstellung und benötigt kein zusätzliches Plugin.
 
-Diese Seite erklärt die Darstellung von Produktattributen. Die Einrichtung der Attribute, Werte und Kombinationen beschreibt [Produktvarianten einrichten](../produkte-verwalten/wie-funktionieren-produktvarianten/produktvarianten-einrichten.md).
+Diese Seite erklärt die Darstellung von Produktattributen. Attribute zuweisen und Werte hinterlegen beschreibt [Attribute am Produkt einrichten](produktvarianten-einrichten.md). Eigene Produktdaten und die Bestellbarkeit je Ausführung erläutert [Attributkombinationen verwalten](attributkombinationen-verwalten.md).
 
 ## Die passende Darstellung wählen <a href="#darstellung-waehlen" id="darstellung-waehlen"></a>
 
@@ -12,7 +12,7 @@ Diese Seite erklärt die Darstellung von Produktattributen. Die Einrichtung der 
 | Kompakte Bildmuster | Materialien oder Oberflächen, die sich durch ihre Struktur unterscheiden. | Kleine Stoffaufnahmen für Leinen und Samt.                                       |
 | Auswahlkarten       | Eine größere Vorschau mit Name und optionalen Preisinformationen.         | Stoffbild, Bezeichnung Samt Anthrazit und Preis für die gewählte Sofaausführung. |
 
-<figure><img src="../../../.gitbook/assets/attribute_swatches_layouts.png" alt="Farb- und Bildmuster im Vergleich: kompakte Farbfelder, zweifarbiges Muster und größere Stoffkarten mit Namen und Preisen."><figcaption><p>Farb- und Bildmuster im Vergleich: kompakte Farbfelder, zweifarbiges Muster und größere Stoffkarten mit Namen und Preisen.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/attribute_swatches_layouts.png" alt="Farb- und Bildmuster im Vergleich: kompakte Farbfelder, zweifarbiges Muster und größere Stoffkarten mit Namen und Preisen."><figcaption><p>Farb- und Bildmuster im Vergleich: kompakte Farbfelder, zweifarbiges Muster und größere Stoffkarten mit Namen und Preisen.</p></figcaption></figure>
 
 Alle Darstellungen wählen einen Attributwert aus. Eine größere Karte legt keine zusätzliche Variante an und ändert nicht die Preisberechnung oder Bestandsführung. Die angezeigten Informationen stammen aus den bereits eingerichteten Produktdaten und der jeweiligen Auswahl.
 
@@ -24,7 +24,7 @@ Alle Darstellungen wählen einen Attributwert aus. Eine größere Karte legt kei
 | Katalog > Produkt Attribute > Allgemein                          | Darstellung des jeweiligen zentralen Attributs: Größe, Seitenverhältnis, Form, Optionsnamen und Preise. Diese Einstellungen gelten für seine Verwendungen an Produkten, soweit dort keine Abweichungen gesetzt sind. |
 | Produktbearbeitung > Attribute > Farb- und Bildmuster bearbeiten | Abweichende Darstellung dieses Attributs nur am aktuellen Produkt. Jede nicht überschriebene Einstellung wird weiterhin vom zentralen Attribut übernommen.                                                           |
 
-<figure><img src="../../../.gitbook/assets/attribute_swatches_inheritance.png" alt="Vererbung der Darstellung: globale Größe und Form, Einstellungen am Attribut Material und eine abweichende Mustergröße an einem einzelnen Sofa."><figcaption><p>Vererbung der Darstellung: globale Größe und Form, Einstellungen am Attribut Material und eine abweichende Mustergröße an einem einzelnen Sofa.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/attribute_swatches_inheritance.png" alt="Vererbung der Darstellung: globale Größe und Form, Einstellungen am Attribut Material und eine abweichende Mustergröße an einem einzelnen Sofa."><figcaption><p>Vererbung der Darstellung: globale Größe und Form, Einstellungen am Attribut Material und eine abweichende Mustergröße an einem einzelnen Sofa.</p></figcaption></figure>
 
 Beispiel: Für das zentrale Attribut Material stellen Sie große Bildkarten ein. Ein bestimmtes Sofa soll besonders große Vorschaubilder erhalten. Überschreiben Sie dort nur die Mustergröße. Eine spätere Änderung der zentralen Namens- oder Preisanzeige wirkt weiterhin auf dieses Sofa; seine abweichende Größe bleibt bestehen.
 
@@ -35,7 +35,7 @@ Beispiel: Für das zentrale Attribut Material stellen Sie große Bildkarten ein.
 3. Hinterlegen Sie ein Bild oder wählen Sie die Hauptfarbe. Für mehrfarbige Muster ergänzen Sie bis zu drei weitere Farben.
 4. Wiederholen Sie die Schritte für die übrigen Werte und prüfen Sie das Ergebnis im Shop.
 
-<figure><img src="../../../.gitbook/assets/attribute_swatches_value.png" alt="Bearbeitung eines Attributwerts mit Stoffbild und Farbpalette; eine Hauptfarbe und bis zu drei zusätzliche Farben sind möglich."><figcaption><p>Bearbeitung eines Attributwerts mit Stoffbild und Farbpalette; eine Hauptfarbe und bis zu drei zusätzliche Farben sind möglich.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/attribute_swatches_value.png" alt="Bearbeitung eines Attributwerts mit Stoffbild und Farbpalette; eine Hauptfarbe und bis zu drei zusätzliche Farben sind möglich."><figcaption><p>Bearbeitung eines Attributwerts mit Stoffbild und Farbpalette; eine Hauptfarbe und bis zu drei zusätzliche Farben sind möglich.</p></figcaption></figure>
 
 Ein Bild eignet sich für eine Holzmaserung oder Stoffstruktur. Einfarbige oder mehrfarbige Flächen eignen sich für eindeutig erkennbare Farben. Bei mehreren Farben werden gleich große, scharf getrennte Flächen dargestellt. Ist zusätzlich ein Bild vorhanden, hat dieses bei der Darstellung Vorrang vor den Farbflächen.
 
@@ -47,7 +47,7 @@ Das Bild am Attributwert gestaltet das Auswahlfeld. Die Bilder einer Attributkom
 
 ## Größe, Form und Beschriftung einstellen <a href="#darstellung-konfigurieren" id="darstellung-konfigurieren"></a>
 
-Legen Sie diese Einstellungen am zentralen Attribut unter [Produktattribute verwalten](./) fest. Für eine Abweichung an einem Produkt öffnen Sie dort **Farb- und Bildmuster bearbeiten**.
+Legen Sie diese Einstellungen am zentralen Attribut unter [Produktattribute vorbereiten](../../produktattribute-verwalten.md) fest. Für eine Abweichung an einem Produkt öffnen Sie dort **Farb- und Bildmuster bearbeiten**.
 
 | **Einstellung**         | **Wirkung**                                                                                                                                                   |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,11 +81,11 @@ Beispiel ohne weitere Preisänderungen: Eine Sofaausführung mit Leinen kostet 8
 
 Die Produktpreisvorschau berücksichtigt die aktuelle weitere Auswahl. Ist bereits die Sofabreite 200 cm gewählt, zeigt sie die Preise der verschiedenen Stoffe für diese Breite. Eine Änderung der Breite kann daher auch die Stoffpreise in den Karten ändern. Ein eigener Kombinationspreis oder andere Preisregeln können ebenfalls einfließen.
 
-<figure><img src="../../../.gitbook/assets/attribute_swatches_price_preview.png" alt="Stoffkarten mit berechneten Produktpreisen bei gewählter Sofabreite 200 cm; nach Wechsel der Breite ändern sich die Vorschaupreise."><figcaption><p>Stoffkarten mit berechneten Produktpreisen bei gewählter Sofabreite 200 cm; nach Wechsel der Breite ändern sich die Vorschaupreise.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/attribute_swatches_price_preview.png" alt="Stoffkarten mit berechneten Produktpreisen bei gewählter Sofabreite 200 cm; nach Wechsel der Breite ändern sich die Vorschaupreise."><figcaption><p>Stoffkarten mit berechneten Produktpreisen bei gewählter Sofabreite 200 cm; nach Wechsel der Breite ändern sich die Vorschaupreise.</p></figcaption></figure>
 
 Fehlen noch andere erforderliche Auswahlen, kann die Produktpreisvorschau zunächst ausbleiben. Preise erscheinen außerdem nur, wenn der Kunde Preise sehen darf und für die jeweilige Auswahl ein berechneter Preis verfügbar ist. Bei Preis auf Anfrage wird keine Produktpreisvorschau ermittelt.
 
-Die Anzeige berechnet keinen eigenen zusätzlichen Rabatt. Wie sich Produktpreis, Kombinationspreis und Attributaufpreise zusammensetzen, beschreibt [Preisregeln verstehen](../produkte-verwalten/preisregeln-verstehen.md). Die Einstellung für die allgemeine Anzeige von Mehr- und Minderpreisen finden Sie in den [Katalogeinstellungen](../../konfiguration/einstellungen/katalogeinstellungen.md).
+Die Anzeige berechnet keinen eigenen zusätzlichen Rabatt. Wie sich Produktpreis, Kombinationspreis und Attributaufpreise zusammensetzen, beschreibt [Preisregeln verstehen](../preisregeln-verstehen.md). Die Einstellung für die allgemeine Anzeige von Mehr- und Minderpreisen finden Sie in den [Katalogeinstellungen](../../../konfiguration/einstellungen/katalogeinstellungen.md).
 
 ## Wenn die Darstellung anders ausfällt als erwartet <a href="#darstellung-pruefen" id="darstellung-pruefen"></a>
 
@@ -98,4 +98,4 @@ Die Anzeige berechnet keinen eigenen zusätzlichen Rabatt. Wie sich Produktpreis
 | Ein Produktpreis fehlt in einer Karte.                   | Sind die übrigen Pflichtattribute gewählt, Preise für den Kunden sichtbar und ein berechneter Preis verfügbar?              |
 | Ein Mehr- oder Minderpreis fehlt.                        | Ist eine von null abweichende Preisanpassung hinterlegt und deren Anzeige in den Katalogeinstellungen aktiviert?            |
 
-Dass eine Kombination nicht bestellbar ist, wird über Aktivierung, Kombinationspflicht und Bestandsregeln festgelegt. Die Muster stellen diese Auswahl dar. Die Einrichtung erläutert [Produktvarianten einrichten](../produkte-verwalten/wie-funktionieren-produktvarianten/produktvarianten-einrichten.md).
+Dass eine Kombination nicht bestellbar ist, wird über Aktivierung, Kombinationspflicht und Bestandsregeln festgelegt. Die Muster stellen diese Auswahl dar. Die Einrichtung erläutert [Attributkombinationen verwalten](attributkombinationen-verwalten.md#bestellbare-kombinationen).

@@ -64,8 +64,8 @@ icon: cube
 
 {% columns %}
 {% column %}
-{% content-ref url="produktattribute-verwalten/" %}
-[produktattribute-verwalten](produktattribute-verwalten/)
+{% content-ref url="produktattribute-verwalten.md" %}
+[produktattribute-verwalten.md](produktattribute-verwalten.md)
 {% endcontent-ref %}
 {% endcolumn %}
 

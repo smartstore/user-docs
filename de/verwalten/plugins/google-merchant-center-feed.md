@@ -96,7 +96,7 @@ Die folgenden Zuordnungen werden unterstützt:
 | `gmc:material`  | Material der Variante.                           |
 | `gmc:pattern`   | Muster oder Design der Variante.                 |
 
-Weitere Informationen finden Sie unter [Produktattribute verwalten](../katalog/produktattribute-verwalten/).
+Weitere Informationen finden Sie unter [Produktattribute verwalten](../katalog/produktattribute-verwalten.md).
 
 ## Feed prüfen und bereitstellen
 
@@ -116,7 +116,7 @@ Prüfen Sie zuerst die Produktfilter des Profils und die Einstellung **Alle Prod
 
 * [Produkt-Feeds exportieren](../katalog/produkte-verwalten/produkt-feeds-exportieren.md)
 * [Exportprofile verwalten](../datenaustausch/exportprofile-verwalten.md)
-* [Produktattribute verwalten](../katalog/produktattribute-verwalten/)
+* [Produktattribute verwalten](../katalog/produktattribute-verwalten.md)
 * [Wie funktionieren Produktvarianten?](../katalog/produkte-verwalten/wie-funktionieren-produktvarianten/)
 * [Versand-Einstellungen](../konfiguration/einstellungen/versand-einstellungen.md)
 * [Geplante Aufgaben verwalten](../system-and-wartung/geplante-aufgaben-verwalten.md)
