@@ -183,6 +183,7 @@
   * [File Manager](benutzer-handbuch/plugins/filemanager.md)
   * [GeoBlocker](benutzer-handbuch/plugins/geoblocker.md)
   * [Google Analytics](benutzer-handbuch/plugins/googleanalytics.md)
+  * [Google Merchant Center Feed](benutzer-handbuch/plugins/googlemerchantcenter.md)
   * [LegacyUrlRewriter](benutzer-handbuch/plugins/legacyurlrewriter.md)
   * [Medien-Manager](benutzer-handbuch/plugins/mediamanager.md)
     * [Dateien und Ordner verwalten](benutzer-handbuch/plugins/mediamanager/files-and-folders.md)

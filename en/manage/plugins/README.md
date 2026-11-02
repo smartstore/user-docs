@@ -841,10 +841,13 @@ Exports product data for Google Merchant Center and Shopping destinations.
 {% hint style="info" %}
 **Key Features**
 
-* Google-compatible product feed
-* Price and availability data
-* Configurable export settings
+* XML product feed with configurable GMC defaults
+* product-specific Google data and image selection
+* export mappings for product attributes and variants
+* scheduled exports with a public feed URL
 {% endhint %}
+
+For setup and usage details, see the [Google Merchant Center Feed](googlemerchantcenter.md) plugin documentation.
 
 ### Google.Remarketing
 

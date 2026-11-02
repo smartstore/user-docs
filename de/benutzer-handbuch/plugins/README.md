@@ -906,11 +906,13 @@ Exportiert Produktdaten in einem für das Google Merchant Center geeigneten Feed
 {% hint style="info" %}
 **Wichtigste Features**
 
-* XML-Produktfeed
-* Zuordnung relevanter Produkt- und Preisdaten
-* planbare bzw. wiederholbare Exporte
-* Feed-URL zur Übernahme durch Google.
+* XML-Produktfeed mit konfigurierbaren GMC-Standardwerten
+* produktspezifische Google-Daten und Bildauswahl
+* Exportzuordnungen für Produktattribute und Varianten
+* planbarer Export mit öffentlicher Feed-URL.
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Google Merchant Center Feed](googlemerchantcenter.md).
 
 ### Google.Remarketing
 
