@@ -86,6 +86,31 @@ test("matches labels to project options independent of punctuation and case", ()
   );
 });
 
+test("maps the screenshot stage label to Screenshots prüfen", () => {
+  const metadata = parseIssueMetadata({
+    body: issueBody,
+    labels: ["stage:screenshots", "lang:de", "area:loslegen"],
+  });
+  const field = {
+    name: "Stage",
+    options: [{ id: "screenshots", name: "Screenshots prüfen" }],
+  };
+
+  assert.equal(findOption(field, metadata.stage).id, "screenshots");
+  assert.equal(findOption(field, "screenshots-pruefen").id, "screenshots");
+  assert.throws(() => findOption(field, "screenshot"), /was not found/);
+});
+
+test("does not apply the screenshot stage alias to other fields", () => {
+  assert.throws(
+    () => findOption({
+      name: "Area",
+      options: [{ id: "screenshots", name: "Screenshots prüfen" }],
+    }, "screenshots"),
+    /was not found/,
+  );
+});
+
 test("rejects ambiguous stage labels", () => {
   assert.throws(
     () =>

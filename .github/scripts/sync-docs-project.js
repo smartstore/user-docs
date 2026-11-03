@@ -73,8 +73,12 @@ function findField(fields, name) {
 }
 
 function findOption(field, value) {
+  // The established screenshot label omits "prüfen" from the project option.
+  const optionName = normalize(field.name) === "stage" && normalize(value) === "screenshots"
+    ? "Screenshots prüfen"
+    : value;
   const option = (field.options || []).find(
-    (candidate) => normalize(candidate.name) === normalize(value),
+    (candidate) => normalize(candidate.name) === normalize(optionName),
   );
   if (!option) {
     throw new Error(`Option '${value}' was not found in project field '${field.name}'.`);
