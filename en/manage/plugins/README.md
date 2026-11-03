@@ -1417,15 +1417,17 @@ For setup and usage details, see the [Stripe](stripe.md) plugin documentation.
 
 **Paid:** No
 
-Provides Smartstore's standard tax calculations, including fixed rates and rates based on region or tax jurisdiction.
+Provides Smartstore's standard tax calculations, including fixed rates and regional rates by country, region, and postal code.
 
 {% hint style="info" %}
 **Key Features**
 
-* Fixed tax rates
-* Regional tax rates
-* Tax categories and customer/address context
+* Fixed tax rates by tax category
+* Regional tax rates by country, region, and postal code
+* Selection of the primary tax provider
 {% endhint %}
+
+For setup and usage details, see the [Tax](tax.md) plugin documentation.
 
 ### Timeline
 

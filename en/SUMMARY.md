@@ -208,6 +208,7 @@
     * [Integrations](manage/plugins/pagebuilder/integrations.md)
   * [Pixlr](manage/plugins/pixlr.md)
   * [Product Safety Regulation (GPSR)](manage/plugins/product-safety-regulation-gpsr.md)
+  * [Tax (Standard Tax Calculation)](manage/plugins/tax.md)
   * [TinyImage](manage/plugins/tinyimage.md)
   * [UrlRewriter](manage/plugins/urlrewriter.md)
   * [Web API](manage/plugins/webapi.md)

@@ -1536,16 +1536,17 @@ Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumenta
 
 **Kostenpflichtig:** Nein
 
-Stellt die Standardverfahren zur Steuerberechnung bereit. Dazu gehören feste Steuersätze und eine Berechnung, die sich nach Region beziehungsweise Steuergebiet richtet.
+Stellt die Standardverfahren zur Steuerberechnung bereit. Dazu gehören feste Steuersätze und regionale Sätze nach Land, Region und Postleitzahl.
 
 {% hint style="info" %}
 **Wichtigste Features**
 
-* feste Steuersätze
-* regionale Steuersätze
-* Zuordnung zu Steuerkategorien
-* Zusammenspiel mit Kunden-, Adress- und Storekontext.
+* Feste Steuersätze je Steuerklasse
+* Regionale Steuersätze nach Land, Region und Postleitzahl
+* Auswahl des primären Steueranbieters
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Tax](tax.md).
 
 ### Timeline
 
