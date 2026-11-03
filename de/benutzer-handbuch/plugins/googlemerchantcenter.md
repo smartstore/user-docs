@@ -22,7 +22,7 @@ Welche Angaben Google für Ihre Produkte verlangt, hängt von der Produktart und
 
 ![Auswahl des Exportanbieters Google Merchant Center XML Feed beim Anlegen eines Exportprofils](../../.gitbook/assets/export_overview_new_popup-gmc.png)
 
-Unter **Plugins > Google Merchant Center > Export-Profile** werden bereits vorhandene GMC-Profile angezeigt. Dort können Sie ein Profil öffnen und seine Ausführung aufrufen. **Neue Profile legen Sie in der allgemeinen Exportverwaltung an.** Die Registerkarten und Funktionen eines Profils beschreibt [Exportprofile verwalten](../datenaustausch/export/exportprofile-verwalten.md).
+Unter **Plugins > Google Merchant Center > Export-Profile** werden bereits vorhandene GMC-Profile angezeigt. Dort können Sie ein Profil öffnen und seine Ausführung aufrufen. **Neue Profile legen Sie in der allgemeinen Exportverwaltung an.** Die Registerkarten und Funktionen eines Profils werden in [Exportprofile verwalten](../datenaustausch/export/exportprofile-verwalten.md) näher beschrieben.
 
 ## GMC-Einstellungen im Exportprofil
 
@@ -106,7 +106,7 @@ Weitere Informationen finden Sie unter [Produktattribute verwalten](../../verwal
 4. Öffnen Sie im Profil **Bereitstellung** und prüfen Sie das Ziel **Öffentlicher Ordner**. Nach dem ersten Export können Sie die dort angezeigte Feed-URL im Google Merchant Center hinterlegen.
 5. Planen Sie bei Bedarf eine regelmäßige Ausführung, damit die Datei aktuell bleibt.
 
-Ein gespeichertes Exportprofil allein erzeugt noch keine aktuelle Feed-Datei. Allgemeine Hinweise zu Bereitstellungszielen stehen unter [Exportprofile verwalten](../datenaustausch/export/exportprofile-verwalten.md); die regelmäßige Ausführung ist unter [Geplante Aufgaben verwalten](../system-wartung/geplante-aufgaben-verwalten.md) beschrieben.
+Ein gespeichertes Exportprofil allein erzeugt noch keine aktuelle Feed-Datei. Allgemeine Hinweise zu Bereitstellungszielen stehen unter [Exportprofile verwalten](../datenaustausch/export/exportprofile-verwalten.md). Die regelmäßige Ausführung von Aufgaben ist unter [Geplante Aufgaben verwalten](../system-wartung/geplante-aufgaben-verwalten.md) beschrieben.
 
 ### Wenn Produkte oder Angaben fehlen
 
