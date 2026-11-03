@@ -1,107 +1,71 @@
-# Wie funktionieren Produktvarianten?
+# Produktattribute und Varianten
 
-Mit Produktvarianten verwalten Sie unterschiedliche Ausführungen desselben Produkts, beispielsweise verschiedene Farben oder Größen. Legen Sie die Varianten in der Produktkonfiguration unter **Attribute** an.
+Viele Produkte werden in mehreren Ausführungen angeboten, beispielsweise in unterschiedlichen Größen, Farben oder Materialien. Sie können Kunden diese Auswahl am Produkt ermöglichen und für einzelne Ausführungen eigene Produktnummern, Preise oder Lagerbestände hinterlegen.
 
-![](<../../../.gitbook/assets/2022-10-19 10_09_14-Produktdetails _ Smartstore Administration.png>)
+## Weiterführende Themen <a href="#weiterfuehrende-themen" id="weiterfuehrende-themen"></a>
 
-![](../../../.gitbook/assets/wie_funktionieren_produktvarianten_2.png)
+* [Produktattribute vorbereiten](../produktattribute-verwalten.md): Merkmale wie Farbe und Größe zentral anlegen, gemeinsame Einstellungen pflegen und wiederkehrende Werte als Options-Sets vorbereiten.
+* [Attribute am Produkt einrichten](wie-funktionieren-produktvarianten/produktvarianten-einrichten.md): Attribute zuweisen, Eingabetypen wählen und die angebotenen Werte einschließlich Aufpreisen festlegen.
+* [Attributkombinationen verwalten](wie-funktionieren-produktvarianten/attributkombinationen-verwalten.md): Eigene SKUs, Preise, Bilder oder Bestände je Ausführung hinterlegen und bestellbare Kombinationen festlegen.
+* [Farb- und Bildmuster verwenden](wie-funktionieren-produktvarianten/farb-und-bildmuster-verwenden.md): Die Auswahl mit Farbfeldern, Materialbildern oder größeren Auswahlkarten gestalten.
+* [Produktpreis festlegen](produktpreis-festlegen.md): Die allgemeinen Preise und Preisoptionen eines Produkts pflegen.
+* [Preisregeln verstehen](preisregeln-verstehen.md): Das Zusammenspiel von Produktpreis, Kombinationspreis, Aufpreisen und Rabatten verstehen.
+* [Lagerbestand führen](lagerbestand-fuhren.md): Gemeinsame oder nach Ausführungen getrennte Bestände verwalten.
 
-## Anwendungsszenario
+Die folgenden Abschnitte erklären die Zusammenhänge am Beispiel eines T-Shirts und helfen Ihnen, die passende Anleitung auszuwählen.
 
-Angenommen, Sie verkaufen ein T-Shirt in mehreren Farben und Größen. Fügen Sie dem Produkt unter **Attribute** die Merkmale Farbe und Größe hinzu. Für Farbe eignet sich der Typ **Farb- und Bildmuster**, für Größe beispielsweise **Dropdown-Liste**. Öffnen Sie anschließend **Attributwerte bearbeiten/ansehen** und hinterlegen Sie Werte wie S, M, L und XL. Wenn einzelne Varianten eigene Produktdaten wie Lagerbestand, Preis, SKU oder Bild benötigen, erstellen Sie zusätzlich Attributkombinationen.
+## Ein Produkt, mehrere Ausführungen <a href="#anwendungsszenario" id="anwendungsszenario"></a>
 
-## Attribute
+Angenommen, Sie verkaufen dasselbe T-Shirt in Blau und Weiß sowie in den Größen S, M und L. Daraus ergeben sich sechs mögliche Ausführungen. Sie legen dafür ein Produkt an und ergänzen die Auswahl von Farbe und Größe.
 
-Bevor Sie einem Produkt Attribute zuweisen, legen Sie diese unter **Katalog > Produktattribute** an. Der interne Name identifiziert das Attribut eindeutig. Für jede konfigurierte Shopsprache können Sie anschließend eigene Namen und Beschreibungen hinterlegen.
+Ob Sie zusätzlich eigene Daten für alle sechs Ausführungen hinterlegen müssen, hängt von Ihrem Sortiment ab. Ein gemeinsamer Preis kann für alle Größen genügen. Getrennte Bestände oder unterschiedliche Produktnummern müssen Sie dagegen den jeweiligen Ausführungen zuordnen.
 
-Wenn Sie ein Produktattribut zu Ihrem Produkt hinzufügen, können Sie die folgenden Werte konfigurieren:
+## Attribute und Werte unterscheiden <a href="#attribute" id="attribute"></a>
 
-| Feld             | Beschreibung                                                                                                                                                                                      |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Attribut         | Legt das Produktattribut fest.                                                                                                                                                                    |
-| Anzeigetext      | Legt einen textuellen Wert fest, der in Ihrem Shop neben dem Attribut angezeigt wird. Der Zweck dieses Wertes ist, dem Kunden einen zusätzlichen Hinweis über die Nutzung des Attributs zu geben. |
-| Ist erforderlich | Legt fest, ob die Auswahl eines Attributwerts durch den Kunden zwingend erforderlich ist, bevor der Kunde das Produkt dem Warenkorb hinzufügen kann.                                              |
-| Typ              | Legt den Steuerelement-Typ fest, der im Frontend erzeugt wird. Sie können unter den folgenden Typen auswählen (siehe Tabelle unten).                                                              |
-| Reihenfolge      | Legt die Reihenfolge der Anzeige im Frontend fest.                                                                                                                                                |
-| Werte            | Enthält die Attributwerte.                                                                                                                                                                        |
+**Farbe** und **Größe** sind in diesem Beispiel die Attribute. Sie bezeichnen die Merkmale, nach denen der Kunde auswählt. **Blau**, **Weiß**, **S**, **M** und **L** sind die zugehörigen Attributwerte. Die Auswahl **Blau + M** ist eine Attributkombination.
 
-### Verfügbare Typen
+Attribute können auch individuelle Angaben erfassen. Für einen Gravurtext verwenden Sie beispielsweise ein Textfeld, für ein Druckmotiv einen Datei-Upload. Der Kunde gibt dann selbst einen Wert ein, statt aus vorbereiteten Werten zu wählen.
 
-| Typ                  | Beschreibung                                                                                              |
-| -------------------- | --------------------------------------------------------------------------------------------------------- |
-| Dropdown-Liste       | Erzeugt eine Dropdown-Liste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.             |
-| Radiobuttonliste     | Erzeugt eine Radiobuttonliste, um Kunden einen der hinterlegten Attributwerte wählen zu lassen.           |
-| Kontrollkästchen     | Erzeugt Kontrollkästchen für jeden Wert, um Kunden einen der hinterlegten Attributwerte wählen zu lassen. |
-| Textbox              | Erzeugt eine Textbox.                                                                                     |
-| Mehrzeilige Textbox  | Erzeugt eine mehrzeilige Textbox.                                                                         |
-| Kalender             | Erzeugt einen Kalender, mit welchem Kunden ein Datum wählen können.                                       |
-| Datei-Upload         | Erzeugt ein Datei-Upload-Feld, mit welchem Kunden Dateien hochladen können.                               |
-| Farb- und Bildmuster | Erzeugt Farb- und Bildmuster, über die Kunden einen Attributwert auswählen können.                        |
+<figure><img src="../../../.gitbook/assets/product_variants_structure.png" alt="Zusammenhang zwischen Attributen, Werten und Kombinationen: Zwei Farben und drei Größen ergeben sechs T-Shirt-Ausführungen."><figcaption><p>Zusammenhang zwischen Attributen, Werten und Kombinationen: Zwei Farben und drei Größen ergeben sechs T-Shirt-Ausführungen.</p></figcaption></figure>
 
-## Attributwerte
+## Wiederkehrende Attribute und Werte vorbereiten <a href="#attributwerte" id="attributwerte"></a>
 
-Abhängig vom ausgewählten Typ können Sie unterschiedliche Felder oder keines bearbeiten. Wenn Sie die Typen **Textbox, Mehrzeilige Textbox, Kalender** oder **Datei-Upload** auswählen, können Sie keine Werte hinzufügen, da der Wert dieser Typen von den Kunden bestimmt wird, da sie frei mit diesen Steuerelementen interagieren können. Für den Typ **Farb- und Bildmuster** können Sie Farben oder Bilder angeben, die Ihre Kunden auf der Produktdetailseite auswählen können. Farbvarianten können auch in der Produktbox aus Produktlisten angezeigt werden, wenn die folgende Option aktiviert ist: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktlisten > Zeige Farbvarianten in Produktlisten**.
+Ein Attribut wie Farbe lässt sich für viele Produkte verwenden. Deshalb legen Sie es zentral an und weisen es anschließend den betreffenden Produkten zu. So können unterschiedliche T-Shirts dasselbe Attribut verwenden, aber jeweils andere Farben anbieten.
 
-Wenn Sie Werte zu einem Attribut hinzufügen, können Sie die folgenden Daten dafür spezifizieren:
+Häufig benötigte Werte können Sie als Options-Set vorbereiten, beispielsweise die Größen S bis XL. Die Werte werden aus diesem Set in das Produkt kopiert und können dort angepasst werden. Spätere Änderungen der Vorlage verändern bereits kopierte Werte nicht automatisch.
 
-| Feld                | Beschreibung                                                                                                                                                                                                                                      |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Name                | Name des Attributwerts, wie er im Frontend angezeigt wird. Erlaubt unterschiedliche Werte für jede angelegte Sprache.                                                                                                                             |
-| RGB-Farbe           | Der RGB-Wert der Farbe, die im Frontend erzeugt wird. Nur für den Typ **Farb- und Bildmuster** verfügbar.                                                                                                                                         |
-| Alias               | Zur internen Verwendung (Entwicklerfunktion).                                                                                                                                                                                                     |
-| Verknüpftes Produkt | Wenn Sie den Werttyp **Produkt** anstelle von **Einfach** benutzen, können Sie ein Produkt als Variantenwert hinzufügen, das automatisch zum Warenkorb hinzugefügt wird, sobald der Kunde das Attribut wählt.                                     |
-| Mehr-/Minderpreis   | Der Wert wird auf der Produktdetailseite neben dem Wert angezeigt, wenn die folgende Option aktiviert ist: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktdetail > Mehr- und Minderpreise bei Variant-Kombinationen anzeigen**. |
-| Mehr-/Mindergewicht | Passt das Gewicht für dieses Attribut an.                                                                                                                                                                                                         |
-| Vorausgewählt       | Spezifiziert, ob der Wert vorausgewählt ist, wenn der Kunde die Produktdetailseite betritt.                                                                                                                                                       |
-| Reihenfolge         | Legt die Reihenfolge der Anzeige fest.                                                                                                                                                                                                            |
+Die zentrale Anlage und die Arbeit mit solchen Vorlagen beschreibt [Produktattribute vorbereiten](../produktattribute-verwalten.md).
 
-## Farb- und Bildmuster
+## Die Auswahl am Produkt einrichten <a href="#verfugbare-typen" id="verfugbare-typen"></a>
 
-Mit dem Typ **Farb- und Bildmuster** stellen Sie Variantenwerte als anklickbare Muster dar. Das eignet sich beispielsweise für Farben, Materialien, Oberflächen oder Variantenbilder.
+Am einzelnen Produkt bestimmen Sie, welche Attribute und Werte Kunden wählen können. Dazu gehören die Darstellung als Auswahlliste, Kontrollkästchen, Textfeld oder Farb- und Bildmuster sowie die Frage, welche Angaben vor dem Kauf erforderlich sind.
 
-Konfigurieren Sie die Darstellung unter **Katalog > Produktattribute** im Bereich **Farb- und Bildmuster**. Größe und Form übernehmen zunächst die globalen Vorgaben aus **Konfiguration > Einstellungen > Katalog-Einstellungen**. Die Einstellungen am Produktattribut gelten anschließend für alle Produkte, die dieses Attribut verwenden.
+Für das T-Shirt könnten Sie die Größe als Dropdown-Liste und die Farbe als anklickbares Muster anbieten. Eine vorausgewählte Größe kann den Einstieg erleichtern; ein Pflichtfeld stellt sicher, dass der Kunde die benötigte Auswahl vor dem Kauf trifft.
 
-Für ein einzelnes Produkt können Sie die Vorgaben im Bereich **Attribute** über **Farb- und Bildmuster bearbeiten** überschreiben. Nur die dort gesetzten Werte weichen von den Einstellungen des Produktattributs ab.
+Wie Sie Attribute zuweisen, Werte hinterlegen und die Eingabe einstellen, erfahren Sie unter [Attribute am Produkt einrichten](wie-funktionieren-produktvarianten/produktvarianten-einrichten.md).
 
-Jedem Attributwert können Sie ein Bild oder bis zu vier RGB-Farben zuweisen. Bei mehreren Farben unterteilt Smartstore das Muster in gleich große Farbflächen. Wählen Sie zuerst die Hauptfarbe und fügen Sie anschließend weitere Farben hinzu.
+## Eigene SKU, Preise oder Bestände je Ausführung hinterlegen <a href="#attribut-kombinationen" id="attribut-kombinationen"></a>
 
-### Darstellung konfigurieren
+Soll das blaue T-Shirt in Größe M eine eigene SKU wie **SHIRT-BL-M** erhalten, legen Sie dafür eine Attributkombination an. An derselben Kombination können Sie beispielsweise einen Preis von 24 € und einen Lagerbestand von zwölf Stück hinterlegen. Blau + L erhält bei Bedarf eine weitere Kombination mit eigenen Angaben.
 
-**Mustergröße:** Bestimmt die Größe von XS bis XXL. Namen und Preise können ab Größe L innerhalb einer Musterkarte erscheinen.
+Wenn Kunden lediglich eine Farbe wählen sollen und alle gemeinsamen Produktdaten ausreichen, müssen Sie dafür keine eigenen Kombinationen erfassen. Kombinationen werden außerdem wichtig, wenn Sie gezielt festlegen möchten, welche Zusammenstellungen angeboten werden: etwa Weiß nur in S und M, Blau dagegen auch in L.
 
-**Muster-Seitenverhältnis:** Bestimmt das Verhältnis von Höhe zu Breite. 1:1 ist quadratisch, 0,5 entspricht 2:1. Die Einstellung wirkt nur im Kartenformat.
+Das Anlegen und Ergänzen von Kombinationen sowie die Freigabe bestellbarer Ausführungen erläutert [Attributkombinationen verwalten](wie-funktionieren-produktvarianten/attributkombinationen-verwalten.md).
 
-**Musterform:** Wählen Sie zwischen Abgerundet, Rechteckig und Rund. Smartstore verwendet statt Rund die Form Abgerundet, wenn Inhalte in einer Musterkarte erscheinen oder eine Option weder Farbe noch Bild besitzt.
+## Die Auswahl durch Farben und Bilder verständlich machen <a href="#farb-und-bildmuster" id="farb-und-bildmuster"></a>
 
-**Optionsnamen anzeigen:** Zeigt den Namen innerhalb der Musterkarte an. Bei eingeblendeten Preisinformationen wird der Name immer angezeigt.
+Eine Farbbezeichnung allein vermittelt nicht immer, wie ein Produkt aussieht. Mit Farb- und Bildmustern können Kunden beispielsweise eine T-Shirt-Farbe direkt erkennen oder die Struktur verschiedener Sofastoffe vergleichen. Je nach Darstellung erscheinen kleine Farbflächen, Materialbilder oder größere Auswahlkarten mit Namen und Preisinformationen.
 
-**Preisanzeige im Muster: Keine** blendet Preise aus. **Preisanpassung** zeigt den Mehr- oder Minderpreis des Attributwerts. **Produkt-, Vergleichs- und Grundpreis** zeigt den berechneten Produktpreis und, sofern verfügbar, Vergleichs- und Grundpreis für die jeweilige Auswahl.
+### Die Darstellung gemeinsam oder je Produkt festlegen <a href="#darstellung-konfigurieren" id="darstellung-konfigurieren"></a>
 
-{% hint style="info" %}
-Das Kartenformat wird nur verwendet, wenn mindestens Größe L eingestellt, die Namens- oder Preisanzeige aktiviert und jeder Attributwert mit einer Farbe oder einem Bild versehen ist. Preise müssen außerdem für den Kunden sichtbar sein. Sind diese Bedingungen nicht erfüllt, zeigt Smartstore kompakte Muster; das Seitenverhältnis hat dann keine sichtbare Wirkung.
-{% endhint %}
+Die Darstellung eines Attributs lässt sich zentral für seine Verwendung an vielen Produkten festlegen. Für ein einzelnes Produkt können Sie davon abweichen, beispielsweise größere Stoffbilder verwenden. Bilder, mehrfarbige Muster, Auswahlkarten und die Preisvorschau erklärt [Farb- und Bildmuster verwenden](wie-funktionieren-produktvarianten/farb-und-bildmuster-verwenden.md).
 
-## Attribut-Kombinationen
+## Preise für die Auswahl festlegen <a href="#preise" id="preise"></a>
 
-Erstellen Sie **Attribut-Kombinationen**, wenn Varianten eigene Daten wie SKU, Preis oder Lagerbestand benötigen. Mit **Alle Kombinationen erstellen** erzeugen Sie sämtliche Kombinationen automatisch; über **Hinzufügen** legen Sie einzelne Kombinationen manuell an. Klicken Sie anschließend auf eine Tabellenzeile, um die folgenden Daten zu bearbeiten. Smartstore lädt die passenden Werte auf der Produktdetailseite, sobald der Kunde die zugehörigen Attribute auswählt.
+Manchmal genügt ein gemeinsamer Produktpreis. In anderen Fällen soll Weiß einen Aufpreis von 2 € kosten oder Blau + M einen eigenen Preis erhalten. Wo Sie Aufpreise an Attributwerten eintragen, beschreibt [Attribute am Produkt einrichten](wie-funktionieren-produktvarianten/produktvarianten-einrichten.md). Den eigenen Preis einer Ausführung hinterlegen Sie unter [Attributkombinationen verwalten](wie-funktionieren-produktvarianten/attributkombinationen-verwalten.md). Wie diese Beträge mit Aktionspreisen, Staffelpreisen und Rabatten zusammenwirken, erläutert [Preisregeln verstehen](preisregeln-verstehen.md). Die allgemeinen Preisfelder des Produkts finden Sie unter [Produktpreis festlegen](produktpreis-festlegen.md).
 
-| Feld                                 | Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Aktiv                                | Gibt an, ob die Kombination aktiv ist und durch Ihre Kunden ausgewählt werden kann.                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| Bilder                               | Aktivieren Sie die Bilder, die diese Attribut-Kombination zeigen. Die ausgewählten Bilder werden angezeigt, wenn ein Kunde die zugehörigen Attributwerte auswählt. Die ausgewählten Bilder werden von der Produktdetailseite ausgeschlossen, sobald die Anzahl der Produktbilder die Anzahl der möglichen Bilder, die mit folgender Einstellung festgelegt wurde, übersteigt: **Konfiguration > Einstellungen > Katalog-Einstellungen > Produktdetail > Anzahl, ab der Bilder nur noch bei Variantenwechsel angezeigt werden** |
-| #                                    | Die SKU/Produktnummer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Hersteller-Produktnummer             | Produktnummer des Herstellers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| EAN                                  | EAN (Europa), GTIN (Global Trade Item Number), UPC (USA), JAN (Japan) oder ISBN (Bücher).                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| Preis                                | Legt den Preis für die Attribut-Kombination fest.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Lieferzeit                           | Legt die Lieferzeit für die Attribut-Kombination fest.                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Grundeinheit                         | Der Bezugswert für den Grundpreis (z. B. "1 Liter"). Formel: {Grundeinheit} {Maßeinheit} = {Verkaufspreis} / {Menge}.                                                                                                                                                                                                                                                                                                                                                                                                          |
-| Menge                                | Tatsächliche Menge des Produkts pro Verpackungseinheit in der angegebenen Maßeinheit (z. B. 250 ml Duschgel entspricht "0,25", wenn {Maßeinheit}=Liter und {Grundeinheit}=1).                                                                                                                                                                                                                                                                                                                                                  |
-| Länge                                | Die Länge des Produkts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| Breite                               | Die Breite des Produkts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Höhe                                 | Die Höhe des Produkts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Lagerbestand                         | Gibt den Lagerbestand an. Beachten Sie, dass der Lagerbestand einer Kombination nur dann automatisch reduziert wird, wenn die Option **Lagerbestandsführung** in der Registerkarte **Inventar** in der Produktdetailkonfiguration mit **Lagerbestand mit Attributen führen** belegt ist.                                                                                                                                                                                                                                       |
-| Bestellung ohne Lagerbestand möglich | Legt fest, ob das Produkt auch bei einem Lagerbestand <=0 bestellt werden kann.                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+## Bestände und Bestellbarkeit unterscheiden <a href="#lagerbestand" id="lagerbestand"></a>
 
-{% hint style="info" %}
-Wenn Sie neue Attributwerte hinzufügen, müssen Sie die Kombinationen neu erstellen, um alle aktuellen Werte Ihren Kombinationen zuzuweisen.
-{% endhint %}
+Wenn Sie zwölf blaue T-Shirts in M und fünf in L auf Lager haben, können Sie diese Bestände an den beiden Kombinationen getrennt führen. Dafür wählen Sie am Produkt die passende Methode der Lagerbestandsführung. Die Einstellungen und Bestandsbuchungen beschreibt [Lagerbestand führen](lagerbestand-fuhren.md).
+
+Unabhängig vom Bestand können Sie eine bestimmte Kombination vollständig vom Verkauf ausschließen. Wie aktive Kombinationen, fehlende Kombinationen und die Auswahl im Shop zusammenspielen, erklärt [Attributkombinationen verwalten](wie-funktionieren-produktvarianten/attributkombinationen-verwalten.md#bestellbare-kombinationen).
