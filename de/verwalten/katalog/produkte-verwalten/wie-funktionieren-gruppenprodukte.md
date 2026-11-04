@@ -6,8 +6,10 @@ Mit Gruppenprodukten präsentieren Sie zusammengehörige Einzelprodukte auf eine
 * Leichteres Auffinden ähnlicher Produkte und somit mehr Verkäufe.
 * Mehr Verkäufe, wenn der Kunde nützliche, notwendige oder wünschenswerte Produkte auf der gleichen Seite entdeckt.
 
+Das Gruppenprodukt dient als gemeinsame Präsentationsseite und wird nicht selbst in den Warenkorb gelegt. Kunden wählen die verknüpften Produkte einzeln aus. Preise, Bestände und Kaufoptionen pflegen Sie an diesen Produkten; die Gruppierung erzeugt keinen gemeinsamen Bundle-Preis.
+
 {% hint style="info" %}
-Wenn Sie ein Einzelprodukt mit einem Gruppenprodukt verbinden, können Sie festlegen, ob das Einzelprodukt **individuell** (oder lediglich auf der Gruppenproduktseite) sichtbar ist. Ein Produkt, das nicht **individuell sichtbar** ist, wird weder in Suchergebnissen noch in Produktlisten von Warengruppen angezeigt.
+Die Einstellung **Sichtbarkeit** am verknüpften Produkt bestimmt, wo es eigenständig erscheint. Mit **Nicht sichtbar** wird es nicht in Produktlisten oder Suchergebnissen angezeigt, bleibt aber auf der Gruppenproduktseite verfügbar. Ein direkter Aufruf seiner Produkt-URL führt zur Gruppenproduktseite. Die Zuordnung allein ändert die Sichtbarkeit nicht.
 {% endhint %}
 
 ## Anwendungsszenario
@@ -29,12 +31,26 @@ Stellen Sie sich vor, Sie möchten eine Videospielkonsole verkaufen. Wenn jemand
 
 Produkte einem Gruppenprodukt zuweisen
 
-1. Gehen Sie zur Registerkarte **Verknüpfte Produkte** Ihres Gruppenprodukts und klicken Sie auf **Verknüpftes Produkt hinzufügen**.
+1. Gehen Sie zur Registerkarte **Verknüpfte Produkte** Ihres Gruppenprodukts und klicken Sie auf **Neu**.
 2. Wählen Sie eines oder mehrere Produkte mit einem Mausklick aus. Sie können die Suche nutzen, um Produkte, die Sie verknüpfen wollen, schneller zu finden.
 3. Klicken Sie auf **Übernehmen**. Die ausgewählten Produkte erscheinen nun in der Tabelle der verknüpften Produkte.
-4. Um eine Verknüpfung aufzuheben, klicken Sie beim entsprechenden Produkt in der Tabelle auf **Löschen**.
-5. Um die Anzeigereihenfolge auf der Gruppenproduktseite zu ändern, klicken Sie auf **Bearbeiten** und passen die Reihenfolge an.
+4. Um eine Verknüpfung aufzuheben, klicken Sie beim entsprechenden Produkt in der Tabelle auf **Löschen**. Dabei wird nur die Zuordnung entfernt; das Produkt selbst bleibt erhalten. Mehrere Zuordnungen können Sie markieren und mit „Ausgewählte löschen“ gemeinsam entfernen.
+5. Um die Anzeigereihenfolge auf der Gruppenproduktseite zu ändern, klicken Sie auf **Bearbeiten** und passen den Wert „Reihenfolge“ an. Kleinere Werte erscheinen zuerst. Übernehmen Sie die Änderung mit „Änderungen speichern“. Der Wert entspricht der allgemeinen Sortierpriorität des verknüpften Produkts.
 
 {% hint style="info" %}
-Ein Produkt kann nur mit einem Gruppenprodukt verbunden werden.
+Ein Produkt kann nur mit einem Gruppenprodukt verbunden werden. Wenn Sie es einer anderen Gruppe zuordnen, wird die bisherige Zuordnung ersetzt. Andere Gruppenprodukte können nicht verknüpft werden; einfache Produkte und Produkt-Bundles sind zulässig. Prüfen Sie nach dem Entfernen einer Zuordnung die Sichtbarkeit des Produkts: Ein „Nicht sichtbar“ eingestelltes Produkt ohne Gruppe hat keine erreichbare eigene Produktseite.
 {% endhint %}
+
+Damit ein verknüpftes Produkt im Shop erscheint, muss es veröffentlicht und für den jeweiligen Shop und Kunden verfügbar sein. Shop- und Kundengruppenbeschränkungen werden durch die Gruppenzuordnung nicht automatisch vom Gruppenprodukt übernommen.
+
+## Darstellung der verknüpften Produkte einstellen
+
+Öffnen Sie bei einem gespeicherten Gruppenprodukt unter „Allgemein“ die Schaltfläche „Einstellungen…“ neben „Produkttyp“. Im Dialog „Gruppenprodukt bearbeiten“ können Sie die Katalogvorgaben für dieses Produkt überschreiben. Nicht gesetzte Werte verwenden die allgemeinen Vorgaben.
+
+* **Listentitel der verknüpften Produkte:** Überschrift der Produktliste. Sie können den Titel auch je Sprache hinterlegen.
+* **Listengröße der verknüpften Produkte:** Anzahl der verknüpften Produkte pro Listenseite. Der Wert muss größer als null sein; bei mehr Produkten erscheint eine Seitennavigation.
+* **Minimale Produktanzahl für Suche:** Ab dieser Anzahl verknüpfter Produkte wird ein Suchfeld innerhalb der Gruppe angezeigt.
+* **Aufklappbare verknüpfte Produkte:** Legt fest, ob die Produktdetails durch Klick auf die Kopfzeile auf- und zugeklappt werden. Ohne diese Darstellung werden die Details untereinander angezeigt.
+* **Felder für die Kopfzeile:** Zusätzliche Angaben in der Kopfzeile aufklappbarer Produkte, beispielsweise Bild, Produktnummer oder Preis. Der Produktname wird immer angezeigt.
+
+Die allgemeinen Vorgaben finden Sie in den [Katalogeinstellungen](../../../benutzer-handbuch/konfiguration/einstellungen/katalogeinstellungen.md) im Bereich „Gruppenprodukt“. Speichern Sie Ihre Anpassungen im Dialog mit „Speichern“.
