@@ -1,19 +1,33 @@
 # Produkt-Feeds exportieren
 
-Mit Produkt-Feeds stellen Sie Ihre Katalogdaten Preisvergleichsportalen wie _Google Shopping_ bereit. Dort können Ihre Angebote beispielsweise in der Registerkarte _Produkte_ der Suchmaschine erscheinen.
+Mit Produkt-Feeds stellen Sie Ihre Katalogdaten externen Plattformen wie dem Google Merchant Center bereit. Der Feed enthält die Produktinformationen in dem Format, das der jeweilige Anbieter benötigt.
 
 Smartstore erzeugt Produkt-Feeds über Exportprofile. Für jedes Ziel oder Format können Sie ein eigenes Profil unter **Konfiguration > Exportieren** erstellen.
 
-Ein Exportprofil verwendet einen Export-Provider, der die Daten in das benötigte Format überführt. Diese Provider werden in der Regel durch Plugins bereitgestellt. Erzeugen Sie einen Feed manuell in der Plugin-Konfiguration oder in der Profilliste unter **Konfiguration > Export**. Alternativ automatisieren Sie die Erstellung über die geplante Aufgabe des Exportprofils. Weitere Informationen finden Sie unter [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md). Abhängig von den installierten Feed-Plugins stehen unterschiedliche Zielportale zur Verfügung.
+Ein Exportprofil verwendet einen Export-Provider, der die Daten in das benötigte Format überführt. Der passende Provider wird durch ein installiertes Feed-Plugin bereitgestellt. Starten Sie einen Feed manuell in der Profilliste unter **Konfiguration > Exportieren** mit **Jetzt ausführen** oder direkt im geöffneten Profil mit **Exportieren**. Alternativ richten Sie die regelmäßige Ausführung über die zugehörige geplante Aufgabe ein. Weitere Informationen finden Sie unter [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md). Abhängig von den installierten Feed-Plugins stehen unterschiedliche Zielportale zur Verfügung.
+
+Stimmen Sie das Profil auf das Zielportal ab:
+
+* **Filter:** Begrenzen Sie die Produktauswahl, beispielsweise nach Shop, Veröffentlichungsstatus, Kategorie, Hersteller, Preis oder Bestand.
+* **Projektion:** Legen Sie unter anderem Shop, Sprache, Währung und Preisaufbereitung fest. Ob Attributkombinationen als eigene Produkte ausgegeben werden können, hängt vom Export-Provider ab.
+* **Konfiguration:** Hier erscheinen die Einstellungen des gewählten Providers, sofern er eine eigene Konfiguration anbietet.
+* **Bereitstellung:** Bestimmen Sie, wie das Portal die erzeugten Dateien erhält.
 
 ## Das Dateiformat
 
-Für ein Portal wie _Google Shopping_ benötigen Sie meist eine CSV- oder XML-Datei im vorgegebenen Format. Der Export-Provider erzeugt die erforderlichen Spaltennamen und formatiert deren Inhalte entsprechend. Die URLs der erzeugten Dateien finden Sie unter **Konfiguration > Exportieren** und über die Dateinummer in der Exportprofilliste.
+Das Dateiformat bestimmt der gewählte Export-Provider. Das Plugin **Google Merchant Center Feed** erzeugt beispielsweise XML. Eine allgemeine CSV- oder XML-Produktdatei ist nicht automatisch ein passender Portal-Feed: Feldnamen und Inhalte müssen zum Zielportal passen.
 
-## Feed-Aufgaben
+Öffnen Sie nach dem Export in der Profilliste die Anzahl in der Spalte **Exportdateien**. Dort können Sie die Ergebnisdateien herunterladen. Für eine vom Portal abrufbare URL benötigen Sie zusätzlich eine aktive Bereitstellung vom Typ **Öffentlicher Ordner**. Nach erfolgreichem Export und Bereitstellen erscheint der Link unter **Öffentliche Dateien**. Einen Download-Link aus der Administration können Sie dafür nicht verwenden.
 
-Wenn Sie ein Exportprofil erstellen, wird eine geplante Aufgabe für die Erstellung des Produkt-Feeds angelegt. Sie legt den Zyklus fest, in dem die Produktdaten der Dateien aktualisiert werden. Weitere Informationen zur Planung von Aufgaben finden Sie unter [Geplante Aufgaben verwalten](../../../benutzer-handbuch/system-wartung/geplante-aufgaben-verwalten.md).
+Beim Anlegen eines neuen GMC-Profils wird eine Bereitstellung für einen öffentlichen Ordner bereits vorbereitet. Prüfen Sie diese unter **Bereitstellung**. Je nach Anbieter können Sie Dateien auch per FTP oder HTTP übertragen; die verfügbaren Bereitstellungsarten beschreibt [Exportprofile verwalten](../../../benutzer-handbuch/datenaustausch/export/exportprofile-verwalten.md).
 
-## Wie Sie weitere Feed-Plugins erhalten
+## Geplante Aufgaben
 
-Weitere Feed-Plugins finden Sie im [Smartstore Community Marketplace](http://community.smartstore.com/marketplace/). Im **Smartstore Community Marketplace** finden Sie alle für Smartstore entwickelten Ressourcen, die Sie kostenlos herunterladen oder kaufen können. Weitere Informationen zum Kauf und zur Installation von Plugins finden Sie unter [Wie kaufe ich eine Erweiterung?](https://docs.smartstore.com/pages/viewpage.action?pageId=3768460) und [Wie installiere ich eine Erweiterung?](https://github.com/smartstore/user-docs/blob/main/smartstore-6-dokumentation-startseite/loslegen/community-marketplace/wie-installiere-ich-eine-erweiterung.md).
+Beim Erstellen eines neuen Exportprofils legt Smartstore eine zugehörige geplante Aufgabe an. Diese ist zunächst deaktiviert: Das Speichern des Profils allein erzeugt daher keine regelmäßig aktualisierte Feed-Datei. Legen Sie an der Aufgabe den gewünschten Zeitplan fest und aktivieren Sie sie. Auch das Exportprofil muss aktiv sein. Die Aktualisierung erfolgt bei jeder Ausführung, nicht unmittelbar bei jeder Produktänderung. Weitere Informationen finden Sie unter [Geplante Aufgaben verwalten](../../../benutzer-handbuch/system-wartung/geplante-aufgaben-verwalten.md).
+
+Führen Sie vor der regelmäßigen Nutzung einen manuellen Export aus und prüfen Sie die Datei sowie das **Ereignisprotokoll**. Kontrollieren Sie insbesondere Produktauswahl, Preise, Verfügbarkeit, Bilder und Produkt-URLs. Bei einem Abruf über eine feste Feed-URL muss der Dateiname bei späteren Exporten gleich bleiben; verwenden Sie dafür keine wechselnden Zeitstempel oder Zufallswerte im Dateinamenmuster.
+
+## Weiterführende Informationen
+
+* [Google Merchant Center Feed](../../../benutzer-handbuch/plugins/googlemerchantcenter.md)
+* [Produkte importieren & exportieren](produkte-importieren-exportieren.md)
