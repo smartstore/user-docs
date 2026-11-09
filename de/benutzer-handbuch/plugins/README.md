@@ -1463,11 +1463,13 @@ Enthält die grundlegenden Versandkostenanbieter von Smartstore. Versandkosten k
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Festpreisversand
-* Berechnung nach Bestellsumme
-* konfigurierbare Regeln und Zuschläge
-* Einbindung in die allgemeine Versandarten- und Länderlogik.
+* Feste Versandgebühr pro Versandart
+* Versandbedingungen nach Bestellwert und Zielgebiet
+* Prozentuale Gebühren mit Basis- und Höchstbetrag
+* Mindermengenzuschlag und optionaler Ausschluss des kostenlosen Fallbacks
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Shipping (Versandarten)](shipping.md).
 
 ### ShippingByWeight (Versand nach Gewicht)
 
