@@ -206,6 +206,7 @@
     * [Integrationen](benutzer-handbuch/plugins/pagebuilder/integrations.md)
   * [Pixlr](benutzer-handbuch/plugins/pixlr.md)
   * [Produktsicherheitsverordnung (GPSR)](benutzer-handbuch/plugins/produktsicherheitsverordnung-gpsr.md)
+  * [Shipping (Versandarten)](benutzer-handbuch/plugins/shipping.md)
   * [Tax (Standard-Steuerberechnung)](benutzer-handbuch/plugins/tax.md)
   * [TinyImage](benutzer-handbuch/plugins/tinyimage.md)
   * [UrlRewriter](benutzer-handbuch/plugins/urlrewriter.md)
