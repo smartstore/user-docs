@@ -207,6 +207,7 @@
   * [Pixlr](benutzer-handbuch/plugins/pixlr.md)
   * [Produktsicherheitsverordnung (GPSR)](benutzer-handbuch/plugins/produktsicherheitsverordnung-gpsr.md)
   * [Shipping (Versandarten)](benutzer-handbuch/plugins/shipping.md)
+  * [ShippingByWeight (Versand nach Gewicht)](benutzer-handbuch/plugins/shippingbyweight.md)
   * [Tax (Standard-Steuerberechnung)](benutzer-handbuch/plugins/tax.md)
   * [TinyImage](benutzer-handbuch/plugins/tinyimage.md)
   * [UrlRewriter](benutzer-handbuch/plugins/urlrewriter.md)

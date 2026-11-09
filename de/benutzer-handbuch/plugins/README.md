@@ -45,11 +45,11 @@ Plugins zur Erstellung, Pflege und Präsentation von Inhalten und Medien.
 * [Faq](#faq)
 * [FileManager](#filemanager)
 * [Forums](#forums)
-* [MediaEditor.Pixlr (Pixlr Medien-Editor)](#mediaeditorpixlr-pixlr-medien-editor)
 * [MediaManager](#mediamanager)
 * [MegaMenu](#megamenu)
 * [News](#news)
 * [PageBuilder](#pagebuilder)
+* [Pixlr](#pixlr)
 * [Polls (Umfragen)](#polls-umfragen)
 * [RemoveBadge](#removebadge)
 * [Timeline](#timeline)
@@ -1063,23 +1063,6 @@ Synchronisiert Kunden und Newsletter-Daten mit Mailchimp. Das Plugin verbindet S
 * Statusabgleich bei An- und Abmeldungen.
 {% endhint %}
 
-### MediaEditor.Pixlr (Pixlr Medien-Editor)
-
-**Kostenpflichtig:** Ja
-
-Bindet den Pixlr-Bildeditor in den MediaManager ein. Bilder können aus der Smartstore-Medienverwaltung heraus bearbeitet und anschließend wieder im Shop verwendet werden.
-
-{% hint style="info" %}
-**Wichtigste Features**
-
-* Start des Pixlr-Editors aus der Medienverwaltung
-* Bildbearbeitung ohne lokalen Download
-* Rückgabe beziehungsweise Speichern bearbeiteter Medien
-* konfigurierbare Pixlr-Anbindung.
-{% endhint %}
-
-Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Pixlr](pixlr.md).
-
 ### MediaManager
 
 **Kostenpflichtig:** Ja
@@ -1378,6 +1361,23 @@ Ersetzt allgemeine Produkte auf der Startseite durch individuell ausgewählte Em
 * Fallback für Besucher ohne ausreichende Historie.
 {% endhint %}
 
+### Pixlr
+
+**Kostenpflichtig:** Ja
+
+Bindet den Pixlr-Bildeditor in den MediaManager ein. Bilder können aus der Smartstore-Medienverwaltung heraus bearbeitet und anschließend wieder im Shop verwendet werden.
+
+{% hint style="info" %}
+**Wichtigste Features**
+
+* Start des Pixlr-Editors aus der Medienverwaltung
+* Bildbearbeitung ohne lokalen Download
+* Rückgabe beziehungsweise Speichern bearbeiteter Medien
+* konfigurierbare Pixlr-Anbindung.
+{% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [Pixlr](pixlr.md).
+
 ### Polls (Umfragen)
 
 **Kostenpflichtig:** Ja
@@ -1480,11 +1480,13 @@ Berechnet Versandkosten anhand des Gesamtgewichts einer Bestellung. Das Plugin e
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Gewichtsbereiche und Staffelpreise
-* feste und variable Kostenanteile
-* Einschränkung nach Versandart und Ziel
-* Berücksichtigung des Warenkorbgewichts.
+* Gewichtsbereiche je Versandart, Shop und Zielgebiet
+* Feste, gewichtsabhängige oder prozentuale Versandgebühren
+* Mindermengenzuschlag bei geringem Warenwert
+* Steuerung des Fallbacks und des Gewichts versandkostenbefreiter Produkte
 {% endhint %}
+
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [ShippingByWeight (Versand nach Gewicht)](shippingbyweight.md).
 
 ### Skrill
 

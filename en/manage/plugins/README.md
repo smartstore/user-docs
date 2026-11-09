@@ -45,11 +45,11 @@ Plugins for creating, managing, and presenting content and media.
 * [Faq](#faq)
 * [FileManager](#filemanager)
 * [Forums](#forums)
-* [MediaEditor.Pixlr](#mediaeditorpixlr)
 * [MediaManager](#mediamanager)
 * [MegaMenu](#megamenu)
 * [News](#news)
 * [PageBuilder](#pagebuilder)
+* [Pixlr](#pixlr)
 * [Polls](#polls)
 * [RemoveBadge](#removebadge)
 * [Timeline](#timeline)
@@ -168,7 +168,7 @@ Shipping-cost calculation and standard providers for different shipping models.
 
 * [DimensionPricing (Dimension-based shipping)](#dimensionpricing-dimension-based-shipping)
 * [Shipping (Shipping methods)](#shipping-shipping-methods)
-* [ShippingByWeight](#shippingbyweight)
+* [ShippingByWeight](#shippingbyweight-shipping-by-weight)
 
 ### Payment
 
@@ -982,22 +982,6 @@ Synchronizes newsletter subscribers with Mailchimp for email marketing campaigns
 * API-based status updates
 {% endhint %}
 
-### MediaEditor.Pixlr
-
-**Paid:** Yes
-
-Opens the Pixlr image editor from Smartstore for browser-based media editing.
-
-{% hint style="info" %}
-**Key Features**
-
-* Browser-based image editing
-* Media Manager integration
-* Saving edited assets
-{% endhint %}
-
-For setup and usage details, see the [MediaEditor.Pixlr](pixlr.md) plugin documentation.
-
 ### MediaManager
 
 **Paid:** Yes
@@ -1270,6 +1254,22 @@ Replaces generic homepage products with recommendations selected for the visitor
 * Configurable logic and fallback
 {% endhint %}
 
+### Pixlr
+
+**Paid:** Yes
+
+Opens the Pixlr image editor from Smartstore for browser-based media editing.
+
+{% hint style="info" %}
+**Key Features**
+
+* Browser-based image editing
+* Media Manager integration
+* Saving edited assets
+{% endhint %}
+
+For setup and usage details, see the [Pixlr](pixlr.md) plugin documentation.
+
 ### Polls
 
 **Paid:** Yes
@@ -1366,10 +1366,13 @@ Calculates shipping costs from total order weight and supports tiered rates and 
 {% hint style="info" %}
 **Key Features**
 
-* Weight ranges and tiered prices
-* Fixed and variable cost components
-* Method and destination restrictions
+* Weight ranges by shipping method, store, and destination
+* Fixed, weight-based, or percentage shipping charges
+* Small quantity surcharge below a cart-value threshold
+* Control over the fallback and the weight of free-shipping products
 {% endhint %}
+
+For setup and usage details, see the [ShippingByWeight](shippingbyweight.md) plugin documentation.
 
 ### Skrill
 

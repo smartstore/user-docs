@@ -209,6 +209,7 @@
   * [Pixlr](manage/plugins/pixlr.md)
   * [Product Safety Regulation (GPSR)](manage/plugins/product-safety-regulation-gpsr.md)
   * [Shipping (Shipping methods)](manage/plugins/shipping.md)
+  * [Shipping by weight](manage/plugins/shippingbyweight.md)
   * [Tax (Standard Tax Calculation)](manage/plugins/tax.md)
   * [TinyImage](manage/plugins/tinyimage.md)
   * [UrlRewriter](manage/plugins/urlrewriter.md)
