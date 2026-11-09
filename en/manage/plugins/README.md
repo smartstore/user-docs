@@ -167,7 +167,7 @@ Features for pricing, quick orders, and procurement-system integrations.
 Shipping-cost calculation and standard providers for different shipping models.
 
 * [DimensionPricing (Dimension-based shipping)](#dimensionpricing-dimension-based-shipping)
-* [Shipping (Shipping methods)](#shipping-shipping-methods)
+* [Shipping](#shipping)
 * [ShippingByWeight](#shippingbyweight)
 
 ### Payment
@@ -1340,7 +1340,7 @@ Records storefront search terms and presents frequent queries in the administrat
 * Input for catalog and search optimization
 {% endhint %}
 
-### Shipping (Shipping methods)
+### Shipping
 
 **Paid:** No
 
@@ -1350,12 +1350,9 @@ Provides Smartstore's basic shipping-cost providers for fixed rates or rates bas
 **Key Features**
 
 * Fixed-rate shipping
-* Shipping conditions based on order value and destination
-* Percentage charges with optional base and maximum charges
-* Small quantity surcharge and an option to suppress the free fallback
+* Calculation by order subtotal
+* Rules, surcharges, methods, and destinations
 {% endhint %}
-
-For setup and usage details, see the [Shipping (Shipping methods)](shipping.md) plugin documentation.
 
 ### ShippingByWeight
 

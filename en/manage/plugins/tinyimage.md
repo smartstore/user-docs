@@ -17,7 +17,7 @@ TinyImage works format-dependently and supports the image formats [PNG](https://
 
 ### WebP
 
-[WebP](https://en.wikipedia.org/wiki/WebP) is a modern image format that compresses relatively efficiently and—depending on the use case—can deliver good results in terms of file size and quality. TinyImage can generate WebP as an output format, so WebP-capable browsers receive the optimized versions.
+[WebP](https://en.wikipedia.org/wiki/WebP) supports both lossy and lossless compression. TinyImage can serve PNG and JPG images as WebP when the browser supports it. Image quality can be configured in the plugin settings.
 
 {% hint style="warning" %}
 Browsers that do not support WebP will continue to receive images in the original format (PNG or JPG).
@@ -27,20 +27,45 @@ Browsers that do not support WebP will continue to receive images in the origina
 
 ![Plugin configuration of TinyImage](../../.gitbook/assets/module_tinyimage_configuration.png)
 
-| **Option** | **Description** |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Compression** | TinyImage applies intelligent compression techniques to images to reduce their file size by up to 80%. However, please note that this slightly decreases processing speed for images that are not yet cached. Also note that during compression - depending on the image - memory usage may temporarily increase by several hundred MB. |
-| Compress uploads         | Applies compression to uploaded images. |
-| Compress thumbnails      | Applies compression to dynamically generated thumbnails. |
-| **Formats** | **Info**<br> If you disable all formats, no compression will take place, regardless of other options. |
-| Compress PNG files       | Reduces the size of PNG files by selectively decreasing the number of colors. |
-| Compress JPG files       | Reduces the size of JPG files. Also generates 'progressive' JPEGs if the source file is larger than 10 KB. |
-| Compress GIF files       | Reduces the size of (animated) GIF files. |
-| **WebP** | WebP is a relatively new format for lossless image compression and is currently supported by Chrome, Chrome Mobile, and Opera (approx. 70% market share as of 2018). TinyImage can deliver images in WebP format to the browser if supported. Other browsers are served images in their original format (PNG or JPG). Depending on the image, however, better compression rates may be achieved for PNG and JPG files. Therefore, we recommend disabling WebP for formats that are already being compressed. However, if you value overall fast image processing and minimal memory usage, turn on WebP and turn off PNG and JPG compression. |
-| WebP instead of PNG      | Generates and delivers WebP instead of PNG files to WebP-enabled browsers. |
-| WebP instead of JPG      | Generates and delivers WebP instead of JPG files to WebP-enabled browsers. |
-| **Tools** | TinyImage uses various third-party tools in the background for compression, with the selection depending on the file format. Each tool offers various options for defining output quality. The TinyImage default settings offer the best compromise between file size and quality. If you still wish to make adjustments, visit the provider sites for more information. |
-| **Miscellaneous** | |
-| Display notifications    | Displays a short summary of the achieved compression rate after a file upload. |
+### Compression
+
+TinyImage can reduce image file sizes by up to 80%. Images that are not yet cached may take longer to process. Depending on the image, memory usage may temporarily increase by several hundred MB during compression.
+
+| **Option**          | **Description**                              |
+| ------------------- | -------------------------------------------- |
+| Compress uploads    | Compresses images when they are uploaded.    |
+| Compress thumbnails | Compresses dynamically generated thumbnails. |
+
+### Formats
+
+Compression can be enabled separately for PNG, JPG, and GIF. If you disable all three formats, these format-specific tools do not compress images. You can enable WebP output independently.
+
+| **Option**         | **Description**                                                                                                                |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Compress PNG files | Reduces the size of PNG files by selectively decreasing the number of colors.                                                  |
+| Compress JPG files | Reduces the size of JPG files. The default settings produce progressive JPEGs. The result is used only if the file is smaller. |
+| Compress GIF files | Reduces the size of GIF files, including animated images.                                                                      |
+
+### WebP
+
+The following options determine whether PNG and JPG images are served as WebP. Which combination of WebP output and compression of the original formats produces smaller files depends on the image and quality settings.
+
+| **Option**          | **Description**                                                               |
+| ------------------- | ----------------------------------------------------------------------------- |
+| WebP instead of PNG | Generates and serves WebP instead of PNG files to browsers that support WebP. |
+| WebP instead of JPG | Generates and serves WebP instead of JPG files to browsers that support WebP. |
+| WebP quality        | Sets the quality of generated WebP images. The default value is 100.          |
+
+### Tools
+
+TinyImage uses different third-party tools for compression depending on the image format. Each tool provides options for setting output quality. TinyImage's default settings offer the best balance between file size and quality. If you want to adjust them, consult the tool providers' websites. In these options, {0} represents the source file and {1} the output file.
+
+| **Option** | **Description**                       |
+| ---------- | ------------------------------------- |
+| pngquant   | Sets the options for PNG compression. |
+| cjpeg      | Sets the options for JPG compression. |
+| gifsicle   | Sets the options for GIF compression. |
+
+With **Display notifications**, you can show a brief summary of the achieved compression after an image upload.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
