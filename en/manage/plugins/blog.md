@@ -241,7 +241,7 @@ For a general introduction, see [Page Builder](pagebuilder.md). For information 
 
 The Page Builder story can be assigned to one or more target pages and widget zones. This lets you present blog posts on the home page, landing pages, category pages, or other areas supported by widget zones.
 
-For the story to be visible, select a target page and a widget zone, then publish the story. For more information, see [Widget Zones](../content-management/widget-zones.md).
+For the story to be visible, select a target page and a widget zone, then publish the story. For more information, see [Widget Zones](../../discover/common-concepts/widget-zones.md).
 
 ### Linking individual blog posts
 
@@ -329,7 +329,7 @@ Check the following:
 * [Media Manager](mediamanager.md)
 * [Page Builder](pagebuilder.md)
 * [Using Blocks](pagebuilder/blocks.md)
-* [Widget Zones](../content-management/widget-zones.md)
+* [Widget Zones](../../discover/common-concepts/widget-zones.md)
 * [SEO](../../discover/common-concepts/seo.md)
 * [Working with Multiple Languages](../../discover/common-concepts/working-with-multiple-languages.md)
 * [Working with Multiple Stores](../../discover/common-concepts/working-with-multiple-stores.md)

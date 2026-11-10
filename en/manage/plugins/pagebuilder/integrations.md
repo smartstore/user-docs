@@ -56,7 +56,7 @@ Depending on the configuration, the following page types can be used as targets:
 
 A story can be assigned to multiple widget zones and target pages. **Display order** determines the sequence when several stories use the same widget zone.
 
-For more information about positioning, see [Widget zones](../../content-management/widget-zones.md).
+For more information about positioning, see [Widget zones](../../../discover/common-concepts/widget-zones.md).
 
 ## Restricting visibility
 

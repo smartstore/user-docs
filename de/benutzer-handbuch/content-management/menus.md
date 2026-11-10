@@ -24,7 +24,7 @@ Mit dem Menü-Builder unter **CMS > Menüs** erstellen Sie neue Menüs und bearb
 | Auf Kundengruppen begrenzt | Zeigt das Menü nur Mitgliedern mindestens einer ausgewählten Kundengruppe. Ohne Auswahl besteht keine Einschränkung auf bestimmte Kundengruppen.                                                                                                                              |
 | Titel                      | Beschriftung des Menüs, beispielsweise für die Schaltfläche eines Dropdown-Menüs. Die Ausgabe hängt von der Vorlage ab. Für weitere Sprachen können Sie eigene Titel hinterlegen.                                                                                             |
 
-Die verfügbaren Positionen erläutert [Widget-Zonen](widget-zonen.md). Wählen Sie eine Widget-Zone, um festzulegen, an welcher Stelle im Shop das Menü erscheint. Soll das Menü an einer anderen Stelle erscheinen, muss ein Entwickler es im Theme einbinden.
+Die verfügbaren Positionen erläutert [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md). Wählen Sie eine Widget-Zone, um festzulegen, an welcher Stelle im Shop das Menü erscheint. Soll das Menü an einer anderen Stelle erscheinen, muss ein Entwickler es im Theme einbinden.
 
 ## Menüelemente hinzufügen und strukturieren
 

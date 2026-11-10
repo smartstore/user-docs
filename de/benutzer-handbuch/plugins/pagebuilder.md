@@ -104,7 +104,7 @@ Damit eine Story im Shop erscheint, benötigt sie eine Zielseite und eine Positi
 
 Die Position wird über eine **Widget-Zone** festgelegt. Widget-Zonen sind vordefinierte Bereiche innerhalb der Shopseiten, in denen Inhalte oder Widgets ausgegeben werden können.
 
-Weitere Informationen zur Auswahl und Verwendung dieser Positionen finden Sie unter [Widget-Zonen](../content-management/widget-zonen.md).
+Weitere Informationen zur Auswahl und Verwendung dieser Positionen finden Sie unter [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md).
 
 ![Story-Einstellungen mit Zielseite, Widget-Zone und Veröffentlichungsstatus](../../.gitbook/assets/module_pagebuilder_story_publish.png)
 
@@ -139,4 +139,4 @@ Eine Übersicht der unterstützten Erweiterungen und ihrer Verwendung finden Sie
 - [Blöcke verwenden](pagebuilder/blocks.md)
 - [Mit dem Raster arbeiten](pagebuilder/grid.md)
 - [Integrationen](pagebuilder/integrations.md)
-- [Widget-Zonen](../content-management/widget-zonen.md)
+- [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md)

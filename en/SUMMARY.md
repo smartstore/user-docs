@@ -35,6 +35,7 @@
   * [Previewing Themes & Stores](discover/common-concepts/previewing-themes-stores.md)
   * [Downloading as PDF](discover/common-concepts/downloading-as-pdf.md)
   * [The Data Grid](discover/common-concepts/the-data-grid.md)
+  * [Widget Zones](discover/common-concepts/widget-zones.md)
 
 ## Manage
 
@@ -103,7 +104,6 @@
   * [Arranging the Content Slider](manage/content-management/arranging-the-content-slider.md)
   * [Starting Polls & Votes](manage/content-management/starting-polls-votes.md)
   * [Arranging Widgets](manage/content-management/arranging-widgets.md)
-    * [Widget Zones](manage/content-management/widget-zones.md)
   * [Customizing Message Templates](manage/content-management/customizing-message-templates.md)
 * [Configuration](manage/configuration/README.md)
   * [General Settings & Preferences](manage/configuration/general-settings-preferences/README.md)

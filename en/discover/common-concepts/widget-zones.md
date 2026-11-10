@@ -5,8 +5,8 @@ Widget zones are predefined positions on the pages of your store. They determine
 Widget zones can be used for the following content, among other things:
 
 - widgets from installed plugins,
-- stories created with the [Page Builder](../plugins/pagebuilder.md),
-- custom content created under [Managing Pages & Topics](managing-pages-topics.md).
+- stories created with the [Page Builder](../../manage/plugins/pagebuilder.md),
+- custom content created under [Managing Pages & Topics](../../manage/content-management/managing-pages-topics.md).
 
 The widget zones themselves are not visible to customers.
 
@@ -16,7 +16,7 @@ In Developer Tools, enable **Display widget zones** to make the available positi
 
 ![Enabled Display widget zones option in the Developer Tools configuration](../../.gitbook/assets/module_devtools_configuration_showwidgetzones.png)
 
-For activation instructions, see [Developer Tools](../plugins/devtools.md#enabling-the-widget-zone-display).
+For activation instructions, see [Developer Tools](../../manage/plugins/devtools.md#enabling-the-widget-zone-display).
 
 ## Displaying widget zones in the store
 
@@ -24,7 +24,7 @@ The widget zone menu shows the positions available on the current store page. Yo
 
 ![Store frontend with the button for opening the widget zone menu](../../.gitbook/assets/module_devtools_widgetzones_frontend.png)
 
-For instructions on using the menu, see [Displaying widget zones with Developer Tools](../plugins/devtools.md#displaying-widget-zones-in-the-store).
+For instructions on using the menu, see [Displaying widget zones with Developer Tools](../../manage/plugins/devtools.md#displaying-widget-zones-in-the-store).
 
 ## Using a widget zone
 
@@ -57,7 +57,7 @@ Then check the result directly on the intended page.
 
 If several items are assigned to the same widget zone, their display order determines the rendering sequence.
 
-For plugin widgets, you can change the order under **CMS > Widgets** using drag and drop. For more information, see [Arranging Widgets](arranging-widgets.md).
+For plugin widgets, you can change the order under **CMS > Widgets** using drag and drop. For more information, see [Arranging Widgets](../../manage/content-management/arranging-widgets.md).
 
 ## If content is not displayed
 
@@ -70,4 +70,4 @@ Check the following:
 - Is the display restricted by a time period, store, or customer role setting?
 - Does the display order place the content higher or lower than expected?
 
-To check different themes or stores, use the preview described under [Previewing a Theme](../configuration/working-with-themes.md#previewing-a-theme).
+To check different themes or stores, use the preview described under [Previewing a Theme](../../manage/configuration/working-with-themes.md#previewing-a-theme).

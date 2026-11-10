@@ -104,7 +104,7 @@ For a story to appear in the store, it needs a target page and a position on tha
 
 The position is defined by a **widget zone**. Widget zones are predefined areas on store pages in which content or widgets can be rendered.
 
-For more information about selecting and using these positions, see [Widget zones](../content-management/widget-zones.md).
+For more information about selecting and using these positions, see [Widget zones](../../discover/common-concepts/widget-zones.md).
 
 ![Story settings with target page, widget zone, and publication status](../../.gitbook/assets/module_pagebuilder_story_publish.png)
 
@@ -139,4 +139,4 @@ For an overview of supported extensions and how to use them, see [Integrations](
 - [Using blocks](pagebuilder/blocks.md)
 - [Working with the grid](pagebuilder/grid.md)
 - [Integrations](pagebuilder/integrations.md)
-- [Widget zones](../content-management/widget-zones.md)
+- [Widget zones](../../discover/common-concepts/widget-zones.md)

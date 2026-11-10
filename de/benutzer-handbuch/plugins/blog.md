@@ -241,7 +241,7 @@ Eine allgemeine Einführung finden Sie unter [Page Builder](pagebuilder.md). Die
 
 Die mit dem Page Builder erstellte Story kann einer oder mehreren Zielseiten und Widget-Zonen zugewiesen werden. So lassen sich Blogbeiträge beispielsweise auf der Startseite, auf Landingpages, auf Warengruppenseiten oder in anderen durch Widget-Zonen unterstützten Bereichen präsentieren.
 
-Damit die Story sichtbar wird, müssen eine Zielseite und eine Widget-Zone ausgewählt und die Story veröffentlicht sein. Weitere Informationen finden Sie unter [Widget-Zonen](../content-management/widget-zonen.md).
+Damit die Story sichtbar wird, müssen eine Zielseite und eine Widget-Zone ausgewählt und die Story veröffentlicht sein. Weitere Informationen finden Sie unter [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md).
 
 ### Einzelne Blogbeiträge verlinken
 
@@ -329,7 +329,7 @@ Prüfen Sie:
 * [Medien-Manager](mediamanager.md)
 * [Page Builder](pagebuilder.md)
 * [Blöcke verwenden](pagebuilder/blocks.md)
-* [Widget-Zonen](../content-management/widget-zonen.md)
+* [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md)
 * [SEO](../allgemeine-konzepte/seo.md)
 * [Mit mehreren Sprachen arbeiten](../allgemeine-konzepte/mit-mehreren-sprachen-arbeiten.md)
 * [Mit mehreren Shops arbeiten](../allgemeine-konzepte/mit-mehreren-shops-arbeiten.md)

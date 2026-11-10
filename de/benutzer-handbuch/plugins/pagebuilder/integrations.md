@@ -56,7 +56,7 @@ Als Ziel können je nach Konfiguration unter anderem folgende Seitentypen verwen
 
 Eine Story kann mehreren Widget-Zonen und Zielseiten zugeordnet werden. Die **Sortierung** bestimmt die Reihenfolge, wenn mehrere Storys dieselbe Widget-Zone verwenden.
 
-Weitere Informationen zur Positionierung finden Sie unter [Widget-Zonen](../../content-management/widget-zonen.md).
+Weitere Informationen zur Positionierung finden Sie unter [Widget-Zonen](../../allgemeine-konzepte/widget-zonen.md).
 
 ## Sichtbarkeit einschränken
 

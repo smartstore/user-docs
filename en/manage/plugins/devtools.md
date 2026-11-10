@@ -57,7 +57,7 @@ For more information about configuration and technical analysis, see [MiniProfil
 
 Widget zones are predefined positions where widgets, Page Builder stories, or custom content can be displayed in the store. Developer Tools allow you to check which widget zones are available on a particular store page and where they are located.
 
-For basic information about using these positions, see [Widget zones](../content-management/widget-zones.md).
+For basic information about using these positions, see [Widget zones](../../discover/common-concepts/widget-zones.md).
 
 ### Enabling the widget zone display
 
@@ -124,7 +124,7 @@ The identifier reveals information about the technical environment. Turn off the
 ## Related articles
 
 - [MiniProfiler in the developer documentation](https://dev.smartstore.com/framework/platform/diagnostics#miniprofiler)
-- [Widget zones](../content-management/widget-zones.md)
+- [Widget zones](../../discover/common-concepts/widget-zones.md)
 - [Arranging Widgets](../content-management/arranging-widgets.md)
 - [Output Cache](output-cache.md)
 - [Multi-Store Configuration](../configuration/general-settings-preferences/defining-the-scope-of-settings.md)

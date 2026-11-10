@@ -6,7 +6,7 @@ Widget-Zonen können unter anderem für folgende Inhalte verwendet werden:
 
 - Widgets installierter Plugins,
 - Storys aus dem [Page Builder](../plugins/pagebuilder.md),
-- eigene Inhalte aus [Seiten & Inhalte verwalten](seiten-inhalte-verwalten.md).
+- eigene Inhalte aus [Seiten & Inhalte verwalten](../content-management/seiten-inhalte-verwalten.md).
 
 Die Widget-Zonen selbst sind für Kunden nicht sichtbar.
 
@@ -57,7 +57,7 @@ Prüfen Sie das Ergebnis anschließend direkt auf der vorgesehenen Seite.
 
 Werden mehrere Inhalte derselben Widget-Zone zugeordnet, bestimmt deren Sortierung die Reihenfolge der Ausgabe.
 
-Bei Plugin-Widgets kann die Reihenfolge unter **CMS > Widgets** per Drag-and-drop angepasst werden. Weitere Informationen finden Sie unter [Widgets anordnen](widgets-anordnen.md).
+Bei Plugin-Widgets kann die Reihenfolge unter **CMS > Widgets** per Drag-and-drop angepasst werden. Weitere Informationen finden Sie unter [Widgets anordnen](../content-management/widgets-anordnen.md).
 
 ## Wenn ein Inhalt nicht angezeigt wird
 
@@ -70,4 +70,4 @@ Prüfen Sie in diesem Fall:
 - Wird die Anzeige durch eine zeitliche, Shop- oder Kundengruppen-Einstellung eingeschränkt?
 - Befindet sich der Inhalt wegen seiner Sortierung weiter oben oder unten als erwartet?
 
-Für eine Kontrolle mit unterschiedlichen Themes oder Shops können Sie die [Vorschau für Designs & Shops](../allgemeine-konzepte/vorschau-fur-designs-shops.md) verwenden.
+Für eine Kontrolle mit unterschiedlichen Themes oder Shops können Sie die [Vorschau für Designs & Shops](vorschau-fur-designs-shops.md) verwenden.

@@ -57,7 +57,7 @@ Weitere Informationen zur Konfiguration und zur technischen Auswertung finden Si
 
 Widget-Zonen sind vordefinierte Positionen, an denen Widgets, Page-Builder-Storys oder eigene Inhalte im Shop ausgegeben werden können. Mit den Developer Tools können Sie prüfen, welche Widget-Zonen auf einer bestimmten Shopseite verfügbar sind und wo sie sich befinden.
 
-Grundlegende Informationen zur Verwendung dieser Positionen finden Sie unter [Widget-Zonen](../content-management/widget-zonen.md).
+Grundlegende Informationen zur Verwendung dieser Positionen finden Sie unter [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md).
 
 ### Anzeige der Widget-Zonen aktivieren
 
@@ -124,7 +124,7 @@ Die Kennung gibt Informationen über die technische Umgebung preis. Deaktivieren
 ## Verwandte Beiträge
 
 - [MiniProfiler in der Entwicklerdokumentation](https://dev.smartstore.com/framework/platform/diagnostics#miniprofiler)
-- [Widget-Zonen](../content-management/widget-zonen.md)
+- [Widget-Zonen](../allgemeine-konzepte/widget-zonen.md)
 - [Widgets anordnen](../content-management/widgets-anordnen.md)
 - [Output Cache (Ausgabecache)](output-cache-ausgabecache.md)
 - [Multi-Shop Konfiguration](../konfiguration/einstellungen/den-einstellungsbereich-festlegen.md)

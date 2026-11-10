@@ -35,6 +35,7 @@
   * [Vorschau für Designs & Shops](benutzer-handbuch/allgemeine-konzepte/vorschau-fur-designs-shops.md)
   * [Als PDF herunterladen](benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md)
   * [Tabellenansichten](benutzer-handbuch/allgemeine-konzepte/tabellenansichten.md)
+  * [Widget-Zonen](benutzer-handbuch/allgemeine-konzepte/widget-zonen.md)
 
 ## Verwalten
 
@@ -107,7 +108,6 @@
   * [Content Slider gestalten](benutzer-handbuch/content-management/content-slider-gestalten.md)
   * [Umfragen starten](benutzer-handbuch/content-management/umfragen-starten.md)
   * [Widgets anordnen](benutzer-handbuch/content-management/widgets-anordnen.md)
-    * [Widget-Zonen](benutzer-handbuch/content-management/widget-zonen.md)
   * [Nachrichtenvorlagen anpassen](benutzer-handbuch/content-management/nachrichtenvorlagen-anpassen.md)
 * [Konfiguration](benutzer-handbuch/konfiguration/README.md)
   * [Einstellungen](handbuch/konfiguration/einstellungen/README.md)
