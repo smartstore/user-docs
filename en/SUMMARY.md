@@ -72,6 +72,7 @@
   * [Understanding Reward Points](manage/customers/understanding-reward-points.md)
   * [Analyzing Customer Activity](manage/customers/analyzing-customer-activity.md)
   * [Managing Customers](manage/customers/managing-customers.md)
+  * [External Authentication Methods](manage/customers/external-authentication-methods.md)
 * [Marketing & Promotions](manage/marketing-promotions/README.md)
   * [Managing Discounts](manage/marketing-promotions/managing-discounts.md)
   * [Managing Newsletter Campaigns](manage/marketing-promotions/managing-newsletter-campaigns.md)

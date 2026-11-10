@@ -76,6 +76,7 @@
   * [Mit Bonuspunkten arbeiten](benutzer-handbuch/kunden/mit-bonuspunkten-arbeiten.md)
   * [Kundenverhalten analysieren](benutzer-handbuch/kunden/kundenverhalten-analysieren.md)
   * [Kunden verwalten](benutzer-handbuch/kunden/kunden-verwalten.md)
+  * [Externe Authentifizierungsmethoden](benutzer-handbuch/kunden/externe-authentifizierungsmethoden.md)
 * [Marketing & Promotion](handbuch/marketing-and-promotion/README.md)
   * [Rabatte verwalten](benutzer-handbuch/marketing-promotion/rabatte-verwalten.md)
   * [Newsletter-Kampagnen verwalten](benutzer-handbuch/marketing-promotion/newsletter-kampagnen-verwalten.md)
