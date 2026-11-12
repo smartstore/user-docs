@@ -1,47 +1,63 @@
 # Output Cache
 
-With **Output Cache**, the finished versions of complete shop pages are cached. That means Smartstore doesn’t have to recalculate and regenerate everything from scratch for every request. Instead, the page can be delivered from the cache for matching requests. This saves processing time and makes pages load faster, especially on high-traffic pages such as categories, list views, or overview pages with content.
+**Output Cache** stores the generated output of selected storefront pages on the server. For matching requests, Smartstore can reuse cached page content instead of generating it again. Dynamic parts, such as customer-specific components, are generated for each request when needed. This can reduce processing time and speed up page delivery, especially for busy category and overview pages.
 
-The cache runs on the server and can optionally be configured to refresh when important content in the shop changes. This keeps the shop fast while also making it as up to date as possible.
+Automatic invalidation can remove cached pages when relevant store content changes. The page is generated again and cached on the next matching request.
 
 ## Benefits
 
 ### Faster page load times
-Pages that are visited frequently don’t have to be fully rebuilt every time. This reduces waiting time, especially on pages that are called often.
+
+Frequently visited pages do not have to be rebuilt from scratch on every request. This can noticeably reduce waiting times on busy pages.
 
 ### Less load on the system
+
 Smartstore has to do less computation because the ready-made page content can be reused. That means fewer repeated processing steps for every request and the shop runs smoother overall.
 
 ### More stable user experience during high traffic
-When many visitors are active in the shop at the same time, it’s more likely that some pages load slower because many requests need to be recalculated in parallel. With the Output Cache, part of that work is done ahead of time and reused, so performance remains more consistent.
+
+When many visitors use the store at the same time, some pages may load more slowly because requests have to be processed in parallel. After the first request, cached page content can be reused for subsequent matching requests, reducing the load during busy periods.
 
 ### Control over how long content is kept
+
 You can set how long a page remains in the cache before it’s regenerated. This determines how strongly “speed” is prioritized over “maximum freshness.” Short cache durations keep content more current, while longer cache durations improve performance.
 
 ## Configuration
 
 ![Plugin configuration](../../.gitbook/assets/module_outputcache_configuration.png)
 
-| **Input field / Option**                 | **Description**                                                                                                                                                                                                                          |
+| **Option**                               | **Description**                                                                                                                                                                                                                          |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Is active                                | Determines whether output caching is active.                                                                                                                                                                                             |
-| Active storage provider                  | Determines the active storage provider. 'Local storage' is the fastest, but not suitable for web farms. Choose 'Database' or another distributed storage mechanism - e.g., 'Redis' - if you are running a web farm.                      |
+| Active storage provider                  | Determines where cached content is stored. Local storage is fast but is not suitable for web farms. In a web farm, use a database or a distributed storage provider such as Redis.                                                       |
 | Default cache duration                   | Sets the duration in seconds that pages should be cached on the server by default.                                                                                                                                                       |
-| Automatically invalidate pages           | Determines whether cached pages should be automatically invalidated if at least one dependency has changed (dependencies are entities such as product, category, blog entry, etc.).                                                      |
+| Automatically invalidate pages           | Determines whether cached pages are automatically invalidated when at least one dependency changes. Dependencies include products, categories, and blog posts.                                                                           |
 | Allow caching for authenticated requests | Determines whether caching is active even when the customer is logged in. However, note that variation occurs only by customer roles, not by individual customers. Disable this option if your shop generates customer-specific content. |
-| Ignore 'no-cache' headers                | Determines whether pages should be loaded from the cache despite 'Content-cache: no-cache' headers. Recommended for testing.                                                                                                             |
-| Debug mode                               | Outputs general information in the response header ((X-SmartStore-Cached-On, X-SmartStore-Cached-Until)).                                                                                                                                |
+| Ignore 'no-cache' headers                | Determines whether Smartstore ignores the request header `Cache-Control: no-cache` and serves existing cache entries anyway.                                                                                                             |
+| Debug mode                               | Adds the response headers `X-SmartStore-Cached-On` and `X-SmartStore-Cached-Until`.                                                                                                                                                      |
 
-{% hint style="info" %}
+### Invalidation
+
+Tags identify content shown on cached pages. If a product still appears with outdated details after a change, you can use the entity's tag to remove the affected cache entries. For example, the tag for a product with ID 1234 is `p1234`.
+
+{% hint style="warning" %}
 **Attention**
 
-The Routes and Invalidation options should only be used/changed by experienced users.
+Only experienced users should change routes or invalidate cache entries.
 {% endhint %}
 
-## Statistics
+On the General tab, enter one or more comma-separated tags and click **Invalidate cache items**. Unlike clearing the entire cache, this leaves entries without those tags intact. The removed pages are regenerated on the next request, so that request may take longer and use more server resources. Use this option when you need a targeted refresh, for example when automatic invalidation did not take effect.
 
-Under the Statistics tab, the pages stored in the cache are displayed and can also be deleted from the cache there.
+## Statistics and Routes
+
+On the Statistics tab, you can see cached entries, including when they were created, their remaining lifetime, and their size. Select a cache key to view an entry's details, such as its route, URL, and tags.
+
+You can delete individual or selected entries, or clear the entire cache. This helps when outdated page output is still being served: Smartstore rebuilds deleted pages on the next request. Clearing the entire cache affects all entries and may temporarily increase server load.
 
 ![Configuration - Tab "Statistics"](../../.gitbook/assets/module_outputcache_configuration_statistics.png)
+
+On the Routes tab, you can see which page and component routes are eligible for output caching. Only explicitly enabled page routes are cached. Component routes determine whether their content is cached with the page or generated again for each request. Choosing routes carefully helps prevent unsuitable or outdated content from being served from the cache.
+
+For page routes, you can enable or disable caching, set the cache duration, and remove associated cache entries. This is useful when only pages on one route show outdated output. You can also add and delete custom routes.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
