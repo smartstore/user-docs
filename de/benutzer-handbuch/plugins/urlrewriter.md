@@ -1,5 +1,7 @@
 # UrlRewriter
 
+> Weiterleitungen individuell definieren
+
 Mit dem UrlRewriter-Plugin definieren Sie im Shop-Backend gezielt URL-Weiterleitungsregeln. Das ist besonders nützlich, wenn Seiten umgezogen sind, Produkt- oder Kategorie-URLs sich geändert haben oder wenn Sie für bestimmte Domains bzw. Stores abweichende Ziele ansteuern möchten (z. B. in einer Multistore-Umgebung).
 
 Das Plugin verwendet eine an **Apache mod\_rewrite** angelehnte Syntax mit reduziertem Funktionsumfang. Jede Regel enthält ein Suchmuster und ein Ziel. Optionale Schalter bestimmen, ob Smartstore eine externe Weiterleitung ausführt oder den Pfad intern umschreibt.
@@ -25,11 +27,9 @@ Die folgenden Regeln zeigen Suchmuster, Zielpfad und optionale Schalter. `R=301`
 
 Das Suchmuster prüft nur den URL-Pfad, nicht die Query-Parameter nach `?`. Der Host-Filter `H` verwendet einen regulären Ausdruck. Im Beispiel steht `\.` für einen Punkt; `^` und `$` begrenzen den Hostnamen.
 
-### Erweiterte Nutzung
-
-Über die Schaltfläche „Hilfe“ finden Sie weitere Schalter und Hinweise zur Syntax. Zusätzlich können Sie Regeln in den Dateien `mod_rewrite` (Apache-Syntax) oder `rewriterules.config` (IIS-Syntax) im Tenant-Verzeichnis hinterlegen. Die im Backend erfassten Regeln werden zuerst geprüft. Externe Dateien werden unabhängig von „Ist aktiv“ geladen.
-
 ## Konfiguration
+  
+Öffnen Sie im Backend **Plugins > Url Rewriter**. In der Konfiguration legen Sie fest, ob die im Backend erfassten Rewrite-Regeln aktiv sind, welche Dateierweiterungen berücksichtigt werden und welche Regeln gelten. Externe Regeldateien werden unabhängig von „Ist aktiv“ geladen.
 
 ![Plugin-Konfiguration von UrlRewriter](../../.gitbook/assets/module_urlrewriter_einstellungen.png)
 
@@ -38,5 +38,9 @@ Das Suchmuster prüft nur den URL-Pfad, nicht die Query-Parameter nach `?`. Der 
 | Ist aktiv          | Aktiviert oder deaktiviert die im Backend erfassten Regeln. Regeln aus externen Dateien werden unabhängig davon geladen.                                                                                   |
 | Dateierweiterungen | Kommagetrennte Dateiendungen ohne Punkt, beispielsweise php oder html. Pfade mit anderen Endungen werden von den im Backend erfassten Regeln übersprungen; Pfade ohne Dateiendung bleiben davon unberührt. |
 | Rewrite-Regeln     | Eine Regel pro Zeile. Dieses Feld wird shopübergreifend gespeichert; die Shop-Auswahl oben begrenzt die Regeln nicht. Mit dem Schalter H können Sie eine Regel auf bestimmte Hostnamen beschränken.        |
+
+### Erweiterte Nutzung
+
+Über die Schaltfläche „Hilfe“ finden Sie weitere Schalter und Hinweise zur Syntax. Zusätzlich können Sie Regeln in den Dateien `mod_rewrite` (Apache-Syntax) oder `rewriterules.config` (IIS-Syntax) im Tenant-Verzeichnis hinterlegen. Die im Backend erfassten Regeln werden zuerst geprüft. Externe Dateien werden unabhängig von „Ist aktiv“ geladen.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}

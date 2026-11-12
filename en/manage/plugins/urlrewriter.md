@@ -1,5 +1,7 @@
 # UrlRewriter
 
+> Define redirects your way
+
 With the UrlRewriter plugin, you can define URL redirection rules in the shop backend. This is especially useful when pages have been moved, product or category URLs have changed, or when you want to route to different targets for specific domains or stores (e.g., in a multi-store environment).
 
 The plugin uses a syntax based on **Apache mod\_rewrite** with a reduced set of features. Each rule contains a pattern and a target. Optional flags determine whether Smartstore sends an external redirect or rewrites the path internally.
@@ -25,11 +27,9 @@ The following rules show patterns, target paths, and optional flags. `R=301` sen
 
 The pattern matches only the URL path, not query parameters after `?`. The host filter `H` uses a regular expression. In the example, `\.` matches a literal dot; `^` and `$` anchor the host name.
 
-### Advanced Usage
-
-Use the Help button for more flags and syntax guidance. You can also store rules in `mod_rewrite` (Apache syntax) or `rewriterules.config` (IIS syntax) in the tenant directory. Rules entered in the backend are checked first. External rule files are loaded regardless of whether “Is enabled” is selected.
-
 ## Configuration
+
+In the backend, go to **Plugins > Url Rewriter**. There you can enable the rules entered in the backend, choose which file extensions to handle, and enter your rewrite rules. External rule files are loaded regardless of the **Is enabled** setting.
 
 ![Plugin configuration of UrlRewriter](../../.gitbook/assets/module_urlrewriter_configuration.png)
 
@@ -38,5 +38,9 @@ Use the Help button for more flags and syntax guidance. You can also store rules
 | Is enabled      | Enables or disables rules entered in the backend. Rules from external files are loaded independently of this setting.                                                                   |
 | File extensions | Comma-separated file extensions without a dot, such as php or html. Paths with other extensions are skipped by rules entered in the backend; paths without an extension are unaffected. |
 | Rewrite rules   | One rule per line. This field is stored across stores; the store selector above does not limit these rules. Use the H flag to restrict a rule to specific host names.                   |
+
+### Advanced Usage
+
+Use the Help button for more flags and syntax guidance. You can also store rules in `mod_rewrite` (Apache syntax) or `rewriterules.config` (IIS syntax) in the tenant directory. Rules entered in the backend are checked first. External rule files are loaded regardless of whether “Is enabled” is selected.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
