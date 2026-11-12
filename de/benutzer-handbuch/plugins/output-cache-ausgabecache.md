@@ -1,5 +1,7 @@
 # Output Cache (Ausgabecache)
 
+> Schnelle Seiten, frische Inhalte
+
 Der **Output Cache** speichert die erzeugte Ausgabe ausdrücklich dafür vorgesehener Shop-Seiten serverseitig zwischen. Bei passenden Anfragen kann Smartstore die gespeicherten Seitenbestandteile wiederverwenden, statt sie erneut zu erzeugen. Dynamische Bestandteile, etwa kundenspezifische Komponenten, werden bei Bedarf für jeden Aufruf neu erzeugt. Das kann Rechenzeit sparen und Seiten schneller ausliefern, vor allem bei stark frequentierten Kategorien und Übersichtsseiten.
 
 Die automatische Invalidierung kann zwischengespeicherte Seiten entfernen, wenn sich relevante Inhalte im Shop ändern. Beim nächsten passenden Aufruf wird die Ausgabe neu erzeugt und wieder zwischengespeichert.

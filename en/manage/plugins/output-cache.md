@@ -1,5 +1,7 @@
 # Output Cache
 
+> Fast pages, fresh content
+
 **Output Cache** stores the generated output of selected storefront pages on the server. For matching requests, Smartstore can reuse cached page content instead of generating it again. Dynamic parts, such as customer-specific components, are generated for each request when needed. This can reduce processing time and speed up page delivery, especially for busy category and overview pages.
 
 Automatic invalidation can remove cached pages when relevant store content changes. The page is generated again and cached on the next matching request.
