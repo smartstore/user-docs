@@ -2,7 +2,7 @@
 
 > Tailor-made prices
 
-The **DependentPrices** plugin allows you to set different prices for the same product based on criteria such as customer role, individual customers, or stores.
+The **DependingPrices** plugin allows you to set different prices for the same product based on criteria such as customer role, individual customers, or stores.
 
 ![Setting a price for a specific customer role](../../.gitbook/assets/module_dependingprices_editor_product-tab.png)
 
