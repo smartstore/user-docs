@@ -605,11 +605,10 @@ Ermöglicht kontextabhängige Produktpreise über die Standardpreislogik hinaus.
 {% hint style="info" %}
 **Wichtigste Features**
 
-* Preise nach Kundengruppe
-* Store- und Sprachbezug
-* kundennummernspezifische Preise
-* Verwaltungsoberfläche für Preisdatensätze
-* Priorisierung passender Regeln.
+* Kunden-, Kundengruppen-, Shop- und Sprachpreise
+* Feste Preise, Auf-/Abpreise und prozentuale Änderungen
+* Mengenabhängige Preise und Preis auf Anfrage
+* Gemeinsame Produktgruppenpreise und Preise für Attributkombinationen
 {% endhint %}
 
 Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [DependingPrices](dependingprices.md).

@@ -564,14 +564,15 @@ For setup and usage details, see the [DeepSeek](ai-provider/deepseek.md) plugin 
 
 **Paid:** Yes
 
-Calculates prices based on selected product attributes or other configured dependencies.
+Sets different product prices for customer roles, individual customers, stores, and languages.
 
 {% hint style="info" %}
 **Key Features**
 
-* Conditional price adjustments
-* Attribute-based pricing
-* Dynamic recalculation in the storefront
+* Customer, customer role, store, and language prices
+* Fixed prices, adjustments, and percentage changes
+* Quantity-based prices and price on request
+* Shared item group prices and prices for attribute combinations
 {% endhint %}
 
 For setup and usage details, see the [DependingPrices](dependingprices.md) plugin documentation.

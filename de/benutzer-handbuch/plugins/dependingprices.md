@@ -1,12 +1,16 @@
 # DependingPrices
 
-Mit dem kostenpflichtigen Enterprise-Plugin **DependingPrices** hinterlegen Sie unterschiedliche Preise für dasselbe Produkt, etwa für Händler, einzelne Kunden oder einen bestimmten Shop. Das Plugin muss installiert und lizenziert sein. In der deutschen Administration finden Sie seine Funktionen unter **Preis-Abhängigkeiten**.
+> Maßgeschneiderte Preise
+
+Mit dem Plugin **Preis-Abhängigkeiten** (DependingPrices) hinterlegen Sie unterschiedliche Preise für dasselbe Produkt, etwa für Händler, einzelne Kunden oder einen bestimmten Shop.
+
+![Preisgestaltung für eine bestimmte Kundengruppe](../../.gitbook/assets/module_dependingprices_editor_product-tab.png)
 
 ## Preisabhängigkeiten verstehen <a href="#funktionsweise" id="funktionsweise"></a>
 
 Jede Zeile in der Tabelle beschreibt eine Preisabhängigkeit: Sie legen einen Preis oder eine Preisänderung fest und bestimmen, für wen und ab welcher Menge sie gilt. Smartstore wählt für den Kunden und seine Bestellung einen passenden Eintrag aus. Mehrere Einträge werden nicht zusammengerechnet.
 
-Für ein einzelnes Produkt pflegen Sie die Einträge direkt am Produkt. Sollen mehrere Produkte dieselben Preise erhalten, verwenden Sie eine gemeinsame Produktgruppen-ID. Für Attributkombinationen können Sie eigene Einträge anlegen.
+Für ein einzelnes Produkt pflegen Sie die Einträge direkt am Produkt. Sollen mehrere Produkte dieselben Preise erhalten, verwenden Sie eine gemeinsame **Produktgruppen-ID**. Für Attributkombinationen können Sie eigene Einträge anlegen.
 
 ## Preis für ein Produkt festlegen <a href="#produktdetail" id="produktdetail"></a>
 
@@ -30,7 +34,7 @@ Ein **fester Wert** legt den abweichenden Stückpreis unmittelbar fest. Für ein
 Mit der Plugin-Einstellung **Staffelpreis als Basis verwenden** können Sie für Auf-/Abpreise und prozentuale Änderungen stattdessen einen ermittelten positiven Staffelpreis als Berechnungsbasis verwenden.
 
 {% hint style="info" %}
-Das Vorzeichen beim Auf-/Abpreis wirkt hier anders als bei regulären Staffelpreisen: Ein positiver Wert erhöht den Preis. Ein Preiswert von 0 ist nur mit Preis auf Anfrage zulässig; das gilt auch für Import und API.
+Das Vorzeichen beim Auf-/Abpreis wirkt hier anders als bei regulären Staffelpreisen: Ein positiver Wert erhöht den Preis. Ein Preiswert von 0 ist nur mit **Preis auf Anfrage** zulässig; das gilt auch für Import und API.
 {% endhint %}
 
 Aktivieren Sie **Preis auf Anfrage**, wenn der betreffende Kunde statt eines bezifferten Preises einen Anfragehinweis erhalten soll.
@@ -57,13 +61,17 @@ Sie können für denselben Kunden mehrere Mengenstaffeln hinterlegen. Bei einem 
 
 Gehört ein Kunde mehreren aktiven Kundengruppen an, werden die für diese Gruppen ausgewählten Preise anhand ihrer berechneten Beträge verglichen. Ein passender Kundengruppen-Eintrag mit **Preis auf Anfrage** hat dabei Vorrang vor einem bezifferten Kundengruppen-Preis. Ein direkt zugeordneter Kundennummer-Preis bleibt vorrangig.
 
+{% hint style="info" %}
 Legen Sie für dieselbe Zuordnung und identische Bedingungen nur einen Eintrag an. Doppelte Einträge werden nicht zusammengeführt; für solche Duplikate ist keine Auswahl des günstigsten Endpreises zugesichert.
+{% endhint %}
 
 Vorhandene Zeilen können Sie bearbeiten, einzeln löschen oder für eine gemeinsame Löschung markieren. **Abbrechen** verwirft noch nicht gespeicherte Tabellenänderungen.
 
 ## Gemeinsame Preise für mehrere Produkte <a href="#produktgruppen" id="produktgruppen"></a>
 
 Mit einer **Produktgruppen-ID** verwenden mehrere Produkte dieselben Preisabhängigkeiten. Die ID ist eine von Ihnen vergebene positive Zahl. Eine solche Produktgruppe ist unabhängig von den Warengruppen des Shops und vom Produkttyp Gruppenprodukt.
+
+![Verwendung der globalen Konfiguration](../../.gitbook/assets/module_dependingprices_editor_product-tab_global-configuration.png)
 
 1. Öffnen Sie die Plugin-Konfiguration und dort **Produktgruppen**.
 2. Legen Sie die gemeinsamen Preisabhängigkeiten an und tragen Sie bei diesen Einträgen dieselbe **Produktgruppen-ID** ein.
@@ -78,17 +86,21 @@ Die Tabelle **Produktgruppen** zeigt auch direkt zugeordnete Einträge. Über **
 
 Öffnen Sie die gewünschte **Attributkombination** und wechseln Sie dort zu **Preis-Abhängigkeiten**. Die Tabelle bedienen Sie wie am Produkt; die Einträge gehören hier zur gewählten Kombination.
 
+![Einen Preis zu einer Attributkombination hinzufügen](../../.gitbook/assets/module_dependingprices_editor_product-tab_attribute-combination.png)
+
 Standardmäßig verwendet Smartstore bei einer konkreten Variantenauswahl die Preisabhängigkeiten der Kombination. Fehlt dort ein passender Eintrag, wird nicht automatisch auf die direkt am Produkt hinterlegten Preisabhängigkeiten zurückgegriffen. Zugeordnete Produktgruppen-Einträge können weiterhin berücksichtigt werden.
 
-Sollen stattdessen die Preisabhängigkeiten des Produkts gelten, aktivieren Sie in den Plugin-Einstellungen **Attribut-Kombinationspreise auf Basis der Produktkonfiguration berechnen**. Die Option bestimmt, welche DependingPrices-Einträge verwendet werden. Das Anlegen von Varianten erläutert [Wie funktionieren Produktvarianten?](../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md).
+Sollen stattdessen die Preisabhängigkeiten des Produkts gelten, aktivieren Sie in den Plugin-Einstellungen **Attribut-Kombinationspreise auf Basis der Produktkonfiguration berechnen**. Die Option bestimmt, welche DependingPrices-Einträge verwendet werden. Das Anlegen von Varianten wird in [Wie funktionieren Produktvarianten?](../../verwalten/katalog/produkte-verwalten/wie-funktionieren-produktvarianten.md) erläutert.
 
 {% hint style="info" %}
 Attributkombinationen mit eigenem Preis werden unterstützt. Zusätzliche Auf- und Abschläge einzelner Attributwerte werden zusammen mit DependingPrices nicht unterstützt.
 {% endhint %}
 
-## Plugin-Einstellungen <a href="#plugin-konfiguration" id="plugin-konfiguration"></a>
+## Konfiguration <a href="#plugin-konfiguration" id="plugin-konfiguration"></a>
 
 Die Plugin-Konfiguration enthält die Bereiche **Produktgruppen** und **Einstellungen**. Wählen Sie unter Einstellungen bei mehreren Shops zuerst den gewünschten Geltungsbereich.
+
+![Einstellungen für Depending-Prices](../../.gitbook/assets/module_dependingprices_configuration.png)
 
 | **Einstellung**                                                          | **Wirkung**                                                                                                                                                                                                                                  |
 | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -100,7 +112,7 @@ Die Plugin-Konfiguration enthält die Bereiche **Produktgruppen** und **Einstell
 
 ## Den resultierenden Verkaufspreis prüfen
 
-Die gewählte Preisabhängigkeit liefert einen abweichenden Preis. Produktrabatte und die reguläre Staffelpreisberechnung können diesen anschließend noch verändern. Ein fester DependingPrices-Preis ist deshalb nicht automatisch der endgültige Verkaufspreis. Das allgemeine Zusammenspiel erläutert [Preisregeln verstehen](../../verwalten/katalog/produkte-verwalten/preisregeln-verstehen.md); die Einrichtung der regulären Preise und Staffeln beschreibt [Produktpreis festlegen](../../verwalten/katalog/produkte-verwalten/produktpreis-festlegen.md).
+Die gewählte Preisabhängigkeit liefert einen abweichenden Preis. Produktrabatte und die reguläre Staffelpreisberechnung können diesen anschließend noch verändern. Ein fester DependingPrices-Preis ist deshalb nicht automatisch der endgültige Verkaufspreis. Das allgemeine Zusammenspiel wird in [Preisregeln verstehen](../../verwalten/katalog/produkte-verwalten/preisregeln-verstehen.md) erläutert, die Einrichtung der regulären Preise und Staffeln hingegen in [Produktpreis festlegen](../../verwalten/katalog/produkte-verwalten/produktpreis-festlegen.md).
 
 Bei aktivierter direkter Kundenpreiseingabe oder **Preis auf Anfrage** am Produkt wird die normale Preisberechnung einschließlich DependingPrices übersprungen. Bei Gruppenprodukten gelten die Preise der verknüpften Einzelprodukte; DependingPrices ist kein eigener Preisrechner für einen Bundle-Gesamtpreis.
 
@@ -120,12 +132,12 @@ Eine Zeile wird für DependingPrices verarbeitet, wenn sie **DP\_Price** oder **
 | DP\_CustomerNumber                               | Kundennummer für einen kundenspezifischen Datensatz.                                                                                                                                           |
 | DP\_ItemGroupId, DP\_VariantCombinationId        | Produktgruppen-ID bzw. Attributkombination-ID.                                                                                                                                                 |
 | DP\_Quantity                                     | Mindestbestellmenge des Datensatzes. Ein leerer Wert oder 0 bedeutet keine Mengenbeschränkung. Die Menge unterscheidet Preisstaffeln mit ansonsten gleichen Zuordnungsbedingungen.             |
-| DP\_PriceOnRequest                               | true aktiviert Preis auf Anfrage, false deaktiviert es. Ein leerer Wert erhält bei einem vorhandenen Datensatz dessen Einstellung. Ein Preiswert von 0 ist nur bei Preis auf Anfrage zulässig. |
-| DP\_CustomerGroupPrices                          | Mehrere Kundengruppenpreise in einer Zeile, etwa 1:90;2:80. Je Eintrag stehen Kundengruppen-ID und Preis, getrennt durch einen Doppelpunkt; Einträge werden durch Semikolon getrennt.          |
-| DP\_Delete                                       | Mit true wird der anhand der Zuordnungsbedingungen gefundene Datensatz gelöscht. Ohne Treffer bleibt der Datenbestand unverändert; es wird kein Datensatz angelegt.                            |
+| DP\_PriceOnRequest                               | `true` aktiviert Preis auf Anfrage, false deaktiviert es. Ein leerer Wert erhält bei einem vorhandenen Datensatz dessen Einstellung. Ein Preiswert von 0 ist nur bei Preis auf Anfrage zulässig. |
+| DP\_CustomerGroupPrices                          | Mehrere Kundengruppenpreise in einer Zeile, etwa `1:90;2:80`. Je Eintrag stehen Kundengruppen-ID und Preis, getrennt durch einen Doppelpunkt; Einträge werden durch Semikolon getrennt.          |
+| DP\_Delete                                       | Mit `true` wird der anhand der Zuordnungsbedingungen gefundene Datensatz gelöscht. Ohne Treffer bleibt der Datenbestand unverändert; es wird kein Datensatz angelegt.                            |
 
 Der Import sucht vorhandene Datensätze anhand des Produkts, der jeweiligen Zuordnungsbedingungen und der Mindestbestellmenge. So können Sie bei sonst gleichen Bedingungen mehrere Mengenstaffeln getrennt importieren. Eine leere Mindestbestellmenge und 0 bezeichnen denselben uneingeschränkten Eintrag. Geben Sie beim Ändern oder Löschen einer Staffel die zugehörige Mindestbestellmenge an.
 
-Mit installiertem und eingerichtetem **Web API**-Plugin steht außerdem die OData-Entität **DependingPricesRecords** bereit. Sie unterstützt Lesen, Anlegen, Ändern und Löschen von Datensätzen, einschließlich Menge und Preis auf Anfrage. Dafür sind die passenden DependingPrices-Berechtigungen und ein autorisierter API-Zugang erforderlich.
+Mit installiertem und eingerichtetem [Web API-Plugin](webapi.md) steht außerdem die OData-Entität **DependingPricesRecords** bereit. Sie unterstützt Lesen, Anlegen, Ändern und Löschen von Datensätzen, einschließlich Menge und Preis auf Anfrage. Dafür sind die passenden DependingPrices-Berechtigungen und ein autorisierter API-Zugang erforderlich.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
