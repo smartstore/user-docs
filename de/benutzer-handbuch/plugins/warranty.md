@@ -8,7 +8,7 @@ Mit diesem Plugin konfigurieren und zeigen Sie die harmonisierten EU-Label für 
 
 ## Gewährleistung
 
-Je nach Konfiguration des Plugins wird das Gewährleistungslabel entweder auf der Produktdetailseite oder auf der Seite zum Bestellabschluss im Checkout-Prozess angezeigt. Beide Bereiche sind separat [steuerbar](warranty.md#plugin-konfiguration).
+Die Anzeige des Gewährleistungslabels auf der Produktdetailseite und im Checkout ist für beide Bereiche separat [steuerbar](warranty.md#plugin-konfiguration).
 
 ![Schaltfläche der Gewährleistung](../../.gitbook/assets/module_warranty_gewaehrleistungslabel.png)
 
@@ -18,7 +18,7 @@ Bei Klick auf das Gewährleistungslabel öffnet sich ein Pop-Up mit Informatione
 
 ## Garantie
 
-Das Garantielabel wird nur ausgegeben, wenn für die Felder Garantiegeber und Modellkennung Daten hinterlegt sind und eine Garantiedauer von mehr als zwei Jahren festgelegt wurde.
+Das Garantielabel wird angezeigt, wenn eine Garantiedauer von mehr als zwei Jahren festgelegt wurde und Angaben zu Garantiegeber und Modellkennung verfügbar sind. Fehlen diese Angaben im Produkt-Tab, verwendet das Plugin den Namen der Produktmarke beziehungsweise die Herstellerproduktnummer (MPN).
 
 ![Schaltfläche der Garantie](../../.gitbook/assets/module_warranty_garantielabel.png)
 
@@ -40,8 +40,8 @@ Aktivieren oder deaktivieren Sie diese Funktion in der [Plugin-Konfiguration](wa
 
 Die E-Mail enthält:
 
-- die harmonisierte EU-Mitteilung zur gesetzlichen Gewährleistung,
-- für jedes betroffene Produkt ein eigenes GARAN-Label zur Haltbarkeitsgarantie.
+* die harmonisierte EU-Mitteilung zur gesetzlichen Gewährleistung,
+* für jedes betroffene Produkt ein eigenes GARAN-Label zur Haltbarkeitsgarantie.
 
 Die Anhänge werden in der Sprache der Bestellbestätigung erstellt. Ist die gesetzliche Mitteilung in dieser Sprache nicht verfügbar, wird die englische Version verwendet.
 
@@ -88,7 +88,7 @@ Die Voreinstellungen der einzelnen Felder lauten wie folgt:
 
 Die Daten zur Garantiekennzeichnung lassen sich auch per Produktimport importieren.
 
-In der Importdatei müssen das Schlüsselfeld „SKU” sowie die Felder „DurabilityGuaranteeIssuer”, „DurabilityGuaranteeDurationYears” und „ModelIdentifier” enthalten sein.
+Verwenden Sie „SKU” als Schlüsselfeld zur Zuordnung der Produkte. Ergänzen Sie die Felder „DurabilityGuaranteeIssuer”, „DurabilityGuaranteeDurationYears” und „ModelIdentifier” für die Garantiedaten, die Sie importieren möchten.
 
 {% hint style="info" %}
 Im Hinweiskasten der Plugin-Konfiguration steht eine Beispieldatei zum Download bereit.
