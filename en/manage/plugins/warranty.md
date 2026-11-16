@@ -1,4 +1,4 @@
-# EU Warranty Labelling
+# Warranty
 
 This plugin allows you to configure and display the harmonized EU labels for warranty and guarantee on the product detail page and, if necessary, at checkout.
 
@@ -8,7 +8,7 @@ This plugin allows you to configure and display the harmonized EU labels for war
 
 ## Warranty
 
-Depending on the plugin's configuration, the warranty label is displayed either on the product detail page or on the order confirmation page during the checkout process. Both areas can be [controlled separately](warranty.md#plugin-configuration).
+The display of the warranty label on the product detail page and at checkout can be [controlled separately](warranty.md#plugin-configuration).
 
 ![Button for the warranty](../../.gitbook/assets/module_warranty_warrantylabel.png)
 
@@ -18,7 +18,7 @@ When clicked, the warranty label opens a pop-up with information about the legal
 
 ## Guarantee
 
-The warranty label is only issued if data is entered for the fields "Guarantee issuer" and "Model identifier" and a warranty period of more than two years is set.
+The guarantee label is displayed when a guarantee duration of more than two years is set and an issuer and model identifier are available. If either field is left empty in the product editor, the plugin uses the product's brand name or manufacturer part number (MPN) for that field.
 
 ![Button for the guarantee](../../.gitbook/assets/module_warranty_guaranteelabel.png)
 
@@ -40,8 +40,8 @@ You can enable or disable this function in the [plugin configuration](warranty.m
 
 The email contains:
 
-- the harmonised EU notice concerning the statutory warranty,
-- a separate GARAN durability guarantee label for each applicable product.
+* the harmonised EU notice concerning the statutory warranty,
+* a separate GARAN durability guarantee label for each applicable product.
 
 The attachments are generated in the language of the order confirmation. If the statutory warranty notice is unavailable in that language, the English version is used.
 
@@ -77,18 +77,18 @@ In the "EU Warranty" tab of the product editor, you can enter product-specific w
 
 The default settings for the individual fields are as follows:
 
-|Option|Description|
-|---|---|
-|Exempt from labeling requirements|The setting **By default, all products are...** from the plugin configuration.|
-|Guarantee duration|No entry &rarr; The warranty label is not displayed.|
-|Guarantee issuer (brand/manufacturer)|The manufacturer of the product.|
-|Model identifier|The manufacturer's product number (MPN) of the product.|
+| Option                                | Description                                                                    |
+| ------------------------------------- | ------------------------------------------------------------------------------ |
+| Exempt from labeling requirements     | The setting **By default, all products are...** from the plugin configuration. |
+| Guarantee duration                    | No entry → The guarantee label is not displayed.                               |
+| Guarantee issuer (brand/manufacturer) | The manufacturer of the product.                                               |
+| Model identifier                      | The manufacturer's product number (MPN) of the product.                        |
 
 ## Import
 
-The data for the warranty label can also be entered via product import.
+You can also import guarantee label data through product import.
 
-The import file must contain the key field "SKU" as well as the fields "DurabilityGuaranteeIssuer", "DurabilityGuaranteeDurationYears" and "ModelIdentifier".
+Use "SKU" as the key field to match products. Include the fields "DurabilityGuaranteeIssuer", "DurabilityGuaranteeDurationYears" and "ModelIdentifier" for the guarantee data you want to import.
 
 {% hint style="info" %}
 A sample file is available for download in the plugin configuration notice box.
