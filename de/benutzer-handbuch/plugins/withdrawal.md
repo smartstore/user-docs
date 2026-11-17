@@ -17,7 +17,7 @@ Standardablauf:
 
 ### Allgemein
 
-Sowohl im Service-Footer als auch im Service-Menü ist der Widerruf unter der Bezeichnung „Vertrag widerrufen” zu finden. Diese Schaltfläche ist für alle Nutzer, also auch für Gäste, sichtbar.
+Standardmäßig ist „Vertrag widerrufen“ im Service-Footer und im Service-Menü auch für Gäste sichtbar. Position und Sichtbarkeit des Links können in der Konfiguration angepasst werden. Die Anzeige lässt sich auf registrierte Kunden beschränken.
 
 | Widerruf im Footer                                        | Widerruf im Menü                                               |
 | --------------------------------------------------------- | -------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Registrierte Kunden können den Kauf auf der Bestelldetailseite im Bereich „Me
 <img src="../../.gitbook/assets/module_withdrawal_widerrufsseite_user_bestellhistorie.png" alt="Widerruf im Mein Konto-Bereich" data-size="original">
 {% endhint %}
 
-Als Nächstes erscheint eine Informationsseite zum Widerruf, auf der die entsprechende Bestellung ausgewählt wird. Um eine Bestellung zu widerrufen, müssen Gäste ihre Bestellnummer und E-Mail-Adresse angeben. Angemeldete Kunden können die Bestellung außerdem über ein Dropdown-Menü auswählen.
+Als Nächstes erscheint eine Informationsseite zum Widerruf, auf der die entsprechende Bestellung ausgewählt wird. Um eine Bestellung zu widerrufen, müssen Gäste ihre Bestellnummer und E-Mail-Adresse angeben. Angemeldete Kunden können die Bestellung außerdem über ein Dropdown-Menü auswählen. Für Gäste ohne Bestellnummer kann optional ein Link zum Kontaktformular angezeigt werden.
 
 ![Informationsseite zum Widerruf](../../.gitbook/assets/module_withdrawal_widerrufsseite_user.png)
 
@@ -41,7 +41,7 @@ Zur Verifizierung ihres E-Mail-Kontos erhalten Gäste eine E-Mail mit einem Fort
 Die E-Mails mit dem Fortschrittslink werden direkt verschickt und tauchen nicht in der E-Mail-Verwaltung auf.
 {% endhint %}
 
-Sobald der Widerruf abgeschlossen ist, wird der Kunde per E-Mail benachrichtigt, ebenso optional der Shopbetreiber (siehe Konfiguration).
+Nach Eingang des Widerrufs erhalten der Kunde und optional der Shopbetreiber eine E-Mail, sofern die jeweilige Benachrichtigung aktiviert ist (siehe Konfiguration).
 
 Der Widerrufstatus kann in den Bestelldetails im „Mein Konto“-Bereich eingesehen werden.
 
@@ -65,7 +65,7 @@ Der Widerrufstatus wird in den Auftragsdetails im Reiter „Produkte” unterhal
 
 Die Konfiguration erfolgt in den Auftragseinstellungen (**Konfiguration** → **Einstellungen** → **Aufträge**) im Reiter „Widerruf”.
 
-Hier können die Positionierung und Sichtbarkeit der Schaltflächen sowie die Widerrufsfrist, deren Beginn und das Versenden von E-Mails an Kunden und Shopbetreiber festgelegt werden.
+Hier können die Positionierung und Sichtbarkeit der Schaltflächen sowie die Widerrufsfrist, deren Beginn und das Versenden von E-Mails an Kunden und Shopbetreiber festgelegt werden. Außerdem lassen sich bestimmte Kundenrollen vom Online-Widerruf ausschließen und der optionale Kontaktlink für Gäste aktivieren.
 
 ![Widerruf-Konfiguration](../../.gitbook/assets/module_withdrawal_einstellungen.png)
 
