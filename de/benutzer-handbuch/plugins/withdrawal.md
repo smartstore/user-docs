@@ -55,7 +55,7 @@ Eine Liste aller Widerrufe kann zusammen mit den Retourenanträgen unter **Verka
 
 Mit Klick auf die ID des Widerrufs wird der Widerruf angezeigt und kann bearbeitet werden. Im Reiter "Angaben zum Widerruf" können die vom Käufer weitergegebenen Daten zum Widerruf eingesehen werden.
 
-![](../../.gitbook/assets/module_withdrawal_backend_widerruf_allgemein.png)
+![](../../.gitbook/assets/module_withdrawal_backend_withdrawal_general.png)
 
 #### Auftragsdetails
 
@@ -67,7 +67,7 @@ Die Konfiguration erfolgt in den Auftragseinstellungen (**Konfiguration** → **
 
 Hier können die Positionierung und Sichtbarkeit der Schaltflächen sowie die Widerrufsfrist, deren Beginn und das Versenden von E-Mails an Kunden und Shopbetreiber festgelegt werden. Außerdem lassen sich bestimmte Kundenrollen vom Online-Widerruf ausschließen und der optionale Kontaktlink für Gäste aktivieren.
 
-![Widerruf-Konfiguration](../../.gitbook/assets/module_withdrawal_einstellungen.png)
+![Widerruf-Konfiguration](../../.gitbook/assets/module_withdrawal_configuration.png)
 
 Neben der globalen Einstellung kann die Widerrufsfrist sowohl beim Produkt als auch bei einer Warengruppe (sofern sie für alle Produkte dieser Warengruppe gelten soll) zusätzlich eingestellt werden. Wenn hier der Wert 0 (Tage) festgelegt wird, ist ein Widerruf des Produkts grundsätzlich nicht möglich. Mit der Option „**Widerruf vor Versand erlauben**“ kann ein versandfähiges Produkt trotzdem widerrufen werden, solange die betreffende Bestellposition noch nicht versendet wurde. Die Option lässt sich global sowie abweichend am Produkt oder in einer Warengruppe festlegen. Die Einstellung am Produkt hat Vorrang. Bei mehreren Warengruppen setzt sich eine Deaktivierung durch. Ohne abweichende Einstellung gilt der globale Wert.
 
