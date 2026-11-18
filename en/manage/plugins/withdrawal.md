@@ -4,7 +4,7 @@ The "Withdrawal" plugin supports every step of the online order withdrawal proce
 
 ## Withdrawal vs. Return
 
-The "Return items" option is still available within the return process, but has been updated.
+The "Return items" option remains available as part of the return process, but it has been revised.
 
 Standard workflow:
 
@@ -17,7 +17,7 @@ Standard workflow:
 
 ### General
 
-Both the Service Footer and the Service Menu have a "Withdraw from contract" option for canceling your contract. This button is visible to all users, including guests.
+By default, "Withdraw from contract" appears in the service footer and service menu for guests as well. You can change the link's location and visibility in the settings. You can restrict its display to registered customers.
 
 | Withdrawal in the footer                                  | Withdrawal in the menu                                         |
 | --------------------------------------------------------- | -------------------------------------------------------------- |
@@ -29,7 +29,7 @@ Registered customers can withdraw their purchase on the order details page in th
 <img src="../../.gitbook/assets/module_withdrawal_withdrawalpage_user_orderhistory.png" alt="Withdrawal in the &#x27;My Account&#x27; section." data-size="original">
 {% endhint %}
 
-Next, an information page about the withdrawal will appear, on which the corresponding order will be selected. To withdraw an order, guests must provide their order number and email address. Registered customers can choose the order via a dropdown menu.
+Next, an information page appears where the relevant order is selected. To withdraw an order, guests must enter their order number and email address. Registered customers can also select the order from a dropdown menu. For guests without an order number, an optional link to the contact form can be displayed.
 
 ![Information page about the withdrawal](../../.gitbook/assets/module_withdrawal_withdrawalpage_user.png)
 
@@ -41,7 +41,7 @@ To verify their email account, guests will receive an email with a proceed link.
 Emails with the proceed link are sent directly and do not appear in the email management.
 {% endhint %}
 
-Once the withdrawal is complete, the customer will be notified by email, as will the shop owner if this option is selected (see configuration).
+After the withdrawal is complete, the customer and, optionally, the shop owner receive an email if the respective notification is enabled (see Configuration).
 
 The status of the withdrawal can be viewed in the order details in the "My Account" section.
 
@@ -51,7 +51,7 @@ The status of the withdrawal can be viewed in the order details in the "My Accou
 
 ### Listing
 
-A list of all returns can be viewed together with the return requests under **Sales** → **Withdrawals and Returns**.
+A list of all withdrawals can be viewed together with return requests under **Sales** → **Withdrawals and Returns**.
 
 Clicking on the ID of a withdrawal displays the withdrawal and allows it to be edited. In the "Withdrawal details" tab, you can view the data provided by the buyer regarding the withdrawal.
 
@@ -65,7 +65,7 @@ The status of the withdrawal is displayed in the order details in the "Products"
 
 The configuration is done in the order settings (**Configuration** → **Settings** → **Orders**) in the tab "Withdrawal".
 
-The position and visibility of the buttons, as well as the withdrawal period, its start and the sending of emails to customers and shop owners, can be defined here.
+Here you can set the position and visibility of the buttons, the withdrawal period and its starting point, and whether to send emails to customers and shop owners. You can also exclude specific customer roles from online withdrawal and enable the optional contact link for guests.
 
 ![Withdrawal configuration](../../.gitbook/assets/module_withdrawal_configuration.png)
 
