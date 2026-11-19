@@ -1,6 +1,6 @@
 # E-Mail Konten einrichten
 
-In einem Shop gibt es verschiedene Ereignisse, bei denen Sie Ihre Kunden über Vorgänge informieren möchten. Wenn beispielsweise eine Bestellung getätigt wurde, muss der Kunde eine Auftragsbestätigung erhalten, ansonsten fragt er sich, ob die Bestellung erfolgreich durchgeführt wurde. Der Shop-Administrator muss in diesem Fall ebenfalls sofort informiert werden. Daher versendet Smartstore in diesen Fällen automatisch E-Mails. Dafür müssen Sie mindestens ein E-Mail-Konto in Smartstore einrichten, über die die E-Mails versendet werden können. Sie können E-Mail-Accounts einrichten, indem Sie zu **Konfiguration > E-Mail** gehen, wo Sie eine unbegrenzte Anzahl an E-Mail-Konten einrichten können, die Sie anschließend mit unterschiedlichen Nachrichtenvorlagen verbinden können. Für weitere Informationen zur Verbindung von E-Mail-Konten mit Nachrichtenvorlagen lesen Sie bitte [E-Mail Konten einrichten](e-mail-konten-einrichten.md#ein-e-mail-konto-einrichten).
+Smartstore informiert Ihre Kunden und Sie als Shopbetreiber automatisch per E-Mail über wichtige Vorgänge im Shop. Nach einer Bestellung erhält der Kunde beispielsweise eine Auftragsbestätigung, während Sie über den neuen Auftrag benachrichtigt werden. Für den Versand richten Sie unter **Konfiguration > E-Mail** mindestens ein E-Mail-Konto ein. Sie können beliebig viele Konten anlegen und diese unterschiedlichen Nachrichtenvorlagen zuordnen. Wie Sie die Zuordnung vornehmen, erfahren Sie unter [Nachrichtenvorlagen anpassen](../content-management/nachrichtenvorlagen-anpassen.md).
 
 ![](../../.gitbook/assets/e-mail-konto.PNG)
 
@@ -9,22 +9,42 @@ In einem Shop gibt es verschiedene Ereignisse, bei denen Sie Ihre Kunden über V
 {% hint style="info" %}
 **Wo erhalte ich die notwendigen Daten?**
 
-Die Daten in den unten beschriebenen Feldern werden Ihnen in der Regel zugeschickt, wenn Sie ein Hosting Paket buchen. Sie können diese Daten auch erhalten, indem Sie im Konfigurationsbereich Ihres Hosting Pakets auf der Webseite Ihres Providers nachschauen. Gehen Sie in den Konfigurationsbereich für E-Mails. Wenn Sie dort keine Informationen finden, kontaktieren Sie Ihren Provider.
+Die benötigten Zugangsdaten und SMTP-Einstellungen erhalten Sie von Ihrem E-Mail- oder Hosting-Anbieter. Häufig finden Sie diese im Kundenbereich des Anbieters bei den Einstellungen Ihres E-Mail-Kontos oder in der E-Mail zur Einrichtung Ihres Hosting-Pakets. Falls die Angaben dort fehlen, wenden Sie sich an den Support Ihres Anbieters.
 {% endhint %}
 
-|                               |                                                                                            |
-| ----------------------------- | ------------------------------------------------------------------------------------------ |
-| E-Mail-Konto                  | Absenderadresse für alle ausgehenden E-Mails Ihres Shops, z.B. 'bestellungen@meinshop.de'  |
-| Anzeigename                   | Angezeigter Name für ausgehende E-Mails Ihres Shops, z.B. 'Mein Shop - Verkaufsabteilung'. |
-| Host                          | Servername oder IP-Adresse des E-Mail-Servers.                                             |
-| Port                          | SMTP-Port für Ihren E-Mail-Server (normalerweise 25)                                       |
-| Benutzername                  | Benutzername für das E-Mail-Konto mit welchem Sie sich bei Ihrem Server authentifizieren   |
-| Passwort                      | Passwort für Ihren E-Mail-Server mit welchem Sie sich bei Ihrem Server authentifizieren    |
-| SSL                           | Klicken Sie die Box an, um SSL zu aktivieren.                                              |
-| Benutze Standard-Zugangsdaten | Standard-Zugangsdaten für die Verbindung benutzen.                                         |
+Legen Sie unter **Konfiguration > E-Mail** ein neues Konto an und tragen Sie die SMTP-Daten Ihres Anbieters ein. Smartstore verwendet dieses Konto zum Versenden von Nachrichten; ein Postfach beim Anbieter wird dadurch nicht angelegt.
+
+|                               |                                                                                                                                                                                                                                                                                                                      |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| E-Mail-Konto                  | Absenderadresse für E-Mails, die über dieses Konto versendet werden, z. B. bestellungen@meinshop.de.                                                                                                                                                                                                                 |
+| Anzeigename                   | Angezeigter Absendername für dieses Konto, z. B. Mein Shop - Verkaufsabteilung.                                                                                                                                                                                                                                      |
+| Host                          | Servername oder IP-Adresse des E-Mail-Servers.                                                                                                                                                                                                                                                                       |
+| Port                          | SMTP-Port laut Vorgabe Ihres E-Mail-Anbieters. Smartstore trägt bei neuen Konten 25 vor; übernehmen Sie den für Ihren Server und die gewählte Verschlüsselung vorgesehenen Port.                                                                                                                                     |
+| Benutzername                  | Benutzername für das E-Mail-Konto mit welchem Sie sich bei Ihrem Server authentifizieren                                                                                                                                                                                                                             |
+| Passwort                      | Passwort für Ihren E-Mail-Server mit welchem Sie sich bei Ihrem Server authentifizieren                                                                                                                                                                                                                              |
+| Verschlüsselung               | Wählen Sie die für Ihren SMTP-Server vorgesehene Verschlüsselung. Die verfügbaren Optionen sind unterhalb der Tabelle erklärt.                                                                                                                                                                                       |
+| Benutze Standard-Zugangsdaten | Verwendet die Netzwerk-Zugangsdaten des Kontos, unter dem die Shop-Anwendung läuft, anstelle des eingetragenen Benutzernamens und Passworts. Aktivieren Sie dies nur, wenn Ihr SMTP-Server diese Anmeldung unterstützt. Für die Anmeldung mit den Zugangsdaten Ihres E-Mail-Anbieters bleibt die Option deaktiviert. |
+
+Unter **Verschlüsselung** stehen folgende Optionen zur Verfügung:
+
+* **Keine Verschlüsselung**: Die SMTP-Verbindung wird unverschlüsselt aufgebaut.
+* **Automatisch**: Die Verschlüsselung wird automatisch gewählt. Wenn der Server keine Verschlüsselung unterstützt, kann die Verbindung unverschlüsselt fortgesetzt werden.
+* **Sofort**: Die Verbindung wird von Beginn an mit SSL oder TLS verschlüsselt.
+* **StartTLS**: Nach der Begrüßung durch den Server wird zwingend auf TLS umgestellt. Unterstützt der Server STARTTLS nicht, schlägt die Verbindung fehl.
+* **StartTLS optional**: Nach der Begrüßung wird auf TLS umgestellt, sofern der Server dies unterstützt. Andernfalls bleibt die Verbindung unverschlüsselt.
 
 {% hint style="info" %}
 **Test-E-Mail senden**
 
-Sobald Sie Ihr E-Mail-Konto konfiguriert haben, sollten Sie testen, ob die Daten, die Sie eingegeben haben, korrekt sind, indem Sie eine Test-E-Mail senden. Wenn eine E-Mail an die E-Mail-Adresse, die Sie bei **E-Mail senden an** eingegeben haben, gesendet werden kann, können Sie sicher sein, dass das Konto korrekt angelegt wurde.
+Speichern Sie das Konto zuerst. Anschließend steht in der Bearbeitungsansicht der Testversand zur Verfügung. Tragen Sie unter **E-Mail senden an** eine Empfängeradresse ein und senden Sie die Testnachricht. Der Test verwendet die bereits gespeicherten Kontodaten. Speichern Sie daher auch spätere Änderungen vor einem erneuten Test.
+
+Eine Erfolgsmeldung bestätigt, dass der SMTP-Server die Nachricht angenommen hat. Prüfen Sie zusätzlich den Eingang beim Empfänger, gegebenenfalls auch im Spamordner. Bei einem Fehler zeigt Smartstore die Fehlermeldung unter dem Formular an.
 {% endhint %}
+
+## Standardkonto und Nachrichtenvorlagen
+
+Das Standardkonto wählen Sie unter **Konfiguration > Einstellungen > Allgemeine Einstellungen**. In der Bearbeitungsansicht eines bestehenden E-Mail-Kontos führt **Ändern** neben der Standardkonto-Anzeige zu diesen Einstellungen. Weitere Informationen finden Sie unter [Allgemeine Einstellungen](einstellungen/allgemeine-einstellungen.md).
+
+Nachrichtenvorlagen können ein eigenes E-Mail-Konto verwenden, bei Bedarf auch je Sprache. Das Standardkonto ersetzt diese Zuordnung nicht; es dient unter anderem als Ersatz, wenn das zugeordnete Konto nicht mehr vorhanden ist.
+
+Ein als Standard verwendetes Konto und das letzte vorhandene Konto können nicht gelöscht werden. Prüfen Sie vor dem Löschen eines anderen Kontos die zugehörigen Nachrichtenvorlagen und weisen Sie ihnen bei Bedarf ein anderes Konto zu.
