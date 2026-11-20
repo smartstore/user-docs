@@ -16,26 +16,26 @@ Die in diesem Artikel angeführten Beispiele sind weder rechtsverbindlich noch r
 
 Die Angaben zum Hersteller hinterlegen Sie im Backend unter **Katalog** → **Hersteller** im Tab **GPSR**.
 
-![Angaben zum Hersteller im GPSR-Tab](../../.gitbook/assets/module_gpsr_hersteller_tab.png)
+![Angaben zum Hersteller im GPSR-Tab](../../.gitbook/assets/module_gpsr_manufacturer_tab.png)
 
 | **Option**              | **Beschreibung**                                                                                                                           | **Beispiel**                                                                                                                                                                                                                                                 |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Angaben zum Hersteller  | <p>- Hersteller- bzw. Markenname<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p>                                      | <p><em>TEA Sports Deutschland GmbH</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: info@tea-sports.de</em></p>                                               |
-| Produktverantwortlicher | <p>- Wenn der Hersteller nicht in der EU niedergelassen ist<br>- Name<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p> | <p><em>Frau Dr. Julia Meyer</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Abteilung Legal &#x26; Compliance</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: julia.meyer@tea-sports.de</em></p> |
+| Angaben zum Hersteller  | <p>- Hersteller- bzw. Markenname<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p>                                      | Fairway Vennix Sports Equipment Ltd., 18 Sample Lane, Manchester M1 1AA, Vereinigtes Königreich; safety@fairway-vennix.example |
+| Produktverantwortlicher | <p>- Wenn der Hersteller nicht in der EU niedergelassen ist<br>- Name<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p> | Fairway Vennix Europe GmbH, Musterweg 12, 12345 Musterstadt, Deutschland; gpsr@fairway-vennix.example |
 
 Die hinterlegten GPSR-Angaben eines zugeordneten Herstellers können auf der Produktdetailseite angezeigt werden. Sind einem Produkt mehrere Hersteller zugeordnet, berücksichtigt das Plugin standardmäßig nur den ersten. Diese Einstellung lässt sich in der Plugin-Konfiguration ändern.
 
-![Herstellerinformationen auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_produktdetailseite_herstellerinformationen.png)
+![Herstellerinformationen auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_productdetail_manufacturer-information.png)
 
 ## Textbausteine hinzufügen
 
 Warnungs- und Sicherheitshinweise können als Textbausteine manuell, oder automatisch per Regeln hinzugefügt werden. Navigieren Sie dazu im Backend auf **CMS** → **Textbausteine.**
 
-![Übersicht aller Textbausteine](../../.gitbook/assets/module_gpsr_textbaustein_uebersicht.png)
+![Übersicht aller Textbausteine](../../.gitbook/assets/module_gpsr_textblock_overview.png)
 
 Über **Neu** können weitere Textbausteine hinzugefügt werden.
 
-![Eingabe der Textbaustein-Daten](../../.gitbook/assets/module_gpsr_textbaustein_neu.png)
+![Eingabe der Textbaustein-Daten](../../.gitbook/assets/module_gpsr_textblock_new.png)
 
 | **Option**                        | **Beschreibung**                                                                                                               | **Beispiel**                                                                                                                                                                                                                                           |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -43,9 +43,9 @@ Warnungs- und Sicherheitshinweise können als Textbausteine manuell, oder automa
 | Reihenfolge                       | Legt die Anzeige-Priorität fest. 1 steht bspw. für das erste Element in der Liste.                                             | 5                                                                                                                                                                                                                                                      |
 | Hintergrundfarbe                  | Legt die Hintergrundfarbe der Hinweis-Box fest. Leer lassen, wenn der Text nicht in einer Hinweis-Box angezeigt werden soll.   | warning                                                                                                                                                                                                                                                |
 | Titel anzeigen                    | Legt fest, ob der Titel angezeigt wird.                                                                                        | An                                                                                                                                                                                                                                                     |
-| Regeln für automatische Zuordnung | Der Textbaustein wird automatisch Produkten zugeordnet, wenn diese eine der gewählten Regeln erfüllen und die Regel aktiv ist. | _\<Nicht spezifiziert>_                                                                                                                                                                                                                                |
-| Titel                             | Der Titel des Textbausteins.                                                                                                   | _Gaming Product Safety Regulation_                                                                                                                                                                                                                     |
-| Text                              | Der Textinhalt des Textbausteins.                                                                                              | _Wichtiger Hinweis: Sollten Sie feststellen, dass Ihre Reflexe besser, Ihre Konzentration gesteigert und Ihre Hand-Augen-Koordination übermenschlich präzise ist – machen Sie weiter, aber denken Sie daran: der Abwasch macht sich nicht von selbst!_ |
+| Regeln für automatische Zuordnung | Der Textbaustein wird automatisch Produkten zugeordnet, wenn diese eine der gewählten Regeln erfüllen und die Regel aktiv ist. | _&lt;Nicht spezifiziert&gt;_                                                                                                                                                                                                                                |
+| Titel                             | Der Titel des Textbausteins.                                                                                                   | _Sicherheitshinweise für Fairway Vennix Produkte_ |
+| Text                              | Der Textinhalt des Textbausteins.                                                                                              | _Verwenden Sie das Produkt nur für den in der Produktbeschreibung angegebenen Zweck. Prüfen Sie es vor der Verwendung auf Beschädigungen und verwenden Sie beschädigte Produkte nicht weiter. Halten Sie Verpackungsmaterial und gegebenenfalls enthaltene Kleinteile von Kindern fern. Beachten Sie bei Produkten mit eigener Bedienungsanleitung zusätzlich die dort aufgeführten Sicherheitshinweise._ |
 
 {% hint style="info" %}
 Auch Medien, wie Bilder und PDFs lassen sich problemlos über Textbausteine per Link in HTML einbinden.
@@ -55,17 +55,17 @@ Auch Medien, wie Bilder und PDFs lassen sich problemlos über Textbausteine per 
 
 Um einem Produkt ein oder mehrere Textbausteine zuzuweisen, navigieren Sie zum gewünschten Produkt und wählen Sie den GPSR-Tab aus.
 
-![GPSR-Tab im Produkt-Editor](../../.gitbook/assets/module_gpsr_produkteditor_gpsrtab.png)
+![GPSR-Tab im Produkt-Editor](../../.gitbook/assets/module_gpsr_product-editor_tab.png)
 
 Wählen Sie die gewünschten Textbausteine aus der Liste aus, um sie auf der Produktdetailseite anzuzeigen.
 
-![Textbausteine auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_produktdetailseite_textblock.png)
+![Textbausteine auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_productdetail_textblock.png)
 
 Die Darstellung der Herstellerdaten und Textbausteine kann in [der Konfiguration](produktsicherheitsverordnung-gpsr.md#konfiguration) geändert werden.
 
 ## Konfiguration
 
-![Plugin-Konfiguration](../../.gitbook/assets/module_gpsr_einstellungen.png)
+![Plugin-Konfiguration](../../.gitbook/assets/module_gpsr_configuration.png)
 
 | Option                                    | Beschreibung                                                                                                                                                                                     |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
