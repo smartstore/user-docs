@@ -1,8 +1,8 @@
 # Produktsicherheitsverordnung (GPSR)
 
-Smartstore erfüllt seit Version 6 die Anforderungen [der GPSR](https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/aenderung-produktsicherheitsgesetz.html).
+Das GPSR-Plugin ergänzt Smartstore um Funktionen zur Pflege und Anzeige von Produktinformationen im Zusammenhang mit [der Verordnung (EU) 2023/988](https://eur-lex.europa.eu/eli/reg/2023/988/oj/deu) (GPSR).
 
-Mit dem GPSR-Plugin können erweiterte Produktinformationen angegeben werden, die für GPSR-Produkte Pflicht sind:
+Es können insbesondere folgende Angaben gepflegt und auf der Produktdetailseite angezeigt werden:
 
 * Angaben zum Hersteller
 * Produkthinweise
@@ -14,16 +14,16 @@ Die in diesem Artikel angeführten Beispiele sind weder rechtsverbindlich noch r
 
 ## Herstellerdaten anzeigen
 
-Bei dem Hersteller müssen Daten hinterlegt werden, die dann in den Produktdetails angezeigt werden. Dazu navigieren Sie im Backend auf **Katalog** → **Hersteller** und wechseln dann zum Tab **GPSR**.
+Die Angaben zum Hersteller hinterlegen Sie im Backend unter **Katalog** → **Hersteller** im Tab **GPSR**.
 
 ![Angaben zum Hersteller im GPSR-Tab](../../.gitbook/assets/module_gpsr_hersteller_tab.png)
 
-| **Option**              | **Beschreibung**                                                                                                                          | **Beispiel**                                                                                                                                                                                                                                                 |
-| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Angaben zum Hersteller  | <p>- Hersteller- bzw. Markenname<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p>                                     | <p><em>TEA Sports Deutschland GmbH</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: info@tea-sports.de</em></p>                                               |
-| Produktverantwortlicher | <p>- Nur wenn es keine Niederlassung innerhalb der EU gibt<br>- Name<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p> | <p><em>Frau Dr. Julia Meyer</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Abteilung Legal &#x26; Compliance</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: julia.meyer@tea-sports.de</em></p> |
+| **Option**              | **Beschreibung**                                                                                                                           | **Beispiel**                                                                                                                                                                                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Angaben zum Hersteller  | <p>- Hersteller- bzw. Markenname<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p>                                      | <p><em>TEA Sports Deutschland GmbH</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: info@tea-sports.de</em></p>                                               |
+| Produktverantwortlicher | <p>- Wenn der Hersteller nicht in der EU niedergelassen ist<br>- Name<br>- Postanschrift<br>- Elektronische Adresse (E-Mail / Website)</p> | <p><em>Frau Dr. Julia Meyer</em><br><br><em>TEA Sports Deutschland GmbH</em><br><em>Abteilung Legal &#x26; Compliance</em><br><em>Musterstraße 123</em><br><em>50667 Köln</em><br><em>Deutschland</em><br><br><em>E-Mail: julia.meyer@tea-sports.de</em></p> |
 
-Für alle Produkte, die dem Hersteller zugeordnet sind, werden die hinterlegten Daten automatisch in den Produktdetails angezeigt.
+Die hinterlegten GPSR-Angaben eines zugeordneten Herstellers können auf der Produktdetailseite angezeigt werden. Sind einem Produkt mehrere Hersteller zugeordnet, berücksichtigt das Plugin standardmäßig nur den ersten. Diese Einstellung lässt sich in der Plugin-Konfiguration ändern.
 
 ![Herstellerinformationen auf der Produktdetailseite](../../.gitbook/assets/module_gpsr_produktdetailseite_herstellerinformationen.png)
 
