@@ -746,6 +746,8 @@ Stellt einen Bereich für häufig gestellte Fragen bereit. Fragen und Antworten 
 * redaktionelle Pflege über die Administration.
 {% endhint %}
 
+Weitere Informationen zur Einrichtung und Verwendung finden Sie in der Dokumentation zum Plugin [FAQ](faq.md).
+
 ### FileManager
 
 **Kostenpflichtig:** Ja

@@ -185,6 +185,7 @@
   * [DirectOrder](benutzer-handbuch/plugins/directorder.md)
   * [DSGVO](benutzer-handbuch/plugins/dsgvo.md)
   * [EU-Garantiekennzeichnung](benutzer-handbuch/plugins/warranty.md)
+  * [FAQ](benutzer-handbuch/plugins/faq.md)
   * [File Manager](benutzer-handbuch/plugins/filemanager.md)
   * [GeoBlocker](benutzer-handbuch/plugins/geoblocker.md)
   * [Google Analytics](benutzer-handbuch/plugins/googleanalytics.md)
