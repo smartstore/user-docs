@@ -1,5 +1,7 @@
 # Starting Smartstore Installation
 
+Once you have checked the [prerequisites](../technology-prerequisites.md) and deployed Smartstore on a [Windows server](preparing-windows-server-vps-cloud-or-dedicated.md), a [Linux server](preparing-linux-vps-cloud-or-dedicated-server.md), or with [Docker](running-docker-images/), complete the setup in your browser. This guide explains which store and database details you need and how to start the installation.
+
 Please call up the Smartstore installation page by entering `<Server-IP>` or `localhost` in your browser.
 
 At the top right of the page you have the option to change the _language to be used for the installation_. You can select the _language of the installed shop_ at the bottom of the page. Further languages can be added in the backend after installation.

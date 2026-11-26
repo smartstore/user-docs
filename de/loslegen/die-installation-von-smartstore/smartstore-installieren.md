@@ -1,5 +1,7 @@
 # Smartstore installieren
 
+Sobald Sie die [Voraussetzungen](../technologie-und-voraussetzungen.md) geprüft und Smartstore auf einem [Windows-Server](windows-server-vorbereiten.md), einem [Linux-Server](linux-server-vorbereiten.md) oder mit [Docker](smartstore-docker-images-ausfuhren.md) bereitgestellt haben, schließen Sie die Einrichtung im Browser ab. Hier erfahren Sie, welche Angaben Sie für den Shop und die Datenbank benötigen und wie Sie die Installation starten.
+
 Rufen Sie die Webadresse Ihres Shops auf. Alternativ können Sie `<Server-IP>` verwenden. `localhost` funktioniert nur, wenn der Browser auf demselben Server läuft. Geben Sie gegebenenfalls den konfigurierten Port an.
 
 Oben rechts auf der Seite können Sie die _Sprache_ ändern, _die für die Installation verwendet werden soll_.
