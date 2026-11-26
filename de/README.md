@@ -1,17 +1,36 @@
-# Willkommen
+# Willkommen in der Smartstore-Dokumentation
 
-## Smartstore 6 Dokumentation
+[Smartstore](https://smartstore.com/de/) ist eine quelloffene E-Commerce-Plattform für die Einrichtung und den Betrieb von Onlineshops. Mit Smartstore verwalten Sie Produkte, Bestellungen und Kunden, gestalten Inhalte und richten Marketing, Zahlungsarten und Versand ein. Über Plugins können Sie zusätzliche Funktionen einbinden und den Shop an Ihre Anforderungen anpassen.
 
-Willkommen beim offiziellen **Smartstore 6 Handbuch**. Diese Dokumentation begleitet Sie von der Einführung und Installation bis zur Konfiguration und Verwaltung Ihres **Smartstore-Onlineshops**.
+Diese Dokumentation begleitet Sie vom ersten Kennenlernen über die Einrichtung bis zur täglichen Arbeit mit Ihrem Shop. Wählen Sie den Bereich, der zu Ihrem Vorhaben passt.
 
-Wenn Sie **Smartstore**, die kostenlose und leistungsstarke E-Commerce-Lösung, gerade erst entdeckt haben, lesen Sie zunächst den Abschnitt [Eine Einführung in Smartstore](loslegen/eine-einfuhrung-in-smartstore.md). Installieren Sie anschließend **Smartstore 6**, indem Sie die Schritte in dieser [Installationsanleitung](loslegen/die-installation-von-smartstore.md) ausführen. Sollten Sie dort nicht die benötigten Informationen finden, stellen Sie Ihre Frage einfach in unserem [Support-Forum](http://community.smartstore.com/).
+## Einstieg & Einrichtung
 
-### Nächste Schritte mit Smartstore
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="content-ref"></th></tr></thead><tbody>
+<tr><td align="center">Smartstore kennenlernen</td><td><a href=".gitbook/assets/readme_card_smartstore.png">.gitbook/assets/readme_card_smartstore.png</a></td><td><a href="loslegen/eine-einfuhrung-in-smartstore.md">loslegen/eine-einfuhrung-in-smartstore.md</a></td></tr>
+<tr><td align="center">Installieren</td><td><a href=".gitbook/assets/readme_card_install.png">.gitbook/assets/readme_card_install.png</a></td><td><a href="loslegen/die-installation-von-smartstore.md">loslegen/die-installation-von-smartstore.md</a></td></tr>
+<tr><td align="center">Konfigurieren &amp; Einrichten</td><td><a href=".gitbook/assets/readme_card_settings.png">.gitbook/assets/readme_card_settings.png</a></td><td><a href="benutzer-handbuch/konfiguration/README.md">benutzer-handbuch/konfiguration/README.md</a></td></tr>
+<tr><td align="center">Katalog</td><td><a href=".gitbook/assets/readme_card_catalog.png">.gitbook/assets/readme_card_catalog.png</a></td><td><a href="verwalten/katalog/README.md">verwalten/katalog/README.md</a></td></tr>
+<tr><td align="center">Verkauf</td><td><a href=".gitbook/assets/readme_card_sales.png">.gitbook/assets/readme_card_sales.png</a></td><td><a href="verwalten/verkauf/README.md">verwalten/verkauf/README.md</a></td></tr>
+<tr><td align="center">Zahlungsanbieter</td><td><a href=".gitbook/assets/readme_card_payments.png">.gitbook/assets/readme_card_payments.png</a></td><td><a href="benutzer-handbuch/plugins/paymentproviders.md">benutzer-handbuch/plugins/paymentproviders.md</a></td></tr>
+</tbody></table>
 
-Nutzen Sie die folgenden Einstiegspunkte, um schnell mit Ihrem Smartstore-Onlineshop zu starten:
+## Funktionen & Erweiterungen
 
-* **Loslegen mit Smartstore 6** – Lesen Sie den Abschnitt [Loslegen](https://github.com/smartstore/user-docs/blob/main/de/welcome/loslegen.md) in dieser Dokumentation, um einen Überblick über Einrichtung und erste Schritte zu erhalten.
-* **Unsere Demo-Shops ansehen** – Sehen Sie sich unsere [Demo-Shops](https://smartstore.com/de/demo/) an und überzeugen Sie sich von den Möglichkeiten, die **Smartstore E-Commerce** bietet.
-* **Smartstore installieren** – [Laden Sie Smartstore 6 herunter](https://smartstore.com/de/download/) und [installieren](loslegen/die-installation-von-smartstore.md) Sie Ihren eigenen **Smartstore-Shop** mithilfe der Schritt-für-Schritt-Installationsanleitung.
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="content-ref"></th></tr></thead><tbody>
+<tr><td align="center">Allgemeine Konzepte</td><td><a href=".gitbook/assets/readme_card_concepts.png">.gitbook/assets/readme_card_concepts.png</a></td><td><a href="benutzer-handbuch/allgemeine-konzepte.md">benutzer-handbuch/allgemeine-konzepte.md</a></td></tr>
+<tr><td align="center">Backend kennenlernen</td><td><a href=".gitbook/assets/readme_card_backend.png">.gitbook/assets/readme_card_backend.png</a></td><td><a href="benutzer-handbuch/das-backend-entdecken.md">benutzer-handbuch/das-backend-entdecken.md</a></td></tr>
+<tr><td align="center">Plugins entdecken</td><td><a href=".gitbook/assets/readme_card_plugins.png">.gitbook/assets/readme_card_plugins.png</a></td><td><a href="benutzer-handbuch/plugins/README.md">benutzer-handbuch/plugins/README.md</a></td></tr>
+</tbody></table>
 
-![Smartstore 6 Shop-Frontend und Backend Übersicht](.gitbook/assets/Smartstore_Logo_Bildmark_RGB_V2.png)
+## Eigene Inhalte
+
+<table data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-type="content-ref"></th></tr></thead><tbody>
+<tr><td align="center">Content Management</td><td><a href=".gitbook/assets/readme_card_content-management.png">.gitbook/assets/readme_card_content-management.png</a></td><td><a href="handbuch/content-management/README.md">handbuch/content-management/README.md</a></td></tr>
+<tr><td align="center">Design &amp; Themes</td><td><a href=".gitbook/assets/readme_card_themes.png">.gitbook/assets/readme_card_themes.png</a></td><td><a href="benutzer-handbuch/konfiguration/mit-themes-arbeiten.md">benutzer-handbuch/konfiguration/mit-themes-arbeiten.md</a></td></tr>
+<tr><td align="center">Smartstore erweitern</td><td><a href=".gitbook/assets/readme_card_code.png">.gitbook/assets/readme_card_code.png</a></td><td><a href="https://docs.smartstore.com/developer">https://docs.smartstore.com/developer</a></td></tr>
+</tbody></table>
+
+{% hint style="info" icon="message-dots" %}
+Benötigen Sie persönliche Unterstützung? Unter [Support erhalten](loslegen/support-erhalten.md) finden Sie die passenden Anlaufstellen.
+{% endhint %}
