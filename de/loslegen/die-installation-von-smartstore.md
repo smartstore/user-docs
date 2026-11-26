@@ -13,11 +13,3 @@ Prüfen Sie vor der Installation, ob Ihr Hosting-Paket beziehungsweise Server di
 {% hint style="info" %}
 Sie möchten einen bestehenden Shop aktualisieren? Folgen Sie der Anleitung [Update von vorherigen Versionen](update-von-vorherigen-versionen.md).
 {% endhint %}
-
-## Smartstore aus dem Quellcode erstellen
-
-Wer Smartstore aus dem Quellcode erstellt, kann eigene Anpassungen einbauen und die Anwendung passend zur eigenen Serverumgebung bereitstellen.
-
-{% include "../.gitbook/includes/hint_for-developers_section.md" %}
-
-Nachdem Sie den Quellcode vom [Smartstore-Repository auf GitHub](https://github.com/smartstore/Smartstore) heruntergeladen haben, müssen Sie zunächst die Anwendung erstellen und diese dann auf Ihren Server hochladen. Weitere Informationen finden Sie unter [How to build Smartstore](https://docs.smartstore.com/developer/readme/deployment-and-build) in unserer Entwickler-Dokumentation.

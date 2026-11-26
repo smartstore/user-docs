@@ -13,11 +13,3 @@ Before installing, check whether your hosting plan or server meets the [Smartsto
 {% hint style="info" %}
 Want to update an existing store? Follow the [Updating from previous versions](updating-from-previous-versions.md) guide.
 {% endhint %}
-
-## Building Smartstore from source code
-
-Building Smartstore from source code lets you add your own customizations and deploy the application for your server environment.
-
-{% include "../../.gitbook/includes/hint_for-developers_section.md" %}
-
-After downloading the source code from the [Smartstore repository on GitHub](https://github.com/smartstore/Smartstore), build the application before uploading it to your server. For more information, see [How to build Smartstore](https://docs.smartstore.com/developer/readme/deployment-and-build) in our developer documentation.
