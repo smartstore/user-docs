@@ -1,58 +1,76 @@
 # FAQ
 
-Mit dem Plugin **FAQ** zeigen Sie häufig gestellte Fragen auf Produktdetailseiten oder in einer Story im **Page Builder**. Fragen und Antworten pflegen Sie zentral. Änderungen an einer Frage gelten überall, wo sie verwendet wird.
+Mit dem Plugin **FAQ** zeigen Sie häufig gestellte Fragen und Antworten auf Produktdetailseiten oder auf Seiten, die Sie mit dem **Page Builder** gestaltet haben. Fragen und Antworten pflegen Sie zentral. Wenn Sie eine Antwort ändern, wird sie überall aktualisiert, wo diese Frage verwendet wird.
 
-![FAQ-Tab auf der Produktdetailseite mit aufgeklappter Antwort](../../.gitbook/assets/module_faq_frontend_product.png)
+Allgemeine Fragen, etwa zur Auswahl von Golfausrüstung, können Sie einer Warengruppe zuordnen. Deren Produkte können diese Fragen übernehmen. Auch Fragen aus übergeordneten Warengruppen lassen sich übernehmen. Für ein bestimmtes Modell können Sie zusätzlich eigene Fragen am Produkt hinterlegen.
+
+![FAQ-Tab auf der Produktdetailseite der Tour Distance Golfbälle mit aufgeklappter Antwort.](../../.gitbook/assets/module_faq_frontend_product_overview.png)
 
 ## Fragen anlegen
 
-Öffnen Sie **CMS > FAQ**. Sie können die FAQ-Verwaltung auch über **Plugins > Plugins verwalten** öffnen. Das lizenzpflichtige Plugin **FAQ** muss installiert und freigeschaltet sein. Eine Anleitung finden Sie unter [Plugins installieren](plugins-installieren.md).
+Damit Sie Fragen anlegen können, benötigen Sie eine Lizenz für das Plugin **FAQ**. [Installieren](plugins-installieren.md) Sie das Plugin und schalten Sie es frei. Öffnen Sie anschließend **CMS > FAQ**. Alternativ erreichen Sie dieselbe Seite über **Plugins > Plugins verwalten** in der Konfiguration des FAQ-Plugins.
 
-1. Öffnen Sie **Kategorien** und klicken Sie auf **Neu**. Legen Sie eine **FAQ-Kategorie** an, etwa „Produktanfragen“. Schalten Sie **Ist aktiv** ein und speichern Sie.
-2. Wechseln Sie zu **Faqs** und klicken Sie auf **Neu…**. Wählen Sie im Feld **Kategorie** die FAQ-Kategorie aus. Geben Sie **Frage** und **Antwort** ein, schalten Sie **Ist aktiv** ein und speichern Sie.
+Legen Sie zuerst eine **FAQ-Kategorie** an. In einer FAQ-Kategorie wie „Golfbälle“ sammeln Sie Fragen zu einem Thema. Unter **Katalog > Warengruppen** organisieren Sie Ihre Produkte. Dort legen Sie fest, welche Fragen die Produkte einer Warengruppe übernehmen können.
 
-FAQ-Kategorien gruppieren Fragen nach Themen. Warengruppen gehören zum Produktkatalog und können FAQs an Produkte und untergeordnete Warengruppen weitergeben.
+1. Wechseln Sie unter **CMS > FAQ** zum Tab **Kategorien** und klicken Sie auf **Neu**. Geben Sie der FAQ-Kategorie einen Namen, schalten Sie **Ist aktiv** ein und klicken Sie auf **Speichern**.
 
-Über die **Anzeigereihenfolge** legen Sie fest, in welcher Reihenfolge die FAQ-Kategorien und die Fragen innerhalb einer Kategorie im Shop erscheinen. Kleinere Werte stehen zuerst. Namen, Fragen und Antworten können Sie für die eingerichteten [Shopsprachen](../allgemeine-konzepte/mit-mehreren-sprachen-arbeiten.md) pflegen.
+   ![FAQ-Kategorien in der zentralen FAQ-Verwaltung](../../.gitbook/assets/module_faq_categories.png)
 
-## FAQs auf einer Produktdetailseite anzeigen
+2. Wechseln Sie zum Tab **Faqs** und klicken Sie auf **Neu…**. Wählen Sie im Feld **Kategorie** die angelegte FAQ-Kategorie aus, geben Sie **Frage** und **Antwort** ein und schalten Sie **Ist aktiv** ein. Speichern Sie die Frage.
 
-Öffnen Sie unter **Katalog > Produkte** das gewünschte [Produkt](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md) und wechseln Sie zum Tab **Faq**.
+Über die **Anzeigereihenfolge** legen Sie fest, in welcher Reihenfolge die FAQ-Kategorien und die Fragen innerhalb einer Kategorie im Shop erscheinen. Kleinere Zahlen stehen zuerst. Namen, Fragen und Antworten können Sie auch in [mehreren Sprachen](../allgemeine-konzepte/mit-mehreren-sprachen-arbeiten.md) pflegen.
 
-![FAQ-Einstellungen und zugeordnete Fragen im Produkt-Editor](../../.gitbook/assets/module_faq_product_tab_faq.png)
+## Anzeige
 
-- **FAQs auf der Produktseite anzeigen** schaltet den FAQ-Tab auf der Produktdetailseite ein, sobald mindestens eine anzeigbare Frage vorhanden ist.
-- **Zusätzlich FAQs aus Warengruppen übernehmen** ergänzt die direkt zugeordneten Fragen um FAQs aus den Warengruppen des Produkts. Gehört ein Produkt zu mehreren Warengruppen, erscheint jede Frage höchstens einmal.
+### Für Produkte
 
-Speichern Sie das Produkt, um Änderungen an den Schaltern zu übernehmen. Über **Vorschau** prüfen Sie, welche Fragen im Shop erscheinen.
+Öffnen Sie unter **Katalog > Produkte** das gewünschte [Produkt](../../verwalten/katalog/produkte-verwalten/produkte-erstellen-und-bearbeiten.md) und wechseln Sie zum Tab **Faq**. Dort können Sie [Fragen direkt zuordnen](#bearbeiten) und festlegen, ob das Produkt zusätzlich Fragen aus seinen Warengruppen übernimmt.
 
-## FAQs einer Warengruppe zuordnen
+![FAQ-Einstellungen und direkt zugeordnete Fragen im Produkt-Editor](../../.gitbook/assets/module_faq_product_tab_faq.png)
 
-Öffnen Sie unter **Katalog > Warengruppen** die gewünschte [Warengruppe](../../verwalten/katalog/warengruppen-organisieren.md) und wechseln Sie zum Tab **Faq**. Die Liste zeigt die Fragen, die dieser Warengruppe direkt zugeordnet sind.
+- Schalten Sie **FAQs auf der Produktseite anzeigen** ein. Der Tab erscheint im Shop, sobald für das Produkt mindestens eine aktive Frage aus einer aktiven FAQ-Kategorie verfügbar ist.
+- Schalten Sie **Zusätzlich FAQs aus Warengruppen übernehmen** ein, wenn auch Fragen aus den Warengruppen des Produkts erscheinen sollen. Ist dieselbe Frage mehrmals zugeordnet, wird sie nur einmal angezeigt.
 
-**FAQs übergeordneter Warengruppen übernehmen** ergänzt diese Fragen um FAQs aus höheren Ebenen. Beispiel: In **Uhren > Automatikuhren > Chronographen** kann **Chronographen** Fragen aus beiden übergeordneten Warengruppen übernehmen. Ist der Schalter bei **Automatikuhren** ausgeschaltet, werden über diesen Pfad nur noch deren eigene Fragen weitergegeben. Bei einer Warengruppe ohne übergeordnete Warengruppe erscheint der Schalter nicht. Speichern Sie die Warengruppe, um die Änderung zu übernehmen.
+Klicken Sie auf **Speichern**, damit die Schalter für die Produktdetailseite gelten. Öffnen Sie dann **Vorschau**. Dort können Sie im Tab **Faq** eine Frage anklicken, um die Antwort einzublenden.
 
-### Fragen zuordnen oder entfernen
+![FAQ-Tab auf der Produktdetailseite mit aufgeklappter Antwort](../../.gitbook/assets/module_faq_frontend_product.png)
 
-Diese Schritte gelten im FAQ-Tab eines Produkts und einer Warengruppe:
+### Für Warengruppen
 
-1. Klicken Sie auf **Vorhandene FAQs zuordnen…**. Über den Trichter können Sie die Liste nach **Frage** und **Kategorie** filtern.
-2. Markieren Sie die gewünschten Fragen und bestätigen Sie mit **Vorhandene FAQs zuordnen**.
+Fragen, die Sie einer Warengruppe zuordnen, erscheinen auf den Produktdetailseiten der zugehörigen Produkte, sofern diese Fragen aus Warengruppen übernehmen. Auf der Warengruppenseite im Shop wird kein FAQ-Bereich eingeblendet.
 
-Mit **Neu…** legen Sie eine Frage an und ordnen sie beim Speichern direkt zu. Zum Entfernen wählen Sie im Zeilenmenü **Zuordnung entfernen** oder markieren mehrere Fragen und klicken auf **Ausgewählte Zuordnungen entfernen**. Zuordnungen werden sofort gespeichert. Die Frage selbst bleibt beim Entfernen unter **CMS > FAQ** erhalten.
+Öffnen Sie unter **Katalog > Warengruppen** die gewünschte [Warengruppe](../../verwalten/katalog/warengruppen-organisieren.md) und wechseln Sie zum Tab **Faq**. Die Liste zeigt die Fragen, die Sie dieser Warengruppe direkt zugeordnet haben.
 
-## FAQs im Page Builder anzeigen
+Mit **FAQs übergeordneter Warengruppen übernehmen** ergänzen Sie diese Fragen um Fragen aus den darüberliegenden Warengruppen. Der Schalter erscheint nur, wenn die Warengruppe eine übergeordnete Warengruppe hat. Klicken Sie nach einer Änderung auf **Speichern**.
+
+**Beispiel:** Die Warengruppe „Golfbälle“ liegt unter „Golf & Sport“. Wenn „Golfbälle“ Fragen aus der übergeordneten Warengruppe übernimmt, können die Tour Distance Golfbälle auch Fragen aus „Golf & Sport“ anzeigen. Schalten Sie die Übernahme bei der Warengruppe „Golfbälle“ aus, entfallen die Fragen aus „Golf & Sport“. Fragen, die Sie der Warengruppe „Golfbälle“ direkt zugeordnet haben, können die Produkte weiterhin übernehmen.
+
+## Bearbeiten
+
+Im Tab **Faq** eines Produkts oder einer Warengruppe können Sie Fragen anlegen, zuordnen und Zuordnungen entfernen. Diese Änderungen werden sofort gespeichert. Geerbte Fragen sehen Sie in der Produktvorschau. In der Zuordnungsliste stehen nur die direkt zugeordneten Fragen.
+
+- **Neue Frage anlegen:** Klicken Sie auf **Neu…**, füllen Sie das Formular aus und speichern Sie. Die Frage erscheint in der zentralen FAQ-Verwaltung und ist dem Produkt oder der Warengruppe direkt zugeordnet.
+- **Vorhandene Fragen zuordnen:** Klicken Sie auf **Vorhandene FAQs zuordnen…**. Über den Trichter können Sie nach **Frage** und **Kategorie** filtern. Setzen Sie ein Häkchen bei den gewünschten Fragen und klicken Sie auf **Vorhandene FAQs zuordnen**.
+- **Zuordnungen entfernen:** Öffnen Sie bei einer Frage das Menü mit den drei Punkten und wählen Sie **Zuordnung entfernen**. Für mehrere Fragen setzen Sie die Häkchen und klicken auf **Ausgewählte Zuordnungen entfernen**. Die Fragen bleiben unter **CMS > FAQ** erhalten.
+
+## Page-Builder-Einbindung
+
+Mit dem FAQ-Block können Sie häufig gestellte Fragen auch auf einer Serviceseite zeigen. Dazu fügen Sie den Block in eine **Story** ein. Eine Story ist ein Inhalt, den Sie im Page Builder gestalten und im Shop anzeigen. Der Block verwendet Fragen aus der zentralen FAQ-Verwaltung. Die Fragen müssen keinem Produkt zugeordnet sein.
 
 1. Öffnen Sie unter **CMS > Page Builder** eine Story und fügen Sie den [Block **FAQ**](pagebuilder/blocks.md) ein.
-2. Wählen Sie unter **Kategorie** eine FAQ-Kategorie oder **Alle**. Legen Sie bei Bedarf eine eigene **Überschrift** fest. Mit **Kategorienamen ausblenden** blenden Sie die Namen der FAQ-Kategorien aus. Die eigene Überschrift bleibt sichtbar.
+2. Wählen Sie im Feld **Kategorie** ein Thema oder **Alle**. Im Feld **Überschrift** können Sie einen eigenen Titel eingeben. Mit **Kategorienamen ausblenden** blenden Sie die Namen der FAQ-Kategorien aus. Ihr eigener Titel bleibt sichtbar.
 3. Speichern Sie die Story und prüfen Sie den Block in der Vorschau. Damit er im Shop erscheint, [platzieren und veröffentlichen Sie die Story](pagebuilder.md#story-im-shop-platzieren).
 
 ![Einstellungen des FAQ-Blocks im Page Builder](../../.gitbook/assets/module_faq_pagebuilder_block.png)
 
-Unter **CMS > FAQ > Einstellungen** können Sie mit **Seiten-Navigation darstellen** eine seitliche Navigation zu den FAQ-Kategorien einblenden. Diese Einstellung gilt für die allgemeine FAQ-Ansicht, etwa im Page Builder. Sie lässt sich [pro Shop festlegen](../konfiguration/einstellungen/den-einstellungsbereich-festlegen.md).
+![FAQ-Block auf einer Shopseite mit aufgeklappter Antwort](../../.gitbook/assets/module_faq_pagebuilder_frontend.png)
+
+Unter **CMS > FAQ > Einstellungen** können Sie mit **Seiten-Navigation darstellen** im FAQ-Bereich eine seitliche Navigation zu den FAQ-Kategorien einblenden. Für den FAQ-Tab am Produkt gilt diese Einstellung nicht. Sie lässt sich [pro Shop festlegen](../konfiguration/einstellungen/den-einstellungsbereich-festlegen.md).
 
 ## Wenn eine FAQ am Produkt fehlt
 
-Prüfen Sie, ob **FAQs auf der Produktseite anzeigen** eingeschaltet und das Produkt gespeichert ist. Die Frage und ihre FAQ-Kategorie müssen aktiv sein. Bei übernommenen Fragen muss auch die beitragende Warengruppe für den Besucher im jeweiligen Shop sichtbar sein. Geerbte Fragen sehen Sie in der Produktvorschau. Die Zuordnungsliste im Admin zeigt nur die direkt zugeordneten Fragen.
+- Ist **FAQs auf der Produktseite anzeigen** eingeschaltet und das Produkt gespeichert?
+- Sind die Frage und ihre FAQ-Kategorie aktiv?
+- Soll die Frage aus einer Warengruppe kommen? Prüfen Sie, ob am Produkt **Zusätzlich FAQs aus Warengruppen übernehmen** eingeschaltet ist. Die Warengruppe, aus der die Frage kommt, muss für den Besucher im Shop sichtbar sein. Wenn die Frage einer übergeordneten Warengruppe zugeordnet ist, prüfen Sie auch die Übernahme in den Warengruppen darunter.
 
 {% include "../../.gitbook/includes/consultation_request_plugin.md" %}
