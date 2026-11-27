@@ -39,7 +39,7 @@ After you have set up your specification attributes, you're ready to assign them
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Attribute**            | Choose the specification attribute you wish to assign to the product, e.g. _Printer Technology._                                    |
 | **Attribute option**     | Choose one of the options you have specified for the current attribute, e.g. _Inkjet._                                              |
-| **Allow filtering**      | Check this box if you want to allow filtering by this product attribute (only takes effect with an active _filter sidebar widget_). |
+| **Allow filtering**      | Allows filtering by this specification attribute with MegaSearch Plus. See [Filter Sidebar](../../discover/common-concepts/filter-sidebar.md). |
 | **Show on product page** | Check this box to display the product attribute in the public product detail page.                                                  |
 | **Display order**        | Display order of the specification attribute. 1 represents the top of the list.                                                     |
 

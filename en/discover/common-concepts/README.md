@@ -45,5 +45,9 @@ This section brings together features and workflows used in several areas of **S
 {% content-ref url="the-data-grid.md" %}
 [the-data-grid.md](the-data-grid.md)
 {% endcontent-ref %}
+
+{% content-ref url="filter-sidebar.md" %}
+[filter-sidebar.md](filter-sidebar.md)
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

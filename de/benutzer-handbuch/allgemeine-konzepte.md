@@ -45,5 +45,9 @@ Dieser Abschnitt bündelt Funktionen und Arbeitsweisen, die in mehreren Bereiche
 {% content-ref url="allgemeine-konzepte/tabellenansichten.md" %}
 [tabellenansichten.md](allgemeine-konzepte/tabellenansichten.md)
 {% endcontent-ref %}
+
+{% content-ref url="allgemeine-konzepte/filter-seitenleiste.md" %}
+[filter-seitenleiste.md](allgemeine-konzepte/filter-seitenleiste.md)
+{% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}

@@ -1,6 +1,6 @@
 # Hersteller verwalten
 
-Hersteller lassen sich Produkten zuordnen und auf der Produktdetailseite anzeigen. Jeder Hersteller erhält außerdem eine eigene Seite mit Beschreibung und zugeordneten Produkten. Eine nach Reihenfolge sortierte Auswahl wichtiger Hersteller kann auf der Startseite erscheinen. Kunden können den Katalog zudem nach Herstellern filtern; weitere Informationen dazu finden Sie unter [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md).
+Hersteller lassen sich Produkten zuordnen und auf der Produktdetailseite anzeigen. Jeder Hersteller erhält außerdem eine eigene Seite mit Beschreibung und zugeordneten Produkten. Eine nach Reihenfolge sortierte Auswahl wichtiger Hersteller kann auf der Startseite erscheinen. Kunden können den Katalog zudem nach Herstellern filtern; weitere Informationen dazu finden Sie unter [Filter-Seitenleiste](../../benutzer-handbuch/allgemeine-konzepte/filter-seitenleiste.md).
 
 Öffnen Sie **Admin > Katalog > Hersteller**, um Hersteller anzulegen oder zu bearbeiten. Über **Bearbeiten** gelangen Sie zur jeweiligen Detailansicht.
 

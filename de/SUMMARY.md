@@ -35,6 +35,7 @@
   * [Vorschau für Designs & Shops](benutzer-handbuch/allgemeine-konzepte/vorschau-fur-designs-shops.md)
   * [Als PDF herunterladen](benutzer-handbuch/allgemeine-konzepte/als-pdf-herunterladen.md)
   * [Tabellenansichten](benutzer-handbuch/allgemeine-konzepte/tabellenansichten.md)
+  * [Filter-Seitenleiste](benutzer-handbuch/allgemeine-konzepte/filter-seitenleiste.md)
   * [Widget-Zonen](benutzer-handbuch/allgemeine-konzepte/widget-zonen.md)
 
 ## Verwalten
@@ -55,7 +56,6 @@
     * [Mit digitalen Produkten umgehen (ESD)](verwalten/katalog/produkte-verwalten/mit-digitalen-produkten-umgehen-esd.md)
     * [Produkte importieren & exportieren](verwalten/katalog/produkte-verwalten/produkte-importieren-exportieren.md)
     * [Produkt-Feeds exportieren](verwalten/katalog/produkte-verwalten/produkt-feeds-exportieren.md)
-    * [Mit dem Filter Sidebar Widget arbeiten](verwalten/katalog/produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md)
     * [Preisregeln verstehen](verwalten/katalog/produkte-verwalten/preisregeln-verstehen.md)
   * [Produkt Rezensionen verwalten](verwalten/katalog/produkt-rezensionen-verwalten.md)
   * [Hersteller verwalten](verwalten/katalog/hersteller-verwalten.md)

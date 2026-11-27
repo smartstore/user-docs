@@ -4,7 +4,7 @@ Spezifikationsattribute bilden standardisierte Produkteigenschaften ab. Sie erle
 
 * Für die Anzeige freigegebene Spezifikationsattribute werden auf der Produktdetailseite in Form eines **Datenblatts** dargestellt, das die Eigenschaften Ihres Produkts im Detail anzeigt.
 * Wenn Käufer in Ihrem Shop **Produkte vergleichen**, führt die Vergleichstabelle die dort verfügbaren Spezifikationsattribute der ausgewählten Produkte zusammen. Auch ein Merkmal, das nur einem der Produkte zugeordnet ist, kann als eigene Zeile erscheinen.
-* Mit dem kostenpflichtigen Enterprise-Plugin MegaSearch Plus können Spezifikationsattribute als Suchfilter im **Filter Sidebar Widget** angeboten werden. Welche Filter erscheinen, hängt von den Filtereinstellungen und den passenden Produkten ab. Weitere Informationen finden Sie unter [Mit dem Filter Sidebar Widget arbeiten](produkte-verwalten/mit-dem-filter-sidebar-widget-arbeiten.md).
+* Mit dem kostenpflichtigen Enterprise-Plugin MegaSearch Plus können Spezifikationsattribute als Suchfilter in der **Filter-Seitenleiste** angeboten werden. Welche Filter erscheinen, hängt von den Filtereinstellungen und den passenden Produkten ab. Weitere Informationen finden Sie unter [Filter-Seitenleiste](../../benutzer-handbuch/allgemeine-konzepte/filter-seitenleiste.md).
 
 ## Anwendungsszenario
 

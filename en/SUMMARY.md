@@ -35,6 +35,7 @@
   * [Previewing Themes & Stores](discover/common-concepts/previewing-themes-stores.md)
   * [Downloading as PDF](discover/common-concepts/downloading-as-pdf.md)
   * [The Data Grid](discover/common-concepts/the-data-grid.md)
+  * [Filter Sidebar](discover/common-concepts/filter-sidebar.md)
   * [Widget Zones](discover/common-concepts/widget-zones.md)
 
 ## Manage
@@ -51,7 +52,6 @@
     * [Handling Digital Products (ESD)](manage/catalog/managing-products/handling-digital-products-esd.md)
     * [Importing & Exporting Products](manage/catalog/managing-products/importing-exporting-products.md)
     * [Exporting Product Feeds](manage/catalog/managing-products/exporting-product-feeds.md)
-    * [Working with the filter sidebar widget](manage/catalog/managing-products/working-with-the-filter-sidebar-widget.md)
     * [Creating and Editing Products](manage/catalog/managing-products/creating-and-editing-products.md)
     * [Understanding Pricing Rules](manage/catalog/managing-products/understanding-pricing-rules.md)
   * [Managing Product Reviews](manage/catalog/managing-product-reviews.md)
